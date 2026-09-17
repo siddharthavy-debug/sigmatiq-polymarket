@@ -1,0 +1,10 @@
+{
+  "mode": "paper",
+  "paused": false,
+  "allocation": 305,
+  "total_balance": 1000,
+  "trade_size": 5,
+  "max_market_days": 7,
+  "max_buy_price": 0.9,
+  "top_n_traders": 20
+}
