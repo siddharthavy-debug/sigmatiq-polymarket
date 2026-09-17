@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 201.2059283092516,
+  "cash": 196.2059283092516,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -108,8 +108,8 @@
       "market": "UFC 331: Arman Tsarukyan vs. Mauricio Ruffy (Lightweight, Main Card)",
       "slug": "ufc-arm-mau4-2026-09-19",
       "outcome": "Arman Tsarukyan",
-      "shares": 13.698629923062494,
-      "cost": 10.0,
+      "shares": 20.547944788890987,
+      "cost": 15.0,
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-17T05:27:27.950386+00:00"
@@ -1768,15 +1768,21 @@
     "0x67278ccdfab464194c03904461cf77a95c74583a226f630a1c9a0a19113564a5",
     "0xf0c6d77842884bf22dd8c16367dbfe926e94c29f49fa17c703c91933cb0c73d7",
     "0x381b2d8c2e8557bfb3ac8aa687e1693a3bd0d25a57218076cf90e0e026e50525",
-    "0x93acc72d7e70490be83faebaf88d163b30e244bc3b7ba245e278ad6f38e93a53"
+    "0x93acc72d7e70490be83faebaf88d163b30e244bc3b7ba245e278ad6f38e93a53",
+    "0x806e93a485705cf541c7ef57b3ddd51e781ab4c38a17465bf61f54a0fa801073",
+    "0x089172abebabbe35ad21f5fc75ffd9d0370c7b7197d50a40f9e44fdef6a1d8a5",
+    "0xd584ac90166675c01a680b5e33045ff8dce848322080329557fcea56d5f453ae",
+    "0x59495d036c595d663edb01f4ccc3910ea8f646fcc13cc610fa56ac710d604ea0",
+    "0x990378cf0cba48a4b1492ef1b895fdf6b5a467c72ab985e27ccda33c7c846549",
+    "0xcf766663b93a868aeda40c096daf419fca821b39040d511f5c41eb385c4254b7"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T06:09:33.510910+00:00",
+  "last_run": "2026-09-17T06:14:58.282563+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 32,
+  "trades_executed": 33,
   "wins": 3,
   "losses": 1,
-  "skipped": 891,
+  "skipped": 896,
   "failed": 0,
   "initialised": true,
   "paused": false
