@@ -55375,5 +55375,41 @@
       "result": "LOST"
     },
     "timestamp": "2026-09-17T22:50:18.244851+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 10.08,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:54:14.942209+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Las Vegas Aces vs. Seattle Storm AND Los Angeles Sparks vs. Dallas Wings AND Connecticut Sun vs. Atlanta Dream",
+    "outcome": "",
+    "their_usd": 658.736482,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:54:54.127052+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 2.1,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:55:32.707619+00:00"
   }
 ]
