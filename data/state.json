@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 121.20592830925159,
+  "cash": 116.20592830925159,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -203,6 +203,16 @@
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-17T08:22:42.895286+00:00"
+    },
+    "35946349809644018221594766900800697897892667107929166603091569173318790894279": {
+      "market": "Lions vs. Bills",
+      "slug": "nfl-det-buf-2026-09-18",
+      "outcome": "Lions",
+      "shares": 15.625,
+      "cost": 5.0,
+      "trader": "CoffeeDespiser",
+      "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+      "opened": "2026-09-17T08:37:35.369382+00:00"
     }
   },
   "seen_trades": [
@@ -1954,15 +1964,19 @@
     "0x3bd6f15004ce519f35aa0eb13ca7ada5603012b25bb57d25e6d1759df7e3b4c9",
     "0x8d1607920296df5a4d58779f6affca51e70f4ea303ba7640cc4bbe3eda575657",
     "0x18039456e88c2124bf311543a8566963303a61d5e709f8b35d50ccaccab40bf3",
-    "0xd6b6c494079e08a5bccd83ff86ddac90569e28c22add2e0bb5ea64483968793c"
+    "0xd6b6c494079e08a5bccd83ff86ddac90569e28c22add2e0bb5ea64483968793c",
+    "0x4f87174cc548fe425836bd773de168dd5335263334f9abcf2c9aa494f62c3bda",
+    "0x3c7d05a3aa94ffe3dd24095fcaca0e1bd59ac22180e9263f7f258eaa6c68dbfb",
+    "0x46e3c211593152f2fcf24347fdcc5861f1fc4d79d167c8898fb25bfff537b1ad",
+    "0xce177756e5db2bce897535d4b95a6ebfd97f9f4c87c78bec95e7bd7f00250efc"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T08:32:01.680997+00:00",
+  "last_run": "2026-09-17T08:37:36.280861+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 48,
+  "trades_executed": 49,
   "wins": 3,
   "losses": 1,
-  "skipped": 981,
+  "skipped": 984,
   "failed": 0,
   "initialised": true,
   "paused": false

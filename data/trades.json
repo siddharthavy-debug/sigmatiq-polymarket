@@ -11858,5 +11858,57 @@
     "their_usd": 76.912,
     "detail": "already hold this market",
     "timestamp": "2026-09-17T08:31:22.867976+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 9.2,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:32:37.938964+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "outcome": "Yes",
+    "their_usd": 9.0,
+    "detail": "settles in 105d, too far out",
+    "timestamp": "2026-09-17T08:33:14.239010+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 2.155186,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:34:29.088607+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Lions vs. Bills",
+    "outcome": "Lions",
+    "their_usd": 3200.0,
+    "detail": {
+      "shares": 15.625,
+      "price": 0.32,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:37:35.372199+00:00"
   }
 ]

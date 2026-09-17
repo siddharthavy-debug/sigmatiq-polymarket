@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T08:32:01.685404+00:00",
+  "updated": "2026-09-17T08:37:36.285035+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
@@ -109,7 +109,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 53,
+      "skipped": 54,
       "failed": 0,
       "benched": false
     },
@@ -165,7 +165,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 51,
+      "skipped": 53,
       "failed": 0,
       "benched": false
     },
@@ -200,7 +200,7 @@
     {
       "trader": "CoffeeDespiser",
       "wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
-      "copied": 3,
+      "copied": 4,
       "closed": 0,
       "wins": 0,
       "losses": 0,
@@ -283,5 +283,5 @@
     }
   ],
   "benched_wallets": [],
-  "total_logged": 970
+  "total_logged": 974
 }
