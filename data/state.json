@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 54.67500101064465,
+  "cash": 60.236798763453635,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -173,16 +173,6 @@
       "trader": "SharkbetX-com",
       "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
       "opened": "2026-09-17T16:13:29.967008+00:00"
-    },
-    "68155594926993002971794565071431726319173389818386859538812234587360708933602": {
-      "market": "Los Angeles Dodgers vs. Cincinnati Reds",
-      "slug": "mlb-lad-cin-2026-09-17",
-      "outcome": "Los Angeles Dodgers",
-      "shares": 5.617977528089887,
-      "cost": 5.0,
-      "trader": "0F62",
-      "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
-      "opened": "2026-09-17T17:36:38.892790+00:00"
     },
     "36262239341268421560199715764185392608421889806571824207802377493253598768900": {
       "market": "Counter-Strike: FURIA vs MIBR - Map 2 Winner",
@@ -4963,15 +4953,29 @@
     "0xa62feca1ae4c8581de0037e2cde0b8cf6f11927349bb8eb2dd6e89444c73eec9",
     "0xebb23fe790859fc8c71893d7b4ae34c4cf913fd5cb5ce1b0d5fc916e270ab77d",
     "0x4cc69ad4a17fbf0f106f8a02d90474b204c25f809d574d41aa32e3767c8fc30a",
-    "0x83da043112b9ccef038f544b389d99c698ba5073485c10c590893d0a2e25e094"
+    "0x83da043112b9ccef038f544b389d99c698ba5073485c10c590893d0a2e25e094",
+    "0xa6a98f192c395a3d0e8c0d88f3cac06e81942c35d4f1e7c8a1241f83b39d78dc",
+    "0x0ece764cba1260e9796e325d21a1e5c1df5e001bc0db1afc84c781281d8664f7",
+    "0x0ea4305273e57d00af7ff7df8df180ae8bd3e5f3cd6e15531a8ea56332cf0153",
+    "0x3ed4cabe0fe635099eae46e3000fbec1f38887298fef88ad82888555dc7e7fee",
+    "0x1fa67d47d2db2590a664c7f89e9cdde26f62076e3b823dc4cba4a5b0309f5425",
+    "0xfa500acfa453f0ed208112518445e856b4a9fb165388fe40555d4fc76bee0212",
+    "0xb6deb8c992b681b61d9cb7316e96022e7f72a368f582038201d6e4e88ffc3598",
+    "0xf837f32eb1a0469c01afb27068a6ecade115743319f0ed4a16bc4ed3932ffc68",
+    "0x47d11c4db752434f7194a3c584b724b96015ff2acb2e2779dee220f3d4de0beb",
+    "0x7afb4803f0159270311eb9e4d1f0fab9306da7cd42b946533b54eb08600d14a6",
+    "0xf151a48e79b3785e598e9ff608faceeeb75be0aed4eb0f013eca83d7c04f76b4",
+    "0xacd9b6efa7bdf82aeae1562cbc53c95a904aba28cc81522094ed185a2056949c",
+    "0xff28e198ca8f88099829a7aa1e54e7c2dd564f7427388a42bb36c6ffb1ce2da1",
+    "0x45ab6f8bcde83a8b595540a3a64b5513bae9cba8a75c13d6a835aa4f606062a4"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T18:44:51.797640+00:00",
-  "realized_pnl": -30.324998989355347,
-  "trades_executed": 112,
-  "wins": 18,
+  "last_run": "2026-09-17T18:50:14.230696+00:00",
+  "realized_pnl": -29.763201236546358,
+  "trades_executed": 113,
+  "wins": 19,
   "losses": 16,
-  "skipped": 3886,
+  "skipped": 3899,
   "failed": 0,
   "initialised": true,
   "paused": false
