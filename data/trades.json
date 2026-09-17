@@ -57714,5 +57714,183 @@
     "their_usd": 244.92,
     "detail": "we don't hold this",
     "timestamp": "2026-09-17T23:49:56.646851+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Lions vs. Bills: O/U 56.5",
+    "outcome": "Over",
+    "their_usd": 14.6256,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-17T23:50:34.139586+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Detroit Tigers vs. Chicago White Sox: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 26.845715,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T23:50:37.551655+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 1427.57888,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T23:51:15.874458+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Detroit Tigers vs. Chicago White Sox",
+    "outcome": "Chicago White Sox",
+    "their_usd": 141.38793,
+    "detail": {
+      "shares": 7.8309,
+      "price": 0.6809478673,
+      "proceeds": 5.33,
+      "pnl": 0.33,
+      "fraction": 1.0
+    },
+    "timestamp": "2026-09-17T23:51:16.760896+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Detroit Tigers vs. Chicago White Sox",
+    "outcome": "Detroit Tigers",
+    "their_usd": 473.1584,
+    "detail": {
+      "shares": 15.625,
+      "price": 0.32,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T23:51:16.794428+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: Detroit Tigers (-1.5)",
+    "outcome": "Detroit Tigers",
+    "their_usd": 218.295,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T23:51:16.903173+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Las Vegas Aces vs. Seattle Storm AND Los Angeles Sparks vs. Dallas Wings AND Will CR Flamengo win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 200.991229,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T23:51:55.266508+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Lions vs. Bills: O/U 56.5",
+    "outcome": "Over",
+    "their_usd": 12.8524,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-17T23:52:31.854421+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Lions vs. Bills: O/U 56.5",
+    "outcome": "Over",
+    "their_usd": 3.542,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-17T23:52:31.886849+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Counter-Strike: NRG vs Aurora Gaming (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "NRG",
+    "their_usd": 6.7405,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T23:53:51.902882+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox",
+    "outcome": "Detroit Tigers",
+    "their_usd": 1.5525,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T23:54:31.157221+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+    "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Kansas City Royals",
+    "their_usd": 15.11684,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T23:55:08.484199+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+    "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Kansas City Royals",
+    "their_usd": 4221.07239,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T23:55:08.519773+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+    "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Kansas City Royals",
+    "their_usd": 1303.18404,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T23:55:08.588449+00:00"
   }
 ]
