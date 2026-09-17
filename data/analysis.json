@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T06:58:12.993122+00:00",
+  "updated": "2026-09-17T07:03:40.689146+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
@@ -256,14 +256,14 @@
     {
       "trader": "brendoncarson",
       "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
-      "copied": 4,
+      "copied": 5,
       "closed": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 0,
+      "skipped": 1,
       "failed": 0,
       "benched": false
     },
@@ -277,11 +277,11 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 89,
+      "skipped": 92,
       "failed": 0,
       "benched": false
     }
   ],
   "benched_wallets": [],
-  "total_logged": 905
+  "total_logged": 910
 }

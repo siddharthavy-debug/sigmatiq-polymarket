@@ -11034,5 +11034,69 @@
     "their_usd": 365.301638,
     "detail": "price 0.962 above 0.9 (no upside)",
     "timestamp": "2026-09-17T06:57:35.998527+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Barcelona win on 2026-09-19? AND Will Manchester City FC win on 2026-09-20? AND Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 1313.121034,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:58:49.328293+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Los Angeles Dodgers vs. Cincinnati Reds: O/U 10.5",
+    "outcome": "Under",
+    "their_usd": 11.10128,
+    "detail": {
+      "shares": 9.0909,
+      "price": 0.55,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T06:59:25.722647+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Los Angeles Dodgers vs. Cincinnati Reds: O/U 11.5",
+    "outcome": "Under",
+    "their_usd": 48.76578,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:59:25.732731+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will KKS Lech Pozna\u0144 win on 2026-09-17? AND Will NEC win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 1238.564162,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T07:00:02.063691+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Real Betis Balompi\u00e9 win on 2026-09-17? AND Will DPR Korea win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 79.185406,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T07:00:38.570419+00:00"
   }
 ]

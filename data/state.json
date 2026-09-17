@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 176.2059283092516,
+  "cash": 171.2059283092516,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -153,6 +153,16 @@
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-17T06:55:48.070495+00:00"
+    },
+    "40561959724147577319504735339206050881032125360411046778538886445752953758496": {
+      "market": "Los Angeles Dodgers vs. Cincinnati Reds: O/U 10.5",
+      "slug": "mlb-lad-cin-2026-09-17-total-10pt5",
+      "outcome": "Under",
+      "shares": 9.09090909090909,
+      "cost": 5.0,
+      "trader": "brendoncarson",
+      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "opened": "2026-09-17T06:59:25.719808+00:00"
     }
   },
   "seen_trades": [
@@ -1834,15 +1844,20 @@
     "0x6a7c15423b9996986fa16bff110fda78b0b7c2624913f6add29152b21757660d",
     "0xa691728b324603f56e5deba9c95bacf521d8e28f86bc81b02470e71368085226",
     "0x4efef5b47e9347a9bec3de9458cf75272006d519a0788928cf8dcbe1f2f664f7",
-    "0x02e6b3e2d04fcce63385251ce61afe23411f317017e4895160c4b2422c26bb55"
+    "0x02e6b3e2d04fcce63385251ce61afe23411f317017e4895160c4b2422c26bb55",
+    "0x86ed97c86e77e88ed8826d55d341fbaef6f6ab0ee6f6426ac5ebf4b96e550264",
+    "0x4faf8688066fda380c0b915639e32311b406fc900f5c356c7402d71397b45613",
+    "0x71f5d62bf3d4c1053d4b2f208b88e36566246a234217503f8ac02314d02b4bcd",
+    "0x561a9b4f196ecb920c68ad2ecbed2d2f7f9742dd4a6fccea4fa86bf0be15b6e3",
+    "0x441ac13e26fbf40301ab425ef6986fbd2162fa1b298f1bdb223bf58e5be52652"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T06:58:12.988723+00:00",
+  "last_run": "2026-09-17T07:03:40.685094+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 37,
+  "trades_executed": 38,
   "wins": 3,
   "losses": 1,
-  "skipped": 922,
+  "skipped": 926,
   "failed": 0,
   "initialised": true,
   "paused": false
