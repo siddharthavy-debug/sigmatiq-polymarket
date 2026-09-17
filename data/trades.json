@@ -55411,5 +55411,193 @@
     "their_usd": 2.1,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T22:55:32.707619+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Spread: Bills (-2.5)",
+    "outcome": "Lions",
+    "their_usd": 10.57,
+    "detail": "settles in 1.3h, too soon",
+    "timestamp": "2026-09-17T22:58:07.459342+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Spread: Bills (-2.5)",
+    "outcome": "Lions",
+    "their_usd": 10.57,
+    "detail": "settles in 1.3h, too soon",
+    "timestamp": "2026-09-17T22:58:07.494774+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Team WE",
+    "their_usd": 144.6822,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:58:09.346077+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox AND Minnesota Twins vs. Los Angeles Angels AND Philadelphia Phillies vs. New York Mets AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 57.10458,
+    "detail": "price 0.931 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T22:58:09.831788+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Spread: Bills (-2.5)",
+    "outcome": "Lions",
+    "their_usd": 52.8605,
+    "detail": "settles in 1.3h, too soon",
+    "timestamp": "2026-09-17T22:58:45.998113+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.448276,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:59:26.981073+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Spread: Bills (-2.5)",
+    "outcome": "Lions",
+    "their_usd": 5.285,
+    "detail": "settles in 1.2h, too soon",
+    "timestamp": "2026-09-17T23:00:03.513251+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 14.1,
+    "detail": {
+      "shares": 10.6383,
+      "price": 0.47,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T23:00:05.160801+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.36,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T23:00:05.763102+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 2.35,
+    "detail": {
+      "shares": 6.1915,
+      "price": 0.47,
+      "size": 2.91
+    },
+    "timestamp": "2026-09-17T23:00:44.200014+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Spread: Bills (-2.5)",
+    "outcome": "Lions",
+    "their_usd": 31.3635,
+    "detail": "settles in 1.2h, too soon",
+    "timestamp": "2026-09-17T23:02:00.067669+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 46.06,
+    "detail": "market already at $15.25 of $15.25 cap",
+    "timestamp": "2026-09-17T23:02:01.832435+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Team WE",
+    "their_usd": 40.1895,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T23:02:02.175944+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 10.862069,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T23:02:02.409355+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Spread: Bills (-2.5)",
+    "outcome": "Lions",
+    "their_usd": 5.285,
+    "detail": "settles in 1.2h, too soon",
+    "timestamp": "2026-09-17T23:02:39.335091+00:00"
   }
 ]
