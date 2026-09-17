@@ -11198,5 +11198,41 @@
     "their_usd": 22.4,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T07:18:21.740143+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Bills (-5.5) AND Milwaukee Brewers vs. Pittsburgh Pirates",
+    "outcome": "",
+    "their_usd": 42.380222,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T07:22:01.250658+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 86.24,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T07:22:01.448492+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 13.44,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T07:22:01.458565+00:00"
   }
 ]
