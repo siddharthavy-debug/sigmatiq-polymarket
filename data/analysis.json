@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T16:29:41.869076+00:00",
+  "updated": "2026-09-17T16:35:04.274252+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
@@ -19,12 +19,12 @@
       "trader": "us391",
       "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "copied": 8,
-      "closed": 2,
-      "wins": 1,
+      "closed": 3,
+      "wins": 2,
       "losses": 1,
-      "win_rate": 50.0,
-      "pnl": 10.02,
-      "pnl_per_closed": 5.01,
+      "win_rate": 66.7,
+      "pnl": 10.15,
+      "pnl_per_closed": 3.38,
       "skipped": 190,
       "failed": 0,
       "benched": false
@@ -165,7 +165,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 193,
+      "skipped": 205,
       "failed": 0,
       "benched": false
     },
@@ -179,21 +179,21 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 326,
+      "skipped": 328,
       "failed": 0,
       "benched": false
     },
     {
       "trader": "CoffeeDespiser",
       "wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
-      "copied": 5,
+      "copied": 7,
       "closed": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 208,
+      "skipped": 237,
       "failed": 0,
       "benched": false
     },
@@ -235,7 +235,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 35,
+      "skipped": 37,
       "failed": 0,
       "benched": false
     },
@@ -263,7 +263,7 @@
       "win_rate": 66.7,
       "pnl": -1.74,
       "pnl_per_closed": -0.29,
-      "skipped": 164,
+      "skipped": 165,
       "failed": 0,
       "benched": false
     },
@@ -277,7 +277,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 205,
+      "skipped": 206,
       "failed": 0,
       "benched": false
     },
@@ -305,11 +305,11 @@
       "win_rate": 0.0,
       "pnl": -50.0,
       "pnl_per_closed": -10.0,
-      "skipped": 459,
+      "skipped": 471,
       "failed": 0,
       "benched": false
     }
   ],
   "benched_wallets": [],
-  "total_logged": 2444
+  "total_logged": 2506
 }
