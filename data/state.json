@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 14.651117047859316,
+  "cash": 15.52068226525062,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -53,16 +53,6 @@
       "trader": "curie",
       "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
       "opened": "2026-09-17T04:40:24.508771+00:00"
-    },
-    "98793546221764883642725640605485759360156831222118568800600994947616299237964": {
-      "market": "Spread: Crystal Palace FC (-1.5)",
-      "slug": "uel-cry-lep-2026-09-17-spread-home-1pt5",
-      "outcome": "Crystal Palace FC",
-      "shares": 10.869565217391305,
-      "cost": 5.0,
-      "trader": "purplegatto",
-      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
-      "opened": "2026-09-17T04:56:23.313651+00:00"
     },
     "1715304005001243507654454980986866650839097400636768228132562091999510921217": {
       "market": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card) AND UFC 331: Gable Steveson vs. Sean Sharaf (Heavyweight, Prelims) AND UFC 331: Arman Tsarukyan vs. Mauricio Ruffy (Lightweight, Main Card)",
@@ -198,8 +188,8 @@
       "market": "CR Flamengo vs. Independiente del Valle: O/U 2.5",
       "slug": "lib-fla-ind1-2026-09-17-total-2pt5",
       "outcome": "Under",
-      "shares": 11.904761856575963,
-      "cost": 5.0,
+      "shares": 23.809523761337868,
+      "cost": 10.0,
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-17T19:45:42.742900+00:00"
@@ -223,6 +213,16 @@
       "trader": "0x8efa1ea8ee",
       "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
       "opened": "2026-09-17T20:18:08.759967+00:00"
+    },
+    "30265008566677103447594244437431176682759292419557762410238534191465311825895": {
+      "market": "Lions vs. Bills: O/U 54.5",
+      "slug": "nfl-det-buf-2026-09-18-total-54pt5",
+      "outcome": "Under",
+      "shares": 10.204081632653061,
+      "cost": 5.0,
+      "trader": "purplegatto",
+      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "opened": "2026-09-17T20:34:02.217897+00:00"
     }
   },
   "seen_trades": [
@@ -5391,15 +5391,25 @@
     "0x33965c7f6b1fc0024583f97bd22663ccf425d875570ad71aa8cd85d1f29ec12d",
     "0x5e2409696b16e678b23a62db4d5f4468f2dc906e1ec70f6214d0e5fc6d0a04f0",
     "0x31993ed25b43451de3d499aaca1d5cebaa4bae8ef3c27f34910ba76dd75540e2",
-    "0x9e1af165b93b540cfb69dd3e59af709d09e89f5c62d2ef25f9c2651a242ef987"
+    "0x9e1af165b93b540cfb69dd3e59af709d09e89f5c62d2ef25f9c2651a242ef987",
+    "0x47a39f17f48a3a84f2fd1e89faf0c256d7d0b8e7fef315717b6b63281a620066",
+    "0xa61bfffea038eecac84776e53585ce55f8a981254d9949aaddca4c0594df41c3",
+    "0xdd7c2c42addb894284057bd7f91e9677490126809137cd2e77a28b08c8ecc0d4",
+    "0x4ceb70cf723211e354cf0283f0eefa5a6f13df53befc6e0136d2331e11e1fdc9",
+    "0xb8f00469f9d1e07f195872a87a92018fa0ac9ae64c14559ae8987863f77c864a",
+    "0x133bde3bd9e04649cf950377c603972eee8794c629d3332361ad7d6198226812",
+    "0x731f305ac002675ee1ea15af0d6744e550f69a97598da9b3d4e04d765c8c3126",
+    "0x7a10cd18fa61e730f0cfdff267224e7e26698e40416736f70ee7e76007725365",
+    "0xabab64808aa00fb793bf9e7b4a421604c51dd56b08bbe33a869c7b1610a2858b",
+    "0xc103112ee63ba45e28bb25c537ce1d26af330c06d1a7a02d2fe0bc67f981d8b1"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T20:31:24.558991+00:00",
-  "realized_pnl": -69.06888295214067,
-  "trades_executed": 140,
-  "wins": 23,
+  "last_run": "2026-09-17T20:36:40.719733+00:00",
+  "realized_pnl": -63.199317734749364,
+  "trades_executed": 142,
+  "wins": 24,
   "losses": 23,
-  "skipped": 4306,
+  "skipped": 4314,
   "failed": 0,
   "initialised": true,
   "paused": false

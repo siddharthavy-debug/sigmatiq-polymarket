@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-17T20:31:24.570853+00:00",
+  "updated": "2026-09-17T20:36:40.733109+00:00",
   "by_trader": [
     {
       "trader": "us391",
       "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "copied": 9,
+      "copied": 10,
       "closed": 4,
       "wins": 3,
       "losses": 1,
@@ -81,7 +81,7 @@
       "win_rate": 75.0,
       "pnl": 5.79,
       "pnl_per_closed": 1.45,
-      "skipped": 663,
+      "skipped": 664,
       "failed": 0,
       "benched": false
     },
@@ -109,7 +109,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 97,
+      "skipped": 104,
       "failed": 0,
       "benched": false
     },
@@ -284,13 +284,13 @@
     {
       "trader": "purplegatto",
       "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
-      "copied": 12,
-      "closed": 3,
-      "wins": 0,
+      "copied": 13,
+      "closed": 4,
+      "wins": 1,
       "losses": 3,
-      "win_rate": 0.0,
-      "pnl": -35.0,
-      "pnl_per_closed": -11.67,
+      "win_rate": 25.0,
+      "pnl": -29.13,
+      "pnl_per_closed": -7.28,
       "skipped": 474,
       "failed": 0,
       "benched": false
@@ -313,5 +313,5 @@
   "benched_wallets": [
     "0x1610db79f753a80207e1d66716be9e91e627ae49"
   ],
-  "total_logged": 4210
+  "total_logged": 4221
 }
