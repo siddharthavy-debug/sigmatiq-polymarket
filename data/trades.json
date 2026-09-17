@@ -53594,5 +53594,93 @@
     "their_usd": 46.5804,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T21:39:06.805665+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Rennes: Borna Gojo vs Matteo Martineau",
+    "outcome": "Matteo Martineau",
+    "their_usd": 27.52459,
+    "detail": {
+      "shares": 6.05,
+      "price": 0.3024792449,
+      "size": 1.83
+    },
+    "timestamp": "2026-09-17T21:41:04.889554+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-6.5)",
+    "outcome": "San Diego Padres",
+    "their_usd": 13.0,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T21:41:07.091763+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 217.24138,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T21:41:45.116451+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Valorant: Team Liquid vs Paper Rex (BO3) - VCT Champions Group C AND Valorant: TYLOO vs G2 Esports (BO3) - VCT Champions Group C",
+    "outcome": "",
+    "their_usd": 34.717204,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:41:45.354301+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 398.58,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T21:42:24.817153+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 11.5",
+    "outcome": "Over",
+    "their_usd": 1.631579,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T21:42:25.958261+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Philadelphia Phillies vs. New York Mets: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 117.857143,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-17T21:43:04.308996+00:00"
   }
 ]

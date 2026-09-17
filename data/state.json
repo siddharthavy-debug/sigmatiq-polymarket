@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 1.8326548452370872,
+  "cash": 0.0026548452370871445,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -223,6 +223,16 @@
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-17T21:32:36.587700+00:00"
+    },
+    "71409027538951379704284322309288540636840429687528553413189385836236881765509": {
+      "market": "Rennes: Borna Gojo vs Matteo Martineau",
+      "slug": "atp-gojo-martin-2026-09-17",
+      "outcome": "Matteo Martineau",
+      "shares": 6.050001878988425,
+      "cost": 1.83,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-17T21:41:04.879962+00:00"
     }
   },
   "seen_trades": [
@@ -5574,15 +5584,22 @@
     "0x5efc9ae00fddfe6204db279299f0b6d4057a67c9acddd7de50a848dcd8465ddf",
     "0x8d9ed9213bab106e3358e28b6e6ead956386553b20be49a3574f5211728fcf10",
     "0x6d97801e242be2d7440e12645a1348856eb2943882d82a979fcf706a94ebc5e9",
-    "0x89338f8671460134bedbbeb3323eae48ddde6bee56b60ea7876d02d775f48a6d"
+    "0x89338f8671460134bedbbeb3323eae48ddde6bee56b60ea7876d02d775f48a6d",
+    "0x01a17014c6222901c2453eaad1210c6761f49c035705a62ebd6197e5be964594",
+    "0x8f62de556eeadbba607baf29e3e45fe77592ff287f485ffbb31948d177562b9a",
+    "0x989a9c0f556d557ac442f6aa3b4d92fe7a51bdc9f0807bb688ad983805f3b061",
+    "0x53dc9a43a4c0367415ff18ec1885879486043391c5753e7711a469d8d4a1bda5",
+    "0xa559b0f93165f6cdf3ebf614db42f0fae68b9e7d19444a80a9413164ebe7acd2",
+    "0xbe3b8371d83fae68d8bf47e33304517066103aa0ae1766e339920124c5e5cec2",
+    "0x7d6f9f016a7c461a8b176eb6856aec2453896aaca96a6014a9c0c4d9a8616a87"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T21:39:48.021619+00:00",
+  "last_run": "2026-09-17T21:43:04.958771+00:00",
   "realized_pnl": -86.8873451547629,
-  "trades_executed": 152,
+  "trades_executed": 153,
   "wins": 25,
   "losses": 26,
-  "skipped": 4477,
+  "skipped": 4483,
   "failed": 0,
   "initialised": true,
   "paused": false
