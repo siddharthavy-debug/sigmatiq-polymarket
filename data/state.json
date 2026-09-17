@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 40.285002561903475,
+  "cash": 35.285002561903475,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -243,6 +243,16 @@
       "trader": "HMLSF",
       "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
       "opened": "2026-09-17T11:26:00.906734+00:00"
+    },
+    "92615786101085944482260395038685429000373730245184673428769341465630388782859": {
+      "market": "Szczecin: Marco Cecchinato vs Marvin Moeller",
+      "slug": "atp-cecchin-moelle-2026-09-17",
+      "outcome": "Marvin Moeller",
+      "shares": 14.285714285714286,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-17T11:53:47.500285+00:00"
     }
   },
   "seen_trades": [
@@ -2293,15 +2303,21 @@
     "0x55ff23826bb3663250f3bc402ff5489ffaf7e64ebb05cd264c77473cb5f62049",
     "0x584be31113793115f1a4635ae4c5c7bf65a54778520461b079c2a3d18bdb9d84",
     "0x6759027a0d98c49f9f1da7e9e16f1b7bc104beda4cc8f014526cbc27b1dd5c22",
-    "0x0951f4e2638b801de1b22dfac779b973d18780b3202d3b5884596d424fd8c5b1"
+    "0x0951f4e2638b801de1b22dfac779b973d18780b3202d3b5884596d424fd8c5b1",
+    "0x594afaafb8a775679473143494528808826292328aba80cd849c308e778bd0f9",
+    "0x27553cbd714f7b8144f616b45cc4006c753d7dca1a69a4b43b8a5b4dbcebf1b8",
+    "0x41787a4fda0ffbc83ea6504e7b74141b676ca85ec0617340c5bbe0ed90d3f59a",
+    "0x108c5ac1c86d40d70a8998d77929e149761f8fd02894c56968689a74ee353d42",
+    "0xd58f399dc2ed749a88592c6dbba95e28c98d80b3a8d591f06c0a7a693745231a",
+    "0x0250e65b6656974e11e4d8c44983ec3317ca98954b906bb50135ca3dc5ce430f"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T11:51:50.659321+00:00",
+  "last_run": "2026-09-17T11:57:08.710379+00:00",
   "realized_pnl": -34.714997438096525,
-  "trades_executed": 67,
+  "trades_executed": 68,
   "wins": 5,
   "losses": 5,
-  "skipped": 1261,
+  "skipped": 1266,
   "failed": 0,
   "initialised": true,
   "paused": false
