@@ -10267,5 +10267,85 @@
     "their_usd": 893.11472,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T05:24:27.421547+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 821.95,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T05:27:27.187839+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 935.352728,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T05:27:27.196705+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "UFC 331: Arman Tsarukyan vs. Mauricio Ruffy (Lightweight, Main Card)",
+    "outcome": "Arman Tsarukyan",
+    "their_usd": 2.703704,
+    "detail": {
+      "shares": 6.8493,
+      "price": 0.7300000216,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T05:27:27.952748+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 152.02207,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T05:28:03.018386+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs AND Games Total: O/U 3.5",
+    "outcome": "",
+    "their_usd": 252.666218,
+    "detail": {
+      "shares": 5.9495,
+      "price": 0.8404000057,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T05:28:04.041718+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will Andrew Scott win Best Actor at the 99th Academy Awards?",
+    "outcome": "Yes",
+    "their_usd": 203.7345,
+    "detail": "settles in 179d, too far out",
+    "timestamp": "2026-09-17T05:28:38.140975+00:00"
   }
 ]

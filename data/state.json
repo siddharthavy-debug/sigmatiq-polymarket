@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 206.97515907848236,
+  "cash": 196.97515907848236,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -113,6 +113,26 @@
       "trader": "curie",
       "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
       "opened": "2026-09-17T05:19:35.994147+00:00"
+    },
+    "73872199112533091855980739750600587532293108809103155514384115451066732652018": {
+      "market": "UFC 331: Arman Tsarukyan vs. Mauricio Ruffy (Lightweight, Main Card)",
+      "slug": "ufc-arm-mau4-2026-09-19",
+      "outcome": "Arman Tsarukyan",
+      "shares": 6.849314865828492,
+      "cost": 5.0,
+      "trader": "CoffeeDespiser",
+      "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+      "opened": "2026-09-17T05:27:27.950386+00:00"
+    },
+    "1762797539120557660912156801601418724688448138624321249562860401873932779521": {
+      "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs AND Games Total: O/U 3.5",
+      "slug": "",
+      "outcome": "",
+      "shares": 5.949547794011873,
+      "cost": 5.0,
+      "trader": "curie",
+      "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "opened": "2026-09-17T05:28:04.039364+00:00"
     }
   },
   "seen_trades": [
@@ -1734,15 +1754,21 @@
     "0x1e148c34e741542a3fe6aaae8237fb65fa2ec0f73043d3229acc604b6628f27c",
     "0x379ba2f3f201f90420e9b28893f7ae87952e5bc4fc75eb749c28737e59bb9bf4",
     "0x7521160a3dc34f95382e8002445ebe4b555baca7e9a01d083ef997211ed82f01",
-    "0xc69a16cc01572f5eed79143e7e785c8ddd40ef9162ed1388c52fd8ac5305056f"
+    "0xc69a16cc01572f5eed79143e7e785c8ddd40ef9162ed1388c52fd8ac5305056f",
+    "0x7f550722da44517034b5de7d7f480ab70f686aef7e5bb46eb98944315bb5b819",
+    "0xabaa871de3e65e162833575d713d7ccf396cb3239ebbf79b2faf0a241555f793",
+    "0xebc84b0aef24c3cc82a95d18d840ddb15381e256a7bfb5ac61cc786e403a4fa8",
+    "0xfde18cda583ca2c755568c18606a70e9e3124135b6abb93b2ddb034103d62f79",
+    "0xf2a88d3c916f827a35c47624778176de61858fb57d41a3791715c5611c316d64",
+    "0xd8aef552696831e2706dfa68bab4626f099726fabecc32874dad9232124fdbff"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T05:26:16.025732+00:00",
+  "last_run": "2026-09-17T05:31:40.562963+00:00",
   "realized_pnl": 6.975159078482367,
-  "trades_executed": 27,
+  "trades_executed": 29,
   "wins": 2,
   "losses": 1,
-  "skipped": 872,
+  "skipped": 876,
   "failed": 0,
   "initialised": true,
   "paused": false
