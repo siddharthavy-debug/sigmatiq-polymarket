@@ -14534,5 +14534,57 @@
     "their_usd": 851.851852,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T10:53:40.599770+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 68.0568,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T10:54:22.714927+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw?",
+    "outcome": "No",
+    "their_usd": 9204.54384,
+    "detail": {
+      "shares": 6.6667,
+      "price": 0.75,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T10:56:19.622714+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw?",
+    "outcome": "No",
+    "their_usd": 5982.95615,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T10:57:38.010362+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw?",
+    "outcome": "No",
+    "their_usd": 2209.09021,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T10:58:19.363548+00:00"
   }
 ]

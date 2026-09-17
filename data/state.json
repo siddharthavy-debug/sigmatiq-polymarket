@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 59.402649620727004,
+  "cash": 54.402649620727004,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -243,6 +243,16 @@
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-17T10:47:07.982391+00:00"
+    },
+    "29669794375873490311863777537021241061268153209779470023980904989800386620858": {
+      "market": "Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw?",
+      "slug": "lal-bet-get-2026-09-17-draw",
+      "outcome": "No",
+      "shares": 6.666666666666667,
+      "cost": 5.0,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-17T10:56:19.620309+00:00"
     }
   },
   "seen_trades": [
@@ -2219,15 +2229,19 @@
     "0xdfa57fbafd85cbaa76db22a2ab40cd559a78dcd41acd89d0d0eb28090793611d",
     "0x224d69d8d6c540fcad314bde8d3f5c82492560bf0ef8749e38fba4fcdc413b84",
     "0xc4407f0a1b5345e10fae8df9aecac11deaa66736867a8a89e3a24a4d212c9c40",
-    "0x97dd09f1883bb4c88577a78ba287e53684c90b9081ea33e400b3d4e94ec14010"
+    "0x97dd09f1883bb4c88577a78ba287e53684c90b9081ea33e400b3d4e94ec14010",
+    "0x7d495a04caad7bdccdcb886393461377ae0a78da837e410aed2537deec29d8ae",
+    "0xfcf4f77d4141831479f341cbb8ae6005a2a7776f60fa7ea7339c695f06985406",
+    "0xa4deca56cd88984b848c5bd70c65d89a0fd0b9ddd2715d2a2d7417710873e583",
+    "0x3370281c57c5ee85b2341b00aa115d1d92fd6a7bdf74556eb85f2b45c8608ff3"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T10:53:43.061812+00:00",
+  "last_run": "2026-09-17T10:59:00.311792+00:00",
   "realized_pnl": -20.597350379272996,
-  "trades_executed": 62,
+  "trades_executed": 63,
   "wins": 4,
   "losses": 4,
-  "skipped": 1192,
+  "skipped": 1195,
   "failed": 0,
   "initialised": true,
   "paused": false
