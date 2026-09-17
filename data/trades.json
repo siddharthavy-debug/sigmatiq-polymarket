@@ -50044,5 +50044,203 @@
     "their_usd": 4.5225,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-17T19:49:04.063910+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "San Diego Padres vs. Colorado Rockies",
+    "outcome": "San Diego Padres",
+    "their_usd": 15.06982,
+    "detail": "price 0.939 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T19:49:44.437073+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: San Diego Padres (-1.5)",
+    "outcome": "Colorado Rockies",
+    "their_usd": 1.7878,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T19:51:04.519660+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Athletics vs. Tampa Bay Rays: O/U 11.5",
+    "outcome": "Under",
+    "their_usd": 135.592,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T19:51:05.647780+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Timo Legout vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 243.19596,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T19:52:22.730316+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Saints vs. Ravens AND Packers vs. Jets AND Eagles vs. Titans AND Bengals vs. Texans",
+    "outcome": "",
+    "their_usd": 8.536886,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T19:52:24.307333+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-2.5)",
+    "outcome": "San Diego Padres",
+    "their_usd": 54.047273,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T19:52:25.290392+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-2.5)",
+    "outcome": "San Diego Padres",
+    "their_usd": 8.09091,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T19:52:25.334515+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Timo Legout vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 68.69667,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T19:53:02.677906+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-2.5)",
+    "outcome": "San Diego Padres",
+    "their_usd": 199.926364,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T19:53:04.930014+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-1.5)",
+    "outcome": "Colorado Rockies",
+    "their_usd": 3.4748,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T19:53:04.973245+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-1.5)",
+    "outcome": "San Diego Padres",
+    "their_usd": 9.4024,
+    "detail": "price 0.920 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T19:53:05.015946+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Jazmin Ortenzi vs Paula Badosa",
+    "outcome": "Jazmin Ortenzi",
+    "their_usd": 0,
+    "detail": {
+      "shares": 42.7022,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -15.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T19:53:39.036882+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies",
+    "outcome": "San Diego Padres",
+    "their_usd": 42.96614,
+    "detail": "price 0.952 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T19:53:44.871130+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MIBR",
+    "their_usd": 0,
+    "detail": {
+      "shares": 13.8889,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -5.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T19:54:19.616474+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Rennes: Daniel Rincon vs Titouan Droguet",
+    "outcome": "Daniel Rincon",
+    "their_usd": 1998.82461,
+    "detail": {
+      "shares": 10.2041,
+      "price": 0.49,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T19:54:24.271145+00:00"
   }
 ]

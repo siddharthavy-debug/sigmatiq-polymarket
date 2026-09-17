@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 14.953460256087737,
+  "cash": 9.953460256087737,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -154,22 +154,12 @@
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T18:19:12.505996+00:00"
     },
-    "42675699305784636116229788718528608861195898092405529233794737945521627180499": {
-      "market": "Sao Paulo Open: Jazmin Ortenzi vs Paula Badosa",
-      "slug": "wta-ortenzi-badosa-2026-09-17",
-      "outcome": "Jazmin Ortenzi",
-      "shares": 42.70224179850953,
-      "cost": 15.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T18:30:01.164502+00:00"
-    },
     "8444445455334928978150422894023547180352573905876272154619101821410757563208": {
       "market": "Rennes: Daniel Rincon vs Titouan Droguet",
       "slug": "atp-rincon-droguet-2026-09-17",
       "outcome": "Daniel Rincon",
-      "shares": 27.106227106227106,
-      "cost": 10.0,
+      "shares": 37.31030873888017,
+      "cost": 15.0,
       "trader": "TRCM",
       "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
       "opened": "2026-09-17T18:35:26.701939+00:00"
@@ -203,16 +193,6 @@
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-17T19:08:56.299885+00:00"
-    },
-    "115455864931889323716424117247335212786520115947122750950758907813294876435833": {
-      "market": "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
-      "slug": "cs2-furia-mibr-2026-09-17",
-      "outcome": "MIBR",
-      "shares": 13.88888888888889,
-      "cost": 5.0,
-      "trader": "HMLSF",
-      "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-      "opened": "2026-09-17T19:14:13.664637+00:00"
     },
     "79345677184983065748892271250923546982092859176512636943998352142521380169451": {
       "market": "San Diego Padres vs. Colorado Rockies",
@@ -5313,15 +5293,28 @@
     "0xe01f5b48117851424cff4bb889e1b4f2dbbe4ab6123f0670412da32636809ca0",
     "0x69c6ef4bad506d7d1597feee271121fa2dd09198dd6acf7b0aa30edb73261769",
     "0x4dc7b6c18b5365502bed8ec2fec7e84c3f057124274a0659ff3adfaee43650b2",
-    "0x32052be6fe0c961290210a104941b40cfa073e554402f7fe6b8806357f0ec1bb"
+    "0x32052be6fe0c961290210a104941b40cfa073e554402f7fe6b8806357f0ec1bb",
+    "0xa3d1fcacd661fbea476ec15f8586cf8f8d3e96e4a2321acc0208d67906e524a7",
+    "0x804403199d1eade68df90c18697e59f194f6ffa38ed5e45597ee6c376e1b4e63",
+    "0x0d4c437d1e44468d4944f82eaffea5831d503f00dbf489eacad734d649a040f3",
+    "0xab8a384186f15f6d160574daeb1ffcd4840c88e9fa46112e0f0b89415a40ad0b",
+    "0xfe7667b9f0d405095de9eb6b9679875b7c71ed86f307fad1ef9cd5f531a5eb54",
+    "0x037b82c66f3429895af0edb3cb8cde13f6adaaa6b905ea16c70c61cfc7115b6a",
+    "0xfdba331596bf804ec4cfd1ce343be81559ad309fd5ec74a33b1d009219cd6f01",
+    "0xd650085cd909c7b96371357cced426365e449e33313fb953e539105e1097ac1f",
+    "0xfcd8a414fc75ff2ae96107710fe9bce2a614a924141e52ae8716e8be863d1f9b",
+    "0x394cc0057e1f301907d29756eef915c3f39fbe6a4abf2ed0d5769789f1cc2c37",
+    "0xf804b11675601c75b29b87ddff38a2267c1dd8030f30dc191570c601943e6910",
+    "0x17f3261c0ca177a482a9c8e178ea0f9e5eefaf07aaccb4cf3c239337db5bd85c",
+    "0x930324891d0cf214662a57787a888488ecc49e68a224dccf30d1f90cbd67a8e8"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T19:49:04.101505+00:00",
-  "realized_pnl": -55.04653974391225,
-  "trades_executed": 131,
+  "last_run": "2026-09-17T19:54:24.553276+00:00",
+  "realized_pnl": -75.04653974391225,
+  "trades_executed": 132,
   "wins": 21,
-  "losses": 20,
-  "skipped": 4207,
+  "losses": 22,
+  "skipped": 4219,
   "failed": 0,
   "initialised": true,
   "paused": false

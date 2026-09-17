@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-17T19:49:04.115078+00:00",
+  "updated": "2026-09-17T19:54:24.566464+00:00",
   "by_trader": [
-    {
-      "trader": "tradecraft",
-      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 30,
-      "closed": 14,
-      "wins": 10,
-      "losses": 4,
-      "win_rate": 71.4,
-      "pnl": 33.1,
-      "pnl_per_closed": 2.36,
-      "skipped": 262,
-      "failed": 0,
-      "benched": false
-    },
     {
       "trader": "us391",
       "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
@@ -26,6 +12,20 @@
       "pnl": 22.93,
       "pnl_per_closed": 5.73,
       "skipped": 193,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "tradecraft",
+      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "copied": 30,
+      "closed": 15,
+      "wins": 10,
+      "losses": 5,
+      "win_rate": 66.7,
+      "pnl": 18.1,
+      "pnl_per_closed": 1.21,
+      "skipped": 264,
       "failed": 0,
       "benched": false
     },
@@ -81,7 +81,7 @@
       "win_rate": 75.0,
       "pnl": 5.79,
       "pnl_per_closed": 1.45,
-      "skipped": 616,
+      "skipped": 623,
       "failed": 0,
       "benched": false
     },
@@ -249,7 +249,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 347,
+      "skipped": 350,
       "failed": 0,
       "benched": false
     },
@@ -270,7 +270,7 @@
     {
       "trader": "Justluck9",
       "wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
-      "copied": 3,
+      "copied": 4,
       "closed": 1,
       "wins": 0,
       "losses": 1,
@@ -299,12 +299,12 @@
       "trader": "HMLSF",
       "wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
       "copied": 26,
-      "closed": 8,
+      "closed": 9,
       "wins": 1,
-      "losses": 7,
-      "win_rate": 12.5,
-      "pnl": -68.85,
-      "pnl_per_closed": -8.61,
+      "losses": 8,
+      "win_rate": 11.1,
+      "pnl": -73.85,
+      "pnl_per_closed": -8.21,
       "skipped": 527,
       "failed": 0,
       "benched": true
@@ -313,5 +313,5 @@
   "benched_wallets": [
     "0x1610db79f753a80207e1d66716be9e91e627ae49"
   ],
-  "total_logged": 4105
+  "total_logged": 4120
 }
