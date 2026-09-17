@@ -10347,5 +10347,21 @@
     "their_usd": 203.7345,
     "detail": "settles in 179d, too far out",
     "timestamp": "2026-09-17T05:28:38.140975+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Dota 2: Nemiga Gaming vs Team Lynx (BO3) - European Pro League Group A",
+    "outcome": "Nemiga Gaming",
+    "their_usd": 48.35616,
+    "detail": {
+      "shares": 11.6279,
+      "price": 0.43,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T05:38:53.351508+00:00"
   }
 ]
