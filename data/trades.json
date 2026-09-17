@@ -50956,5 +50956,77 @@
     "their_usd": 503.275,
     "detail": "settles in 41d, too far out",
     "timestamp": "2026-09-17T20:14:51.845090+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers AND Philadelphia Phillies vs. New York Mets",
+    "outcome": "",
+    "their_usd": 1437.308381,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T20:16:12.180094+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Timo Legout vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 85.18936,
+    "detail": {
+      "shares": 14.9732,
+      "price": 0.3339288752,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T20:17:29.063147+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Lions vs. Bills",
+    "outcome": "Lions",
+    "their_usd": 6249.9999,
+    "detail": {
+      "shares": 16.129,
+      "price": 0.31,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T20:17:31.104895+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 1809.0,
+    "detail": {
+      "shares": 11.1111,
+      "price": 0.45,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T20:18:08.769073+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-2.5)",
+    "outcome": "San Diego Padres",
+    "their_usd": 199.997778,
+    "detail": "price 0.910 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T20:20:08.749851+00:00"
   }
 ]
