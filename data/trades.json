@@ -14826,5 +14826,48 @@
     "their_usd": 1533.321905,
     "detail": "price 0.997 above 0.9 (no upside)",
     "timestamp": "2026-09-17T11:20:07.025994+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Jeline Vandromme vs Elena Malygina",
+    "outcome": "Elena Malygina",
+    "their_usd": 1.50305,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:20:46.561329+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will Texas Rangers win the 2026 American League Championship Series?",
+    "outcome": "Yes",
+    "their_usd": 2.77987,
+    "detail": "price 0.042 below 0.05 (longshot)",
+    "timestamp": "2026-09-17T11:20:47.513200+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Rennes: Anton Matusevich vs Tristan Schoolkate",
+    "outcome": "Anton Matusevich",
+    "their_usd": 0,
+    "detail": {
+      "shares": 30.8333,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -15.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T11:24:00.951505+00:00"
   }
 ]
