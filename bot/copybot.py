@@ -232,6 +232,17 @@ def run():
     s = state.load_state()
     s["paused"] = False
     s["mode"] = config.MODE
+
+    # Changing the allocation has to move real cash, not just the number we
+    # measure against. Raise it from 100 to 305 and the bot should have $205
+    # more to spend; without this it would keep trading on the old cash and
+    # report itself down 70% against a target it was never given.
+    previous = s.get("allocation", config.TRADING_ALLOCATION)
+    if abs(previous - config.TRADING_ALLOCATION) > 1e-9:
+        delta = config.TRADING_ALLOCATION - previous
+        s["cash"] = max(0.0, s.get("cash", 0.0) + delta)
+        print(f"[allocation] {previous:.2f} -> {config.TRADING_ALLOCATION:.2f} "
+              f"({delta:+.2f} cash)")
     s["allocation"] = config.TRADING_ALLOCATION
     s["total_balance"] = config.TOTAL_BALANCE
 
