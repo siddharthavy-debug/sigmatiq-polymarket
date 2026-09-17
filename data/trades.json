@@ -55224,5 +55224,77 @@
     "their_usd": 1.448276,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T22:39:57.431290+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 69.72,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:43:12.714621+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Game Handicap: JDG (-1.5) vs Team WE (+1.5) AND Game Handicap: SEN (-1.5) vs Shopify Rebellion (+1.5) AND Game Handicap: MKOI (-1.5) vs Natus Vincere (+1.5)",
+    "outcome": "",
+    "their_usd": 684.553097,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:43:51.538320+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will San Diego Padres win the 2026 National League Championship Series?",
+    "outcome": "Yes",
+    "their_usd": 9.51491,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:44:30.119837+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.68,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:45:09.135768+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 34.44,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:45:48.001678+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 23.52,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:47:05.687828+00:00"
   }
 ]
