@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-17T03:17:37.304653+00:00",
+  "updated": "2026-09-17T03:22:59.366087+00:00",
   "by_trader": [
-    {
-      "trader": "UpTheBlues",
-      "wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
-      "copied": 14,
-      "closed": 2,
-      "wins": 2,
-      "losses": 0,
-      "win_rate": 100.0,
-      "pnl": 8.27,
-      "pnl_per_closed": 4.13,
-      "skipped": 176,
-      "failed": 0,
-      "benched": false
-    },
     {
       "trader": "torta.tech",
       "wallet": "0x161a7f666ca49d592848cf415b42f49a84714103",
@@ -26,6 +12,20 @@
       "pnl": 5.82,
       "pnl_per_closed": 5.82,
       "skipped": 49,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "RN1",
+      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "copied": 3,
+      "closed": 1,
+      "wins": 1,
+      "losses": 0,
+      "win_rate": 100.0,
+      "pnl": 0.62,
+      "pnl_per_closed": 0.62,
+      "skipped": 114,
       "failed": 0,
       "benched": false
     },
@@ -156,20 +156,6 @@
       "benched": false
     },
     {
-      "trader": "Sassy-Bucket",
-      "wallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
-      "copied": 1,
-      "closed": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "pnl": 0.0,
-      "pnl_per_closed": null,
-      "skipped": 46,
-      "failed": 0,
-      "benched": false
-    },
-    {
       "trader": "HMLSF",
       "wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
       "copied": 2,
@@ -193,21 +179,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 59,
-      "failed": 0,
-      "benched": false
-    },
-    {
-      "trader": "RN1",
-      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "copied": 2,
-      "closed": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "pnl": 0.0,
-      "pnl_per_closed": null,
-      "skipped": 96,
+      "skipped": 84,
       "failed": 0,
       "benched": false
     },
@@ -235,7 +207,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 50,
+      "skipped": 54,
       "failed": 0,
       "benched": false
     },
@@ -284,14 +256,14 @@
     {
       "trader": "Flaznorp",
       "wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
-      "copied": 0,
+      "copied": 2,
       "closed": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 132,
+      "skipped": 171,
       "failed": 0,
       "benched": false
     },
@@ -305,7 +277,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 41,
+      "skipped": 45,
       "failed": 0,
       "benched": false
     },
@@ -333,7 +305,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 45,
+      "skipped": 46,
       "failed": 0,
       "benched": false
     },
@@ -389,11 +361,39 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 52,
+      "skipped": 55,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "Sassy-Bucket",
+      "wallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+      "copied": 1,
+      "closed": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "pnl": -5.0,
+      "pnl_per_closed": -5.0,
+      "skipped": 46,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "UpTheBlues",
+      "wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+      "copied": 14,
+      "closed": 3,
+      "wins": 2,
+      "losses": 1,
+      "win_rate": 66.7,
+      "pnl": -15.73,
+      "pnl_per_closed": -5.24,
+      "skipped": 189,
       "failed": 0,
       "benched": false
     }
   ],
   "benched_wallets": [],
-  "total_logged": 1437
+  "total_logged": 1550
 }
