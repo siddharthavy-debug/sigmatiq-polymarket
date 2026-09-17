@@ -14,6 +14,7 @@ from . import config, state
 from . import polymarket as pm
 from . import analyzer
 from . import resolution
+from . import settings
 
 
 def _stale(ts, hours):
@@ -204,7 +205,24 @@ def handle_sell(s, t, trader):
 
 
 def run():
+    # Dashboard-editable settings override config for this pass.
+    overrides, paused = settings.apply()
+    if overrides:
+        shown = {k: v for k, v in overrides.items() if k != "mode_downgraded"}
+        if shown:
+            print(f"[settings] {shown}")
+    if overrides.get("mode_downgraded"):
+        print("[settings] live requested but POLY_PRIVATE_KEY is not set "
+              "— staying on paper")
+    if paused:
+        print("[paused] bot is paused from the dashboard; no trading this pass")
+        st = state.load_state()
+        st["paused"] = True
+        state.save_state(st)
+        return
+
     s = state.load_state()
+    s["paused"] = False
     s["mode"] = config.MODE
     s["allocation"] = config.TRADING_ALLOCATION
     s["total_balance"] = config.TOTAL_BALANCE
