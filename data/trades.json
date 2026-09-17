@@ -14670,5 +14670,89 @@
     "their_usd": 2077.51487,
     "detail": "max open positions",
     "timestamp": "2026-09-17T11:08:54.734599+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 10.64575,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T11:10:55.386133+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "NRG",
+    "their_usd": 171.93685,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T11:11:31.843211+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Real Betis Balompi\u00e9 leading at halftime?",
+    "outcome": "Yes",
+    "their_usd": 85.24022,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:11:34.189223+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Biella: Francesco Forti vs Mika Brunold",
+    "outcome": "Francesco Forti",
+    "their_usd": 5.35245,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-17T11:14:10.798952+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Rennes: Anton Matusevich vs Tristan Schoolkate",
+    "outcome": "Anton Matusevich",
+    "their_usd": 1975.91784,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T11:14:48.664570+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 1325.06197,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:14:48.674312+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Biella: Francesco Forti vs Mika Brunold",
+    "outcome": "Francesco Forti",
+    "their_usd": 120.64131,
+    "detail": "price 0.038 below 0.05 (longshot)",
+    "timestamp": "2026-09-17T11:14:50.050049+00:00"
   }
 ]
