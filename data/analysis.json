@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T03:33:37.182572+00:00",
+  "updated": "2026-09-17T03:49:50.281349+00:00",
   "by_trader": [
     {
       "trader": "torta.tech",
@@ -26,20 +26,6 @@
       "pnl": 5.66,
       "pnl_per_closed": 5.66,
       "skipped": 36,
-      "failed": 0,
-      "benched": false
-    },
-    {
-      "trader": "RN1",
-      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "copied": 4,
-      "closed": 1,
-      "wins": 1,
-      "losses": 0,
-      "win_rate": 100.0,
-      "pnl": 0.62,
-      "pnl_per_closed": 0.62,
-      "skipped": 153,
       "failed": 0,
       "benched": false
     },
@@ -366,6 +352,132 @@
       "benched": false
     },
     {
+      "trader": "BrotherObama",
+      "wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 4,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "imjustkenisghey",
+      "wallet": "0xe963d57ab09233f3cb2bf1546660a1b4638e6753",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 50,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "kingflop",
+      "wallet": "0xe954ddb021c19495f1c556f59dadbd1494821ef1",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 41,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "0x443BCCe588E26763987e9Ae44b6b7845F09Fe8bB-1769536380439",
+      "wallet": "0x443bcce588e26763987e9ae44b6b7845f09fe8bb",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 44,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "forecastication4",
+      "wallet": "0x885ffdf360e5b0b6e6acb963fb3f8ba2344c8ed9",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 41,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "0x77fa47189ddBA1eeFa3eA7d92a497e370807a23D-1776838051537",
+      "wallet": "0x77fa47189ddba1eefa3ea7d92a497e370807a23d",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 44,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "brendoncarson",
+      "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 49,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "DCAAA",
+      "wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 50,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "RN1",
+      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "copied": 4,
+      "closed": 2,
+      "wins": 1,
+      "losses": 1,
+      "win_rate": 50.0,
+      "pnl": -4.38,
+      "pnl_per_closed": -2.19,
+      "skipped": 153,
+      "failed": 0,
+      "benched": false
+    },
+    {
       "trader": "Sassy-Bucket",
       "wallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
       "copied": 1,
@@ -395,5 +507,5 @@
     }
   ],
   "benched_wallets": [],
-  "total_logged": 1763
+  "total_logged": 2087
 }
