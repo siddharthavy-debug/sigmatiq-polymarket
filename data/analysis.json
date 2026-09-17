@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T17:45:33.858416+00:00",
+  "updated": "2026-09-17T17:50:54.255202+00:00",
   "by_trader": [
     {
       "trader": "us391",
@@ -12,6 +12,20 @@
       "pnl": 22.93,
       "pnl_per_closed": 5.73,
       "skipped": 191,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "brendoncarson",
+      "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "copied": 7,
+      "closed": 1,
+      "wins": 1,
+      "losses": 0,
+      "win_rate": 100.0,
+      "pnl": 11.79,
+      "pnl_per_closed": 11.79,
+      "skipped": 46,
       "failed": 0,
       "benched": false
     },
@@ -67,7 +81,7 @@
       "win_rate": 50.0,
       "pnl": 1.51,
       "pnl_per_closed": 0.76,
-      "skipped": 266,
+      "skipped": 276,
       "failed": 0,
       "benched": false
     },
@@ -81,7 +95,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 92,
+      "skipped": 97,
       "failed": 0,
       "benched": false
     },
@@ -123,7 +137,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 74,
+      "skipped": 83,
       "failed": 0,
       "benched": false
     },
@@ -193,7 +207,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 345,
+      "skipped": 367,
       "failed": 0,
       "benched": false
     },
@@ -208,20 +222,6 @@
       "pnl": 0.0,
       "pnl_per_closed": null,
       "skipped": 44,
-      "failed": 0,
-      "benched": false
-    },
-    {
-      "trader": "brendoncarson",
-      "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
-      "copied": 7,
-      "closed": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "pnl": 0.0,
-      "pnl_per_closed": null,
-      "skipped": 46,
       "failed": 0,
       "benched": false
     },
@@ -263,7 +263,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 359,
+      "skipped": 363,
       "failed": 0,
       "benched": false
     },
@@ -313,5 +313,5 @@
   "benched_wallets": [
     "0xde9f7f4e77a1595623ceb58e469f776257ccd43c"
   ],
-  "total_logged": 3219
+  "total_logged": 3270
 }
