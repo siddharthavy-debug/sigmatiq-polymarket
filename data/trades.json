@@ -10718,5 +10718,65 @@
     "their_usd": 45.449,
     "detail": "price 0.967 above 0.9 (no upside)",
     "timestamp": "2026-09-17T06:23:57.555655+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Manchester City FC vs. Norwich City FC: 1st Half O/U 1.5",
+    "outcome": "Over",
+    "their_usd": 9.7466,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:26:22.885035+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Real Betis Balompi\u00e9 leading at halftime?",
+    "outcome": "Yes",
+    "their_usd": 25.49862,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:27:34.419322+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "OFI vs. TSG 1899 Hoffenheim: 1st Half O/U 0.5",
+    "outcome": "Over",
+    "their_usd": 50.62557,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:29:21.693639+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "OFI vs. TSG 1899 Hoffenheim: 1st Half O/U 0.5",
+    "outcome": "Over",
+    "their_usd": 60.75069,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:29:21.702924+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Will Crystal Palace FC win on 2026-09-17? AND Will FCI Levadia Tallinn win on 2026-09-17? AND Will TSG 1899 Hoffenheim win on 2026-09-17? AND Will Juventus FC win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17? AND Will AEK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 164.515291,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:29:57.817282+00:00"
   }
 ]
