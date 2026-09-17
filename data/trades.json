@@ -11758,5 +11758,57 @@
     "their_usd": 128.448784,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T08:20:51.377225+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 4.651111,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:21:28.285780+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guangzhou: Petr Bar Biryukov vs Naoya Honda",
+    "outcome": "Naoya Honda",
+    "their_usd": 17.7055,
+    "detail": {
+      "shares": 29.4118,
+      "price": 0.17,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:22:42.898088+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AFC Bournemouth win on 2026-09-17? AND Will RU Saint-Gilloise win on 2026-09-17? AND Will M\u00e1laga CF win on 2026-09-17? AND Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw? AND Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 137.722958,
+    "detail": "price 0.990 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T08:25:48.908002+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 5.196297,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:26:24.692156+00:00"
   }
 ]

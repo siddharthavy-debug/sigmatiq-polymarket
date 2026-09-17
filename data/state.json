@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 126.20592830925159,
+  "cash": 121.20592830925159,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -193,6 +193,16 @@
       "trader": "SharkbetX-com",
       "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
       "opened": "2026-09-17T08:07:53.386991+00:00"
+    },
+    "58453800376078865360558188915734184409714323029815521473852698940606093957834": {
+      "market": "Guangzhou: Petr Bar Biryukov vs Naoya Honda",
+      "slug": "atp-biryuko-honda-2026-09-17",
+      "outcome": "Naoya Honda",
+      "shares": 29.41176470588235,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-17T08:22:42.895286+00:00"
     }
   },
   "seen_trades": [
@@ -1935,15 +1945,19 @@
     "0xbbb44ac49fbc87e96da2cbf586ebb960d4a4aaaae5e2d3c74abb5d2f509a86dc",
     "0xbd70621ddeb47c231728ab3644d730a6c423ad962ff281ac73ca8859b69ca217",
     "0xa71aa6cce7b7d3963492fb014e56493fc172655797728f5ce02c76dcdc684953",
-    "0xfff311799dca63df89f9aac2b09671284fb66ca1a94ee99a635178ec6ef11fad"
+    "0xfff311799dca63df89f9aac2b09671284fb66ca1a94ee99a635178ec6ef11fad",
+    "0x3e5ac6ee72d19c5c0e2a5d5dcd93281be74e43512b4a0880842086e8868eaac8",
+    "0x56b55a85f446f6ec2823cb926a712d00350dc09fdde82a7b87e01915151671dc",
+    "0xd2e4ec5875b2ada9e44722bb467220e3db060e5a3f9cfedb2eee81e4dbf7ff4f",
+    "0xa4e2e024b32e2a24a82b1222166e3b827cf838b9f8f9824a2d1fdab02e083ef7"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T08:20:52.107630+00:00",
+  "last_run": "2026-09-17T08:26:26.750934+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 47,
+  "trades_executed": 48,
   "wins": 3,
   "losses": 1,
-  "skipped": 973,
+  "skipped": 976,
   "failed": 0,
   "initialised": true,
   "paused": false
