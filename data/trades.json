@@ -11686,5 +11686,41 @@
     "their_usd": 1.064815,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T08:09:06.930474+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Top Esports vs Invictus Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Top Esports",
+    "their_usd": 100.41504,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T08:10:59.946152+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Juventus FC (-2.5) AND Spread: TSG 1899 Hoffenheim (-1.5) AND Spread: Crystal Palace FC (-1.5) AND Real Sociedad de F\u00fatbol vs. AFC Bournemouth: O/U 2.5 AND Will Celtic FC win on 2026-09-17? AND Will FC Red Bull Salzburg win on 2026-09-17? AND Will Lillestr\u00f8m SK win on 2026-09-17? AND Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 67.573927,
+    "detail": "price 0.993 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T08:11:37.191995+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Crystal Palace FC win on 2026-09-17? AND Will FK Krasnodar win on 2026-09-17? AND Will Real Betis Balompi\u00e9 win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 6.931842,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T08:12:51.349978+00:00"
   }
 ]
