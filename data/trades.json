@@ -15245,5 +15245,200 @@
     "their_usd": 4.055556,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T11:35:19.216143+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 538.02005,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:36:37.002615+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will DPR Korea win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 203.24762,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:36:39.112702+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 595.48557,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:37:16.630549+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 1983.97846,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:37:16.640802+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 14.55269,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:37:16.650657+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 186.30401,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:37:16.660353+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 703.24956,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:37:16.669922+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 5.24734,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:37:55.968503+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Biella: Carlo Alberto Caniato vs Izan Almazan Valiente",
+    "outcome": "Carlo Alberto Caniato",
+    "their_usd": 0,
+    "detail": {
+      "shares": 5.8824,
+      "price": 1.0,
+      "proceeds": 5.88,
+      "pnl": 0.88,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-17T11:39:14.215547+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 541.21697,
+    "detail": {
+      "shares": 6.582,
+      "price": 0.7596448864,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T11:39:14.845471+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 3.4008,
+    "detail": {
+      "shares": 6.4103,
+      "price": 0.78,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T11:39:14.855588+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 5525.51234,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T11:39:14.865310+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 124.8,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T11:39:14.875063+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will DPR Korea win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 5.69384,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:39:56.459419+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will KKS Lech Pozna\u0144 win on 2026-09-17? AND Will Juventus FC win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 2.471491,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:40:36.039365+00:00"
   }
 ]

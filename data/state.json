@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 49.402649620727004,
+  "cash": 45.285002561903475,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -224,16 +224,6 @@
       "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
       "opened": "2026-09-17T10:43:08.639331+00:00"
     },
-    "67328098238678685137893843416989242939067748350811404497219608050434707621783": {
-      "market": "Biella: Carlo Alberto Caniato vs Izan Almazan Valiente",
-      "slug": "atp-caniato-valient-2026-09-17",
-      "outcome": "Carlo Alberto Caniato",
-      "shares": 5.882352941176471,
-      "cost": 5.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T10:47:07.982391+00:00"
-    },
     "29669794375873490311863777537021241061268153209779470023980904989800386620858": {
       "market": "Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw?",
       "slug": "lal-bet-get-2026-09-17-draw",
@@ -248,8 +238,8 @@
       "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
       "slug": "cs2-mouz-nrg-2026-09-17",
       "outcome": "MOUZ",
-      "shares": 6.578947207409977,
-      "cost": 5.0,
+      "shares": 19.571226467442,
+      "cost": 15.0,
       "trader": "HMLSF",
       "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
       "opened": "2026-09-17T11:26:00.906734+00:00"
@@ -2286,15 +2276,29 @@
     "0xd430e0769a9d9d2af8fb0d96d4745a308fb0a9ae138f3b45aca8fb914e3a5511",
     "0xc0908a71df83f7e066271a4dc4b7f4597b2f41b22da6d67c21f3aba552ab5596",
     "0x7e7608c243e0199133fa367746c4fce682177085e4ea23d7e0d9ea5b75836ce5",
-    "0x7756f8851d30f52c96c0729caf6a46a44c49139636cb8d875357f4e61ac7ff44"
+    "0x7756f8851d30f52c96c0729caf6a46a44c49139636cb8d875357f4e61ac7ff44",
+    "0xe90d4913917280b28edfcec2c858304ec665974a81a56a33afc1f90b5a9969ab",
+    "0x71a7dc02105ae0aae179d5b2b2b19249e1af0d4f1d0d3713aa5c86d395b17299",
+    "0x0f5872222020e26ca0dd7d4984e7362595e02bab1204fc79076377614e94d347",
+    "0x1671539e360d38afadd7f15a7c0e101a07e5063d13b2e9998cab3ef3437fff92",
+    "0xcba4f4ed86c74eaf58c2127b4a8f27b06e831988bb9d54cbec306286663dbb86",
+    "0x438e2614d01efba9f5c118b8c80165aa3af3988210679d19e654f838bedbfb9f",
+    "0x2c8116c3cff52ef13dc2ea2f7a2fcfce5d106b83bea468916561e2ae54588536",
+    "0xac0cc0e278ece5959413c8649118d431ef390b0e37e5bd8ce677b79b7cff04ea",
+    "0xc293342d4be41bc9f972452683797d77f4f3188f13699a77fbf416b9e887e0a6",
+    "0xa1153b8d3ae02042149585a25387bde0cdbe276b66c24a77b3d61df65289e1a8",
+    "0x7756db65db6e0249f741ec449b55cdf89e67d3399cc3925cb640e7bc932fa122",
+    "0x70d7e7c1ecac3b305355c6abeef6ee21050f94672352d5857b4264f464aec04d",
+    "0xda5cb06e621eb0d3f56e7c96a7dff21e37732bee5eb510a625f0c41d26676328",
+    "0x55ff23826bb3663250f3bc402ff5489ffaf7e64ebb05cd264c77473cb5f62049"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T11:35:59.894068+00:00",
-  "realized_pnl": -35.597350379272996,
-  "trades_executed": 64,
-  "wins": 4,
+  "last_run": "2026-09-17T11:41:16.587610+00:00",
+  "realized_pnl": -34.714997438096525,
+  "trades_executed": 66,
+  "wins": 5,
   "losses": 5,
-  "skipped": 1247,
+  "skipped": 1259,
   "failed": 0,
   "initialised": true,
   "paused": false
