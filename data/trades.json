@@ -53534,5 +53534,65 @@
       "size": 5.0
     },
     "timestamp": "2026-09-17T21:34:34.170307+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 62.23376,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T21:36:31.008453+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 15.931035,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T21:36:32.173793+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+    "outcome": "Magdalena Frech",
+    "their_usd": 41.9085,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T21:37:10.356733+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 20.714286,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T21:37:49.574718+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 46.5804,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T21:39:06.805665+00:00"
   }
 ]
