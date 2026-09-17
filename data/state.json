@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 181.2059283092516,
+  "cash": 176.2059283092516,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -143,6 +143,16 @@
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-17T06:50:57.096577+00:00"
+    },
+    "72038333443882617142460026668914544890174561431991907192941390678181636485846": {
+      "market": "Kansas City Royals vs. Houston Astros: O/U 9.5",
+      "slug": "mlb-kc-hou-2026-09-17-total-9pt5",
+      "outcome": "Under",
+      "shares": 8.928571428571427,
+      "cost": 5.0,
+      "trader": "brendoncarson",
+      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "opened": "2026-09-17T06:55:48.070495+00:00"
     }
   },
   "seen_trades": [
@@ -1820,15 +1830,19 @@
     "0x4ff1b50d0ccf12d6dd2e0d2c0d5d894999c55bb97277c19b779de2bfaf1ae744",
     "0x2a1e9bcbae486ccd13dfe34cd513950bbb91a616f8ca4445ae3a69d1521e7f2d",
     "0xdc5e9464780d67b03d2fbbc563f76c91c17150ed171d8353e9c66895aa606c0f",
-    "0xba3dee55ef427621e14592e1f7a55e11d3462ae9e64a1f12e9d5bdcbb56920ea"
+    "0xba3dee55ef427621e14592e1f7a55e11d3462ae9e64a1f12e9d5bdcbb56920ea",
+    "0x6a7c15423b9996986fa16bff110fda78b0b7c2624913f6add29152b21757660d",
+    "0xa691728b324603f56e5deba9c95bacf521d8e28f86bc81b02470e71368085226",
+    "0x4efef5b47e9347a9bec3de9458cf75272006d519a0788928cf8dcbe1f2f664f7",
+    "0x02e6b3e2d04fcce63385251ce61afe23411f317017e4895160c4b2422c26bb55"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T06:52:46.538434+00:00",
+  "last_run": "2026-09-17T06:58:12.988723+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 36,
+  "trades_executed": 37,
   "wins": 3,
   "losses": 1,
-  "skipped": 919,
+  "skipped": 922,
   "failed": 0,
   "initialised": true,
   "paused": false

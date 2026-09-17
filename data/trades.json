@@ -10982,5 +10982,57 @@
       "size": 5.0
     },
     "timestamp": "2026-09-17T06:52:45.990906+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Will Crystal Palace FC win on 2026-09-17? AND Will FCI Levadia Tallinn win on 2026-09-17? AND Will TSG 1899 Hoffenheim win on 2026-09-17? AND Will Juventus FC win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17? AND Will Olympique de Marseille win on 2026-09-17? AND Will AEK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 400.895482,
+    "detail": "price 0.969 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:54:35.418630+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Kansas City Royals vs. Houston Astros: O/U 9.5",
+    "outcome": "Under",
+    "their_usd": 42.924,
+    "detail": {
+      "shares": 8.9286,
+      "price": 0.56,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T06:55:48.073297+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 113.139,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:57:35.016227+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Will Crystal Palace FC win on 2026-09-17? AND Will FCI Levadia Tallinn win on 2026-09-17? AND Will TSG 1899 Hoffenheim win on 2026-09-17? AND Will Juventus FC win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17? AND Will Olympique de Marseille win on 2026-09-17? AND Will AEK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 365.301638,
+    "detail": "price 0.962 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:57:35.998527+00:00"
   }
 ]
