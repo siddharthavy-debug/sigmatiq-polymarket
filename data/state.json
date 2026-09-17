@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 191.97515907848236,
+  "cash": 206.2059283092516,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -74,16 +74,6 @@
       "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
       "opened": "2026-09-17T04:40:24.508771+00:00"
     },
-    "52832589576215197252184043292977381915830715436960388126541397637629453656717": {
-      "market": "Phan Thiet 4: Blake Ellis vs Ilia Simakin",
-      "slug": "atp-ellis-simakin-2026-09-16",
-      "outcome": "Ilia Simakin",
-      "shares": 19.23076923076923,
-      "cost": 15.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T04:49:16.260738+00:00"
-    },
     "75734912908474629273709130662509042707558295648869909343529175575041541160470": {
       "market": "Dota 2: Nemiga Gaming vs Team Lynx (BO3) - European Pro League Group A",
       "slug": "dota2-nemiga-lynx-2026-09-17",
@@ -118,8 +108,8 @@
       "market": "UFC 331: Arman Tsarukyan vs. Mauricio Ruffy (Lightweight, Main Card)",
       "slug": "ufc-arm-mau4-2026-09-19",
       "outcome": "Arman Tsarukyan",
-      "shares": 6.849314865828492,
-      "cost": 5.0,
+      "shares": 13.698629923062494,
+      "cost": 10.0,
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-17T05:27:27.950386+00:00"
@@ -1761,15 +1751,21 @@
     "0xfde18cda583ca2c755568c18606a70e9e3124135b6abb93b2ddb034103d62f79",
     "0xf2a88d3c916f827a35c47624778176de61858fb57d41a3791715c5611c316d64",
     "0xd8aef552696831e2706dfa68bab4626f099726fabecc32874dad9232124fdbff",
-    "0x93e1f4d9fb01080620c4dba35fe82c900fb275e205bf585708a735ad29730589"
+    "0x93e1f4d9fb01080620c4dba35fe82c900fb275e205bf585708a735ad29730589",
+    "0x8217b833109cbaa6aa732696c2510f1a0aa78c9a5919624802cdb0202f6ac17a",
+    "0x675c4cfac8bc9ada60c5093565dc061b41a8d115cf8f5d01709ccc97647baf0e",
+    "0xd1efd1682722e7269c10b4d1e2218c18784cac51b3241d812cae8ee00fc69770",
+    "0x17bf9f05cbcc53522314f3b90cd6f605a02da67bf2af3c28de01d396d16d2aa5",
+    "0xdecf0f6d27637fee5049c8ff6c0440b115c466d8e15f68640b9059bc06cba3c6",
+    "0x3956fb530bf48c778b51811e82bec324668b5f744f74e1c36dee48958a6c9ae0"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T05:42:30.203487+00:00",
-  "realized_pnl": 6.975159078482367,
-  "trades_executed": 30,
-  "wins": 2,
+  "last_run": "2026-09-17T05:47:55.183557+00:00",
+  "realized_pnl": 11.205928309251597,
+  "trades_executed": 31,
+  "wins": 3,
   "losses": 1,
-  "skipped": 876,
+  "skipped": 881,
   "failed": 0,
   "initialised": true,
   "paused": false
