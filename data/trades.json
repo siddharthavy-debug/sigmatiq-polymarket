@@ -52916,5 +52916,243 @@
     "their_usd": 199.8,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-17T21:18:58.233780+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 2.596191,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T21:19:36.692269+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 15.5",
+    "outcome": "Over",
+    "their_usd": 1.2456,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:19:37.476154+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers AND Minnesota Twins vs. Los Angeles Angels AND Philadelphia Phillies vs. New York Mets AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 33.789833,
+    "detail": "price 0.925 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T21:20:16.538241+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Eva Lys",
+    "their_usd": 1371.29825,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:20:16.584014+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 13.5",
+    "outcome": "Over",
+    "their_usd": 1.12766,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T21:20:17.617094+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Timo Legout vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 0,
+    "detail": {
+      "shares": 36.312,
+      "price": 1.0,
+      "proceeds": 36.31,
+      "pnl": 21.31,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-17T21:20:51.600295+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 7.83742,
+    "detail": {
+      "shares": 9.8039,
+      "price": 0.51,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T21:20:54.051393+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 2.596191,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T21:20:54.725114+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will SS Lazio win on 2026-09-19? AND Will FC Barcelona win on 2026-09-19? AND Will BV Borussia 09 Dortmund win on 2026-09-19? AND Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 552.772947,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:21:34.003883+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Montevideo City Torque win on 2026-09-17? AND Will CR Flamengo win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 123.375234,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:21:34.049759+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Villarreal CF win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 0,
+    "detail": {
+      "shares": 30.0,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -15.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T21:22:08.940698+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 685.48707,
+    "detail": {
+      "shares": 11.9919,
+      "price": 0.4169474613,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T21:22:12.482520+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 13.5",
+    "outcome": "Over",
+    "their_usd": 5.0,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T21:22:14.559941+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers AND Detroit Tigers vs. Chicago White Sox AND Minnesota Twins vs. Los Angeles Angels AND Philadelphia Phillies vs. New York Mets AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 692.284228,
+    "detail": "price 0.960 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T21:22:52.590649+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Pittsburgh (-10.5) AND Boston Red Sox vs. Texas Rangers AND Lions vs. Bills",
+    "outcome": "",
+    "their_usd": 21.576672,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:22:52.637109+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-7.5)",
+    "outcome": "Colorado Rockies",
+    "their_usd": 12.2,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T21:22:53.544049+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 14.5",
+    "outcome": "Over",
+    "their_usd": 1.0,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T21:24:11.206825+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 14.5",
+    "outcome": "Over",
+    "their_usd": 1.0,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T21:24:11.252238+00:00"
   }
 ]

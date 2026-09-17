@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 0.5206822652506204,
+  "cash": 26.832654845237087,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -124,16 +124,6 @@
       "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
       "opened": "2026-09-17T10:43:08.639331+00:00"
     },
-    "44106826825033496231136100648787647351284029310303160966072864695990058111146": {
-      "market": "Will Villarreal CF win on 2026-09-17?",
-      "slug": "lal-mala-vil-2026-09-17-vil",
-      "outcome": "No",
-      "shares": 30.0,
-      "cost": 15.0,
-      "trader": "CoffeeDespiser",
-      "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
-      "opened": "2026-09-17T14:10:18.125661+00:00"
-    },
     "114830274262414238497410728549286250584475951111960867542111553086753728412774": {
       "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
       "slug": "bun-bay-uni-2026-09-18-bay",
@@ -153,16 +143,6 @@
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T19:00:16.713802+00:00"
-    },
-    "94788035134295357104047499194063198372574398024336082352134678386314954671336": {
-      "market": "Tiburon: Timo Legout vs Bryce Nakashima",
-      "slug": "atp-legout-nakash-2026-09-16",
-      "outcome": "Bryce Nakashima",
-      "shares": 36.31197257998647,
-      "cost": 15.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T19:34:16.776058+00:00"
     },
     "53156298083799915800403873282550936015544219839554680822708408457656836309368": {
       "market": "CR Flamengo vs. Independiente del Valle: O/U 2.5",
@@ -213,6 +193,16 @@
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-17T20:47:12.395303+00:00"
+    },
+    "18236303895327564005230449038496247143563000560581049285110250055552553698088": {
+      "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+      "slug": "wta-lys-podoros-2026-09-17",
+      "outcome": "Nadia Podoroska",
+      "shares": 21.795840129326937,
+      "cost": 10.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-17T21:20:54.041608+00:00"
     }
   },
   "seen_trades": [
@@ -5510,15 +5500,33 @@
     "0x5fb06f023681f37ff4f0e4067eb542a95dfa4ce7943cbffaef85aefef2881697",
     "0x9cf781fb355b555f2ec73fc02aef85e0e21baecf020ea2f458a8c9328fcf7dbf",
     "0x472eb19b500a438c60355f1a1bfd53142928062a99103d6fc347a11985384d57",
-    "0xcead57a43fc5806f114e7c5736fc158f72d663d93346d628e5b0000806baf7d1"
+    "0xcead57a43fc5806f114e7c5736fc158f72d663d93346d628e5b0000806baf7d1",
+    "0xe47130b1fddd59bf506186e57bf93a9f7c5cfad6bcea398027a5fb1b137ab5b2",
+    "0x36b509d4faeb52351607eaaf5a96f7b19692e817529e753f86f9a038c22a77eb",
+    "0x8b8ad365d618188b9decb1b8f33e06373081caf10772483a46c908172453b5f7",
+    "0x71c195f19a56f602dacc08e1ad55f5e689e27eeebdc81a5db0d2fd1e69c27454",
+    "0x6a9f917aa71fe45c71d0d6bac116896f5ff9f37534bd10d880613bab4013a442",
+    "0x1af69b6c1ef7bf38cd5a05370c3e06334d0fcb6d82e39cd1d2f5c037ddfc95c7",
+    "0xd8cb06af48840ae04fd98427c0ab234e4897ef744d7c0529e1ed13d636b05aa3",
+    "0x805aea59bf46a72df1ef3341829b2c60df35c22a8eedb40992bc523052a19f9f",
+    "0x239c373db7274940ad56a53569f0db6982e02b798518a66789cd22bda427574c",
+    "0x6f8ab6e7ba7525c9ef9a6da8d9e6d92f1dae5a6c08e332cb0df63ba5b3feedd9",
+    "0x18e3054c5c5f2117f5dc95476585d075436fb8dcc0e2064afdc25a7a8d2e3529",
+    "0xc23c35b8b08af1d378d5b4e863a96851d5a6d2f2db8c094b61bea7bb74e98166",
+    "0x9e019eebfb8303733f094d06d84e5e0fb91d85ec19f789d9b8eefb603f708163",
+    "0x0ab0b20f6ea5366d164ea353816ab9ec9eb2df7b7887fc7d8e56210f846a0328",
+    "0x529f4163434e79afb2e67598bf41b425eb0e3879d5b9f02b0f3b3fd160c5b17b",
+    "0xcd22c507b0fe312c6898065374105f1efbf8a5c781d454adfb26f86bedead07d",
+    "0x8dfea03b0df6b77ae286ce72cce2cf7084b22456f22e2f90d2471525266ba3e0",
+    "0x437a44fd47edf19d3d6b459a15414b9f165d9e0d490c68d2d524a924df528858"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T21:18:58.272338+00:00",
-  "realized_pnl": -93.19931773474937,
-  "trades_executed": 145,
-  "wins": 24,
-  "losses": 25,
-  "skipped": 4430,
+  "last_run": "2026-09-17T21:24:11.289668+00:00",
+  "realized_pnl": -86.8873451547629,
+  "trades_executed": 147,
+  "wins": 25,
+  "losses": 26,
+  "skipped": 4446,
   "failed": 0,
   "initialised": true,
   "paused": false
