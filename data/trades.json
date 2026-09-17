@@ -55200,5 +55200,29 @@
     "their_usd": 10.92,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T22:36:42.362826+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Rennes: Borna Gojo vs Matteo Martineau",
+    "outcome": "Borna Gojo",
+    "their_usd": 9.061819,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T22:39:56.502229+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.448276,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:39:57.431290+00:00"
   }
 ]
