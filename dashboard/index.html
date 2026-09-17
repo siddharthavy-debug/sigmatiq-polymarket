@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#e9ecf1">
+<title>Sigmatiq · Polymarket</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#e9ecf1;
+  --card:#f6f7f9;
+  --ink:#141a21;
+  --ink-soft:#5c6672;
+  --rule:#cdd4dd;
+  --deep:#1b3a63;
+  --up:#1a6a55;
+  --down:#a8442a;
+  --gap:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Archivo,system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-variant-numeric:tabular-nums;
+  line-height:1.45;
+  padding:var(--gap);
+  padding-bottom:64px;
+  max-width:720px;
+  margin:0 auto;
+}
+h2{
+  font-size:.82rem;
+  font-weight:600;
+  color:var(--ink-soft);
+  margin:34px 0 12px;
+  letter-spacing:.01em;
+}
+.hide{display:none!important}
+
+/* ---- PIN ---- */
+#gate{
+  min-height:82vh;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  gap:16px;text-align:center;
+}
+#gate p{color:var(--ink-soft);font-size:.9rem;max-width:26ch}
+#pin{
+  font:600 1.6rem/1 Archivo,sans-serif;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.34em;text-indent:.34em;
+  width:210px;padding:15px 0;text-align:center;
+  background:var(--card);color:var(--ink);
+  border:1.5px solid var(--rule);border-radius:3px;
+}
+#pin:focus{outline:2px solid var(--deep);outline-offset:2px;border-color:var(--deep)}
+button{
+  font:600 .95rem Archivo,sans-serif;
+  background:var(--deep);color:#fff;border:0;border-radius:3px;
+  padding:13px 30px;cursor:pointer;
+}
+button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+button[disabled]{opacity:.5;cursor:default}
+.err{color:var(--down);font-size:.88rem;min-height:1.3em;max-width:30ch}
+
+/* ---- equity headline ---- */
+.equity{
+  border-top:2px solid var(--ink);
+  padding-top:14px;
+}
+.equity .num{
+  font-size:clamp(2.9rem,13vw,4rem);
+  font-weight:700;letter-spacing:-.025em;line-height:1;
+}
+.equity .delta{font-size:1.05rem;font-weight:600;margin-top:6px}
+.equity .sub{color:var(--ink-soft);font-size:.86rem;margin-top:10px}
+.up{color:var(--up)} .down{color:var(--down)}
+
+.facts{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:3px;
+  margin-top:22px;overflow:hidden;
+}
+.facts div{background:var(--card);padding:11px 12px}
+.facts b{display:block;font-size:1.22rem;font-weight:600}
+.facts span{font-size:.74rem;color:var(--ink-soft)}
+
+/* ---- probability track: the signature element ---- */
+.pos{
+  padding:15px 0;
+  border-bottom:1px solid var(--rule);
+}
+.pos:first-of-type{border-top:1px solid var(--rule)}
+.pos .name{font-size:.95rem;font-weight:500;margin-bottom:3px}
+.pos .who{font-size:.76rem;color:var(--ink-soft);margin-bottom:13px}
+.track{
+  position:relative;height:3px;background:var(--rule);
+  margin:0 8px 8px;border-radius:2px;
+}
+.track i{
+  position:absolute;top:50%;width:2px;height:13px;
+  background:var(--ink-soft);transform:translate(-50%,-50%);
+}
+.track i.mid{height:7px;background:var(--rule);filter:brightness(.82)}
+.dot{
+  position:absolute;top:50%;width:13px;height:13px;border-radius:50%;
+  transform:translate(-50%,-50%);border:2.5px solid var(--paper);
+}
+.dot.entry{background:var(--ink-soft)}
+.dot.now{background:var(--deep)}
+.scale{
+  display:flex;justify-content:space-between;
+  font-size:.7rem;color:var(--ink-soft);margin:0 2px;
+}
+.legend{font-size:.78rem;color:var(--ink-soft);margin-top:9px}
+.legend b{font-weight:600;color:var(--ink)}
+
+/* ---- tables ---- */
+table{width:100%;border-collapse:collapse;font-size:.87rem}
+th{
+  text-align:left;font-weight:600;color:var(--ink-soft);
+  font-size:.76rem;padding:0 0 7px;border-bottom:1px solid var(--rule);
+}
+td{padding:9px 0;border-bottom:1px solid var(--rule)}
+th.r,td.r{text-align:right}
+.benched td{color:var(--ink-soft)}
+.tag{
+  font-size:.68rem;font-weight:600;color:var(--down);
+  border:1px solid var(--down);border-radius:2px;padding:1px 4px;margin-left:6px;
+}
+
+.log{font-size:.83rem}
+.log div{
+  display:flex;gap:10px;padding:7px 0;
+  border-bottom:1px solid var(--rule);
+}
+.log time{color:var(--ink-soft);white-space:nowrap;font-size:.78rem}
+.log .what{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.empty{
+  color:var(--ink-soft);font-size:.88rem;
+  padding:18px 0;border-top:1px solid var(--rule);
+}
+footer{
+  margin-top:34px;padding-top:14px;border-top:1px solid var(--rule);
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:.76rem;color:var(--ink-soft);
+}
+footer button{background:none;color:var(--deep);padding:6px 0;font-size:.8rem}
+.mode{
+  font-weight:600;border:1px solid var(--rule);
+  border-radius:2px;padding:2px 7px;
+}
+@media (prefers-reduced-motion:no-preference){
+  #panel{animation:in .3s ease-out both}
+  @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+
+<section id="gate">
+  <p>Enter your PIN to see the bot.</p>
+  <input id="pin" type="password" inputmode="numeric" autocomplete="off"
+         maxlength="12" aria-label="PIN">
+  <button id="go">Unlock</button>
+  <p class="err" id="err" role="alert"></p>
+</section>
+
+<main id="panel" class="hide">
+  <div class="equity">
+    <div class="num" id="equity">—</div>
+    <div class="delta" id="delta"></div>
+    <div class="sub" id="sub"></div>
+  </div>
+
+  <div class="facts">
+    <div><b id="f-open">—</b><span>open now</span></div>
+    <div><b id="f-closed">—</b><span>closed</span></div>
+    <div><b id="f-wr">—</b><span>win rate</span></div>
+  </div>
+
+  <h2>Open positions</h2>
+  <div id="positions"></div>
+
+  <h2>Traders</h2>
+  <div id="traders"></div>
+
+  <h2>Recent activity</h2>
+  <div id="log" class="log"></div>
+
+  <footer>
+    <span id="stamp"></span>
+    <span class="mode" id="mode"></span>
+    <button id="refresh">Refresh</button>
+  </footer>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const money = n => (n<0?"-$":"$") + Math.abs(n).toFixed(2);
+const signed = n => (n>=0?"+":"−") + "$" + Math.abs(n).toFixed(2);
+const cents = p => Math.round(p*100) + "¢";
+let PIN = "";
+
+async function load(pin){
+  const r = await fetch("/api/data",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({pin})
+  });
+  const j = await r.json();
+  if(!r.ok) throw new Error(j.error || "Couldn't load.");
+  return j;
+}
+
+$("go").onclick = unlock;
+$("pin").onkeydown = e => { if(e.key === "Enter") unlock(); };
+
+async function unlock(){
+  const pin = $("pin").value.trim();
+  if(!pin) return;
+  $("go").disabled = true; $("err").textContent = "";
+  try{
+    const data = await load(pin);
+    PIN = pin;
+    sessionStorage.setItem("pin", pin);
+    $("gate").classList.add("hide");
+    $("panel").classList.remove("hide");
+    render(data);
+  }catch(e){
+    $("err").textContent = e.message;
+    $("pin").value = ""; $("pin").focus();
+  }finally{
+    $("go").disabled = false;
+  }
+}
+
+$("refresh").onclick = async () => {
+  $("refresh").disabled = true;
+  try{ render(await load(PIN)); }
+  catch(e){ $("stamp").textContent = e.message; }
+  finally{ $("refresh").disabled = false; }
+};
+
+function render(d){
+  const s = d.state || {};
+  const positions = s.positions || {};
+  const invested = Object.values(positions).reduce((a,p)=>a+(p.cost||0),0);
+  const equity = (s.cash||0) + invested;
+  const start = s.allocation || 100;
+  const diff = equity - start;
+  const pct = start ? (diff/start*100) : 0;
+
+  $("equity").textContent = money(equity);
+  const dl = $("delta");
+  dl.textContent = `${signed(diff)} · ${diff>=0?"+":"−"}${Math.abs(pct).toFixed(1)}% from ${money(start)}`;
+  dl.className = "delta " + (diff>=0 ? "up" : "down");
+  $("sub").textContent =
+    `${money(s.cash||0)} cash · ${money(invested)} in positions · ` +
+    `${money((s.total_balance||0)-start)} held back`;
+
+  const closed = (s.wins||0) + (s.losses||0);
+  $("f-open").textContent = Object.keys(positions).length;
+  $("f-closed").textContent = closed;
+  $("f-wr").textContent = closed ? Math.round((s.wins/closed)*100)+"%" : "—";
+
+  renderPositions(positions);
+  renderTraders(d.analysis);
+  renderLog(d.trades);
+
+  $("mode").textContent = (s.mode || "paper") === "live" ? "live money" : "paper";
+  $("stamp").textContent = s.last_run
+    ? "Updated " + new Date(s.last_run).toLocaleString([], {
+        month:"short", day:"numeric", hour:"2-digit", minute:"2-digit"})
+    : "";
+}
+
+function renderPositions(positions){
+  const el = $("positions");
+  const keys = Object.keys(positions);
+  if(!keys.length){
+    el.innerHTML = '<p class="empty">Nothing open. The bot buys when a trader it follows buys.</p>';
+    return;
+  }
+  el.innerHTML = keys.map(k => {
+    const p = positions[k];
+    const entry = p.shares ? (p.cost / p.shares) : 0;
+    const clamp = v => Math.max(0.02, Math.min(0.98, v));
+    return `
+      <article class="pos">
+        <div class="name">${esc(p.market || "Untitled market")}</div>
+        <div class="who">${esc(p.outcome || "")} · following ${esc(p.trader || "")}</div>
+        <div class="track">
+          <i style="left:0"></i><i class="mid" style="left:50%"></i><i style="left:100%"></i>
+          <span class="dot entry" style="left:${clamp(entry)*100}%"
+                title="Bought at ${cents(entry)}"></span>
+        </div>
+        <div class="scale"><span>0¢</span><span>50¢</span><span>100¢</span></div>
+        <p class="legend">Bought <b>${cents(entry)}</b> ·
+          ${(p.shares||0).toFixed(1)} shares · ${money(p.cost||0)} at risk ·
+          pays <b>${money(p.shares||0)}</b> if it resolves yes</p>
+      </article>`;
+  }).join("");
+}
+
+function renderTraders(analysis){
+  const rows = (analysis && analysis.by_trader) || [];
+  const el = $("traders");
+  if(!rows.length){
+    el.innerHTML = '<p class="empty">No trader results yet. Numbers appear once copied positions start closing.</p>';
+    return;
+  }
+  el.innerHTML = `<table>
+    <thead><tr>
+      <th>Trader</th><th class="r">Copied</th><th class="r">Closed</th>
+      <th class="r">Win</th><th class="r">P&amp;L</th>
+    </tr></thead><tbody>${rows.map(r => `
+      <tr class="${r.benched ? "benched" : ""}">
+        <td>${esc(r.trader)}${r.benched ? '<span class="tag">benched</span>' : ""}</td>
+        <td class="r">${r.copied}</td>
+        <td class="r">${r.closed}</td>
+        <td class="r">${r.win_rate === null ? "—" : r.win_rate + "%"}</td>
+        <td class="r ${r.pnl >= 0 ? "up" : "down"}">${signed(r.pnl)}</td>
+      </tr>`).join("")}</tbody></table>`;
+}
+
+function renderLog(trades){
+  const el = $("log");
+  const rows = (trades || []).filter(t => t.status === "executed").slice(-25).reverse();
+  if(!rows.length){
+    el.innerHTML = '<p class="empty">No trades yet.</p>';
+    return;
+  }
+  el.innerHTML = rows.map(t => {
+    const d = t.detail || {};
+    const pnl = typeof d.pnl === "number"
+      ? ` <span class="${d.pnl>=0?"up":"down"}">${signed(d.pnl)}</span>` : "";
+    const verb = t.side === "BUY" ? "Bought"
+      : (t.close_reason === "resolved" ? (d.result === "WON" ? "Won" : "Lost") : "Sold");
+    return `<div>
+      <time>${new Date(t.timestamp).toLocaleString([], {month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"})}</time>
+      <span class="what">${verb} ${esc(String(t.market||"").slice(0,44))}${pnl}</span>
+    </div>`;
+  }).join("");
+}
+
+function esc(s){
+  return String(s).replace(/[&<>"']/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+// keep the session alive on reload
+(async () => {
+  const saved = sessionStorage.getItem("pin");
+  if(!saved) return;
+  try{
+    const d = await load(saved);
+    PIN = saved;
+    $("gate").classList.add("hide");
+    $("panel").classList.remove("hide");
+    render(d);
+  }catch{ sessionStorage.removeItem("pin"); }
+})();
+</script>
+</body>
+</html>

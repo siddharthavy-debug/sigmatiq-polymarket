@@ -1,0 +1,41 @@
+name: copybot
+
+# One job stays alive for 5.5 hours polling every 30 seconds, then the next
+# scheduled run takes over. A trade is copied within ~30s instead of waiting
+# for the next wake-up.
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # every 6 hours; each run covers 5.5 of them
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: copybot              # never two jobs trading at once
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          BOT_MODE: paper                 # change to 'live' only when ready
+          TOTAL_BALANCE: "1000"
+          TRADING_ALLOCATION: "100"
+          POLL_SECONDS: "30"
+          WINDOW_MINUTES: "330"
+          POLY_PRIVATE_KEY: ${{ secrets.POLY_PRIVATE_KEY }}
+          POLY_FUNDER: ${{ secrets.POLY_FUNDER }}
+        run: python loop.py

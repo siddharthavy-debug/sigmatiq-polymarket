@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+*.tmp
+
+.market_cache*.json
