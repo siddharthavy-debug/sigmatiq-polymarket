@@ -1,0 +1,126 @@
+{
+  "updated": "2026-09-17T03:17:37.305165+00:00",
+  "traders": [
+    {
+      "wallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+      "name": "Sassy-Bucket",
+      "pnl": 158782.63197702565,
+      "volume": 84432.087463
+    },
+    {
+      "wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+      "name": "HMLSF",
+      "pnl": 68183.39826917025,
+      "volume": 53221.89
+    },
+    {
+      "wallet": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+      "name": "SDTrading",
+      "pnl": 33912.74052499964,
+      "volume": 3937.37
+    },
+    {
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "name": "ferrariChampions2026",
+      "pnl": 31385.86956539587,
+      "volume": 623049.645363
+    },
+    {
+      "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "name": "RN1",
+      "pnl": 28485.969861978316,
+      "volume": 196967.590105
+    },
+    {
+      "wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+      "name": "UpTheBlues",
+      "pnl": 20507.542492165463,
+      "volume": 306051.41205700004
+    },
+    {
+      "wallet": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+      "name": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+      "pnl": 15149.844511914067,
+      "volume": 4381.347832
+    },
+    {
+      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "name": "tradecraft",
+      "pnl": 12289.653814732563,
+      "volume": 63968.509999999995
+    },
+    {
+      "wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+      "name": "TRCM",
+      "pnl": 11335.714897318627,
+      "volume": 18211.400243999997
+    },
+    {
+      "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "name": "us391",
+      "pnl": 10475.904767649365,
+      "volume": 16291.809999999998
+    },
+    {
+      "wallet": "0xda856317923415a534d8952e6f8abde17c2e1ca7",
+      "name": "Yellow-Fever",
+      "pnl": 10159.755025289996,
+      "volume": 34707.27
+    },
+    {
+      "wallet": "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+      "name": "Flaznorp",
+      "pnl": 8932.133885402938,
+      "volume": 223605.05740499994
+    },
+    {
+      "wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+      "name": "SharkbetX-com",
+      "pnl": 8744.553031504169,
+      "volume": 22379.122898
+    },
+    {
+      "wallet": "0x161a7f666ca49d592848cf415b42f49a84714103",
+      "name": "torta.tech",
+      "pnl": 6746.850281134123,
+      "volume": 33477.729999999996
+    },
+    {
+      "wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+      "name": "0x8efa1ea8ee",
+      "pnl": 5735.380110225498,
+      "volume": 6840.44844
+    },
+    {
+      "wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+      "name": "0F62",
+      "pnl": 5400.600485439063,
+      "volume": 18457.729001
+    },
+    {
+      "wallet": "0x0c84d454825e9f42619497f6158b4753cd43a8ed",
+      "name": "ff3364",
+      "pnl": 5066.778628899192,
+      "volume": 10718.507410000002
+    },
+    {
+      "wallet": "0xe07744c53c273de2acfd485a5212553bced6f5ee",
+      "name": "BIess",
+      "pnl": 5060.093019794823,
+      "volume": 8368.868984
+    },
+    {
+      "wallet": "0xf059aff5075d2bb73405d9fe301f8ae20ed46dd9",
+      "name": "kkpay19888",
+      "pnl": 4784.928055589254,
+      "volume": 11100.413335
+    },
+    {
+      "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+      "name": "anoin123",
+      "pnl": 4296.79204292748,
+      "volume": 50268.66433
+    }
+  ],
+  "benched": []
+}
