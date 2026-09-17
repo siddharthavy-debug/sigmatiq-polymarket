@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 1.2825741801383703,
+  "cash": 0.0025741801383702967,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -228,8 +228,8 @@
       "market": "Philadelphia Phillies vs. New York Mets: O/U 7.5",
       "slug": "mlb-phi-nym-2026-09-17-total-7pt5",
       "outcome": "Under",
-      "shares": 11.363636182851241,
-      "cost": 5.0,
+      "shares": 14.272727091942151,
+      "cost": 6.28,
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-17T19:55:43.914858+00:00"
@@ -5314,15 +5314,22 @@
     "0x750648a8dc6f0a765b527894633888b0c9b288ead6f1cdf31ed0b2c6681a4033",
     "0x2aa6fa2c8e970fc1ef950b0131acb703e5cce6e9cfa553e8bc5ba409a8eda764",
     "0x47faaf0a126c955e74751a24b7325fd4b92ffbe20d176569cc6e7a3a6e1f6e00",
-    "0x30f566724d30ba5aaa66453c57ad70ad146b74084b15d94d11c523e063685441"
+    "0x30f566724d30ba5aaa66453c57ad70ad146b74084b15d94d11c523e063685441",
+    "0x5aacf3b0dda4f2a6070938ca0af533c2c02d666ce640dbc5188ab3e38240a86a",
+    "0x0fdfdb841031f2d9ae0ca6124d42ea3caa9e1a33f06fd71a583f4cb6f8cdd8c2",
+    "0xd427147b1bcdca914a79cec0128d988139c6780a4f58e4ae5dff5b76af34543c",
+    "0x00a89b4a5e62951377ad8b36421ee1d707f3e732a495bbf9ba3d0f9309c0f5b0",
+    "0xf681265fe4183e10df1a079867e768e1ce5f9666fcd6e6859b4a92e9fa6c8488",
+    "0x7ac5359de5f6e5d23d3b6b05fbee606dd60cdb8d8abe01738ec4c701ee68da7b",
+    "0xf881d2121b3c91097daae53229acdecd557e6e5841fc31d0fe098657217ccb4d"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T19:59:40.560087+00:00",
+  "last_run": "2026-09-17T20:04:57.643761+00:00",
   "realized_pnl": -73.71742581986162,
-  "trades_executed": 135,
+  "trades_executed": 136,
   "wins": 22,
   "losses": 22,
-  "skipped": 4224,
+  "skipped": 4230,
   "failed": 0,
   "initialised": true,
   "paused": false

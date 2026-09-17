@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T19:59:40.573989+00:00",
+  "updated": "2026-09-17T20:04:57.657542+00:00",
   "by_trader": [
     {
       "trader": "us391",
@@ -25,21 +25,21 @@
       "win_rate": 66.7,
       "pnl": 18.1,
       "pnl_per_closed": 1.21,
-      "skipped": 265,
+      "skipped": 266,
       "failed": 0,
       "benched": false
     },
     {
       "trader": "brendoncarson",
       "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
-      "copied": 9,
+      "copied": 10,
       "closed": 1,
       "wins": 1,
       "losses": 0,
       "win_rate": 100.0,
       "pnl": 11.79,
       "pnl_per_closed": 11.79,
-      "skipped": 46,
+      "skipped": 47,
       "failed": 0,
       "benched": false
     },
@@ -81,7 +81,7 @@
       "win_rate": 75.0,
       "pnl": 5.79,
       "pnl_per_closed": 1.45,
-      "skipped": 626,
+      "skipped": 628,
       "failed": 0,
       "benched": false
     },
@@ -291,7 +291,7 @@
       "win_rate": 0.0,
       "pnl": -35.0,
       "pnl_per_closed": -11.67,
-      "skipped": 467,
+      "skipped": 468,
       "failed": 0,
       "benched": false
     },
@@ -313,5 +313,5 @@
   "benched_wallets": [
     "0x1610db79f753a80207e1d66716be9e91e627ae49"
   ],
-  "total_logged": 4129
+  "total_logged": 4135
 }
