@@ -15440,5 +15440,33 @@
     "their_usd": 2.471491,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T11:40:36.039365+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 10.5",
+    "outcome": "Under",
+    "their_usd": 106.415095,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:41:57.165624+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "FC Astana vs. FC Kairat Almaty: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 9.0528,
+    "detail": {
+      "shares": 10.4167,
+      "price": 0.48,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T11:45:53.115522+00:00"
   }
 ]
