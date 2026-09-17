@@ -58,6 +58,38 @@ directly and which are real. Win rate is then **measured** by `analyzer.py`
 from your own copied trades as they close. That number is trustworthy because
 you observed it.
 
+## Picking traders
+
+The leaderboard ranks by profit over a window, and that is a bad filter. From
+a real scan of 50 wallets, scored on markets settling within a day:
+
+```
+trader             trades   win%   entry      profit   board pnl
+Roadto1mlesgooo       598  96.5%     92c     -49,994       3,869
+BrotherObama          868  32.9%     37c    +466,094      15,543
+SDTrading             515  52.6%     50c     -98,720      33,913
+Sassy-Bucket          410  82.9%     49c      +3,536     158,783
+```
+
+Roadto1mlesgooo wins almost every trade and is down fifty thousand dollars,
+because at 92c a win pays 8c and a loss costs 92c. BrotherObama is wrong two
+times in three and is the most profitable wallet on the board. SDTrading looks
+good on the leaderboard and is the wallet that wiped the backtest account.
+Sassy-Bucket has the highest leaderboard P&L and makes almost nothing in the
+markets this bot copies.
+
+So traders are chosen by `rank_traders.py`, which measures each wallet's own
+history in short markets:
+
+```bash
+MAX_MARKET_DAYS=1 python3 rank_traders.py 1000          # look
+MAX_MARKET_DAYS=1 python3 rank_traders.py 1000 --pin    # commit to it
+```
+
+`--pin` writes `data/traders.json` with the profitable wallets that have at
+least 50 short trades, and the bot follows that list instead of the
+leaderboard. The `rank-traders` workflow does this automatically every Monday.
+
 ## Scoring
 
 After 8 closed trades with you, a trader who is net negative gets benched and

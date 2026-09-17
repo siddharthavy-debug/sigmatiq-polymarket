@@ -31,7 +31,15 @@ def refresh_traders():
     book = state.load_traders()
     benched = set(book.get("benched", []))
 
-    if not _stale(book.get("updated"), config.REFRESH_HOURS) and book.get("traders"):
+    # A pinned list comes from rank_traders.py, which scores wallets on what
+    # they actually do in short markets. The daily leaderboard refresh is what
+    # picked SDTrading — +$33,913 on the board, -$98,720 in the markets we
+    # copy — so when a list is pinned we leave it alone and let the analyzer
+    # bench whoever loses real money.
+    if book.get("pinned"):
+        traders = book.get("traders", [])
+        print(f"[traders] pinned: {len(traders)} ranked wallets")
+    elif not _stale(book.get("updated"), config.REFRESH_HOURS) and book.get("traders"):
         traders = book["traders"]
         print(f"[traders] cached: {len(traders)}")
     else:

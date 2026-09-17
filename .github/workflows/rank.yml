@@ -1,0 +1,46 @@
+name: rank-traders
+
+# Weekly re-ranking. Scores every leaderboard wallet on what it actually does
+# in short markets, then pins the profitable ones for the bot to follow.
+#
+# The daily leaderboard refresh this replaces is what picked SDTrading:
+# +$33,913 on the board, -$98,720 in the markets the bot copies.
+on:
+  schedule:
+    - cron: "0 4 * * 1"      # Mondays 04:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rank-traders
+
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Rank and pin
+        env:
+          MAX_MARKET_DAYS: "1"
+          TOP_N_TRADERS: "20"
+        run: python rank_traders.py 1000 --pin
+
+      - name: Commit the new list
+        run: |
+          git config user.name  "copybot"
+          git config user.email "copybot@users.noreply.github.com"
+          git add data/traders.json
+          git diff --staged --quiet || git commit -m "weekly trader ranking"
+          git pull --rebase --autostash || true
+          git push
