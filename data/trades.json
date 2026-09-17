@@ -11954,5 +11954,129 @@
     "their_usd": 4.745,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T08:43:11.222132+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Guangzhou: Petr Bar Biryukov vs Naoya Honda",
+    "outcome": "Naoya Honda",
+    "their_usd": 594.57046,
+    "detail": "price 0.049 below 0.05 (longshot)",
+    "timestamp": "2026-09-17T08:43:47.657675+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Guangzhou: Petr Bar Biryukov vs Naoya Honda",
+    "outcome": "Naoya Honda",
+    "their_usd": 630.2577,
+    "detail": {
+      "shares": 100.0,
+      "price": 0.05,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:43:47.669244+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Valencia: Alicia Herrero Linana vs Rebeka Masarova AND Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova AND Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+    "outcome": "",
+    "their_usd": 375.128085,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T08:45:05.372273+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 2.121111,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:45:41.516261+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 9.66,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:46:56.438163+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.703704,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:46:56.448957+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 266.8,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:46:56.460029+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 61.64,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:46:56.471083+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 469.2,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:46:56.482165+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will Samuel Alito announce his retirement by June 30, 2027?",
+    "outcome": "Yes",
+    "their_usd": 292.5,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T08:48:10.734070+00:00"
   }
 ]

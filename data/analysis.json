@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T08:43:12.131771+00:00",
+  "updated": "2026-09-17T08:48:13.587349+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
@@ -88,14 +88,14 @@
     {
       "trader": "HMLSF",
       "wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-      "copied": 11,
+      "copied": 12,
       "closed": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 35,
+      "skipped": 36,
       "failed": 0,
       "benched": false
     },
@@ -109,7 +109,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 54,
+      "skipped": 55,
       "failed": 0,
       "benched": false
     },
@@ -165,7 +165,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 53,
+      "skipped": 59,
       "failed": 0,
       "benched": false
     },
@@ -277,11 +277,11 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 112,
+      "skipped": 113,
       "failed": 0,
       "benched": false
     }
   ],
   "benched_wallets": [],
-  "total_logged": 977
+  "total_logged": 987
 }
