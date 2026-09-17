@@ -19275,5 +19275,41 @@
     "their_usd": 2.0,
     "detail": "max open positions",
     "timestamp": "2026-09-17T13:38:55.346182+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will AFC Bournemouth win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 39.767442,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T13:39:37.597872+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will AFC Bournemouth win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 2.2914,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T13:41:01.296247+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Real Sociedad de F\u00fatbol win on 2026-09-17? AND Will Villarreal CF win on 2026-09-17? AND Will Lillestr\u00f8m SK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 263.323241,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:43:40.896637+00:00"
   }
 ]
