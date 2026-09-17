@@ -25,8 +25,8 @@ MIN_TRADE_USD    = 1.00     # below this we don't bother
 # Don't buy near the extremes. At 0.99 the most you can gain is 1% while the
 # most you can lose is 100% — a great win rate and a terrible trade. At 0.02
 # it's a lottery ticket. Both ends get skipped.
-MAX_BUY_PRICE = 0.90
-MIN_BUY_PRICE = 0.05
+MAX_BUY_PRICE = float(os.getenv("MAX_BUY_PRICE", "0.90"))
+MIN_BUY_PRICE = float(os.getenv("MIN_BUY_PRICE", "0.05"))
 
 # ---------------------------------------------------------------- PACING
 # These traders are high-frequency. Without caps the allocation is fully

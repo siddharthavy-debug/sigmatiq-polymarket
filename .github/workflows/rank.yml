@@ -32,7 +32,11 @@ jobs:
 
       - name: Rank and pin
         env:
-          MAX_MARKET_DAYS: "1"
+          # must match the bot's window in bot.yml, or traders get ranked on
+          # trades the bot never copies
+          MAX_MARKET_DAYS: "7"
+          MIN_MARKET_HOURS: "2"
+          MAX_BUY_PRICE: "0.9"
           TOP_N_TRADERS: "20"
         run: python rank_traders.py 1000 --pin
 

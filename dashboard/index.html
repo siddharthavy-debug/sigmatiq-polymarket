@@ -300,6 +300,17 @@ async function unlock() {
   try {
     PIN = pin;
     const data = await post("/api/data", {});
+    if (data.waiting) {
+      $("err").innerHTML =
+        'PIN accepted. Waiting for the bot\'s first update \u2014 ' +
+        'this takes about five minutes after a reset.';
+      $("err").style.color = "var(--dim)";
+      sessionStorage.setItem("pin", pin);
+      PIN = pin;
+      setTimeout(unlock, 30000);
+      return;
+    }
+    $("err").style.color = "";
     sessionStorage.setItem("pin", pin);
     $("gate").classList.add("hide");
     $("panel").classList.remove("hide");
@@ -345,7 +356,7 @@ function render(d) {
   $("f-wr").textContent = closed ? Math.round(s.wins / closed * 100) + "%" : "—";
 
   renderPositions(positions);
-  renderTraders(d.analysis);
+  renderTraders(d.analysis, d.traders);
   renderLog(d.trades);
 
   current.mode = s.mode || "paper";
@@ -394,22 +405,46 @@ function renderPositions(positions) {
   }).join("");
 }
 
-function renderTraders(analysis) {
-  const rows = (analysis && analysis.by_trader) || [];
+function renderTraders(analysis, book) {
+  const measured = (analysis && analysis.by_trader) || [];
+  const followed = (book && book.traders) || [];
   const el = $("traders");
+
+  // Show everyone we follow, not only those who have traded since the reset.
+  // A pinned trader sitting quiet is information too — you are waiting on
+  // them, and an empty row says so better than their absence does.
+  const byName = new Map(measured.map(r => [r.trader, r]));
+  const rows = followed.map(t => byName.get(t.name) || {
+    trader: t.name, copied: 0, closed: 0, win_rate: null, pnl: 0,
+    benched: (book.benched || []).includes(t.wallet), quiet: true,
+  });
+  for (const r of measured) {
+    if (!followed.some(t => t.name === r.trader)) rows.push({ ...r, dropped: true });
+  }
+
   if (!rows.length) {
-    el.innerHTML = '<p class="empty">No results yet. Numbers appear once copied positions close.</p>';
+    el.innerHTML = '<p class="empty">No traders yet.</p>';
     return;
   }
+
+  rows.sort((a, b) => (b.pnl - a.pnl) || (b.copied - a.copied));
+
   el.innerHTML = `<table><thead><tr>
       <th>Trader</th><th class="r">Copied</th><th class="r">Closed</th>
       <th class="r">Win</th><th class="r">P&amp;L</th></tr></thead><tbody>` +
-    rows.map(r => `<tr class="${r.benched ? "benched" : ""}">
-      <td>${esc(r.trader)}${r.benched ? '<span class="tag">benched</span>' : ""}</td>
-      <td class="r">${r.copied}</td><td class="r">${r.closed}</td>
-      <td class="r">${r.win_rate === null ? "—" : r.win_rate + "%"}</td>
-      <td class="r ${r.pnl >= 0 ? "up" : "down"}">${signed(r.pnl)}</td>
-    </tr>`).join("") + "</tbody></table>";
+    rows.map(r => {
+      const tag = r.benched ? '<span class="tag">benched</span>'
+        : r.dropped ? '<span class="tag">no longer followed</span>' : "";
+      return `<tr class="${r.benched || r.dropped || r.quiet ? "benched" : ""}">
+        <td>${esc(r.trader)}${tag}</td>
+        <td class="r">${r.copied}</td><td class="r">${r.closed}</td>
+        <td class="r">${r.win_rate === null ? "\u2014" : r.win_rate + "%"}</td>
+        <td class="r ${r.pnl > 0 ? "up" : r.pnl < 0 ? "down" : ""}">${
+          r.pnl === 0 ? "\u2014" : signed(r.pnl)}</td>
+      </tr>`;
+    }).join("") + "</tbody></table>" +
+    `<p class="note">${followed.length} followed \u00b7 ` +
+    `${rows.filter(r => r.copied > 0).length} have traded since the reset</p>`;
 }
 
 function renderLog(trades) {
@@ -467,7 +502,7 @@ function hints() {
   const size = Number($("s-size").value) || 5;
   $("size-hint").textContent =
     `${(size / alloc * 100).toFixed(1)}% of the allocation · ` +
-    `about ${Math.floor(alloc / size)} positions at once`;
+    `up to ${Math.min(Math.floor(alloc / size), 25)} positions at once`;
   const p = Number($("s-maxprice").value) || 0.9;
   const need = (p * 100).toFixed(0);
   $("price-hint").textContent =

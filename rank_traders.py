@@ -131,9 +131,15 @@ def history(wallet, limit):
 def main():
     per_wallet = int(sys.argv[1]) if len(sys.argv) > 1 else 500
     max_days = config.MAX_MARKET_DAYS
+    min_hours = config.MIN_MARKET_HOURS
 
-    print("Ranking traders by what they do in SHORT markets\n")
-    print(f"  short = settles within {max_days:g} days of the trade")
+    # Score them on exactly the trades the bot would copy. Ranking on a
+    # different window than the bot trades means measuring one thing and
+    # acting on another — their profit would include trades we refuse and
+    # miss trades we take.
+    print("Ranking traders on the trades this bot would actually copy\n")
+    print(f"  markets settling between {min_hours:g}h and {max_days:g} days")
+    print(f"  entry price between {config.MIN_BUY_PRICE} and {config.MAX_BUY_PRICE}")
     print(f"  {per_wallet} trades examined per wallet\n")
 
     # widen the pool: we want to rank everyone, not just who passes the filter
@@ -201,16 +207,19 @@ def main():
             usd = float(t.get("usdcSize") or t.get("size") or 0)
             if price <= 0 or usd <= 0:
                 continue
+            # the bot won't buy outside its price bounds, so neither do we
+            if price > config.MAX_BUY_PRICE or price < config.MIN_BUY_PRICE:
+                continue
             tok = t.get("asset")
             traded_at = float(t.get("timestamp") or 0)
             won, end = market_facts(tok, t.get("slug"))
             if end is None or won is None:
                 continue
-            days = (end - traded_at) / 86400
-            if days > max_days:
+            hours = (end - traded_at) / 3600
+            if hours > max_days * 24:
                 long_n += 1
                 continue
-            if days < 0:
+            if hours < min_hours:          # the bot skips these too
                 continue
 
             n += 1
@@ -290,17 +299,12 @@ def pin(results, top_n=None):
     with four that don't.
     """
     top_n = top_n or config.TOP_N_TRADERS
-    good = [r for r in results
-            if r["n"] >= MIN_TRADES_TO_PIN and r["profit"] > 0]
-    good.sort(key=lambda r: r["profit"], reverse=True)
-    chosen = good[:top_n]
 
-    if not chosen:
-        print("\nNothing qualified — leaving the current list alone.")
-        return
-
-    # keep whoever the analyzer benched benched: our own measured results
-    # beat their history
+    # Read the bench first so benched wallets can be skipped rather than
+    # re-picked. Otherwise the list silently shrinks: someone gets benched for
+    # losing your money, gets chosen again next week on their public history,
+    # and is filtered out again at runtime — leaving an empty slot instead of
+    # a replacement.
     existing = {}
     if os.path.exists("data/traders.json"):
         try:
@@ -308,6 +312,19 @@ def pin(results, top_n=None):
         except Exception:
             existing = {}
     benched = existing.get("benched", [])
+    benched_set = {w.lower() for w in benched}
+
+    good = [r for r in results
+            if r["n"] >= MIN_TRADES_TO_PIN and r["profit"] > 0
+            and r["wallet"].lower() not in benched_set]
+    good.sort(key=lambda r: r["profit"], reverse=True)
+    chosen = good[:top_n]
+    skipped_benched = len([r for r in results
+                           if r["wallet"].lower() in benched_set])
+
+    if not chosen:
+        print("\nNothing qualified — leaving the current list alone.")
+        return
 
     from datetime import datetime, timezone
     book = {
@@ -331,7 +348,9 @@ def pin(results, top_n=None):
         print(f"{r['name'][:21]:22}{r['n']:>8}{r['win_rate']:>6.1f}%"
               f"{r['avg_entry']*100:>7.0f}c{r['profit']:>12,.0f}")
     if benched:
-        print(f"\n{len(benched)} still benched from your own results.")
+        print(f"\n{len(benched)} benched from your own results"
+              + (f", {skipped_benched} of them skipped here and replaced"
+                 if skipped_benched else "") + ".")
     print("\nCommit and push data/traders.json — the bot picks it up next pass.")
 
 

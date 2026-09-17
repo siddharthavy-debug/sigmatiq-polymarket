@@ -1,131 +1,171 @@
 {
-  "updated": "2026-09-17T04:17:00.937116+00:00",
+  "updated": "2026-09-17T04:13:09.661960+00:00",
   "pinned": true,
   "ranked_on": {
-    "max_market_days": 1.0,
+    "max_market_days": 7.0,
     "min_trades": 50
   },
   "benched": [],
   "traders": [
     {
-      "wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
-      "name": "BrotherObama",
-      "pnl": 466094.18,
-      "volume": 868,
-      "win_rate": 32.9,
-      "avg_entry": 0.366
+      "wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+      "name": "wan123",
+      "pnl": 210173.18,
+      "volume": 274,
+      "win_rate": 95.3,
+      "avg_entry": 0.763
     },
     {
-      "wallet": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
-      "name": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-      "pnl": 151195.94,
-      "volume": 459,
-      "win_rate": 80.6,
-      "avg_entry": 0.517
+      "wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+      "name": "HMLSF",
+      "pnl": 113829.22,
+      "volume": 807,
+      "win_rate": 32.1,
+      "avg_entry": 0.239
+    },
+    {
+      "wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+      "name": "ImJustKen",
+      "pnl": 92998.86,
+      "volume": 207,
+      "win_rate": 68.6,
+      "avg_entry": 0.601
+    },
+    {
+      "wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+      "name": "analdesutructor",
+      "pnl": 56623.4,
+      "volume": 55,
+      "win_rate": 58.2,
+      "avg_entry": 0.428
+    },
+    {
+      "wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+      "name": "Elaran1993",
+      "pnl": 52131.49,
+      "volume": 53,
+      "win_rate": 73.6,
+      "avg_entry": 0.476
+    },
+    {
+      "wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+      "name": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+      "pnl": 45342.44,
+      "volume": 638,
+      "win_rate": 27.9,
+      "avg_entry": 0.322
     },
     {
       "wallet": "0xda856317923415a534d8952e6f8abde17c2e1ca7",
       "name": "Yellow-Fever",
-      "pnl": 56632.68,
-      "volume": 90,
-      "win_rate": 68.9,
-      "avg_entry": 0.651
+      "pnl": 39027.32,
+      "volume": 190,
+      "win_rate": 57.4,
+      "avg_entry": 0.562
     },
     {
-      "wallet": "0xe963d57ab09233f3cb2bf1546660a1b4638e6753",
-      "name": "imjustkenisghey",
-      "pnl": 43702.41,
-      "volume": 264,
-      "win_rate": 61.4,
-      "avg_entry": 0.41
-    },
-    {
-      "wallet": "0xe954ddb021c19495f1c556f59dadbd1494821ef1",
-      "name": "kingflop",
-      "pnl": 35947.81,
+      "wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+      "name": "SharkbetX-com",
+      "pnl": 37588.24,
       "volume": 619,
-      "win_rate": 42.8,
-      "avg_entry": 0.418
+      "win_rate": 35.9,
+      "avg_entry": 0.277
     },
     {
-      "wallet": "0x443bcce588e26763987e9ae44b6b7845f09fe8bb",
-      "name": "0x443BCCe588E26763987e9Ae44b6b7845F09Fe8bB-1769536380439",
-      "pnl": 29491.08,
-      "volume": 593,
-      "win_rate": 46.4,
-      "avg_entry": 0.492
+      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "name": "tradecraft",
+      "pnl": 28984.64,
+      "volume": 899,
+      "win_rate": 53.4,
+      "avg_entry": 0.519
     },
     {
       "wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
       "name": "0F62",
-      "pnl": 28816.5,
-      "volume": 381,
-      "win_rate": 88.2,
-      "avg_entry": 0.965
+      "pnl": 25829.81,
+      "volume": 54,
+      "win_rate": 100.0,
+      "avg_entry": 0.849
     },
     {
-      "wallet": "0x885ffdf360e5b0b6e6acb963fb3f8ba2344c8ed9",
-      "name": "forecastication4",
-      "pnl": 24082.86,
-      "volume": 797,
-      "win_rate": 58.2,
-      "avg_entry": 0.538
-    },
-    {
-      "wallet": "0x0c84d454825e9f42619497f6158b4753cd43a8ed",
-      "name": "ff3364",
-      "pnl": 20360.79,
-      "volume": 663,
-      "win_rate": 49.8,
-      "avg_entry": 0.495
-    },
-    {
-      "wallet": "0xf059aff5075d2bb73405d9fe301f8ae20ed46dd9",
-      "name": "kkpay19888",
-      "pnl": 16447.3,
-      "volume": 689,
-      "win_rate": 49.9,
-      "avg_entry": 0.48
+      "wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+      "name": "TRCM",
+      "pnl": 22024.47,
+      "volume": 919,
+      "win_rate": 50.7,
+      "avg_entry": 0.517
     },
     {
       "wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
       "name": "0x8efa1ea8ee",
-      "pnl": 5291.65,
-      "volume": 421,
-      "win_rate": 52.3,
-      "avg_entry": 0.491
+      "pnl": 20225.54,
+      "volume": 135,
+      "win_rate": 73.3,
+      "avg_entry": 0.498
     },
     {
-      "wallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
-      "name": "Sassy-Bucket",
-      "pnl": 3536.37,
-      "volume": 410,
-      "win_rate": 82.9,
-      "avg_entry": 0.486
+      "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "name": "us391",
+      "pnl": 14337.66,
+      "volume": 560,
+      "win_rate": 63.4,
+      "avg_entry": 0.54
     },
     {
-      "wallet": "0x77fa47189ddba1eefa3ea7d92a497e370807a23d",
-      "name": "0x77fa47189ddBA1eeFa3eA7d92a497e370807a23D-1776838051537",
-      "pnl": 1579.39,
-      "volume": 284,
-      "win_rate": 9.5,
-      "avg_entry": 0.142
+      "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "name": "purplegatto",
+      "pnl": 10686.98,
+      "volume": 384,
+      "win_rate": 38.3,
+      "avg_entry": 0.327
+    },
+    {
+      "wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+      "name": "CoffeeDespiser",
+      "pnl": 10102.28,
+      "volume": 402,
+      "win_rate": 34.1,
+      "avg_entry": 0.52
+    },
+    {
+      "wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "name": "curie",
+      "pnl": 7623.95,
+      "volume": 151,
+      "win_rate": 49.0,
+      "avg_entry": 0.489
     },
     {
       "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "name": "brendoncarson",
-      "pnl": 1522.61,
-      "volume": 698,
-      "win_rate": 49.6,
-      "avg_entry": 0.49
+      "pnl": 4513.29,
+      "volume": 606,
+      "win_rate": 52.3,
+      "avg_entry": 0.489
     },
     {
-      "wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
-      "name": "DCAAA",
-      "pnl": 1222.73,
-      "volume": 240,
-      "win_rate": 44.2,
-      "avg_entry": 0.431
+      "wallet": "0x4956f69ada024c5cb23ed4f38f0dc4c04d2ee2c7",
+      "name": "justbusiness1",
+      "pnl": 4496.33,
+      "volume": 311,
+      "win_rate": 58.5,
+      "avg_entry": 0.505
+    },
+    {
+      "wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+      "name": "Justluck9",
+      "pnl": 2513.35,
+      "volume": 354,
+      "win_rate": 39.3,
+      "avg_entry": 0.41
+    },
+    {
+      "wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+      "name": "0x4f2",
+      "pnl": 1261.1,
+      "volume": 55,
+      "win_rate": 47.3,
+      "avg_entry": 0.38
     }
   ]
 }
