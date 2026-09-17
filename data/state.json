@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 215.0,
+  "cash": 205.0,
   "positions": {
     "16914581743837744921924066144221504088269458072204210545924759862772457925117": {
       "market": "W35 Shenyang: Han Shi vs Yujia Huang",
@@ -48,21 +48,11 @@
       "market": "Phan Thiet 4: Martin Borisiouk vs Florent Bax",
       "slug": "atp-borisio-bax-2026-09-16",
       "outcome": "Florent Bax",
-      "shares": 14.005511826636592,
-      "cost": 10.0,
+      "shares": 21.251888638230795,
+      "cost": 15.0,
       "trader": "TRCM",
       "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
       "opened": "2026-09-17T04:24:40.267671+00:00"
-    },
-    "63424047715400170284222943237112996513984651847495521334647174881510258919489": {
-      "market": "Miami Marlins vs. Arizona Diamondbacks",
-      "slug": "mlb-mia-ari-2026-09-16",
-      "outcome": "Arizona Diamondbacks",
-      "shares": 62.121212121212125,
-      "cost": 10.0,
-      "trader": "curie",
-      "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
-      "opened": "2026-09-17T04:26:58.962716+00:00"
     },
     "91567454457462030886787993807609931980225292175305321128980878981350985779055": {
       "market": "Will TSG 1899 Hoffenheim win on 2026-09-17?",
@@ -83,6 +73,16 @@
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T04:28:08.539645+00:00"
+    },
+    "1651562190214626996245160592519222422055758700588021224340790374367898894337": {
+      "market": "Boston Red Sox vs. Texas Rangers AND Detroit Tigers vs. Chicago White Sox AND Minnesota Twins vs. Los Angeles Angels",
+      "slug": "",
+      "outcome": "",
+      "shares": 5.812601619846822,
+      "cost": 5.0,
+      "trader": "curie",
+      "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "opened": "2026-09-17T04:33:58.456702+00:00"
     }
   },
   "seen_trades": [
@@ -1650,15 +1650,27 @@
     "0x203790c3591f62c471cd323d91aae4f2c7d8088d5cee5e209515ddef811dca11",
     "0x7d194863ee4109fc7a3d0033eb90b8f020d33ad981ae3c832d5794edb31230e0",
     "0x7d9ab46b796ba83cb569fbac97a2217b33931db7ae313c2bd6576dc86c536349",
-    "0x0f394c8906a3aa287547c6c479cc767624f5e08dc6b984172cdfb02e75dc4252"
+    "0x0f394c8906a3aa287547c6c479cc767624f5e08dc6b984172cdfb02e75dc4252",
+    "0xc446123f3232bb4e258e38adaafccc872c47baae3c34ffe019f15eb0f2c1d4e3",
+    "0x438bb950370f491745385167eb068a125bb1be0bc80929cc50538d27359584d2",
+    "0xee5e74b6e268b000e58f409151a7c880817c024d0f4587847a2388f6b5106637",
+    "0x0e0f818cbac12ea22e637d7f8bf54664d61801f3f95528ba61932741e80d5699",
+    "0x8460fd1001c4162b4fbb6973bec5c316d47454f037b7d4ad775dece82298c1fd",
+    "0xd76491051f520b18aefa1c5f5bce6f67ac88e130024b5ab448f6f89d7db79549",
+    "0xf76dedca44cf3e8b8454dfadc821d63b3dc229b8cff1ac67dde218fbe2650c54",
+    "0x87d9df42cf5a71c5620daa0e6caa05082d6da94379367b185f2a709bc8188a59",
+    "0xc810e5a992570cb0a7765db1b9285e731747aa2207342b36b8a100c68d57f893",
+    "0x90d83cfd0bdbfc2270f9b3b454a678f4f5dcd9ef6ebdb11779c1b32d30de6838",
+    "0xa2a923ad3899eb8781b65cfe8fbd33bb945f3bb8e13381c513c828eec271e6ef",
+    "0x77f1fdbc3b0a609c1760f0f6d5284b469a980a14b591de84249543627b1b8745"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T04:32:48.272128+00:00",
-  "realized_pnl": 0.0,
-  "trades_executed": 18,
+  "last_run": "2026-09-17T04:38:04.310819+00:00",
+  "realized_pnl": -10.0,
+  "trades_executed": 20,
   "wins": 0,
-  "losses": 0,
-  "skipped": 827,
+  "losses": 1,
+  "skipped": 837,
   "failed": 0,
   "initialised": true,
   "paused": false

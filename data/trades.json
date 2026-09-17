@@ -9538,5 +9538,176 @@
     "their_usd": 1.54129,
     "detail": "price 0.030 below 0.05 (longshot)",
     "timestamp": "2026-09-17T04:32:47.532297+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Martin Borisiouk vs Florent Bax",
+    "outcome": "Florent Bax",
+    "their_usd": 16.74661,
+    "detail": {
+      "shares": 7.2464,
+      "price": 0.69,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T04:33:22.825435+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Seattle Mariners vs. Los Angeles Angels: O/U 10.5",
+    "outcome": "Under",
+    "their_usd": 12.666667,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T04:33:24.456191+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers AND Detroit Tigers vs. Chicago White Sox AND Minnesota Twins vs. Los Angeles Angels",
+    "outcome": "",
+    "their_usd": 98.077598,
+    "detail": {
+      "shares": 5.8126,
+      "price": 0.8602000149,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T04:33:58.459322+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Miami Marlins vs. Arizona Diamondbacks",
+    "outcome": "Arizona Diamondbacks",
+    "their_usd": 0,
+    "detail": {
+      "shares": 62.1212,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -10.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T04:34:30.420134+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Seattle Mariners vs. Los Angeles Angels: O/U 10.5",
+    "outcome": "Over",
+    "their_usd": 2.628691,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T04:34:34.402018+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: Seattle Mariners (-5.5)",
+    "outcome": "Los Angeles Angels",
+    "their_usd": 3.0,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T04:34:34.656598+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Seattle Mariners vs. Los Angeles Angels: O/U 9.5",
+    "outcome": "Over",
+    "their_usd": 49.9995,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T04:35:44.295948+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will TSG 1899 Hoffenheim win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 5.50637,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T04:36:18.239335+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Martin Borisiouk vs Florent Bax",
+    "outcome": "Martin Borisiouk",
+    "their_usd": 621.0,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T04:36:52.532611+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will TSG 1899 Hoffenheim win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 7.35367,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T04:36:53.387059+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: Seattle Mariners (-5.5)",
+    "outcome": "Los Angeles Angels",
+    "their_usd": 5.666667,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T04:36:54.394571+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will TSG 1899 Hoffenheim win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 6.86343,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T04:38:03.171376+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Seattle Mariners vs. Los Angeles Angels: O/U 9.5",
+    "outcome": "Under",
+    "their_usd": 1.040817,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T04:38:04.303635+00:00"
   }
 ]
