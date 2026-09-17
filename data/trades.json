@@ -10570,5 +10570,17 @@
     "their_usd": 25.16134,
     "detail": "price 0.967 above 0.9 (no upside)",
     "timestamp": "2026-09-17T06:03:30.938078+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Juventus FC vs. NEC: Juventus FC O/U 2.5",
+    "outcome": "Over",
+    "their_usd": 97.42022,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:06:32.547748+00:00"
   }
 ]
