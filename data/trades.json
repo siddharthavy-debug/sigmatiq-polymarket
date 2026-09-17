@@ -18243,5 +18243,101 @@
     "their_usd": 14.632746,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T13:10:48.614736+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will PS Kalam\u00e1ta win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 124.95,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:12:50.407230+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will PS Kalam\u00e1ta win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 507.3692,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:14:10.035409+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will PS Kalam\u00e1ta win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 63.60581,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:14:49.736801+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will PS Kalam\u00e1ta win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.9208,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:15:29.624779+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova AND Sao Paulo Open: Eva Lys vs Nadia Podoroska AND Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+    "outcome": "",
+    "their_usd": 568.625894,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:15:30.326890+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Villarreal CF win on 2026-09-17? AND Will Real Betis Balompi\u00e9 win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 1.54027,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:15:30.338988+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will PS Kalam\u00e1ta win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 2.45,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:16:09.787025+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Lillestr\u00f8m SK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 6.666667,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T13:16:49.854812+00:00"
   }
 ]
