@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 29.94567670630031,
+  "cash": 31.35292469493696,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -214,16 +214,6 @@
       "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
       "opened": "2026-09-17T22:11:01.831776+00:00"
     },
-    "105731849654817836883662783948454854279892951531573522206237725731943424854578": {
-      "market": "Kansas City Royals vs. Houston Astros",
-      "slug": "mlb-kc-hou-2026-09-17",
-      "outcome": "Kansas City Royals",
-      "shares": 35.294117647058826,
-      "cost": 15.0,
-      "trader": "0x4f2",
-      "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
-      "opened": "2026-09-17T23:15:45.061765+00:00"
-    },
     "4706993567915586093519182235022443948400011507269249325311781582583450067158": {
       "market": "Spread: Las Vegas Aces (-10.5)",
       "slug": "wnba-las-sea-2026-09-17-spread-away-10pt5",
@@ -233,6 +223,16 @@
       "trader": "analdesutructor",
       "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
       "opened": "2026-09-17T23:20:16.835869+00:00"
+    },
+    "115790499334427985598827589412439448505899013636339694828504255496722784137605": {
+      "market": "Philadelphia Phillies vs. New York Mets",
+      "slug": "mlb-phi-nym-2026-09-17",
+      "outcome": "New York Mets",
+      "shares": 26.32119090676631,
+      "cost": 15.0,
+      "trader": "0x4f2",
+      "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+      "opened": "2026-09-17T23:24:56.281445+00:00"
     }
   },
   "seen_trades": [
@@ -5825,15 +5825,32 @@
     "0xe19c6690b3d3ce66f5ffbc45aa49fd9278b6b7215fc3a36d9e1bc6ee8bfe2b94",
     "0xd526cbf69a3ee5ee1e3f1308cf127dd7be4eb74519faefab5fa9413ddfcf630b",
     "0x5ed51a86f176f44369c3883099456566739522cea1aac7877a3e8add0707d8d5",
-    "0x057d78c71effc609ad7a36b65e8b8f8220b52501534038c658937b2983f4a452"
+    "0x057d78c71effc609ad7a36b65e8b8f8220b52501534038c658937b2983f4a452",
+    "0x8efa6424fd4e21100f76c2b1a654ac72726664fea2bec82b3aeacb84908ef518",
+    "0xdf4e2d7c2d84317483eced038f5b91d416976f1f478982358a86a9fc04016838",
+    "0xd3a6f2fb6c5117283f67c5560575ecdf3798c5744f9d1621ba2aa899b8de24f7",
+    "0x825ade591eff77abb37e92728ed7d9422725e312edd4c487007f69514887067d",
+    "0x5f1a2928cb405833654f2f37bbfb1257013e83b96b306ff65bf60e9a7ebcfdfd",
+    "0xd17b9dbe36f10a37c65d54628ba36a59cf58a501f56ddbbec38a378209c08773",
+    "0xec9d40904444fa8827b9a813f1fad7d07b17f08ea757504e782576ce1f1a3ab0",
+    "0xb5d42c8f264b3c5419b004cb46b76e9381707856fee52dd1d34759c174844a87",
+    "0x87e042bc1658d424078172482b41d5a1e1fe3a547c914603e11602d4a3fe1866",
+    "0x7609b793a5e0b22a1bd3b5cf7c16f2c0e96c3156126f01b79530b806303842b5",
+    "0x195ab5642919b11f34246b23e5880514309823f102a082a9fa0da3b0aa0a2c18",
+    "0x9cec58b81ceecd65a8cc17650cec2f647bcfc8b49bb6917028e607afe8633aa2",
+    "0x1f9b6c63454d2348707a3d6dc8ea58c4ba7c07ef3dc101c865b1b578523bf2ef",
+    "0x4cfb2a083651635d7ee50b74dce53a206af45f8c06354af235d0821c8981b431",
+    "0x0aa35626de3622410a89c52415f8137bc3f71cd3deb9a7975144454e6744ed64",
+    "0x07779c336be70ab74fa3860b6b3c3e9517493307083124223398a67f1ba5dc14",
+    "0x3ba1324dc45cb0abed9e140b51e83741444bed397383e0a6ee5f9f3e23182b14"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T23:23:36.596555+00:00",
-  "realized_pnl": -41.69432329369967,
-  "trades_executed": 166,
-  "wins": 29,
-  "losses": 26,
-  "skipped": 4704,
+  "last_run": "2026-09-17T23:28:51.342181+00:00",
+  "realized_pnl": -40.28707530506301,
+  "trades_executed": 174,
+  "wins": 30,
+  "losses": 27,
+  "skipped": 4713,
   "failed": 0,
   "initialised": true,
   "paused": false

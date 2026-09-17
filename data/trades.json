@@ -56486,5 +56486,245 @@
     "their_usd": 3.36,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T23:23:35.494937+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Kansas City Royals",
+    "their_usd": 100.0,
+    "detail": {
+      "shares": 35.2941,
+      "price": 0.4829999988,
+      "proceeds": 17.05,
+      "pnl": 2.05,
+      "fraction": 1.0
+    },
+    "timestamp": "2026-09-17T23:24:17.235678+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Kansas City Royals",
+    "their_usd": 26.46,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T23:24:56.022065+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Kansas City Royals",
+    "their_usd": 9.52,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T23:24:56.053602+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "New York Mets",
+    "their_usd": 1999.9966,
+    "detail": {
+      "shares": 8.6207,
+      "price": 0.58,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T23:24:56.288122+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "New York Mets",
+    "their_usd": 3.5056,
+    "detail": {
+      "shares": 8.9286,
+      "price": 0.56,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T23:25:33.033970+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Lions vs. Bills: O/U 56.5",
+    "outcome": "Over",
+    "their_usd": 43.4368,
+    "detail": "settles in 0.8h, too soon",
+    "timestamp": "2026-09-17T23:26:11.529334+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 10.70409,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T23:26:52.577283+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 841.14306,
+    "detail": {
+      "shares": 7.8989,
+      "price": 0.633,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T23:27:32.474784+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 1157.124,
+    "detail": {
+      "shares": 7.8989,
+      "price": 0.633,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T23:27:32.509238+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 1.724796,
+    "detail": {
+      "shares": 7.8989,
+      "price": 0.6330000484,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T23:27:32.625339+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 8.973006,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T23:27:32.658210+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 21.554531,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T23:27:32.691736+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 31.34193,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T23:28:09.785620+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 1.16958,
+    "detail": {
+      "shares": 23.6967,
+      "price": 0.606,
+      "proceeds": 14.36,
+      "pnl": -0.64,
+      "fraction": 1.0
+    },
+    "timestamp": "2026-09-17T23:28:12.065423+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "New York Mets",
+    "their_usd": 981.60787,
+    "detail": {
+      "shares": 8.7719,
+      "price": 0.5700000001,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T23:28:12.100943+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Lions vs. Bills: O/U 56.5",
+    "outcome": "Over",
+    "their_usd": 26.1492,
+    "detail": "settles in 0.8h, too soon",
+    "timestamp": "2026-09-17T23:28:47.882267+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 4.48,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T23:28:51.315475+00:00"
   }
 ]
