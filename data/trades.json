@@ -12145,5 +12145,144 @@
     "their_usd": 10.97386,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-17T08:53:48.427167+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 3.407408,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:55:03.191057+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Guangzhou: Alexandr Binda vs Fajing Sun",
+    "outcome": "Fajing Sun",
+    "their_usd": 9.7325,
+    "detail": {
+      "shares": 7.3529,
+      "price": 0.68,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:55:41.987574+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 25.555556,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:56:17.140373+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Guangzhou: Alexandr Binda vs Fajing Sun",
+    "outcome": "Fajing Sun",
+    "their_usd": 20.5275,
+    "detail": {
+      "shares": 7.3529,
+      "price": 0.68,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:56:19.085085+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Guangzhou: Alexandr Binda vs Fajing Sun",
+    "outcome": "Fajing Sun",
+    "their_usd": 2083.428625,
+    "detail": {
+      "shares": 7.3529,
+      "price": 0.68,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:56:19.096306+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Guangzhou: Alexandr Binda vs Fajing Sun",
+    "outcome": "Fajing Sun",
+    "their_usd": 145.3925,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:57:33.978288+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Guangzhou: Alexandr Binda vs Fajing Sun",
+    "outcome": "Fajing Sun",
+    "their_usd": 44.2,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:57:33.989330+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.277778,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:58:09.375957+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Guangzhou: Alexandr Binda vs Fajing Sun",
+    "outcome": "Fajing Sun",
+    "their_usd": 49.83125,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:58:11.268333+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Guangzhou: James Kent Trotter vs Mitsuki Wei Kang Leong",
+    "outcome": "James Kent Trotter",
+    "their_usd": 0,
+    "detail": {
+      "shares": 102.6786,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -10.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T08:59:22.762721+00:00"
   }
 ]

@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 101.20592830925159,
+  "cash": 86.20592830925159,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -204,15 +204,15 @@
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-17T08:37:35.369382+00:00"
     },
-    "78488629537031355622181847750821467066025257623870600178201504507552332603984": {
-      "market": "Guangzhou: James Kent Trotter vs Mitsuki Wei Kang Leong",
-      "slug": "atp-trotter-leong-2026-09-17",
-      "outcome": "James Kent Trotter",
-      "shares": 102.67857142857142,
-      "cost": 10.0,
-      "trader": "HMLSF",
-      "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-      "opened": "2026-09-17T08:41:17.527644+00:00"
+    "33043428682578892379113670073585902332825160808524856905751922321093534835502": {
+      "market": "Guangzhou: Alexandr Binda vs Fajing Sun",
+      "slug": "atp-binda-su-2026-09-17",
+      "outcome": "Fajing Sun",
+      "shares": 22.058823529411764,
+      "cost": 15.0,
+      "trader": "Justluck9",
+      "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+      "opened": "2026-09-17T08:55:41.984433+00:00"
     }
   },
   "seen_trades": [
@@ -1988,15 +1988,24 @@
     "0x20edaff9c8235fc6f740d984c2932ee7341a6b6ddaae35d7647117a4b269cdea",
     "0x1f55b73a30409dbc8aa49c171754d50eedc7a18f9a9d2d80d650e45ce70915b5",
     "0x350be5f58f04f289b0e9accbeeba2465cea7c3ed991b5dbcf3b0006a012a1c23",
-    "0x581372b688fd017d3f2594cea1d89679f06c5db1fb206af2d8124c0c14d61e60"
+    "0x581372b688fd017d3f2594cea1d89679f06c5db1fb206af2d8124c0c14d61e60",
+    "0x177760e96270cc2306f8e3021840f3701512d2742b8749754cd25860555a89ef",
+    "0x478473f89c49238671b3b14bf794d296649f8178e99b3185f718353e3495e3e0",
+    "0x7e594e3dac23c8c36d20373708af15471243c542df5f09e26da3a6ab0a3d1368",
+    "0x4780af9069cb0edf4b0bf4c141d77ca8cfe1d7b919b5e0dd985bdbe5ce5b1591",
+    "0x7771004c5992fda8dad186bcb13dbeb024972cc7c10cfd1b7cb78bf4b0812a85",
+    "0x9aa21419379c1e4cc6c0009aef514a6a1745763f44f5864d0829d6ac6c37a42f",
+    "0xe053e0a86a22d6692fbc1d57b74a0cbbca7c62161f87c6578349170a4bdf215f",
+    "0x866176a4ee0250d79339728c572f3b491c19083e49bc8be13dcbb63d3aa3dff7",
+    "0x83fe20813d690bb20a860d460eef430e6c062e4db77c387b31028ba4aea01def"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T08:53:49.677513+00:00",
-  "realized_pnl": 1.2059283092515969,
-  "trades_executed": 52,
+  "last_run": "2026-09-17T08:59:26.205484+00:00",
+  "realized_pnl": -8.794071690748403,
+  "trades_executed": 55,
   "wins": 3,
-  "losses": 2,
-  "skipped": 1001,
+  "losses": 3,
+  "skipped": 1007,
   "failed": 0,
   "initialised": true,
   "paused": false
