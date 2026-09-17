@@ -262,7 +262,7 @@ footer .ghost{padding:7px 14px;font-size:.78rem}
   <footer>
     <span id="stamp"></span>
     <span class="pill" id="mode-pill"><i class="dot-s"></i><span id="mode-text">paper</span></span>
-    <button id="refresh" class="ghost">Refresh</button>
+    <button id="refresh" class="ghost">Refresh now</button>
   </footer>
 </main>
 
@@ -305,6 +305,7 @@ async function unlock() {
     $("panel").classList.remove("hide");
     render(data);
     loadSettings();
+    startPolling();
   } catch (e) {
     PIN = "";
     $("err").textContent = e.message;
@@ -526,6 +527,30 @@ $("save").onclick = async () => {
   }
 };
 
+/* ---------------- auto refresh ---------------- */
+// The bot pushes state every 5 minutes, so polling every 45s keeps the page
+// close to live without hammering GitHub. Paused while the tab is hidden —
+// no point fetching for a page nobody is looking at.
+let poller = null;
+
+async function tick() {
+  if (!PIN || document.hidden) return;
+  try {
+    render(await post("/api/data", {}));
+  } catch (e) {
+    $("stamp").textContent = "Couldn't reach the bot's data. Retrying\u2026";
+  }
+}
+
+function startPolling() {
+  if (poller) clearInterval(poller);
+  poller = setInterval(tick, 45000);
+}
+
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) tick();
+});
+
 /* ---------------- resume session ---------------- */
 (async () => {
   const saved = sessionStorage.getItem("pin");
@@ -537,6 +562,7 @@ $("save").onclick = async () => {
     $("panel").classList.remove("hide");
     render(d);
     loadSettings();
+    startPolling();
   } catch { PIN = ""; sessionStorage.removeItem("pin"); }
 })();
 </script>
