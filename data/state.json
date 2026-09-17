@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 23.416952652282937,
+  "cash": 18.416952652282937,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -244,15 +244,15 @@
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-17T14:10:18.125661+00:00"
     },
-    "27268294627297121033899728538432597757598712807751491414203624913085480652141": {
-      "market": "Rennes: Francesco Maestrelli vs Yanis Durand",
-      "slug": "atp-maestre-dur-2026-09-17",
-      "outcome": "Yanis Durand",
-      "shares": 83.33333333333334,
+    "21529248348588341120611822839549922926489989365144638757363115249501298987273": {
+      "market": "Caldas da Rainha: Francisca Jorge vs Victoria Jimenez Kasintseva",
+      "slug": "wta-jorge-kasints-2026-09-16",
+      "outcome": "Victoria Jimenez Kasintseva",
+      "shares": 14.705882352941176,
       "cost": 5.0,
       "trader": "HMLSF",
       "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
-      "opened": "2026-09-17T14:31:29.592137+00:00"
+      "opened": "2026-09-17T14:40:23.082599+00:00"
     }
   },
   "seen_trades": [
@@ -2918,15 +2918,37 @@
     "0xff1ff2e20dd53dfc9a2264b826299119f94e9c1b6d86bdde3e33920874601aba",
     "0x063619964a7793325145773d43a09f30c088c39b44354192112c05c1b284f1b9",
     "0x63ef9da11434547127c408148b7f4ec27a7589b311e40fbc044cac30cc94061c",
-    "0x7e7da6e4765576c0b3c2bce1f80f0aafa39d5701d190b3ecdc1d34e535d530d8"
+    "0x7e7da6e4765576c0b3c2bce1f80f0aafa39d5701d190b3ecdc1d34e535d530d8",
+    "0x767235718e041e08afbf6e8e9e498c1f9461df7329948340e2aa2133a1804ca3",
+    "0x8cc55882e8e9f11ed6f022be9cdc69c561b3d1c0e4acb49ee1abee1499475a17",
+    "0xa1930cd4634df24542ccf4c9d6a4427918f0d2c0503e1ef0a1f05263d0ed3cfd",
+    "0x782a433aeaa1b31a793962f60e23a99f5c3dca7dceb114ae017c6481250e0cd8",
+    "0x16bfa0ffbbd3d898d356eb46031dad476892c9fdfb5bfdcf7e217a3ebae1bc7c",
+    "0x6ce6eed1bb58ee6da30274a2e2e3ef444067088a70296f3a3c1ebadd2f6071c3",
+    "0x04b932e71f2d4b465dba2b3691e2d6a1dfccb5041b86a703a566957873132042",
+    "0x26941c140d35b153f8cfcd43aa7fe4bc0542616679df48c8ef613aa71f24cd68",
+    "0xa17a2ec8a7eb44834bb9bbfc700a2d48a87c0e25264c0ed3cd003e131211d323",
+    "0xf5e44db90b2eaa3948bc92900611779ce2dcddafaac8359b2c4e32a3e1a56e4c",
+    "0x1ee2f92676c1148beb84d380a469472ea0b93884345250f68f141c11526b575d",
+    "0xd584fbe13874e38c3be703692f82d9add62fd90d9b32abc0065305868977ed69",
+    "0xd5bc249b24c714af7eb77bd7aed12c402484aa6521ea42b484862cb5c0fff3f4",
+    "0x3f13826108fa7ff9b75da570e0794f86e2824bb294a5fadf662cecef637e798b",
+    "0xec7aff9461218ef5ea26427b039e9dba1f2c0267b16b8dd313a105c9c17d13bd",
+    "0x7ad810c48cc2663e7582bbd1d7a03b91f1d1cfe5c5b8ac06a15bd938e55384d0",
+    "0xaea5e126da251819f07df92e447d04b35373d50d11ef0428c38f610529aa49a6",
+    "0x0a69acf407b1b687b97df2c5f5f9f09ba8049f928820d1eea9ddccfa528eaf1d",
+    "0x5a2813ad9ada92d2d320684fbb4089b1dd147ca6e3f2e3af625c67ac8608d0e1",
+    "0x7511d372cffb96af2c65b7ed688e815cb5dbce5ee7f651fa6b8486b742d2fb9d",
+    "0xee3a9e521a1659ec594d6df430ddd1ce50cc333b5877f4e2d7e3a7a7bca5fd5d",
+    "0x66351a0aaea7b0620298153088e4981b3f6246ee5c1491cd479f2120c7e4af03"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T14:39:05.230510+00:00",
-  "realized_pnl": -56.58304734771706,
-  "trades_executed": 72,
+  "last_run": "2026-09-17T14:44:28.432894+00:00",
+  "realized_pnl": -61.58304734771706,
+  "trades_executed": 73,
   "wins": 6,
-  "losses": 8,
-  "skipped": 1871,
+  "losses": 9,
+  "skipped": 1892,
   "failed": 0,
   "initialised": true,
   "paused": false
