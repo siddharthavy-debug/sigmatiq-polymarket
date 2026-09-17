@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T05:47:55.187044+00:00",
+  "updated": "2026-09-17T05:53:19.196636+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
@@ -53,7 +53,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 22,
+      "skipped": 25,
       "failed": 0,
       "benched": false
     },
@@ -186,14 +186,14 @@
     {
       "trader": "purplegatto",
       "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
-      "copied": 7,
+      "copied": 8,
       "closed": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 54,
+      "skipped": 55,
       "failed": 0,
       "benched": false
     },
@@ -269,5 +269,5 @@
     }
   ],
   "benched_wallets": [],
-  "total_logged": 858
+  "total_logged": 863
 }

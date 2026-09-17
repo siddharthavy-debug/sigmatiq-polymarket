@@ -10446,5 +10446,69 @@
     "their_usd": 3.629825,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T05:47:54.455538+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 961.81538,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T05:48:30.569757+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 833.51521,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T05:49:06.398438+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Red Bull Salzburg win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 588.38954,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T05:49:06.929837+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 2301.92215,
+    "detail": "price 0.968 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T05:50:18.268720+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "OFI vs. TSG 1899 Hoffenheim: 1st Half O/U 1.5",
+    "outcome": "Over",
+    "their_usd": 48.28766,
+    "detail": {
+      "shares": 12.1951,
+      "price": 0.41,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T05:52:06.508578+00:00"
   }
 ]

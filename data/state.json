@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 206.2059283092516,
+  "cash": 201.2059283092516,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -48,8 +48,8 @@
       "market": "OFI vs. TSG 1899 Hoffenheim: 1st Half O/U 1.5",
       "slug": "uel-ofi-hof-2026-09-17-first-half-total-1pt5",
       "outcome": "Over",
-      "shares": 12.195121951219512,
-      "cost": 5.0,
+      "shares": 24.390243902439025,
+      "cost": 10.0,
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T04:28:08.539645+00:00"
@@ -1757,15 +1757,20 @@
     "0xd1efd1682722e7269c10b4d1e2218c18784cac51b3241d812cae8ee00fc69770",
     "0x17bf9f05cbcc53522314f3b90cd6f605a02da67bf2af3c28de01d396d16d2aa5",
     "0xdecf0f6d27637fee5049c8ff6c0440b115c466d8e15f68640b9059bc06cba3c6",
-    "0x3956fb530bf48c778b51811e82bec324668b5f744f74e1c36dee48958a6c9ae0"
+    "0x3956fb530bf48c778b51811e82bec324668b5f744f74e1c36dee48958a6c9ae0",
+    "0x078aefb9bce6cee5482bf79292a8f2f4bc089b2862102dac6ddd5bd7f55d5150",
+    "0x14f8b430978efe86a2c079e799f1e534c9c0040f413a9e817a7c5ce3d0456048",
+    "0x762a86e5821809df96de07414e45218f06b8139a984d62fa45a7bf4b6074e174",
+    "0x6903be47901ac7e5b5f3f5b43ba5b1435e4d49409180e504129bb3dac46743cc",
+    "0xba13f9ea50fa25316615e8e2d90d1232a50c1f94d97f64156f044f0c4b95b9a9"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T05:47:55.183557+00:00",
+  "last_run": "2026-09-17T05:53:19.193097+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 31,
+  "trades_executed": 32,
   "wins": 3,
   "losses": 1,
-  "skipped": 881,
+  "skipped": 885,
   "failed": 0,
   "initialised": true,
   "paused": false
