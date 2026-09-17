@@ -14634,5 +14634,41 @@
     "their_usd": 12634.4181,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T11:03:34.993930+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Rennes: Anton Matusevich vs Tristan Schoolkate",
+    "outcome": "Tristan Schoolkate",
+    "their_usd": 61.29585,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T11:04:58.026589+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Red Bull Salzburg win on 2026-09-17? AND Will Real Betis Balompi\u00e9 win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 168.490462,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:07:36.821847+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Szczecin: Marco Cecchinato vs Marvin Moeller",
+    "outcome": "Marco Cecchinato",
+    "their_usd": 2077.51487,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:08:54.734599+00:00"
   }
 ]
