@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 30.285002561903475,
+  "cash": 25.285002561903475,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -234,16 +234,6 @@
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-17T10:56:19.620309+00:00"
     },
-    "92615786101085944482260395038685429000373730245184673428769341465630388782859": {
-      "market": "Szczecin: Marco Cecchinato vs Marvin Moeller",
-      "slug": "atp-cecchin-moelle-2026-09-17",
-      "outcome": "Marvin Moeller",
-      "shares": 14.285714285714286,
-      "cost": 5.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T11:53:47.500285+00:00"
-    },
     "30609825562588777460302881902921940340864693457140599987794587733544839156656": {
       "market": "Counter-Strike: Vitality vs magic (BO3) - StarLadder StarSeries Playoffs",
       "slug": "cs2-vit-mgc-2026-09-17",
@@ -253,6 +243,16 @@
       "trader": "HMLSF",
       "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
       "opened": "2026-09-17T12:52:01.646855+00:00"
+    },
+    "29440225916515280402790175457486692612774734669771657209886639290225960692700": {
+      "market": "Caldas da Rainha: Jeline Vandromme vs Elena Malygina",
+      "slug": "wta-vandrom-malygin-2026-09-17",
+      "outcome": "Jeline Vandromme",
+      "shares": 8.131950090379462,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-17T13:55:09.912614+00:00"
     }
   },
   "seen_trades": [
@@ -2691,15 +2691,30 @@
     "0xd486221d1e5b5d497ebc7b7f7e65da2015b848bd94d9781a73654840c446d629",
     "0x62466283c5ebb2d52fea663075b413eab51e050ddb84b77d63d6a1ed8f4b2907",
     "0x67d3a312e77084af0e3e40c1daff3df4cb930f83163d3037d1420f8853011e16",
-    "0x4cc03ee2db0e5e7918b0957850f9d4a11d04be5e6355e490b9f027ebb9413bed"
+    "0x4cc03ee2db0e5e7918b0957850f9d4a11d04be5e6355e490b9f027ebb9413bed",
+    "0x96c9755cee8b037c9ec81f10f1e8ddecd5b518382e9e08afb266dacf53a698c7",
+    "0x11dbff3200143b4e86ad2f789065220b14887dfe634eda952cf8f321b26a357c",
+    "0x866c600466f75e633dae51320df34d4b4db9a9a854c5d1fa76113bddfe526078",
+    "0x275c6e6d774456df704e5b30dd330e99da5d890a0da155fe0f9d7f6a5fca1805",
+    "0x2253e7917e1116d8412ab0a82dff910bcfd9f8259bf02197fdcc6f5c380dc2c1",
+    "0x52ecb0740fbb8b5c1442078525dc9eb325fff20cba43cb610e874c2dea1fc71b",
+    "0xf557e08265ad710c9ad007f79bbf1e0561970462adf240ff921a90dd3f96b85a",
+    "0xe91a990fd436912ce6a13757eec8a774958f7605004e7c39dff2413cd2aadaca",
+    "0xb8080c35e32e622ce2e2b21983b5783a1bd08fe31a270ed72a4cda1430006ede",
+    "0xe49d07b76f6bd4d1f7388ae9159bbba0d7eac4c2bc88087a614ba728cd39044d",
+    "0x1c9f87f70176dfdb9ac41998d88d0236559784705286b9d41c14836761be6c29",
+    "0xfbc9c3316456b9591956b5d68602a06c1f8b5b3f30c8048d33c5600c2cfee5b4",
+    "0x422bcb967fa2b62eee44f73ec589ff9844d9da0344e2dae062786ab3210fb28a",
+    "0x64fe1d27b8ba1db34e28be7f2b77a4c586baf34891b468f4f451b7fd1de6a5aa",
+    "0x11d1b8b5c4b2495cfbc260fe332686c66fc1a3983f2bae96b0e060d7cf41e614"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T13:49:48.720340+00:00",
-  "realized_pnl": -49.714997438096525,
-  "trades_executed": 69,
+  "last_run": "2026-09-17T13:55:12.396540+00:00",
+  "realized_pnl": -54.714997438096525,
+  "trades_executed": 70,
   "wins": 5,
-  "losses": 6,
-  "skipped": 1647,
+  "losses": 7,
+  "skipped": 1661,
   "failed": 0,
   "initialised": true,
   "paused": false
