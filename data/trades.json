@@ -1,0 +1,78 @@
+[
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "DCAAA",
+    "trader_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+    "market": "W35 Shenyang: Han Shi vs Yujia Huang",
+    "outcome": "Yujia Huang",
+    "their_usd": 8.22109,
+    "detail": {
+      "shares": 15.7233,
+      "price": 0.318,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T03:56:16.092656+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 38.68,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T03:58:25.415412+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 89.081213,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T03:58:25.415771+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 38.68,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T03:58:25.416064+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 29.303031,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T03:58:25.416339+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 284.239394,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T03:58:25.416624+00:00"
+  }
+]

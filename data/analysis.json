@@ -1,0 +1,35 @@
+{
+  "updated": "2026-09-17T04:00:37.364020+00:00",
+  "by_trader": [
+    {
+      "trader": "DCAAA",
+      "wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+      "copied": 1,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 0,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "0F62",
+      "wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+      "copied": 0,
+      "closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "pnl": 0.0,
+      "pnl_per_closed": null,
+      "skipped": 5,
+      "failed": 0,
+      "benched": false
+    }
+  ],
+  "benched_wallets": [],
+  "total_logged": 6
+}
