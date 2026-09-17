@@ -12444,5 +12444,65 @@
     "their_usd": 2.90371,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T09:16:17.688688+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Red Bull Salzburg win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 4.84106,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:18:11.251377+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Alonzo Menifield vs. Iwo Baraniewski (Light Heavyweight, Main Card) AND UFC 331: Marlon Vera vs. Charles Jourdain (Bantamweight, Prelims) AND UFC 331: Gable Steveson vs. Sean Sharaf (Heavyweight, Prelims) AND UFC 331: Patricio Pitbull vs. Dooho Choi (Featherweight, Main Card) AND UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims) AND UFC 331: Arman Tsarukyan vs. Mauricio Ruffy (Lightweight, Main Card)",
+    "outcome": "",
+    "their_usd": 197.29191,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:18:49.135599+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Lions vs. Bills AND Will Real Betis Balompi\u00e9 win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 11.380826,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:19:26.571534+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 2.180741,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T09:20:39.597335+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.38,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T09:20:39.608655+00:00"
   }
 ]
