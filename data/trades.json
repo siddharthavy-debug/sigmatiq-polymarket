@@ -14754,5 +14754,77 @@
     "their_usd": 120.64131,
     "detail": "price 0.038 below 0.05 (longshot)",
     "timestamp": "2026-09-17T11:14:50.050049+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "NRG",
+    "their_usd": 74.0944,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:16:08.324030+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 531.48058,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:16:08.333766+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Le Havre AC win on 2026-09-19? AND Will AS Monaco FC win on 2026-09-18? AND Will RC Strasbourg Alsace win on 2026-09-19? AND Will Stade Brestois 29 win on 2026-09-20? AND Will FC Lorient win on 2026-09-19? AND Will Angers SCO win on 2026-09-19? AND Will Lille OSC win on 2026-09-20? AND Will Stade Rennais FC 1901 win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 2999.996424,
+    "detail": "price 0.997 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T11:16:11.087926+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will Getafe CF win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 17442.39765,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:16:50.113773+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "MOUZ",
+    "their_usd": 1820.04188,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:18:06.537070+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will SV 07 Elversberg win on 2026-09-20? AND Will 1. FC K\u00f6ln win on 2026-09-19? AND Will 1. FSV Mainz 05 win on 2026-09-19? AND Will RB Leipzig win on 2026-09-20? AND Will BV Borussia 09 Dortmund win on 2026-09-19? AND Will FC Bayern M\u00fcnchen win on 2026-09-18? AND Will SC Freiburg win on 2026-09-19? AND Will FC Augsburg win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 1533.321905,
+    "detail": "price 0.997 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T11:20:07.025994+00:00"
   }
 ]
