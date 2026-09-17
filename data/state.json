@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 21.832654845237087,
+  "cash": 1.8326548452370872,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -203,6 +203,26 @@
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-17T21:20:54.041608+00:00"
+    },
+    "84500340313475375950504898775785046484424111262008180269738244197036218841297": {
+      "market": "Boston Red Sox vs. Texas Rangers: O/U 8.5",
+      "slug": "mlb-bos-tex-2026-09-17-total-8pt5",
+      "outcome": "Over",
+      "shares": 11.11111111111111,
+      "cost": 5.0,
+      "trader": "brendoncarson",
+      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "opened": "2026-09-17T21:31:18.762477+00:00"
+    },
+    "50689537550388103457226777624506327705984886909451933378543629767643939508745": {
+      "market": "Will Arsenal FC win on 2026-09-19?",
+      "slug": "epl-bri-ars-2026-09-19-ars",
+      "outcome": "No",
+      "shares": 35.714285714285715,
+      "cost": 15.0,
+      "trader": "CoffeeDespiser",
+      "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+      "opened": "2026-09-17T21:32:36.587700+00:00"
     }
   },
   "seen_trades": [
@@ -5532,15 +5552,31 @@
     "0xf4e95f6f129e11fbcd45dd0d7678606823418d5e5b2110cc291784beec200fc5",
     "0xf611ab63ccf0e5677e0d9ff142cc19bafbddf14dd48205b5cc20947e9e484237",
     "0x950a9ac51de399d50717c29137a4faf144e1b26748991e6e2b9f944ecd943222",
-    "0x56391f3935e97d4bea781216c169620b5b89bc5331574973036f25f5517d3016"
+    "0x56391f3935e97d4bea781216c169620b5b89bc5331574973036f25f5517d3016",
+    "0xb1e081c283e3fa6d56a6db358efbc7da356b6301f46a034bce9cd06729f5292c",
+    "0xe933551fc044ff3c41710ff1bd7c77d7bf2e9107171ffe6325455bd58e4af549",
+    "0x97fe1978f58716959af88a8e9db85c18ca3b4f097a665df155c5fef495e74740",
+    "0x1b6f5ea56f687733dc4024b07f13173e75c740070b33a1ef78799dd8603a1aa0",
+    "0x43bb03f75ccc5e272b38ff1b7ae948da6363d26c8a615e7d0657d0efa43e086a",
+    "0x39ba625cc4ad4091c8f10fca8d0d6785041b8503e3479d44aeea9bf98527af35",
+    "0xa876eb5df38124399a16511cb96eca65bd88b5aad31c27f504fe252a114517ec",
+    "0x6f880a1446b78c69fb0846cc75a10825ff0766c965766a8991c8b0c990247e83",
+    "0x9b8fdfd2f4cff7d6b7020f7f6d00fd39c0b377812b1ccb1b9c4e9f94b5ee47fb",
+    "0x1491555b709de4dff8d5b278aa8acabc81c7b715cf79badfb3a59c6c4cc1cbfc",
+    "0x85d77e8f7f3acc9b11131d7ad3fb7d16d0233514e25c4aa59af850959e2ef2f0",
+    "0x76978a152e1f4188675cabff53cad6621e22886785cff7f2f98d9c666eede265",
+    "0x6f09a4b8dfd13d1949736a663dd9f0461a8bacdd57c981ed849ccddad9ca9adb",
+    "0xf449d46a58686ab810e5844fbe8afa2e44cd4877bcbf6ffe8ae6f300d3609e7a",
+    "0x90727a2aa26cf5504b3a36234aae8670b8b6f627f3c9efc25091c2fc297ca196",
+    "0xbede72c834eaf442a7305c5a6d6c2134cc71bde81a7f7d9e63b8be272738cb18"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T21:29:21.960329+00:00",
+  "last_run": "2026-09-17T21:34:35.238265+00:00",
   "realized_pnl": -86.8873451547629,
-  "trades_executed": 148,
+  "trades_executed": 152,
   "wins": 25,
   "losses": 26,
-  "skipped": 4459,
+  "skipped": 4471,
   "failed": 0,
   "initialised": true,
   "paused": false

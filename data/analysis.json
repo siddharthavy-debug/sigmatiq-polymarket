@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T21:29:21.974142+00:00",
+  "updated": "2026-09-17T21:34:35.251961+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -11,7 +11,7 @@
       "win_rate": 66.7,
       "pnl": 44.06,
       "pnl_per_closed": 2.45,
-      "skipped": 283,
+      "skipped": 286,
       "failed": 0,
       "benched": false
     },
@@ -32,7 +32,7 @@
     {
       "trader": "brendoncarson",
       "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
-      "copied": 10,
+      "copied": 11,
       "closed": 1,
       "wins": 1,
       "losses": 0,
@@ -109,7 +109,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 42,
+      "skipped": 43,
       "failed": 0,
       "benched": false
     },
@@ -179,7 +179,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 24,
+      "skipped": 26,
       "failed": 0,
       "benched": false
     },
@@ -221,7 +221,7 @@
       "win_rate": 60.0,
       "pnl": -9.21,
       "pnl_per_closed": -1.84,
-      "skipped": 713,
+      "skipped": 714,
       "failed": 0,
       "benched": false
     },
@@ -235,7 +235,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 377,
+      "skipped": 381,
       "failed": 0,
       "benched": false
     },
@@ -256,7 +256,7 @@
     {
       "trader": "CoffeeDespiser",
       "wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
-      "copied": 7,
+      "copied": 10,
       "closed": 1,
       "wins": 0,
       "losses": 1,
@@ -291,7 +291,7 @@
       "win_rate": 25.0,
       "pnl": -29.13,
       "pnl_per_closed": -7.28,
-      "skipped": 481,
+      "skipped": 482,
       "failed": 0,
       "benched": false
     },
@@ -313,5 +313,5 @@
   "benched_wallets": [
     "0x1610db79f753a80207e1d66716be9e91e627ae49"
   ],
-  "total_logged": 4367
+  "total_logged": 4383
 }

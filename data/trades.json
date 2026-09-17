@@ -53326,5 +53326,213 @@
     "their_usd": 19.6156,
     "detail": "settles in 105d, too far out",
     "timestamp": "2026-09-17T21:29:20.618665+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 54.18855,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T21:29:59.636942+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox AND Philadelphia Phillies vs. New York Mets AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 1499.99948,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:30:01.093387+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+    "outcome": "Magdalena Frech",
+    "their_usd": 328.3875,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T21:30:38.313626+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Eva Lys",
+    "their_usd": 4.17048,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T21:30:38.360325+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 7.401905,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T21:30:39.052929+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Boston Red Sox vs. Texas Rangers: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 23.85,
+    "detail": {
+      "shares": 11.1111,
+      "price": 0.45,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T21:31:18.772164+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 5.8,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T21:31:56.897959+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Las Vegas Aces vs. Seattle Storm AND Connecticut Sun vs. Atlanta Dream",
+    "outcome": "",
+    "their_usd": 15.080821,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:31:57.947473+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 12.5",
+    "outcome": "Under",
+    "their_usd": 2.274546,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T21:31:59.035454+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 124.3872,
+    "detail": {
+      "shares": 11.9048,
+      "price": 0.42,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T21:32:36.597539+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 2.5368,
+    "detail": {
+      "shares": 11.9048,
+      "price": 0.42,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T21:33:15.581881+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AS Monaco FC win on 2026-09-18? AND Will Kas\u0131mpa\u015fa SK win on 2026-09-18? AND Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 4.358545,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:33:15.828369+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "US x China agree to pace the AI frontier in 2026?",
+    "outcome": "Yes",
+    "their_usd": 8.21145,
+    "detail": "settles in 105d, too far out",
+    "timestamp": "2026-09-17T21:33:55.016435+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Lions vs. Bills AND Syracuse vs. Pittsburgh",
+    "outcome": "",
+    "their_usd": 37.2231,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T21:33:55.488895+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+    "outcome": "Yes",
+    "their_usd": 548.96918,
+    "detail": "settles in 105d, too far out",
+    "timestamp": "2026-09-17T21:34:31.658545+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 23.6922,
+    "detail": {
+      "shares": 11.9048,
+      "price": 0.42,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T21:34:34.170307+00:00"
   }
 ]
