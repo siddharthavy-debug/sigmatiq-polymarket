@@ -55296,5 +55296,84 @@
     "their_usd": 23.52,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-17T22:47:05.687828+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Lions vs. Bills: O/U 53.5",
+    "outcome": "Over",
+    "their_usd": 99.58368,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:48:24.740965+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 10.5,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:48:24.989511+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers AND Detroit Tigers vs. Chicago White Sox AND Minnesota Twins vs. Los Angeles Angels AND Philadelphia Phillies vs. New York Mets AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 146.326544,
+    "detail": "price 0.960 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T22:48:25.222144+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 43.261871,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:48:25.252294+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+    "outcome": "No",
+    "their_usd": 564.09338,
+    "detail": "settles in 105d, too far out",
+    "timestamp": "2026-09-17T22:49:01.675046+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Rennes: Borna Gojo vs Matteo Martineau",
+    "outcome": "Matteo Martineau",
+    "their_usd": 0,
+    "detail": {
+      "shares": 16.5301,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -5.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T22:50:18.244851+00:00"
   }
 ]
