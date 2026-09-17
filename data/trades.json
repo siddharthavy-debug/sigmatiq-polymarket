@@ -15556,5 +15556,29 @@
     "their_usd": 36.47871,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T11:56:28.157131+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "No one announced as next James Bond?",
+    "outcome": "No",
+    "their_usd": 9.98118,
+    "detail": "settles in 104d, too far out",
+    "timestamp": "2026-09-17T12:00:25.846135+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Krasnodar win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.320339,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T12:02:28.545714+00:00"
   }
 ]
