@@ -54905,5 +54905,113 @@
     "their_usd": 233.72744,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T22:26:03.790216+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Eva Lys",
+    "their_usd": 13.13702,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T22:26:43.464512+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "US announces end of Iranian blockade by December 31, 2026?",
+    "outcome": "Yes",
+    "their_usd": 163.413,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:26:44.594296+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "US announces end of Iranian blockade by December 31, 2026?",
+    "outcome": "No",
+    "their_usd": 109.213,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:26:44.624453+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 2.209524,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T22:27:30.647484+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 5.81381,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T22:28:49.031438+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 34.44,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:28:49.573287+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 331.23686,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:29:27.557000+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Lions vs. Bills: O/U 54.5",
+    "outcome": "Over",
+    "their_usd": 7.31493,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T22:29:28.765851+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 1770.56,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:30:47.078442+00:00"
   }
 ]
