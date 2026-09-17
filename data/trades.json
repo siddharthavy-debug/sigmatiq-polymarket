@@ -12284,5 +12284,33 @@
       "result": "LOST"
     },
     "timestamp": "2026-09-17T08:59:22.762721+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.507778,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T09:01:54.642146+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "AEK vs. MGS Panserra\u00efk\u00f3s: O/U 3.5",
+    "outcome": "Under",
+    "their_usd": 12.840755,
+    "detail": {
+      "shares": 10.6383,
+      "price": 0.4700000055,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T09:05:02.062383+00:00"
   }
 ]

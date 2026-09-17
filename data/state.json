@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 86.20592830925159,
+  "cash": 81.20592830925159,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -213,6 +213,16 @@
       "trader": "Justluck9",
       "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
       "opened": "2026-09-17T08:55:41.984433+00:00"
+    },
+    "34533169010633259780582851465258023697392219358126136707438773395910045659238": {
+      "market": "AEK vs. MGS Panserra\u00efk\u00f3s: O/U 3.5",
+      "slug": "grc-aek-mp-2026-09-17-total-3pt5",
+      "outcome": "Under",
+      "shares": 10.638297747849707,
+      "cost": 5.0,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-17T09:05:02.059143+00:00"
     }
   },
   "seen_trades": [
@@ -1997,15 +2007,18 @@
     "0x9aa21419379c1e4cc6c0009aef514a6a1745763f44f5864d0829d6ac6c37a42f",
     "0xe053e0a86a22d6692fbc1d57b74a0cbbca7c62161f87c6578349170a4bdf215f",
     "0x866176a4ee0250d79339728c572f3b491c19083e49bc8be13dcbb63d3aa3dff7",
-    "0x83fe20813d690bb20a860d460eef430e6c062e4db77c387b31028ba4aea01def"
+    "0x83fe20813d690bb20a860d460eef430e6c062e4db77c387b31028ba4aea01def",
+    "0x65d82c4223d14a848856d31beb327b2169cc8e1164e37f4da3a5fc49adfc0423",
+    "0xd5ac9877ee938bb6b833eb104f8cf7178e65674111b8c1bc7ab81a3982413337",
+    "0x9acd17b6156392989fbc202ea87fe033dd1fda0cd8ba30d1fb3c02bd02f27a7c"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T08:59:26.205484+00:00",
+  "last_run": "2026-09-17T09:05:03.347130+00:00",
   "realized_pnl": -8.794071690748403,
-  "trades_executed": 55,
+  "trades_executed": 56,
   "wins": 3,
   "losses": 3,
-  "skipped": 1007,
+  "skipped": 1009,
   "failed": 0,
   "initialised": true,
   "paused": false
