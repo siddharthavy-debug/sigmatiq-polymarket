@@ -1,11 +1,13 @@
 {
-  "updated": "2026-09-17T19:16:58.352941+00:00",
+  "updated": "2026-09-17T19:22:18.280540+00:00",
   "pinned": true,
   "ranked_on": {
     "max_market_days": 7.0,
     "min_trades": 50
   },
-  "benched": [],
+  "benched": [
+    "0x1610db79f753a80207e1d66716be9e91e627ae49"
+  ],
   "traders": [
     {
       "wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
