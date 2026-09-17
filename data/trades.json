@@ -54369,5 +54369,113 @@
     "their_usd": 49.14,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T22:05:07.067298+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Eva Lys",
+    "their_usd": 107.7408,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T22:05:46.513724+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 7.14,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:05:47.844787+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Team WE",
+    "their_usd": 4.97947,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:06:27.364057+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.158621,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:07:06.559406+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 297.08626,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:07:44.156454+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 2.1,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:07:45.281275+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 2131.5,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:08:22.969608+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Team WE",
+    "their_usd": 47.8255,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:09:42.057666+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Team WE",
+    "their_usd": 48.21132,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:09:42.087650+00:00"
   }
 ]
