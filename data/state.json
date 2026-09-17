@@ -194,16 +194,6 @@
       "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
       "opened": "2026-09-17T08:07:53.386991+00:00"
     },
-    "58453800376078865360558188915734184409714323029815521473852698940606093957834": {
-      "market": "Guangzhou: Petr Bar Biryukov vs Naoya Honda",
-      "slug": "atp-biryuko-honda-2026-09-17",
-      "outcome": "Naoya Honda",
-      "shares": 129.41176470588235,
-      "cost": 10.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T08:22:42.895286+00:00"
-    },
     "35946349809644018221594766900800697897892667107929166603091569173318790894279": {
       "market": "Lions vs. Bills",
       "slug": "nfl-det-buf-2026-09-18",
@@ -1993,15 +1983,20 @@
     "0xd92b6d2fc95b67bf8bfc623c42cfeaf91d0d5bf2c859b24a70db37cce6210b5f",
     "0xb913cd3c5aecd6d72fc30dc93ccea4ebc7025c522a2b3c137699a0e4f10578e7",
     "0x9fd4b29d670592713773f2e6c3d94c536c009b94cd1c9480c153877a305e1523",
-    "0x5a964deaa80792d5b0c0406e460ca08f566c30f4888026a1552beb840f131feb"
+    "0x5a964deaa80792d5b0c0406e460ca08f566c30f4888026a1552beb840f131feb",
+    "0x23b400eb3fede4d9f4416857434908e2311929bd24bfb85e8b6e13c03dacf410",
+    "0x20edaff9c8235fc6f740d984c2932ee7341a6b6ddaae35d7647117a4b269cdea",
+    "0x1f55b73a30409dbc8aa49c171754d50eedc7a18f9a9d2d80d650e45ce70915b5",
+    "0x350be5f58f04f289b0e9accbeeba2465cea7c3ed991b5dbcf3b0006a012a1c23",
+    "0x581372b688fd017d3f2594cea1d89679f06c5db1fb206af2d8124c0c14d61e60"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T08:48:13.583006+00:00",
-  "realized_pnl": 11.205928309251597,
+  "last_run": "2026-09-17T08:53:49.677513+00:00",
+  "realized_pnl": 1.2059283092515969,
   "trades_executed": 52,
   "wins": 3,
-  "losses": 1,
-  "skipped": 996,
+  "losses": 2,
+  "skipped": 1001,
   "failed": 0,
   "initialised": true,
   "paused": false

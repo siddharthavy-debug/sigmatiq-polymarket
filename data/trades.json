@@ -12078,5 +12078,72 @@
     "their_usd": 292.5,
     "detail": "we don't hold this",
     "timestamp": "2026-09-17T08:48:10.734070+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 8.518519,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:49:26.705666+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will ZED FC win on 2026-09-14?",
+    "outcome": "No",
+    "their_usd": 389.83393,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T08:49:27.791285+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guangzhou: Petr Bar Biryukov vs Naoya Honda",
+    "outcome": "Naoya Honda",
+    "their_usd": 0,
+    "detail": {
+      "shares": 129.4118,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -10.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T08:50:40.222950+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guangzhou: James Kent Trotter vs Mitsuki Wei Kang Leong",
+    "outcome": "Mitsuki Wei Kang Leong",
+    "their_usd": 36.07503,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T08:52:33.799916+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will ZED FC win on 2026-09-14?",
+    "outcome": "No",
+    "their_usd": 10.97386,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T08:53:48.427167+00:00"
   }
 ]
