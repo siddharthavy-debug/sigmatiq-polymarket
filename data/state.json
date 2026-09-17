@@ -2,18 +2,8 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 200.0,
+  "cash": 195.72327044025158,
   "positions": {
-    "16914581743837744921924066144221504088269458072204210545924759862772457925117": {
-      "market": "W35 Shenyang: Han Shi vs Yujia Huang",
-      "slug": "itf-shi1-huang2-2026-09-17",
-      "outcome": "Yujia Huang",
-      "shares": 15.723270440251572,
-      "cost": 5.0,
-      "trader": "DCAAA",
-      "trader_wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
-      "opened": "2026-09-17T03:56:16.092616+00:00"
-    },
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
       "slug": "mlb-phi-wsh-2026-09-16",
@@ -93,6 +83,26 @@
       "trader": "curie",
       "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
       "opened": "2026-09-17T04:40:24.508771+00:00"
+    },
+    "52832589576215197252184043292977381915830715436960388126541397637629453656717": {
+      "market": "Phan Thiet 4: Blake Ellis vs Ilia Simakin",
+      "slug": "atp-ellis-simakin-2026-09-16",
+      "outcome": "Ilia Simakin",
+      "shares": 19.23076923076923,
+      "cost": 15.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-17T04:49:16.260738+00:00"
+    },
+    "75734912908474629273709130662509042707558295648869909343529175575041541160470": {
+      "market": "Dota 2: Nemiga Gaming vs Team Lynx (BO3) - European Pro League Group A",
+      "slug": "dota2-nemiga-lynx-2026-09-17",
+      "outcome": "Nemiga Gaming",
+      "shares": 11.818119354908655,
+      "cost": 5.0,
+      "trader": "purplegatto",
+      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "opened": "2026-09-17T04:51:38.396230+00:00"
     }
   },
   "seen_trades": [
@@ -1689,15 +1699,20 @@
     "0x5f4db82438a4a99ad9846d3bc363edba444eed200dfbb011f9c4ed7194490d0a",
     "0xe95b67b0a60911e05e5388ef48a1981366a8c53a7b59950f56b341f70bf18c31",
     "0x84542aea546721cfffa7ccf97b36953f50aad9eeae6714ad61b8d4f65529cf87",
-    "0x4aeda71e77c95e8f10c1c959243c25059a965f2567116a05eff07922b8bca1da"
+    "0x4aeda71e77c95e8f10c1c959243c25059a965f2567116a05eff07922b8bca1da",
+    "0xc8a6beb11c03ac611f9dae0210e988ebb80faffe2174399fbd1197b73e065451",
+    "0x615395a6413b16848197526f529f762824135489a1ccf76c59f72b01bbf91599",
+    "0x1280638fca74d7b49f35b181e3fbe3263009cc3497dbedc40b68ee9257873cca",
+    "0x42facf1ab5b38dd3b0557e1d29fb1a99546d02f85ccf39a413b0f96eaa7e089c",
+    "0xae91c7bfe975dfa59489c566de950dbc4461436dce334b9b1503cd7307c288a6"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T04:48:41.631011+00:00",
-  "realized_pnl": -10.0,
-  "trades_executed": 21,
-  "wins": 0,
+  "last_run": "2026-09-17T04:54:01.310606+00:00",
+  "realized_pnl": 0.7232704402515715,
+  "trades_executed": 25,
+  "wins": 1,
   "losses": 1,
-  "skipped": 853,
+  "skipped": 854,
   "failed": 0,
   "initialised": true,
   "paused": false

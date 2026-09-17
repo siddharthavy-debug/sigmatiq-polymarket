@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-17T04:48:41.634699+00:00",
+  "updated": "2026-09-17T04:54:01.314388+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
       "wallet": "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
       "copied": 1,
-      "closed": 0,
-      "wins": 0,
+      "closed": 1,
+      "wins": 1,
       "losses": 0,
-      "win_rate": null,
-      "pnl": 0.0,
-      "pnl_per_closed": null,
+      "win_rate": 100.0,
+      "pnl": 10.72,
+      "pnl_per_closed": 10.72,
       "skipped": 0,
       "failed": 0,
       "benched": false
@@ -144,21 +144,21 @@
     {
       "trader": "tradecraft",
       "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 1,
+      "copied": 3,
       "closed": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 51,
+      "skipped": 52,
       "failed": 0,
       "benched": false
     },
     {
       "trader": "TRCM",
       "wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "copied": 2,
+      "copied": 3,
       "closed": 0,
       "wins": 0,
       "losses": 0,
@@ -186,7 +186,7 @@
     {
       "trader": "purplegatto",
       "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
-      "copied": 4,
+      "copied": 5,
       "closed": 0,
       "wins": 0,
       "losses": 0,
@@ -269,5 +269,5 @@
     }
   ],
   "benched_wallets": [],
-  "total_logged": 819
+  "total_logged": 825
 }
