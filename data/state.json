@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 205.0,
+  "cash": 200.0,
   "positions": {
     "16914581743837744921924066144221504088269458072204210545924759862772457925117": {
       "market": "W35 Shenyang: Han Shi vs Yujia Huang",
@@ -83,6 +83,16 @@
       "trader": "curie",
       "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
       "opened": "2026-09-17T04:33:58.456702+00:00"
+    },
+    "1497231897654246758209226349151968274156168186568564451106147376174353874945": {
+      "market": "Afghanistan Tour of India T20s: India vs Afghanistan AND Sri Lanka Tour of England T20s: England vs Sri Lanka AND Will Manchester City FC win on 2026-09-17?",
+      "slug": "",
+      "outcome": "",
+      "shares": 16.09269355957649,
+      "cost": 5.0,
+      "trader": "curie",
+      "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "opened": "2026-09-17T04:40:24.508771+00:00"
     }
   },
   "seen_trades": [
@@ -1662,15 +1672,29 @@
     "0xc810e5a992570cb0a7765db1b9285e731747aa2207342b36b8a100c68d57f893",
     "0x90d83cfd0bdbfc2270f9b3b454a678f4f5dcd9ef6ebdb11779c1b32d30de6838",
     "0xa2a923ad3899eb8781b65cfe8fbd33bb945f3bb8e13381c513c828eec271e6ef",
-    "0x77f1fdbc3b0a609c1760f0f6d5284b469a980a14b591de84249543627b1b8745"
+    "0x77f1fdbc3b0a609c1760f0f6d5284b469a980a14b591de84249543627b1b8745",
+    "0x0519de13c64013ba15c2c675b63f8bf0ab22ee3ab1defdc03c67e19d62de454b",
+    "0xd087596f3ea5a9132d9163aa58e0d661dd1d31b9e10451e5024f350b11d2ea8e",
+    "0x4453211b770679ed8ad4685e5b8cead57a0eec6ad74a344f950a8f1ff1ed90cb",
+    "0xa0607dd393166ed9ce43ceb6dbd857837d2b7dde9a0d5e3eb427022096d91614",
+    "0xd319e909ef586785055f02e43f37942f1aa34618a4c30c0acb14c7da9b8b3d38",
+    "0x4934290744ab8d2ae0ab19b16ec0a2407938bb061bc4b6aa9a11227b75890ba3",
+    "0x4c4bc9f98a357cc05cd60f31bddad00406095a626a60785063b3d2e09242a661",
+    "0xb46b3b9af928518519d406da28bfabca50788b6ccc1659e6745f990d163259da",
+    "0x92812a778f0111c000119b47d3c1d59e0377fd4388dcea5e5799d6a98a576233",
+    "0x402488abba56928b03841c4690e12847ac3171f4ac6b45a3d6b21cdccfc3352b",
+    "0x769f8c0328a3a525a8cce383c20e57ccb02f98da13a5c0915a3db60ec4668e8c",
+    "0x2101f64f98464e914e6d731912fc4351d3eba3a5e81bc2786b90b54ed8fd19a4",
+    "0x24c7ea6a01b80a1c32a29e0fd19eb8daa77361808250c3b24bb6747b8dbc0e0a",
+    "0x5f4db82438a4a99ad9846d3bc363edba444eed200dfbb011f9c4ed7194490d0a"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T04:38:04.310819+00:00",
+  "last_run": "2026-09-17T04:43:22.434200+00:00",
   "realized_pnl": -10.0,
-  "trades_executed": 20,
+  "trades_executed": 21,
   "wins": 0,
   "losses": 1,
-  "skipped": 837,
+  "skipped": 850,
   "failed": 0,
   "initialised": true,
   "paused": false
