@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 29.953460256087737,
+  "cash": 19.953460256087737,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -144,16 +144,6 @@
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-17T14:10:18.125661+00:00"
     },
-    "33202224610280334678651164710853322679834574319557821785419566678346528011717": {
-      "market": "Will Manchester City FC win on 2026-09-17?",
-      "slug": "efl-mnc-nor-2026-09-17-mnc",
-      "outcome": "No",
-      "shares": 136.36363636363637,
-      "cost": 15.0,
-      "trader": "SharkbetX-com",
-      "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
-      "opened": "2026-09-17T16:13:29.967008+00:00"
-    },
     "114830274262414238497410728549286250584475951111960867542111553086753728412774": {
       "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
       "slug": "bun-bay-uni-2026-09-18-bay",
@@ -243,6 +233,16 @@
       "trader": "TRCM",
       "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
       "opened": "2026-09-17T19:20:56.003205+00:00"
+    },
+    "94788035134295357104047499194063198372574398024336082352134678386314954671336": {
+      "market": "Tiburon: Timo Legout vs Bryce Nakashima",
+      "slug": "atp-legout-nakash-2026-09-16",
+      "outcome": "Bryce Nakashima",
+      "shares": 21.338724168912847,
+      "cost": 10.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-17T19:34:16.776058+00:00"
     }
   },
   "seen_trades": [
@@ -5253,15 +5253,26 @@
     "0x12135607ab8dfad060e62414f4cc3f9eec5963ac6feae89e7fafb44678e73eb9",
     "0x837ca1a4cfb6c201db9f451d43c648aae380c087fba4a8742e102482eaacc34a",
     "0xeac982d3697e0b4baca82f067f409e8da1b675d2c17d5a629d71233a40b6e5e1",
-    "0x682d1b6e4d4534d92143711d610acf4fec5f970501665e08e98ddc125a215b19"
+    "0x682d1b6e4d4534d92143711d610acf4fec5f970501665e08e98ddc125a215b19",
+    "0x31f56856474919a8619cb0847cf9ec7d38382f5ece7578ca081bb3d49b1242f6",
+    "0x49330ec9660d5234c71e81d3073e09e3cfa235c163ee1f550da0ce447efc36ff",
+    "0xc31ee50e699bb4e09744b7d0cbf4af94d41d601133aac9c2dcb5cf30a41e688d",
+    "0xd6d88eab3f40a246fd3fff1b93bb7c84194a11defd8000bbf65f16793fc17c79",
+    "0x9770080f7fe9d524d9c42748aeb2885f904ac68f0c5b3145fcab54b03e62de42",
+    "0x31b20d54adece5b9f243836866190b0eee924bb6b0dc9cd14febf9416cc459d7",
+    "0x16f521ad5ceca1b26371ac34a66d58adac961f27912f843d28c3b9c0b6615fd9",
+    "0x97168c5fddc6fdbc4d339a709ba16d144640cda40faaeaa01e14bc4d9bda8c06",
+    "0x1db19c63c7c3f97a59d2ce8356e96749a78202858b41cc6cde829c6a015b8ca6",
+    "0x6dfa95012c81b04503e61d950db6b62823005395703b055162b7e0162b9937e6",
+    "0xd2a93f7fd13c89d8a6956b02a778963131899c1b493a8550032a1d6ab978185a"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T19:32:58.518403+00:00",
-  "realized_pnl": -40.04653974391225,
-  "trades_executed": 128,
+  "last_run": "2026-09-17T19:38:17.487673+00:00",
+  "realized_pnl": -55.04653974391225,
+  "trades_executed": 130,
   "wins": 21,
-  "losses": 19,
-  "skipped": 4160,
+  "losses": 20,
+  "skipped": 4169,
   "failed": 0,
   "initialised": true,
   "paused": false

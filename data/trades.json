@@ -49449,5 +49449,152 @@
     "their_usd": 959.6121,
     "detail": "already hold this market",
     "timestamp": "2026-09-17T19:32:58.482205+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Pittsburgh Pirates (-1.5)",
+    "outcome": "Pittsburgh Pirates",
+    "their_usd": 24.28637,
+    "detail": "price 0.970 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T19:33:38.454726+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Timo Legout vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 84.2751,
+    "detail": {
+      "shares": 11.9048,
+      "price": 0.42,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T19:34:16.785582+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies",
+    "outcome": "San Diego Padres",
+    "their_usd": 300.0,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T19:35:39.023276+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Manchester City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 0,
+    "detail": {
+      "shares": 136.3636,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -15.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-17T19:36:52.128777+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Sara Bejlek",
+    "outcome": "Sara Bejlek",
+    "their_usd": 27.2844,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T19:36:55.665586+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies",
+    "outcome": "San Diego Padres",
+    "their_usd": 126.75,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T19:36:58.188225+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Timo Legout vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 18.98592,
+    "detail": {
+      "shares": 9.434,
+      "price": 0.53,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T19:37:34.929793+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Sao Paulo Open: Jazmin Ortenzi vs Paula Badosa",
+    "outcome": "Paula Badosa",
+    "their_usd": 15.66721,
+    "detail": "price 0.905 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T19:37:36.541614+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Sao Paulo Open: Jazmin Ortenzi vs Paula Badosa",
+    "outcome": "Paula Badosa",
+    "their_usd": 29.06685,
+    "detail": "price 0.904 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T19:37:36.584297+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will Anduril's valuation hit (HIGH) $175B by December 31?",
+    "outcome": "No",
+    "their_usd": 120.27509,
+    "detail": "settles in 106d, too far out",
+    "timestamp": "2026-09-17T19:38:16.110713+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-1.5)",
+    "outcome": "Colorado Rockies",
+    "their_usd": 147.2792,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T19:38:17.452140+00:00"
   }
 ]

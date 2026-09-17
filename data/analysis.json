@@ -1,17 +1,17 @@
 {
-  "updated": "2026-09-17T19:32:58.530227+00:00",
+  "updated": "2026-09-17T19:38:17.499201+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
       "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 28,
+      "copied": 30,
       "closed": 14,
       "wins": 10,
       "losses": 4,
       "win_rate": 71.4,
       "pnl": 33.1,
       "pnl_per_closed": 2.36,
-      "skipped": 260,
+      "skipped": 261,
       "failed": 0,
       "benched": false
     },
@@ -81,7 +81,7 @@
       "win_rate": 75.0,
       "pnl": 5.79,
       "pnl_per_closed": 1.45,
-      "skipped": 597,
+      "skipped": 600,
       "failed": 0,
       "benched": false
     },
@@ -184,20 +184,6 @@
       "benched": false
     },
     {
-      "trader": "SharkbetX-com",
-      "wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
-      "copied": 7,
-      "closed": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "pnl": 0.0,
-      "pnl_per_closed": null,
-      "skipped": 406,
-      "failed": 0,
-      "benched": false
-    },
-    {
       "trader": "CoffeeDespiser",
       "wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "copied": 7,
@@ -263,7 +249,21 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 330,
+      "skipped": 333,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "SharkbetX-com",
+      "wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+      "copied": 7,
+      "closed": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "pnl": -15.0,
+      "pnl_per_closed": -15.0,
+      "skipped": 406,
       "failed": 0,
       "benched": false
     },
@@ -291,7 +291,7 @@
       "win_rate": 0.0,
       "pnl": -35.0,
       "pnl_per_closed": -11.67,
-      "skipped": 464,
+      "skipped": 465,
       "failed": 0,
       "benched": false
     },
@@ -313,5 +313,5 @@
   "benched_wallets": [
     "0x1610db79f753a80207e1d66716be9e91e627ae49"
   ],
-  "total_logged": 4057
+  "total_logged": 4068
 }
