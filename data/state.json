@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 171.2059283092516,
+  "cash": 166.2059283092516,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -138,8 +138,8 @@
       "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
       "slug": "mlb-mil-pit-2026-09-17-total-8pt5",
       "outcome": "Over",
-      "shares": 17.857142857142854,
-      "cost": 10.0,
+      "shares": 26.78571428571428,
+      "cost": 15.0,
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-17T06:50:57.096577+00:00"
@@ -1852,12 +1852,13 @@
     "0x441ac13e26fbf40301ab425ef6986fbd2162fa1b298f1bdb223bf58e5be52652",
     "0xad0a097912c67736ed396d9cf78abfa382069619085972f7aaae7c0b83d25774",
     "0xc0fb26af08aadbad32b69bcab5d6c041b833bef8cd6b4d8cedc9cd6b69989f92",
-    "0x983a18c644a53034389c16d252def1afd3beeb8a9bc3da5c471c06380b023a95"
+    "0x983a18c644a53034389c16d252def1afd3beeb8a9bc3da5c471c06380b023a95",
+    "0xc46ef2cae2d7ecea91a05d9e7d9106c5511dc80b8c1d1c772b11a61983bf7751"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T07:09:09.644967+00:00",
+  "last_run": "2026-09-17T07:14:43.349583+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 38,
+  "trades_executed": 39,
   "wins": 3,
   "losses": 1,
   "skipped": 929,

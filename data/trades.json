@@ -11134,5 +11134,21 @@
     "their_usd": 69.741213,
     "detail": "price 0.967 above 0.9 (no upside)",
     "timestamp": "2026-09-17T07:08:32.004359+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 2.8,
+    "detail": {
+      "shares": 8.9286,
+      "price": 0.56,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T07:14:42.519976+00:00"
   }
 ]
