@@ -10778,5 +10778,29 @@
     "their_usd": 164.515291,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T06:29:57.817282+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers AND Detroit Tigers vs. Chicago White Sox AND Minnesota Twins vs. Los Angeles Angels AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 16.562738,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T06:40:44.755444+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 205.121213,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:41:55.267915+00:00"
   }
 ]
