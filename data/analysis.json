@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T13:06:49.188121+00:00",
+  "updated": "2026-09-17T13:12:09.690455+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
@@ -165,7 +165,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 79,
+      "skipped": 97,
       "failed": 0,
       "benched": false
     },
@@ -179,7 +179,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 112,
+      "skipped": 113,
       "failed": 0,
       "benched": false
     },
@@ -249,7 +249,7 @@
       "win_rate": 66.7,
       "pnl": -4.89,
       "pnl_per_closed": -1.63,
-      "skipped": 85,
+      "skipped": 86,
       "failed": 0,
       "benched": false
     },
@@ -297,5 +297,5 @@
     }
   ],
   "benched_wallets": [],
-  "total_logged": 1471
+  "total_logged": 1491
 }
