@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 0.0019162047040879315,
+  "cash": 31.383245779421713,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -183,16 +183,6 @@
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T20:34:02.217897+00:00"
-    },
-    "18236303895327564005230449038496247143563000560581049285110250055552553698088": {
-      "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
-      "slug": "wta-lys-podoros-2026-09-17",
-      "outcome": "Nadia Podoroska",
-      "shares": 31.381329574717626,
-      "cost": 15.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T21:43:54.747220+00:00"
     },
     "71409027538951379704284322309288540636840429687528553413189385836236881765509": {
       "market": "Rennes: Borna Gojo vs Matteo Martineau",
@@ -5715,15 +5705,29 @@
     "0xe3bfba6cd5bf1dc55527c314845a64121f2b4854e1afdc3aadb18efdac39365a",
     "0x9ffe5f70b4267282cd56592dfb086df636a16962bc4082b81bb06743d9464505",
     "0x522de23cdd2447f11d775508456be0f1b91ffb9f5878fb722e5f4406ae734a72",
-    "0xdd53003f2f0a022dec9c94644dab90a2d2b748e7889c2eec31ac2807630d04be"
+    "0xdd53003f2f0a022dec9c94644dab90a2d2b748e7889c2eec31ac2807630d04be",
+    "0x5143ea5b20c2df315b45d28245d3a9be7f6833cd46ceb2e674ab5ae2d69c0898",
+    "0x2313b7b0ae00e3e4dcbb31cfca768dfae978424639b8bb3d074faef00e86bb98",
+    "0x73bd831391ed9cfa200971d08467f5591f189539baf4c2a29c9d9a8813d62733",
+    "0xf19b3b0c71d882c6fde69668539a7735a99d4e5d8c6e17a80b3a0a32145df038",
+    "0xaff827d57ac0fb0cab9143bd0fa7ce3bf4f6d6ba4db7cb50705f52d9ac132688",
+    "0x57c1873024427c4b56dc5ea2c656bd6a709ecf6b0b58850ac34c57e8e2db21af",
+    "0x44fa96aad9805df3eee7f794578d4664642e26bc6d9dd32fea8bd42f5f14d1f2",
+    "0xec6ed38b8295cef90089e881ba8c02086f0461a02e135596a1e2fb907b157d67",
+    "0x2360d43eeb89c7f39a66b55f47089474cd7da850570a7e4cb06e77f4b3effbc3",
+    "0x6eb62a92a857ee6342a46a723e538288d82650982ec0cb89287dc1cd2f5b9056",
+    "0x24347a5037fb9b6e0e4a880175bee9913ce4eee6b54c056be168cf945311412f",
+    "0x2aa4c1cdb1eb8d279277bbb4a266dc45c77008b41124da8100e691ee9b660a6b",
+    "0x3f7a233adf29f8a3a72aab3b680a693c57a7aae9d567c479f26733d2eeb35ca3",
+    "0xc28ff0380d01a00279cdeb976bd566828088c0284b28b548b0fd4fbc2a99df8b"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T22:31:28.455698+00:00",
-  "realized_pnl": -64.5480837952959,
+  "last_run": "2026-09-17T22:36:43.456571+00:00",
+  "realized_pnl": -48.16675422057827,
   "trades_executed": 160,
-  "wins": 27,
+  "wins": 28,
   "losses": 25,
-  "skipped": 4590,
+  "skipped": 4604,
   "failed": 0,
   "initialised": true,
   "paused": false
