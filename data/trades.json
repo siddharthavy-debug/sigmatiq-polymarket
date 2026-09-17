@@ -11294,5 +11294,77 @@
     "their_usd": 20.561296,
     "detail": "price 0.915 above 0.9 (no upside)",
     "timestamp": "2026-09-17T07:28:41.878538+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Athletics vs. Tampa Bay Rays AND Los Angeles Dodgers vs. Cincinnati Reds AND Milwaukee Brewers vs. Pittsburgh Pirates",
+    "outcome": "",
+    "their_usd": 988.366535,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T07:31:45.031324+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 25.67385,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T07:32:56.684733+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 173.093,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T07:32:56.695043+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 194.367,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T07:32:56.705099+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Villarreal CF win on 2026-09-17? AND Will Real Betis Balompi\u00e9 win on 2026-09-17? AND Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 471.812601,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T07:34:10.490200+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Los Angeles Dodgers vs. Cincinnati Reds: O/U 11.5 AND San Diego Padres vs. Colorado Rockies: O/U 11.5 AND Kansas City Royals vs. Houston Astros: O/U 10.5",
+    "outcome": "",
+    "their_usd": 300.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T07:36:35.853192+00:00"
   }
 ]
