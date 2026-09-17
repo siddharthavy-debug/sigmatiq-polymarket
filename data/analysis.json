@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T05:15:27.696740+00:00",
+  "updated": "2026-09-17T05:20:47.840898+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
@@ -165,7 +165,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 54,
+      "skipped": 55,
       "failed": 0,
       "benched": false
     },
@@ -256,7 +256,7 @@
     {
       "trader": "curie",
       "wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
-      "copied": 4,
+      "copied": 5,
       "closed": 1,
       "wins": 0,
       "losses": 1,
@@ -269,5 +269,5 @@
     }
   ],
   "benched_wallets": [],
-  "total_logged": 842
+  "total_logged": 844
 }

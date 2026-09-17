@@ -10227,5 +10227,33 @@
       "result": "WON"
     },
     "timestamp": "2026-09-17T05:13:37.127363+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Blake Ellis vs Ilia Simakin",
+    "outcome": "Ilia Simakin",
+    "their_usd": 36.02643,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T05:16:02.604280+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card) AND UFC 331: Gable Steveson vs. Sean Sharaf (Heavyweight, Prelims) AND UFC 331: Arman Tsarukyan vs. Mauricio Ruffy (Lightweight, Main Card)",
+    "outcome": "",
+    "their_usd": 558.214782,
+    "detail": {
+      "shares": 7.3844,
+      "price": 0.6771,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T05:19:35.996499+00:00"
   }
 ]
