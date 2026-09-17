@@ -15468,5 +15468,17 @@
       "size": 5.0
     },
     "timestamp": "2026-09-17T11:45:53.115522+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will Lillestr\u00f8m SK win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 2530.62,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:51:10.115000+00:00"
   }
 ]
