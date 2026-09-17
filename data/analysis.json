@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T15:22:11.643455+00:00",
+  "updated": "2026-09-17T15:27:34.474239+00:00",
   "by_trader": [
     {
       "trader": "DCAAA",
@@ -25,7 +25,7 @@
       "win_rate": 100.0,
       "pnl": 6.25,
       "pnl_per_closed": 6.25,
-      "skipped": 84,
+      "skipped": 85,
       "failed": 0,
       "benched": false
     },
@@ -156,20 +156,6 @@
       "benched": false
     },
     {
-      "trader": "us391",
-      "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "copied": 8,
-      "closed": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "pnl": 0.0,
-      "pnl_per_closed": null,
-      "skipped": 183,
-      "failed": 0,
-      "benched": false
-    },
-    {
       "trader": "purplegatto",
       "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "copied": 8,
@@ -179,7 +165,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 218,
+      "skipped": 234,
       "failed": 0,
       "benched": false
     },
@@ -193,7 +179,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 168,
+      "skipped": 170,
       "failed": 0,
       "benched": false
     },
@@ -254,16 +240,30 @@
       "benched": false
     },
     {
+      "trader": "us391",
+      "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "copied": 8,
+      "closed": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "pnl": -5.0,
+      "pnl_per_closed": -5.0,
+      "skipped": 183,
+      "failed": 0,
+      "benched": false
+    },
+    {
       "trader": "tradecraft",
       "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 7,
+      "copied": 8,
       "closed": 5,
       "wins": 3,
       "losses": 2,
       "win_rate": 60.0,
       "pnl": -6.76,
       "pnl_per_closed": -1.35,
-      "skipped": 129,
+      "skipped": 130,
       "failed": 0,
       "benched": false
     },
@@ -305,11 +305,11 @@
       "win_rate": 0.0,
       "pnl": -50.0,
       "pnl_per_closed": -10.0,
-      "skipped": 315,
+      "skipped": 322,
       "failed": 0,
       "benched": false
     }
   ],
   "benched_wallets": [],
-  "total_logged": 2004
+  "total_logged": 2033
 }
