@@ -12312,5 +12312,41 @@
       "size": 5.0
     },
     "timestamp": "2026-09-17T09:05:02.062383+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova AND Lions vs. Bills AND Sri Lanka Tour of England T20s: England vs Sri Lanka AND Rennes: Adrian Mannarino vs Matisse Bobichon AND Will Nigeria win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 520.627843,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:06:18.757708+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 29.814815,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T09:07:31.812071+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Red Bull Salzburg win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 17.84767,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:08:10.489661+00:00"
   }
 ]
