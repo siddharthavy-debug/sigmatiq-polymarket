@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 54.402649620727004,
+  "cash": 49.402649620727004,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -243,6 +243,16 @@
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-17T10:56:19.620309+00:00"
+    },
+    "109820669230010797837419562237740829581854983235897889746149285571461372885028": {
+      "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+      "slug": "cs2-mouz-nrg-2026-09-17",
+      "outcome": "MOUZ",
+      "shares": 6.578947207409977,
+      "cost": 5.0,
+      "trader": "HMLSF",
+      "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+      "opened": "2026-09-17T11:26:00.906734+00:00"
     }
   },
   "seen_trades": [
@@ -2245,15 +2255,31 @@
     "0x9086c59643dc327b176f365d54f0f715762a61cb592de2010587e4fd3456eac0",
     "0xa2baccc11b59b4473410b066c63fbc09e875defa3c2c726926b17b360c444bff",
     "0xf11280c0d2672600e9dbefeb84cd39622ab4b06a4e9bf9685a2fb06a6c948a4c",
-    "0xfd1902c29e1fcbc1a6254321ff8ba0cf9fc16a1ee431156c9a6d202debbbfb60"
+    "0xfd1902c29e1fcbc1a6254321ff8ba0cf9fc16a1ee431156c9a6d202debbbfb60",
+    "0x8eb0cab676354147c955023c121effc5e7cda7c350832a41095dd78a2b1cb705",
+    "0x24a110931f823ad9f41e690f3bd3f23f9c3880adfe1a756b64993aa237df1fb1",
+    "0x47760815c75c494475fb789d0809425b7fba909512921c9d7b2258f5b9a0af2c",
+    "0x785ecfab0c11a94401b0959beae43050f7ee1b0e87bac0d088154323bc84e6ef",
+    "0x374da4d29102e654d444956e9f52a84cc14548e350884aae4f2a3b882c3acffc",
+    "0x07752d2925b118ac55de7cfb45f96194d71a876832dc4c31f7ff3989e4095fed",
+    "0xa386f250a5dee238b12f4d4b186b444caea35918dc07b09f05fd73dd5473ffa0",
+    "0x50bf7ce8111bd9b7660638d4cb042799987a4cb5910b749bb039fd6b479fe773",
+    "0xf668368f3373ea82994a9515825663bb7dde76a79c219e6536107615c5e0e6ae",
+    "0xece8fc5c55025428a7ced1a84031c6004894f4377aca814557605760e5f0cd4c",
+    "0x75110a1c5ad5ee8909dfcd94521d0b34608135e584a8341f14b66ada20a19e6d",
+    "0x3101d56cf6b2bc0859abdb5f2b3702e3117b07a42592c7d69549dc0911c4da19",
+    "0xfa8eefdb0ddebd5fae96f85edb8a91a8096f907c5b06485ab35d523dcde5f224",
+    "0x4a81711a5702b39c125f7ed4c56ee5fb643409723201d1914e1b149b246288f5",
+    "0x2104ae72f36461049b0fa62ab7f7cbdac2eeef404fc440d7c69f685270d059f5",
+    "0x53a90f9043d220baf418f008313eb34cce99b5d43e5ae31c9db978b57c51c9b2"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T11:25:23.846486+00:00",
+  "last_run": "2026-09-17T11:30:41.148013+00:00",
   "realized_pnl": -35.597350379272996,
-  "trades_executed": 63,
+  "trades_executed": 64,
   "wins": 4,
   "losses": 5,
-  "skipped": 1217,
+  "skipped": 1232,
   "failed": 0,
   "initialised": true,
   "paused": false
