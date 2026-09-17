@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 25.285002561903475,
+  "cash": 28.416952652282937,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -244,15 +244,15 @@
       "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
       "opened": "2026-09-17T12:52:01.646855+00:00"
     },
-    "29440225916515280402790175457486692612774734669771657209886639290225960692700": {
-      "market": "Caldas da Rainha: Jeline Vandromme vs Elena Malygina",
-      "slug": "wta-vandrom-malygin-2026-09-17",
-      "outcome": "Jeline Vandromme",
-      "shares": 8.131950090379462,
+    "44106826825033496231136100648787647351284029310303160966072864695990058111146": {
+      "market": "Will Villarreal CF win on 2026-09-17?",
+      "slug": "lal-mala-vil-2026-09-17-vil",
+      "outcome": "No",
+      "shares": 10.0,
       "cost": 5.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T13:55:09.912614+00:00"
+      "trader": "CoffeeDespiser",
+      "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+      "opened": "2026-09-17T14:10:18.125661+00:00"
     }
   },
   "seen_trades": [
@@ -2736,15 +2736,28 @@
     "0x60ffec5878ea10a5410a73ffabb70321eb206ca7ee9881a3b8193725537b0c83",
     "0x7c157dc8a5501b82177397d5cabfb3f6985f1c8273f93fb31740fe825c299b22",
     "0x73fcb27ce89f680c36cd8c8d51da11b4e705c8b3ede9cbe92fea27109bcf0119",
-    "0x4a7f82a1d2378ec07973bf9accdcdb3cef4334322d1f996e1c48caf31f02e18c"
+    "0x4a7f82a1d2378ec07973bf9accdcdb3cef4334322d1f996e1c48caf31f02e18c",
+    "0x7b1277df9d523837ae330ddae5e946f8ece913e4cdf07948b84b391beb230126",
+    "0x9eb1ad46917f4fba10171622da01f904838cbaba4fdc846ed5b29bd8bd192a42",
+    "0x36698704238b4fc14a8b1e31832ac28392f4aaa1dde859f174668818fc8276fd",
+    "0xbe2a588039f876df8384d995239bbb2076d088eff0f6737d5395a0389845ca20",
+    "0x34d7bba6842db283c3453dc0f88aac8d9f2b99ad299e3bf4f4fb4cf84d22e1dc",
+    "0x2faec585879e52f52abf2e9932f0df4fb437365d736b654f7a11c4669a7fe9a7",
+    "0x3dd47363d4c1291004cfd0ad6b39cd5baf1ea689112e8d374f94b199ed29420c",
+    "0x0118f3154cb77132252863a2867f788248b50ba49b89ffe0687c4def75e5fe37",
+    "0x9d828838c6247b4f448ecd7701d74d637e59e29e9edb537b6bbc31df7fd69def",
+    "0x70677a3c5be34272e6d8f8928c67b5750f01a7d9e772366e8154ca8f0d55d5e3",
+    "0x53fea52e126de2931b8662bbdf30d182aaffb4575065b8dd0a19225afbd9ecb9",
+    "0xfd7cafd98c64e8828167444884ed7e210bc0a0624c65b4842f88ee4cac87c753",
+    "0xdab3762dfc37408dd3ca744afb7a186d356e07fdc6514b81e8a69b9e794a0f73"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T14:06:03.292382+00:00",
-  "realized_pnl": -54.714997438096525,
-  "trades_executed": 70,
-  "wins": 5,
+  "last_run": "2026-09-17T14:11:43.197120+00:00",
+  "realized_pnl": -51.58304734771706,
+  "trades_executed": 71,
+  "wins": 6,
   "losses": 7,
-  "skipped": 1691,
+  "skipped": 1703,
   "failed": 0,
   "initialised": true,
   "paused": false
