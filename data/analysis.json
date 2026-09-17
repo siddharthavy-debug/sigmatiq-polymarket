@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T19:22:18.279818+00:00",
+  "updated": "2026-09-17T19:27:37.456662+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -11,7 +11,7 @@
       "win_rate": 71.4,
       "pnl": 33.1,
       "pnl_per_closed": 2.36,
-      "skipped": 258,
+      "skipped": 260,
       "failed": 0,
       "benched": false
     },
@@ -67,21 +67,21 @@
       "win_rate": 100.0,
       "pnl": 6.25,
       "pnl_per_closed": 6.25,
-      "skipped": 109,
+      "skipped": 110,
       "failed": 0,
       "benched": false
     },
     {
       "trader": "0x4f2",
       "wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
-      "copied": 5,
+      "copied": 6,
       "closed": 4,
       "wins": 3,
       "losses": 1,
       "win_rate": 75.0,
       "pnl": 5.79,
       "pnl_per_closed": 1.45,
-      "skipped": 541,
+      "skipped": 562,
       "failed": 0,
       "benched": false
     },
@@ -151,7 +151,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 99,
+      "skipped": 100,
       "failed": 0,
       "benched": false
     },
@@ -263,7 +263,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 325,
+      "skipped": 329,
       "failed": 0,
       "benched": false
     },
@@ -285,13 +285,13 @@
       "trader": "purplegatto",
       "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "copied": 12,
-      "closed": 2,
+      "closed": 3,
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "win_rate": 0.0,
-      "pnl": -25.0,
-      "pnl_per_closed": -12.5,
-      "skipped": 463,
+      "pnl": -35.0,
+      "pnl_per_closed": -11.67,
+      "skipped": 464,
       "failed": 0,
       "benched": false
     },
@@ -313,5 +313,5 @@
   "benched_wallets": [
     "0x1610db79f753a80207e1d66716be9e91e627ae49"
   ],
-  "total_logged": 3988
+  "total_logged": 4020
 }
