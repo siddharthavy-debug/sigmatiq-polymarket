@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 116.20592830925159,
+  "cash": 106.20592830925159,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -213,6 +213,16 @@
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-17T08:37:35.369382+00:00"
+    },
+    "78488629537031355622181847750821467066025257623870600178201504507552332603984": {
+      "market": "Guangzhou: James Kent Trotter vs Mitsuki Wei Kang Leong",
+      "slug": "atp-trotter-leong-2026-09-17",
+      "outcome": "James Kent Trotter",
+      "shares": 102.67857142857142,
+      "cost": 10.0,
+      "trader": "HMLSF",
+      "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+      "opened": "2026-09-17T08:41:17.527644+00:00"
     }
   },
   "seen_trades": [
@@ -1968,15 +1978,19 @@
     "0x4f87174cc548fe425836bd773de168dd5335263334f9abcf2c9aa494f62c3bda",
     "0x3c7d05a3aa94ffe3dd24095fcaca0e1bd59ac22180e9263f7f258eaa6c68dbfb",
     "0x46e3c211593152f2fcf24347fdcc5861f1fc4d79d167c8898fb25bfff537b1ad",
-    "0xce177756e5db2bce897535d4b95a6ebfd97f9f4c87c78bec95e7bd7f00250efc"
+    "0xce177756e5db2bce897535d4b95a6ebfd97f9f4c87c78bec95e7bd7f00250efc",
+    "0xe1ceb8d540dfdfdfd145c3667dcd4f86b517ba29372bff9062c749ac007e71fe",
+    "0x56e8ba59da9b247b74d2dbc56046e5f83ba06cf95f0e2a684f4f584ad4a309f2",
+    "0x040d1d5a2cd344842ee21886928a84fce17af1bf6d937bc3320d5c87f7929f0c",
+    "0x274a029d8d2acc417caf150a27f1b3f50075967e9e5f24b9ca6082e38e435986"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T08:37:36.280861+00:00",
+  "last_run": "2026-09-17T08:43:12.127432+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 49,
+  "trades_executed": 51,
   "wins": 3,
   "losses": 1,
-  "skipped": 984,
+  "skipped": 986,
   "failed": 0,
   "initialised": true,
   "paused": false
