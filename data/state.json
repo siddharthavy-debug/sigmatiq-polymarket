@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 190.72327044025158,
+  "cash": 211.97515907848236,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -33,16 +33,6 @@
       "trader": "HMLSF",
       "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
       "opened": "2026-09-17T04:23:02.941178+00:00"
-    },
-    "38638484667090335268568557876199703829204363506132758995655561668732875636110": {
-      "market": "Phan Thiet 4: Martin Borisiouk vs Florent Bax",
-      "slug": "atp-borisio-bax-2026-09-16",
-      "outcome": "Florent Bax",
-      "shares": 21.251888638230795,
-      "cost": 15.0,
-      "trader": "TRCM",
-      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "opened": "2026-09-17T04:24:40.267671+00:00"
     },
     "91567454457462030886787993807609931980225292175305321128980878981350985779055": {
       "market": "Will TSG 1899 Hoffenheim win on 2026-09-17?",
@@ -1728,15 +1718,18 @@
     "0xf41aed0fa8090c7b1894274a5f0e2845dfd79efdaf6a4b5da845e1b9b9762783",
     "0xb250b5cb5636c7e6a3166b0a0d90e5ba92e4df226200bcb69e6e382c5b3b3d35",
     "0xdfad0618b097d15b5bbab2c067e88da8dfad9d7863adc3c4566929a2ece65645",
-    "0xc313497c36f5840ab816c0477675dc0b71514b09c3813fbbef423558ec5bc785"
+    "0xc313497c36f5840ab816c0477675dc0b71514b09c3813fbbef423558ec5bc785",
+    "0xd248e455914827b204295e8fce32dc0a148249b92e0604fea626cf67b68df913",
+    "0x05885824b0621928063dd03d8823d53e287e53e1f5558d2828dab8666bfad95c",
+    "0x1e148c34e741542a3fe6aaae8237fb65fa2ec0f73043d3229acc604b6628f27c"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T05:10:06.708433+00:00",
-  "realized_pnl": 0.7232704402515715,
+  "last_run": "2026-09-17T05:15:27.693009+00:00",
+  "realized_pnl": 6.975159078482367,
   "trades_executed": 26,
-  "wins": 1,
+  "wins": 2,
   "losses": 1,
-  "skipped": 867,
+  "skipped": 870,
   "failed": 0,
   "initialised": true,
   "paused": false
