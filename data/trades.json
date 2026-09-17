@@ -51754,5 +51754,105 @@
     "their_usd": 149.16,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-17T20:41:59.233234+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-7.5)",
+    "outcome": "Colorado Rockies",
+    "their_usd": 63.61,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T20:42:39.809673+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Spread: San Diego Padres (-7.5)",
+    "outcome": "San Diego Padres",
+    "their_usd": 199.66,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T20:42:39.856615+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 14.5",
+    "outcome": "Over",
+    "their_usd": 199.9965,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-17T20:43:58.261202+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Sevilla FC vs. FC Barcelona: O/U 0.5 AND Spread: LA (-9.5)",
+    "outcome": "",
+    "their_usd": 105.435302,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T20:45:55.162567+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+    "outcome": "Yes",
+    "their_usd": 19.8792,
+    "detail": "settles in 46d, too far out",
+    "timestamp": "2026-09-17T20:46:33.776279+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "M\u00e1laga CF vs. Villarreal CF: O/U 5.5",
+    "outcome": "Over",
+    "their_usd": 2.1903,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T20:46:34.281887+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "San Diego Padres vs. Colorado Rockies: O/U 14.5",
+    "outcome": "Over",
+    "their_usd": 1.0,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-17T20:46:35.362602+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+    "outcome": "Iva Jovic",
+    "their_usd": 33.0952,
+    "detail": {
+      "shares": 6.0976,
+      "price": 0.82,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T20:47:12.405025+00:00"
   }
 ]

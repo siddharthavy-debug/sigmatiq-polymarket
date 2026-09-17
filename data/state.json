@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 10.52068226525062,
+  "cash": 5.5206822652506204,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -223,6 +223,16 @@
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T20:34:02.217897+00:00"
+    },
+    "106553188764372325649083382769311831791031906762431218464180920202003118841945": {
+      "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+      "slug": "wta-frech-jovic-2026-09-17",
+      "outcome": "Iva Jovic",
+      "shares": 6.097560975609756,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-17T20:47:12.395303+00:00"
     }
   },
   "seen_trades": [
@@ -5420,15 +5430,26 @@
     "0xb5c99b19663a60d732a9a0db2bc20359591c27a8429c87c0c2bd87c9ae01bb2f",
     "0xe3419473403dee94fa94335aebce8a5b21e49da6d75ccd0a4fef05e58b0d2163",
     "0x49061408a6cc4e93bc3ca65f2f46f671adf48b04fcd55b73e6ab2a5776b4e88b",
-    "0x45e1addc11c7b9efbeb64f230653fc5bddcf8eca53a2730258fa90c4b0f34847"
+    "0x45e1addc11c7b9efbeb64f230653fc5bddcf8eca53a2730258fa90c4b0f34847",
+    "0x144a1272a1ccc52b0999a90deecb13ade64fdc4af91174569f2b59385dbf9df8",
+    "0xc6af27418627af1e7fcb0ab34367cb857b50c4d9ddccc352cd4db5655c212736",
+    "0x2572527c3835ef2eee6d30023749377e0bcbc537d8819288bc3803d2bd7a2684",
+    "0x491519de551ad768c853b86fc4daf2319ad103712c83050262b61550e612837a",
+    "0xfa0bf99bb4b52c68e0f3afd2c638922af7559b8b6638d3328978321e645d1fc0",
+    "0x052bd503fa733f7e755fe89ba3796a35e02c0f5c459c4421d9918d0d3714ecaf",
+    "0x1d87ca966ab7fc9bddf6998a32277b41907f2f2e06acfdb1a644f9c215f8e397",
+    "0xab13d830d265834cf5b41cc3ca236c6cd770d30e875a7df9826a85442221830f",
+    "0x0769a04f0422248ff35016bfddb1b9aeba1c404dce02888515bba1482eba362f",
+    "0x02d38b1181902a1c1ecf767b69a65fecd97310dd3fa2c4c070557c519351a886",
+    "0x65362d70b36f8a9b84ce355a5587714157024c6159860a844377b4fe898f688f"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T20:41:59.271393+00:00",
+  "last_run": "2026-09-17T20:47:14.930302+00:00",
   "realized_pnl": -63.199317734749364,
-  "trades_executed": 143,
+  "trades_executed": 144,
   "wins": 24,
   "losses": 23,
-  "skipped": 4332,
+  "skipped": 4342,
   "failed": 0,
   "initialised": true,
   "paused": false
