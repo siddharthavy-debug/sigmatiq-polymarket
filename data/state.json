@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 9.994355229094332,
+  "cash": 12.341916204704088,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -184,16 +184,6 @@
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T20:34:02.217897+00:00"
     },
-    "106553188764372325649083382769311831791031906762431218464180920202003118841945": {
-      "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
-      "slug": "wta-frech-jovic-2026-09-17",
-      "outcome": "Iva Jovic",
-      "shares": 12.347560975609756,
-      "cost": 10.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-17T20:47:12.395303+00:00"
-    },
     "18236303895327564005230449038496247143563000560581049285110250055552553698088": {
       "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
       "slug": "wta-lys-podoros-2026-09-17",
@@ -218,11 +208,21 @@
       "market": "Will Arsenal FC win on 2026-09-19?",
       "slug": "epl-bri-ars-2026-09-19-ars",
       "outcome": "No",
-      "shares": 23.80952380952381,
-      "cost": 10.0,
+      "shares": 35.714285714285715,
+      "cost": 15.0,
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-17T21:46:03.087912+00:00"
+    },
+    "34560347117437755076447336448978277217452024703941114056406778332892537792008": {
+      "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 2.5",
+      "slug": "bun-bay-uni-2026-09-18-total-2pt5",
+      "outcome": "Over",
+      "shares": 5.681818181818182,
+      "cost": 5.0,
+      "trader": "purplegatto",
+      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "opened": "2026-09-17T21:56:30.110739+00:00"
     }
   },
   "seen_trades": [
@@ -5600,15 +5600,28 @@
     "0x0528e097df28c7aac5c28fe398b4aca3680bca7423dc6412cb283b57be9547c2",
     "0x211fb026e19a069146b79bfbe121f0e495d7a04425d4bf803cf84b3453aa837f",
     "0x575b07075e861e970e639baeb57d84f7c060bd91e75868e5ea4a26c4184b5400",
-    "0x8ddb9897c74f29dd274fb5d912cc91afaf121ce124badf29fc22b66d076e3a24"
+    "0x8ddb9897c74f29dd274fb5d912cc91afaf121ce124badf29fc22b66d076e3a24",
+    "0x7ddd11c51fc56e581397d4f083a3fb08b17a2b210c12ec62232ec525abd83f4b",
+    "0x194930ba98e3af3aefff81045a008c4fa4768a130efea66ffc234988280139e3",
+    "0x25d1aa46c6b752b977c9f3d8d8e80b22e1424f8f87468699b038b1bded6c594c",
+    "0xe0fa457a50b2c81f8eb24899448ad84366329c7895514a0d46d1aaac62df74d9",
+    "0x303fbc1f46d68e567a92b19d23ba721e7b9d49dddbf46e1589b5892593b9b743",
+    "0x381cc963d5d99bf8692f950af15a7400cb386fa9ca57b100bb627ac56a3ad101",
+    "0x7af9ff0969bdb49dc33cd6e57c12a460d48a274effc222dfffb6f27dfdc15f50",
+    "0xaef3c459536db36fa7544927d81c5f9e1293441e74d0ac72352b96cb47ea1068",
+    "0x027cad6e8d0aebb1b66960fab9c42020791eaae9c57527517601885ae3327b69",
+    "0x240a67115441514c7e8a37cbc11a65229ea13abe43d9daab24c270a888e17e99",
+    "0x333a5c7a24f5a8f24e3c038af83aa9ffbd5c530a5789e5736b2c7708b4944fe8",
+    "0x4f02ebde8c205ee651b567d79030361226d77f8ef10520b10203c00fd1857d6f",
+    "0x050515a085d3a13ae7bc532c4d07237d576d11978077fd7e6c3aa6092bac16f5"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T21:54:33.349860+00:00",
-  "realized_pnl": -66.89564477090565,
-  "trades_executed": 155,
-  "wins": 26,
+  "last_run": "2026-09-17T21:59:53.056898+00:00",
+  "realized_pnl": -64.5480837952959,
+  "trades_executed": 157,
+  "wins": 27,
   "losses": 25,
-  "skipped": 4500,
+  "skipped": 4511,
   "failed": 0,
   "initialised": true,
   "paused": false
