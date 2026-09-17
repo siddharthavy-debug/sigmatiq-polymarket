@@ -51854,5 +51854,69 @@
       "size": 5.0
     },
     "timestamp": "2026-09-17T20:47:12.405025+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "CR Flamengo vs. Independiente del Valle: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 76.65,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T20:48:32.972360+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+    "outcome": "Magdalena Frech",
+    "their_usd": 1.7753,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T20:50:30.718685+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+    "outcome": "Magdalena Frech",
+    "their_usd": 425.45347,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T20:51:10.062878+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
+    "outcome": "Iva Jovic",
+    "their_usd": 4.04,
+    "detail": {
+      "shares": 6.25,
+      "price": 0.8,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T20:51:51.446230+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 624.944974,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T20:52:31.398667+00:00"
   }
 ]

@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 5.5206822652506204,
+  "cash": 0.5206822652506204,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -228,8 +228,8 @@
       "market": "Guadalajara Open Akron: Magdalena Frech vs Iva Jovic",
       "slug": "wta-frech-jovic-2026-09-17",
       "outcome": "Iva Jovic",
-      "shares": 6.097560975609756,
-      "cost": 5.0,
+      "shares": 12.347560975609756,
+      "cost": 10.0,
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-17T20:47:12.395303+00:00"
@@ -5441,15 +5441,20 @@
     "0xab13d830d265834cf5b41cc3ca236c6cd770d30e875a7df9826a85442221830f",
     "0x0769a04f0422248ff35016bfddb1b9aeba1c404dce02888515bba1482eba362f",
     "0x02d38b1181902a1c1ecf767b69a65fecd97310dd3fa2c4c070557c519351a886",
-    "0x65362d70b36f8a9b84ce355a5587714157024c6159860a844377b4fe898f688f"
+    "0x65362d70b36f8a9b84ce355a5587714157024c6159860a844377b4fe898f688f",
+    "0x1165a1d11e05a255d558192b269fa441c859ee6e44c55c0b6ee7f99a18b9a2bc",
+    "0x919a67666a66d686fdf7af81f37e9a61a922c2678396151ca077a7dd5995436a",
+    "0x5ee7b2494c4e2c2912473e6f69fd2f81bfd88efdec8595857d5b6d1d80744c68",
+    "0xa043d4f35d92d05334618f8456dd326d473756c8b2b07f15ad91203c9e7c9417",
+    "0xdce10bb09029f2b541f98af2101b0868b7b2cf2888b991476ddfbb0fc817e027"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T20:47:14.930302+00:00",
+  "last_run": "2026-09-17T20:52:33.073227+00:00",
   "realized_pnl": -63.199317734749364,
-  "trades_executed": 144,
+  "trades_executed": 145,
   "wins": 24,
   "losses": 23,
-  "skipped": 4342,
+  "skipped": 4346,
   "failed": 0,
   "initialised": true,
   "paused": false
