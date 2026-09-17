@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 195.72327044025158,
+  "cash": 190.72327044025158,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -103,6 +103,16 @@
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T04:51:38.396230+00:00"
+    },
+    "98793546221764883642725640605485759360156831222118568800600994947616299237964": {
+      "market": "Spread: Crystal Palace FC (-1.5)",
+      "slug": "uel-cry-lep-2026-09-17-spread-home-1pt5",
+      "outcome": "Crystal Palace FC",
+      "shares": 10.869565217391305,
+      "cost": 5.0,
+      "trader": "purplegatto",
+      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "opened": "2026-09-17T04:56:23.313651+00:00"
     }
   },
   "seen_trades": [
@@ -1704,15 +1714,24 @@
     "0x615395a6413b16848197526f529f762824135489a1ccf76c59f72b01bbf91599",
     "0x1280638fca74d7b49f35b181e3fbe3263009cc3497dbedc40b68ee9257873cca",
     "0x42facf1ab5b38dd3b0557e1d29fb1a99546d02f85ccf39a413b0f96eaa7e089c",
-    "0xae91c7bfe975dfa59489c566de950dbc4461436dce334b9b1503cd7307c288a6"
+    "0xae91c7bfe975dfa59489c566de950dbc4461436dce334b9b1503cd7307c288a6",
+    "0xd91c8ae881a209ab516bff7bb2b8c2adf94c29e733a0581a1472ef14839d5e68",
+    "0x94fa7723e6aa16cded03f01e9b08116ec06981329420302b70b290db71bd9c3c",
+    "0x35f8d2aa5c3a2b4320e335353049e63e75329d5682c3edc3bcf215d4074f9088",
+    "0x0bfc4347d116cc1abf0fa4c7fe0c7baa549877ad75356b178414a0be88f8c837",
+    "0x9ca566522a6ec798d088b3afe923fe73dc8edd86dd442a43964cbc15bd102e71",
+    "0xae6dafeb5d2c99fb60a9fec2d3aca9461fe1490eed9b01cdcde104be50908a3f",
+    "0x0d0ed32041595ec5dd537b3b63e9c57a588ecda070f50cbf8366dd00ec7405fc",
+    "0x063ed123dfd210d96e119bb7528d47647177b9d981f2647067c7788eae6961da",
+    "0xb15abed326c5cccd61f39fc601b91fee386d1c9b11068c08142765339548d062"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T04:54:01.310606+00:00",
+  "last_run": "2026-09-17T04:59:22.217580+00:00",
   "realized_pnl": 0.7232704402515715,
-  "trades_executed": 25,
+  "trades_executed": 26,
   "wins": 1,
   "losses": 1,
-  "skipped": 854,
+  "skipped": 862,
   "failed": 0,
   "initialised": true,
   "paused": false

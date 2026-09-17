@@ -10012,5 +10012,117 @@
     "their_usd": 64.75126,
     "detail": "already hold this market",
     "timestamp": "2026-09-17T04:52:13.164454+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Blake Ellis vs Ilia Simakin",
+    "outcome": "Blake Ellis",
+    "their_usd": 163.9575,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-17T04:54:37.047530+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox AND Athletics vs. Tampa Bay Rays AND Minnesota Twins vs. Los Angeles Angels AND Philadelphia Phillies vs. New York Mets AND Los Angeles Dodgers vs. Cincinnati Reds AND San Diego Padres vs. Colorado Rockies AND Milwaukee Brewers vs. Pittsburgh Pirates AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 169.161992,
+    "detail": "price 0.994 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T04:54:37.785700+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 193.4,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T04:56:22.329634+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Spread: Crystal Palace FC (-1.5)",
+    "outcome": "Crystal Palace FC",
+    "their_usd": 17.95196,
+    "detail": {
+      "shares": 10.8696,
+      "price": 0.46,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T04:56:23.315940+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Martin Borisiouk vs Florent Bax",
+    "outcome": "Florent Bax",
+    "their_usd": 434.67465,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T04:56:57.925905+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 226.52942,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T04:56:58.109639+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 175.818182,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T04:57:33.588893+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Los Angeles Sparks vs. Dallas Wings",
+    "outcome": "Dallas Wings",
+    "their_usd": 25.05937,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T04:57:34.154321+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 67.76736,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T04:59:20.554638+00:00"
   }
 ]
