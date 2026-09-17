@@ -12348,5 +12348,101 @@
     "their_usd": 17.84767,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T09:08:10.489661+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Red Bull Salzburg win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 4.84106,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:12:33.208438+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Red Bull Salzburg win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 32.93034,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:12:33.219650+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Red Bull Salzburg win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 24.20995,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:12:33.230695+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 4.6,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T09:13:09.518483+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 97.962963,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T09:15:02.050812+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 3.68,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T09:15:02.061942+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "M\u00e1laga CF vs. Villarreal CF: Neither team to score first?",
+    "outcome": "No",
+    "their_usd": 149.52287,
+    "detail": "price 0.950 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T09:15:40.323905+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Red Bull Salzburg win on 2026-09-17?",
+    "outcome": "Yes",
+    "their_usd": 2.90371,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T09:16:17.688688+00:00"
   }
 ]
