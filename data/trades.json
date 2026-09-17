@@ -11486,5 +11486,61 @@
     "their_usd": 300.0,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T07:42:05.767588+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guangzhou: Alexandr Binda vs Fajing Sun",
+    "outcome": "Alexandr Binda",
+    "their_usd": 1.3481,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T07:43:18.806987+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "FC Astana vs. FC Kairat Almaty: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 26.2242,
+    "detail": {
+      "shares": 9.8039,
+      "price": 0.51,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T07:44:33.066171+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "FC Astana vs. FC Kairat Almaty: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 328.4299,
+    "detail": {
+      "shares": 9.8039,
+      "price": 0.51,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T07:44:33.076598+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND LoL: Top Esports vs Invictus Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "",
+    "their_usd": 299.110986,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T07:46:23.784705+00:00"
   }
 ]
