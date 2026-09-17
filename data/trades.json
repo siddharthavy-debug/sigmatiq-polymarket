@@ -10255,5 +10255,17 @@
       "size": 5.0
     },
     "timestamp": "2026-09-17T05:19:35.996499+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Blake Ellis vs Ilia Simakin",
+    "outcome": "Ilia Simakin",
+    "their_usd": 893.11472,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T05:24:27.421547+00:00"
   }
 ]
