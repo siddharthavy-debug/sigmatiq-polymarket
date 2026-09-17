@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 166.2059283092516,
+  "cash": 151.2059283092516,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -163,6 +163,16 @@
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-17T06:59:25.719808+00:00"
+    },
+    "70784777643273926557747572973297037379174046863643211800198404849591020112116": {
+      "market": "FK Akron Tolyatti vs. RFK Akhmat Groznyi: O/U 2.5",
+      "slug": "rus-akr-ter-2026-09-17-total-2pt5",
+      "outcome": "Under",
+      "shares": 27.77777083676529,
+      "cost": 15.0,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-17T07:38:26.308502+00:00"
     }
   },
   "seen_trades": [
@@ -1871,15 +1881,24 @@
     "0x52d0dd68f97ffb452d79f96bb07cad3110090d30dcee10d87bdae3f751f4cd44",
     "0x51a24c8f1348898224ebd1038bbad36ee560554953b4c1d979ec3fd9c446c4b3",
     "0x827382d2e647646cde95d0d92481db424e48858bb01af65e915e80eaa3b043dd",
-    "0xed9a5fd8739d9db7d1b8053544dc9e5c5c167ec3da20cb67cb2a926d2953e375"
+    "0xed9a5fd8739d9db7d1b8053544dc9e5c5c167ec3da20cb67cb2a926d2953e375",
+    "0xdedf63d32eee75e3c9d89b7bfa02585444904f8b496d82e7e03d900609d24387",
+    "0x5d9dd82a0990b8651dd4b66ca0450bcc0c30d32584c1f3ae95c53bc652f567e2",
+    "0x5849849d5a95b402a7c802424b8c252eb27e2542544c617b5b6381bfba053408",
+    "0xa7c742f156bcb480abc3879412fe6923db13ed18fd8b5bc0087d0d8686b35055",
+    "0x46deecb881213cf47be16d5bb66a4dd77231548176160e55b47e66df446a671d",
+    "0x3b60bc4f44d76e042beb5d858a9aa61d4b170928e55b46a9029013edc746e3ce",
+    "0x09f85049512eb54124cc80fc2db0fa1e279887a8ca5b7885048991d8620eba0c",
+    "0x4bff7d95feae629748c4b4c60111d85d7735ad41688bd70f06d2368343aa49fc",
+    "0xa47c55cf20ffebce80c6e8351c53a69a4c105b2ff9190e85e1a96d30b2980232"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T07:36:36.514732+00:00",
+  "last_run": "2026-09-17T07:42:06.357845+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 39,
+  "trades_executed": 42,
   "wins": 3,
   "losses": 1,
-  "skipped": 947,
+  "skipped": 953,
   "failed": 0,
   "initialised": true,
   "paused": false
