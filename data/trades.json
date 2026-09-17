@@ -14586,5 +14586,53 @@
     "their_usd": 2209.09021,
     "detail": "max open positions",
     "timestamp": "2026-09-17T10:58:19.363548+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw?",
+    "outcome": "No",
+    "their_usd": 2117.04637,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T10:59:40.208190+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw?",
+    "outcome": "No",
+    "their_usd": 110.29162,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:01:38.630528+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Real Betis Balompi\u00e9 vs. Getafe CF end in a draw?",
+    "outcome": "No",
+    "their_usd": 5.94,
+    "detail": "max open positions",
+    "timestamp": "2026-09-17T11:02:57.722264+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "HMLSF",
+    "trader_wallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "market": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "NRG",
+    "their_usd": 12634.4181,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T11:03:34.993930+00:00"
   }
 ]
