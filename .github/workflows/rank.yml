@@ -41,6 +41,12 @@ jobs:
           git config user.name  "copybot"
           git config user.email "copybot@users.noreply.github.com"
           git add data/traders.json
-          git diff --staged --quiet || git commit -m "weekly trader ranking"
-          git pull --rebase --autostash || true
-          git push
+          git diff --staged --quiet && exit 0
+          git commit -m "weekly trader ranking"
+          # checkout can leave a detached HEAD, so push the ref explicitly;
+          # if the bot pushed state meanwhile, rebase keeping our list
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git push origin "HEAD:$BRANCH" && exit 0
+          git fetch origin "$BRANCH"
+          git rebase -X theirs "origin/$BRANCH"
+          git push origin "HEAD:$BRANCH"

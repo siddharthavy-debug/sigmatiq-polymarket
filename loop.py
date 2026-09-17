@@ -34,18 +34,50 @@ def _git(*args):
     return subprocess.run(["git", *args], capture_output=True, text=True)
 
 
+def _branch():
+    return os.getenv("GITHUB_REF_NAME") or "main"
+
+
 def commit_state(label):
-    """Push data/ back to the repo. Only meaningful inside Actions."""
+    """
+    Push data/ back to the repo.
+
+    Two things bite here and both have. The checkout can leave the job on a
+    detached HEAD, so a bare `git push` fails with "You are not currently on a
+    branch" — pushing HEAD:<branch> explicitly avoids that. And when someone
+    pushes to the repo while the job is running, the push is rejected; the fix
+    is to rebase onto the remote, preferring OUR data files, since the bot's
+    in-memory state is newer than anything on the remote.
+    """
     if not IN_ACTIONS:
         return False
+
+    branch = _branch()
     _git("config", "user.name", "copybot")
     _git("config", "user.email", "copybot@users.noreply.github.com")
+
+    # a stuck rebase from a previous cycle would break everything after it
+    if os.path.isdir(".git/rebase-merge") or os.path.isdir(".git/rebase-apply"):
+        _git("rebase", "--abort")
+
     _git("add", "data/")
     if _git("diff", "--staged", "--quiet").returncode == 0:
         return False                          # nothing changed
     _git("commit", "-m", f"state {label}")
-    _git("pull", "--rebase", "--autostash")
-    push = _git("push")
+
+    if _git("push", "origin", f"HEAD:{branch}").returncode == 0:
+        return True
+
+    # rejected — someone else pushed. Rebase onto them, keeping our data.
+    _git("fetch", "origin", branch)
+    # in a rebase the replayed commit is "theirs", so -X theirs keeps ours
+    if _git("rebase", "-X", "theirs", f"origin/{branch}").returncode != 0:
+        _git("rebase", "--abort")
+        print("  ! could not reconcile with the remote; will retry next cycle",
+              flush=True)
+        return False
+
+    push = _git("push", "origin", f"HEAD:{branch}")
     if push.returncode != 0:
         print(f"  ! push failed: {push.stderr.strip()[:200]}", flush=True)
         return False
