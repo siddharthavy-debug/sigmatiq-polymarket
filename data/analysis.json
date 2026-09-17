@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-17T18:34:07.658914+00:00",
+  "updated": "2026-09-17T18:39:28.747122+00:00",
   "by_trader": [
+    {
+      "trader": "tradecraft",
+      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "copied": 21,
+      "closed": 12,
+      "wins": 9,
+      "losses": 3,
+      "win_rate": 75.0,
+      "pnl": 29.54,
+      "pnl_per_closed": 2.46,
+      "skipped": 247,
+      "failed": 0,
+      "benched": false
+    },
     {
       "trader": "us391",
       "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
@@ -12,20 +26,6 @@
       "pnl": 22.93,
       "pnl_per_closed": 5.73,
       "skipped": 191,
-      "failed": 0,
-      "benched": false
-    },
-    {
-      "trader": "tradecraft",
-      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 21,
-      "closed": 11,
-      "wins": 8,
-      "losses": 3,
-      "win_rate": 72.7,
-      "pnl": 21.91,
-      "pnl_per_closed": 1.99,
-      "skipped": 244,
       "failed": 0,
       "benched": false
     },
@@ -60,14 +60,14 @@
     {
       "trader": "TRCM",
       "wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "copied": 5,
+      "copied": 6,
       "closed": 1,
       "wins": 1,
       "losses": 0,
       "win_rate": 100.0,
       "pnl": 6.25,
       "pnl_per_closed": 6.25,
-      "skipped": 107,
+      "skipped": 108,
       "failed": 0,
       "benched": false
     },
@@ -81,7 +81,7 @@
       "win_rate": 66.7,
       "pnl": 5.23,
       "pnl_per_closed": 1.74,
-      "skipped": 437,
+      "skipped": 441,
       "failed": 0,
       "benched": false
     },
@@ -263,7 +263,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 283,
+      "skipped": 288,
       "failed": 0,
       "benched": false
     },
@@ -291,7 +291,7 @@
       "win_rate": 0.0,
       "pnl": -25.0,
       "pnl_per_closed": -12.5,
-      "skipped": 402,
+      "skipped": 408,
       "failed": 0,
       "benched": false
     },
@@ -311,5 +311,5 @@
     }
   ],
   "benched_wallets": [],
-  "total_logged": 3739
+  "total_logged": 3760
 }
