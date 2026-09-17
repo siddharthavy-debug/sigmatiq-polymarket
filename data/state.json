@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 141.2059283092516,
+  "cash": 126.20592830925159,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -183,6 +183,16 @@
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-17T07:44:33.063908+00:00"
+    },
+    "94298280333442141745214894777431861295609303073264660470012770916520547475353": {
+      "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+      "slug": "uel-bes-olm-2026-09-17-bes",
+      "outcome": "No",
+      "shares": 32.608689470700796,
+      "cost": 15.0,
+      "trader": "SharkbetX-com",
+      "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+      "opened": "2026-09-17T08:07:53.386991+00:00"
     }
   },
   "seen_trades": [
@@ -1913,15 +1923,21 @@
     "0x093a28e08a3092862f8fdb3804b650b52817f36fdda33650424feda4ad7be610",
     "0x88d650b57ac1587ad5259c9b01bbee02dff5a7779346594d8fb603b2326076b5",
     "0x1bb089c510112f831033ae5bf6fe9b66206e6440107123cc77e4304cb6f2d06d",
-    "0xbc671647642c44d370357ba7645c838d3727a24ae8763f42059cc1e41d288d4f"
+    "0xbc671647642c44d370357ba7645c838d3727a24ae8763f42059cc1e41d288d4f",
+    "0x2369697cb8b76e0f1c40e44e32c52c607d0665906020499a22769b856c892412",
+    "0x74b4fe0fdea8542e6c6bc0f6468e854c6665eb627ad82e0cc27177e0059f5907",
+    "0xcf406c16f7452148500058460cb709666e1b3a772705b4298c11a98c2e0a3747",
+    "0x7ce16af3ff834a2f755de494e8ea35367bb2665ac76eaa802e881c4878a651ca",
+    "0x760b4a3ce6e9f962e573569eaef5c0b0124e8ec7cd62c4b3883b3560da6b47b5",
+    "0x88a0208922d4f5bdc35a1f695ad1def850171f99c394fe369994d88bc2a6791a"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T08:04:13.035540+00:00",
+  "last_run": "2026-09-17T08:09:45.860397+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 44,
+  "trades_executed": 47,
   "wins": 3,
   "losses": 1,
-  "skipped": 964,
+  "skipped": 967,
   "failed": 0,
   "initialised": true,
   "paused": false

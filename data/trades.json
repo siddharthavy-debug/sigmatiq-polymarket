@@ -11614,5 +11614,77 @@
     "their_usd": 2354.5483,
     "detail": "price 0.967 above 0.9 (no upside)",
     "timestamp": "2026-09-17T08:00:30.853061+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Texans (-2.5) AND Commanders vs. Cowboys AND Eagles vs. Titans AND Steelers vs. Patriots AND Colts vs. Chiefs AND Spread: Packers (-3.5)",
+    "outcome": "",
+    "their_usd": 65.788596,
+    "detail": "price 0.932 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T08:06:41.090796+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 3.93266,
+    "detail": {
+      "shares": 10.8696,
+      "price": 0.4600000468,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:07:53.389996+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.797408,
+    "detail": {
+      "shares": 10.8696,
+      "price": 0.4600000819,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:08:30.045814+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.107408,
+    "detail": {
+      "shares": 10.8696,
+      "price": 0.4600001329,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T08:09:06.919723+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 1.064815,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T08:09:06.930474+00:00"
   }
 ]
