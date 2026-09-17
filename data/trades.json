@@ -11602,5 +11602,17 @@
     "their_usd": 196.662856,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T07:58:04.014692+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 2354.5483,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T08:00:30.853061+00:00"
   }
 ]
