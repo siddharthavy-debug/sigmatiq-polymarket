@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T03:22:59.366087+00:00",
+  "updated": "2026-09-17T03:28:19.090775+00:00",
   "by_trader": [
     {
       "trader": "torta.tech",
@@ -25,7 +25,7 @@
       "win_rate": 100.0,
       "pnl": 0.62,
       "pnl_per_closed": 0.62,
-      "skipped": 114,
+      "skipped": 135,
       "failed": 0,
       "benched": false
     },
@@ -179,7 +179,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 84,
+      "skipped": 108,
       "failed": 0,
       "benched": false
     },
@@ -207,7 +207,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 54,
+      "skipped": 60,
       "failed": 0,
       "benched": false
     },
@@ -263,7 +263,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 171,
+      "skipped": 215,
       "failed": 0,
       "benched": false
     },
@@ -277,7 +277,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 45,
+      "skipped": 48,
       "failed": 0,
       "benched": false
     },
@@ -305,7 +305,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 46,
+      "skipped": 48,
       "failed": 0,
       "benched": false
     },
@@ -361,7 +361,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 55,
+      "skipped": 58,
       "failed": 0,
       "benched": false
     },
@@ -389,11 +389,11 @@
       "win_rate": 66.7,
       "pnl": -15.73,
       "pnl_per_closed": -5.24,
-      "skipped": 189,
+      "skipped": 204,
       "failed": 0,
       "benched": false
     }
   ],
   "benched_wallets": [],
-  "total_logged": 1550
+  "total_logged": 1668
 }
