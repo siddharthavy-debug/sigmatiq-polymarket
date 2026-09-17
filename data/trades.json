@@ -10874,5 +10874,113 @@
     "their_usd": 29.303031,
     "detail": "price 0.967 above 0.9 (no upside)",
     "timestamp": "2026-09-17T06:47:19.057419+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Will Crystal Palace FC win on 2026-09-17? AND Will FCI Levadia Tallinn win on 2026-09-17? AND Will TSG 1899 Hoffenheim win on 2026-09-17? AND Will Juventus FC win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17? AND Will Be\u015fikta\u015f JK win on 2026-09-17? AND Will AEK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 154.20905,
+    "detail": "price 0.915 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:47:57.022450+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 18.64618,
+    "detail": {
+      "shares": 8.9286,
+      "price": 0.56,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T06:47:57.393097+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Will Crystal Palace FC win on 2026-09-17? AND Will FCI Levadia Tallinn win on 2026-09-17? AND Will TSG 1899 Hoffenheim win on 2026-09-17? AND Will Juventus FC win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17? AND Will Be\u015fikta\u015f JK win on 2026-09-17? AND Will AEK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 192.195611,
+    "detail": "price 0.931 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:49:44.822766+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will Norwich City FC win on 2026-09-17?",
+    "outcome": "No",
+    "their_usd": 290.1,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:50:55.815462+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Will Crystal Palace FC win on 2026-09-17? AND Will FCI Levadia Tallinn win on 2026-09-17? AND Will TSG 1899 Hoffenheim win on 2026-09-17? AND Will Juventus FC win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17? AND Will Be\u015fikta\u015f JK vs. Olympique de Marseille end in a draw? AND Will AEK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 427.290725,
+    "detail": "price 0.968 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:50:56.756679+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 300.82283,
+    "detail": {
+      "shares": 8.9286,
+      "price": 0.56,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T06:50:57.099104+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Will Crystal Palace FC win on 2026-09-17? AND Will FCI Levadia Tallinn win on 2026-09-17? AND Will TSG 1899 Hoffenheim win on 2026-09-17? AND Will Juventus FC win on 2026-09-17? AND Will Manchester City FC win on 2026-09-17? AND Will Be\u015fikta\u015f JK vs. Olympique de Marseille end in a draw? AND Will AEK win on 2026-09-17?",
+    "outcome": "",
+    "their_usd": 346.210693,
+    "detail": "price 0.960 above 0.9 (no upside)",
+    "timestamp": "2026-09-17T06:52:45.796204+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 216.72,
+    "detail": {
+      "shares": 8.9286,
+      "price": 0.56,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T06:52:45.990906+00:00"
   }
 ]

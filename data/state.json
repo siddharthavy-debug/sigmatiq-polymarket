@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 196.2059283092516,
+  "cash": 181.2059283092516,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -123,6 +123,26 @@
       "trader": "curie",
       "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
       "opened": "2026-09-17T05:28:04.039364+00:00"
+    },
+    "69005401633077457316256347607298685041128112648273718277612824384694074759870": {
+      "market": "Minnesota Twins vs. Los Angeles Angels: O/U 8.5",
+      "slug": "mlb-min-laa-2026-09-17-total-8pt5",
+      "outcome": "Under",
+      "shares": 8.928571428571427,
+      "cost": 5.0,
+      "trader": "brendoncarson",
+      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "opened": "2026-09-17T06:47:57.390429+00:00"
+    },
+    "106177056724449805929655179972529333894043000675915733982667194427580103517832": {
+      "market": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 8.5",
+      "slug": "mlb-mil-pit-2026-09-17-total-8pt5",
+      "outcome": "Over",
+      "shares": 17.857142857142854,
+      "cost": 10.0,
+      "trader": "brendoncarson",
+      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "opened": "2026-09-17T06:50:57.096577+00:00"
     }
   },
   "seen_trades": [
@@ -1792,15 +1812,23 @@
     "0x6031a7fd0303b8a615c8bae14cc01a557a1b6f92866fa67b8ca5cffb401848f5",
     "0xaecb60fc7d3268329f5f2e2053e78bd782db3d1777d1cd3e95f17f592d75326c",
     "0x4af5f8e153356a8cd9345743d7d1c70d28046e82a6b0633ffdf74cc3f5de419c",
-    "0x66d2a4fc4321c7aa69fc94f827735c4da12ca80e6839479b8f77656a4d29b898"
+    "0x66d2a4fc4321c7aa69fc94f827735c4da12ca80e6839479b8f77656a4d29b898",
+    "0xf3981cbb2b62e67b69425d3057132548fb52f0d67cd66e8eb06c38a8bdbefcc1",
+    "0x87b776b849495240d1235e26d1c20c6d889ba82c42090fb71b153379ef62893d",
+    "0x9b1edc3ba2d8fa5b247ff9b65435d56d2a02a0d80f9f3213ea809115ee13b63b",
+    "0x56adfe18b12d20793784f45c5b75af6d540fc353c212f6d319edf2079a3a1a29",
+    "0x4ff1b50d0ccf12d6dd2e0d2c0d5d894999c55bb97277c19b779de2bfaf1ae744",
+    "0x2a1e9bcbae486ccd13dfe34cd513950bbb91a616f8ca4445ae3a69d1521e7f2d",
+    "0xdc5e9464780d67b03d2fbbc563f76c91c17150ed171d8353e9c66895aa606c0f",
+    "0xba3dee55ef427621e14592e1f7a55e11d3462ae9e64a1f12e9d5bdcbb56920ea"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T06:47:20.684345+00:00",
+  "last_run": "2026-09-17T06:52:46.538434+00:00",
   "realized_pnl": 11.205928309251597,
-  "trades_executed": 33,
+  "trades_executed": 36,
   "wins": 3,
   "losses": 1,
-  "skipped": 914,
+  "skipped": 919,
   "failed": 0,
   "initialised": true,
   "paused": false
