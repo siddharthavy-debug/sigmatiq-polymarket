@@ -54477,5 +54477,109 @@
     "their_usd": 48.21132,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T22:09:42.087650+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 1960.49,
+    "detail": {
+      "shares": 10.2041,
+      "price": 0.49,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-17T22:11:01.839661+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Eva Lys vs Nadia Podoroska",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 348.0288,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:11:40.471738+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 44.6252,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T22:11:41.112319+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 10.5,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-17T22:12:20.427801+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Houston Astros",
+    "their_usd": 19.291905,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-17T22:12:58.842097+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 1921.44,
+    "detail": {
+      "shares": 4.875,
+      "price": 0.48,
+      "size": 2.34
+    },
+    "timestamp": "2026-09-17T22:12:58.872220+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will Chicago Cubs win the 2026 National League Championship Series?",
+    "outcome": "No",
+    "their_usd": 13.5405,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:12:59.307927+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers AND Kansas City Royals vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 33.444296,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-17T22:15:35.726183+00:00"
   }
 ]

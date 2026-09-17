@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 7.341916204704088,
+  "cash": 0.0019162047040879315,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -233,6 +233,16 @@
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-17T22:01:11.766104+00:00"
+    },
+    "56614807983518563978530518400524226599681158145150692233196162507679818489785": {
+      "market": "Minnesota Twins vs. Los Angeles Angels: O/U 7.5",
+      "slug": "mlb-min-laa-2026-09-17-total-7pt5",
+      "outcome": "Over",
+      "shares": 15.079081632653061,
+      "cost": 7.34,
+      "trader": "0x8efa1ea8ee",
+      "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+      "opened": "2026-09-17T22:11:01.831776+00:00"
     }
   },
   "seen_trades": [
@@ -5660,15 +5670,23 @@
     "0x854ae789c70f46fbfe9f94e0116a8fcf1e0b3f71e4a1148d9a3c89208751a7d1",
     "0x10bc718a140ccfda3bae12345c47222a628c9e12b0fc6e1344bd62722e9e16ec",
     "0x37f557e15ca9dfd887cbf49fad30531285bba09842d016d5d9e7080ab3d4b817",
-    "0xe7118eddf58866f3d69f87c4581daabcc0dabb14995a4ea8a8ba1d361676135a"
+    "0xe7118eddf58866f3d69f87c4581daabcc0dabb14995a4ea8a8ba1d361676135a",
+    "0xe928d11c210de58dd87ef33ab6c3bc12d46b5689b9e0acf3c63bad6a1bbbece7",
+    "0x9aabc987654cdf3865bd0c203284bfc78324d9d2fd744fa14bd92ab973dd40b7",
+    "0x2d325c3b87a3009a8dcf4d55e39d8cd6a1ee8b46283cd875992e6249d671c37e",
+    "0x4e8c84aa6a6573d6377e91227ddfed47a442a426b49b8ea942d6dc33e1be5f1f",
+    "0x3a65ec80ab8f3f3c6f642afde2fea8676c842dc9685335f8931f06a857317145",
+    "0x4d13b0fa44fd8825b714bd8d1408864ea921808e8eeb70ad3e7aff7be6f00da7",
+    "0x9ae128f96c28372911d2fc2b2e178319969562002e55d705662318f781dcdd6c",
+    "0xf3c8040423c78f738de180d008b3b5c7f01d4e402ab6df61997836bc010fc747"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-17T22:10:22.594577+00:00",
+  "last_run": "2026-09-17T22:15:36.826025+00:00",
   "realized_pnl": -64.5480837952959,
-  "trades_executed": 158,
+  "trades_executed": 160,
   "wins": 27,
   "losses": 25,
-  "skipped": 4547,
+  "skipped": 4553,
   "failed": 0,
   "initialised": true,
   "paused": false
