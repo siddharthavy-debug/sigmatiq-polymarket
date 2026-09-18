@@ -69392,5 +69392,53 @@
     "their_usd": 1008.42,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T08:10:01.755986+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mia Ristic",
+    "their_usd": 5.62375,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:10:43.490369+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Bandirmaspor win on 2026-09-18? AND Will Dalian Kun City win on 2026-09-18? AND Will Lyngby BK win on 2026-09-18? AND Will Guandong GZ-Power FC win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 24.819804,
+    "detail": "price 0.929 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T08:11:26.399242+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Anastasiia Sobolieva",
+    "their_usd": 55.9104,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:12:05.739531+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 4.5 AND Brentford FC vs. Chelsea FC: O/U 1.5 AND AC Monza vs. US Sassuolo Calcio: Both Teams to Score AND Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 4.603344,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:14:51.647706+00:00"
   }
 ]
