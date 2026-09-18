@@ -68548,5 +68548,53 @@
     "their_usd": 21.22897,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T07:03:25.330034+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Inter Turku win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 5.3142,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:05:45.920133+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Counter-Strike: Black Phoenix vs Lavked (BO3) - CCT Europe Series #9 Group Stage",
+    "outcome": "Lavked",
+    "their_usd": 4.61425,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:06:27.364089+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Gable Steveson vs. Sean Sharaf (Heavyweight, Prelims) AND UFC 331: Patricio Pitbull vs. Dooho Choi (Featherweight, Main Card) AND UFC 331: Ozzy Diaz vs. Ryan Gandra (Middleweight, Early Prelims) AND UFC 331: Casey O'Neill vs. Eduarda Moura (Women's Flyweight, Early Prelims) AND UFC 331: Giga Chikadze vs. Joanderson Brito (Featherweight, Early Prelims)",
+    "outcome": "",
+    "their_usd": 58.572053,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:07:50.107458+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Democrats win the Ohio Senate race in 2026?",
+    "outcome": "Yes",
+    "their_usd": 30.2346,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:08:30.760329+00:00"
   }
 ]
