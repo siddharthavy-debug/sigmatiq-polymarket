@@ -84117,5 +84117,89 @@
     "their_usd": 14.769231,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T19:17:14.508764+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Miami Marlins vs. San Diego Padres: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 11.478106,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:19:17.354664+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 13.819091,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:20:38.032942+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Toronto Blue Jays vs. Texas Rangers AND Minnesota Twins vs. Los Angeles Angels AND New York Yankees vs. Arizona Diamondbacks",
+    "outcome": "",
+    "their_usd": 65.967647,
+    "detail": "price 0.940 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T19:21:18.006814+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 42.51,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T19:22:38.435914+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND San Francisco Giants vs. Los Angeles Dodgers AND Athletics vs. Cleveland Guardians AND Chicago Cubs vs. Cincinnati Reds AND Atlanta Braves vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 1196.572868,
+    "detail": "price 0.920 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T19:22:38.899986+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seahawks vs. Cardinals AND Spread: Buccaneers (-8.5) AND Spread: Broncos (-2.5)",
+    "outcome": "",
+    "their_usd": 679.596243,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T19:22:38.943370+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Alina Charaeva",
+    "their_usd": 166.314,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T19:23:57.537999+00:00"
   }
 ]
