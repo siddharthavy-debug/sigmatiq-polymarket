@@ -68596,5 +68596,17 @@
     "their_usd": 30.2346,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T07:08:30.760329+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Bristol City FC vs. Watford FC: Both Teams to Score AND Brentford FC vs. Chelsea FC: O/U 3.5 AND Zhejiang Zhiye FC vs. Wuhan San Zhen FC: O/U 3.5 AND RCD Espanyol de Barcelona vs. Elche CF: Both Teams to Score AND Will VfL Wolfsburg win on 2026-09-18? AND Will NK Slaven Belupo win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 373.73354,
+    "detail": "price 0.974 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T07:11:58.363286+00:00"
   }
 ]
