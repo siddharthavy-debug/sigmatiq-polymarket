@@ -70592,5 +70592,41 @@
     "their_usd": 6.70592,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T10:23:18.766045+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.714286,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T10:24:49.012879+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guangzhou: Elias Ymer vs Marat Sharipov",
+    "outcome": "Elias Ymer",
+    "their_usd": 32.1516,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T10:28:28.830641+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Groningen win on 2026-09-18? AND Will FK Polissia win on 2026-09-18? AND Will RCD Espanyol de Barcelona win on 2026-09-18? AND Will Sarpsborg 08 FF win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 21.513778,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T10:29:15.445513+00:00"
   }
 ]
