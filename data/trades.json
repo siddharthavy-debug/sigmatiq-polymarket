@@ -79378,5 +79378,113 @@
     "their_usd": 56.19059,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T16:38:11.565307+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Albacete Balompi\u00e9 vs. C\u00f3rdoba CF end in a draw?",
+    "outcome": "No",
+    "their_usd": 2.703704,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:39:35.766286+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Valencia: Andrea Lazaro Garcia vs Joelle Steur",
+    "outcome": "Andrea Lazaro Garcia",
+    "their_usd": 5.5242,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T16:40:16.051233+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Steelers vs. Patriots",
+    "outcome": "Patriots",
+    "their_usd": 49.74934,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:40:58.426060+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seahawks vs. Cardinals AND Kansas City Royals vs. Pittsburgh Pirates AND Giants vs. Rams AND Milwaukee Brewers vs. Baltimore Orioles AND Steelers vs. Patriots AND Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "",
+    "their_usd": 11.822175,
+    "detail": "price 0.925 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T16:41:40.079096+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Lisa Pigato",
+    "their_usd": 133.83495,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T16:42:19.164449+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 40.573,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:42:20.767522+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 44.499,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:42:20.808048+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Tampa Bay Rays AND Minnesota Twins vs. Los Angeles Angels AND Washington Nationals vs. St. Louis Cardinals AND New York Yankees vs. Arizona Diamondbacks",
+    "outcome": "",
+    "their_usd": 110.696461,
+    "detail": "price 0.938 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T16:42:21.091628+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 43.1925,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:43:01.938104+00:00"
   }
 ]
