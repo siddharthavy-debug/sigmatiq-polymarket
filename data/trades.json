@@ -87200,5 +87200,65 @@
     "their_usd": 558.733932,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T22:02:45.901476+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Yes",
+    "their_usd": 195.3405,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:04:37.497256+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Michael Zheng vs Mitchell Krueger",
+    "outcome": "Michael Zheng",
+    "their_usd": 33.42836,
+    "detail": "price 0.950 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T22:04:38.710251+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Spread: Texas State (-2.5)",
+    "outcome": "Texas State",
+    "their_usd": 905.216,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T22:05:15.022981+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Liudmila Samsonova vs Peyton Stearns AND Set Handicap: Iva Jovic (-1.5) vs Cristina Bucsa (+1.5)",
+    "outcome": "",
+    "their_usd": 263.408875,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:05:16.977818+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Team Liquid vs FlyQuest (BO5) - LCS Playoffs AND LoL: LYON vs Cloud9 (BO5) - LCS Playoffs AND Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic AND LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND Guadalajara Open Akron: Liudmila Samsonova vs Peyton Stearns",
+    "outcome": "",
+    "their_usd": 1.52023,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:07:10.984340+00:00"
   }
 ]
