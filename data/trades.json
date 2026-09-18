@@ -87920,5 +87920,29 @@
     "their_usd": 2327.6744,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T22:55:38.221282+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Abedallah Shelbayh vs Michael Mmoh",
+    "outcome": "Michael Mmoh",
+    "their_usd": 51.47061,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T22:59:58.428869+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Toronto Blue Jays vs. Texas Rangers AND Will there be a run scored in the first inning?: Boston Red Sox vs. Tampa Bay Rays",
+    "outcome": "",
+    "their_usd": 2.022781,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:59:59.182762+00:00"
   }
 ]
