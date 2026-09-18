@@ -69032,5 +69032,89 @@
     "their_usd": 4.803922,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T07:42:25.100819+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will RKC Waalwijk win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 6.93,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:48:38.450973+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will RKC Waalwijk win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 124.763572,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:48:38.508025+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will RKC Waalwijk win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 17.105,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:48:38.564604+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND Tottenham Hotspur FC vs. Aston Villa FC: O/U 2.5 AND Will Manchester City FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 20.830656,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:51:23.346058+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Counter-Strike: Leo Team vs G2 Ares (BO3) - CCT Europe Series #9 Group Stage",
+    "outcome": "G2 Ares",
+    "their_usd": 21.58171,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:52:53.346729+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Biella: Mika Brunold vs Carlo Alberto Caniato AND Will Brentford FC win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 21.806078,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:52:54.564231+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Counter-Strike: Leo Team vs G2 Ares (BO3) - CCT Europe Series #9 Group Stage",
+    "outcome": "G2 Ares",
+    "their_usd": 10.78874,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:53:45.810317+00:00"
   }
 ]
