@@ -84201,5 +84201,89 @@
     "their_usd": 166.314,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-18T19:23:57.537999+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Alina Charaeva",
+    "their_usd": 2.17381,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T19:24:39.389402+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Anna Blinkova",
+    "their_usd": 8.8528,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T19:25:19.991046+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Alina Charaeva",
+    "their_usd": 51.07288,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T19:26:01.384880+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Chelsea FC win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 11.36162,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T19:28:03.444186+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Alina Charaeva",
+    "their_usd": 387.23763,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T19:28:41.948154+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Chelsea FC win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 15.27942,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T19:28:43.872271+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Chelsea FC win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 9.40272,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T19:28:44.018023+00:00"
   }
 ]
