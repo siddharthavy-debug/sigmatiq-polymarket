@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 0.2172038526433493,
+  "cash": 27.126072719338964,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -134,16 +134,6 @@
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T21:56:30.110739+00:00"
     },
-    "56614807983518563978530518400524226599681158145150692233196162507679818489785": {
-      "market": "Minnesota Twins vs. Los Angeles Angels: O/U 7.5",
-      "slug": "mlb-min-laa-2026-09-17-total-7pt5",
-      "outcome": "Over",
-      "shares": 31.908868866695617,
-      "cost": 15.25,
-      "trader": "0x8efa1ea8ee",
-      "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
-      "opened": "2026-09-17T22:11:01.831776+00:00"
-    },
     "36590174590310721499058030844565262384974738546991011333755092074521980597514": {
       "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
       "slug": "lol-we-jdg-2026-09-18",
@@ -198,8 +188,8 @@
       "market": "Phan Thiet 4: Matthew Dellavedova vs Hunter Heck",
       "slug": "atp-dellave-heck-2026-09-17",
       "outcome": "Hunter Heck",
-      "shares": 17.24137931034483,
-      "cost": 5.0,
+      "shares": 23.138815207478295,
+      "cost": 10.0,
       "trader": "TRCM",
       "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
       "opened": "2026-09-18T03:55:50.797354+00:00"
@@ -6575,15 +6565,25 @@
     "0x797eddbfe6f34bc9fd9adf58657dfaaab27436a179be3ab921c020e4f01ad36b",
     "0xa7a2495a38ef7d31e17ad45a5f71b657290f09e0ac5fa65ffe295ba9eda8b4eb",
     "0xa05384b5e939a911b2120fdecb88c3226718d40de1c704447239cd814cbf6557",
-    "0xa8e1daec5d94893727490df70c290410e093362a4c9b9196217095404e221671"
+    "0xa8e1daec5d94893727490df70c290410e093362a4c9b9196217095404e221671",
+    "0x865602559bd549000e0e77495b090914f1b85e6430b2d5ea30b20a7f94b30c79",
+    "0x0a0381051fed2102dc7dda7c8d600b4356b6d72260a1f0f2d35aeb3623c3e66f",
+    "0x4922e86e95f7f60f3ffc1a2965dd2be559fc04ea5639d29c843c3e603817bf81",
+    "0x2b56efd30428672c7f3f61ea35123b8211bcac1a5cc73cb957b5ade11ed5c129",
+    "0x80260dfbdcc8d1dca49f8aa8bc58631141163562609e7b2c410d670d2d66615d",
+    "0x91a4d005dbfa6877924752efb0cac6dcb9328921883e47a4c5447d8d310b2c14",
+    "0x29c3c8e2f56177716d59447f1103305f886c76cc8a3092b487a2c4ed0bb384b8",
+    "0x54556b6f70b9bdf4c1f826b39e52211ae97e9e77dc84a7d7e7814b52900cea1d",
+    "0x670771e5401f35fa52252dc43fb07c7fd39ff096e1e1c16b5ce437d77be777a0",
+    "0x5944d518b2de7188cfde7f71ac03318b962ccf00c2fc2c6febc8a81a7df693d8"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T04:29:53.130024+00:00",
-  "realized_pnl": -84.53279614735662,
-  "trades_executed": 199,
-  "wins": 36,
+  "last_run": "2026-09-18T04:35:17.929770+00:00",
+  "realized_pnl": -67.87392728066101,
+  "trades_executed": 200,
+  "wins": 37,
   "losses": 35,
-  "skipped": 5451,
+  "skipped": 5460,
   "failed": 0,
   "initialised": true,
   "paused": false
