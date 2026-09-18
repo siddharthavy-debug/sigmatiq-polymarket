@@ -87092,5 +87092,41 @@
     "their_usd": 1642.46346,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T21:51:32.699421+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 4.5",
+    "outcome": "Over",
+    "their_usd": 33.44,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:56:30.525505+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic AND Guadalajara Open Akron: Liudmila Samsonova vs Peyton Stearns",
+    "outcome": "",
+    "their_usd": 448.759352,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T21:57:08.038980+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "RC Celta de Vigo vs. Real Racing Club: Both Teams to Score AND Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic AND Guadalajara Open Akron: Liudmila Samsonova vs Peyton Stearns",
+    "outcome": "",
+    "their_usd": 784.156645,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T21:57:45.077677+00:00"
   }
 ]
