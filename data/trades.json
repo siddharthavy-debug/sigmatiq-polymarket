@@ -67805,5 +67805,41 @@
     "their_usd": 49.67028,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T05:55:41.877292+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 103.263158,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:57:45.542305+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Brentford FC vs. Chelsea FC: Brentford FC O/U 1.5",
+    "outcome": "Over",
+    "their_usd": 110.0464,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:59:08.701276+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 253.6866,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T06:01:53.274674+00:00"
   }
 ]
