@@ -77266,5 +77266,113 @@
     "their_usd": 1419.543363,
     "detail": "price 0.907 above 0.9 (no upside)",
     "timestamp": "2026-09-18T15:14:50.084874+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 4.25926,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:16:14.845090+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 16.2196,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:16:57.253743+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 2.223334,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:18:21.919834+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 20.3918,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:19:04.106239+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 10.7625,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:19:48.348714+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 4.071852,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:20:29.006808+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 26.8778,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:20:29.078958+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Biella: Jay Clarke vs Felix Gill",
+    "outcome": "Jay Clarke",
+    "their_usd": 4.47447,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:20:30.126936+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.857143,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:20:31.493694+00:00"
   }
 ]
