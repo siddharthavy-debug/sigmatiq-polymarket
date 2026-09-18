@@ -71264,5 +71264,53 @@
     "their_usd": 116.413257,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T11:35:20.132861+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "outcome": "Yes",
+    "their_usd": 714.21411,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:37:30.965321+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "outcome": "Yes",
+    "their_usd": 362.80398,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:37:31.023382+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 220.36384,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:37:32.661955+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "RCD Espanyol de Barcelona vs. Elche CF: Both Teams to Score AND Spread: FC Bayern M\u00fcnchen (-1.5)",
+    "outcome": "",
+    "their_usd": 96.731958,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:40:24.163506+00:00"
   }
 ]
