@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": -0.003903409488689391,
+  "cash": 10.216684825805427,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -124,16 +124,6 @@
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-18T02:00:03.728493+00:00"
     },
-    "7866989921761035108379816531057460053759952490865314829198676275575674526562": {
-      "market": "Will CA Central C\u00f3rdoba vs. CSyD Defensa y Justicia end in a draw?",
-      "slug": "arg-cac-def-2026-09-18-draw",
-      "outcome": "No",
-      "shares": 22.058823529411764,
-      "cost": 15.0,
-      "trader": "us391",
-      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "opened": "2026-09-18T05:11:47.762257+00:00"
-    },
     "104409437013211037050766532808722265409689726374364101268024481427345347317883": {
       "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
       "slug": "wta-sobolie-samson-2026-09-17",
@@ -158,8 +148,8 @@
       "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
       "slug": "ufc-tai1-rob18-2026-09-19",
       "outcome": "Robelis Despaigne",
-      "shares": 12.097560856823321,
-      "cost": 9.92,
+      "shares": 18.195121832433077,
+      "cost": 14.92,
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-18T05:48:07.750487+00:00"
@@ -8192,15 +8182,23 @@
     "0xec076b133e908d9f2ee2ac74d3c2189e7fd8e621e68fcf2482bb397c56e5b1b5",
     "0x8a6786088208b04eee0ac5b0de89017a97ef47d1943c52998808dc7312dfee84",
     "0x743f090b43f21080fc8a06e0a80536cf8fd97865a68dbb2b53698fbc1f367b3e",
-    "0x7bf259e6e4a2cfa0fe4d7706114bbcabb92a56540e8729df3114083c191d2a36"
+    "0x7bf259e6e4a2cfa0fe4d7706114bbcabb92a56540e8729df3114083c191d2a36",
+    "0xe3c1a0d3ebde48665992d37c86b02186fe78bb50fa9378853d53b85583b6e175",
+    "0x04765591b80fa8dbd0a8dbbaad4bae396c2ccef5f645b1e6e5640c8257e478ac",
+    "0x1d1b0345ecbf3280b1e64a4ebdf0fc773ebd66631c77d90d60afb4bc7b60fcaa",
+    "0x0e916845760c54f26533bd4764d105ca2ce957d67e6c6265bc92d241539c6207",
+    "0xaf3dc06bf131d70eb6d93bcecda6b6b2dec9ad1d669cf84a4ebe1af465a22451",
+    "0xcb6ee7d347048be4c083d417928d3442c482b8b274a5a58515e611f40131ba9f",
+    "0x1e241b72e45094edeb8f387c0832d770e1e57658f9994a0569f8dff0f933c00e",
+    "0x25de95cdd0a507dec51ec744452218e3a88fd057d04431b5a16500faa64d5ecb"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T20:28:51.442508+00:00",
-  "realized_pnl": -81.19390340948866,
-  "trades_executed": 235,
-  "wins": 47,
+  "last_run": "2026-09-18T20:34:11.714457+00:00",
+  "realized_pnl": -80.97331517419454,
+  "trades_executed": 237,
+  "wins": 48,
   "losses": 42,
-  "skipped": 7032,
+  "skipped": 7038,
   "failed": 0,
   "initialised": true,
   "paused": false
