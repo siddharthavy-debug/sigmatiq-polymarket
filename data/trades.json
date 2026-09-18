@@ -88184,5 +88184,41 @@
     "their_usd": 262.79156,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T23:14:17.794392+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 139.861333,
+    "detail": "settles in 0.2h, too soon",
+    "timestamp": "2026-09-18T23:17:25.468189+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 4.5",
+    "outcome": "Over",
+    "their_usd": 90.6378,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:17:25.539666+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 6.664,
+    "detail": "settles in 0.2h, too soon",
+    "timestamp": "2026-09-18T23:18:02.593421+00:00"
   }
 ]
