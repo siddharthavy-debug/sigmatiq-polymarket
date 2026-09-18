@@ -70976,5 +70976,113 @@
     "their_usd": 110.84495,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T11:10:25.709786+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Adhyaksa Bekasi win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 27.39563,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:11:55.254624+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "JD Gaming",
+    "their_usd": 480.34373,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T11:12:39.087677+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "JD Gaming",
+    "their_usd": 232.46737,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T11:12:39.146513+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND RCD Espanyol de Barcelona vs. Elche CF: Both Teams to Score AND AC Monza vs. US Sassuolo Calcio: Both Teams to Score",
+    "outcome": "",
+    "their_usd": 85.420713,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:12:40.206537+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Samira De Stefano vs Alice Tubello",
+    "outcome": "Samira De Stefano",
+    "their_usd": 16.72141,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:13:20.625081+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Hodge Conjecture be the next Millennium Prize Problem solved by AI?",
+    "outcome": "No",
+    "their_usd": 359.60312,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:14:05.812006+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Hodge Conjecture be the next Millennium Prize Problem solved by AI?",
+    "outcome": "No",
+    "their_usd": 13.47686,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:14:05.872990+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "AS Monaco FC vs. Racing Club de Lens: O/U 2.5 AND FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 2.5",
+    "outcome": "",
+    "their_usd": 385.232924,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:14:49.579367+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Monza win on 2026-09-18? AND Will Elche CF win on 2026-09-18? AND Will FC Bayern M\u00fcnchen win on 2026-09-18? AND Will Brentford FC win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 12.072247,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:15:32.767726+00:00"
   }
 ]
