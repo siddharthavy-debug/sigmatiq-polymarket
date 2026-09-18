@@ -59931,5 +59931,99 @@
     "their_usd": 7.39855,
     "detail": "max open positions",
     "timestamp": "2026-09-18T01:35:07.973234+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "0x4f2",
+    "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+    "market": "Kansas City Royals vs. Houston Astros",
+    "outcome": "Kansas City Royals",
+    "their_usd": 0,
+    "detail": {
+      "shares": 39.2221,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -15.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-18T01:35:46.112623+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 69.3,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T01:36:28.616210+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 4.782858,
+    "detail": {
+      "shares": 6.9444,
+      "price": 0.7200000361,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T01:37:06.779007+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 160.05275,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T01:39:03.979070+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Houston Astros: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 0,
+    "detail": {
+      "shares": 11.1111,
+      "price": 1.0,
+      "proceeds": 11.11,
+      "pnl": 6.11,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-18T01:39:40.000533+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 113.93767,
+    "detail": {
+      "shares": 6.8493,
+      "price": 0.73,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T01:40:22.497158+00:00"
   }
 ]

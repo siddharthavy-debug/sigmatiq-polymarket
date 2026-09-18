@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 25.117195371701147,
+  "cash": 26.228306482812258,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -144,16 +144,6 @@
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-17T19:45:42.742900+00:00"
     },
-    "6174862932280230027373164098496906932998460020146568462990336983198003710820": {
-      "market": "Kansas City Royals vs. Houston Astros: O/U 8.5",
-      "slug": "mlb-kc-hou-2026-09-17-total-8pt5",
-      "outcome": "Under",
-      "shares": 11.11111111111111,
-      "cost": 5.0,
-      "trader": "0x8efa1ea8ee",
-      "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
-      "opened": "2026-09-17T20:18:08.759967+00:00"
-    },
     "30265008566677103447594244437431176682759292419557762410238534191465311825895": {
       "market": "Lions vs. Bills: O/U 54.5",
       "slug": "nfl-det-buf-2026-09-18-total-54pt5",
@@ -224,16 +214,6 @@
       "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
       "opened": "2026-09-17T23:24:56.281445+00:00"
     },
-    "105731849654817836883662783948454854279892951531573522206237725731943424854578": {
-      "market": "Kansas City Royals vs. Houston Astros",
-      "slug": "mlb-kc-hou-2026-09-17",
-      "outcome": "Kansas City Royals",
-      "shares": 39.22210457770657,
-      "cost": 15.0,
-      "trader": "0x4f2",
-      "trader_wallet": "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
-      "opened": "2026-09-17T23:31:30.833968+00:00"
-    },
     "14164807882210064641348101654293159152497072996863725534693805113135708006302": {
       "market": "Detroit Tigers vs. Chicago White Sox",
       "slug": "mlb-det-cws-2026-09-17",
@@ -253,6 +233,16 @@
       "trader": "SharkbetX-com",
       "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
       "opened": "2026-09-18T01:11:26.411252+00:00"
+    },
+    "54304487288703824323013235124942463616734588159850126600147271786412859174384": {
+      "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+      "slug": "wta-kostyuk-samsono-2026-09-17",
+      "outcome": "Marta Kostyuk",
+      "shares": 13.793759164750885,
+      "cost": 10.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-18T01:37:06.770043+00:00"
     }
   },
   "seen_trades": [
@@ -6136,15 +6126,19 @@
     "0x0068bb259fbdb9764c6a6e4f9db4f0a3f5dcf30039546864e9ba23565aeb4a21",
     "0x41906a686647cd28b714cc64863419ef84a98f521f9b6aced5e52f181170fa7e",
     "0x4306f3e76309be78700bea02b97a177b5bb61ca414881ed9e2fa511288ebaf53",
-    "0xa7d2a4106aff319d43257d779b5c4b047d72872674584815903836360e1f69a7"
+    "0xa7d2a4106aff319d43257d779b5c4b047d72872674584815903836360e1f69a7",
+    "0x93b5904f304d724153b3e98ea93457f928d49d40e2dccd3ba5b5072b7a3619a5",
+    "0xee0a797e706e4d4a7fa1e252096840a931c42e2da9b1f1b3549ec64fadf2f82e",
+    "0x358393513909bf0a73ae9092d6ad29734ecb068018ac129bfa1065095273449e",
+    "0x9edfd49c26941db9c36bc5035fe336cf21a6606bfe03b8f1403ed39ec719b936"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T01:35:09.588192+00:00",
-  "realized_pnl": -29.63280462829882,
-  "trades_executed": 181,
-  "wins": 32,
-  "losses": 27,
-  "skipped": 4980,
+  "last_run": "2026-09-18T01:40:24.636319+00:00",
+  "realized_pnl": -38.521693517187714,
+  "trades_executed": 183,
+  "wins": 33,
+  "losses": 28,
+  "skipped": 4982,
   "failed": 0,
   "initialised": true,
   "paused": false
