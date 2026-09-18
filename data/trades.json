@@ -87032,5 +87032,65 @@
     "their_usd": 141.070176,
     "detail": "settles in 7d, too far out",
     "timestamp": "2026-09-18T21:46:32.390420+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Rayo Vallecano de Madrid win on 2026-09-19? AND Will Aston Villa FC win on 2026-09-19? AND Will Athletic Club win on 2026-09-19? AND Will Everton FC win on 2026-09-19? AND Will Brighton & Hove Albion FC win on 2026-09-19? AND Will Nottingham Forest FC win on 2026-09-19? AND Will Newcastle United FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 293.51397,
+    "detail": "price 0.995 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T21:47:13.033055+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Michael Zheng vs Mitchell Krueger",
+    "outcome": "Michael Zheng",
+    "their_usd": 4.3301,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:50:17.819866+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Michael Zheng vs Mitchell Krueger",
+    "outcome": "Michael Zheng",
+    "their_usd": 252.9003,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:50:18.207592+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will CA Osasuna win on 2026-09-19? AND Will Tottenham Hotspur FC win on 2026-09-19? AND Will Athletic Club win on 2026-09-19? AND Will Everton FC win on 2026-09-19? AND Will BV Borussia 09 Dortmund win on 2026-09-19? AND Will Arsenal FC win on 2026-09-19? AND Will Nottingham Forest FC win on 2026-09-19? AND Will Newcastle United FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 36.79065,
+    "detail": "price 0.993 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T21:50:18.985580+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Michael Zheng vs Mitchell Krueger",
+    "outcome": "Michael Zheng",
+    "their_usd": 1642.46346,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:51:32.699421+00:00"
   }
 ]
