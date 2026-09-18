@@ -85387,5 +85387,157 @@
     "their_usd": 1614.8542,
     "detail": "settles in 7d, too far out",
     "timestamp": "2026-09-18T20:38:50.357707+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Brentford FC vs. Chelsea FC end in a draw?",
+    "outcome": "Yes",
+    "their_usd": 1.55104,
+    "detail": "price 0.040 below 0.05 (longshot)",
+    "timestamp": "2026-09-18T20:40:44.218544+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Fed\u2019s lower bound reach 2.75% or lower before 2027?",
+    "outcome": "Yes",
+    "their_usd": 4.27182,
+    "detail": "price 0.021 below 0.05 (longshot)",
+    "timestamp": "2026-09-18T20:41:20.879963+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Mary Stoiana vs Paula Badosa",
+    "outcome": "Paula Badosa",
+    "their_usd": 1779.02699,
+    "detail": {
+      "shares": 6.667,
+      "price": 0.7499573175,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T20:41:22.686444+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Brentford FC win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 53.333,
+    "detail": "price 0.950 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T20:41:24.152830+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Brentford FC win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 53.333,
+    "detail": "price 0.950 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T20:41:24.196638+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score",
+    "outcome": "No",
+    "their_usd": 4.37827,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T20:42:04.354330+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score",
+    "outcome": "No",
+    "their_usd": 4.37827,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T20:42:04.400539+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score",
+    "outcome": "No",
+    "their_usd": 4.18527,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T20:42:04.445647+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "Philadelphia Phillies",
+    "their_usd": 235.0,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T20:42:43.714425+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will Toulouse FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 425.46,
+    "detail": {
+      "shares": 11.9048,
+      "price": 0.42,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T20:43:23.928035+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 60.216,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T20:43:24.481247+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Mary Stoiana vs Paula Badosa",
+    "outcome": "Mary Stoiana",
+    "their_usd": 600.13695,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T20:44:43.483073+00:00"
   }
 ]
