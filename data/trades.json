@@ -68984,5 +68984,53 @@
     "their_usd": 4.053614,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T07:30:03.078717+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: O/U 3.5 AND RCD Espanyol de Barcelona vs. Elche CF: Both Teams to Score AND Will US Sassuolo Calcio win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 94.478498,
+    "detail": "price 0.900 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T07:37:38.154227+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card) AND UFC 331: Marlon Vera vs. Charles Jourdain (Bantamweight, Prelims) AND Szczecin: Tom Gentzsch vs Luka Mikrut AND UFC 331: Gable Steveson vs. Sean Sharaf (Heavyweight, Prelims) AND Guangzhou: Mitsuki Wei Kang Leong vs Petr Bar Biryukov AND Szczecin: Diego Dedura-Palomero vs Thiago Monteiro",
+    "outcome": "",
+    "their_usd": 3.407742,
+    "detail": "price 0.968 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T07:38:19.339033+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Lyngby BK win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 7.53742,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T07:41:43.965715+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Lyngby BK win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 4.803922,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T07:42:25.100819+00:00"
   }
 ]
