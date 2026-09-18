@@ -71564,5 +71564,89 @@
     "their_usd": 7.23261,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T11:56:20.470102+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Gabala FK vs. Neftchi Baku PFC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 20.21,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:57:58.185943+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Gabala FK vs. Neftchi Baku PFC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 235.16803,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:57:58.242015+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 6.24,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:57:59.542652+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Athletics vs. Cleveland Guardians: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 102.92537,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:58:43.573519+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND AS Monaco FC vs. Racing Club de Lens: Both Teams to Score AND AC Monza vs. US Sassuolo Calcio: Both Teams to Score AND Will Elche CF win on 2026-09-18? AND Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 16.662246,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:59:25.898974+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Athletics vs. Cleveland Guardians: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 1249.585,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:00:55.924229+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Dolphins vs. 49ers AND Saints vs. Ravens AND Will FC Bayern M\u00fcnchen win on 2026-09-18? AND Will Olympique de Marseille win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 20.01988,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:01:39.102893+00:00"
   }
 ]
