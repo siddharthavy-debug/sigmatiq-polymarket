@@ -86223,5 +86223,29 @@
     "their_usd": 1.022728,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T21:15:48.248311+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 403.603939,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T21:17:49.847362+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Miami Marlins vs. San Diego Padres: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 527.5193,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:17:50.936163+00:00"
   }
 ]

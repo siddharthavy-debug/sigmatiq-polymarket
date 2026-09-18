@@ -216,8 +216,6 @@
     }
   },
   "seen_trades": [
-    "0xea77cedc56340947b3fb6790d74f7d324c58cf5be5535ec90a55d6465ca06f3a",
-    "0xb6f2852774681006ee511f127c4fecae8d0a2250b1aa70f492e49339ff49858b",
     "0xb1efe27f53a3661197fda942fa253c2771c50d988424fd6a42d2e038fa6547ce",
     "0xe3ece373e39dda04f69842d997bb50f9990c38c57aec6f45b005ba691ec68854",
     "0x6583a95de3f1298c5a765bc1a5261960baf56257ec5852a3b0a9ffec31ecd2ad",
@@ -8215,15 +8213,17 @@
     "0xf7cbce87b8e40e7bbde88709a681a8ca3ac656642d51dc128a2ca81a4f032e4c",
     "0x6e4f4d3fe5bbaa4e21e9691b1c12b3df8773ec9d8f28e23a35bfde495a286bb0",
     "0x1a55d84daff0f143c913b1a442281b8731e4b4ca181f489cdef5777964f3505c",
-    "0x96d932d6f8661f39e948b072847a2fdf9c1abaff3757daab1b8208e29ee4e327"
+    "0x96d932d6f8661f39e948b072847a2fdf9c1abaff3757daab1b8208e29ee4e327",
+    "0x25191e8b81ba2d57d21f5b428d56eecfd67246f77336d8cf0c26ca77be97880e",
+    "0x9f2f775721a98dce7fe9a3b39ca2391373a1b0a3d0b50703d64dd6d9b60780a0"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T21:17:09.315312+00:00",
+  "last_run": "2026-09-18T21:18:31.417987+00:00",
   "realized_pnl": -80.97331517419454,
   "trades_executed": 239,
   "wins": 48,
   "losses": 42,
-  "skipped": 7116,
+  "skipped": 7118,
   "failed": 0,
   "initialised": true,
   "paused": false
