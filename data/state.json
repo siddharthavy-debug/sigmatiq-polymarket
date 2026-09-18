@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 15.71259214891203,
+  "cash": 10.71259214891203,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -134,16 +134,6 @@
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T19:00:16.713802+00:00"
     },
-    "30265008566677103447594244437431176682759292419557762410238534191465311825895": {
-      "market": "Lions vs. Bills: O/U 54.5",
-      "slug": "nfl-det-buf-2026-09-18-total-54pt5",
-      "outcome": "Under",
-      "shares": 10.204081632653061,
-      "cost": 5.0,
-      "trader": "purplegatto",
-      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
-      "opened": "2026-09-17T20:34:02.217897+00:00"
-    },
     "50689537550388103457226777624506327705984886909451933378543629767643939508745": {
       "market": "Will Arsenal FC win on 2026-09-19?",
       "slug": "epl-bri-ars-2026-09-19-ars",
@@ -233,6 +223,16 @@
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-18T02:44:26.095515+00:00"
+    },
+    "42486312546220858831987819342821843073411334427344372533159390467339488008239": {
+      "market": "Spread: FC Bayern M\u00fcnchen (-1.5)",
+      "slug": "bun-bay-uni-2026-09-18-spread-home-1pt5",
+      "outcome": "FC Bayern M\u00fcnchen",
+      "shares": 6.097560975609756,
+      "cost": 5.0,
+      "trader": "purplegatto",
+      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "opened": "2026-09-18T02:51:35.240647+00:00"
     }
   },
   "seen_trades": [
@@ -6309,15 +6309,34 @@
     "0x992de99303d0cf739b5556e0b8ca7bb801048ea878b0b697e1cb4b0a439842ea",
     "0xa54fd9c716af59d99cae3d6931a7dfc06dd080256817cf1ad5b24d073f99a1d6",
     "0xf3b4986d6aa5558052097261c56728956fe71fcc901ba7905f428ea73ecc0e6f",
-    "0xafce0bb80679e711468163f689a52ecd58e12af157f9ba2feb5effa0b44760f4"
+    "0xafce0bb80679e711468163f689a52ecd58e12af157f9ba2feb5effa0b44760f4",
+    "0x1311c2c132f30bad4985e5a7bef15a1800992f24719517632524805d9fdebdf4",
+    "0x4e0a42d4b4cc97fa87d9b742d794c8a95b5a34df4159c0c2bdc440177784469c",
+    "0xc0e7045e18793c1b105ebe23f2bd3b7f0cb061c4908b084f74da9c05601cab3b",
+    "0x64ccdb73274003456d33236895519e28dc57b2bbf0116d58763338a8220742a0",
+    "0x1bde393c2614d2473600ab799d68d3fca94eceff65dba17de1f8be916c99c47c",
+    "0x00b124fcc1b098b6460700f20f77f1da0d2f8fe2c44749fa71d682b54cc18790",
+    "0x8f4afcee2ca644eee7901f5aec2b25f1c52eebe7a31b6ab3b63be6feb066f1a0",
+    "0x528b45831a193b89bb66cfccad88abe0dace89faacbbbf8c710caf51d210809f",
+    "0x8fce57c9a1b60a25cbae4fe3cb6b74cedc9e4b60ebc0fe72972d725f0de6c6b9",
+    "0x68de1ee79d328df176984e15a2d89425b2afc71aec039495e60363292841fac4",
+    "0x247782bef3c6db69afb11990546b4c481679e976dfd43f99ff3c4229a0080576",
+    "0x7a53a25d8a94c6682f1164048d40073c4bbc268ee253933a4f36bbf0a04da769",
+    "0xe5e2ca016e3fd2d67df0eb58bdcc56e6931d2ae34cd965cc325ce2dba604adbf",
+    "0x594116324c4c99c0dcccbc21239cc20f08ad335a5f3dd3195d7b41d64308f267",
+    "0x271c8a256fca54ca5d0364be859bd01c802f7320c721ccae35146b9c74b21742",
+    "0x7900124f9284dea889f25018499d8cff67a280d83d6de32c5aa9a0d60498a3ee",
+    "0xdd498827011f943f32de59fa7bfd063a7bfe247f21b3bc1b61f8e1bb4ee107ee",
+    "0x2de6a0cc811e55d88bc7d80002e4f3c84e2370a89eedc2a1423c3741a2a35fd5",
+    "0x0e7d4780e09601559c040a4f8aee66979dabb9840b0d6a40fbc4e6c13a017048"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T02:48:20.536166+00:00",
-  "realized_pnl": -59.03740785108795,
-  "trades_executed": 193,
+  "last_run": "2026-09-18T02:53:31.951827+00:00",
+  "realized_pnl": -64.03740785108795,
+  "trades_executed": 194,
   "wins": 34,
-  "losses": 31,
-  "skipped": 5161,
+  "losses": 32,
+  "skipped": 5179,
   "failed": 0,
   "initialised": true,
   "paused": false
