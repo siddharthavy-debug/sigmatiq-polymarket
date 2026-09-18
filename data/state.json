@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 0.0034064453357802726,
+  "cash": 9.920336362265697,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -174,16 +174,6 @@
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-18T04:39:57.918015+00:00"
     },
-    "62470794627186710164828739562796113480673807752651293809240510723196355279644": {
-      "market": "Phan Thiet 4: Moise Kouame vs Florent Bax",
-      "slug": "atp-kouame-bax-2026-09-18",
-      "outcome": "Moise Kouame",
-      "shares": 19.916929916929917,
-      "cost": 15.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-18T04:43:19.191978+00:00"
-    },
     "77912458764856045760066476718736048272891525965865995575446289536167600322479": {
       "market": "Will Lyngby BK win on 2026-09-18?",
       "slug": "den-lyn-sif-2026-09-18-lyn",
@@ -228,11 +218,21 @@
       "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
       "slug": "wta-sobolie-samson-2026-09-17",
       "outcome": "Anastasiia Sobolieva",
-      "shares": 18.933333333333334,
-      "cost": 8.52,
+      "shares": 30.044444444444444,
+      "cost": 13.52,
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-18T05:34:22.380731+00:00"
+    },
+    "76090239444096097977927513101517984647728357246741392836782541845713667006390": {
+      "market": "Indiana Fever vs. Toronto Tempo",
+      "slug": "wnba-ind-tor-2026-09-18",
+      "outcome": "Toronto Tempo",
+      "shares": 41.66666666666667,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-18T05:40:31.817667+00:00"
     }
   },
   "seen_trades": [
@@ -6732,15 +6732,34 @@
     "0x8de8061daaa03f7fe5d179e6ebf715b1171272d0797772f83ff22e09e2ff928c",
     "0x4e0b1066bfc259bd8a20d6eded8ac7d87378eda975e1a5ba3c93c42aeb9dfc42",
     "0xc2307f2c6ac0fd2626c3675fabbf6ff764f55105ca4572e9418f551c469b5b02",
-    "0x43a354385f6c3873befbe66d4588ec21fb187516d49f4639b4131a5294847242"
+    "0x43a354385f6c3873befbe66d4588ec21fb187516d49f4639b4131a5294847242",
+    "0x52414983b2054cc879bb4d2abeb38674f46a174b70f52f7b45fbc2585aacc0fd",
+    "0xfa0d4be621e4086da96e42b05f6d40b3302f300b41b455e178c009c996ae9eed",
+    "0x1cb46a4ba109e8993910c5287c4a316f2368aef4d0db086e1bb302c9610775f2",
+    "0x651198d865beccd410486d3f42a2d3b51c91fa52109a1f737a3173de1a68c3f3",
+    "0x45eed358352e5db9408486524dc256ae5837b572cd88599bdb525f114a22f322",
+    "0x4b00b1c7200b9bab88025c8bee839c73a4863da5f46f81c61c592553c8958881",
+    "0x9af6295bb6f77457a16fafe2199977922b221d8548de378f084998cd4a295898",
+    "0xf356b0144a7b21809d3392753f5b18ee16caf707303c9fae6229918d03e1cef4",
+    "0x1dbb43845ee1d9dc8034be5e248e72696ed0f83b1ffcfe024049ce89b8ec126f",
+    "0x132fb7dbf872ec23a33ba833085e023ca7b28489eedab2d76398d4a610e5a7b6",
+    "0x990fa3cfde417491b432e1300e58e7654def5eabb43d29cf9d51ef27c73b6343",
+    "0x297ece4d28e7e89a17ff43895b19e8da3126ad369a5cb9639072933f636afb36",
+    "0x47d2edc3211bc3ddf057dbf8f3c537d5337b90f751b268673adf4a722523c647",
+    "0x0f20707588b4b7dba4e1e81d1ab28dd144a70aa4af519a16af5735049a0b190d",
+    "0x440ced24b9cfa95da76489bd3986a582ca0fa027767a5eb10e7536ca8a71fcf5",
+    "0x478c7bc29cabfec382d3896d9cf7ce0a1411fda2b45cc9d21f982678ace2b00c",
+    "0xcb5b75c81cb33747b28d00ffc0e6af9872988ec686c3abfdba888c94215a3ae8",
+    "0x9a57f542c960bf8cfd0adaaa96a22b5bbe223ee9f0bfa92477c1d0f4292230aa",
+    "0x64c5661210871e95816768037c7b1c11c2f307b4f4e7733a1c981abd3ff1f369"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T05:35:05.221899+00:00",
-  "realized_pnl": -66.21659355466419,
-  "trades_executed": 215,
-  "wins": 39,
+  "last_run": "2026-09-18T05:40:34.646073+00:00",
+  "realized_pnl": -61.29966363773427,
+  "trades_executed": 217,
+  "wins": 40,
   "losses": 37,
-  "skipped": 5562,
+  "skipped": 5579,
   "failed": 0,
   "initialised": true,
   "paused": false
