@@ -68296,5 +68296,41 @@
     "their_usd": 3.20637,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T06:28:07.947334+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Exact Score: AC Monza 2 - 3 US Sassuolo Calcio? AND Exact Score: Brentford FC 2 - 3 Chelsea FC? AND Exact Score: RCD Espanyol de Barcelona 3 - 2 Elche CF? AND Exact Score: Any Other Score?",
+    "outcome": "",
+    "their_usd": 380.047898,
+    "detail": "price 0.998 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T06:30:54.409772+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Seattle Storm vs. Golden State Valkyries",
+    "outcome": "Golden State Valkyries",
+    "their_usd": 18.72767,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:32:57.556293+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Counter-Strike: Black Phoenix vs Lavked (BO3) - CCT Europe Series #9 Group Stage",
+    "outcome": "Lavked",
+    "their_usd": 20.44653,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:35:01.229254+00:00"
   }
 ]
