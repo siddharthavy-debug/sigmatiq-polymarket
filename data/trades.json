@@ -73179,5 +73179,77 @@
     "their_usd": 8.341038,
     "detail": "price 0.934 above 0.9 (no upside)",
     "timestamp": "2026-09-18T13:06:41.422047+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Rennes: Harold Mayot vs Clement Chidekh",
+    "outcome": "Harold Mayot",
+    "their_usd": 12.84858,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:09:33.634366+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Liverpool FC win on 2026-09-20? AND Will Aston Villa FC win on 2026-09-19? AND Will Sevilla FC vs. FC Barcelona end in a draw? AND Will Manchester City FC win on 2026-09-20? AND Will Club Atl\u00e9tico de Madrid win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 453.3388,
+    "detail": "price 0.990 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T13:11:02.650763+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Caldas da Rainha: Malaika Rapolu vs Gabriela Knutson",
+    "outcome": "Gabriela Knutson",
+    "their_usd": 56.4175,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:12:27.212883+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Boston Red Sox vs. Tampa Bay Rays: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 719.6,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:12:30.171463+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Biella: Mika Brunold vs Carlo Alberto Caniato",
+    "outcome": "Mika Brunold",
+    "their_usd": 8.73382,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:13:10.642062+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 18.571429,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:13:56.783097+00:00"
   }
 ]
