@@ -70628,5 +70628,41 @@
     "their_usd": 21.513778,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T10:29:15.445513+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guangzhou: Mitsuki Wei Kang Leong vs Petr Bar Biryukov",
+    "outcome": "Mitsuki Wei Kang Leong",
+    "their_usd": 78.50512,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T10:29:58.654305+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guangzhou: Elias Ymer vs Marat Sharipov",
+    "outcome": "Elias Ymer",
+    "their_usd": 88.76675,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T10:33:39.761720+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "AS Monaco FC vs. Racing Club de Lens: Both Teams to Score",
+    "outcome": "Yes",
+    "their_usd": 175.50645,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T10:34:25.348778+00:00"
   }
 ]
