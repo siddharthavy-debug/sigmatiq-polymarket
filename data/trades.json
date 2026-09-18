@@ -88220,5 +88220,65 @@
     "their_usd": 6.664,
     "detail": "settles in 0.2h, too soon",
     "timestamp": "2026-09-18T23:18:02.593421+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic",
+    "outcome": "Cristina Bucsa",
+    "their_usd": 247.06628,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:20:31.452781+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 60.0,
+    "detail": "settles in 0.1h, too soon",
+    "timestamp": "2026-09-18T23:21:08.803759+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 201.872,
+    "detail": "settles in 0.1h, too soon",
+    "timestamp": "2026-09-18T23:22:22.969338+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic",
+    "outcome": "Cristina Bucsa",
+    "their_usd": 103.864,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:22:59.470409+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 1719.20335,
+    "detail": "settles in 0.1h, too soon",
+    "timestamp": "2026-09-18T23:23:37.142307+00:00"
   }
 ]
