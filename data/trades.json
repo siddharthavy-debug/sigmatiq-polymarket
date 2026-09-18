@@ -80782,5 +80782,101 @@
     "their_usd": 3.714286,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T17:38:54.132637+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Lisa Pigato",
+    "their_usd": 3.157895,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:39:35.767422+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Democrats win the Nevada governor race in 2026?",
+    "outcome": "Yes",
+    "their_usd": 46.9936,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:39:36.580785+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 161.6485,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:40:18.217255+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Lisa Pigato",
+    "their_usd": 21.71733,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:41:39.361287+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates AND Athletics vs. Cleveland Guardians AND Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "",
+    "their_usd": 154.669734,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:41:41.415567+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 17.667,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:42:22.671695+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Everton FC win on 2026-09-19? AND Will Manchester City FC win on 2026-09-20? AND Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 29.440107,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:42:22.959539+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Susan Bandecchi",
+    "their_usd": 87.5762,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:43:01.980118+00:00"
   }
 ]
