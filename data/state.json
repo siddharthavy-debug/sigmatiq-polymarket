@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 27.126072719338964,
+  "cash": 17.126072719338964,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -174,16 +174,6 @@
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-18T03:48:25.814202+00:00"
     },
-    "87914157936545886154168013125881932120278704704140998256869275877495269304327": {
-      "market": "Minnesota Twins vs. Los Angeles Angels",
-      "slug": "mlb-min-laa-2026-09-17",
-      "outcome": "Minnesota Twins",
-      "shares": 12.531328320802004,
-      "cost": 5.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-18T03:53:08.675771+00:00"
-    },
     "87197343894456130593898782676177110951952536296651456040559819280191898968479": {
       "market": "Phan Thiet 4: Matthew Dellavedova vs Hunter Heck",
       "slug": "atp-dellave-heck-2026-09-17",
@@ -193,6 +183,16 @@
       "trader": "TRCM",
       "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
       "opened": "2026-09-18T03:55:50.797354+00:00"
+    },
+    "98606483910862157292150485578361131800618895557996658662721539136094320791711": {
+      "market": "Will NK Slaven Belupo win on 2026-09-18?",
+      "slug": "hr1-rud-sla-2026-09-18-sla",
+      "outcome": "No",
+      "shares": 20.0,
+      "cost": 10.0,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-18T04:39:57.918015+00:00"
     }
   },
   "seen_trades": [
@@ -6575,15 +6575,26 @@
     "0x29c3c8e2f56177716d59447f1103305f886c76cc8a3092b487a2c4ed0bb384b8",
     "0x54556b6f70b9bdf4c1f826b39e52211ae97e9e77dc84a7d7e7814b52900cea1d",
     "0x670771e5401f35fa52252dc43fb07c7fd39ff096e1e1c16b5ce437d77be777a0",
-    "0x5944d518b2de7188cfde7f71ac03318b962ccf00c2fc2c6febc8a81a7df693d8"
+    "0x5944d518b2de7188cfde7f71ac03318b962ccf00c2fc2c6febc8a81a7df693d8",
+    "0xefd7ed1d396cd3593051b7156664a376de9354812f1caf31b215edf971b44362",
+    "0x02f9a622107ab1b115efe33e387dda34e79d4d060532e4c511951f2a020755f0",
+    "0xc01d20d6c6b1c0f83a3219b1f841bb1f949cc5e8bc59cc0126bfc7b7ba9cd3b7",
+    "0xfec4344bccf7812d963421944d9ff995fa477f01d9ad432e1248d87ee4b0dfb8",
+    "0x46f177ba2b27bf609bcc723d6e0af6a955bfad4c7272479624b403292a1bd937",
+    "0x2c191d9cd9ac5ab3226dc6fec81defa263f7281d3b4c9cabc15969151053fa10",
+    "0x14cd487dee49a0eac53e11268a378417ad3e8d36f015cf11f3ab1fb618bf6c53",
+    "0x2036ff1add088c91fe870ff30716780a6ae60d9cc04b5ed0d98bb61dcb7f4a36",
+    "0xc6006e3ab564c889e6225c89e11393af0cd25609b069e8f1439c106278760f26",
+    "0x52aa003d38b1acb4bbc777cd66350a8e35a023293d8fed16e0f30fe90bb590f9",
+    "0x8d6ad9516e73f2f6030e711a2714e1bc0847afa18b1fd77aee5c23b9eada8d8a"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T04:35:17.929770+00:00",
-  "realized_pnl": -67.87392728066101,
-  "trades_executed": 200,
+  "last_run": "2026-09-18T04:40:40.063065+00:00",
+  "realized_pnl": -72.87392728066101,
+  "trades_executed": 202,
   "wins": 37,
-  "losses": 35,
-  "skipped": 5460,
+  "losses": 36,
+  "skipped": 5469,
   "failed": 0,
   "initialised": true,
   "paused": false
