@@ -84484,5 +84484,41 @@
     "their_usd": 8.5085,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T19:45:34.807684+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Anna Blinkova",
+    "their_usd": 36.504,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T19:48:17.066408+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: LYON vs Cloud9 (BO5) - LCS Playoffs AND LoL: Shopify Rebellion vs Sentinels (BO5) - LCS Playoffs",
+    "outcome": "",
+    "their_usd": 375.098419,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T19:48:18.261329+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Darwin Blanch vs Bryce Nakashima",
+    "outcome": "Darwin Blanch",
+    "their_usd": 37.48105,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T19:49:37.717051+00:00"
   }
 ]
