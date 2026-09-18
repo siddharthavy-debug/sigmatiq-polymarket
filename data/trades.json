@@ -58000,5 +58000,65 @@
     "their_usd": 11.4895,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-17T23:59:46.951242+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Lions vs. Bills: O/U 55.5",
+    "outcome": "Over",
+    "their_usd": 437.0,
+    "detail": "settles in 0.2h, too soon",
+    "timestamp": "2026-09-18T00:02:24.149226+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "1Q Spread: Bills (-2.5)",
+    "outcome": "Bills",
+    "their_usd": 18.51811,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T00:03:44.155978+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Boston Red Sox vs. Texas Rangers",
+    "outcome": "Yes",
+    "their_usd": 81.818182,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T00:05:00.713744+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "1Q Spread: Bills (-2.5)",
+    "outcome": "Bills",
+    "their_usd": 669.89156,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T00:05:02.587308+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.78,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T00:05:02.869385+00:00"
   }
 ]
