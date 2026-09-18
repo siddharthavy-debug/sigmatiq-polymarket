@@ -73371,5 +73371,29 @@
     "their_usd": 10.478,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T13:18:28.844876+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Brentford FC vs. Chelsea FC: Chelsea FC O/U 1.5",
+    "outcome": "Over",
+    "their_usd": 9.71187,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:22:50.345583+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Athletics vs. Cleveland Guardians: O/U 9.5 AND Milwaukee Brewers vs. Baltimore Orioles: O/U 9.5 AND Seattle Mariners vs. Colorado Rockies: O/U 11.5",
+    "outcome": "",
+    "their_usd": 299.999992,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:23:34.325851+00:00"
   }
 ]
