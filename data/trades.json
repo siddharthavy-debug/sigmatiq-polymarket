@@ -87452,5 +87452,101 @@
     "their_usd": 41.371785,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T22:23:22.890515+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will Bologna FC 1909 vs. Torino FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 802.08,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T22:25:14.970924+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Abedallah Shelbayh vs Michael Mmoh",
+    "outcome": "Abedallah Shelbayh",
+    "their_usd": 164.13696,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T22:26:30.815452+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 4.5",
+    "outcome": "Over",
+    "their_usd": 174.335897,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T22:27:45.586727+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "Yes",
+    "their_usd": 8.518519,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:28:21.580083+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Yes",
+    "their_usd": 8.181818,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:28:58.381667+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Atlanta Braves vs. Houston Astros: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 4.433963,
+    "detail": "settles in 1.7h, too soon",
+    "timestamp": "2026-09-18T22:29:00.542334+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Philadelphia Phillies vs. New York Mets",
+    "outcome": "Yes",
+    "their_usd": 9.607844,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:29:35.695244+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Yes",
+    "their_usd": 311.686364,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:30:12.634874+00:00"
   }
 ]
