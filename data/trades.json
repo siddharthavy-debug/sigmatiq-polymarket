@@ -85137,5 +85137,17 @@
     "their_usd": 150.0,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T20:22:49.810827+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Brentford FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 3.5,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T20:26:10.739926+00:00"
   }
 ]
