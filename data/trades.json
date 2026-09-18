@@ -87368,5 +87368,89 @@
     "their_usd": 20.602592,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T22:19:01.822311+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "Yes",
+    "their_usd": 2468.4796,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:20:15.939505+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Abedallah Shelbayh vs Michael Mmoh",
+    "outcome": "Abedallah Shelbayh",
+    "their_usd": 80.27812,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T22:20:17.206885+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Yes",
+    "their_usd": 2085.75,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:21:30.317654+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Michael Zheng vs Mitchell Krueger",
+    "outcome": "Michael Zheng",
+    "their_usd": 8717.35995,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T22:21:31.123931+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "Yes",
+    "their_usd": 17.462963,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:22:07.211807+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Yes",
+    "their_usd": 256.508182,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:22:44.089554+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Portland Fire vs. Golden State Valkyries AND Miami (FL) vs. Wake Forest AND Houston vs. Texas Tech AND Indiana Fever vs. Toronto Tempo AND Will Comunicaciones FC win on 2026-09-18? AND Will Vila Nova FC win on 2026-09-18? AND Will Club Alianza Lima win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 41.371785,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:23:22.890515+00:00"
   }
 ]
