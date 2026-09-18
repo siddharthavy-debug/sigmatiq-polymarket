@@ -68009,5 +68009,65 @@
     "their_usd": 410.82544,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T06:13:38.233727+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 4.5",
+    "outcome": "Under",
+    "their_usd": 1362.66354,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:17:46.295221+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Chicago Sky vs. Atlanta Dream",
+    "outcome": "Atlanta Dream",
+    "their_usd": 10.79448,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:17:46.377374+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 5.5",
+    "outcome": "Over",
+    "their_usd": 47.38,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:19:08.951005+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 5.5",
+    "outcome": "Over",
+    "their_usd": 187.048,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:19:08.994100+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 5.5",
+    "outcome": "Over",
+    "their_usd": 9.888,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:19:09.036199+00:00"
   }
 ]
