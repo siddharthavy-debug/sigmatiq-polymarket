@@ -76906,5 +76906,113 @@
     "their_usd": 17.746321,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T15:03:26.591847+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 11269.91775,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T15:04:08.512224+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 2.5 AND Will FC Barcelona win on 2026-09-19? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 29.447082,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:04:10.484277+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Washington Nationals vs. St. Louis Cardinals: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 9.264,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:04:10.862289+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Szczecin: Tom Gentzsch vs Luka Mikrut",
+    "outcome": "Tom Gentzsch",
+    "their_usd": 8.0397,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:04:50.830574+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Caldas da Rainha: Jeline Vandromme vs Francisca Jorge",
+    "outcome": "Francisca Jorge",
+    "their_usd": 3.132,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:06:16.754240+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 11.733237,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:07:40.982594+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "IF Gnistan vs. HJK Helsinki: Both Teams to Score AND SpVgg Greuther F\u00fcrth vs. 1. FC Magdeburg: Both Teams to Score AND AC Oulu vs. FC Inter Turku: Both Teams to Score AND Lyngby BK vs. Silkeborg IF: Both Teams to Score AND Will Qarabag FK win on 2026-09-18? AND Will VfL Wolfsburg win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 104.272009,
+    "detail": "price 0.916 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T15:08:25.991434+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Carolina vs. Clemson AND Spread: LSU (-3.5) AND SMU vs. Louisville",
+    "outcome": "",
+    "their_usd": 64.41562,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:08:26.059581+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 25.555556,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:09:05.625959+00:00"
   }
 ]
