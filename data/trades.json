@@ -61901,5 +61901,109 @@
     "their_usd": 1.26653,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T02:32:47.009414+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Boston Red Sox vs. Texas Rangers",
+    "outcome": "Texas Rangers",
+    "their_usd": 1002.11073,
+    "detail": {
+      "shares": 6.9832,
+      "price": 0.716,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T02:33:24.587034+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.375862,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:34:44.067936+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.68,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:35:22.754709+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 2.94,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:35:22.790574+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Boston Red Sox vs. Texas Rangers",
+    "outcome": "Texas Rangers",
+    "their_usd": 5.07823,
+    "detail": {
+      "shares": 7.8493,
+      "price": 0.637,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T02:36:00.007536+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.68,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:36:01.275437+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republican Party win the LA-03 House seat?",
+    "outcome": "No",
+    "their_usd": 14.2872,
+    "detail": "price 0.030 below 0.05 (longshot)",
+    "timestamp": "2026-09-18T02:36:37.464223+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guangzhou: Mitsuki Wei Kang Leong vs Petr Bar Biryukov AND Guangzhou: Elias Ymer vs Marat Sharipov",
+    "outcome": "",
+    "their_usd": 1799.997984,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T02:37:18.882424+00:00"
   }
 ]
