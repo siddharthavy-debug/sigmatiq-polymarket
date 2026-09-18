@@ -69248,5 +69248,41 @@
     "their_usd": 96.6416,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T07:59:00.578261+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Monza win on 2026-09-18? AND Will Racing Club de Lens win on 2026-09-18? AND Will Elche CF win on 2026-09-18? AND Will FC Bayern M\u00fcnchen win on 2026-09-18? AND Will Brentford FC win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 333.20692,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:59:44.205086+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND LoL: LYON vs Cloud9 (BO5) - LCS Playoffs AND LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "",
+    "their_usd": 549.597765,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:01:06.524407+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Republicans win the Texas governor race in 2026?",
+    "outcome": "No",
+    "their_usd": 1.18031,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:01:47.174863+00:00"
   }
 ]
