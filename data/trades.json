@@ -86408,5 +86408,101 @@
     "their_usd": 14.455644,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T21:29:37.769897+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 26.0,
+    "detail": "settles in 2.0h, too soon",
+    "timestamp": "2026-09-18T21:30:54.529632+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 2.0,
+    "detail": "settles in 2.0h, too soon",
+    "timestamp": "2026-09-18T21:32:10.831947+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 244.585,
+    "detail": "settles in 2.0h, too soon",
+    "timestamp": "2026-09-18T21:32:48.265883+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 1385.5,
+    "detail": "settles in 2.0h, too soon",
+    "timestamp": "2026-09-18T21:32:48.337892+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Liverpool FC win on 2026-09-20? AND Will Maccabi Tel Aviv FC win on 2026-09-19? AND Will Manchester City FC win on 2026-09-20? AND Will Arsenal FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 336.700233,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T21:33:25.551629+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Barcelona win on 2026-09-19? AND Will Manchester City FC win on 2026-09-20? AND Will Arsenal FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 41.219694,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T21:34:39.510202+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "Kansas City Royals",
+    "their_usd": 1500.12,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T21:35:53.687788+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Texas Tech (-14.5) AND Seattle Mariners vs. Colorado Rockies",
+    "outcome": "",
+    "their_usd": 7.307506,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T21:35:54.151775+00:00"
   }
 ]
