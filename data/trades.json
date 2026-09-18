@@ -78430,5 +78430,89 @@
     "their_usd": 36.344189,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T15:54:02.180132+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI - Game 1 Winner",
+    "outcome": "Movistar KOI",
+    "their_usd": 50.8024,
+    "detail": "price 0.920 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T15:56:07.594236+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Dolphins vs. 49ers AND Bengals vs. Texans AND Colts vs. Chiefs",
+    "outcome": "",
+    "their_usd": 30.255497,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:56:08.132940+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
+    "outcome": "Robelis Despaigne",
+    "their_usd": 22.777778,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:57:30.108235+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Caldas da Rainha: Jeline Vandromme vs Francisca Jorge",
+    "outcome": "Jeline Vandromme",
+    "their_usd": 151.208334,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:58:50.973205+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Szczecin: Nikolas Sanchez Izquierdo vs Zdenek Kolar",
+    "outcome": "Nikolas Sanchez Izquierdo",
+    "their_usd": 115.66195,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:59:31.496520+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "Natus Vincere",
+    "their_usd": 31.2625,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:59:32.894606+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
+    "outcome": "Robelis Despaigne",
+    "their_usd": 4.555556,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:59:33.168757+00:00"
   }
 ]
