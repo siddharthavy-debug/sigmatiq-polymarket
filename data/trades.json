@@ -71120,5 +71120,29 @@
     "their_usd": 1.805579,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T11:20:00.786973+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "Movistar KOI",
+    "their_usd": 2894.83837,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:23:37.016521+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Szczecin: Diego Dedura-Palomero vs Thiago Monteiro",
+    "outcome": "Thiago Monteiro",
+    "their_usd": 60.75,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:25:02.552104+00:00"
   }
 ]
