@@ -66523,5 +66523,113 @@
     "their_usd": 53.20486,
     "detail": "price 0.930 above 0.9 (no upside)",
     "timestamp": "2026-09-18T05:02:19.066356+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 4.93691,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:03:01.296937+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 4.93691,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:03:41.670914+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 83.3,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:05:01.371744+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Tampa Bay Rays win the 2026 World Series?",
+    "outcome": "Yes",
+    "their_usd": 21.28454,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:05:02.559201+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 950.47085,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:05:41.723212+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 152.88,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:05:41.775596+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 305.76,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:05:41.821826+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 24.71259,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:07:03.633142+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 183.26,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:07:42.804030+00:00"
   }
 ]
