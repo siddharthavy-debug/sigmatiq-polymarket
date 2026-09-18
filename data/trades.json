@@ -84428,5 +84428,61 @@
     "their_usd": 89.011,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T19:39:30.807953+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Anna Blinkova",
+    "their_usd": 8.13682,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T19:40:51.609005+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 4.5",
+    "outcome": "Over",
+    "their_usd": 224.71,
+    "detail": {
+      "shares": 21.7391,
+      "price": 0.23,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T19:42:52.555225+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 4.5",
+    "outcome": "Over",
+    "their_usd": 17.48,
+    "detail": {
+      "shares": 21.7391,
+      "price": 0.23,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T19:42:52.601451+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 8.5085,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T19:45:34.807684+00:00"
   }
 ]

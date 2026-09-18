@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 11.596096590511312,
+  "cash": 1.596096590511312,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -203,6 +203,16 @@
       "trader": "TRCM",
       "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
       "opened": "2026-09-18T19:38:09.537865+00:00"
+    },
+    "97332397160743647240665116432462635419232333605569548172052796432490703017188": {
+      "market": "New York City FC vs. New York Red Bulls: O/U 4.5",
+      "slug": "mls-nyc-nyr-2026-09-18-total-4pt5",
+      "outcome": "Over",
+      "shares": 43.47826086956522,
+      "cost": 10.0,
+      "trader": "0x8efa1ea8ee",
+      "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+      "opened": "2026-09-18T19:42:52.546429+00:00"
     }
   },
   "seen_trades": [
@@ -8137,15 +8147,19 @@
     "0x44862f58be63bd9e70e8c6807dd1087c2b7df192f62b68c024cc452b6c5f82a5",
     "0xeffc5b4be8936bced241d253ba04e1bbe6e37b3f79aad5a91654fc92500474b0",
     "0x134002226aefabf90482ac6ad95b979a47393f4fa4f353c24f28e1e47b36a18f",
-    "0x0be500f31ade8b823a2b5f95538dd35dc858fb5b44501e1466ede61c30817364"
+    "0x0be500f31ade8b823a2b5f95538dd35dc858fb5b44501e1466ede61c30817364",
+    "0x286c4b645dd54ab356414fa34463abe097726154e61c33c66a09fc5f277b1c86",
+    "0x74f5b64190c30bb6057c024107795f8ddaaee2ecb52dcbba1c85464f989b848e",
+    "0xb6a5f3efce77a32b80dbf87e816063a22ae9ccf7b56f3acd2cb5dfa50a3a7308",
+    "0xe400ee19f27e9bddb6933035e1975bdc3d8bcbf7e04b9877af730521c6bd00a0"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T19:40:12.032626+00:00",
+  "last_run": "2026-09-18T19:45:35.966603+00:00",
   "realized_pnl": -66.19390340948866,
-  "trades_executed": 228,
+  "trades_executed": 230,
   "wins": 46,
   "losses": 40,
-  "skipped": 6984,
+  "skipped": 6986,
   "failed": 0,
   "initialised": true,
   "paused": false
