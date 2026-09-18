@@ -59679,5 +59679,65 @@
     "their_usd": 49.19827,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T01:19:20.876100+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.36,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T01:20:41.136890+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Team WE",
+    "their_usd": 26.5785,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T01:21:18.615049+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Minnesota Twins vs. Los Angeles Angels",
+    "outcome": "Yes",
+    "their_usd": 7.6927,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T01:23:55.197874+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Team WE",
+    "their_usd": 1.278689,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T01:23:55.869273+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Minnesota Twins vs. Los Angeles Angels",
+    "outcome": "Yes",
+    "their_usd": 22.624035,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T01:24:34.760891+00:00"
   }
 ]
