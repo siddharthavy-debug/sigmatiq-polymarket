@@ -58360,5 +58360,65 @@
     "their_usd": 2.2858,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-18T00:16:14.830845+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Detroit Tigers vs. Chicago White Sox",
+    "outcome": "Detroit Tigers",
+    "their_usd": 748.50599,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T00:17:33.391830+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Spread: Bills (-4.5)",
+    "outcome": "Lions",
+    "their_usd": 34.63273,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-18T00:18:14.046690+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Washington Mystics vs. Chicago Sky",
+    "outcome": "Washington Mystics",
+    "their_usd": 2393.78638,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-18T00:20:10.874129+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "Philadelphia Phillies",
+    "their_usd": 6.20507,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T00:21:30.339574+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "Philadelphia Phillies",
+    "their_usd": 8.81,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T00:21:30.372408+00:00"
   }
 ]
