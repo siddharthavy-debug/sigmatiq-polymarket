@@ -68512,5 +68512,41 @@
     "their_usd": 2.9304,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T06:57:45.565231+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Aktobe win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 9.28609,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:01:21.340929+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Game Handicap: JDG (-1.5) vs Team WE (+1.5) AND Game Handicap: SEN (-1.5) vs Shopify Rebellion (+1.5) AND Game Handicap: MKOI (-1.5) vs Natus Vincere (+1.5)",
+    "outcome": "",
+    "their_usd": 34.373724,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:01:22.201738+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Inter Turku win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 21.22897,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:03:25.330034+00:00"
   }
 ]
