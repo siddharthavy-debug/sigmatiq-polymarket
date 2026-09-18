@@ -80686,5 +80686,101 @@
     "their_usd": 1.857143,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T17:32:41.521165+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "Movistar KOI",
+    "their_usd": 189.5264,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:34:04.994181+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "Movistar KOI",
+    "their_usd": 351.70668,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:34:05.033918+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Susan Bandecchi",
+    "their_usd": 19.1835,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:34:45.553633+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LSU vs. Ole Miss AND LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "",
+    "their_usd": 1.733809,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:34:47.433486+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Valencia: Andrea Lazaro Garcia vs Joelle Steur",
+    "outcome": "Joelle Steur",
+    "their_usd": 77.57295,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:36:07.417782+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "AS Monaco FC vs. Racing Club de Lens: Both Teams to Score AND Spread: FC Bayern M\u00fcnchen (-2.5)",
+    "outcome": "",
+    "their_usd": 2.127708,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:36:09.336063+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Susan Bandecchi",
+    "their_usd": 1463.8104,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:36:48.681379+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.714286,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:38:54.132637+00:00"
   }
 ]
