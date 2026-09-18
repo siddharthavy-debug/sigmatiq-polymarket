@@ -69668,5 +69668,53 @@
     "their_usd": 28.36,
     "detail": "we don't hold this",
     "timestamp": "2026-09-18T08:36:16.186528+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Anastasiia Sobolieva",
+    "their_usd": 69.49996,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:41:03.020294+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mona Barthel",
+    "their_usd": 1509.24272,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:41:43.890830+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mona Barthel",
+    "their_usd": 2190.24,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:41:44.567510+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Zhejiang Zhiye FC win on 2026-08-08?",
+    "outcome": "No",
+    "their_usd": 22.5675,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:42:26.486183+00:00"
   }
 ]
