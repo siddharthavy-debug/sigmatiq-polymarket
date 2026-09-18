@@ -66427,5 +66427,77 @@
     "their_usd": 83.64764,
     "detail": "price 0.930 above 0.9 (no upside)",
     "timestamp": "2026-09-18T04:51:28.659559+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 329.28,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T04:53:30.370010+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Seattle Mariners vs. Colorado Rockies",
+    "outcome": "Seattle Mariners",
+    "their_usd": 127.296,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T04:54:11.745237+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 24.29262,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T04:54:11.802803+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 4767.45636,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T04:55:31.201561+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will Coventry City FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 7258.6345,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T04:55:32.334257+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Moise Kouame vs Florent Bax",
+    "outcome": "Florent Bax",
+    "their_usd": 1.098,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T04:56:52.334273+00:00"
   }
 ]
