@@ -73695,5 +73695,101 @@
     "their_usd": 576.0,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T13:34:33.670494+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will HJK Helsinki win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 3.6225,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:35:22.054354+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will HJK Helsinki win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 4.5315,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:36:05.221646+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will HJK Helsinki win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 15.578182,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:36:05.282809+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Brentford FC vs. Chelsea FC: Chelsea FC O/U 1.5",
+    "outcome": "Over",
+    "their_usd": 112.37587,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:36:05.663742+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates: O/U 8.5 AND Milwaukee Brewers vs. Baltimore Orioles: O/U 9.5",
+    "outcome": "",
+    "their_usd": 250.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:36:49.507514+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Toronto Blue Jays vs. Texas Rangers: O/U 9.5",
+    "outcome": "Over",
+    "their_usd": 377.8104,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:38:16.332923+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Biella: Jay Clarke vs Felix Gill",
+    "outcome": "Jay Clarke",
+    "their_usd": 1969.92,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:39:41.591676+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 525.7824,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:39:44.434356+00:00"
   }
 ]
