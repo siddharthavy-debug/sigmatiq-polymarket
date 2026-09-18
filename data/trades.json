@@ -88676,5 +88676,89 @@
     "their_usd": 2.18925,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T23:42:15.302273+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic",
+    "outcome": "Cristina Bucsa",
+    "their_usd": 66.2912,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:43:29.742889+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles",
+    "outcome": "Milwaukee Brewers",
+    "their_usd": 1862.61562,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:44:05.784587+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 30.39872,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T23:44:45.041731+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Game Handicap: KC (-1.5) vs Movistar KOI (+1.5) AND Game Handicap: LY (-1.5) vs Cloud9 (+1.5) AND LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "",
+    "their_usd": 1999.99866,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T23:44:45.116114+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Suzan Lamens",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 194.71233,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:45:21.260491+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will CA Osasuna vs. Rayo Vallecano de Madrid end in a draw? AND Will FC Barcelona win on 2026-09-19? AND Will Athletic Club win on 2026-09-19? AND Will RC Celta de Vigo win on 2026-09-19? AND Will Getafe CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 22.207436,
+    "detail": "price 0.959 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T23:45:22.255002+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Suzan Lamens",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 10.42634,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:46:35.290022+00:00"
   }
 ]
