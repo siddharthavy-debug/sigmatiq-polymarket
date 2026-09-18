@@ -79486,5 +79486,77 @@
     "their_usd": 43.1925,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T16:43:01.938104+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Susan Bandecchi",
+    "their_usd": 6.12,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T16:45:46.730485+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 43.849,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:45:48.505448+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 257.855,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:45:48.640259+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 35.3405,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:46:29.684124+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Alonzo Menifield vs. Iwo Baraniewski (Light Heavyweight, Main Card) AND UFC 331: Ozzy Diaz vs. Ryan Gandra (Middleweight, Early Prelims)",
+    "outcome": "",
+    "their_usd": 38.610487,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:47:10.854025+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Jaguars vs. Broncos AND Commanders vs. Cowboys AND Steelers vs. Patriots AND Bengals vs. Texans",
+    "outcome": "",
+    "their_usd": 112.169552,
+    "detail": "price 0.959 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T16:47:51.756264+00:00"
   }
 ]
