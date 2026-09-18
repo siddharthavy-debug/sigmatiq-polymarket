@@ -77926,5 +77926,113 @@
     "their_usd": 873.334245,
     "detail": "price 0.997 above 0.9 (no upside)",
     "timestamp": "2026-09-18T15:43:16.026283+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "Natus Vincere",
+    "their_usd": 37.13024,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:43:59.247124+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Spread: FC Bayern M\u00fcnchen (-3.5)",
+    "outcome": "1. FC Union Berlin",
+    "their_usd": 461.38,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:44:41.129951+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Club Independiente Petrolero win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 5.5704,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:44:41.553138+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 4.5",
+    "outcome": "Under",
+    "their_usd": 408.4,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T15:45:23.903605+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 37.142858,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:45:24.895031+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AS Monaco FC win on 2026-09-18? AND Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 2.558109,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:46:07.615393+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Monza win on 2026-09-18? AND Will AS Monaco FC win on 2026-09-18? AND Will RCD Espanyol de Barcelona win on 2026-09-18? AND Will Kas\u0131mpa\u015fa SK win on 2026-09-18? AND Will VfL Wolfsburg win on 2026-09-18? AND Will FC Bayern M\u00fcnchen win on 2026-09-18? AND Will Chelsea FC win on 2026-09-18? AND Will 1. FC Magdeburg win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 30.061584,
+    "detail": "price 0.994 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T15:46:49.772917+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will HJK Helsinki win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 35.509091,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T15:47:31.522214+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Democratic Party win the CA-01 House seat?",
+    "outcome": "Yes",
+    "their_usd": 24.2791,
+    "detail": "price 0.970 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T15:47:31.906657+00:00"
   }
 ]
