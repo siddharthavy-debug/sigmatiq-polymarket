@@ -79294,5 +79294,89 @@
     "their_usd": 65.266402,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T16:31:59.680327+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 2.5",
+    "outcome": "Over",
+    "their_usd": 229.743,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T16:34:04.200921+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LSU vs. Ole Miss",
+    "outcome": "Ole Miss",
+    "their_usd": 19.83846,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:34:45.559432+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Indiana Fever vs. Toronto Tempo: O/U 188.5 AND Portland Fire vs. Golden State Valkyries: O/U 160.5",
+    "outcome": "",
+    "their_usd": 13.318072,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:36:08.702421+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Valencia: Andrea Lazaro Garcia vs Joelle Steur",
+    "outcome": "Andrea Lazaro Garcia",
+    "their_usd": 13.8105,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T16:36:48.730250+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Valencia: Andrea Lazaro Garcia vs Joelle Steur",
+    "outcome": "Joelle Steur",
+    "their_usd": 9.6526,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T16:38:10.126675+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Teodora Kostovic vs Kaitlin Quevedo",
+    "outcome": "Kaitlin Quevedo",
+    "their_usd": 5.80175,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T16:38:10.752271+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI - Game 2 Winner",
+    "outcome": "Movistar KOI",
+    "their_usd": 56.19059,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T16:38:11.565307+00:00"
   }
 ]
