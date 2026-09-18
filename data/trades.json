@@ -67769,5 +67769,41 @@
     "their_usd": 24.86684,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T05:50:52.147116+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Rodrigo Pacheco vs Philip Sekulic",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 369.11365,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T05:54:59.757214+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Rodrigo Pacheco vs Philip Sekulic",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 190.55088,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T05:55:00.322970+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "Movistar KOI",
+    "their_usd": 49.67028,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:55:41.877292+00:00"
   }
 ]
