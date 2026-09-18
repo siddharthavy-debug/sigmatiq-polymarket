@@ -67841,5 +67841,65 @@
     "their_usd": 253.6866,
     "detail": "price 0.981 above 0.9 (no upside)",
     "timestamp": "2026-09-18T06:01:53.274674+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Indiana Fever vs. Toronto Tempo",
+    "outcome": "Indiana Fever",
+    "their_usd": 68.16656,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T06:05:21.573196+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Team Liquid vs FlyQuest (BO5) - LCS Playoffs AND LoL: LYON vs Cloud9 (BO5) - LCS Playoffs",
+    "outcome": "",
+    "their_usd": 6.067927,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:05:22.107639+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND Will KAA Gent win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 159.201923,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:06:44.148099+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND Game Handicap: TL (-1.5) vs FlyQuest (+1.5) AND Game Handicap: LY (-1.5) vs Cloud9 (+1.5) AND LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "",
+    "their_usd": 11.721165,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:06:44.196994+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Game Handicap: TL (-1.5) vs FlyQuest (+1.5) AND Game Handicap: LY (-1.5) vs Cloud9 (+1.5) AND LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "",
+    "their_usd": 6.178485,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:07:25.545903+00:00"
   }
 ]
