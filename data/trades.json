@@ -71480,5 +71480,89 @@
     "their_usd": 1.857143,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T11:51:15.227273+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Gabala FK vs. Neftchi Baku PFC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 448.03,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:53:25.616723+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Gabala FK vs. Neftchi Baku PFC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 22.59338,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:53:25.670222+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Gabala FK vs. Neftchi Baku PFC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 238.59,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:53:25.727847+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 99.84,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:54:10.707801+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 26.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:55:38.579364+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Gabala FK vs. Neftchi Baku PFC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 392.55948,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:56:20.120875+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Tampa Bay Rays win the 2026 World Series?",
+    "outcome": "Yes",
+    "their_usd": 7.23261,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:56:20.470102+00:00"
   }
 ]
