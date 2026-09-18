@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 17.126072719338964,
+  "cash": 23.13488792681726,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -154,16 +154,6 @@
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-18T02:00:03.728493+00:00"
     },
-    "16345603477675382603604127811468842125659856577882240574343917573370853513970": {
-      "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
-      "slug": "wta-stearns-stephen-2026-09-17",
-      "outcome": "Sloane Stephens",
-      "shares": 36.58172736493089,
-      "cost": 15.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-18T03:14:15.568668+00:00"
-    },
     "35795863114198569838545856005957181042296817112579376734787651803138208903751": {
       "market": "FC Bayern M\u00fcnchen to score first vs. 1. FC Union Berlin?",
       "slug": "bun-bay-uni-2026-09-18-first-to-score-home",
@@ -174,16 +164,6 @@
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-18T03:48:25.814202+00:00"
     },
-    "87197343894456130593898782676177110951952536296651456040559819280191898968479": {
-      "market": "Phan Thiet 4: Matthew Dellavedova vs Hunter Heck",
-      "slug": "atp-dellave-heck-2026-09-17",
-      "outcome": "Hunter Heck",
-      "shares": 23.138815207478295,
-      "cost": 10.0,
-      "trader": "TRCM",
-      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "opened": "2026-09-18T03:55:50.797354+00:00"
-    },
     "98606483910862157292150485578361131800618895557996658662721539136094320791711": {
       "market": "Will NK Slaven Belupo win on 2026-09-18?",
       "slug": "hr1-rud-sla-2026-09-18-sla",
@@ -193,6 +173,26 @@
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-18T04:39:57.918015+00:00"
+    },
+    "62470794627186710164828739562796113480673807752651293809240510723196355279644": {
+      "market": "Phan Thiet 4: Moise Kouame vs Florent Bax",
+      "slug": "atp-kouame-bax-2026-09-18",
+      "outcome": "Moise Kouame",
+      "shares": 19.916929916929917,
+      "cost": 15.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-18T04:43:19.191978+00:00"
+    },
+    "77912458764856045760066476718736048272891525965865995575446289536167600322479": {
+      "market": "Will Lyngby BK win on 2026-09-18?",
+      "slug": "den-lyn-sif-2026-09-18-lyn",
+      "outcome": "No",
+      "shares": 4.1764705882352935,
+      "cost": 2.13,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-18T04:45:21.541363+00:00"
     }
   },
   "seen_trades": [
@@ -6586,15 +6586,29 @@
     "0x2036ff1add088c91fe870ff30716780a6ae60d9cc04b5ed0d98bb61dcb7f4a36",
     "0xc6006e3ab564c889e6225c89e11393af0cd25609b069e8f1439c106278760f26",
     "0x52aa003d38b1acb4bbc777cd66350a8e35a023293d8fed16e0f30fe90bb590f9",
-    "0x8d6ad9516e73f2f6030e711a2714e1bc0847afa18b1fd77aee5c23b9eada8d8a"
+    "0x8d6ad9516e73f2f6030e711a2714e1bc0847afa18b1fd77aee5c23b9eada8d8a",
+    "0x605ecec9768c50322d82ef305e135ff8dccd75aa43bff79263bfed2f98493b5b",
+    "0xe887beba2ea2d3cdaa143fc926252fc53e0c9c9fbc4f8734a8343d7dac730355",
+    "0xfac96b96d4908c79f6bbb6eeb2b031ba6687d00b122fc1b7840e43ea86459296",
+    "0x8cd68eb142004b5eebc11bb1e0dbd2c803ee67c421ee15d2d5a7292fb702cfb1",
+    "0x09014449a632a1b5928fb0a774ded4afc8b4e5c59253d8dbc271f0a57cb0de98",
+    "0x9503a4609c21da4b64eb4d0561093d062245bf17a09f1a6c317beccb2fc86a91",
+    "0x60d765c45df467177e1d35e3fe9b2c5f890b709de696b7700dff53a48ca79795",
+    "0x15746b6b4d854718c6407dc91f9573d5ab852926458b243c2b92b0ce3de4a485",
+    "0x071c37043d4685de02570ae1e0ba49f630ba0830dfbc2dae8381dd4daaa84ab0",
+    "0x24bbc1ffa9fe15989d2c24b87a1e3a61f6f223b2d39b6652ab9d61db2c9aa0b8",
+    "0x590f8e46bfa3248da7f8b6831c2a23fc534fba013699d6ad423b437500c71eba",
+    "0x7d64cb57ef9d4cd27811f3a8bf76de3bf85d3e5c658a6d4e257307311f9e6dbf",
+    "0x568ee629ef3a526c39de6fdb5539975b00bbd0d0376a12c00d9619239c011879",
+    "0xf4a1be6f989665d67260b6e8a5e15376dfbba4efbd33a1075ee214ed0bb157b2"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T04:40:40.063065+00:00",
-  "realized_pnl": -72.87392728066101,
-  "trades_executed": 202,
-  "wins": 37,
-  "losses": 36,
-  "skipped": 5469,
+  "last_run": "2026-09-18T04:46:03.692008+00:00",
+  "realized_pnl": -74.7351120731827,
+  "trades_executed": 206,
+  "wins": 38,
+  "losses": 37,
+  "skipped": 5479,
   "failed": 0,
   "initialised": true,
   "paused": false
