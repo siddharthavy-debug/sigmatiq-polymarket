@@ -87824,5 +87824,41 @@
     "their_usd": 95.471944,
     "detail": "price 0.977 above 0.9 (no upside)",
     "timestamp": "2026-09-18T22:41:24.670802+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Carolina vs. Clemson AND NC State vs. Vanderbilt AND Miami (FL) vs. Wake Forest AND Arizona State vs. Kansas AND Houston vs. Texas Tech AND SMU vs. Louisville",
+    "outcome": "",
+    "their_usd": 161.44489,
+    "detail": "price 0.945 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T22:43:16.992427+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Miami (FL) vs. Wake Forest AND Houston vs. Texas Tech",
+    "outcome": "",
+    "their_usd": 396.722334,
+    "detail": "price 0.977 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T22:44:30.839918+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Suzan Lamens",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 75.26228,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:46:57.752346+00:00"
   }
 ]
