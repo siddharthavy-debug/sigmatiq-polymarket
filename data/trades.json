@@ -67099,5 +67099,113 @@
     "their_usd": 207.972,
     "detail": "price 0.981 above 0.9 (no upside)",
     "timestamp": "2026-09-18T05:23:23.594313+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 2471.6792,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:24:47.639875+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 18.6651,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:24:47.783169+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Florent Bax",
+    "outcome": "Moise Kouame",
+    "their_usd": 545.66063,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T05:25:27.282516+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Washington Nationals vs. St. Louis Cardinals AND Will Qarabag FK win on 2026-09-18? AND Will SK Rapid win on 2026-09-18? AND Will FC Bayern M\u00fcnchen win on 2026-09-18? AND Will Hapoel Tel Aviv FC win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 103.936323,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:25:29.044906+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 266.93892,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:26:50.125401+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will John Thune be the next Senate Majority Leader?",
+    "outcome": "No",
+    "their_usd": 77.61115,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:26:50.180875+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will John Thune be the next Senate Majority Leader?",
+    "outcome": "No",
+    "their_usd": 28.9902,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:26:50.242043+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Florent Bax",
+    "outcome": "Moise Kouame",
+    "their_usd": 1982.44968,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T05:27:29.630309+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Rodrigo Pacheco vs Philip Sekulic",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 67.7376,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T05:27:29.672354+00:00"
   }
 ]
