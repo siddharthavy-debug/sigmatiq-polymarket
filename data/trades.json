@@ -69440,5 +69440,101 @@
     "their_usd": 4.603344,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T08:14:51.647706+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mona Barthel",
+    "their_usd": 253.32648,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:16:13.374585+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mona Barthel",
+    "their_usd": 20.0312,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:16:54.706170+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Team WE vs JD Gaming - Game 1 Winner AND Dota 2: Team Lynx vs Team Synapse (BO3) - European Pro League Group A",
+    "outcome": "",
+    "their_usd": 108.155377,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:16:56.535581+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Noemi Basiletti vs Ekaterine Gorgodze",
+    "outcome": "Noemi Basiletti",
+    "their_usd": 18.39704,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:18:16.851646+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Anastasiia Sobolieva",
+    "their_usd": 40.34236,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:18:58.362711+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Noemi Basiletti vs Ekaterine Gorgodze",
+    "outcome": "Noemi Basiletti",
+    "their_usd": 206.70052,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:19:39.455114+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Anastasiia Sobolieva",
+    "their_usd": 47.3744,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:19:39.510449+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mona Barthel",
+    "their_usd": 3.20827,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:21:02.615597+00:00"
   }
 ]
