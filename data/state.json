@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 0.9537470835386852,
+  "cash": 0.004259904051504559,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -178,31 +178,31 @@
       "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
       "slug": "ufc-tai1-rob18-2026-09-19",
       "outcome": "Robelis Despaigne",
-      "shares": 5.999999988292683,
-      "cost": 4.92,
+      "shares": 12.097560856823321,
+      "cost": 9.92,
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-18T05:48:07.750487+00:00"
-    },
-    "100168223875341174924168465364402331985245238040668242085317661496348310432778": {
-      "market": "Valencia: Andrea Lazaro Garcia vs Joelle Steur",
-      "slug": "wta-garcia-steur-2026-09-18",
-      "outcome": "Joelle Steur",
-      "shares": 12.82051282051282,
-      "cost": 5.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-18T18:31:29.582374+00:00"
     },
     "41197337373470890306264650480985484925685567675196751833531231660363926775470": {
       "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
       "slug": "wta-blinkov-charaev-2026-09-18",
       "outcome": "Alina Charaeva",
-      "shares": 71.18055555555556,
-      "cost": 10.0,
+      "shares": 102.43055555555556,
+      "cost": 15.0,
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-18T18:32:10.936028+00:00"
+    },
+    "72093847749290432328964936677315598973895087820721628607038334598606526716477": {
+      "market": "Detroit Tigers vs. Chicago White Sox: O/U 8.5",
+      "slug": "mlb-det-cws-2026-09-18-total-8pt5",
+      "outcome": "Under",
+      "shares": 7.54,
+      "cost": 3.77,
+      "trader": "brendoncarson",
+      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "opened": "2026-09-18T19:16:33.164969+00:00"
     }
   },
   "seen_trades": [
@@ -8107,15 +8107,21 @@
     "0xec286bbc1805b438d1bd8c8a8d2ee8eda6463cccf8f6a24e2dc74be2d68f783d",
     "0xcb0e080058dc2b95656065b868558f4de17fcd8ddd3c4a929db6507233eece8b",
     "0x91850c5dea91f93da0f529463c00e156f743494d48597e21b18298d91a1b329a",
-    "0x72de0c194422a9865606080da18174a650ad021de3d44f8834f5791f822bedcc"
+    "0x72de0c194422a9865606080da18174a650ad021de3d44f8834f5791f822bedcc",
+    "0xef06b40f04acdae8465e3fd57a523ccc79450edc54e77de504a44d265ee50b91",
+    "0x5b567f37b27b8a2c336c43a12f8a3e28f0fb509f95458a38da07966de4a340d5",
+    "0xcd8d5f15d21ca9b5fb3d1f19d7b96500d17cad2a9739087c9ca2d0cdc648875f",
+    "0x45fd3f81c8f5c7d9dab7d3a5383386346c7a11b0e909e235e6644b1d512eeffb",
+    "0xb3009b11432b1227195fbeb123d1f0e00c5b2074bbfe8ca3bb4c9a9ad43f8237",
+    "0xcebc29923dda5ddbd920a91373f9d131bfbfd7b81bc9e0881169b05ace15b743"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T19:13:11.301720+00:00",
-  "realized_pnl": -82.47625291646128,
-  "trades_executed": 224,
-  "wins": 44,
+  "last_run": "2026-09-18T19:18:35.709702+00:00",
+  "realized_pnl": -74.65574009594846,
+  "trades_executed": 227,
+  "wins": 45,
   "losses": 40,
-  "skipped": 6958,
+  "skipped": 6961,
   "failed": 0,
   "initialised": true,
   "paused": false

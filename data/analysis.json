@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-18T19:13:11.314497+00:00",
+  "updated": "2026-09-18T19:18:35.722688+00:00",
   "by_trader": [
+    {
+      "trader": "tradecraft",
+      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "copied": 59,
+      "closed": 27,
+      "wins": 17,
+      "losses": 10,
+      "win_rate": 63.0,
+      "pnl": 49.42,
+      "pnl_per_closed": 1.83,
+      "skipped": 582,
+      "failed": 0,
+      "benched": false
+    },
     {
       "trader": "us391",
       "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
@@ -16,30 +30,16 @@
       "benched": false
     },
     {
-      "trader": "tradecraft",
-      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 58,
-      "closed": 26,
-      "wins": 16,
-      "losses": 10,
-      "win_rate": 61.5,
-      "pnl": 41.6,
-      "pnl_per_closed": 1.6,
-      "skipped": 582,
-      "failed": 0,
-      "benched": false
-    },
-    {
       "trader": "brendoncarson",
       "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
-      "copied": 12,
+      "copied": 13,
       "closed": 5,
       "wins": 4,
       "losses": 1,
       "win_rate": 80.0,
       "pnl": 32.51,
       "pnl_per_closed": 6.5,
-      "skipped": 127,
+      "skipped": 128,
       "failed": 0,
       "benched": false
     },
@@ -53,7 +53,7 @@
       "win_rate": 100.0,
       "pnl": 22.77,
       "pnl_per_closed": 11.38,
-      "skipped": 123,
+      "skipped": 124,
       "failed": 0,
       "benched": false
     },
@@ -67,7 +67,7 @@
       "win_rate": 100.0,
       "pnl": 21.82,
       "pnl_per_closed": 5.46,
-      "skipped": 206,
+      "skipped": 207,
       "failed": 0,
       "benched": false
     },
@@ -256,7 +256,7 @@
     {
       "trader": "CoffeeDespiser",
       "wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
-      "copied": 14,
+      "copied": 15,
       "closed": 2,
       "wins": 0,
       "losses": 2,
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 6881
+  "total_logged": 6888
 }
