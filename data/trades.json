@@ -61300,5 +61300,153 @@
     "their_usd": 320.80605,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-18T02:11:56.220149+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Detroit Tigers (-1.5)",
+    "outcome": "Chicago White Sox",
+    "their_usd": 195.21502,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T02:12:36.569099+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Detroit Tigers (-1.5)",
+    "outcome": "Chicago White Sox",
+    "their_usd": 195.21502,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T02:12:36.609701+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Detroit Tigers (-1.5)",
+    "outcome": "Chicago White Sox",
+    "their_usd": 97.11702,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T02:12:36.682274+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Detroit Tigers (-2.5)",
+    "outcome": "Detroit Tigers",
+    "their_usd": 1.30138,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-18T02:13:15.548594+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox",
+    "outcome": "Detroit Tigers",
+    "their_usd": 41.3077,
+    "detail": {
+      "shares": 13.6667,
+      "price": 0.09,
+      "size": 1.23
+    },
+    "timestamp": "2026-09-18T02:13:15.587005+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Chicago White Sox (-1.5)",
+    "outcome": "Chicago White Sox",
+    "their_usd": 63.7637,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T02:14:33.305322+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox",
+    "outcome": "Chicago White Sox",
+    "their_usd": 799.89002,
+    "detail": "price 0.924 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T02:14:33.426006+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 35.7,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:15:12.735293+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.448276,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:15:12.801502+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 7.14,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:15:52.509267+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 4.72496,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:16:30.408094+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Las Vegas Aces vs. Seattle Storm",
+    "outcome": "Seattle Storm",
+    "their_usd": 2.35344,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-18T02:16:30.443837+00:00"
   }
 ]
