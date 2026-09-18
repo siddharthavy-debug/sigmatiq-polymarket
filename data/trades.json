@@ -72255,5 +72255,77 @@
     "their_usd": 25.625,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T12:27:34.914419+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Rennes: Harold Mayot vs Clement Chidekh",
+    "outcome": "Harold Mayot",
+    "their_usd": 30.36042,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:28:25.682577+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Rennes: Harold Mayot vs Clement Chidekh",
+    "outcome": "Harold Mayot",
+    "their_usd": 31.5291,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:29:08.717901+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: FC Bayern M\u00fcnchen (-2.5) AND Will AS Monaco FC win on 2026-09-18? AND Will RCD Espanyol de Barcelona win on 2026-09-18? AND Will SK Rapid win on 2026-09-18? AND Will SS Juve Stabia vs. Cesena FC end in a draw? AND Will VfL Wolfsburg win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 20.563938,
+    "detail": "price 0.970 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T12:29:11.565175+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Biella: Mika Brunold vs Carlo Alberto Caniato",
+    "outcome": "Carlo Alberto Caniato",
+    "their_usd": 2840.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:30:35.623139+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+    "outcome": "No",
+    "their_usd": 490.51008,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:31:20.887995+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 5.72,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:32:49.923823+00:00"
   }
 ]
