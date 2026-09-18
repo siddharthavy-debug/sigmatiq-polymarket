@@ -87260,5 +87260,53 @@
     "their_usd": 1.52023,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T22:07:10.984340+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Michael Zheng vs Mitchell Krueger",
+    "outcome": "Michael Zheng",
+    "their_usd": 9.62851,
+    "detail": "price 0.950 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T22:09:39.963531+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Karmine Corp vs Movistar KOI (BO5) - LEC Playoffs AND LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "",
+    "their_usd": 1.221813,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:10:18.349140+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brighton & Hove Albion FC vs. Arsenal FC: O/U 2.5 AND Sevilla FC vs. FC Barcelona: O/U 4.5 AND Newcastle United FC vs. Hull City AFC: O/U 2.5 AND VfB Stuttgart vs. BV Borussia 09 Dortmund: O/U 2.5 AND Will Manchester City FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 92.887722,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:10:55.448453+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brighton & Hove Albion FC vs. Arsenal FC: Both Teams to Score AND Will Tottenham Hotspur FC win on 2026-09-19? AND Will AS Roma vs. FC Internazionale Milano end in a draw? AND Will FC Barcelona win on 2026-09-19? AND Will RC Celta de Vigo win on 2026-09-19? AND Will Hull City AFC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 143.237553,
+    "detail": "price 0.991 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T22:12:49.717804+00:00"
   }
 ]
