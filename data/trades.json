@@ -58672,5 +58672,77 @@
     "their_usd": 34.53413,
     "detail": "max open positions",
     "timestamp": "2026-09-18T00:34:39.244018+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Club Atl\u00e9tico de Madrid vs. Real Madrid CF: Both Teams to Score AND AFC Ajax vs. SBV Excelsior: O/U 2.5 AND Will FC Lugano win on 2026-09-20? AND Will Fenerbah\u00e7e SK win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 2000.001108,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T00:38:36.386169+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 7.2,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T00:39:14.418527+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 228.19822,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T00:39:14.451503+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Kansas City Royals (-2.5)",
+    "outcome": "Houston Astros",
+    "their_usd": 193.34592,
+    "detail": "price 0.960 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T00:39:54.444915+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Spread: Bills (-4.5)",
+    "outcome": "Bills",
+    "their_usd": 43.83214,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-18T00:40:32.078699+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 34.86,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T00:41:52.100766+00:00"
   }
 ]
