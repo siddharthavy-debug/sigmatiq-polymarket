@@ -134,16 +134,6 @@
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T21:56:30.110739+00:00"
     },
-    "36590174590310721499058030844565262384974738546991011333755092074521980597514": {
-      "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
-      "slug": "lol-we-jdg-2026-09-18",
-      "outcome": "Team WE",
-      "shares": 38.461537117028335,
-      "cost": 15.0,
-      "trader": "SharkbetX-com",
-      "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
-      "opened": "2026-09-18T01:11:26.411252+00:00"
-    },
     "64433910628157821334658783452307134485494860729794887099728910291252999845574": {
       "market": "Portland Fire vs. Golden State Valkyries",
       "slug": "wnba-por-gsv-2026-09-18",
@@ -7148,15 +7138,20 @@
     "0x0bac08eb4de7c95ad7a4adb9560af6578a31c4f4bf5b3702affebbcb8554860b",
     "0xa55db6a22e4079d7f4d9794a7e42bd164b31cfb3fd5e04268ab24df82e721458",
     "0x218f79c3de53af8126201c00c2d6f3c8770bce4d65613acc083889ec5b9e2915",
-    "0xffba173c2fc5cd4942d533a63fa7d3942bd4ba96739a9b28b325d069c5cfa0cd"
+    "0xffba173c2fc5cd4942d533a63fa7d3942bd4ba96739a9b28b325d069c5cfa0cd",
+    "0xe41776f5a2f023614d773d6ac6df9d21b3e2756d1840842c9213f5166c8cedd1",
+    "0xcbcc152dba0d00e90db2121b2e5b6ac7a10b404c6aac012cbae438c8cd3c42c0",
+    "0x8c05ce081c42d280baa0f38bbce96068c8b1fbb08c48cc024a25118a605be48a",
+    "0xb37727705d4ef17d88510b803fd2fe9b28e724229860709b45f5ac59c3b69482",
+    "0xc717095b79ba7afde16e144bb15f53b2b9e59918f16a013f415c21e93ffe9e01"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T12:22:26.207836+00:00",
-  "realized_pnl": -60.20210266212452,
+  "last_run": "2026-09-18T12:27:38.429628+00:00",
+  "realized_pnl": -75.20210266212452,
   "trades_executed": 221,
   "wins": 41,
-  "losses": 37,
-  "skipped": 5962,
+  "losses": 38,
+  "skipped": 5967,
   "failed": 0,
   "initialised": true,
   "paused": false

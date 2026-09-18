@@ -72188,5 +72188,72 @@
     "their_usd": 20.368963,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T12:21:39.652294+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Rennes: Harold Mayot vs Clement Chidekh AND Guangzhou: Pavel Kotov vs Rio Noguchi AND Rennes: Matisse Bobichon vs Tristan Schoolkate AND Biella: Jay Clarke vs Felix Gill",
+    "outcome": "",
+    "their_usd": 599.997456,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:23:59.552927+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 318.24,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:24:43.020933+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "Team WE",
+    "their_usd": 0,
+    "detail": {
+      "shares": 38.4615,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -15.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-18T12:25:18.285201+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Rennes: Harold Mayot vs Clement Chidekh",
+    "outcome": "Harold Mayot",
+    "their_usd": 10.17666,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:26:50.824604+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Rennes: Harold Mayot vs Clement Chidekh",
+    "outcome": "Harold Mayot",
+    "their_usd": 25.625,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:27:34.914419+00:00"
   }
 ]
