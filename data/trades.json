@@ -69572,5 +69572,53 @@
     "their_usd": 34.072474,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T08:23:53.218556+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Arema FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 2909.90332,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:27:19.832527+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Laura Samson",
+    "their_usd": 4.62375,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T08:29:21.733252+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Laura Samson",
+    "their_usd": 2.4624,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T08:30:02.906690+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Anastasiia Sobolieva",
+    "their_usd": 79.44071,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:32:05.878763+00:00"
   }
 ]
