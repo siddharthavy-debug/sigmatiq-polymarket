@@ -86300,5 +86300,113 @@
     "their_usd": 114.002006,
     "detail": "price 0.906 above 0.9 (no upside)",
     "timestamp": "2026-09-18T21:23:21.368388+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 960.0,
+    "detail": "settles in 1.2h, too soon",
+    "timestamp": "2026-09-18T21:25:16.195046+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Michael Zheng vs Mitchell Krueger",
+    "outcome": "Mitchell Krueger",
+    "their_usd": 1.8738,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:28:21.748919+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 20.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:28:22.536364+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 4.1,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:28:22.612221+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 78.82762,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:28:22.687959+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Liberty vs. Minnesota Lynx AND Portland Fire vs. Golden State Valkyries AND Minnesota Twins vs. Los Angeles Angels AND Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic AND Atlanta Braves vs. Houston Astros AND Indiana Fever vs. Toronto Tempo",
+    "outcome": "",
+    "their_usd": 7.207151,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T21:29:00.007456+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will FC Internazionale Milano win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 5.108109,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:29:37.205568+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 50.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:29:37.333781+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Browns vs. Buccaneers AND Commanders vs. Cowboys AND Eagles vs. Titans",
+    "outcome": "",
+    "their_usd": 14.455644,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T21:29:37.769897+00:00"
   }
 ]
