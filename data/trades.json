@@ -61563,5 +61563,96 @@
     "their_usd": 8.24,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-18T02:22:23.106120+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers",
+    "outcome": "Boston Red Sox",
+    "their_usd": 1.26317,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T02:25:39.508207+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 39.015,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:25:39.545681+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 97.71238,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:25:39.597472+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "CR Flamengo vs. Independiente del Valle: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 0,
+    "detail": {
+      "shares": 35.7143,
+      "price": 1.0,
+      "proceeds": 35.71,
+      "pnl": 20.71,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-18T02:26:52.774282+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 241.89229,
+    "detail": "price 0.970 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T02:26:57.535199+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "Pittsburgh Pirates",
+    "their_usd": 321.46915,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T02:27:35.924529+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Lions vs. Bills",
+    "outcome": "Bills",
+    "their_usd": 997.5744,
+    "detail": "price 0.920 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T02:27:36.067360+00:00"
   }
 ]

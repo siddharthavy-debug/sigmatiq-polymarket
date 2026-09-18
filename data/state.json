@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": -0.001693517187742355,
+  "cash": 35.71259214891203,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -133,16 +133,6 @@
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T19:00:16.713802+00:00"
-    },
-    "53156298083799915800403873282550936015544219839554680822708408457656836309368": {
-      "market": "CR Flamengo vs. Independiente del Valle: O/U 2.5",
-      "slug": "lib-fla-ind1-2026-09-17-total-2pt5",
-      "outcome": "Under",
-      "shares": 35.71428566609977,
-      "cost": 15.0,
-      "trader": "us391",
-      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "opened": "2026-09-17T19:45:42.742900+00:00"
     },
     "30265008566677103447594244437431176682759292419557762410238534191465311825895": {
       "market": "Lions vs. Bills: O/U 54.5",
@@ -6255,15 +6245,21 @@
     "0xe65c434dbc0ecd8fee8a691fd4b0cf916f78e1d5f7a5a1fe6da56467c4e16a38",
     "0xfc312e5147065fb2f0c43591a9737104f1c1a2c42730953861ae29b07e15f038",
     "0x45ea203138fbee240d812b6ab4dff58ad92aa31f42a1a512792d3a1ad0bd5b3c",
-    "0x033974a987a58f37fb019615c39c9ab3e53efc27b0df94230e2398dc584aa452"
+    "0x033974a987a58f37fb019615c39c9ab3e53efc27b0df94230e2398dc584aa452",
+    "0x1866ffe0fdd133d895bb8bae09c9c9bd0335c025940905bf77497c246844ac92",
+    "0x0d0dd0ede60e70789f391c8ef23a6fd34bb988901617bee12c523d7831a66717",
+    "0x908ed3ed31105314311f99d52065a64c7a90eb9aa6c3e6015321779a5550a02c",
+    "0x9dba7bcda3665117538690c1973d8acf1608b7a79038588295206d00245bcfc2",
+    "0x34b415b0f2bccf45697ae2f7e2285825088fd1799ac09efc853491bbfdc87bdf",
+    "0xb8d30755afeb39c86356ab0d1dddcf43f061bb52eaa9e2226f7c1c381a2f6bf4"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T02:22:25.225836+00:00",
-  "realized_pnl": -64.75169351718772,
+  "last_run": "2026-09-18T02:27:37.172737+00:00",
+  "realized_pnl": -44.03740785108795,
   "trades_executed": 189,
-  "wins": 33,
+  "wins": 34,
   "losses": 30,
-  "skipped": 5111,
+  "skipped": 5117,
   "failed": 0,
   "initialised": true,
   "paused": false
