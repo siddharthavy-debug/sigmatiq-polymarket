@@ -87860,5 +87860,41 @@
     "their_usd": 75.26228,
     "detail": "settles in 7d, too far out",
     "timestamp": "2026-09-18T22:46:57.752346+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Suzan Lamens",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 6.81055,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:49:27.074276+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Suzan Lamens",
+    "outcome": "Suzan Lamens",
+    "their_usd": 6.4139,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-18T22:50:40.811175+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Alonzo Menifield vs. Iwo Baraniewski (Light Heavyweight, Main Card) AND UFC 331: Patricio Pitbull vs. Dooho Choi (Featherweight, Main Card) AND UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims) AND UFC 331: Ozzy Diaz vs. Ryan Gandra (Middleweight, Early Prelims) AND UFC 331: Giga Chikadze vs. Joanderson Brito (Featherweight, Early Prelims)",
+    "outcome": "",
+    "their_usd": 648.533175,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:50:41.517255+00:00"
   }
 ]
