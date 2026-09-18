@@ -88940,5 +88940,89 @@
     "their_usd": 78.745212,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T23:52:12.034968+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Pittsburgh Pirates (-1.5)",
+    "outcome": "Kansas City Royals",
+    "their_usd": 46.5696,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T23:54:04.240547+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic",
+    "outcome": "Cristina Bucsa",
+    "their_usd": 22.28304,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:55:53.934836+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic",
+    "outcome": "Cristina Bucsa",
+    "their_usd": 12.0016,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:55:54.336040+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic",
+    "outcome": "Cristina Bucsa",
+    "their_usd": 308.73919,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:56:30.839546+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 238.266,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:56:31.974403+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic",
+    "outcome": "Cristina Bucsa",
+    "their_usd": 374.97401,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T23:57:07.919649+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox",
+    "outcome": "Chicago White Sox",
+    "their_usd": 6.5152,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T23:57:45.994640+00:00"
   }
 ]
