@@ -70952,5 +70952,29 @@
     "their_usd": 3.894208,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T11:03:47.560937+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
+    "outcome": "Robelis Despaigne",
+    "their_usd": 45.555556,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:06:49.827776+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Ljubljana: Samira De Stefano vs Alice Tubello",
+    "outcome": "Samira De Stefano",
+    "their_usd": 110.84495,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:10:25.709786+00:00"
   }
 ]
