@@ -62149,5 +62149,85 @@
     "their_usd": 3.96719,
     "detail": "already hold this market",
     "timestamp": "2026-09-18T02:43:08.835235+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND Spread: FC Bayern M\u00fcnchen (-2.5) AND Will AS Monaco FC win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 34.642621,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T02:43:48.921907+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
+    "outcome": "Peyton Stearns",
+    "their_usd": 112.608,
+    "detail": {
+      "shares": 8.3333,
+      "price": 0.6,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T02:44:26.104025+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
+    "outcome": "Peyton Stearns",
+    "their_usd": 1336.20838,
+    "detail": {
+      "shares": 8.0645,
+      "price": 0.62,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T02:45:05.137450+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republican Party win the HI-02 House seat?",
+    "outcome": "Yes",
+    "their_usd": 33.33,
+    "detail": "price 0.030 below 0.05 (longshot)",
+    "timestamp": "2026-09-18T02:46:21.000195+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 144.827586,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:46:23.354004+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Las Vegas Aces vs. Seattle Storm",
+    "outcome": "Las Vegas Aces",
+    "their_usd": 4.76187,
+    "detail": "price 0.950 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T02:48:19.800293+00:00"
   }
 ]
