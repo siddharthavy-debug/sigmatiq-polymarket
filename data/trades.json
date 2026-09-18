@@ -68332,5 +68332,53 @@
     "their_usd": 20.44653,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T06:35:01.229254+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 58.86,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T06:37:04.702870+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 238.537895,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T06:37:04.759382+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Counter-Strike: Black Phoenix vs Lavked (BO3) - CCT Europe Series #9 Group Stage",
+    "outcome": "Lavked",
+    "their_usd": 10.33639,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:38:28.068933+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Team WE vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND Will RCD Espanyol de Barcelona win on 2026-09-18? AND Will Chelsea FC win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 9.307699,
+    "detail": "price 0.907 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T06:40:32.286115+00:00"
   }
 ]
