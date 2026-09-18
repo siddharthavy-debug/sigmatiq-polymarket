@@ -61204,5 +61204,101 @@
     "their_usd": 914.99718,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-18T02:06:39.568455+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 134.38875,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:07:59.427034+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will Houston Astros win the 2026 American League Championship Series?",
+    "outcome": "Yes",
+    "their_usd": 2.25857,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T02:08:39.494718+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 2.75,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:09:17.503466+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 140.03137,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:09:17.538897+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 45.232,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:10:36.299164+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Chicago White Sox (-1.5)",
+    "outcome": "Chicago White Sox",
+    "their_usd": 159.73785,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T02:11:56.076767+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 3.128206,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:11:56.185839+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 320.80605,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:11:56.220149+00:00"
   }
 ]
