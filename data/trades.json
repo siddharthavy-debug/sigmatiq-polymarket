@@ -85539,5 +85539,101 @@
     "their_usd": 600.13695,
     "detail": "already hold this market",
     "timestamp": "2026-09-18T20:44:43.483073+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Internazionale Milano win on 2026-09-19? AND Will 1. FC K\u00f6ln win on 2026-09-19? AND Will FC Barcelona win on 2026-09-19? AND Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 406.332992,
+    "detail": "price 0.953 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T20:45:26.773120+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Toronto Blue Jays vs. Texas Rangers AND Kansas City Royals vs. Pittsburgh Pirates AND Milwaukee Brewers vs. Baltimore Orioles",
+    "outcome": "",
+    "their_usd": 908.605376,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T20:47:27.192196+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.714286,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T20:48:07.061897+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Boyaca Patriotas win on 2026-09-18? AND Will CA Central C\u00f3rdoba win on 2026-09-18? AND Will \u00c1guilas Doradas Rionegro win on 2026-09-18? AND Will Vila Nova FC win on 2026-09-18? AND Will Club Independiente Petrolero win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 1039.270071,
+    "detail": "price 0.956 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T20:48:07.335081+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Mary Stoiana vs Paula Badosa",
+    "outcome": "Mary Stoiana",
+    "their_usd": 40.18941,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T20:48:45.813022+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
+    "outcome": "Robelis Despaigne",
+    "their_usd": 22.96,
+    "detail": "market already at $14.92 of $15.25 cap",
+    "timestamp": "2026-09-18T20:48:47.135281+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
+    "outcome": "Robelis Despaigne",
+    "their_usd": 38.54,
+    "detail": "market already at $14.92 of $15.25 cap",
+    "timestamp": "2026-09-18T20:49:27.392812+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 8.5085,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T20:50:07.368229+00:00"
   }
 ]
