@@ -71684,5 +71684,53 @@
     "their_usd": 106.17323,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T12:06:51.119112+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Biella: Mika Brunold vs Carlo Alberto Caniato",
+    "outcome": "Mika Brunold",
+    "their_usd": 25.56411,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:09:46.384404+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will AS Monaco FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 226.3352,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:10:32.061068+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will AS Monaco FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 774.358,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:11:15.218299+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming - Game 4 Winner",
+    "outcome": "JD Gaming",
+    "their_usd": 51.51478,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:11:58.214709+00:00"
   }
 ]
