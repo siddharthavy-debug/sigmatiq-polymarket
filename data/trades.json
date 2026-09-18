@@ -69284,5 +69284,113 @@
     "their_usd": 1.18031,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T08:01:47.174863+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Chicago Sky vs. Atlanta Dream",
+    "outcome": "Atlanta Dream",
+    "their_usd": 21.98849,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:05:14.563798+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Ljubljana: Noemi Basiletti vs Ekaterine Gorgodze AND Ljubljana: Mona Barthel vs Mia Ristic AND Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "",
+    "their_usd": 139.826281,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:05:15.081416+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Miami (FL) vs. Wake Forest AND Houston vs. Texas Tech",
+    "outcome": "",
+    "their_usd": 49.657037,
+    "detail": "price 0.977 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T08:05:56.069628+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Racing Club win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 4.13066,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:07:17.247919+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mona Barthel",
+    "their_usd": 94.06368,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:07:57.866378+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mona Barthel",
+    "their_usd": 41.7996,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:08:39.368246+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Anastasiia Sobolieva",
+    "their_usd": 76.72667,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:09:19.775706+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Anastasiia Sobolieva",
+    "their_usd": 53.17312,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:09:19.832211+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Lyngby BK win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 1008.42,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:10:01.755986+00:00"
   }
 ]
