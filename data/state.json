@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 32.62146101560765,
+  "cash": 17.62146101560765,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -94,16 +94,6 @@
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-17T06:47:57.390429+00:00"
     },
-    "35946349809644018221594766900800697897892667107929166603091569173318790894279": {
-      "market": "Lions vs. Bills",
-      "slug": "nfl-det-buf-2026-09-18",
-      "outcome": "Lions",
-      "shares": 48.995411568409345,
-      "cost": 15.0,
-      "trader": "CoffeeDespiser",
-      "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
-      "opened": "2026-09-17T08:37:35.369382+00:00"
-    },
     "77561864081904257466881861992966973663334838144590020887681006880259960197549": {
       "market": "Will the Republicans win the Vermont governor race in 2026?",
       "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
@@ -154,16 +144,6 @@
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-17T21:56:30.110739+00:00"
     },
-    "84500340313475375950504898775785046484424111262008180269738244197036218841297": {
-      "market": "Boston Red Sox vs. Texas Rangers: O/U 8.5",
-      "slug": "mlb-bos-tex-2026-09-17-total-8pt5",
-      "outcome": "Over",
-      "shares": 11.11111111111111,
-      "cost": 5.0,
-      "trader": "brendoncarson",
-      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
-      "opened": "2026-09-17T22:01:11.766104+00:00"
-    },
     "4706993567915586093519182235022443948400011507269249325311781582583450067158": {
       "market": "Spread: Las Vegas Aces (-10.5)",
       "slug": "wnba-las-sea-2026-09-17-spread-away-10pt5",
@@ -213,6 +193,36 @@
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-18T02:51:35.240647+00:00"
+    },
+    "40411903751912213391936156833963632583893322263650640987655726690429165086543": {
+      "market": "Minnesota Twins vs. Los Angeles Angels",
+      "slug": "mlb-min-laa-2026-09-17",
+      "outcome": "Los Angeles Angels",
+      "shares": 5.576040275159892,
+      "cost": 5.0,
+      "trader": "analdesutructor",
+      "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+      "opened": "2026-09-18T03:10:57.111904+00:00"
+    },
+    "87197343894456130593898782676177110951952536296651456040559819280191898968479": {
+      "market": "Phan Thiet 4: Matthew Dellavedova vs Hunter Heck",
+      "slug": "atp-dellave-heck-2026-09-17",
+      "outcome": "Hunter Heck",
+      "shares": 18.51851851851852,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-18T03:10:58.494269+00:00"
+    },
+    "104409437013211037050766532808722265409689726374364101268024481427345347317883": {
+      "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+      "slug": "wta-sobolie-samson-2026-09-17",
+      "outcome": "Anastasiia Sobolieva",
+      "shares": 11.11111111111111,
+      "cost": 5.0,
+      "trader": "CoffeeDespiser",
+      "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+      "opened": "2026-09-18T03:12:16.506694+00:00"
     }
   },
   "seen_trades": [
@@ -6340,15 +6350,21 @@
     "0xeb629682e71dc0c41280e003f7794c2021ca15e238a858379183055806622366",
     "0x7fdbe84a7764d457a305521778ef2c9344cb83c81c50810d853bba7b47386791",
     "0x3cb6e2510883aee2fa0020779b484cd5bd7ed918cb4e6b79579f70d7e872d408",
-    "0xef87f100ba4f6157ef81561b2632aeeafdaf4be103cac6c7938d625b2e090e16"
+    "0xef87f100ba4f6157ef81561b2632aeeafdaf4be103cac6c7938d625b2e090e16",
+    "0x7adeb1c82d8887cc42e1b341a225dfb6039911ecf78bd1407ce0c39052c575cd",
+    "0x0624fc5ef534329d9f11a8e274bab0517b6935e6d3c4de3c0d2ef650eda45377",
+    "0x027a3fe5da1547f9c6089b933ccdc8753d6540bcca78e989f52f5525e85995b1",
+    "0x679b2ca589173c1c499272bd43e8c0c96840c73ab0cfdbe88e075a50bc18674b",
+    "0xeaa28e363c230b6a8159d222f6b2946ab09dea9e311638fcf026327f8dc0b52c",
+    "0xfdb714aea944c1d967d79030307602ae0e0558c25bf2ec0413671504dc13d540"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T03:09:03.773835+00:00",
-  "realized_pnl": -62.378538984392335,
-  "trades_executed": 196,
+  "last_run": "2026-09-18T03:13:34.101301+00:00",
+  "realized_pnl": -82.37853898439234,
+  "trades_executed": 199,
   "wins": 35,
-  "losses": 33,
-  "skipped": 5209,
+  "losses": 35,
+  "skipped": 5212,
   "failed": 0,
   "initialised": true,
   "paused": false

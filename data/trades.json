@@ -62886,5 +62886,127 @@
     "their_usd": 115.96764,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T03:08:24.666926+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Boston Red Sox vs. Texas Rangers: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 0,
+    "detail": {
+      "shares": 11.1111,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -5.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-18T03:10:17.278544+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
+    "outcome": "Peyton Stearns",
+    "their_usd": 52.18053,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T03:10:19.723029+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Lions vs. Bills",
+    "outcome": "Lions",
+    "their_usd": 0,
+    "detail": {
+      "shares": 48.9954,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -15.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-18T03:10:54.797265+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Minnesota Twins vs. Los Angeles Angels",
+    "outcome": "Los Angeles Angels",
+    "their_usd": 4326.36179,
+    "detail": {
+      "shares": 5.576,
+      "price": 0.8966936667,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T03:10:57.121059+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
+    "outcome": "Peyton Stearns",
+    "their_usd": 792.5239,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T03:10:58.162621+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Matthew Dellavedova vs Hunter Heck",
+    "outcome": "Hunter Heck",
+    "their_usd": 37.6181,
+    "detail": {
+      "shares": 18.5185,
+      "price": 0.27,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T03:10:58.502617+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Minnesota Twins vs. Los Angeles Angels",
+    "outcome": "Los Angeles Angels",
+    "their_usd": 5116.24564,
+    "detail": "price 0.919 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T03:12:14.072885+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
+    "outcome": "Anastasiia Sobolieva",
+    "their_usd": 9.7785,
+    "detail": {
+      "shares": 11.1111,
+      "price": 0.45,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T03:12:16.515188+00:00"
   }
 ]
