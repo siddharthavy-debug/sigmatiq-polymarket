@@ -71228,5 +71228,41 @@
     "their_usd": 214.9888,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T11:30:59.646513+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Szczecin: Diego Dedura-Palomero vs Thiago Monteiro",
+    "outcome": "Thiago Monteiro",
+    "their_usd": 270.051683,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:32:24.552557+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 92.857143,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:33:53.302121+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND Will AC Monza win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 116.413257,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:35:20.132861+00:00"
   }
 ]
