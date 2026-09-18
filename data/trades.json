@@ -84285,5 +84285,65 @@
     "their_usd": 9.40272,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T19:28:44.018023+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Darwin Blanch vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 46.62031,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:30:04.207700+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Washington Nationals vs. St. Louis Cardinals: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 4.92,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:30:06.091371+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Alina Charaeva",
+    "their_usd": 15.74236,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T19:32:06.205922+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Alina Charaeva",
+    "their_usd": 409.8632,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T19:32:46.568354+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will 1. FC K\u00f6ln win on 2026-09-19? AND Will 1. FSV Mainz 05 win on 2026-09-19? AND Will SC Freiburg win on 2026-09-19? AND Will FC Augsburg win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 225.137634,
+    "detail": "price 0.974 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T19:34:47.740865+00:00"
   }
 ]
