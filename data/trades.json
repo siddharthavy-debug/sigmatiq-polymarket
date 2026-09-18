@@ -62456,5 +62456,89 @@
     "their_usd": 7.34071,
     "detail": "already hold this market",
     "timestamp": "2026-09-18T02:53:31.314255+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
+    "outcome": "Sloane Stephens",
+    "their_usd": 350.04318,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:54:09.911541+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.68,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T02:54:11.043445+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
+    "outcome": "Sloane Stephens",
+    "their_usd": 9.2475,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:54:48.355423+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Spread: Bills (-6.5)",
+    "outcome": "Lions",
+    "their_usd": 64.84375,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-18T02:55:27.142426+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
+    "outcome": "Sloane Stephens",
+    "their_usd": 5.22495,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:55:27.201032+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Boston Red Sox vs. Texas Rangers",
+    "outcome": "Boston Red Sox",
+    "their_usd": 865.60504,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:56:06.673920+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Boston Red Sox vs. Texas Rangers",
+    "outcome": "Boston Red Sox",
+    "their_usd": 148.74865,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T02:56:06.729402+00:00"
   }
 ]
