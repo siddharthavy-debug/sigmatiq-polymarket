@@ -174,16 +174,6 @@
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-18T19:16:33.164969+00:00"
     },
-    "95135710025579862935744207754816860402539598986141984025782651493271054403384": {
-      "market": "Tiburon: Darwin Blanch vs Bryce Nakashima",
-      "slug": "atp-blanc-nakash-2026-09-18",
-      "outcome": "Bryce Nakashima",
-      "shares": 44.17293233082707,
-      "cost": 10.0,
-      "trader": "TRCM",
-      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "opened": "2026-09-18T19:38:09.537865+00:00"
-    },
     "97332397160743647240665116432462635419232333605569548172052796432490703017188": {
       "market": "New York City FC vs. New York Red Bulls: O/U 4.5",
       "slug": "mls-nyc-nyr-2026-09-18-total-4pt5",
@@ -8195,15 +8185,21 @@
     "0x99a899a82bc10d85a5b3482215fa95c26a05cb2c53fa6649f5d4fc9610376d38",
     "0x34a8f7f9299ac79e85a86008f7f31fe536c228e1310436b3e6af1a8a29d1246c",
     "0x486326ca092c351d4a2820c7d1c54cd5d6b14e16d87094c05fb2af12bd830234",
-    "0x14ee5238304a9c8e4ca4bcb38d0735f05d8b333446e1d5a416192b7a811c2ede"
+    "0x14ee5238304a9c8e4ca4bcb38d0735f05d8b333446e1d5a416192b7a811c2ede",
+    "0xe13617a31ee6c89548fd7d088935e7ebbdb2bdaa847b42486290b14af117153e",
+    "0xf8abb76ad1f5babb2a98210faf2bc2c504bd373d40f9000cb805e8e33ee34f62",
+    "0x0b55c28435762f00fc8dd8c8363e2048110dfff89d083ba75130159c5836bcf3",
+    "0xec076b133e908d9f2ee2ac74d3c2189e7fd8e621e68fcf2482bb397c56e5b1b5",
+    "0x8a6786088208b04eee0ac5b0de89017a97ef47d1943c52998808dc7312dfee84",
+    "0x743f090b43f21080fc8a06e0a80536cf8fd97865a68dbb2b53698fbc1f367b3e"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T20:18:07.299622+00:00",
-  "realized_pnl": -71.19390340948866,
+  "last_run": "2026-09-18T20:23:30.238044+00:00",
+  "realized_pnl": -81.19390340948866,
   "trades_executed": 235,
   "wins": 47,
-  "losses": 41,
-  "skipped": 7025,
+  "losses": 42,
+  "skipped": 7031,
   "failed": 0,
   "initialised": true,
   "paused": false
