@@ -71648,5 +71648,41 @@
     "their_usd": 20.01988,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T12:01:39.102893+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Team WE vs JD Gaming - Game 4 Winner",
+    "outcome": "JD Gaming",
+    "their_usd": 56.1834,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:02:23.132972+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 40.625,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:05:20.378767+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Browns vs. Buccaneers",
+    "outcome": "Buccaneers",
+    "their_usd": 106.17323,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:06:51.119112+00:00"
   }
 ]
