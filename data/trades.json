@@ -68225,5 +68225,76 @@
     "their_usd": 21.60885,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T06:24:41.163940+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Seattle Storm vs. Golden State Valkyries",
+    "outcome": "Golden State Valkyries",
+    "their_usd": 12.96531,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:25:23.919646+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Exact Score: AC Monza 2 - 3 US Sassuolo Calcio? AND Exact Score: RCD Espanyol de Barcelona 3 - 2 Elche CF?",
+    "outcome": "",
+    "their_usd": 249.721636,
+    "detail": "price 0.996 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T06:26:05.577180+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Rodrigo Pacheco vs Philip Sekulic",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 0,
+    "detail": {
+      "shares": 6.0976,
+      "price": 1.0,
+      "proceeds": 6.1,
+      "pnl": 1.1,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-18T06:26:42.154351+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Australia Tour of Zimbabwe ODIs: Zimbabwe vs Australia",
+    "outcome": "Zimbabwe",
+    "their_usd": 5.0,
+    "detail": {
+      "shares": 50.0,
+      "price": 0.1,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T06:28:06.664115+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Counter-Strike: GenOne vs Giant Pandas (BO3) - Circuito Retake Group C",
+    "outcome": "Giant Pandas",
+    "their_usd": 3.20637,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:28:07.947334+00:00"
   }
 ]

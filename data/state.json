@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 0.00033636226569733196,
+  "cash": 1.0978973378754535,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -204,16 +204,6 @@
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-18T05:12:28.683364+00:00"
     },
-    "75011297405149323342622119912932306905619968191562359894978805580837291163865": {
-      "market": "Phan Thiet 4: Rodrigo Pacheco vs Philip Sekulic",
-      "slug": "atp-pacheco-sekulic-2026-09-17",
-      "outcome": "Rodrigo Pacheco",
-      "shares": 6.097560975609756,
-      "cost": 5.0,
-      "trader": "TRCM",
-      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "opened": "2026-09-18T05:32:17.489910+00:00"
-    },
     "104409437013211037050766532808722265409689726374364101268024481427345347317883": {
       "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
       "slug": "wta-sobolie-samson-2026-09-17",
@@ -243,6 +233,16 @@
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-18T05:48:07.750487+00:00"
+    },
+    "7176702465680762041779216458361717450993433967729872642716172160812066717332": {
+      "market": "Australia Tour of Zimbabwe ODIs: Zimbabwe vs Australia",
+      "slug": "crint-zwe-aus-2026-09-18",
+      "outcome": "Zimbabwe",
+      "shares": 50.0,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-18T06:28:06.654119+00:00"
     }
   },
   "seen_trades": [
@@ -6809,15 +6809,19 @@
     "0x9cf950cd0e1a82f3fc8898fce8480bc79d07c9457a21a96da5d3bda143de76b6",
     "0xeacf187b654f691f27c428c967219da886cf1ddd05c47407ad5ef3bcdfe94425",
     "0xf54b18a5c26fee178d4bc3452dabd1468e8b1e9928f5cf5beb6299efdfe65958",
-    "0x1be6e43c74d812f0fed6ddab50dc52e96b0ba9bb7ab5ae31b1f7cff40e430819"
+    "0x1be6e43c74d812f0fed6ddab50dc52e96b0ba9bb7ab5ae31b1f7cff40e430819",
+    "0x82e186d2f821eca9dc4091bfbd0eec3c1d42fece4abd506df7f89c8dc69d731e",
+    "0xff3f34c0b1bf4c96bb6c9680f7ce39df8eb96e1a6438f8ec171b76d32ea2d164",
+    "0xd7706c618e4b5909ac5abdb0d8e07923c93cfe5b93eb57c51b9df2471e0ce3e4",
+    "0xdd7d0d1df3161887ba36d56839be03b007d2e796e5c20c6d1d12c132d84ba012"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T06:24:42.434215+00:00",
-  "realized_pnl": -61.29966363773427,
-  "trades_executed": 219,
-  "wins": 40,
+  "last_run": "2026-09-18T06:30:12.582223+00:00",
+  "realized_pnl": -60.20210266212452,
+  "trades_executed": 220,
+  "wins": 41,
   "losses": 37,
-  "skipped": 5625,
+  "skipped": 5628,
   "failed": 0,
   "initialised": true,
   "paused": false
