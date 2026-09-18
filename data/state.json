@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 1.596096590511312,
+  "cash": 4.996096590511311,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -124,16 +124,6 @@
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-18T02:00:03.728493+00:00"
     },
-    "98606483910862157292150485578361131800618895557996658662721539136094320791711": {
-      "market": "Will NK Slaven Belupo win on 2026-09-18?",
-      "slug": "hr1-rud-sla-2026-09-18-sla",
-      "outcome": "No",
-      "shares": 20.0,
-      "cost": 10.0,
-      "trader": "us391",
-      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "opened": "2026-09-18T04:39:57.918015+00:00"
-    },
     "7866989921761035108379816531057460053759952490865314829198676275575674526562": {
       "market": "Will CA Central C\u00f3rdoba vs. CSyD Defensa y Justicia end in a draw?",
       "slug": "arg-cac-def-2026-09-18-draw",
@@ -213,6 +203,26 @@
       "trader": "0x8efa1ea8ee",
       "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
       "opened": "2026-09-18T19:42:52.546429+00:00"
+    },
+    "21108778501012874369162074190638781283232443707474083316035884324574117775700": {
+      "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+      "slug": "mlb-mil-bal-2026-09-18-total-8pt5",
+      "outcome": "Over",
+      "shares": 3.3333333333333335,
+      "cost": 1.6,
+      "trader": "0x8efa1ea8ee",
+      "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+      "opened": "2026-09-18T19:51:41.419729+00:00"
+    },
+    "81793582666113059012622305450308886776218116428183509726148357468451701541278": {
+      "market": "Spread: New York City FC (-1.5)",
+      "slug": "mls-nyc-nyr-2026-09-18-spread-home-1pt5",
+      "outcome": "New York City FC",
+      "shares": 51.724137907253265,
+      "cost": 15.0,
+      "trader": "0x8efa1ea8ee",
+      "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+      "opened": "2026-09-18T19:56:26.478047+00:00"
     }
   },
   "seen_trades": [
@@ -8155,15 +8165,24 @@
     "0xb7260dde935fd67e8e31e6bf9c57e1ebffec8a318a67c7eae2970035d54dd02c",
     "0x9ec56e61dbdcc07a5c083589e2a9694e48493c3a5aa14f87115504acae35479d",
     "0xa4b1337b7a7299d16e5dc4b63f5f51aa8f5dcf5ee7a5554d9e6d385fe310522b",
-    "0x91a4ccd2817bef365dae8c85d4689a0d02ffa5ced7a6d2a57a298792d036d581"
+    "0x91a4ccd2817bef365dae8c85d4689a0d02ffa5ced7a6d2a57a298792d036d581",
+    "0x89a667a2cd011a90ce3706df8cfe2a1f8c70454093ba27b6d5855ea4b5d31931",
+    "0xc6ffccd89684508913234ace3ff761ee025bcbbf700c96988b6b927be8d05aa4",
+    "0xdcd20ef15adef660333d3fd17000942e8aa5b5ea978bf01dfdefe5c738b427c7",
+    "0x406f49467809540fd6c794bb34f96d283ff6f9e6ccb1316f17b03701b0c71075",
+    "0xa11e93a225d6ded59283d51126386d0af7e760ad494ad7ed3a2cd066358ecffb",
+    "0x9978d828dcba7425497598bf0343edab383e37833a4e2efe409e4f89a2ce1338",
+    "0x50ca977052735ab065240c0d7f2ad55331a88c73b74ddf517288a1d27852b3a0",
+    "0xe5867e4a320eaabadb7ca365fb722e3cdc190fdb7c62f274f036da45963e766d",
+    "0x6132f1db892cc0f3683a95cc7396dcbaca027becf37aedeed846b38f1f5f6d54"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T19:51:00.653314+00:00",
-  "realized_pnl": -66.19390340948866,
-  "trades_executed": 230,
-  "wins": 46,
+  "last_run": "2026-09-18T19:56:28.214621+00:00",
+  "realized_pnl": -56.193903409488655,
+  "trades_executed": 234,
+  "wins": 47,
   "losses": 40,
-  "skipped": 6990,
+  "skipped": 6995,
   "failed": 0,
   "initialised": true,
   "paused": false

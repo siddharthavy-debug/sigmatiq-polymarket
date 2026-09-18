@@ -84520,5 +84520,148 @@
     "their_usd": 37.48105,
     "detail": "already hold this market",
     "timestamp": "2026-09-18T19:49:37.717051+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 1921.44,
+    "detail": {
+      "shares": 3.3333,
+      "price": 0.48,
+      "size": 1.6
+    },
+    "timestamp": "2026-09-18T19:51:41.429101+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will New York City FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 2435.53521,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:53:42.868441+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Athletics vs. Cleveland Guardians: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 1921.44,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:54:23.893473+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Darwin Blanch vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 26.3756,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:55:03.307638+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will NK Slaven Belupo win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 0,
+    "detail": {
+      "shares": 20.0,
+      "price": 1.0,
+      "proceeds": 20.0,
+      "pnl": 10.0,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-18T19:55:40.384381+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Anna Blinkova",
+    "their_usd": 1843.76321,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T19:55:44.416318+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Anna Blinkova",
+    "their_usd": 1554.46888,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T19:56:25.613191+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Spread: New York City FC (-1.5)",
+    "outcome": "New York City FC",
+    "their_usd": 1.45,
+    "detail": {
+      "shares": 17.2414,
+      "price": 0.29,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T19:56:26.486451+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Spread: New York City FC (-1.5)",
+    "outcome": "New York City FC",
+    "their_usd": 152.245915,
+    "detail": {
+      "shares": 17.2414,
+      "price": 0.2900000004,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T19:56:26.631914+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Spread: New York City FC (-1.5)",
+    "outcome": "New York City FC",
+    "their_usd": 8.41,
+    "detail": {
+      "shares": 17.2414,
+      "price": 0.29,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T19:56:26.672192+00:00"
   }
 ]
