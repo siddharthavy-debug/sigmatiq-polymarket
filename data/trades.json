@@ -84345,5 +84345,88 @@
     "their_usd": 225.137634,
     "detail": "price 0.974 above 0.9 (no upside)",
     "timestamp": "2026-09-18T19:34:47.740865+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 4.606364,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:35:29.551495+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Emmen win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 0,
+    "detail": {
+      "shares": 16.5918,
+      "price": 1.0,
+      "proceeds": 16.59,
+      "pnl": 8.46,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-18T19:37:25.503044+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 2639.25524,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-18T19:37:27.811068+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Darwin Blanch vs Bryce Nakashima",
+    "outcome": "Bryce Nakashima",
+    "their_usd": 34.58913,
+    "detail": {
+      "shares": 17.8571,
+      "price": 0.28,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T19:38:09.547264+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Darwin Blanch vs Bryce Nakashima",
+    "outcome": "Darwin Blanch",
+    "their_usd": 990.86926,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T19:38:49.411750+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 89.011,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T19:39:30.807953+00:00"
   }
 ]

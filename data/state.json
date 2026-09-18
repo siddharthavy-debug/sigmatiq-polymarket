@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 0.004259904051504559,
+  "cash": 11.596096590511312,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -144,16 +144,6 @@
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-18T05:11:47.762257+00:00"
     },
-    "33569700101994636989567659624634677465016672754994666407916513075999416196573": {
-      "market": "Will FC Emmen win on 2026-09-18?",
-      "slug": "ned2-ein-emm-2026-09-18-emm",
-      "outcome": "No",
-      "shares": 16.591836686459807,
-      "cost": 8.129999999999999,
-      "trader": "us391",
-      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "opened": "2026-09-18T05:12:28.683364+00:00"
-    },
     "104409437013211037050766532808722265409689726374364101268024481427345347317883": {
       "market": "Ljubljana: Anastasiia Sobolieva vs Laura Samson",
       "slug": "wta-sobolie-samson-2026-09-17",
@@ -203,6 +193,16 @@
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-18T19:16:33.164969+00:00"
+    },
+    "95135710025579862935744207754816860402539598986141984025782651493271054403384": {
+      "market": "Tiburon: Darwin Blanch vs Bryce Nakashima",
+      "slug": "atp-blanc-nakash-2026-09-18",
+      "outcome": "Bryce Nakashima",
+      "shares": 17.857142857142854,
+      "cost": 5.0,
+      "trader": "TRCM",
+      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+      "opened": "2026-09-18T19:38:09.537865+00:00"
     }
   },
   "seen_trades": [
@@ -8132,15 +8132,20 @@
     "0xc22321725d3d35127dd7876eae6573736e4328a48c6860e9f5494e0eaaf61e1f",
     "0x1bbb20e7ad1ab04479aaa5fa737eb3feb7a4f5040d8cdb763928dca98a70c11e",
     "0xd3862c3732719b8f5c6c6a2fdb921cf8a62e9adb464df51a219304cee9bb963e",
-    "0x3d47e050c227bde815c072ec29ead13b91dcb32239b147340d93fe8dd6ac92af"
+    "0x3d47e050c227bde815c072ec29ead13b91dcb32239b147340d93fe8dd6ac92af",
+    "0xeaf6cbdd2aaa769f1b0c51cc73f69c10552a22df885d43d77e4a11645d3d6425",
+    "0x44862f58be63bd9e70e8c6807dd1087c2b7df192f62b68c024cc452b6c5f82a5",
+    "0xeffc5b4be8936bced241d253ba04e1bbe6e37b3f79aad5a91654fc92500474b0",
+    "0x134002226aefabf90482ac6ad95b979a47393f4fa4f353c24f28e1e47b36a18f",
+    "0x0be500f31ade8b823a2b5f95538dd35dc858fb5b44501e1466ede61c30817364"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T19:34:48.588976+00:00",
-  "realized_pnl": -74.65574009594846,
-  "trades_executed": 227,
-  "wins": 45,
+  "last_run": "2026-09-18T19:40:12.032626+00:00",
+  "realized_pnl": -66.19390340948866,
+  "trades_executed": 228,
+  "wins": 46,
   "losses": 40,
-  "skipped": 6980,
+  "skipped": 6984,
   "failed": 0,
   "initialised": true,
   "paused": false
