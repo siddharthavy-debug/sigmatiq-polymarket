@@ -73167,5 +73167,17 @@
     "their_usd": 1.5,
     "detail": "we don't hold this",
     "timestamp": "2026-09-18T13:03:34.752054+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "RCD Espanyol de Barcelona vs. Elche CF: O/U 2.5 AND AS Monaco FC vs. Racing Club de Lens: O/U 2.5 AND Spread: FC Bayern M\u00fcnchen (-3.5) AND Brentford FC vs. Chelsea FC: O/U 3.5 AND AC Monza vs. US Sassuolo Calcio: Both Teams to Score",
+    "outcome": "",
+    "their_usd": 8.341038,
+    "detail": "price 0.934 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T13:06:41.422047+00:00"
   }
 ]
