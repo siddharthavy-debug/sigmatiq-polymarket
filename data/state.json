@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 9.641163577483457,
+  "cash": 10.21720385264335,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -174,16 +174,6 @@
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-18T02:00:03.728493+00:00"
     },
-    "40411903751912213391936156833963632583893322263650640987655726690429165086543": {
-      "market": "Minnesota Twins vs. Los Angeles Angels",
-      "slug": "mlb-min-laa-2026-09-17",
-      "outcome": "Los Angeles Angels",
-      "shares": 5.576040275159892,
-      "cost": 5.0,
-      "trader": "analdesutructor",
-      "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
-      "opened": "2026-09-18T03:14:13.868961+00:00"
-    },
     "16345603477675382603604127811468842125659856577882240574343917573370853513970": {
       "market": "Guadalajara Open Akron: Peyton Stearns vs Sloane Stephens",
       "slug": "wta-stearns-stephen-2026-09-17",
@@ -193,6 +183,16 @@
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-18T03:14:15.568668+00:00"
+    },
+    "35795863114198569838545856005957181042296817112579376734787651803138208903751": {
+      "market": "FC Bayern M\u00fcnchen to score first vs. 1. FC Union Berlin?",
+      "slug": "bun-bay-uni-2026-09-18-first-to-score-home",
+      "outcome": "Yes",
+      "shares": 6.097560975609756,
+      "cost": 5.0,
+      "trader": "purplegatto",
+      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+      "opened": "2026-09-18T03:48:25.814202+00:00"
     }
   },
   "seen_trades": [
@@ -6399,15 +6399,41 @@
     "0x9c4c8b2a4b30844f69e5867782ba41d1d8fd9a7213b732cd9d957a22ab6ba74f",
     "0xbd6456e149b2c1de960f2b71228a7575eefdd233161b540b3829aaf56db040c8",
     "0x9390143cbb8a781a8406761524546df52405f3b04bb83fc238da7742d7ded4fd",
-    "0x14f77942735a9a4d507c3737650e9235ee9ecc76fd65b817b0f15c07d9d0a9c5"
+    "0x14f77942735a9a4d507c3737650e9235ee9ecc76fd65b817b0f15c07d9d0a9c5",
+    "0x42d873e4c471c8e97369d23f2ddbf8467c488f5acacb6a353ce4d68c58e10adc",
+    "0xa2afc1a9f34a31bb45709ef685bf33a48be3a1d41fd9b302a183e29d22785742",
+    "0xe468c782d4d4bbccc72a330a17784d2bbd1ae15c6e968c8cde01a51197c9f93c",
+    "0xfb4db0d7880db3d8bdadf84000e16832b1084a4164dcf0f69cf7d94fedf45dcd",
+    "0x9906720bac662fa6e8d9966a260ccfee9f1efcbbda44f01425bf32eaa32f3e71",
+    "0x97dda15a497ab218b65037a56561bd54303076f9f144c9f02c498edc400ff65e",
+    "0x9d24ec3411b555c67becfce5e07aecab21596ed76a615707cd6119803dd0b646",
+    "0xe41637f091d7379fb9ae39416a9c92efaf855b6a7170f6195b79e4c62aee7d60",
+    "0x76226b2475ee636e348123a2d502a262e4acb47166435f107e881d989c2fd94a",
+    "0x4a4495385df9e8bf3376c53ae64c7e8d707a4d7879bb15d67383d9b1761fe623",
+    "0xaf1e98f14b3702886571defeac09a6d5544cf05f3441502a50ce203f34e8ca90",
+    "0xdf970fa978e60f1d481660e05753a41645564870e059725b40d10885695a8a4d",
+    "0xf09b7e96638ebf380840bcedffbd5330b3a3929e10e193081ef7c84e3ae961af",
+    "0x91b8338447f4c8c0de38d84715224774ec256fc8034c104ce00b0068b2d9da31",
+    "0xf2601ff989ec827e8d5af748c3ac57ec321818c43a78b34334e98926621baa63",
+    "0xbf6d04d70ae52aad3852aff5cdf1f1a287cef26b80ac869a8a40714afa54fe3d",
+    "0x5bb70315b727c0f260aef8239d16ee8719f4f6154ddcb0187efcf3aa1a98d10d",
+    "0x80d72945cf569a3eeadf4d2af8ef56dccc2df064a3853b2fe2771b57d8d8f826",
+    "0xb702a96b4d3df67a19dcb357de4546246d10d99ac6d1951e83583d1835cbda26",
+    "0x82175228fb4259d4e430f1fb7b8fe4c7b2b761f8dcc580a21529f322571dc119",
+    "0xc81f7dc4fb8c2d9371762677966f97b735fa44868496b7dc1af19239be3e6dac",
+    "0x2edf8272345385a14b4f1f3a44e5aee793cc54a017ee3c3a3394255814f82c36",
+    "0x60eabf9d8925c51b0f5635b5becf2c3fa9995db881d4226ed1fe93b9858d7b0c",
+    "0x6520de687dafc7fefec331b783d9991c13e78bbc226e3ff0777fba14697e1392",
+    "0x5442b9806e99f2954cec127abd7a421da7a584aa2ef856d1013280c338ea67bb",
+    "0x49ffc09ee744f6a3d5d1b21e62843935f9a66672b2690e4ad9dc008811b123cb"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T03:46:24.843204+00:00",
-  "realized_pnl": -80.10883642251652,
-  "trades_executed": 196,
-  "wins": 35,
+  "last_run": "2026-09-18T03:51:49.258873+00:00",
+  "realized_pnl": -79.53279614735662,
+  "trades_executed": 197,
+  "wins": 36,
   "losses": 34,
-  "skipped": 5288,
+  "skipped": 5313,
   "failed": 0,
   "initialised": true,
   "paused": false
