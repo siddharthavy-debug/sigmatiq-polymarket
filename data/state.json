@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": -0.0021026621245465726,
+  "cash": 0.27192890172050355,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -144,16 +144,6 @@
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-18T02:00:03.728493+00:00"
     },
-    "35795863114198569838545856005957181042296817112579376734787651803138208903751": {
-      "market": "FC Bayern M\u00fcnchen to score first vs. 1. FC Union Berlin?",
-      "slug": "bun-bay-uni-2026-09-18-first-to-score-home",
-      "outcome": "Yes",
-      "shares": 6.097560975609756,
-      "cost": 5.0,
-      "trader": "purplegatto",
-      "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
-      "opened": "2026-09-18T03:48:25.814202+00:00"
-    },
     "98606483910862157292150485578361131800618895557996658662721539136094320791711": {
       "market": "Will NK Slaven Belupo win on 2026-09-18?",
       "slug": "hr1-rud-sla-2026-09-18-sla",
@@ -163,16 +153,6 @@
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-18T04:39:57.918015+00:00"
-    },
-    "77912458764856045760066476718736048272891525965865995575446289536167600322479": {
-      "market": "Will Lyngby BK win on 2026-09-18?",
-      "slug": "den-lyn-sif-2026-09-18-lyn",
-      "outcome": "No",
-      "shares": 4.1764705882352935,
-      "cost": 2.13,
-      "trader": "us391",
-      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "opened": "2026-09-18T04:45:21.541363+00:00"
     },
     "7866989921761035108379816531057460053759952490865314829198676275575674526562": {
       "market": "Will CA Central C\u00f3rdoba vs. CSyD Defensa y Justicia end in a draw?",
@@ -223,6 +203,26 @@
       "trader": "CoffeeDespiser",
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-18T05:48:07.750487+00:00"
+    },
+    "100168223875341174924168465364402331985245238040668242085317661496348310432778": {
+      "market": "Valencia: Andrea Lazaro Garcia vs Joelle Steur",
+      "slug": "wta-garcia-steur-2026-09-18",
+      "outcome": "Joelle Steur",
+      "shares": 12.82051282051282,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-18T18:31:29.582374+00:00"
+    },
+    "41197337373470890306264650480985484925685567675196751833531231660363926775470": {
+      "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+      "slug": "wta-blinkov-charaev-2026-09-18",
+      "outcome": "Alina Charaeva",
+      "shares": 15.625,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-18T18:32:10.936028+00:00"
     }
   },
   "seen_trades": [
@@ -7992,15 +7992,33 @@
     "0xd3644e01246324173555dd59d42a907979919e0b25c546d25a59daf6c16d809b",
     "0x40112a9c30324b1dfd282191a79350313a54adb722d21d2cd3f7844470a1bd17",
     "0x1caf7e1e34e5474fb2aeac4d22c3836d5093e6dd8d7018d72deaf8c7082fc82e",
-    "0xf4d1e2d4441f293a413e3074d6ba53d16592e9f23665327caf21fa68b439cb73"
+    "0xf4d1e2d4441f293a413e3074d6ba53d16592e9f23665327caf21fa68b439cb73",
+    "0x7a765468558b01bdcdbdcc3d7f4cbd564c3d9f85aec6d386e55a23e112d74a95",
+    "0xe58cd265389ac83e8983eb55320cd621bdca314871276b1e54309b2203214744",
+    "0xa714cc130f9881bd628ebe144cc6f70fab4c5a84d953e3a139c9215020bf3ddf",
+    "0x64f535b4504a2004956acf8f7bc016a60741c04023ac798d62bbb5cc677d8162",
+    "0x4c361496eaa5b16959e3eeeb8df59c34685dd8b3e91526efa6f7bd589eaad707",
+    "0xd129e24f4223b30b8226e506295876f40baff3f76421840f75f53b7e9beb12ef",
+    "0x9748ccff1c2ad47e98f79b3069bf5b59099790e659fab5507970b5a9ffbd9c08",
+    "0x074e56c86ded7042ba4212726b67d6adc9a6fe1078b54f37df84a87bbc723775",
+    "0x85b432f1efe10effc61b0d75b809dd154414856116e518ec19ea2191f62243ae",
+    "0x88247340cc16681dfedfe07fc1fa13a6d9e9ce1f7f8baa13056bd150e03739a2",
+    "0x2b851f6cdc80b8d09a81bfc9befa3ab398533ad16a9e5666ca12c8904ccb8084",
+    "0x574e13655b5916657e084086f7bcdac05cc667a4fe6fe97c15ff1321aeaa4378",
+    "0xe31624dd0c9a568cb7065e5d4e466a2c25c6534d14581cef1e0f424a9aa28974",
+    "0xdd3a85a8da81239aa0cd35cff266076559f56500bf86db8b598c46411b06a0b7",
+    "0x8b9016569c4963038c43410ed019147acae78a5040d2810a1b04a218a51af5f9",
+    "0x189edcd77715958c44103d913c549e4be7285b38c6d85329b1ed33cb48667353",
+    "0xd5d17539e1d3e59fda037b302f42c3adb6a9a0d3a0c750fbff49be70e70f564b",
+    "0x9ee0ecf71747834c9ccd4eeed43f745e2efcbd0de0423d2194d33b67705441cc"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T18:28:44.860466+00:00",
-  "realized_pnl": -81.30210266212451,
-  "trades_executed": 221,
-  "wins": 41,
+  "last_run": "2026-09-18T18:34:18.612165+00:00",
+  "realized_pnl": -78.15807109827946,
+  "trades_executed": 223,
+  "wins": 43,
   "losses": 39,
-  "skipped": 6826,
+  "skipped": 6842,
   "failed": 0,
   "initialised": true,
   "paused": false

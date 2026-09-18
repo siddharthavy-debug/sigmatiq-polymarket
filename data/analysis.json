@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-18T18:28:44.873024+00:00",
+  "updated": "2026-09-18T18:34:18.625039+00:00",
   "by_trader": [
     {
       "trader": "us391",
       "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "copied": 19,
-      "closed": 5,
-      "wins": 4,
+      "closed": 6,
+      "wins": 5,
       "losses": 1,
-      "win_rate": 80.0,
-      "pnl": 43.64,
-      "pnl_per_closed": 8.73,
+      "win_rate": 83.3,
+      "pnl": 45.69,
+      "pnl_per_closed": 7.61,
       "skipped": 314,
       "failed": 0,
       "benched": false
@@ -18,14 +18,14 @@
     {
       "trader": "tradecraft",
       "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 56,
+      "copied": 58,
       "closed": 26,
       "wins": 16,
       "losses": 10,
       "win_rate": 61.5,
       "pnl": 41.6,
       "pnl_per_closed": 1.6,
-      "skipped": 572,
+      "skipped": 574,
       "failed": 0,
       "benched": false
     },
@@ -53,7 +53,7 @@
       "win_rate": 100.0,
       "pnl": 22.77,
       "pnl_per_closed": 11.38,
-      "skipped": 109,
+      "skipped": 111,
       "failed": 0,
       "benched": false
     },
@@ -207,7 +207,7 @@
       "win_rate": 50.0,
       "pnl": -6.48,
       "pnl_per_closed": -3.24,
-      "skipped": 60,
+      "skipped": 61,
       "failed": 0,
       "benched": false
     },
@@ -221,7 +221,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 773,
+      "skipped": 775,
       "failed": 0,
       "benched": false
     },
@@ -271,13 +271,13 @@
       "trader": "purplegatto",
       "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "copied": 15,
-      "closed": 5,
-      "wins": 1,
+      "closed": 6,
+      "wins": 2,
       "losses": 4,
-      "win_rate": 20.0,
-      "pnl": -34.13,
-      "pnl_per_closed": -6.83,
-      "skipped": 889,
+      "win_rate": 33.3,
+      "pnl": -33.03,
+      "pnl_per_closed": -5.5,
+      "skipped": 898,
       "failed": 0,
       "benched": false
     },
@@ -314,5 +314,5 @@
     "0x1610db79f753a80207e1d66716be9e91e627ae49",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 6742
+  "total_logged": 6762
 }
