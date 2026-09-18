@@ -80878,5 +80878,101 @@
     "their_usd": 87.5762,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T17:43:01.980118+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "AS Monaco FC vs. Racing Club de Lens: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 5.693871,
+    "detail": "settles in 1.0h, too soon",
+    "timestamp": "2026-09-18T17:45:48.977677+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Republicans win the Nevada governor race in 2026?",
+    "outcome": "No",
+    "their_usd": 33.7867,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:45:49.568548+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will Brentford FC vs. Chelsea FC end in a draw?",
+    "outcome": "Yes",
+    "their_usd": 50.3739,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:45:49.606966+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will BV Borussia 09 Dortmund win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 9.1585,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:46:31.399019+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Susan Bandecchi",
+    "their_usd": 14.9924,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:47:51.608716+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Union Berlin: O/U 5.5",
+    "outcome": "Over",
+    "their_usd": 425.46,
+    "detail": "settles in 0.7h, too soon",
+    "timestamp": "2026-09-18T17:48:33.779798+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "RCD Espanyol de Barcelona vs. Elche CF: O/U 1.5",
+    "outcome": "Under",
+    "their_usd": 3.8346,
+    "detail": "settles in 1.2h, too soon",
+    "timestamp": "2026-09-18T17:49:56.005377+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Natus Vincere vs Movistar KOI (BO5) - LEC Playoffs",
+    "outcome": "Natus Vincere",
+    "their_usd": 107.74237,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:49:56.562290+00:00"
   }
 ]
