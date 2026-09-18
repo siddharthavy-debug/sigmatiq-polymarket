@@ -58744,5 +58744,113 @@
     "their_usd": 34.86,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-18T00:41:52.100766+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Lions vs. Bills",
+    "outcome": "Bills",
+    "their_usd": 9093.21,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T00:45:07.047282+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "Philadelphia Phillies",
+    "their_usd": 12.74968,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T00:45:08.066653+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.36,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T00:46:28.006657+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Boston Red Sox vs. Texas Rangers",
+    "outcome": "Texas Rangers",
+    "their_usd": 7846.53289,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T00:47:05.307005+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 58.68721,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T00:47:06.440552+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Connecticut Sun vs. Atlanta Dream: O/U 168.5",
+    "outcome": "Under",
+    "their_usd": 244.70208,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T00:47:07.742260+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "Philadelphia Phillies",
+    "their_usd": 3.128206,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-18T00:47:45.770566+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Liudmila Samsonova",
+    "their_usd": 104.5,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T00:47:45.817103+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 13.86,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-18T00:47:47.008659+00:00"
   }
 ]
