@@ -72327,5 +72327,65 @@
     "their_usd": 5.72,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T12:32:49.923823+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates: O/U 7.5 AND Athletics vs. Cleveland Guardians: O/U 8.5",
+    "outcome": "",
+    "their_usd": 21.266405,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T12:33:34.581515+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guangzhou: Pavel Kotov vs Rio Noguchi",
+    "outcome": "Rio Noguchi",
+    "their_usd": 3.49922,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:34:15.973627+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 3.12,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:35:00.758581+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republicans win the Florida Senate race in 2026?",
+    "outcome": "No",
+    "their_usd": 1.54,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:36:21.712560+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+    "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+    "market": "Counter-Strike: MOUZ vs Natus Vincere (BO3) - StarLadder StarSeries Playoffs",
+    "outcome": "Natus Vincere",
+    "their_usd": 210.46014,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T12:37:48.735345+00:00"
   }
 ]
