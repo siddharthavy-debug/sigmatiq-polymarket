@@ -68924,5 +68924,29 @@
     "their_usd": 6.98544,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T07:19:33.004426+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Counter-Strike: Leo Team vs G2 Ares (BO3) - CCT Europe Series #9 Group Stage",
+    "outcome": "G2 Ares",
+    "their_usd": 2.61698,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:23:00.745044+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "outcome": "Yes",
+    "their_usd": 707.136,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:25:04.437665+00:00"
   }
 ]
