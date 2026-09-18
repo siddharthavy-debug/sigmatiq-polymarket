@@ -69536,5 +69536,41 @@
     "their_usd": 3.20827,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T08:21:02.615597+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Mona Barthel vs Mia Ristic",
+    "outcome": "Mona Barthel",
+    "their_usd": 56.0556,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:23:10.292091+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Noemi Basiletti vs Ekaterine Gorgodze",
+    "outcome": "Noemi Basiletti",
+    "their_usd": 56.84,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T08:23:51.353327+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will US Sassuolo Calcio win on 2026-09-18? AND Will AS Monaco FC win on 2026-09-18? AND Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 34.072474,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T08:23:53.218556+00:00"
   }
 ]
