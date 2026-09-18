@@ -68948,5 +68948,41 @@
     "their_usd": 707.136,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T07:25:04.437665+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Barcelona win on 2026-09-19? AND Will Manchester City FC win on 2026-09-20? AND Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 93.261912,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:27:18.202966+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Australia Tour of Zimbabwe ODIs: Zimbabwe vs Australia",
+    "outcome": "Zimbabwe",
+    "their_usd": 2.2518,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T07:30:01.402304+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: FC Barcelona (-2.5) AND Will Real Betis Balompi\u00e9 win on 2026-09-20? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 4.053614,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T07:30:03.078717+00:00"
   }
 ]
