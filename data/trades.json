@@ -71084,5 +71084,41 @@
     "their_usd": 12.072247,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T11:15:32.767726+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
+    "outcome": "No",
+    "their_usd": 466.45178,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:17:02.053504+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will an AI lab announce another Millennium Prize solution by December 31, 2026?",
+    "outcome": "No",
+    "their_usd": 134.8158,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:17:02.113180+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND RCD Espanyol de Barcelona vs. Elche CF: Both Teams to Score",
+    "outcome": "",
+    "their_usd": 1.805579,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:20:00.786973+00:00"
   }
 ]
