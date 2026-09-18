@@ -58600,5 +58600,29 @@
     "their_usd": 1.988373,
     "detail": "already hold this market",
     "timestamp": "2026-09-18T00:26:45.309219+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Texas Rangers: O/U 9.5",
+    "outcome": "Over",
+    "their_usd": 88.4925,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T00:29:24.802399+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Marta Kostyuk vs Liudmila Samsonova",
+    "outcome": "Marta Kostyuk",
+    "their_usd": 1427.90568,
+    "detail": "max open positions",
+    "timestamp": "2026-09-18T00:31:20.864071+00:00"
   }
 ]
