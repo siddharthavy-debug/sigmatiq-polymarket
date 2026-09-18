@@ -87896,5 +87896,29 @@
     "their_usd": 648.533175,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T22:50:41.517255+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Minnesota Twins vs. Los Angeles Angels AND New York Yankees vs. Arizona Diamondbacks AND Atlanta Braves vs. Houston Astros",
+    "outcome": "",
+    "their_usd": 5.870272,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:55:38.147482+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "Pittsburgh Pirates",
+    "their_usd": 2327.6744,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T22:55:38.221282+00:00"
   }
 ]
