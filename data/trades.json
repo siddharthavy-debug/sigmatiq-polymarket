@@ -70772,5 +70772,41 @@
     "their_usd": 1534.12581,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T10:43:56.858591+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Adhyaksa Bekasi win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 252.81467,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T10:47:08.664521+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Kas\u0131mpa\u015fa SK vs. Konyaspor end in a draw?",
+    "outcome": "No",
+    "their_usd": 1534.12581,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T10:47:52.023315+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Samira De Stefano vs Alice Tubello",
+    "outcome": "Alice Tubello",
+    "their_usd": 4.28187,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T10:48:33.807495+00:00"
   }
 ]
