@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 10.21720385264335,
+  "cash": 0.2172038526433493,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -193,6 +193,26 @@
       "trader": "purplegatto",
       "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
       "opened": "2026-09-18T03:48:25.814202+00:00"
+    },
+    "87914157936545886154168013125881932120278704704140998256869275877495269304327": {
+      "market": "Minnesota Twins vs. Los Angeles Angels",
+      "slug": "mlb-min-laa-2026-09-17",
+      "outcome": "Minnesota Twins",
+      "shares": 12.531328320802004,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-18T03:53:08.675771+00:00"
+    },
+    "87197343894456130593898782676177110951952536296651456040559819280191898968479": {
+      "market": "Phan Thiet 4: Matthew Dellavedova vs Hunter Heck",
+      "slug": "atp-dellave-heck-2026-09-17",
+      "outcome": "Hunter Heck",
+      "shares": 17.24137931034483,
+      "cost": 5.0,
+      "trader": "TRCM",
+      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+      "opened": "2026-09-18T03:55:50.797354+00:00"
     }
   },
   "seen_trades": [
@@ -6425,15 +6445,36 @@
     "0x60eabf9d8925c51b0f5635b5becf2c3fa9995db881d4226ed1fe93b9858d7b0c",
     "0x6520de687dafc7fefec331b783d9991c13e78bbc226e3ff0777fba14697e1392",
     "0x5442b9806e99f2954cec127abd7a421da7a584aa2ef856d1013280c338ea67bb",
-    "0x49ffc09ee744f6a3d5d1b21e62843935f9a66672b2690e4ad9dc008811b123cb"
+    "0x49ffc09ee744f6a3d5d1b21e62843935f9a66672b2690e4ad9dc008811b123cb",
+    "0x8f059b46a36c64ee4d9195e4e2d212b65715d933e800e8632aad39fdfb8c8217",
+    "0x47cf33df962414aeb2fc6e9a875618ae1c84e772bdd141560879458808c23e8a",
+    "0x4acadce6b1461a6489c9ea3f9e8abb9906cfec9babaa7c278677330166906bbb",
+    "0xbe322aff137cd8bb7bb95437abfedaf4b8174659a65f65028eec4f34dbfcf4bd",
+    "0xf7901c85f296495ce9faed5562d447c0cb6b13c81f8277401c40ea4a7a4caeff",
+    "0x77507ca62fb1ea0ee8724aff1f52a6a6d6ff2db4a242a28258a1150feb50737f",
+    "0x68e774df0fca7666a1877ca8bfb0b9254f5986bebc7814be1633543a5f659bfd",
+    "0x15992fc3e75af99a9fffcef1f588ed7cc0a919d9504f46e257b6006e66c5d003",
+    "0x4c3c7b236fcc98ccad0b0a8698b8911533700b5f9e6992e73a414eb2b9e07b37",
+    "0x0c52a31b08f46625c61ff013f1bcb084b9eece7123903ea11fa0b2265cd7a535",
+    "0x1f1a7a32e08181b52c982f2e00f7116af85569f97080a872df14c6340478a03f",
+    "0x51816e8ec4ea06cceab5e3c1306c6034828f9dadab4bac6b08adb1e3fd528b40",
+    "0x2197434a80f763dfc0f729bedfa1f529aed594dd2b51f03b76a5c96017aefa9b",
+    "0x90dad28e1b09365ca6744dc9c3c2c5713f0957aa3b88fac431bff94d79af4bcc",
+    "0xc289af0fe385c46b93f3868901267108711f4ec13d2ae584f625f280fd451cdf",
+    "0x1149445d1fdc1ffe7eae5ae5f8e333b903834653402cc016a0aa44451d336b3b",
+    "0xb709346bf600636598e42ddddc9247b5547fcc44f6fd97564c4e03fcc82405fa",
+    "0x6213c2f5a7a233a2f6921f2c14a165e755392c410285e987ece50aa768c20bbc",
+    "0x466c8b57b2b0cfaa93c98a3a14e56360b215d098ae9531fa7c539b53f98e1fa2",
+    "0x83fb67d82a74e06d72085c8c3c54f2cdca05a18ac7a2f83503e1e2f5aefce51c",
+    "0xd0007e8370bcb712f31503a87f0ddeed085a569cb1eeddf545e5bd698be564b9"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T03:51:49.258873+00:00",
+  "last_run": "2026-09-18T03:57:14.587651+00:00",
   "realized_pnl": -79.53279614735662,
-  "trades_executed": 197,
+  "trades_executed": 199,
   "wins": 36,
   "losses": 34,
-  "skipped": 5313,
+  "skipped": 5332,
   "failed": 0,
   "initialised": true,
   "paused": false
