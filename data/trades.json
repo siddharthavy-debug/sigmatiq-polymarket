@@ -73791,5 +73791,65 @@
     "their_usd": 525.7824,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T13:39:44.434356+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Szczecin: Marco Cecchinato vs Marco Trungelliti",
+    "outcome": "Marco Cecchinato",
+    "their_usd": 24.99296,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:41:09.632072+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Biella: Jay Clarke vs Felix Gill",
+    "outcome": "Jay Clarke",
+    "their_usd": 42.681,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T13:41:09.700222+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will HJK Helsinki win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 49.05,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:42:42.197294+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Gable Steveson vs. Sean Sharaf (Heavyweight, Prelims) AND UFC 331: Patricio Pitbull vs. Dooho Choi (Featherweight, Main Card) AND UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims) AND UFC 331: Ozzy Diaz vs. Ryan Gandra (Middleweight, Early Prelims)",
+    "outcome": "",
+    "their_usd": 29.278759,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:44:08.697057+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND Spread: FC Bayern M\u00fcnchen (-2.5) AND Will US Sassuolo Calcio win on 2026-09-18? AND Will RCD Espanyol de Barcelona win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 16.888021,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T13:44:52.287195+00:00"
   }
 ]
