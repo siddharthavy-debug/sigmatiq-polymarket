@@ -86163,5 +86163,65 @@
     "their_usd": 313.590123,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T21:11:05.034411+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "New York City FC vs. New York Red Bulls: O/U 4.5",
+    "outcome": "Over",
+    "their_usd": 210.1,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:12:26.239100+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
+    "outcome": "Robelis Despaigne",
+    "their_usd": 41.0,
+    "detail": "market already at $14.92 of $15.25 cap",
+    "timestamp": "2026-09-18T21:12:26.810878+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
+    "outcome": "Robelis Despaigne",
+    "their_usd": 365.638,
+    "detail": "market already at $14.92 of $15.25 cap",
+    "timestamp": "2026-09-18T21:13:06.932717+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brighton & Hove Albion FC vs. Arsenal FC: Both Teams to Score AND Will Como 1907 win on 2026-09-20? AND Will FC Barcelona win on 2026-09-19? AND Will Real Betis Balompi\u00e9 win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Real Madrid CF win on 2026-09-20? AND Will Leeds United FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 46.068288,
+    "detail": "price 0.966 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T21:13:47.408366+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 1.022728,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T21:15:48.248311+00:00"
   }
 ]
