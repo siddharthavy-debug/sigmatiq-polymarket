@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T19:02:09.085011+00:00",
+  "updated": "2026-09-18T19:07:40.441671+00:00",
   "by_trader": [
     {
       "trader": "us391",
@@ -25,7 +25,7 @@
       "win_rate": 61.5,
       "pnl": 41.6,
       "pnl_per_closed": 1.6,
-      "skipped": 578,
+      "skipped": 580,
       "failed": 0,
       "benched": false
     },
@@ -39,7 +39,7 @@
       "win_rate": 80.0,
       "pnl": 32.51,
       "pnl_per_closed": 6.5,
-      "skipped": 126,
+      "skipped": 127,
       "failed": 0,
       "benched": false
     },
@@ -277,7 +277,7 @@
       "win_rate": 33.3,
       "pnl": -33.03,
       "pnl_per_closed": -5.5,
-      "skipped": 943,
+      "skipped": 944,
       "failed": 0,
       "benched": false
     },
@@ -314,5 +314,5 @@
     "0x1610db79f753a80207e1d66716be9e91e627ae49",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 6842
+  "total_logged": 6846
 }

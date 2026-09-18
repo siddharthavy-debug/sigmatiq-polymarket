@@ -83528,5 +83528,53 @@
     "their_usd": 9.4403,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T19:02:07.081716+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Alina Charaeva",
+    "their_usd": 799.67174,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:03:30.079250+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Detroit Tigers vs. Chicago White Sox: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 15.01,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:06:17.457479+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Anna Blinkova vs Alina Charaeva",
+    "outcome": "Alina Charaeva",
+    "their_usd": 23.88597,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:07:37.508326+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "LoL: Shopify Rebellion vs Sentinels - Game 1 Winner",
+    "outcome": "Shopify Rebellion",
+    "their_usd": 44.03153,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T19:07:39.013793+00:00"
   }
 ]
