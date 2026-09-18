@@ -71144,5 +71144,89 @@
     "their_usd": 60.75,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T11:25:02.552104+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Samira De Stefano vs Alice Tubello",
+    "outcome": "Samira De Stefano",
+    "their_usd": 32.59851,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:26:29.357417+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Guangzhou: Elias Ymer vs Marat Sharipov",
+    "outcome": "Marat Sharipov",
+    "their_usd": 2623.34788,
+    "detail": "price 0.978 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T11:26:29.890379+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Bandirmaspor win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 311.79479,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:27:13.939176+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Samira De Stefano vs Alice Tubello",
+    "outcome": "Samira De Stefano",
+    "their_usd": 4.9248,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:28:46.110664+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Irtysh Pavlodar win on 2026-09-18? AND Will Zhetysu Taldykorgan win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 69.924539,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:28:48.665648+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND AC Monza vs. US Sassuolo Calcio: Both Teams to Score AND Spread: FC Bayern M\u00fcnchen (-2.5) AND Will AS Monaco FC win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 101.475621,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:28:48.719575+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 214.9888,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:30:59.646513+00:00"
   }
 ]
