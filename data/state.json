@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 13.13488792681726,
+  "cash": 0.004887926817260357,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -203,6 +203,26 @@
       "trader": "Justluck9",
       "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
       "opened": "2026-09-18T04:46:45.738179+00:00"
+    },
+    "7866989921761035108379816531057460053759952490865314829198676275575674526562": {
+      "market": "Will CA Central C\u00f3rdoba vs. CSyD Defensa y Justicia end in a draw?",
+      "slug": "arg-cac-def-2026-09-18-draw",
+      "outcome": "No",
+      "shares": 7.352941176470588,
+      "cost": 5.0,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-18T05:11:47.762257+00:00"
+    },
+    "33569700101994636989567659624634677465016672754994666407916513075999416196573": {
+      "market": "Will FC Emmen win on 2026-09-18?",
+      "slug": "ned2-ein-emm-2026-09-18-emm",
+      "outcome": "No",
+      "shares": 16.591836686459807,
+      "cost": 8.129999999999999,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-18T05:12:28.683364+00:00"
     }
   },
   "seen_trades": [
@@ -6641,15 +6661,31 @@
     "0x0365bdb3681c02cc0ff0757f951660ef7eccf49d8f7e03046923314108dda0d2",
     "0xe517801eafab0d03105ee5e8764db80fdb1def7f62748fbed4b098b4fdc83935",
     "0xdbbc8d1fb282c4a384c2218eddc5a663bf4fb3c83e65820b420ba6aa5cc4aa5c",
-    "0xb4bccbbaebc7da3f3396d02b5289e4ffb2de1346eb5bc6ba71b69859127ee7d4"
+    "0xb4bccbbaebc7da3f3396d02b5289e4ffb2de1346eb5bc6ba71b69859127ee7d4",
+    "0x9176b3d4773fe96cac2a05d55ec0dd4b0566c64276a7a803f160b5480c9ca52e",
+    "0xf2208d71be21b6b920d3c377c0a8fc60be45f2c50fa94903d43547fa3e907a5e",
+    "0x4cea45f33d60aba7df51f5ddc4a072aa8851f6b1d902628c08610983650e9078",
+    "0x8a983dc98cb6be4c18244d89b80372a08fd98fe9769a4065e62c0ab98bfc30ec",
+    "0xa44e861fb2b5278e02a397eb93ee3b3f10d71e79b7a5497ad8b042dc55b4f05e",
+    "0x280c71d900a52da68282b821c9de835cf6f65447dc2142f308902a62c31d5af7",
+    "0x1850564a88bbebf8b4790b7ce69ae4bda6052aec32081e9bad9d422636128c72",
+    "0x3a9943f87635a77766dd7643a80278092441365649396008b1d3b5f08229c7f0",
+    "0xbc22ee30f82d6860396e570cf1c570e6cca5ebb7fd6051e106d64662ea79fc38",
+    "0x61691ebfffabeeb2daf563c3c0edf442fb0603914c6553f19f1a5b67e7ebccec",
+    "0xaa8fa917d73109e28e7d4e227f86ebcf19166b75f097b4bc5a56e86230ef53ea",
+    "0x2a7c3fd96254872674c45c512222f6fe86b01df5f08351bfc5a63b80af024cb1",
+    "0xc124c5e89b7c7ece4b398520e0343468778b9d0ca2886dd69a54ffcae30130e9",
+    "0x92a8e6274d7cd72b4bb82388e00066abc20a60fa3e3acc3f8f735e31ca8731d4",
+    "0x62d1e68d618cd4f36002835795021ddd69a40df34945f6424d7ba5726fd3100b",
+    "0xac0bfdd51bd570e60561c48e9c80fa4a0bb0422eb1d147ed943596a376472bb7"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-18T05:07:45.134781+00:00",
+  "last_run": "2026-09-18T05:13:11.345713+00:00",
   "realized_pnl": -74.7351120731827,
-  "trades_executed": 208,
+  "trades_executed": 211,
   "wins": 38,
   "losses": 37,
-  "skipped": 5508,
+  "skipped": 5521,
   "failed": 0,
   "initialised": true,
   "paused": false

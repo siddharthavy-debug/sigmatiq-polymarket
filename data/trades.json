@@ -66631,5 +66631,197 @@
     "their_usd": 183.26,
     "detail": "price 0.980 above 0.9 (no upside)",
     "timestamp": "2026-09-18T05:07:42.804030+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 4.93691,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:08:25.708952+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will the Tampa Bay Rays win the 2026 World Series?",
+    "outcome": "Yes",
+    "their_usd": 4.34303,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:08:25.764984+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 4.93691,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:09:06.170397+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Chicago Sky vs. Atlanta Dream",
+    "outcome": "Atlanta Dream",
+    "their_usd": 19.63575,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:09:06.219146+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 164.64,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:09:45.246503+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 60.76,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:10:25.730085+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 244.02,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:10:25.773701+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 152.88,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:10:25.878292+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Will 1. FC Union Berlin win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 305.76,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:11:46.518250+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will CA Central C\u00f3rdoba vs. CSyD Defensa y Justicia end in a draw?",
+    "outcome": "No",
+    "their_usd": 71.85152,
+    "detail": {
+      "shares": 7.3529,
+      "price": 0.68,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T05:11:47.771526+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-09-18?",
+    "outcome": "Yes",
+    "their_usd": 877.93164,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-18T05:11:48.063439+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Emmen win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 2.45,
+    "detail": {
+      "shares": 10.2041,
+      "price": 0.49,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-18T05:12:28.693016+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Emmen win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 24.154118,
+    "detail": {
+      "shares": 6.3878,
+      "price": 0.4900000037,
+      "size": 3.13
+    },
+    "timestamp": "2026-09-18T05:12:28.827214+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Emmen win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 4.9,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T05:12:28.868478+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Chicago Sky vs. Atlanta Dream",
+    "outcome": "Atlanta Dream",
+    "their_usd": 17.75652,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T05:12:29.164456+00:00"
   }
 ]
