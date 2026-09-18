@@ -68428,5 +68428,29 @@
     "their_usd": 44.968,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T06:44:40.286403+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Bandirmaspor win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 5.511482,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:51:33.425705+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Bandirmaspor win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 70.38,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T06:51:33.482245+00:00"
   }
 ]
