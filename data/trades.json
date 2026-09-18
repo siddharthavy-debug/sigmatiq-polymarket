@@ -70904,5 +70904,53 @@
     "their_usd": 12.26313,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T11:00:08.496204+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guangzhou: Elias Ymer vs Marat Sharipov",
+    "outcome": "Marat Sharipov",
+    "their_usd": 106.94374,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T11:01:36.458242+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Kas\u0131mpa\u015fa SK vs. Konyaspor end in a draw?",
+    "outcome": "No",
+    "their_usd": 1514.65811,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:01:37.855853+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Chicago Sky vs. Atlanta Dream",
+    "outcome": "Atlanta Dream",
+    "their_usd": 4.91467,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:03:46.856410+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Brentford FC vs. Chelsea FC: Both Teams to Score AND Spread: FC Bayern M\u00fcnchen (-1.5) AND Will AC Monza win on 2026-09-18? AND Will Racing Club de Lens win on 2026-09-18? AND Will Elche CF win on 2026-09-18?",
+    "outcome": "",
+    "their_usd": 3.894208,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T11:03:47.560937+00:00"
   }
 ]
