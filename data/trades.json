@@ -80110,5 +80110,53 @@
     "their_usd": 8.8827,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-18T17:11:17.662565+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Lisa Pigato",
+    "their_usd": 1231.65,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:12:41.096187+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Stade Lavallois Mayenne FC vs. FC Sochaux-Montb\u00e9liard: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 2120.7258,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:13:22.973401+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "purplegatto",
+    "trader_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+    "market": "Dota 2: Natus Vincere vs Hokori (BO3) - PGL Wallachia Group Stage",
+    "outcome": "Hokori",
+    "their_usd": 1.18966,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-18T17:15:25.901040+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Susan Bandecchi vs Lisa Pigato",
+    "outcome": "Susan Bandecchi",
+    "their_usd": 3.07029,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-18T17:16:46.765286+00:00"
   }
 ]
