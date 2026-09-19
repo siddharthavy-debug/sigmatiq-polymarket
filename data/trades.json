@@ -89024,5 +89024,65 @@
     "their_usd": 6.5152,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-18T23:57:45.994640+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Chicago White Sox (-2.5)",
+    "outcome": "Detroit Tigers",
+    "their_usd": 14.22784,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:00:15.758932+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: J.J. Wolf vs Sebastian Gorzny",
+    "outcome": "Sebastian Gorzny",
+    "their_usd": 160.09026,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T00:02:07.039679+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Miami (FL) (-21.5)",
+    "outcome": "Miami (FL)",
+    "their_usd": 4.9248,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:02:07.828483+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will West Ham United FC win on 2026-09-19? AND Will 1. FC N\u00fcrnberg win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 160.32928,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:03:58.873935+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "Philadelphia Phillies",
+    "their_usd": 8.68604,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:03:58.949079+00:00"
   }
 ]
