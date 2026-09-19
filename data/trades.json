@@ -102028,5 +102028,89 @@
     "their_usd": 71.1,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T06:08:09.319092+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Carol Zhao vs Yexin Ma",
+    "outcome": "Yexin Ma",
+    "their_usd": 16.02137,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:10:05.189117+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 12.63197,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:10:43.819410+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card) AND LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND UFC 331: Ozzy Diaz vs. Ryan Gandra (Middleweight, Early Prelims) AND UFC 331: Giga Chikadze vs. Joanderson Brito (Featherweight, Early Prelims)",
+    "outcome": "",
+    "their_usd": 77.574948,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:10:45.200113+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "FC T\u014dky\u014d vs. Nagoya Grampus: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 2.26612,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:13:19.007274+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Karmine Corp vs Movistar KOI (BO5) - LEC Playoffs AND LoL: Forsaken vs BOMBA Team (BO5) - Rift Legends Playoffs",
+    "outcome": "",
+    "their_usd": 209.137048,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:13:19.389750+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Joanna Garland vs Ellen Perez",
+    "outcome": "Ellen Perez",
+    "their_usd": 10.46672,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:14:35.165076+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Karmine Corp vs Movistar KOI (BO5) - LEC Playoffs AND LoL: Forsaken vs BOMBA Team (BO5) - Rift Legends Playoffs",
+    "outcome": "",
+    "their_usd": 173.585698,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:14:36.680782+00:00"
   }
 ]
