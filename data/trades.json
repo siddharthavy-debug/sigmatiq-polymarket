@@ -108124,5 +108124,113 @@
     "their_usd": 8.08,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T11:23:41.709210+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will Aston Villa FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 869.402,
+    "detail": "settles in 0.1h, too soon",
+    "timestamp": "2026-09-19T11:24:32.074257+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Dynamo Kyiv win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 604.6056,
+    "detail": "settles in 1.1h, too soon",
+    "timestamp": "2026-09-19T11:25:10.543621+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Hibernian FC vs. Aberdeen FC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 2.36682,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:25:10.673536+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "CA Osasuna vs. Rayo Vallecano de Madrid: O/U 1.5",
+    "outcome": "Over",
+    "their_usd": 118.073829,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-19T11:27:42.156410+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "CA Osasuna vs. Rayo Vallecano de Madrid: O/U 2.5",
+    "outcome": "Over",
+    "their_usd": 452.25,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-19T11:27:42.206995+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Hibernian FC vs. Aberdeen FC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 33.6628,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:27:42.460419+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Rochdale AFC vs. Oldham Athletic AFC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 598.58481,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T11:27:42.737518+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AFC Bournemouth win on 2026-09-20? AND Will Sunderland AFC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1.798942,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T11:28:20.998040+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Tottenham Hotspur FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 97.058216,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T11:28:57.181730+00:00"
   }
 ]
