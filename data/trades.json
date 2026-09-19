@@ -102496,5 +102496,41 @@
     "their_usd": 131.38128,
     "detail": "price 0.920 above 0.9 (no upside)",
     "timestamp": "2026-09-19T06:28:11.239300+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Gable Steveson vs. Sean Sharaf (Heavyweight, Prelims) AND UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims) AND UFC 331: Casey O'Neill vs. Eduarda Moura (Women's Flyweight, Early Prelims)",
+    "outcome": "",
+    "their_usd": 288.22372,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:32:05.268449+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Moise Kouame",
+    "their_usd": 172.99215,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:33:20.920870+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Moise Kouame",
+    "their_usd": 66.93427,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:35:15.679225+00:00"
   }
 ]
