@@ -133238,5 +133238,41 @@
     "their_usd": 825.7712,
     "detail": "settles in 7d, too far out",
     "timestamp": "2026-09-19T23:32:20.339791+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Minnesota Twins vs. Los Angeles Angels",
+    "outcome": "Minnesota Twins",
+    "their_usd": 117.5188,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-19T23:34:28.781902+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Sporting Kansas City vs. Philadelphia Union: O/U 3.5",
+    "outcome": "Under",
+    "their_usd": 1823.4135,
+    "detail": "settles in 0.9h, too soon",
+    "timestamp": "2026-09-19T23:36:36.568036+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Sporting Kansas City vs. Philadelphia Union: O/U 3.5",
+    "outcome": "Under",
+    "their_usd": 3075.0,
+    "detail": "settles in 0.9h, too soon",
+    "timestamp": "2026-09-19T23:37:19.050085+00:00"
   }
 ]
