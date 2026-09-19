@@ -132391,5 +132391,89 @@
     "their_usd": 173.26486,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T23:00:13.315200+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 108.09,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T23:00:55.264739+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 21.295063,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T23:00:55.379853+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 210.9639,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T23:00:55.496404+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 46.2,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T23:00:55.611671+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Michael Zheng vs Darwin Blanch",
+    "outcome": "Darwin Blanch",
+    "their_usd": 55.242,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T23:00:58.075220+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 2453.3911,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T23:05:09.932158+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Florida State vs. Alabama: O/U 60.5",
+    "outcome": "Over",
+    "their_usd": 459.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:05:13.543867+00:00"
   }
 ]
