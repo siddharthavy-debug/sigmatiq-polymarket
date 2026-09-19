@@ -100636,5 +100636,65 @@
     "their_usd": 5.38943,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T05:22:41.542970+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Korea Open, Qualification: Mai Hontama vs Eun-Hye Lee",
+    "outcome": "Eun-Hye Lee",
+    "their_usd": 11.84327,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:23:22.406032+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Epitsentr Dunaivtsi vs. FK Livyi Bereh end in a draw?",
+    "outcome": "No",
+    "their_usd": 45.20183,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:24:00.711602+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Charlotte vs. Appalachian State AND Spread: LA (-9.5)",
+    "outcome": "",
+    "their_usd": 7.410702,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:24:41.437263+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Toulouse FC win on 2026-09-19? AND Will Paris FC win on 2026-09-19? AND Will Olympique Lyonnais win on 2026-09-19? AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 176.833826,
+    "detail": "price 0.903 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T05:25:58.535865+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will AS Roma vs. FC Internazionale Milano end in a draw?",
+    "outcome": "No",
+    "their_usd": 6144.3552,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:27:54.504578+00:00"
   }
 ]
