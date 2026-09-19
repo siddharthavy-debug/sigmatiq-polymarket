@@ -133274,5 +133274,53 @@
     "their_usd": 3075.0,
     "detail": "settles in 0.9h, too soon",
     "timestamp": "2026-09-19T23:37:19.050085+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Sacred Heart vs. Elon",
+    "outcome": "Sacred Heart",
+    "their_usd": 4.83,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:42:19.117127+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Texas Rangers (-2.5)",
+    "outcome": "Toronto Blue Jays",
+    "their_usd": 60.57504,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:43:01.532992+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will San Jose Earthquakes vs. Los Angeles FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 3.8456,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:45:09.232834+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will San Jose Earthquakes vs. Los Angeles FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 3.8456,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:45:09.349681+00:00"
   }
 ]
