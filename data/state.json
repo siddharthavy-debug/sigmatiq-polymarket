@@ -124,16 +124,6 @@
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-18T05:48:07.750487+00:00"
     },
-    "107134015369661579112108334578789439837785202241762924295196589963809448319694": {
-      "market": "Will FC Barcelona win on 2026-09-19?",
-      "slug": "lal-sev-bar-2026-09-19-bar",
-      "outcome": "No",
-      "shares": 65.21739130434783,
-      "cost": 15.0,
-      "trader": "SharkbetX-com",
-      "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
-      "opened": "2026-09-19T15:32:06.089813+00:00"
-    },
     "81135401369585995503064752460013996735235030339350844060053168536475397867657": {
       "market": "Raiders vs. Chargers: O/U 43.5",
       "slug": "nfl-lv-lac-2026-09-20-total-43pt5",
@@ -226,11 +216,6 @@
     }
   },
   "seen_trades": [
-    "0x494d03d601b954dfb6894e6c60d3d29ad68a39336150bf7d7af447812b5bca09",
-    "0x963f9f69a68ebc782eb0286192fe35a960a0f1ea50095d2b7f926da69f8a3750",
-    "0x9f7234955eb073ed18d3f12187e8372875145a7cb688a51dd296264d6fd77c88",
-    "0xdba2fa6ad526431e6d607d2fff3ab72e2059ecb41da8d6c67a21fa1c5a975f02",
-    "0xce2f29f18d25b2e6b429caaedf5f402ff30dd078d03cfdf6dec93e4f5492a11d",
     "0x81d173ead7ca909f36a8861d369318e4c286eea24ea305d456cc1860fd97b6f9",
     "0x1164bdf47ebf12e2d1aafcfa9a848b6f2c3cebf07ff5f8d4d9daf63a42847fe6",
     "0x410b11906b8ebed7b8f6baf259b20d7b8a4077a8176aacfbb102a0b6c7bbee7b",
@@ -8225,15 +8210,20 @@
     "0xbcb238433304fbabe7fd8a647f0c30ef8ab5db0d3cb997d602b63aa52e8f25f1",
     "0xe3cc87926c5b7715f83747da92cb803ec1da6f1d4cb7294fe4e0e2f3fcb7d03f",
     "0x6cc5bb772779730f5bc8d0a46176795417c09127889c23947044f7a96e8e7f62",
-    "0x36e5004fad266660c00b01a9ba7a368b753e59160423622045d2c80cab00f01a"
+    "0x36e5004fad266660c00b01a9ba7a368b753e59160423622045d2c80cab00f01a",
+    "0x4f6792f8b02dc96193f07a60b2faae250228fc1c924f39f82a24ea2a16975393",
+    "0x25194dc9ca81428bca8d39e8c9dda4f8d5f8ff1d467156d9972ba07d892329ae",
+    "0x813ab147ff63eb79f7e81fb94b3ff476f35613530ae21528da228f3cdf877e49",
+    "0x53b5ae92987304beb3672378a2bbc7eee5543e61a0b2e7b6050264c3d3eba18b",
+    "0x1e549bcec0df6b9868a78197b36a31c4cbe42c48bd3df58a0ab836ccd2725cdb"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-19T20:48:50.578646+00:00",
-  "realized_pnl": 21.173023159772406,
+  "last_run": "2026-09-19T20:54:27.750912+00:00",
+  "realized_pnl": 6.173023159772406,
   "trades_executed": 274,
   "wins": 55,
-  "losses": 51,
-  "skipped": 10841,
+  "losses": 52,
+  "skipped": 10846,
   "failed": 0,
   "initialised": true,
   "paused": false
