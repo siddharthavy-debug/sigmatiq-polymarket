@@ -130035,5 +130035,81 @@
     "their_usd": 15.113124,
     "detail": "price 0.976 above 0.9 (no upside)",
     "timestamp": "2026-09-19T21:46:56.169076+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Nashville SC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 16.5968,
+    "detail": {
+      "shares": 10.8696,
+      "price": 0.46,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T21:47:39.353516+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Athletics vs. Cleveland Guardians: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 512.0,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-19T21:48:22.310513+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Fenerbah\u00e7e SK win on 2026-09-20? AND Will Sunderland AFC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1.254973,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:49:03.895162+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: USC (-11.5)",
+    "outcome": "USC",
+    "their_usd": 359.34,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:49:04.005149+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Carolina vs. Clemson: O/U 46.5",
+    "outcome": "Over",
+    "their_usd": 11.6,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:49:04.113722+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Clemson (-3.5)",
+    "outcome": "Clemson",
+    "their_usd": 42.4104,
+    "detail": "price 0.922 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T21:49:45.941981+00:00"
   }
 ]

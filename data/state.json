@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 17.12148795918,
+  "cash": 12.121487959180001,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -218,20 +218,14 @@
       "market": "Will Nashville SC win on 2026-09-19?",
       "slug": "mls-nas-chi-2026-09-19-nas",
       "outcome": "No",
-      "shares": 10.869565210302458,
-      "cost": 5.0,
+      "shares": 21.739130427693762,
+      "cost": 10.0,
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-19T21:02:36.905666+00:00"
     }
   },
   "seen_trades": [
-    "0x6c4f9936a192f144d88284e39a8e266b3956e9ebaf18b60f65d100164cd52909",
-    "0xd3201448969b612e3ca99f3bbe8e1d4dd91a66cca44be2810404b61ae8062c71",
-    "0x5a88fcf8860522d522749ae29ca148b6d71fad1b972819e3fa18ed1197faf748",
-    "0x0ed753fcdfe37665a6cf4a07087e7533959d2e0583ce503b7fe26f296677949a",
-    "0x863f2f9a15c276beec347f8037a91b0ad71462813f9a5c45a6a572fbfce07935",
-    "0xf6e81b8ecbdca612f005d2e4190a5d0ecefc0917b7e9b42943f5927182d323f6",
     "0x6333c9391325531e63ef8fcb99e2f2b41997c796c467d94b299b4cad6d57a6e5",
     "0xb884b809ef990f4faa60ec1394a6577f302c99cbf3638e85bba2582ec50e29f3",
     "0xfa639525394816b2a45ecf4c14c9920eed45484cb54bd303d2b20c4d89ebb437",
@@ -8225,15 +8219,21 @@
     "0xa7c20e20d9a0988816890f7f424c853594eda6b5dbebc0c501fb9b4addebb564",
     "0x2aaa351f13e1369a98fe24d41fb124ed74624bf1011d96b59e3f85f216f9e795",
     "0x4c6f7b856147bc0ce35fc0a7b534314fb1c983f0c5a1f6574be7f973b439e7dc",
-    "0xb1f75fc1c9844f047513e7dcb5b7645b10aa3a2fac1a9f3787d4e4c5b99795cd"
+    "0xb1f75fc1c9844f047513e7dcb5b7645b10aa3a2fac1a9f3787d4e4c5b99795cd",
+    "0xfb87e84c3506f5e47fa29d381c967a49b671abc5ec30897eee8fd7dddb89e620",
+    "0xcc30463566a549d341c194467985c7149b6e40baa1031bc6c7de0657dc5cb824",
+    "0x06f55bbc5b422501ae5cc650e39c2dd77700ba59811f0ddf21d54c785c57b364",
+    "0x68774ac718852122ce041ee7f9b236c1dfccd287c83d5bb402df5b3a99a4f0b5",
+    "0x9c64a1fdd1f7ee6d11dab31f47e065fb4f131e6e540fa287f994b19d41525049",
+    "0xf4aba88d947e3ba1e870bed017ccf2a86c564ad374b7f27120cf03d0381a0211"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-19T21:46:57.189553+00:00",
+  "last_run": "2026-09-19T21:52:33.903585+00:00",
   "realized_pnl": -16.171845374153293,
-  "trades_executed": 274,
+  "trades_executed": 275,
   "wins": 54,
   "losses": 52,
-  "skipped": 10897,
+  "skipped": 10902,
   "failed": 0,
   "initialised": true,
   "paused": false
