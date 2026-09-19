@@ -108304,5 +108304,89 @@
     "their_usd": 106.53,
     "detail": "settles in 0.4h, too soon",
     "timestamp": "2026-09-19T11:34:03.581616+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Ljubljana: Samira De Stefano vs Laura Samson",
+    "outcome": "Samira De Stefano",
+    "their_usd": 30.40196,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:37:52.711083+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will En Avant Guingamp vs. Red Star FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 174.456,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-19T11:37:53.414001+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Samira De Stefano vs Laura Samson",
+    "outcome": "Samira De Stefano",
+    "their_usd": 20.37152,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:38:30.963412+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Mia Pohankova vs Gabriela Knutson",
+    "outcome": "Gabriela Knutson",
+    "their_usd": 2.1609,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:39:08.763184+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Mia Pohankova vs Gabriela Knutson",
+    "outcome": "Gabriela Knutson",
+    "their_usd": 4.429,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:39:08.813562+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will En Avant Guingamp vs. Red Star FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 12.852,
+    "detail": "settles in 0.3h, too soon",
+    "timestamp": "2026-09-19T11:39:09.786335+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will En Avant Guingamp vs. Red Star FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 4.628572,
+    "detail": "settles in 0.3h, too soon",
+    "timestamp": "2026-09-19T11:39:09.836539+00:00"
   }
 ]
