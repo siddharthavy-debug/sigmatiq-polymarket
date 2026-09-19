@@ -108232,5 +108232,77 @@
     "their_usd": 97.058216,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-19T11:28:57.181730+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "CA Osasuna vs. Rayo Vallecano de Madrid: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 277.1496,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-19T11:30:15.501593+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "CA Osasuna vs. Rayo Vallecano de Madrid: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 3.8904,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-19T11:30:15.551786+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Samira De Stefano vs Laura Samson",
+    "outcome": "Samira De Stefano",
+    "their_usd": 6.02095,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:32:46.749481+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will RCD Mallorca win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 15.9,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-19T11:33:25.613698+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will RCD Mallorca win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.225107,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-19T11:33:25.695633+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will RCD Mallorca win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 106.53,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-19T11:34:03.581616+00:00"
   }
 ]
