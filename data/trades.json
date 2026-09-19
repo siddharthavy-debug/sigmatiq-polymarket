@@ -103132,5 +103132,77 @@
     "their_usd": 32.753731,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T07:11:26.472599+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "IF Brommapojkarna vs. IFK Goteborg: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 24.32402,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:14:02.386793+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Real Sociedad de F\u00fatbol B vs. RCD Mallorca: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 5.67337,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:14:02.670676+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nika Radisic vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 14.64401,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:14:39.923868+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Vikings vs. Bears AND Bengals vs. Texans",
+    "outcome": "",
+    "their_usd": 65.178219,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T07:14:41.320205+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Eagles vs. Titans AND Steelers vs. Patriots",
+    "outcome": "",
+    "their_usd": 77.810121,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T07:15:19.606853+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: FC Barcelona (-1.5) AND CA Osasuna vs. Rayo Vallecano de Madrid: O/U 2.5 AND RC Celta de Vigo vs. Real Racing Club: O/U 2.5",
+    "outcome": "",
+    "their_usd": 126.896755,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T07:16:36.283059+00:00"
   }
 ]
