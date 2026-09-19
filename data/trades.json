@@ -133322,5 +133322,101 @@
     "their_usd": 3.8456,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T23:45:09.349681+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will San Jose Earthquakes vs. Los Angeles FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 7.6912,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:45:53.756358+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will San Jose Earthquakes vs. Los Angeles FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 6.92208,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:45:53.878891+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Southeastern Louisiana vs. Louisiana-Monroe",
+    "outcome": "Louisiana-Monroe",
+    "their_usd": 12.15,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:48:02.118982+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Arkansas State vs. TCU: O/U 56.5",
+    "outcome": "Under",
+    "their_usd": 4105.92,
+    "detail": "settles in 0.2h, too soon",
+    "timestamp": "2026-09-19T23:50:06.597201+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Georgia Southern vs. Jacksonville State",
+    "outcome": "Georgia Southern",
+    "their_usd": 4.74,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:50:09.948114+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Atlanta Braves vs. Houston Astros: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 85.69152,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:50:10.063369+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Southeastern Louisiana vs. Louisiana-Monroe",
+    "outcome": "Louisiana-Monroe",
+    "their_usd": 3.441,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T23:50:10.178161+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Michael Mmoh vs J.J. Wolf",
+    "outcome": "J.J. Wolf",
+    "their_usd": 3.01047,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-19T23:50:51.344264+00:00"
   }
 ]
