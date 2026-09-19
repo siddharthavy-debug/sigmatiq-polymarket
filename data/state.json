@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 36.565932403624444,
+  "cash": 68.91080093755014,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -194,16 +194,6 @@
       "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
       "opened": "2026-09-19T16:41:11.458605+00:00"
     },
-    "49761902031167309705564284208288180364582681039748200179687800082702426757165": {
-      "market": "Sao Paulo Open: Nadia Podoroska vs Paula Badosa",
-      "slug": "wta-podoros-badosa-2026-09-19",
-      "outcome": "Nadia Podoroska",
-      "shares": 37.3448685339257,
-      "cost": 15.0,
-      "trader": "TRCM",
-      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "opened": "2026-09-19T19:04:54.971389+00:00"
-    },
     "58495445880755149562891757242646200079418025817922492024919365111167111353031": {
       "market": "Will Minnesota United FC win on 2026-09-19?",
       "slug": "mls-min-lag-2026-09-19-min",
@@ -213,12 +203,19 @@
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-19T19:09:15.978724+00:00"
+    },
+    "33571172837523554198836133802137315568742197440948179647038464479687444381754": {
+      "market": "Will Nashville SC win on 2026-09-19?",
+      "slug": "mls-nas-chi-2026-09-19-nas",
+      "outcome": "No",
+      "shares": 10.869565210302458,
+      "cost": 5.0,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-19T20:18:55.613865+00:00"
     }
   },
   "seen_trades": [
-    "0x87612a136429bf67fbe5a38bb2897e5e0bbb7d2ec38e36e203239ccdc1485341",
-    "0x19153fc497876cc89a8d3395a53f1a9a292d2de90cefbf7db5b107bd4a6c8795",
-    "0x2b2413a404e0f996ef8cb8dc642af4521eb7609e664b03b456555d18d1678b45",
     "0x8a982db9585ce0bdddce94c4a758aeb5b874ad15f048d5f8960d24eef189df52",
     "0xde9f1ce231842bed9b7e68259f1bf7927eb7559a5656ccc4bf21535faf2290e3",
     "0xe9f71689e66cca4f8ed2d21f2c7f84ffdf2a96ca6d24d78b16e937616fd4c39d",
@@ -8215,15 +8212,18 @@
     "0x5e6c2e6b0a0a21bd7642b96611f7038e8480235514fbd28a59c61aa301c55de4",
     "0xc5d20af63b0c74e3ea54ca122f84816b98a770d5db5d79944ffec6b617498127",
     "0x1a25f9682b7b861e534ce96dfc197ec7c9f9d1c6e506855783964106a6fe362e",
-    "0xc4fbb9693f82203497ec14de8d37b4d742cdef01cad6eda3edbee978a0c8af3d"
+    "0xc4fbb9693f82203497ec14de8d37b4d742cdef01cad6eda3edbee978a0c8af3d",
+    "0x46f87c24ae81daea93ebfdab904d7da38f3ba1549a4d2538f4d92b471101c4d4",
+    "0x5b87fc617dcf82367c74942b78943df1133debf64d32acf6e9a5eab0f17349ff",
+    "0xaa15f4118a3101fc8bd3cdde6bf50ed939299b996b8b2e5ee1b0af2a522012ff"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-19T20:15:49.811511+00:00",
-  "realized_pnl": -1.7274009297088462,
-  "trades_executed": 269,
-  "wins": 53,
+  "last_run": "2026-09-19T20:21:24.745849+00:00",
+  "realized_pnl": 20.617467604216852,
+  "trades_executed": 270,
+  "wins": 54,
   "losses": 51,
-  "skipped": 10789,
+  "skipped": 10791,
   "failed": 0,
   "initialised": true,
   "paused": false

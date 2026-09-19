@@ -128657,5 +128657,52 @@
       "size": 5.0
     },
     "timestamp": "2026-09-19T20:15:49.345578+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Paula Badosa",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 0,
+    "detail": {
+      "shares": 37.3449,
+      "price": 1.0,
+      "proceeds": 37.34,
+      "pnl": 22.34,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-19T20:17:02.183063+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Paula Badosa",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 503.14969,
+    "detail": "price 0.964 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T20:17:03.770921+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Nashville SC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 449.658519,
+    "detail": {
+      "shares": 10.8696,
+      "price": 0.4600000003,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T20:18:55.632948+00:00"
   }
 ]
