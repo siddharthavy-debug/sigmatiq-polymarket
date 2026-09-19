@@ -104188,5 +104188,53 @@
     "their_usd": 518.238186,
     "detail": "price 0.982 above 0.9 (no upside)",
     "timestamp": "2026-09-19T08:07:33.669186+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will CA Osasuna win on 2026-09-19? AND Will Athletic Club vs. Deportivo Alav\u00e9s end in a draw? AND Will Real Racing Club win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 1054.080218,
+    "detail": "price 0.974 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T08:09:30.905638+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Persela Lamongan win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 117.5,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:10:47.380214+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Persela Lamongan win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 26.603774,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:11:25.729049+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Urawa Red Diamonds win on 2026-09-19? AND Will Shimizu S-Pulse win on 2026-09-19? AND Will Fagiano Okayama win on 2026-09-19? AND Will Sanfrecce Hiroshima win on 2026-09-19? AND Will FC T\u014dky\u014d win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 8.399369,
+    "detail": "price 0.947 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T08:13:21.250691+00:00"
   }
 ]
