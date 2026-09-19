@@ -104236,5 +104236,17 @@
     "their_usd": 8.399369,
     "detail": "price 0.947 above 0.9 (no upside)",
     "timestamp": "2026-09-19T08:13:21.250691+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Persela Lamongan win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 53.11,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:14:39.500681+00:00"
   }
 ]
