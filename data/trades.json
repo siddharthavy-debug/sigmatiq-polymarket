@@ -129243,5 +129243,29 @@
     "their_usd": 5509.05,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-19T20:37:35.987319+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "New York Yankees vs. Arizona Diamondbacks",
+    "outcome": "Arizona Diamondbacks",
+    "their_usd": 6000.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:39:30.291392+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Atlanta Braves vs. Houston Astros AND Tiburon: Michael Zheng vs Darwin Blanch AND Guadalajara Open Akron: Peyton Stearns vs Iva Jovic",
+    "outcome": "",
+    "their_usd": 532.300335,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:40:45.048110+00:00"
   }
 ]
