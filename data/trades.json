@@ -107680,5 +107680,89 @@
     "their_usd": 79.933545,
     "detail": "price 0.977 above 0.9 (no upside)",
     "timestamp": "2026-09-19T11:02:17.096068+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Samira De Stefano vs Laura Samson",
+    "outcome": "Laura Samson",
+    "their_usd": 8.181818,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:03:33.064106+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Mia Pohankova vs Gabriela Knutson",
+    "outcome": "Mia Pohankova",
+    "their_usd": 13.89765,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:03:33.114511+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Korea Open, Qualification: En-Shuo Liang vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 194.4551,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:03:33.566400+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "RC Celta de Vigo vs. Real Racing Club: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 2.462687,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T11:03:33.812278+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Tottenham Hotspur FC vs. Aston Villa FC: Both Teams to Score AND Millwall FC vs. West Ham United FC: Both Teams to Score AND Will Charlton Athletic FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 29.598156,
+    "detail": "price 0.921 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T11:06:05.788497+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will CA Osasuna win on 2026-09-19?",
+    "outcome": "Yes",
+    "their_usd": 342.3766,
+    "detail": "settles in 0.9h, too soon",
+    "timestamp": "2026-09-19T11:07:59.554021+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will CA Osasuna win on 2026-09-19?",
+    "outcome": "Yes",
+    "their_usd": 16.6634,
+    "detail": "settles in 0.9h, too soon",
+    "timestamp": "2026-09-19T11:07:59.620660+00:00"
   }
 ]
