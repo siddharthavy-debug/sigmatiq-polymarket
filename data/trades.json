@@ -98834,5 +98834,96 @@
     "their_usd": 3.951219,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T04:04:05.776228+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 1.89826,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T04:04:48.345034+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Portland State vs. Oregon: O/U 75.5",
+    "outcome": "Over",
+    "their_usd": 2.8616,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T04:06:06.862165+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Miami Marlins vs. San Diego Padres: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 0,
+    "detail": {
+      "shares": 10.2041,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -5.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-19T04:07:21.425858+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 156.2112,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:07:23.643281+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 4.158,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:08:02.308059+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 5.171707,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:08:02.369321+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card) AND UFC 331: Michael Aswell vs. JooSang Yoo (Featherweight, Prelims) AND UFC 331: Patricio Pitbull vs. Dooho Choi (Featherweight, Main Card)",
+    "outcome": "",
+    "their_usd": 238.779893,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T04:08:04.159915+00:00"
   }
 ]
