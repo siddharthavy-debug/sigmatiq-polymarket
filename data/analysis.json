@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T03:37:50.694682+00:00",
+  "updated": "2026-09-19T03:43:06.403445+00:00",
   "by_trader": [
     {
       "trader": "us391",
@@ -30,20 +30,6 @@
       "benched": false
     },
     {
-      "trader": "tradecraft",
-      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 59,
-      "closed": 30,
-      "wins": 17,
-      "losses": 13,
-      "win_rate": 56.7,
-      "pnl": 25.87,
-      "pnl_per_closed": 0.86,
-      "skipped": 697,
-      "failed": 0,
-      "benched": false
-    },
-    {
       "trader": "TRCM",
       "wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
       "copied": 15,
@@ -54,6 +40,20 @@
       "pnl": 21.82,
       "pnl_per_closed": 5.46,
       "skipped": 245,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "tradecraft",
+      "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "copied": 59,
+      "closed": 31,
+      "wins": 17,
+      "losses": 14,
+      "win_rate": 54.8,
+      "pnl": 20.87,
+      "pnl_per_closed": 0.67,
+      "skipped": 699,
       "failed": 0,
       "benched": false
     },
@@ -95,7 +95,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 333,
+      "skipped": 337,
       "failed": 0,
       "benched": false
     },
@@ -221,7 +221,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 1273,
+      "skipped": 1287,
       "failed": 0,
       "benched": false
     },
@@ -235,7 +235,7 @@
       "win_rate": 33.3,
       "pnl": -19.42,
       "pnl_per_closed": -6.47,
-      "skipped": 199,
+      "skipped": 202,
       "failed": 0,
       "benched": false
     },
@@ -249,7 +249,7 @@
       "win_rate": 0.0,
       "pnl": -30.0,
       "pnl_per_closed": -15.0,
-      "skipped": 604,
+      "skipped": 605,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 8042
+  "total_logged": 8067
 }
