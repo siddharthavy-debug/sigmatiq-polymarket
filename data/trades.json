@@ -89336,5 +89336,113 @@
     "their_usd": 772.4832,
     "detail": "settles in 0.1h, too soon",
     "timestamp": "2026-09-19T00:10:11.724525+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Miami (FL) vs. Wake Forest: O/U 51.5",
+    "outcome": "Over",
+    "their_usd": 7.00695,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:11:26.857533+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Suzan Lamens",
+    "outcome": "Suzan Lamens",
+    "their_usd": 36.75654,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T00:12:39.909653+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Tampa Bay Rays: O/U 6.5",
+    "outcome": "Over",
+    "their_usd": 8.75655,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:13:17.915148+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Tampa Bay Rays: O/U 6.5",
+    "outcome": "Over",
+    "their_usd": 46.03456,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:13:17.989779+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Brighton & Hove Albion FC (-2.5)",
+    "outcome": "Arsenal FC",
+    "their_usd": 34.26332,
+    "detail": "price 0.982 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T00:15:08.323692+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Cristina Bucsa vs Iva Jovic",
+    "outcome": "Cristina Bucsa",
+    "their_usd": 1.90463,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T00:15:45.255614+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Brighton & Hove Albion FC (-2.5)",
+    "outcome": "Arsenal FC",
+    "their_usd": 492.0,
+    "detail": "price 0.984 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T00:15:45.464953+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Brighton & Hove Albion FC (-2.5)",
+    "outcome": "Arsenal FC",
+    "their_usd": 408.94129,
+    "detail": "price 0.988 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T00:15:45.540067+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Brighton & Hove Albion FC (-2.5)",
+    "outcome": "Arsenal FC",
+    "their_usd": 446.49,
+    "detail": "price 0.984 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T00:15:45.612964+00:00"
   }
 ]
