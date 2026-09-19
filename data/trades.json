@@ -90291,5 +90291,77 @@
     "their_usd": 93.1608,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T00:43:35.157160+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Atlanta Braves vs. Houston Astros: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 19.84125,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:44:13.565342+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will New York City FC vs. New York Red Bulls end in a draw?",
+    "outcome": "No",
+    "their_usd": 61.976,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:46:03.397998+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Suzan Lamens",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 426.40702,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T00:49:06.378885+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Suzan Lamens",
+    "outcome": "Suzan Lamens",
+    "their_usd": 232.92076,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:49:07.466529+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seattle Mariners vs. Colorado Rockies",
+    "outcome": "Seattle Mariners",
+    "their_usd": 67.122,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:49:07.543080+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seattle Mariners vs. Colorado Rockies",
+    "outcome": "Colorado Rockies",
+    "their_usd": 1.67913,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:49:07.618096+00:00"
   }
 ]
