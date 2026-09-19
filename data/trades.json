@@ -132127,5 +132127,77 @@
     "their_usd": 43.644773,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T22:43:09.351661+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 16.9,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T22:49:31.365248+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 34.84,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T22:49:31.479820+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 554.5124,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T22:49:31.594750+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 6.306757,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T22:49:31.709951+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Missouri State",
+    "their_usd": 1302.32,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T22:49:31.825250+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Michael Zheng vs Darwin Blanch",
+    "outcome": "Darwin Blanch",
+    "their_usd": 8.90168,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T22:53:48.566751+00:00"
   }
 ]
