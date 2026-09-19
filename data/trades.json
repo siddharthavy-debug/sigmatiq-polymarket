@@ -94464,5 +94464,77 @@
     "their_usd": 112.20116,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T02:04:02.886404+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Texas Rangers (-3.5)",
+    "outcome": "Toronto Blue Jays",
+    "their_usd": 106.31628,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T02:08:56.526178+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Texas Rangers (-3.5)",
+    "outcome": "Toronto Blue Jays",
+    "their_usd": 53.15814,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T02:08:56.604902+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Will Atlante FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 1.395,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T02:10:44.370116+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Will Atlante FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 1.36125,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T02:10:44.448837+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Will Atlante FC win on 2026-09-18?",
+    "outcome": "No",
+    "their_usd": 414.78721,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T02:10:44.526619+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Miami (FL) (-11.5)",
+    "outcome": "Wake Forest",
+    "their_usd": 11.96761,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T02:11:22.766844+00:00"
   }
 ]
