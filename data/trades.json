@@ -107284,5 +107284,65 @@
     "their_usd": 30.413793,
     "detail": "settles in 0.2h, too soon",
     "timestamp": "2026-09-19T10:45:03.491336+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Mia Pohankova vs Gabriela Knutson",
+    "outcome": "Gabriela Knutson",
+    "their_usd": 364.35604,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T10:50:09.210964+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Shenzhen Juniors FC vs. Changchun Yatai: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 5.04,
+    "detail": "settles in 0.2h, too soon",
+    "timestamp": "2026-09-19T10:50:10.277679+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Como 1907 win on 2026-09-20? AND Will SSC Napoli win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 16.795621,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T10:50:10.735442+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Tottenham Hotspur FC vs. Aston Villa FC: O/U 2.5 AND Will 1. FC Kaiserslautern win on 2026-09-19? AND Will West Ham United FC win on 2026-09-19? AND Will 1. FC N\u00fcrnberg win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 698.410965,
+    "detail": "price 0.920 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T10:51:26.904972+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Korea Open, Qualification: En-Shuo Liang vs Sara Saito",
+    "outcome": "En-Shuo Liang",
+    "their_usd": 183.5798,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T10:52:04.307366+00:00"
   }
 ]
