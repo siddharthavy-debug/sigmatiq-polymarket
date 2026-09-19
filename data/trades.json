@@ -100576,5 +100576,65 @@
     "their_usd": 105.36,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T05:17:27.188624+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Angers SCO vs. ES Troyes AC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 152.3376,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:20:04.731569+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Gimpo FC vs. Busan IPark end in a draw?",
+    "outcome": "No",
+    "their_usd": 49.67154,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:21:22.276357+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs AND Will Aston Villa FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 70.032424,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:21:22.824616+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Urawa Red Diamonds vs. T\u014dky\u014d Verdy end in a draw?",
+    "outcome": "No",
+    "their_usd": 61.88158,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:22:01.987504+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Korea Open, Qualification: Carol Zhao vs Yexin Ma AND Korea Open, Qualification: Tamara Zidansek vs Bo-Young Jeong",
+    "outcome": "",
+    "their_usd": 5.38943,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:22:41.542970+00:00"
   }
 ]
