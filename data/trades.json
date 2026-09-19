@@ -126384,5 +126384,17 @@
     "their_usd": 5.78431,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T18:09:46.342674+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: FC Barcelona (-1.5) AND Will Toulouse FC win on 2026-09-19? AND Will SS Lazio win on 2026-09-19? AND Will FC Lorient win on 2026-09-19? AND Will Olympique Lyonnais win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 158.33205,
+    "detail": "price 0.940 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T18:12:17.514853+00:00"
   }
 ]
