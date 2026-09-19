@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T01:10:59.146141+00:00",
+  "updated": "2026-09-19T01:16:37.189079+00:00",
   "by_trader": [
     {
       "trader": "us391",
@@ -25,7 +25,7 @@
       "win_rate": 60.7,
       "pnl": 34.42,
       "pnl_per_closed": 1.23,
-      "skipped": 667,
+      "skipped": 668,
       "failed": 0,
       "benched": false
     },
@@ -44,20 +44,6 @@
       "benched": false
     },
     {
-      "trader": "0x8efa1ea8ee",
-      "wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
-      "copied": 11,
-      "closed": 2,
-      "wins": 2,
-      "losses": 0,
-      "win_rate": 100.0,
-      "pnl": 22.77,
-      "pnl_per_closed": 11.38,
-      "skipped": 164,
-      "failed": 0,
-      "benched": false
-    },
-    {
       "trader": "TRCM",
       "wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
       "copied": 15,
@@ -68,6 +54,20 @@
       "pnl": 21.82,
       "pnl_per_closed": 5.46,
       "skipped": 230,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "0x8efa1ea8ee",
+      "wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+      "copied": 11,
+      "closed": 3,
+      "wins": 2,
+      "losses": 1,
+      "win_rate": 66.7,
+      "pnl": 12.77,
+      "pnl_per_closed": 4.26,
+      "skipped": 164,
       "failed": 0,
       "benched": false
     },
@@ -109,7 +109,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 209,
+      "skipped": 268,
       "failed": 0,
       "benched": false
     },
@@ -221,7 +221,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 1028,
+      "skipped": 1032,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 7480
+  "total_logged": 7545
 }
