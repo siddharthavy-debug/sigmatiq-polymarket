@@ -129507,5 +129507,77 @@
     "their_usd": 8.10486,
     "detail": "price 0.952 above 0.9 (no upside)",
     "timestamp": "2026-09-19T21:18:53.920586+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will St. Louis City SC win on 2026-09-19? AND Will FC Dallas win on 2026-09-19? AND Will Manchester United FC win on 2026-09-20? AND Will Philadelphia Union win on 2026-09-19? AND Will AZ win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Feyenoord Rotterdam win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 140.668663,
+    "detail": "price 0.949 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T21:19:37.099745+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Houston Dynamo win on 2026-09-19? AND Will St. Louis City SC win on 2026-09-19? AND Will FC Dallas win on 2026-09-19? AND Will Philadelphia Union win on 2026-09-19? AND Will Nashville SC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 127.579558,
+    "detail": "price 0.939 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T21:19:37.211880+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will St. Louis City SC win on 2026-09-19? AND Will FC Dallas win on 2026-09-19? AND Will Philadelphia Union win on 2026-09-19? AND Will AZ win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Lille OSC win on 2026-09-20? AND Will Feyenoord Rotterdam win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 140.668663,
+    "detail": "price 0.949 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T21:20:19.150193+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will St. Louis City SC win on 2026-09-19? AND Will FC Dallas win on 2026-09-19? AND Will Philadelphia Union win on 2026-09-19? AND Will AZ win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Feyenoord Rotterdam win on 2026-09-20? AND Will SSC Napoli win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 43.870146,
+    "detail": "price 0.954 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T21:21:42.908632+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Illinois (-38.5)",
+    "outcome": "Illinois",
+    "their_usd": 9.99,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T21:23:06.614275+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Milan win on 2026-09-20? AND Will St. Louis City SC win on 2026-09-19? AND Will FC Dallas win on 2026-09-19? AND Will Philadelphia Union win on 2026-09-19? AND Will AZ win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Feyenoord Rotterdam win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 98.131246,
+    "detail": "price 0.918 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T21:23:48.687256+00:00"
   }
 ]
