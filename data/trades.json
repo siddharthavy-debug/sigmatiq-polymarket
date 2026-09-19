@@ -126288,5 +126288,29 @@
     "their_usd": 870.709323,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T17:58:30.256222+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Alexandre Pantoja vs. Joshua Van (Flyweight, Main Card) AND UFC 331: Michael Aswell vs. JooSang Yoo (Featherweight, Prelims)",
+    "outcome": "",
+    "their_usd": 323.356185,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T18:00:23.767633+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Barcelona win on 2026-09-19? AND Will Manchester City FC win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 106.623466,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T18:04:07.705880+00:00"
   }
 ]
