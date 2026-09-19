@@ -100312,5 +100312,89 @@
     "their_usd": 4.03008,
     "detail": "price 0.010 below 0.05 (longshot)",
     "timestamp": "2026-09-19T05:01:47.977668+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Korea Open, Qualification: Mai Hontama vs Eun-Hye Lee",
+    "outcome": "Mai Hontama",
+    "their_usd": 3.296,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:03:46.636457+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Ilia Simakin vs Hunter Heck",
+    "outcome": "Ilia Simakin",
+    "their_usd": 598.988,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:05:41.596450+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Ilia Simakin vs Hunter Heck",
+    "outcome": "Ilia Simakin",
+    "their_usd": 142.07646,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:05:42.176887+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Marlon Vera vs. Charles Jourdain (Bantamweight, Prelims) AND UFC 331: Ozzy Diaz vs. Ryan Gandra (Middleweight, Early Prelims) AND UFC 331: Casey O'Neill vs. Eduarda Moura (Women's Flyweight, Early Prelims)",
+    "outcome": "",
+    "their_usd": 80.53742,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:05:43.061897+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Tottenham Hotspur FC win on 2026-09-19? AND Will Athletic Club win on 2026-09-19? AND Will Everton FC win on 2026-09-19? AND Will Arsenal FC win on 2026-09-19? AND Will Nottingham Forest FC win on 2026-09-19? AND Will Newcastle United FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 44.050843,
+    "detail": "price 0.989 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T05:05:43.124180+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Korea Open, Qualification: Haruka Kaji vs Darya Astakhova",
+    "outcome": "Haruka Kaji",
+    "their_usd": 30.488,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:06:21.681298+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Korea Open, Qualification: Haruka Kaji vs Darya Astakhova",
+    "outcome": "Haruka Kaji",
+    "their_usd": 46.968,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:06:21.743396+00:00"
   }
 ]
