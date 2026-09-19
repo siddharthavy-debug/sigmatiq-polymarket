@@ -126703,5 +126703,41 @@
     "their_usd": 9.788425,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T18:46:44.617542+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Athletics vs. Cleveland Guardians AND Atlanta Braves vs. Houston Astros AND Seattle Mariners vs. Colorado Rockies AND Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "",
+    "their_usd": 17.653618,
+    "detail": "price 0.902 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T18:51:06.357027+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Maringa FC PR vs. Botafogo FC PB end in a draw? AND Will CA Uni\u00f3n vs. CA Independiente end in a draw?",
+    "outcome": "",
+    "their_usd": 329.695862,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T18:51:06.463349+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets AND Boston Red Sox vs. Tampa Bay Rays AND Milwaukee Brewers vs. Baltimore Orioles",
+    "outcome": "",
+    "their_usd": 634.39895,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T18:53:35.138479+00:00"
   }
 ]
