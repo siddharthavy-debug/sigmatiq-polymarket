@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 46.565932403624444,
+  "cash": 36.565932403624444,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -148,8 +148,8 @@
       "market": "Miami Marlins vs. San Diego Padres: O/U 7.5",
       "slug": "mlb-mia-sd-2026-09-19-total-7pt5",
       "outcome": "Over",
-      "shares": 10.20408159100375,
-      "cost": 5.0,
+      "shares": 20.408163117451064,
+      "cost": 10.0,
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-19T16:05:02.307351+00:00"
@@ -168,8 +168,8 @@
       "market": "New York Yankees vs. Arizona Diamondbacks: O/U 7.5",
       "slug": "mlb-nyy-ari-2026-09-19-total-7pt5",
       "outcome": "Over",
-      "shares": 21.27659574468085,
-      "cost": 10.0,
+      "shares": 31.91489352874604,
+      "cost": 15.0,
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-19T16:13:44.454413+00:00"
@@ -216,9 +216,6 @@
     }
   },
   "seen_trades": [
-    "0xba5f26a93c4f2733e00e329f9c134c74ed0d2ecc18d01dfe3cfe0714b07bef4e",
-    "0x2f2c60051fa6a446bbabd1f16791fb67d22e04c863132fe7e6917e89e34d604e",
-    "0x694504ee924a99ac9005fc560d9ee47a72d077e624b00d741c3b04e8992fe421",
     "0x87612a136429bf67fbe5a38bb2897e5e0bbb7d2ec38e36e203239ccdc1485341",
     "0x19153fc497876cc89a8d3395a53f1a9a292d2de90cefbf7db5b107bd4a6c8795",
     "0x2b2413a404e0f996ef8cb8dc642af4521eb7609e664b03b456555d18d1678b45",
@@ -8215,15 +8212,18 @@
     "0x2693a6cfdc85c24db5840246382a4a3fa0124ef565ca400fef53f16daa0cbb22",
     "0xd3554cce45a1a1eedd91797238a83af2748110e13fcefb2d036e23a2e74c3a9c",
     "0xcff5b25eb6a552e1f7bde65285ee1e6e3e79c28e59b1c5927da2d35eee9a40b9",
-    "0x5e6c2e6b0a0a21bd7642b96611f7038e8480235514fbd28a59c61aa301c55de4"
+    "0x5e6c2e6b0a0a21bd7642b96611f7038e8480235514fbd28a59c61aa301c55de4",
+    "0xc5d20af63b0c74e3ea54ca122f84816b98a770d5db5d79944ffec6b617498127",
+    "0x1a25f9682b7b861e534ce96dfc197ec7c9f9d1c6e506855783964106a6fe362e",
+    "0xc4fbb9693f82203497ec14de8d37b4d742cdef01cad6eda3edbee978a0c8af3d"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-19T20:10:14.150209+00:00",
+  "last_run": "2026-09-19T20:15:49.811511+00:00",
   "realized_pnl": -1.7274009297088462,
-  "trades_executed": 267,
+  "trades_executed": 269,
   "wins": 53,
   "losses": 51,
-  "skipped": 10788,
+  "skipped": 10789,
   "failed": 0,
   "initialised": true,
   "paused": false
