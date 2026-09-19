@@ -99321,5 +99321,77 @@
     "their_usd": 72.18,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T04:24:21.284496+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 4.52662,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T04:25:42.901423+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 39.7746,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:26:19.993177+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "CA Osasuna vs. Rayo Vallecano de Madrid: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 531.06,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:27:00.193184+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 15.0048,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:27:37.938977+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 22.9608,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:27:38.000876+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 2.169,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:28:17.123648+00:00"
   }
 ]
