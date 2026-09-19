@@ -100228,5 +100228,89 @@
     "their_usd": 3.85964,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T04:56:33.727165+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 6.989268,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:58:30.310067+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Ilia Simakin vs Hunter Heck",
+    "outcome": "Hunter Heck",
+    "their_usd": 35.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:58:31.816155+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Korea Open, Qualification: Mai Hontama vs Eun-Hye Lee",
+    "outcome": "Eun-Hye Lee",
+    "their_usd": 6.40224,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T04:58:32.757938+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Oregon (-60.5)",
+    "outcome": "Portland State",
+    "their_usd": 1.63488,
+    "detail": "price 0.040 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T04:59:11.632958+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Korea Open, Qualification: Mai Hontama vs Eun-Hye Lee",
+    "outcome": "Mai Hontama",
+    "their_usd": 4.20413,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:01:08.841465+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Oregon (-58.5)",
+    "outcome": "Portland State",
+    "their_usd": 3.5683,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T05:01:47.913698+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Oregon (-58.5)",
+    "outcome": "Portland State",
+    "their_usd": 4.03008,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T05:01:47.977668+00:00"
   }
 ]
