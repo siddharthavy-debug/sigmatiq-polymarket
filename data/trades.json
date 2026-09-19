@@ -128133,5 +128133,17 @@
     "their_usd": 1.650015,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T19:15:35.407969+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Wisconsin (-30.5)",
+    "outcome": "Wisconsin",
+    "their_usd": 36.08,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T19:37:18.741355+00:00"
   }
 ]
