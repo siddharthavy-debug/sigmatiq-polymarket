@@ -98474,5 +98474,101 @@
     "their_usd": 5.0208,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T03:48:21.227864+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 2.16,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T03:49:00.619841+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Golden State Valkyries (-12.5)",
+    "outcome": "Portland Fire",
+    "their_usd": 1.32237,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T03:49:02.385439+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Golden State Valkyries (-12.5)",
+    "outcome": "Portland Fire",
+    "their_usd": 20.99,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T03:49:02.446549+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 4.5",
+    "outcome": "Over",
+    "their_usd": 5.49366,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T03:50:59.598368+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Jiaqi Wang vs Anastasia Kulikova",
+    "outcome": "Anastasia Kulikova",
+    "their_usd": 5.50248,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T03:53:35.045828+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Oregon (-51.5)",
+    "outcome": "Portland State",
+    "their_usd": 1.2576,
+    "detail": "price 0.040 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T03:53:36.393993+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AFC Bournemouth vs. Liverpool FC end in a draw? AND Will Fulham FC vs. Manchester United FC end in a draw? AND Will Tottenham Hotspur FC vs. Aston Villa FC end in a draw?",
+    "outcome": "",
+    "their_usd": 509.977156,
+    "detail": "price 0.978 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T03:53:36.510916+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Oregon (-51.5)",
+    "outcome": "Portland State",
+    "their_usd": 1.2576,
+    "detail": "price 0.040 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T03:53:36.570309+00:00"
   }
 ]
