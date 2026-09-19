@@ -90363,5 +90363,65 @@
     "their_usd": 1.67913,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T00:49:07.618096+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Atlanta Braves (-1.5)",
+    "outcome": "Atlanta Braves",
+    "their_usd": 218.71399,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:51:43.571033+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Atlanta Braves vs. Houston Astros",
+    "outcome": "Atlanta Braves",
+    "their_usd": 3999.50772,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:51:43.647141+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Toronto Blue Jays vs. Texas Rangers",
+    "outcome": "Texas Rangers",
+    "their_usd": 3267.02566,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:51:43.721530+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "Kansas City Royals",
+    "their_usd": 2.59375,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T00:53:34.523961+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 4.95,
+    "detail": "settles in 0.7h, too soon",
+    "timestamp": "2026-09-19T00:54:11.444562+00:00"
   }
 ]
