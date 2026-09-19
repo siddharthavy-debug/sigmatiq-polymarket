@@ -102592,5 +102592,77 @@
     "their_usd": 22.482572,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T06:43:39.553351+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 3.61375,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:46:13.993487+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UTSA vs. Texas AND Arkansas State vs. TCU AND North Carolina vs. Clemson AND LSU vs. Ole Miss AND New Mexico vs. Oklahoma AND SMU vs. Louisville",
+    "outcome": "",
+    "their_usd": 7.413044,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:46:15.444815+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "Yes",
+    "their_usd": 473.3976,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:46:53.538626+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "Yes",
+    "their_usd": 468.0624,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:47:31.821706+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Urawa Red Diamonds vs. T\u014dky\u014d Verdy end in a draw?",
+    "outcome": "No",
+    "their_usd": 18.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:47:32.184181+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Fagiano Okayama vs. Ky\u014dto Sanga FC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 514.26047,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:48:49.137414+00:00"
   }
 ]
