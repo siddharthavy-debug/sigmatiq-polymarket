@@ -129171,5 +129171,77 @@
       "size": 5.0
     },
     "timestamp": "2026-09-19T20:32:00.094860+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "SMU vs. Louisville",
+    "outcome": "SMU",
+    "their_usd": 203.2,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:32:41.090325+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Miami (OH) vs. Cincinnati",
+    "outcome": "Miami (OH)",
+    "their_usd": 1227.8157,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T20:35:44.657475+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Athletics vs. Cleveland Guardians AND Atlanta Braves vs. Houston Astros AND Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "",
+    "their_usd": 1721.475144,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:35:46.495012+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will S\u00e3o Paulo FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 127.505687,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:37:00.349837+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Marlon Vera vs. Charles Jourdain (Bantamweight, Prelims) AND UFC 331: Tai Tuivasa vs. Robelis Despaigne (Heavyweight, Prelims)",
+    "outcome": "",
+    "their_usd": 22.568041,
+    "detail": "price 0.922 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T20:37:00.645466+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Miami (OH) vs. Cincinnati",
+    "outcome": "Miami (OH)",
+    "their_usd": 5509.05,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-19T20:37:35.987319+00:00"
   }
 ]
