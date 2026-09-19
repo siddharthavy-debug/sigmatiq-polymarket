@@ -102544,5 +102544,53 @@
     "their_usd": 970.12,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T06:37:13.404682+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Joanna Garland vs Ellen Perez",
+    "outcome": "Joanna Garland",
+    "their_usd": 48.46786,
+    "detail": "price 0.989 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T06:42:59.491206+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 107.848,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:43:00.059878+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 3.69863,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:43:00.121852+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Sevilla FC vs. FC Barcelona: O/U 1.5 AND Athletic Club vs. Deportivo Alav\u00e9s: O/U 1.5 AND RC Celta de Vigo vs. Real Racing Club: O/U 1.5 AND Newcastle United FC vs. Hull City AFC: O/U 1.5",
+    "outcome": "",
+    "their_usd": 22.482572,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:43:39.553351+00:00"
   }
 ]
