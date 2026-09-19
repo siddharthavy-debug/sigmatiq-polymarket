@@ -126000,5 +126000,29 @@
     "their_usd": 55.115188,
     "detail": "price 0.983 above 0.9 (no upside)",
     "timestamp": "2026-09-19T17:17:19.736683+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LSU vs. Ole Miss AND Florida vs. Auburn AND SMU vs. Louisville",
+    "outcome": "",
+    "their_usd": 80.197965,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:27:56.091636+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Le Mans FC vs. FC Lorient: O/U 2.5 AND Spread: FC Barcelona (-1.5) AND Will Olympique Lyonnais win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 8.098634,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:28:33.543078+00:00"
   }
 ]
