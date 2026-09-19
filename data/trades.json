@@ -102532,5 +102532,17 @@
     "their_usd": 66.93427,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T06:35:15.679225+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "Yes",
+    "their_usd": 970.12,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:37:13.404682+00:00"
   }
 ]
