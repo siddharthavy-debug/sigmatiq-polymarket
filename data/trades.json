@@ -102664,5 +102664,77 @@
     "their_usd": 514.26047,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T06:48:49.137414+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nika Radisic vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 5.04192,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:53:19.512053+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Molde FK win on 2026-09-19? AND Will Deportivo Alav\u00e9s win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 13.196168,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:53:21.072761+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Korea Open, Qualification: Xinxin Yao vs Priscilla Hon",
+    "outcome": "Xinxin Yao",
+    "their_usd": 104.50853,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:53:58.891033+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Singapore Open, Qualification: Nika Radisic vs Viktoria Morvayova",
+    "outcome": "Nika Radisic",
+    "their_usd": 2.51039,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:54:37.635610+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will US Cremonese win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1562.17818,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:55:16.705923+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Newcastle United FC (-1.5) AND Spread: FC Barcelona (-1.5) AND RC Celta de Vigo vs. Real Racing Club: O/U 2.5",
+    "outcome": "",
+    "their_usd": 40.6077,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:55:17.258504+00:00"
   }
 ]
