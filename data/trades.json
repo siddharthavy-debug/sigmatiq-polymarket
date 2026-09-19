@@ -104020,5 +104020,77 @@
     "their_usd": 53.71996,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T07:57:52.619769+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Eintracht Frankfurt vs. SC Freiburg: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 372.5064,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:59:10.531196+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Borussia M\u00f6nchengladbach vs. 1. FSV Mainz 05: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 359.04,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:01:06.157257+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "AS Roma vs. FC Internazionale Milano: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 45.51,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:02:23.023931+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Oud-Heverlee Leuven win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 11.83636,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:02:23.587920+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "AS Roma vs. FC Internazionale Milano: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 371.46,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:03:02.062476+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Games Total: O/U 3.5 AND Games Total: O/U 3.5",
+    "outcome": "",
+    "their_usd": 123.925774,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T08:03:02.746221+00:00"
   }
 ]
