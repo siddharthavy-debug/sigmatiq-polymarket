@@ -129267,5 +129267,113 @@
     "their_usd": 532.300335,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T20:40:45.048110+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Tampa Bay Rays: O/U 6.5",
+    "outcome": "Over",
+    "their_usd": 46.144,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:43:52.255198+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Chicago Sky vs. Atlanta Dream AND Seattle Storm vs. Golden State Valkyries: O/U 155.5",
+    "outcome": "",
+    "their_usd": 585.344068,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:45:06.487706+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Liberty (-16.5)",
+    "outcome": "Ball State",
+    "their_usd": 2.4,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:46:20.747455+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Fulham FC win on 2026-09-20? AND Will Celtic FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1087.582462,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:47:34.796658+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Will CD Guadalajara win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 10.8224,
+    "detail": {
+      "shares": 7.8125,
+      "price": 0.64,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T20:48:10.440732+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Edmen Shahbazyan vs. Brunno Ferreira (Middleweight, Early Prelims) AND UFC 331: Michael Aswell vs. JooSang Yoo (Featherweight, Prelims) AND UFC 331: Ozzy Diaz vs. Ryan Gandra (Middleweight, Early Prelims) AND UFC 331: Casey O'Neill vs. Eduarda Moura (Women's Flyweight, Early Prelims) AND UFC 331: Giga Chikadze vs. Joanderson Brito (Featherweight, Early Prelims)",
+    "outcome": "",
+    "their_usd": 41.585033,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:48:12.513186+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Will CD Guadalajara win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 3.2,
+    "detail": {
+      "shares": 7.8125,
+      "price": 0.64,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T20:48:48.116744+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "Will CD Guadalajara win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 162.56,
+    "detail": {
+      "shares": 7.8125,
+      "price": 0.64,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T20:48:48.226288+00:00"
   }
 ]
