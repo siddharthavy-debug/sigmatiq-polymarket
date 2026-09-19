@@ -102304,5 +102304,65 @@
     "their_usd": 5.78714,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T06:19:08.473437+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Bitcoin Up or Down on September 19?",
+    "outcome": "Down",
+    "their_usd": 71.17551,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:21:05.407483+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Game Handicap: KC (-1.5) vs Movistar KOI (+1.5) AND LoL: Invictus Gaming vs JD Gaming (BO5) - LPL Regional Finals Playoffs",
+    "outcome": "",
+    "their_usd": 131.14784,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T06:21:06.746687+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Bitcoin Up or Down on September 19?",
+    "outcome": "Down",
+    "their_usd": 2280.83856,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:21:44.276185+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Ethereum Up or Down on September 19?",
+    "outcome": "Down",
+    "their_usd": 469.26275,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T06:22:22.724470+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Kawasaki Frontale vs. Kashima Antlers end in a draw? AND Will Urawa Red Diamonds win on 2026-09-19? AND Will Shimizu S-Pulse vs. JEF United Ichihara Chiba end in a draw? AND Will Sanfrecce Hiroshima win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 1508.953064,
+    "detail": "price 0.975 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T06:24:19.422641+00:00"
   }
 ]
