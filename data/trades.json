@@ -130111,5 +130111,113 @@
     "their_usd": 42.4104,
     "detail": "price 0.922 above 0.9 (no upside)",
     "timestamp": "2026-09-19T21:49:45.941981+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Carolina vs. Clemson",
+    "outcome": "North Carolina",
+    "their_usd": 1.56,
+    "detail": "price 0.020 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T21:53:16.558916+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Carolina vs. Clemson",
+    "outcome": "North Carolina",
+    "their_usd": 2.16,
+    "detail": "price 0.020 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T21:53:16.669489+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Carolina vs. Clemson",
+    "outcome": "North Carolina",
+    "their_usd": 3.22,
+    "detail": "price 0.020 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T21:53:16.780018+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Toronto Blue Jays vs. Texas Rangers AND Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "",
+    "their_usd": 614.394924,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:53:16.890574+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "SMU vs. Louisville: O/U 62.5",
+    "outcome": "Over",
+    "their_usd": 2.6,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:53:58.995650+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Louisville (-2.5)",
+    "outcome": "SMU",
+    "their_usd": 2.15,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:55:22.186112+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "SMU vs. Louisville: O/U 60.5",
+    "outcome": "Over",
+    "their_usd": 2.8,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:55:22.297905+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AFC Bournemouth win on 2026-09-20? AND Will RC Deportivo A Coru\u00f1a vs. Real Betis Balompi\u00e9 end in a draw? AND Will Villarreal CF vs. Levante UD end in a draw? AND Will Getafe CF vs. M\u00e1laga CF end in a draw? AND Will Club Atl\u00e9tico de Madrid vs. Real Madrid CF end in a draw? AND Will Leeds United FC vs. Crystal Palace FC end in a draw?",
+    "outcome": "",
+    "their_usd": 294.404724,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:58:09.239176+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Como 1907 win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Bayer 04 Leverkusen win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 76.517796,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:58:09.350129+00:00"
   }
 ]
