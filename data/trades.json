@@ -106396,5 +106396,53 @@
     "their_usd": 74.307101,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T10:16:55.175122+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will 1. FSV Mainz 05 win on 2026-09-19? AND Will West Ham United FC win on 2026-09-19? AND Will SC Freiburg win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 141.097165,
+    "detail": "price 0.903 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T10:17:34.528733+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will Tottenham Hotspur FC win on 2026-09-19?",
+    "outcome": "Yes",
+    "their_usd": 490.0,
+    "detail": "settles in 1.2h, too soon",
+    "timestamp": "2026-09-19T10:19:27.329204+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Tottenham Hotspur FC vs. Aston Villa FC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 434.3,
+    "detail": "settles in 1.1h, too soon",
+    "timestamp": "2026-09-19T10:21:20.755297+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will Coventry City FC win on 2026-09-19?",
+    "outcome": "Yes",
+    "their_usd": 218.24,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T10:21:20.907205+00:00"
   }
 ]
