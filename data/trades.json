@@ -98378,5 +98378,101 @@
     "their_usd": 5446.740731,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T03:43:03.930998+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 7.5",
+    "outcome": "Under",
+    "their_usd": 10.58112,
+    "detail": "price 0.960 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T03:44:26.059512+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 26.536829,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T03:46:21.768275+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Korea Open, Qualification: Haruka Kaji vs Darya Astakhova",
+    "outcome": "Haruka Kaji",
+    "their_usd": 2.59375,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T03:47:01.566590+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Ilia Simakin vs Hunter Heck",
+    "outcome": "Ilia Simakin",
+    "their_usd": 8.37055,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T03:47:40.872667+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 25.56,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T03:48:19.222187+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Yankees vs. Arizona Diamondbacks: O/U 11.5",
+    "outcome": "Under",
+    "their_usd": 2.00832,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T03:48:21.107901+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Yankees vs. Arizona Diamondbacks: O/U 11.5",
+    "outcome": "Under",
+    "their_usd": 2.34304,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T03:48:21.168761+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Yankees vs. Arizona Diamondbacks: O/U 11.5",
+    "outcome": "Under",
+    "their_usd": 5.0208,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T03:48:21.227864+00:00"
   }
 ]
