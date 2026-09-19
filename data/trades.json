@@ -100480,5 +100480,101 @@
     "their_usd": 3000.0012,
     "detail": "price 0.998 above 0.9 (no upside)",
     "timestamp": "2026-09-19T05:12:16.350880+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Angers SCO vs. ES Troyes AC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 15.84,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:14:51.706779+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Angers SCO vs. ES Troyes AC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 1.846154,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:14:51.768497+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Angers SCO vs. ES Troyes AC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 12.84,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:14:51.828651+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Angers SCO vs. ES Troyes AC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 162.252554,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:14:51.888355+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Angers SCO vs. ES Troyes AC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 2.4,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:15:30.543686+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Angers SCO vs. ES Troyes AC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 27.6,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:16:09.332675+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: LA (-9.5) AND Buffalo vs. Penn State",
+    "outcome": "",
+    "their_usd": 11.426097,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T05:16:48.811761+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Angers SCO vs. ES Troyes AC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 105.36,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T05:17:27.188624+00:00"
   }
 ]
