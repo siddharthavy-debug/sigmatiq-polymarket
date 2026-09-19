@@ -102964,5 +102964,89 @@
     "their_usd": 71.51077,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T07:01:05.064233+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 32.85497,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:02:23.870377+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Spread: Newcastle United FC (-1.5)",
+    "outcome": "Newcastle United FC",
+    "their_usd": 128.0448,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:02:24.641287+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nika Radisic vs Viktoria Morvayova",
+    "outcome": "Nika Radisic",
+    "their_usd": 1.69821,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:03:02.171246+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: FC Barcelona (-2.5) AND Will Como 1907 win on 2026-09-20? AND Will FC Internazionale Milano win on 2026-09-19? AND Will Udinese Calcio win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 188.090665,
+    "detail": "price 0.961 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T07:03:42.404777+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Democrats win the Georgia Senate race in 2026?",
+    "outcome": "No",
+    "their_usd": 26.95,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:04:18.211511+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republicans win the Georgia Senate race in 2026?",
+    "outcome": "Yes",
+    "their_usd": 30.7245,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:04:18.482139+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nika Radisic vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 1809.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:05:36.870331+00:00"
   }
 ]
