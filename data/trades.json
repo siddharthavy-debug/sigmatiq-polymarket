@@ -128145,5 +128145,29 @@
     "their_usd": 36.08,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T19:37:18.741355+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Texas State (-10.5)",
+    "outcome": "Texas State",
+    "their_usd": 201.45,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T19:37:57.567444+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Kent State vs. Ohio State: O/U 59.5",
+    "outcome": "Under",
+    "their_usd": 1.1022,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T19:37:57.672413+00:00"
   }
 ]
