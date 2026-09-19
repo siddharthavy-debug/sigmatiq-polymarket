@@ -103048,5 +103048,89 @@
     "their_usd": 1809.0,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T07:05:36.870331+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Moise Kouame",
+    "their_usd": 3.10947,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:07:34.044358+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 16.00421,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:07:34.109660+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Vaasan Palloseura vs. Kuopion Palloseura: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 26.12987,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:07:35.553576+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 7.00894,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:11:25.087514+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 11.1456,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:11:25.151318+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 783.56,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:11:25.952423+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Tottenham Hotspur FC vs. Aston Villa FC: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 32.753731,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:11:26.472599+00:00"
   }
 ]
