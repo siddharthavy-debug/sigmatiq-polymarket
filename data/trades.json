@@ -103324,5 +103324,41 @@
     "their_usd": 2.448276,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T07:21:46.483649+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: AS Roma (-3.5)",
+    "outcome": "FC Internazionale Milano",
+    "their_usd": 194.34,
+    "detail": "price 0.984 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T07:23:42.325679+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Moise Kouame vs Rodrigo Pacheco",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 48.07212,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:24:21.025930+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Angers SCO vs. ES Troyes AC end in a draw?",
+    "outcome": "No",
+    "their_usd": 674.36303,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:24:59.996146+00:00"
   }
 ]
