@@ -107152,5 +107152,113 @@
     "their_usd": 9.3152,
     "detail": "settles in 0.9h, too soon",
     "timestamp": "2026-09-19T10:37:22.101066+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guangzhou: Marat Sharipov vs Petr Bar Biryukov",
+    "outcome": "Marat Sharipov",
+    "their_usd": 45.22516,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T10:38:39.721323+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "CA Osasuna vs. Rayo Vallecano de Madrid: O/U 2.5 AND Tottenham Hotspur FC vs. Aston Villa FC: O/U 2.5",
+    "outcome": "",
+    "their_usd": 148.072215,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T10:38:41.166001+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Tottenham Hotspur FC vs. Aston Villa FC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 33.8619,
+    "detail": "settles in 0.8h, too soon",
+    "timestamp": "2026-09-19T10:39:56.546878+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Chelsea FC win on 2026-09-19? AND Will AC Milan win on 2026-09-20? AND Will FC Schalke 04 win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 18.263282,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T10:39:57.361354+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Mia Pohankova vs Gabriela Knutson",
+    "outcome": "Mia Pohankova",
+    "their_usd": 89.23442,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T10:40:34.074562+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "SMU vs. Louisville",
+    "outcome": "SMU",
+    "their_usd": 783.5272,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T10:40:35.037659+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Karlsruher SC vs. 1. FC N\u00fcrnberg: O/U 3.5 AND CA Osasuna vs. Rayo Vallecano de Madrid: O/U 2.5 AND Borussia M\u00f6nchengladbach vs. 1. FSV Mainz 05: O/U 3.5 AND Will Tottenham Hotspur FC win on 2026-09-19? AND Will West Ham United FC win on 2026-09-19? AND Will Bologna FC 1909 win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 508.520651,
+    "detail": "price 0.982 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T10:40:35.174163+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Guangzhou: Pavel Kotov vs Bernard Tomic AND Rennes: Tristan Schoolkate vs Harold Mayot",
+    "outcome": "",
+    "their_usd": 1392.952528,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T10:41:13.053176+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: En-Shuo Liang vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 10.5366,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T10:41:49.695776+00:00"
   }
 ]
