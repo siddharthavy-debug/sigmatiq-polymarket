@@ -93708,5 +93708,89 @@
     "their_usd": 9.6491,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T01:49:52.938429+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Atlanta Braves (-1.5)",
+    "outcome": "Houston Astros",
+    "their_usd": 75.71529,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T01:50:31.794509+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Toronto Blue Jays (-1.5)",
+    "outcome": "Texas Rangers",
+    "their_usd": 45.714,
+    "detail": "price 0.950 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T01:51:45.286989+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Miami Marlins (-2.5)",
+    "outcome": "Miami Marlins",
+    "their_usd": 34.4685,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T01:52:22.051445+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guadalajara Open Akron: Liudmila Samsonova vs Peyton Stearns",
+    "outcome": "Peyton Stearns",
+    "their_usd": 2.51749,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T01:53:33.916490+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Tampa Bay Rays: O/U 6.5",
+    "outcome": "Over",
+    "their_usd": 221.73975,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T01:53:34.960945+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Miami Marlins vs. San Diego Padres",
+    "outcome": "San Diego Padres",
+    "their_usd": 1174.4565,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T01:54:47.702699+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Miami (FL) (-27.5)",
+    "outcome": "Miami (FL)",
+    "their_usd": 45.41589,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T01:54:47.782412+00:00"
   }
 ]
