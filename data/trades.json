@@ -127605,5 +127605,149 @@
     "their_usd": 662.790698,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T19:04:16.824091+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Paula Badosa",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 400.03631,
+    "detail": {
+      "shares": 12.1951,
+      "price": 0.41,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T19:04:54.990690+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Sao Paulo Open: Nadia Podoroska vs Paula Badosa",
+    "outcome": "Nadia Podoroska",
+    "their_usd": 98.24548,
+    "detail": {
+      "shares": 10.4439,
+      "price": 0.47875,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T19:06:09.060914+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Philadelphia Phillies vs. New York Mets: O/U 8.5",
+    "outcome": "Under",
+    "their_usd": 17.745457,
+    "detail": "settles in 1.1h, too soon",
+    "timestamp": "2026-09-19T19:06:10.682028+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Phoenix Mercury vs. Dallas Wings",
+    "outcome": "Dallas Wings",
+    "their_usd": 231.52687,
+    "detail": "price 0.970 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T19:06:47.584156+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Florida State vs. Alabama AND Utah State vs. Utah",
+    "outcome": "",
+    "their_usd": 3.961572,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T19:06:47.690425+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Phoenix Mercury vs. Dallas Wings",
+    "outcome": "Dallas Wings",
+    "their_usd": 1219.17602,
+    "detail": "price 0.970 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T19:06:47.795449+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Penn State (-57.5)",
+    "outcome": "Buffalo",
+    "their_usd": 19.2,
+    "detail": "price 0.960 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T19:08:39.457142+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Minnesota United FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 41.47909,
+    "detail": {
+      "shares": 11.6279,
+      "price": 0.43,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T19:09:16.001924+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Georgia (-27.5)",
+    "outcome": "Arkansas",
+    "their_usd": 8.19,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T19:09:53.785036+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Georgia (-27.5)",
+    "outcome": "Arkansas",
+    "their_usd": 5.5,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T19:09:53.889818+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Georgia (-27.5)",
+    "outcome": "Arkansas",
+    "their_usd": 5.46,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-19T19:09:53.994015+00:00"
   }
 ]
