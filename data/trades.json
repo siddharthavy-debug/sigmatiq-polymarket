@@ -126180,5 +126180,41 @@
     "their_usd": 1251.865401,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T17:47:16.772553+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Barcelona win on 2026-09-19? AND Will Manchester City FC win on 2026-09-20? AND Will Getafe CF win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 172.258858,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:47:55.409996+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Toulouse FC vs. Le Havre AC: O/U 1.5 AND Olympique Lyonnais vs. Stade Rennais FC 1901: O/U 1.5 AND Angers SCO vs. ES Troyes AC: O/U 1.5 AND Will FC Barcelona win on 2026-09-19? AND Will Sporting CP win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 16.319033,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:48:32.915703+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Sevilla FC vs. FC Barcelona: O/U 4.5 AND SG Dynamo Dresden vs. Hertha BSC: O/U 3.5",
+    "outcome": "",
+    "their_usd": 78.103538,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:51:39.065182+00:00"
   }
 ]
