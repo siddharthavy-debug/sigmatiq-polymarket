@@ -126564,5 +126564,41 @@
     "their_usd": 167.0335,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T18:31:05.076630+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Sporting CP win on 2026-09-19? AND Will Saint Patrick\u00b4s Athletic FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 114.712413,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T18:34:50.283077+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Tiburon: Michael Zheng vs Darwin Blanch AND Guadalajara Open Akron: Peyton Stearns vs Iva Jovic",
+    "outcome": "",
+    "their_usd": 179.049464,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T18:35:27.481378+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seattle Mariners vs. Colorado Rockies AND New York Yankees vs. Arizona Diamondbacks AND Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "",
+    "their_usd": 36.317442,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T18:37:19.927595+00:00"
   }
 ]
