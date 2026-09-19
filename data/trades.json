@@ -126216,5 +126216,77 @@
     "their_usd": 78.103538,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T17:51:39.065182+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Barcelona win on 2026-09-19? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 144.575983,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:53:32.876835+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will SS Lazio win on 2026-09-19? AND Will FC Barcelona win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 15.70625,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:56:38.650614+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester City FC win on 2026-09-20? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 253.182157,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:57:53.091900+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Club Atl\u00e9tico de Madrid vs. Real Madrid CF: Both Teams to Score AND Sevilla FC vs. FC Barcelona: Both Teams to Score",
+    "outcome": "",
+    "their_usd": 1.379664,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:57:53.196745+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Club Atl\u00e9tico de Madrid vs. Real Madrid CF: Both Teams to Score AND Sevilla FC vs. FC Barcelona: Both Teams to Score",
+    "outcome": "",
+    "their_usd": 41.389696,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:57:53.301266+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UFC 331: Marlon Vera vs. Charles Jourdain (Bantamweight, Prelims) AND UFC 331: Gable Steveson vs. Sean Sharaf (Heavyweight, Prelims)",
+    "outcome": "",
+    "their_usd": 870.709323,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T17:58:30.256222+00:00"
   }
 ]
