@@ -104092,5 +104092,101 @@
     "their_usd": 123.925774,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T08:03:02.746221+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "AS Roma vs. FC Internazionale Milano: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 408.4,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:03:42.682993+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Aston Villa FC win on 2026-09-19? AND Will Ipswich Town FC win on 2026-09-19? AND Will Nottingham Forest FC vs. Coventry City FC end in a draw? AND Will Newcastle United FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 84.274058,
+    "detail": "price 0.989 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T08:03:43.291148+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will CA Osasuna win on 2026-09-19? AND Will Sevilla FC win on 2026-09-19? AND Will Athletic Club win on 2026-09-19? AND Will RC Celta de Vigo win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 980.725755,
+    "detail": "price 0.986 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T08:05:00.095620+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Jaguars vs. Broncos AND Spread: Eagles (-6.5) AND Spread: SF (-12.5)",
+    "outcome": "",
+    "their_usd": 27.991604,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T08:05:00.159591+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Eva Marie Desvignes vs Kyoka Okamura",
+    "outcome": "Eva Marie Desvignes",
+    "their_usd": 1.16118,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:05:37.159742+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Rayo Vallecano de Madrid win on 2026-09-19? AND Will Sevilla FC vs. FC Barcelona end in a draw? AND Will Deportivo Alav\u00e9s win on 2026-09-19? AND Will Real Racing Club win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 999.432225,
+    "detail": "price 0.996 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T08:06:55.312352+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Xinxin Yao vs Priscilla Hon",
+    "outcome": "Xinxin Yao",
+    "their_usd": 164.09993,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T08:07:32.303296+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will CA Osasuna vs. Rayo Vallecano de Madrid end in a draw? AND Will FC Barcelona win on 2026-09-19? AND Will Athletic Club vs. Deportivo Alav\u00e9s end in a draw? AND Will RC Celta de Vigo vs. Real Racing Club end in a draw?",
+    "outcome": "",
+    "their_usd": 518.238186,
+    "detail": "price 0.982 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T08:07:33.669186+00:00"
   }
 ]
