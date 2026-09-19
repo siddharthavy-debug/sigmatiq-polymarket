@@ -100012,5 +100012,101 @@
     "their_usd": 5.65875,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T04:46:00.200810+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 5.4234,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:46:40.624842+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 10.8468,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:47:19.685057+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will Paris FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 500.0,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:47:21.462350+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 8.496,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:47:59.899809+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 227.2662,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:47:59.960980+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Portland State vs. Oregon: O/U 75.5",
+    "outcome": "Under",
+    "their_usd": 11.05489,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T04:48:02.039445+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 6.5088,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:48:39.528373+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will FC Barcelona win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.9872,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T04:48:39.591850+00:00"
   }
 ]
