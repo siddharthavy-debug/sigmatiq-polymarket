@@ -103672,5 +103672,53 @@
     "their_usd": 1398.446532,
     "detail": "price 0.996 above 0.9 (no upside)",
     "timestamp": "2026-09-19T07:37:15.339067+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Toulouse FC vs. Le Havre AC end in a draw? AND Will RC Strasbourg Alsace win on 2026-09-19? AND Will FC Lorient win on 2026-09-19? AND Will ES Troyes AC win on 2026-09-19? AND Will Stade Rennais FC 1901 win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 898.925832,
+    "detail": "price 0.995 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T07:37:55.450071+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Korea Open, Qualification: Xinxin Yao vs Priscilla Hon",
+    "outcome": "Priscilla Hon",
+    "their_usd": 91.47629,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:39:11.411024+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Tottenham Hotspur FC vs. Aston Villa FC: O/U 3.5",
+    "outcome": "Over",
+    "their_usd": 2.462687,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T07:39:11.735094+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Le Havre AC win on 2026-09-19? AND Will Paris FC win on 2026-09-19? AND Will FC Lorient win on 2026-09-19? AND Will Angers SCO vs. ES Troyes AC end in a draw? AND Will Olympique Lyonnais win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 1381.777408,
+    "detail": "price 0.992 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T07:41:45.838141+00:00"
   }
 ]
