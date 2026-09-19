@@ -107260,5 +107260,29 @@
     "their_usd": 10.5366,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T10:41:49.695776+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Mia Pohankova vs Gabriela Knutson",
+    "outcome": "Mia Pohankova",
+    "their_usd": 22.83274,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T10:43:45.879094+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Shenzhen Juniors FC vs. Changchun Yatai: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 30.413793,
+    "detail": "settles in 0.2h, too soon",
+    "timestamp": "2026-09-19T10:45:03.491336+00:00"
   }
 ]
