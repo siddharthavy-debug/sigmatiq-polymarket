@@ -115408,5 +115408,53 @@
     "their_usd": 2040.0,
     "detail": "no cash left in allocation",
     "timestamp": "2026-09-19T14:26:59.294935+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Spread: FC Barcelona (-2.5)",
+    "outcome": "Sevilla FC",
+    "their_usd": 19.9744,
+    "detail": "no cash left in allocation",
+    "timestamp": "2026-09-19T14:29:32.766538+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Como 1907 win on 2026-09-20? AND Will AS Roma win on 2026-09-19? AND Will FC Barcelona win on 2026-09-19? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 43.543446,
+    "detail": "price 0.901 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T14:29:33.560489+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Arsenal FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 2658.67619,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-19T14:30:49.670037+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will FC Internazionale Milano win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 1.631579,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T14:33:22.452373+00:00"
   }
 ]
