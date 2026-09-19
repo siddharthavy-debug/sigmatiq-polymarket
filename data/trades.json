@@ -129963,5 +129963,77 @@
     "their_usd": 25.5,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T21:41:20.251894+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Carolina vs. Clemson: O/U 46.5",
+    "outcome": "Under",
+    "their_usd": 12.6,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:42:45.305058+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Tampa Bay Rays: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 5.40274,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:43:26.819663+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles",
+    "outcome": "Baltimore Orioles",
+    "their_usd": 2.9008,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:44:08.951239+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "Philadelphia Phillies",
+    "their_usd": 5.24734,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:46:55.948336+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "New York Mets",
+    "their_usd": 17.90019,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:46:56.057749+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Milan win on 2026-09-20? AND Will Manchester United FC win on 2026-09-20? AND Will Como 1907 win on 2026-09-20? AND Will Inter Miami CF win on 2026-09-20? AND Will Villarreal CF win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Bayer 04 Leverkusen win on 2026-09-20? AND Will Leeds United FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 15.113124,
+    "detail": "price 0.976 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T21:46:56.169076+00:00"
   }
 ]
