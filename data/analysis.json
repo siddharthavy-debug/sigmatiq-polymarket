@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T14:02:31.478454+00:00",
+  "updated": "2026-09-19T14:07:39.183081+00:00",
   "by_trader": [
     {
       "trader": "us391",
@@ -11,7 +11,7 @@
       "win_rate": 88.9,
       "pnl": 64.37,
       "pnl_per_closed": 7.15,
-      "skipped": 569,
+      "skipped": 570,
       "failed": 0,
       "benched": false
     },
@@ -25,7 +25,7 @@
       "win_rate": 100.0,
       "pnl": 21.82,
       "pnl_per_closed": 5.46,
-      "skipped": 319,
+      "skipped": 320,
       "failed": 0,
       "benched": false
     },
@@ -39,7 +39,7 @@
       "win_rate": 54.8,
       "pnl": 20.87,
       "pnl_per_closed": 0.67,
-      "skipped": 856,
+      "skipped": 858,
       "failed": 0,
       "benched": false
     },
@@ -53,7 +53,7 @@
       "win_rate": 50.0,
       "pnl": 18.74,
       "pnl_per_closed": 2.34,
-      "skipped": 173,
+      "skipped": 175,
       "failed": 0,
       "benched": false
     },
@@ -165,7 +165,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 102,
+      "skipped": 107,
       "failed": 0,
       "benched": false
     },
@@ -179,7 +179,7 @@
       "win_rate": 50.0,
       "pnl": -2.23,
       "pnl_per_closed": -0.56,
-      "skipped": 373,
+      "skipped": 376,
       "failed": 0,
       "benched": false
     },
@@ -221,7 +221,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 1582,
+      "skipped": 1583,
       "failed": 0,
       "benched": false
     },
@@ -249,7 +249,7 @@
       "win_rate": 0.0,
       "pnl": -30.0,
       "pnl_per_closed": -15.0,
-      "skipped": 670,
+      "skipped": 671,
       "failed": 0,
       "benched": false
     },
@@ -263,7 +263,7 @@
       "win_rate": 0.0,
       "pnl": -30.0,
       "pnl_per_closed": -15.0,
-      "skipped": 973,
+      "skipped": 977,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 9418
+  "total_logged": 9438
 }
