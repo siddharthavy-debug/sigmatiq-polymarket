@@ -128121,5 +128121,17 @@
     "their_usd": 10.07,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T19:13:41.885136+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Kentucky vs. Texas A&M AND Miami (OH) vs. Cincinnati AND Florida State vs. Alabama AND Utah State vs. Utah AND USC vs. Rutgers AND SMU vs. Louisville",
+    "outcome": "",
+    "their_usd": 1.650015,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T19:15:35.407969+00:00"
   }
 ]
