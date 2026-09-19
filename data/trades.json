@@ -129052,5 +129052,124 @@
     "their_usd": 1392.77,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T20:26:26.095986+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will there be a run scored in the first inning?: Miami Marlins vs. San Diego Padres",
+    "outcome": "No",
+    "their_usd": 2.166667,
+    "detail": "settles in 7d, too far out",
+    "timestamp": "2026-09-19T20:27:03.002370+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Miami (OH) vs. Cincinnati",
+    "outcome": "Cincinnati",
+    "their_usd": 55.76,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:28:56.003854+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Korea Open, Qualification: Alexandra Shubladze vs Darya Astakhova AND Korea Open, Qualification: Eun-Hye Lee vs Yexin Ma AND Tiburon: Michael Mmoh vs J.J. Wolf AND Tiburon: Michael Zheng vs Darwin Blanch AND Guadalajara Open Akron: Peyton Stearns vs Iva Jovic",
+    "outcome": "",
+    "their_usd": 2000.003502,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:29:32.973257+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles",
+    "outcome": "Baltimore Orioles",
+    "their_usd": 85.44943,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:30:10.175974+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Utah (-30.5)",
+    "outcome": "Utah",
+    "their_usd": 63.21,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:30:10.283705+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Utah (-30.5)",
+    "outcome": "Utah",
+    "their_usd": 96.04,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:30:47.470167+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Utah (-30.5)",
+    "outcome": "Utah",
+    "their_usd": 72.03,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:30:47.579261+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will Sevilla FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 0,
+    "detail": {
+      "shares": 5.5556,
+      "price": 1.0,
+      "proceeds": 5.56,
+      "pnl": 0.56,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-19T20:31:59.106339+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republicans win the Georgia Senate race in 2026?",
+    "outcome": "Yes",
+    "their_usd": 5.1005,
+    "detail": {
+      "shares": 100.0,
+      "price": 0.05,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T20:32:00.094860+00:00"
   }
 ]
