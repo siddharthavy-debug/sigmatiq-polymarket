@@ -126108,5 +126108,41 @@
     "their_usd": 414.200722,
     "detail": "price 0.978 above 0.9 (no upside)",
     "timestamp": "2026-09-19T17:36:02.526332+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates AND Athletics vs. Cleveland Guardians AND Philadelphia Phillies vs. New York Mets AND Atlanta Braves vs. Houston Astros AND Boston Red Sox vs. Tampa Bay Rays AND Milwaukee Brewers vs. Baltimore Orioles",
+    "outcome": "",
+    "their_usd": 184.592584,
+    "detail": "price 0.976 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T17:39:10.685681+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Minnesota Twins vs. Los Angeles Angels AND San Francisco Giants vs. Los Angeles Dodgers AND Miami Marlins vs. San Diego Padres AND Seattle Mariners vs. Colorado Rockies AND Toronto Blue Jays vs. Texas Rangers AND Washington Nationals vs. St. Louis Cardinals AND Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "",
+    "their_usd": 193.371597,
+    "detail": "price 0.977 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T17:40:25.817706+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Botafogo FR win on 2026-09-19? AND Will Santos FC win on 2026-09-19? AND Will CA Mineiro win on 2026-09-19? AND Will Coritiba FBC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 24.327055,
+    "detail": "price 0.987 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T17:41:40.073885+00:00"
   }
 ]
