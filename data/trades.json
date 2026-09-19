@@ -125976,5 +125976,29 @@
     "their_usd": 54.404212,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T17:12:10.390682+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Athletics vs. Cleveland Guardians AND San Francisco Giants vs. Los Angeles Dodgers AND Miami Marlins vs. San Diego Padres AND Philadelphia Phillies vs. New York Mets AND Milwaukee Brewers vs. Baltimore Orioles AND New York Yankees vs. Arizona Diamondbacks AND Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "",
+    "their_usd": 878.833382,
+    "detail": "price 0.970 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T17:15:18.199918+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Detroit Tigers vs. Chicago White Sox AND Kansas City Royals vs. Pittsburgh Pirates AND San Francisco Giants vs. Los Angeles Dodgers AND Miami Marlins vs. San Diego Padres AND Milwaukee Brewers vs. Baltimore Orioles AND New York Yankees vs. Arizona Diamondbacks AND Washington Nationals vs. St. Louis Cardinals",
+    "outcome": "",
+    "their_usd": 55.115188,
+    "detail": "price 0.983 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T17:17:19.736683+00:00"
   }
 ]
