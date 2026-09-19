@@ -128565,5 +128565,53 @@
     "their_usd": 23.191498,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T20:04:38.978252+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Liverpool FC win on 2026-09-20? AND Will Manchester United FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1472.031822,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:07:08.404245+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will New England Revolution win on 2026-09-19? AND Will Los Angeles FC win on 2026-09-19?",
+    "outcome": "",
+    "their_usd": 668.843479,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T20:08:59.377992+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AFC Bournemouth win on 2026-09-20? AND Will Como 1907 win on 2026-09-20? AND Will Real Betis Balompi\u00e9 win on 2026-09-20? AND Will SSC Napoli win on 2026-09-20? AND Will Leeds United FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 273.938703,
+    "detail": "price 0.974 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T20:09:36.318048+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Bayer 04 Leverkusen vs. RB Leipzig: O/U 2.5 AND Will Liverpool FC win on 2026-09-20? AND Will Manchester United FC win on 2026-09-20? AND Will Juventus FC win on 2026-09-20? AND Will Villarreal CF win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will SSC Napoli win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 621.300822,
+    "detail": "price 0.978 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T20:10:13.447390+00:00"
   }
 ]
