@@ -130219,5 +130219,169 @@
     "their_usd": 76.517796,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-19T21:58:09.350129+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Liberty (-16.5)",
+    "outcome": "Liberty",
+    "their_usd": 9.66,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T21:59:34.562396+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will St. Louis City SC win on 2026-09-19? AND Will Como 1907 win on 2026-09-20? AND Will FC Machida Zelvia win on 2026-09-20? AND Will Columbus Crew win on 2026-09-19? AND Will Los Angeles FC win on 2026-09-19? AND Will Leeds United FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 2173.572153,
+    "detail": "price 0.982 above 0.9 (no upside)",
+    "timestamp": "2026-09-19T21:59:34.673258+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Louisville (-6.5)",
+    "outcome": "SMU",
+    "their_usd": 10.14,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:01:40.221406+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Arkansas State vs. TCU AND LSU vs. Ole Miss AND Colorado vs. Northwestern AND West Virginia vs. Virginia AND BYU vs. Colorado State",
+    "outcome": "",
+    "their_usd": 1134.468643,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:01:40.334828+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Louisville (-6.5)",
+    "outcome": "SMU",
+    "their_usd": 7.8,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:01:40.447482+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Tiburon: Michael Zheng vs Darwin Blanch",
+    "outcome": "Darwin Blanch",
+    "their_usd": 48.29808,
+    "detail": {
+      "shares": 9.2593,
+      "price": 0.54,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T22:02:21.294879+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Liberty (-20.5)",
+    "outcome": "Liberty",
+    "their_usd": 20.4,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:02:22.718503+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Liberty (-20.5)",
+    "outcome": "Liberty",
+    "their_usd": 20.4,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:02:22.831745+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Liberty (-20.5)",
+    "outcome": "Liberty",
+    "their_usd": 20.4,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:03:04.903682+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Michael Zheng vs Darwin Blanch",
+    "outcome": "Darwin Blanch",
+    "their_usd": 38.97875,
+    "detail": {
+      "shares": 9.2593,
+      "price": 0.54,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-19T22:03:44.888928+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Milwaukee Brewers (-2.5)",
+    "outcome": "Baltimore Orioles",
+    "their_usd": 685.1,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:03:46.907690+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Milwaukee Brewers (-2.5)",
+    "outcome": "Baltimore Orioles",
+    "their_usd": 675.4956,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:03:47.022007+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Milwaukee Brewers (-2.5)",
+    "outcome": "Baltimore Orioles",
+    "their_usd": 200.91664,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-19T22:03:47.135364+00:00"
   }
 ]
