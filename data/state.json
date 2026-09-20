@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 54.62595089898187,
+  "cash": 62.43845089898187,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -224,16 +224,6 @@
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-20T05:52:38.069235+00:00"
     },
-    "74167036781386748780598084696424875079775701416496337971295722521037578525015": {
-      "market": "Singapore Open, Qualification: Joanna Garland vs Viktoria Morvayova",
-      "slug": "wta-garland-morvayo-2026-09-20",
-      "outcome": "Viktoria Morvayova",
-      "shares": 40.06410256410257,
-      "cost": 10.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-20T05:54:00.040800+00:00"
-    },
     "92673131757617218438654994914810177342704209564681956200322318839449643102858": {
       "market": "Will Viking FK win on 2026-09-20?",
       "slug": "nor-vik-lil-2026-09-20-vik",
@@ -243,23 +233,9 @@
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-20T06:19:21.555641+00:00"
-    },
-    "56003488041247186157203616235376068361333663600384093365158982040204240025169": {
-      "market": "Singapore Open, Qualification: Mei Yamaguchi vs Kyoka Okamura",
-      "slug": "wta-yamaguc-okamura-2026-09-20",
-      "outcome": "Kyoka Okamura",
-      "shares": 7.8125,
-      "cost": 5.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-20T06:46:07.288891+00:00"
     }
   },
   "seen_trades": [
-    "0x333a5c7a24f5a8f24e3c038af83aa9ffbd5c530a5789e5736b2c7708b4944fe8",
-    "0x4f02ebde8c205ee651b567d79030361226d77f8ef10520b10203c00fd1857d6f",
-    "0x050515a085d3a13ae7bc532c4d07237d576d11978077fd7e6c3aa6092bac16f5",
-    "0x81a9d8e40887f1948861ecfba152f29a607e1c341a511b63b530f1a9cf0a11db",
     "0xdf7c4cfebffd2195ca71ead2b09bb72ed0664339de319d10f63148df4b32558b",
     "0x2d21bbae4b032fa3ba909496223e3afb1e124a17b09232bfd99947e11868b9a8",
     "0x5bcdfdac4c7b8ebd88c016accb92157f10e71bac4ee9f3b4c84cbcbff7ae4556",
@@ -8255,15 +8231,19 @@
     "0xde9c228f6cfe85f4eab732ce80ec2079b114e01f2e9b9417e2d3362062624d73",
     "0xea84cc8639c8990e18653ca870e9e082a63b2cbb7ad1a1bbe83e0e544cdf7e12",
     "0x1fab1317714ac8227bafb52f570847ca97570638d9030de16aca1fdbb332b27e",
-    "0x3fdd352fed75a824d3ee7be88095088862da944dbbda550504213f05761ce28b"
+    "0x3fdd352fed75a824d3ee7be88095088862da944dbbda550504213f05761ce28b",
+    "0xfdf09427d45e5d77d396f4ac05ddff1ea8c5f7270e4f054bb7417fcbbe647475",
+    "0x97582e73d3b335e762db2b65d368f44d244f4266a975fc76f8b58cf887c1652c",
+    "0xb16ea943de3a7da9976f37ce32508ae100a3f07b69f9d039d16d16d430316dae",
+    "0xecc2c16294a54a4ebe15ffe741914e66cf5788b7fe02962cc199f6f7bce7815c"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T07:27:39.442000+00:00",
-  "realized_pnl": 1.7326175656485852,
+  "last_run": "2026-09-20T07:33:13.557974+00:00",
+  "realized_pnl": -5.454882434351415,
   "trades_executed": 323,
-  "wins": 65,
-  "losses": 62,
-  "skipped": 12342,
+  "wins": 66,
+  "losses": 63,
+  "skipped": 12346,
   "failed": 0,
   "initialised": true,
   "paused": false

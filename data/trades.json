@@ -147965,5 +147965,91 @@
     "their_usd": 224.78649,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T07:24:51.162265+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester United FC win on 2026-09-20? AND Will AJ Auxerre win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Lille OSC win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20? AND Will Leeds United FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 30.032566,
+    "detail": "price 0.975 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T07:28:22.512017+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Joanna Garland vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 0,
+    "detail": {
+      "shares": 40.0641,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -10.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-20T07:29:00.442705+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Mei Yamaguchi vs Kyoka Okamura",
+    "outcome": "Kyoka Okamura",
+    "their_usd": 0,
+    "detail": {
+      "shares": 7.8125,
+      "price": 1.0,
+      "proceeds": 7.81,
+      "pnl": 2.81,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-20T07:29:00.990284+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Feyenoord Rotterdam vs. FC Utrecht: O/U 3.5 AND ACF Fiorentina vs. SSC Napoli: Both Teams to Score AND Will FC Seoul win on 2026-09-20? AND Will FC Machida Zelvia win on 2026-09-20? AND Will Vissel K\u014dbe win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 27.565257,
+    "detail": "price 0.967 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T07:29:46.153467+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Vikings vs. Bears AND Eagles vs. Titans AND Bengals vs. Texans",
+    "outcome": "",
+    "their_usd": 24.224952,
+    "detail": "price 0.900 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T07:29:46.270193+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Texans (-2.5) AND Spread: Patriots (-5.5)",
+    "outcome": "",
+    "their_usd": 122.616361,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:30:27.973815+00:00"
   }
 ]
