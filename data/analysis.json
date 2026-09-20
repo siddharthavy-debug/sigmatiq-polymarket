@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T01:47:30.786103+00:00",
+  "updated": "2026-09-20T01:53:13.369130+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -144,7 +144,7 @@
     {
       "trader": "Elaran1993",
       "wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
-      "copied": 1,
+      "copied": 2,
       "closed": 0,
       "wins": 0,
       "losses": 0,
@@ -235,7 +235,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2376,
+      "skipped": 2387,
       "failed": 0,
       "benched": false
     },
@@ -249,7 +249,7 @@
       "win_rate": 33.3,
       "pnl": -19.42,
       "pnl_per_closed": -6.47,
-      "skipped": 269,
+      "skipped": 270,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 11379
+  "total_logged": 11392
 }
