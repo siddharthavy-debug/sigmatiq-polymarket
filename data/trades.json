@@ -146547,5 +146547,89 @@
     "their_usd": 75.498647,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T05:40:46.566600+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 3.02526,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T05:41:28.283349+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 67.33776,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T05:42:09.620500+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Dakota State vs. Sacramento State: O/U 42.5",
+    "outcome": "Under",
+    "their_usd": 14.8,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:42:11.289256+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 186.39,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:44:14.730290+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 58.86,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:44:14.848584+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "North Dakota State vs. Sacramento State: O/U 42.5",
+    "outcome": "Over",
+    "their_usd": 8.6,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:44:57.645748+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 70.218948,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:45:37.848523+00:00"
   }
 ]
