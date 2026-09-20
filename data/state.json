@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 15.403291427582662,
+  "cash": 10.403291427582662,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -243,12 +243,19 @@
       "trader": "Elaran1993",
       "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
       "opened": "2026-09-20T01:49:35.761527+00:00"
+    },
+    "89955845505174016563010922957557928225621226287311562180675936614859784067610": {
+      "market": "Korea Open, Qualification: Alexandra Shubladze vs Darya Astakhova",
+      "slug": "wta-shublad-astakho-2026-09-19",
+      "outcome": "Darya Astakhova",
+      "shares": 23.80952380952381,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-20T02:12:27.259034+00:00"
     }
   },
   "seen_trades": [
-    "0x2d47ec3b9367cb5b16cb125c2d8bdd22dfce72b7dd432c8c26a58c53750f2d89",
-    "0xb1e504965640b00dd7309403e9007e2eb5bfceae75d575a5e4fcdd6b15d5ef7b",
-    "0xccd0ae8abe64fb1275d9aaeae5f6647743c0acb05eec67b2314013173e911400",
     "0x51a983848f02d555f18eb435cf8171b7ea0c6b0f1e1fa0264842787949421228",
     "0xd5a6cbdb3c5a02597fba847d4ad83f71f3919d469ba58c77f6f1b1bc7a379f51",
     "0xa39bb6341f283d6b267ad6cf27516a8eb919afb97bbe056cfe48d4d331be9f77",
@@ -8245,15 +8252,18 @@
     "0xc9a8e60804b6f68d85a7beb8ba4f965c3676aca1161d98bcbe0754ec97a4639a",
     "0x28960929d691bb15b0c53038263f18a445790b4aec5d9415a947193cd451d787",
     "0x0fc93f60f960dde6367000ada4db122ac33071f9d2189a954d17ccc94116370f",
-    "0x8517cd95abb4a9d36ede7c1519ccc9a09bcb63496d532e26d1cfcd947f40aaa3"
+    "0x8517cd95abb4a9d36ede7c1519ccc9a09bcb63496d532e26d1cfcd947f40aaa3",
+    "0xc64168791c20688b93af2d4b4a054a1c3df6fef23c8f82b1907de6e10c00396d",
+    "0xdbc0aa603a2fd8a397d0843ba64b067a3ab966701f877ea146cc1a5d50bda5dd",
+    "0xcdda0e7f2dee48650c748a0c3a574b2e4b332b95f9a81c7f510cfdcf2aa7fe11"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T02:10:20.762371+00:00",
+  "last_run": "2026-09-20T02:16:04.021831+00:00",
   "realized_pnl": -17.49004190575063,
-  "trades_executed": 287,
+  "trades_executed": 288,
   "wins": 57,
   "losses": 54,
-  "skipped": 11632,
+  "skipped": 11634,
   "failed": 0,
   "initialised": true,
   "paused": false

@@ -138918,5 +138918,45 @@
     "their_usd": 360.48896,
     "detail": "settles in 0.4h, too soon",
     "timestamp": "2026-09-20T02:06:44.980242+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alexandra Shubladze vs Darya Astakhova",
+    "outcome": "Darya Astakhova",
+    "their_usd": 2.51039,
+    "detail": {
+      "shares": 23.8095,
+      "price": 0.21,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T02:12:27.279799+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: South Florida (-33.5)",
+    "outcome": "Delaware State",
+    "their_usd": 58.08,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:12:29.268698+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Washington Nationals vs. St. Louis Cardinals",
+    "outcome": "St. Louis Cardinals",
+    "their_usd": 3324.91051,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:14:37.537619+00:00"
   }
 ]

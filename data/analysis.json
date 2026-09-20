@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-20T02:10:20.790025+00:00",
+  "updated": "2026-09-20T02:16:04.053720+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
       "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 73,
+      "copied": 74,
       "closed": 38,
       "wins": 20,
       "losses": 18,
@@ -235,7 +235,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2410,
+      "skipped": 2412,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 11420
+  "total_logged": 11423
 }
