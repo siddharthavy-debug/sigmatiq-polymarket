@@ -155066,5 +155066,65 @@
     "their_usd": 52.0,
     "detail": "max open positions",
     "timestamp": "2026-09-20T14:14:24.813280+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republicans win the Vermont governor race in 2026?",
+    "outcome": "No",
+    "their_usd": 1.816,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:15:48.703785+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Milwaukee Brewers vs. Baltimore Orioles AND Minnesota Lynx vs. Connecticut Sun AND Athletics vs. Cleveland Guardians AND Seattle Storm vs. Las Vegas Aces",
+    "outcome": "",
+    "their_usd": 42.713105,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T14:15:52.965947+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 4.51338,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:16:31.812238+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "New York Yankees vs. Arizona Diamondbacks: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 294.0,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:17:20.226880+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "New York Yankees vs. Arizona Diamondbacks: O/U 8.5",
+    "outcome": "Over",
+    "their_usd": 147.98,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:18:03.016831+00:00"
   }
 ]
