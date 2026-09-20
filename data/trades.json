@@ -145551,5 +145551,77 @@
     "their_usd": 2.64704,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T05:12:05.600595+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Manchester City FC vs. Sunderland AFC: Both Teams to Score AND Spread: AC Milan (-1.5) AND Spread: Paris Saint-Germain FC (-1.5) AND Will Juventus FC win on 2026-09-20? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 309.05048,
+    "detail": "price 0.961 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:14:13.636339+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Parma Calcio 1913 vs. Genoa CFC end in a draw?",
+    "outcome": "No",
+    "their_usd": 6180.50193,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T05:15:37.010091+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Purdue vs. UCLA",
+    "outcome": "UCLA",
+    "their_usd": 20.44,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:16:19.794336+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Olympique de Marseille (-1.5)",
+    "outcome": "Paris Saint-Germain FC",
+    "their_usd": 13.5783,
+    "detail": "price 0.963 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:17:00.707977+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-14.5)",
+    "outcome": "UCLA",
+    "their_usd": 2.4,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:17:02.086316+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Rodrigo Pacheco vs Ilia Simakin",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 3.5924,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T05:18:25.151418+00:00"
   }
 ]
