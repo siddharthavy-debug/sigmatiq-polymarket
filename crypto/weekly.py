@@ -44,6 +44,10 @@ WIN_RATE_BAR = float(os.getenv("WIN_RATE_BAR", "0.70"))
 MARGIN_BAR   = float(os.getenv("MARGIN_BAR", "0.08"))
 MAX_BOTH_SIDES = float(os.getenv("MAX_BOTH_SIDES", "0.15"))
 TOP_N        = int(os.getenv("TOP_N", "10"))
+POOL_LIMIT       = int(os.getenv("POOL_LIMIT", "250"))
+POOL_MIN_TRADES  = int(os.getenv("POOL_MIN_TRADES", "4"))
+POOL_MIN_MARKETS = int(os.getenv("POOL_MIN_MARKETS", "3"))
+POOL_MAX_PER_MKT = float(os.getenv("POOL_MAX_PER_MKT", "12"))
 MAX_HORIZON_SECONDS = int(os.getenv("MAX_HORIZON_SECONDS", "3600"))   # 1 hour
 OUT = "crypto_weekly.json"
 
@@ -231,9 +235,23 @@ def main():
         print(f"No {CANDIDATES}. Run:  python3 -m crypto.harvest 30")
         return 1
 
-    pool = [c for c in cands if c.get("trades_seen", 0) >= 2]
+    pool, quoters, thin = [], 0, 0
+    for c in cands:
+        n = c.get("trades_seen", 0); m = c.get("markets_seen", 0) or 1
+        if n < POOL_MIN_TRADES or m < POOL_MIN_MARKETS:
+            thin += 1; continue
+        if n / m > POOL_MAX_PER_MKT:
+            quoters += 1; continue
+        pool.append(c)
+    pool.sort(key=lambda c: -c.get("trades_seen", 0))
+    extra = max(0, len(pool) - POOL_LIMIT)
+    pool = pool[:POOL_LIMIT]
     print(f"Weekly crypto trader review — last {days:g} days")
-    print(f"  {len(pool)} candidate wallets")
+    print(f"  {len(cands):,} wallets harvested")
+    print(f"    {thin:,} too quiet to measure")
+    print(f"    {quoters:,} look like quoters (>{POOL_MAX_PER_MKT:g} trades per market)")
+    if extra: print(f"    {extra:,} below the busiest {POOL_LIMIT}")
+    print(f"  {len(pool)} candidates to rank")
     print(f"  crypto UP/DOWN only, 5m to "
           f"{MAX_HORIZON_SECONDS//60}m markets")
     print(f"  minimum {MIN_TRADES} settled trades in the window\n")
