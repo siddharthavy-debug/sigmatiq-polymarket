@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 103.36238722110568,
+  "cash": 101.09036247008504,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -234,28 +234,28 @@
       "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
       "opened": "2026-09-20T15:51:59.367740+00:00"
     },
-    "44110674541894506469724353865735808248827106022800377817880158618958098213630": {
-      "market": "Plovdiv 4: Tiago Pereira vs Pavlos Tsitsipas",
-      "slug": "atp-pereira-tsitsi-2026-09-20",
-      "outcome": "Pavlos Tsitsipas",
-      "shares": 7.727975248979359,
+    "4851361825053248741273816820866739149451602334616124523217029590513354323272": {
+      "market": "Valencia: Alicia Herrero Linana vs Clara Burel",
+      "slug": "wta-linana-burel-2026-09-20",
+      "outcome": "Alicia Herrero Linana",
+      "shares": 9.590195676889127,
       "cost": 5.0,
       "trader": "TRCM",
       "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "opened": "2026-09-20T16:34:42.278174+00:00"
+      "opened": "2026-09-20T16:39:52.428626+00:00"
+    },
+    "72390633627061061570961964113931356562271960591330335517191889601478606284904": {
+      "market": "Set Handicap: Rodrigo Pacheco (-1.5) vs Philip Sekulic (+1.5)",
+      "slug": "atp-pacheco-sekulic-2026-09-17-set-handicap-home-1pt5",
+      "outcome": "Rodrigo Pacheco",
+      "shares": 9.25925925925926,
+      "cost": 5.0,
+      "trader": "Justluck9",
+      "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+      "opened": "2026-09-20T16:43:46.612002+00:00"
     }
   },
   "seen_trades": [
-    "0x071c37043d4685de02570ae1e0ba49f630ba0830dfbc2dae8381dd4daaa84ab0",
-    "0x24bbc1ffa9fe15989d2c24b87a1e3a61f6f223b2d39b6652ab9d61db2c9aa0b8",
-    "0x590f8e46bfa3248da7f8b6831c2a23fc534fba013699d6ad423b437500c71eba",
-    "0x7d64cb57ef9d4cd27811f3a8bf76de3bf85d3e5c658a6d4e257307311f9e6dbf",
-    "0x568ee629ef3a526c39de6fdb5539975b00bbd0d0376a12c00d9619239c011879",
-    "0xf4a1be6f989665d67260b6e8a5e15376dfbba4efbd33a1075ee214ed0bb157b2",
-    "0x25166bc187551da88c4c4ca48d1bfe0139ca8ca96d4d31893419c734b87d0d43",
-    "0xb9b13e32048df495cfb642566cdb84b3af2c001145d5129704c2d6fbbf74416d",
-    "0x5a378f218a0338c136705459857cf5ba8f73e513087bbac8a6db9dc79b79606d",
-    "0xab8ebcc4e44298cad287536c90a1f13171b181f704cb5d5cd812152a9520a085",
     "0x0ed851a6321e8e6f4a0eb4fd7006fe5f1fcb0ab76bc49c79c6b4cb32f84814c0",
     "0x378f4c786dcd146657ff93f95850a4db2e036cf228d79311ca5d325172826465",
     "0x8d42975f239107a6c31837ae5ea098ed3a30f79e9afd7e23928d56e325ddcb13",
@@ -8245,15 +8245,25 @@
     "0x274437799c0da2fbe9fbe40d7fb64e111bde765e736bc6aa4e35614db70f9fa9",
     "0x91ab2dfe6e195004bfa55955f39b1753a388252d5ec3e05eb13b342cc1a748ea",
     "0x326565f4b47f2270afaeb4048da2d827cabeae5b351882999eaebf5c37a4944b",
-    "0xeaad55e6e79df5f9f6af7b15144fafe7cd3f9cccee3a11a582317b3a07084738"
+    "0xeaad55e6e79df5f9f6af7b15144fafe7cd3f9cccee3a11a582317b3a07084738",
+    "0x9ac17ad74d83a14a9fc209aa5ea0d825a27414a4957bc227dfc78dc11c9dd722",
+    "0xed99fe08e0c4670e98c8793f28ca64a4ce36ef6ccd4b4ca3f56f2200b19ed681",
+    "0xaac736119fb1b1f1fbb4650ff3a51d8ed4735fe80ebe34ba3760cd52ae5cca6c",
+    "0xb1e4bba4f3142eb6169109729f24f1827ad771dcc7759ed87273e64db3a3d590",
+    "0x033d1743a6f6fd0f5c6e738dc282a297e3aac94a9f6f01c846fcabd4eb7b9c55",
+    "0x5d49b279537de26cddd12d16ab7e61c1970cb8f74b0ceed66eca7f366b694ad7",
+    "0xa3218d62861f0cdb13dfea22e4e420114ff1273b1b87e38b80717bfa2098a0e3",
+    "0xd2430e25c045f0e72a061da59984fa31cc696d46a35776bc0c49db5c59a53842",
+    "0xfd0974d528a128352e52a758fd70eb39b4291f983fe9724f61601b4e5596e941",
+    "0xb9b13e32048df495cfb642566cdb84b3af2c001145d5129704c2d6fbbf74416d"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T16:38:35.534759+00:00",
-  "realized_pnl": 22.2690538877724,
-  "trades_executed": 331,
-  "wins": 72,
+  "last_run": "2026-09-20T16:43:46.740718+00:00",
+  "realized_pnl": 24.99702913675176,
+  "trades_executed": 333,
+  "wins": 73,
   "losses": 64,
-  "skipped": 13348,
+  "skipped": 13356,
   "failed": 0,
   "initialised": true,
   "paused": false

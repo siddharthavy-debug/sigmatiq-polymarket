@@ -159760,5 +159760,152 @@
       "result": "LOST"
     },
     "timestamp": "2026-09-20T16:38:31.296575+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Valencia: Alicia Herrero Linana vs Clara Burel",
+    "outcome": "Alicia Herrero Linana",
+    "their_usd": 449.49578,
+    "detail": {
+      "shares": 9.5902,
+      "price": 0.5213657957,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T16:39:52.452417+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Bod\u00f8/Glimt win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 11.669678,
+    "detail": "settles in 0.6h, too soon",
+    "timestamp": "2026-09-20T16:40:31.476251+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Commanders vs. Cowboys: O/U 50.5",
+    "outcome": "Over",
+    "their_usd": 111.1916,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:41:08.567463+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Bod\u00f8/Glimt win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 4.780645,
+    "detail": "settles in 0.6h, too soon",
+    "timestamp": "2026-09-20T16:41:48.444154+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Plovdiv 4: Tiago Pereira vs Pavlos Tsitsipas",
+    "outcome": "Pavlos Tsitsipas",
+    "their_usd": 0,
+    "detail": {
+      "shares": 7.728,
+      "price": 1.0,
+      "proceeds": 7.73,
+      "pnl": 2.73,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-20T16:42:24.914891+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Bod\u00f8/Glimt win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 1.14,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-20T16:42:27.500050+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 516.4306,
+    "detail": "settles in 0.3h, too soon",
+    "timestamp": "2026-09-20T16:43:06.190061+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Be\u015fikta\u015f JK win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 417.078873,
+    "detail": "settles in 0.3h, too soon",
+    "timestamp": "2026-09-20T16:43:06.319106+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Bod\u00f8/Glimt win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 29.26,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-20T16:43:06.447608+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Bod\u00f8/Glimt win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 4.56,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-20T16:43:45.028304+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Set Handicap: Rodrigo Pacheco (-1.5) vs Philip Sekulic (+1.5)",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 676.7145,
+    "detail": {
+      "shares": 9.2593,
+      "price": 0.54,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T16:43:46.634714+00:00"
   }
 ]
