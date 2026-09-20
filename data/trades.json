@@ -148051,5 +148051,17 @@
     "their_usd": 122.616361,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T07:30:27.973815+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Jaguars vs. Broncos AND Steelers vs. Patriots",
+    "outcome": "",
+    "their_usd": 783.018838,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:37:21.573751+00:00"
   }
 ]
