@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 57.24237246760932,
+  "cash": 100.55119532861835,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -144,16 +144,6 @@
       "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
       "opened": "2026-09-19T22:10:52.535803+00:00"
     },
-    "110654920068528402001980039982899753888922293387464560226774924762561549646720": {
-      "market": "Spread: Manchester City FC (-1.5)",
-      "slug": "epl-mac-sun-2026-09-20-spread-home-1pt5",
-      "outcome": "Manchester City FC",
-      "shares": 31.24999933159727,
-      "cost": 15.0,
-      "trader": "CoffeeDespiser",
-      "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
-      "opened": "2026-09-20T00:53:08.574898+00:00"
-    },
     "50072653088330509782582550930453409961963231576538076431743436171922166068634": {
       "market": "Spread: Club Atl\u00e9tico de Madrid (-1.5)",
       "slug": "lal-mad-rea-2026-09-20-spread-home-1pt5",
@@ -193,16 +183,6 @@
       "trader": "Justluck9",
       "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
       "opened": "2026-09-20T04:28:58.165000+00:00"
-    },
-    "4881304205247843980932059149752813594945771318366454870463977104940959010427": {
-      "market": "Will Parma Calcio 1913 vs. Genoa CFC end in a draw?",
-      "slug": "sea-par-gen-2026-09-20-draw",
-      "outcome": "No",
-      "shares": 22.058823529411764,
-      "cost": 15.0,
-      "trader": "us391",
-      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "opened": "2026-09-20T05:26:08.871187+00:00"
     },
     "46675506727588008850242221257745375627497450147514579404342385200112646547198": {
       "market": "Spread: Eagles (-7.5)",
@@ -253,24 +233,29 @@
       "trader": "wan123",
       "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
       "opened": "2026-09-20T13:47:31.329230+00:00"
+    },
+    "93279042061976422157715373608333538521409300859724055653794043096888549323262": {
+      "market": "Kansas City Royals vs. Pittsburgh Pirates: O/U 7.5",
+      "slug": "mlb-kc-pit-2026-09-20-total-7pt5",
+      "outcome": "Over",
+      "shares": 8.771929824561404,
+      "cost": 5.0,
+      "trader": "brendoncarson",
+      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "opened": "2026-09-20T14:57:58.692589+00:00"
+    },
+    "54495897344642150091825356821738283836362335715728059857778749544775500837422": {
+      "market": "Counter-Strike: Aurora Gaming vs Vitality - Map 1 Winner",
+      "slug": "cs2-aur1-vit-2026-09-20-game1",
+      "outcome": "Vitality",
+      "shares": 8.333333333333334,
+      "cost": 5.0,
+      "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+      "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+      "opened": "2026-09-20T14:59:21.203220+00:00"
     }
   },
   "seen_trades": [
-    "0xf3b4986d6aa5558052097261c56728956fe71fcc901ba7905f428ea73ecc0e6f",
-    "0x8df6923ac8bc0af816276f1e127ab84463343b9340e517c5775f590e0f2eba37",
-    "0x9363c4d1cc998c6570a4726e7d6deb57bb9caf55ab8b63bb27653e5d24e171d0",
-    "0x3662ef8111b16e43f9884eb21c6cacf494dab143d2434b227e6c21668ecd974a",
-    "0xf402bab257f914cfb81c287fc93b129058f4d62a6f5fe727ed39ebcb6afcbebf",
-    "0xe8fbff100d618a65168314b5e71ef28ea723273f8631924fae8d90dabbc81e5e",
-    "0x95a5aa38eae50714c3bd302a9adce05a0ee596c89ead8c98a9ab37946e0f31d1",
-    "0x0fac70614dc06c430fc30da7a53d543d83a3ec754a2f85154d480e5519661723",
-    "0x49407598e6d045eb0f0c36620576fe78b2505f9612d8b4a2031f954354bb44d5",
-    "0xc0a7d9a7d627154b1e356b648dd0f0d0440942eb3f99226b891c918c1fb26d46",
-    "0xda377968c1ec2ba83d4dbd0e971dd1939ac9ce2c2e3f1f420015283c07c97a1c",
-    "0xeb629682e71dc0c41280e003f7794c2021ca15e238a858379183055806622366",
-    "0x7fdbe84a7764d457a305521778ef2c9344cb83c81c50810d853bba7b47386791",
-    "0x3cb6e2510883aee2fa0020779b484cd5bd7ed918cb4e6b79579f70d7e872d408",
-    "0xef87f100ba4f6157ef81561b2632aeeafdaf4be103cac6c7938d625b2e090e16",
     "0x20758cbdaa4cc4b32f459e73a8af47a57513d68625effc60eaebe8fa38670d3b",
     "0xb7d6797d605540993e71c705f4a07bf5384020b23f3330b45de0941567011be7",
     "0x1578ed46adc7017a929a3098938eaf756623d2dc548f1f774022c2b2e39ca9d6",
@@ -8255,15 +8240,30 @@
     "0xfacf1cf2db565b58ef0c8076a931b98b922771e2f8d1015c73c713bdc4841ac8",
     "0x3ec44296c80ae4ac0e506a2b8a1b26a05fe12efbc06a8801d7d07fe532592bce",
     "0x992da23545004665fe1dd5c54343cf131fa32690b4b8967eba21b66270068f71",
-    "0xe6bf277981b39a3862a13e85a6e914de6f4f7edbcb77b5318164c1e9f973ce83"
+    "0xe6bf277981b39a3862a13e85a6e914de6f4f7edbcb77b5318164c1e9f973ce83",
+    "0x9e813e9eb4682d6e21709380265a03bb78eb2327173e3ba4e8a011c7ea3fd7b0",
+    "0x2a662f0d90b16a17b32738514678d4bc1e25be11bac159baa72a52ba99a2f137",
+    "0xfc20e78b83bee7482150bccb7784053f8caf9e0b31b5f9f6ead4e133286991e1",
+    "0x2a960f6018d6ae23933ac418aa3d91b66aff5bc450364ea3837e74a3d0a8cc09",
+    "0x2e19a6422c824db845d164a9d42d5d27060c4319e8c03213c13fd9e6c96d42e7",
+    "0x974da5567d18c739ce318399dab65a0d7cd7ec053cc1221065129762d3c75629",
+    "0xe3e03b955fa0323c03002432fe8f94b630448436c43cafe773a513dd52658280",
+    "0xca5d44ff55d4aa95d670c6ee5fa2df6aa2306e945947a956ecf69e9602e5d918",
+    "0x1e1dc8deab5f991cc60953ce7bf5ca44a4e2ab98fd413366fffb2587db8f5c08",
+    "0xc06558e0a05bd17daa23d1f2f3fb5ffcb37c05cbe8ff98f7424731bc163d790b",
+    "0x9e6df60716beb8eea54fbe2be67da4521a06d1b48ae1429a1a9a11d5f47fc149",
+    "0x73c979fee418b71ff1430e198a76058c0d1cf3214b394d54a87d6e782bf8c221",
+    "0xc21481ff312d15928f7b4afa6781382039b6c58c61b7da58b3ff6cc55f97393c",
+    "0xde4ca602ae1bfc98fd0f178f7b90d349d102774284bb777d46b465d3b1eb9da3",
+    "0x5a7e6e8a4eccdcd29dabc23118c456c533a8610bf7371a69961b43a599bc7ff1"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T14:55:05.176336+00:00",
-  "realized_pnl": -0.6509608657239632,
-  "trades_executed": 326,
-  "wins": 67,
+  "last_run": "2026-09-20T15:00:09.280493+00:00",
+  "realized_pnl": 22.65786199528507,
+  "trades_executed": 328,
+  "wins": 69,
   "losses": 63,
-  "skipped": 13041,
+  "skipped": 13054,
   "failed": 0,
   "initialised": true,
   "paused": false
