@@ -33,14 +33,30 @@ ALLOWED = {
 }
 
 
+# True when the settings file exists but could not be read this pass. It
+# matters: a failed read used to look identical to "no settings saved", so
+# config silently fell back to the workflow's environment defaults. With the
+# allocation that was expensive — the bot saw the allocation drop from 305 to
+# 100, moved the difference out of cash, and the floor at zero destroyed the
+# balance. A file we cannot read means "change nothing", not "use defaults".
+LOAD_FAILED = False
+
+
 def load():
+    global LOAD_FAILED
+    LOAD_FAILED = False
     if not os.path.exists(SETTINGS_FILE):
         return {}
     try:
         with open(SETTINGS_FILE) as f:
             data = json.load(f)
-        return data if isinstance(data, dict) else {}
+        if not isinstance(data, dict):
+            LOAD_FAILED = True
+            return {}
+        return data
     except (json.JSONDecodeError, OSError):
+        # a truncated read while the file is being committed lands here
+        LOAD_FAILED = True
         return {}
 
 

@@ -12,6 +12,11 @@
  */
 
 const FILES = ["state", "trades", "traders", "analysis"];
+const CRYPTO_FILES = [
+  ["crypto_state", "state"],
+  ["crypto_trades", "trades"],
+  ["crypto_traders", "traders"],
+];
 
 function timingSafeEqual(a, b) {
   if (typeof a !== "string" || typeof b !== "string") return false;
@@ -47,11 +52,19 @@ export default async function handler(req, res) {
     });
   }
 
+  // ?engine=crypto (or {engine:"crypto"}) serves the crypto bot's files under
+  // the same keys, so one page can render either engine.
+  const engine = String((req.body && req.body.engine) || "sports");
+  const wanted =
+    engine === "crypto"
+      ? CRYPTO_FILES
+      : FILES.map((n) => [n, n]);
+
   const out = {};
   await Promise.all(
-    FILES.map(async (name) => {
+    wanted.map(async ([file, name]) => {
       const url =
-        `https://raw.githubusercontent.com/${repo}/${branch}/data/${name}.json` +
+        `https://raw.githubusercontent.com/${repo}/${branch}/data/${file}.json` +
         `?t=${Date.now()}`;
       try {
         const r = await fetch(url, { cache: "no-store" });
@@ -62,13 +75,20 @@ export default async function handler(req, res) {
     })
   );
 
+  // A bot that hasn't committed yet is normal, not an error — say so and let
+  // the page retry rather than showing a scary failure.
   if (!out.state) {
-    return res.status(502).json({
-      error:
-        "Couldn't read data/state.json from the repository. Check GITHUB_REPO " +
-        "and that the bot has committed at least once.",
+    res.setHeader("Cache-Control", "no-store");
+    return res.status(200).json({
+      waiting: true,
+      engine,
+      message:
+        engine === "crypto"
+          ? "The crypto bot hasn't written anything yet. It will appear once it runs."
+          : "The bot hasn't written state yet. It will appear after the next run.",
     });
   }
+  out.engine = engine;
 
   res.setHeader("Cache-Control", "no-store");
   return res.status(200).json(out);

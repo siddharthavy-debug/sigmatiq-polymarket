@@ -48,7 +48,7 @@ MAX_ALLOCATION_DEPLOYED   = 1.00  # deploy the whole allocation
 # crypto up/down and live sports, which is where latency-arbitrage bots
 # operate — copying those 20 seconds late is buying after the move.
 MAX_MARKET_DAYS = float(os.getenv("MAX_MARKET_DAYS", "7"))
-MIN_MARKET_HOURS = float(os.getenv("MIN_MARKET_HOURS", "2"))
+MIN_MARKET_HOURS = float(os.getenv("MIN_MARKET_HOURS", "0.5"))
 
 # ---------------------------------------------------------------- TRADERS
 TOP_N_TRADERS      = 20

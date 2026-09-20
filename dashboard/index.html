@@ -8,155 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<style>
-:root{
-  --board:#16171B;
-  --panel:#1E2026;
-  --edge:#2C2F38;
-  --chalk:#F0EDE6;
-  --dim:#8A8D96;
-  --amber:#FFB01F;
-  --up:#5BD99B;
-  --down:#FF6B5A;
-  --pad:20px;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-body{
-  background:var(--board);
-  color:var(--chalk);
-  font-family:Archivo,system-ui,-apple-system,sans-serif;
-  line-height:1.5;
-  padding:var(--pad) var(--pad) 72px;
-  max-width:760px;margin:0 auto;
-  -webkit-font-smoothing:antialiased;
-}
-.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
-.hide{display:none!important}
-.up{color:var(--up)} .down{color:var(--down)}
-
-h2{
-  font-size:.9rem;font-weight:600;color:var(--dim);
-  margin:38px 0 14px;display:flex;align-items:center;gap:10px;
-}
-h2::after{content:"";flex:1;height:1px;background:var(--edge)}
-
-/* ---------- gate ---------- */
-#gate{min-height:80vh;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;gap:18px;text-align:center}
-#gate .mark{font-size:1.05rem;font-weight:600;letter-spacing:-.01em}
-#gate p{color:var(--dim);font-size:.9rem;max-width:28ch}
-#pin{
-  font-family:"JetBrains Mono",monospace;font-size:1.5rem;font-weight:700;
-  letter-spacing:.42em;text-indent:.42em;width:230px;padding:16px 0;
-  text-align:center;background:var(--panel);color:var(--chalk);
-  border:1px solid var(--edge);border-radius:4px;
-}
-#pin:focus{outline:none;border-color:var(--amber)}
-button{
-  font:600 .9rem Archivo,sans-serif;cursor:pointer;border:0;border-radius:4px;
-  padding:12px 26px;background:var(--amber);color:#16171B;
-}
-button:focus-visible{outline:2px solid var(--chalk);outline-offset:2px}
-button[disabled]{opacity:.45;cursor:default}
-.ghost{background:transparent;color:var(--chalk);border:1px solid var(--edge)}
-.err{color:var(--down);font-size:.88rem;min-height:1.3em;max-width:34ch}
-
-/* ---------- headline ---------- */
-.equity{border-top:2px solid var(--amber);padding-top:16px}
-.equity .num{
-  font-family:"JetBrains Mono",monospace;font-weight:700;
-  font-size:clamp(3rem,14vw,4.4rem);line-height:.95;letter-spacing:-.03em;
-}
-.equity .delta{font-size:1.05rem;font-weight:600;margin-top:8px}
-.equity .sub{color:var(--dim);font-size:.85rem;margin-top:10px}
-
-.facts{display:grid;grid-template-columns:repeat(3,1fr);
-  gap:1px;background:var(--edge);border:1px solid var(--edge);
-  border-radius:4px;margin-top:24px;overflow:hidden}
-.facts div{background:var(--panel);padding:13px 14px}
-.facts b{display:block;font-family:"JetBrains Mono",monospace;
-  font-size:1.35rem;font-weight:700;letter-spacing:-.02em}
-.facts span{font-size:.74rem;color:var(--dim)}
-
-/* ---------- positions: the odds board ---------- */
-.pos{padding:18px 0;border-bottom:1px solid var(--edge)}
-.pos:first-of-type{border-top:1px solid var(--edge)}
-.pos .name{font-size:.96rem;font-weight:500;line-height:1.35}
-.pos .who{font-size:.76rem;color:var(--dim);margin:3px 0 16px}
-.track{position:relative;height:2px;background:var(--edge);margin:0 10px 9px}
-.track .fill{position:absolute;left:0;top:0;bottom:0;background:var(--amber);opacity:.35}
-.track i{position:absolute;top:50%;width:1px;height:10px;
-  background:var(--edge);transform:translate(-50%,-50%)}
-.dot{position:absolute;top:50%;width:14px;height:14px;border-radius:50%;
-  transform:translate(-50%,-50%);background:var(--amber);
-  border:3px solid var(--board)}
-.scale{display:flex;justify-content:space-between;
-  font-size:.68rem;color:var(--dim);margin:0 4px}
-.legend{font-size:.8rem;color:var(--dim);margin-top:11px}
-.legend b{color:var(--chalk);font-weight:600;
-  font-family:"JetBrains Mono",monospace}
-
-/* ---------- tables ---------- */
-table{width:100%;border-collapse:collapse;font-size:.87rem}
-th{text-align:left;font-weight:600;color:var(--dim);font-size:.75rem;
-  padding:0 0 8px;border-bottom:1px solid var(--edge)}
-td{padding:10px 0;border-bottom:1px solid var(--edge)}
-th.r,td.r{text-align:right}
-td.r{font-family:"JetBrains Mono",monospace}
-.benched td{color:var(--dim)}
-.tag{font-size:.66rem;font-weight:600;color:var(--down);
-  border:1px solid var(--down);border-radius:3px;padding:1px 5px;margin-left:7px}
-
-.log div{display:flex;gap:12px;padding:8px 0;
-  border-bottom:1px solid var(--edge);font-size:.84rem}
-.log time{color:var(--dim);white-space:nowrap;font-size:.76rem;
-  font-family:"JetBrains Mono",monospace}
-.log .what{flex:1;min-width:0;overflow:hidden;
-  text-overflow:ellipsis;white-space:nowrap}
-
-.empty{color:var(--dim);font-size:.87rem;padding:20px 0;
-  border-top:1px solid var(--edge)}
-
-/* ---------- settings ---------- */
-.settings{background:var(--panel);border:1px solid var(--edge);
-  border-radius:4px;padding:18px;margin-top:14px}
-.row{display:flex;align-items:center;justify-content:space-between;
-  gap:16px;padding:11px 0;border-bottom:1px solid var(--edge)}
-.row:last-of-type{border-bottom:0}
-.row label{font-size:.88rem}
-.row .hint{display:block;font-size:.73rem;color:var(--dim);margin-top:2px}
-.row input[type=number]{
-  width:104px;padding:8px 10px;text-align:right;
-  font-family:"JetBrains Mono",monospace;font-size:.88rem;
-  background:var(--board);color:var(--chalk);
-  border:1px solid var(--edge);border-radius:3px;
-}
-.row input:focus{outline:none;border-color:var(--amber)}
-.toggle{display:flex;border:1px solid var(--edge);border-radius:3px;overflow:hidden}
-.toggle button{padding:7px 15px;background:transparent;color:var(--dim);
-  border-radius:0;font-size:.82rem}
-.toggle button.on{background:var(--amber);color:#16171B}
-.toggle button.on.danger{background:var(--down);color:#fff}
-.actions{display:flex;gap:10px;align-items:center;margin-top:18px}
-.note{font-size:.78rem;color:var(--dim);margin-top:12px;line-height:1.5}
-.saved{color:var(--up);font-size:.82rem}
-
-footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--edge);
-  display:flex;justify-content:space-between;align-items:center;
-  font-size:.76rem;color:var(--dim);gap:12px;flex-wrap:wrap}
-.pill{font-weight:600;border:1px solid var(--edge);border-radius:3px;
-  padding:3px 9px;display:inline-flex;align-items:center;gap:6px}
-.pill.live{border-color:var(--down);color:var(--down)}
-.pill.paused{border-color:var(--amber);color:var(--amber)}
-.pill .dot-s{width:6px;height:6px;border-radius:50%;background:currentColor}
-footer .ghost{padding:7px 14px;font-size:.78rem}
-
-@media (prefers-reduced-motion:no-preference){
-  #panel{animation:in .32s ease-out both}
-  @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-}
-</style>
+<link rel="stylesheet" href="./board.css">
 </head>
 <body>
 
@@ -170,6 +22,12 @@ footer .ghost{padding:7px 14px;font-size:.78rem}
 </section>
 
 <main id="panel" class="hide">
+
+  <div class="switchbar">
+    <a href="./index.html" class="here">Sports</a>
+    <a href="./crypto.html">Crypto</a>
+  </div>
+
   <div class="equity">
     <div class="num" id="equity">—</div>
     <div class="delta" id="delta"></div>
@@ -237,6 +95,13 @@ footer .ghost{padding:7px 14px;font-size:.78rem}
       <div><label for="s-days">Settle within</label>
         <span class="hint">Days. Skips markets resolving later than this.</span></div>
       <input type="number" id="s-days" step="1" min="1">
+    </div>
+
+    <div class="row">
+      <div><label for="s-hours">Not sooner than</label>
+        <span class="hint">Hours. Below ~0.5 the copy lands after the
+          market has already moved.</span></div>
+      <input type="number" id="s-hours" step="0.25" min="0" max="24">
     </div>
 
     <div class="row">
@@ -479,6 +344,7 @@ async function loadSettings() {
     $("s-alloc").value = s.allocation ?? 100;
     $("s-size").value = s.trade_size ?? 5;
     $("s-days").value = s.max_market_days ?? 7;
+    $("s-hours").value = s.min_market_hours ?? 0.5;
     $("s-maxprice").value = s.max_buy_price ?? 0.9;
     $("s-traders").value = s.top_n_traders ?? 20;
     current.mode = s.mode || current.mode;
@@ -547,6 +413,7 @@ $("save").onclick = async () => {
       allocation: Number($("s-alloc").value),
       trade_size: Number($("s-size").value),
       max_market_days: Number($("s-days").value),
+      min_market_hours: Number($("s-hours").value),
       max_buy_price: Number($("s-maxprice").value),
       top_n_traders: Number($("s-traders").value),
     };

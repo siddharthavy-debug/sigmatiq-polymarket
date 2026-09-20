@@ -13,6 +13,7 @@
  */
 
 const PATH = "data/settings.json";
+const CRYPTO_PATH = "data/crypto_settings.json";
 
 // Everything the dashboard may change, with the bounds enforced again here.
 // The bot validates too; doing it on both sides means a bad value can't be
@@ -32,6 +33,25 @@ const FIELDS = {
   max_per_trader:   { type: "int", min: 1, max: 50 },
 };
 
+// The crypto engine's own dials. Separate file, separate bounds — a change
+// here can never disturb the sports bot.
+const CRYPTO_FIELDS = {
+  mode:           { type: "enum", values: ["paper", "live"] },
+  paused:         { type: "bool" },
+  total_balance:  { type: "num", min: 10, max: 1000000 },
+  allocation:     { type: "num", min: 10, max: 1000000 },
+  stake_pct:      { type: "num", min: 0.002, max: 0.10 },
+  max_deployed:   { type: "num", min: 0.02, max: 1.0 },
+  daily_stop:     { type: "num", min: 0.01, max: 0.50 },
+  max_open:       { type: "int", min: 1, max: 60 },
+  min_horizon:    { type: "int", min: 60, max: 86400 },
+  max_horizon:    { type: "int", min: 300, max: 604800 },
+  max_price:      { type: "num", min: 0.05, max: 0.95 },
+  min_price:      { type: "num", min: 0.01, max: 0.90 },
+  max_signal_age: { type: "num", min: 1, max: 120 },
+  min_their_usd:  { type: "num", min: 0, max: 100000 },
+};
+
 function pinOk(supplied) {
   const expected = process.env.DASHBOARD_PIN || "";
   const a = String(supplied || "");
@@ -41,9 +61,9 @@ function pinOk(supplied) {
   return diff === 0;
 }
 
-function clean(input) {
+function clean(input, fields) {
   const out = {};
-  for (const [key, spec] of Object.entries(FIELDS)) {
+  for (const [key, spec] of Object.entries(fields || FIELDS)) {
     if (!(key in input)) continue;
     let v = input[key];
     if (spec.type === "bool") {
@@ -83,11 +103,15 @@ export default async function handler(req, res) {
   const branch = process.env.GITHUB_BRANCH || "main";
   if (!repo) return res.status(500).json({ error: "GITHUB_REPO is not set." });
 
+  const isCrypto = String((req.body && req.body.engine) || "") === "crypto";
+  const path = isCrypto ? CRYPTO_PATH : PATH;
+  const fields = isCrypto ? CRYPTO_FIELDS : FIELDS;
+
   // ---- read
   if (req.method === "GET" || !req.body.settings) {
     try {
       const r = await fetch(
-        `https://raw.githubusercontent.com/${repo}/${branch}/${PATH}?t=${Date.now()}`,
+        `https://raw.githubusercontent.com/${repo}/${branch}/${path}?t=${Date.now()}`,
         { cache: "no-store" }
       );
       return res.status(200).json({ settings: r.ok ? await r.json() : {} });
@@ -105,7 +129,7 @@ export default async function handler(req, res) {
     });
   }
 
-  const settings = clean(req.body.settings);
+  const settings = clean(req.body.settings, fields);
   if (!Object.keys(settings).length) {
     return res.status(400).json({ error: "Nothing valid to save." });
   }
@@ -113,17 +137,17 @@ export default async function handler(req, res) {
   try {
     // need the current file's sha to update it
     let sha;
-    const head = await gh(`contents/${PATH}?ref=${branch}`);
+    const head = await gh(`contents/${path}?ref=${branch}`);
     if (head.ok) sha = (await head.json()).sha;
 
     const body = {
-      message: "settings from dashboard",
+      message: `${isCrypto ? "crypto " : ""}settings from dashboard`,
       content: Buffer.from(JSON.stringify(settings, null, 2)).toString("base64"),
       branch,
       ...(sha ? { sha } : {}),
     };
 
-    const put = await gh(`contents/${PATH}`, {
+    const put = await gh(`contents/${path}`, {
       method: "PUT",
       body: JSON.stringify(body),
     });

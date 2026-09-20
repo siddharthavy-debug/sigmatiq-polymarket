@@ -238,11 +238,27 @@ def run():
     # more to spend; without this it would keep trading on the old cash and
     # report itself down 70% against a target it was never given.
     previous = s.get("allocation", config.TRADING_ALLOCATION)
-    if abs(previous - config.TRADING_ALLOCATION) > 1e-9:
+    s.setdefault("contributed", previous)
+
+    if settings.LOAD_FAILED:
+        # We could not read the settings file this pass, so config is holding
+        # the workflow's defaults rather than what the dashboard says. Acting
+        # on that would move real cash against a number the user never set.
+        config.TRADING_ALLOCATION = previous
+        print("[allocation] settings unreadable this pass — leaving it alone")
+    elif abs(previous - config.TRADING_ALLOCATION) > 1e-9:
         delta = config.TRADING_ALLOCATION - previous
-        s["cash"] = max(0.0, s.get("cash", 0.0) + delta)
+        cash = s.get("cash", 0.0)
+        # Taking out more than is sitting in cash cannot silently vanish:
+        # remove what is actually there and keep the books balanced by
+        # adjusting contributed capital to match.
+        actual = delta if delta >= 0 else -min(-delta, cash)
+        s["cash"] = cash + actual
+        s["contributed"] = s.get("contributed", previous) + actual
+        note = "" if abs(actual - delta) < 1e-9 else \
+            f" (only {actual:+.2f} — the rest is tied up in open positions)"
         print(f"[allocation] {previous:.2f} -> {config.TRADING_ALLOCATION:.2f} "
-              f"({delta:+.2f} cash)")
+              f"({actual:+.2f} cash){note}")
     s["allocation"] = config.TRADING_ALLOCATION
     s["total_balance"] = config.TOTAL_BALANCE
 
@@ -339,6 +355,16 @@ def run():
     invested = sum(p["cost"] for p in s["positions"].values())
     equity = s["cash"] + invested
     eventful = executed_this_pass or settled
+
+    # Equity must equal what was put in plus what was made. When it doesn't,
+    # the P&L being reported is wrong and everything built on it is too — so
+    # say so on the spot rather than letting it be discovered a week later.
+    contributed = s.get("contributed", s.get("allocation", 0.0))
+    drift = equity - (contributed + s["realized_pnl"])
+    if abs(drift) > 0.05:
+        print(f"  ! books out by ${drift:+.2f} "
+              f"(equity ${equity:.2f} vs contributed ${contributed:.2f} "
+              f"{s['realized_pnl']:+.2f} realised)")
 
     if eventful:
         print(f"\ncash ${s['cash']:.2f} | in positions ${invested:.2f} | "

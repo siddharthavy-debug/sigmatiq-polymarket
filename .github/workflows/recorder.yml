@@ -1,0 +1,38 @@
+name: crypto-recorder
+
+# Listens to Polymarket's real-time feed, records every crypto UP/DOWN trade
+# with the wallet behind it, and checks the result once the market resolves.
+# It trades nothing — it exists to build the history we need before we can
+# honestly rank crypto traders.
+on:
+  schedule:
+    - cron: "10 */6 * * *"     # offset from the trading bot to avoid push clashes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crypto-recorder
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Record
+        env:
+          WINDOW_MINUTES: "330"
+          SETTLE_EVERY_SECONDS: "120"
+          COMMIT_EVERY_SECONDS: "600"
+        run: python -m crypto.record

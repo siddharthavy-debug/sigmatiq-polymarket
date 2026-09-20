@@ -1,0 +1,52 @@
+name: crypto-weekly-rank
+
+# Re-ranks the crypto traders on a rolling 7-day window and pins the result.
+# Runs daily so the list rotates as form changes.
+on:
+  schedule:
+    - cron: "40 3 * * *"
+  workflow_dispatch:
+    inputs:
+      list:
+        description: "Which list to pin (a = your 70% rule, b = margin)"
+        default: "b"
+
+permissions:
+  contents: write
+
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Harvest crypto-active wallets
+        run: python -m crypto.harvest 20
+
+      - name: Rank and pin
+        env:
+          MIN_TRADES: "50"
+          WIN_RATE_BAR: "0.70"
+          MARGIN_BAR: "0.08"
+          TOP_N: "10"
+        run: python -m crypto.weekly 7 --pin=${{ github.event.inputs.list || 'b' }}
+
+      - name: Push
+        run: |
+          git config user.name  ranker
+          git config user.email ranker@users.noreply.github.com
+          git add data/crypto_traders.json crypto_weekly.json || true
+          git diff --staged --quiet && exit 0
+          git commit -m "crypto trader ranking $(date -u +%F)"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git push origin "HEAD:$BRANCH" || {
+            git fetch origin "$BRANCH"
+            git rebase -X theirs "origin/$BRANCH"
+            git push origin "HEAD:$BRANCH"
+          }

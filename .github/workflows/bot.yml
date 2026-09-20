@@ -34,6 +34,8 @@ jobs:
           BOT_MODE: paper                 # change to 'live' only when ready
           TOTAL_BALANCE: "1000"
           TRADING_ALLOCATION: "100"
+          MIN_MARKET_HOURS: "0.5"
+          MAX_MARKET_DAYS: "7"
           POLL_SECONDS: "30"
           WINDOW_MINUTES: "330"
           POLY_PRIVATE_KEY: ${{ secrets.POLY_PRIVATE_KEY }}

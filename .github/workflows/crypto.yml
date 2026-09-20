@@ -1,0 +1,44 @@
+name: crypto-bot
+
+# The crypto copy bot. Holds a websocket open for 5.5 hours, copies pinned
+# traders into short crypto UP/DOWN markets, settles as they resolve.
+# Paper mode spends nothing.
+on:
+  schedule:
+    - cron: "20 */6 * * *"     # offset from the other two jobs
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crypto-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run crypto bot
+        env:
+          CRYPTO_MODE: paper           # live needs POLY_PRIVATE_KEY as well
+          CRYPTO_TOTAL_BALANCE: "1000"
+          CRYPTO_ALLOCATION: "300"
+          CRYPTO_STAKE_PCT: "0.02"
+          CRYPTO_MAX_DEPLOYED: "0.20"
+          CRYPTO_DAILY_STOP: "0.06"
+          CRYPTO_MIN_HORIZON: "300"
+          CRYPTO_MAX_HORIZON: "3600"
+          CRYPTO_MAX_PRICE: "0.65"
+          CRYPTO_MIN_PRICE: "0.15"
+          WINDOW_MINUTES: "330"
+          POLY_PRIVATE_KEY: ${{ secrets.POLY_PRIVATE_KEY }}
+          POLY_FUNDER: ${{ secrets.POLY_FUNDER }}
+        run: python -m crypto.run
