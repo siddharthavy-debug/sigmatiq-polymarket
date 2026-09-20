@@ -151995,5 +151995,41 @@
     "their_usd": 6997.2639,
     "detail": "max open positions",
     "timestamp": "2026-09-20T12:31:06.407088+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Como 1907 win on 2026-09-20? AND Will Fenerbah\u00e7e SK win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1.573106,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T12:33:19.947003+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 1.956479,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T12:35:24.712188+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Como 1907 win on 2026-09-20? AND Will SV 07 Elversberg win on 2026-09-20? AND Will Bayer 04 Leverkusen vs. RB Leipzig end in a draw? AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1579.808914,
+    "detail": "price 0.971 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T12:35:28.903785+00:00"
   }
 ]
