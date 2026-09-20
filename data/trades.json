@@ -150399,5 +150399,65 @@
     "their_usd": 1499.99874,
     "detail": "price 0.919 above 0.9 (no upside)",
     "timestamp": "2026-09-20T11:09:58.144309+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Villarreal CF win on 2026-09-20? AND Will Leeds United FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 3.232337,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:10:42.288195+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Lugano win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 341.472834,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:12:48.342582+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Hannover 96 win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 3090.52875,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:12:48.456284+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Viking FK win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20? AND Will NEC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 617.495097,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:13:31.351195+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seahawks vs. Cardinals AND Vikings vs. Bears",
+    "outcome": "",
+    "their_usd": 481.111897,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:14:14.057588+00:00"
   }
 ]
