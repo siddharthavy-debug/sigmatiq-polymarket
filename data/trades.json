@@ -155618,5 +155618,89 @@
     "their_usd": 75.0,
     "detail": "settles in 0.9h, too soon",
     "timestamp": "2026-09-20T14:34:45.688386+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Kansas City Royals vs. Pittsburgh Pirates: O/U 7.5 AND Boston Red Sox vs. Tampa Bay Rays: O/U 7.5 AND Washington Nationals vs. St. Louis Cardinals: O/U 8.5",
+    "outcome": "",
+    "their_usd": 5.410373,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T14:35:30.763757+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 2.830563,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:36:09.748942+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Seattle Mariners vs. Colorado Rockies: O/U 12.5 AND Athletics vs. Cleveland Guardians: O/U 7.5 AND Washington Nationals vs. St. Louis Cardinals: O/U 8.5",
+    "outcome": "",
+    "their_usd": 200.0,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:36:14.209299+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Caldas da Rainha: Gabriela Knutson vs Lisa Pigato",
+    "outcome": "Lisa Pigato",
+    "their_usd": 7.98295,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:36:54.903952+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Ujpest FC Budapest win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 76.787359,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:36:56.311991+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Schalke 04 vs. SV 07 Elversberg end in a draw?",
+    "outcome": "No",
+    "their_usd": 3.0,
+    "detail": "settles in 0.8h, too soon",
+    "timestamp": "2026-09-20T14:39:04.741910+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 1.184507,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:39:44.383868+00:00"
   }
 ]
