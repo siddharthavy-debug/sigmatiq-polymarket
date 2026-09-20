@@ -144076,5 +144076,133 @@
     "their_usd": 2.52,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T04:21:55.815550+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Democrats win the Georgia Senate race in 2026?",
+    "outcome": "No",
+    "their_usd": 5.0,
+    "detail": {
+      "shares": 100.0,
+      "price": 0.05,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:22:36.292451+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 5.0862,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T04:22:38.213104+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 10903.82406,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T04:22:38.316815+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Spread: Manchester City FC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 4.615385,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T04:22:39.345270+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Phan Thiet 4: Rodrigo Pacheco vs Ilia Simakin",
+    "outcome": "Rodrigo Pacheco",
+    "their_usd": 56.6337,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T04:23:19.716648+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Manchester City FC vs. Sunderland AFC: Manchester City FC O/U 0.5",
+    "outcome": "Over",
+    "their_usd": 1763.85195,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T04:23:20.092011+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Manchester City FC vs. Sunderland AFC: Manchester City FC O/U 0.5",
+    "outcome": "Over",
+    "their_usd": 4381.63222,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T04:23:20.194224+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Nao Hibino",
+    "their_usd": 280.68469,
+    "detail": {
+      "shares": 8.1185,
+      "price": 0.6158766437,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:24:02.352391+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Nao Hibino",
+    "their_usd": 92.15179,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T04:26:48.509952+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "James Madison vs. San Diego State",
+    "outcome": "San Diego State",
+    "their_usd": 10.3356,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:27:31.531719+00:00"
   }
 ]
