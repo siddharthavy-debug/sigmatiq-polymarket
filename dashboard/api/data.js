@@ -51,8 +51,6 @@ export default async function handler(req, res) {
     });
   }
 
-  // ?engine=crypto (or {engine:"crypto"}) serves the crypto bot's files under
-  // the same keys, so one page can render either engine.
   const wanted = FILES;
 
   const out = {};
@@ -77,9 +75,7 @@ export default async function handler(req, res) {
     return res.status(200).json({
       waiting: true,
       message:
-        engine === "crypto"
-          ? "The crypto bot hasn't written anything yet. It will appear once it runs."
-          : "The bot hasn't written state yet. It will appear after the next run.",
+        "The bot hasn't written anything yet. It appears once it runs.",
     });
   }
 
