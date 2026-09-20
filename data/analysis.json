@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T15:30:43.630504+00:00",
+  "updated": "2026-09-20T15:35:45.928276+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -11,7 +11,7 @@
       "win_rate": 52.3,
       "pnl": 110.2,
       "pnl_per_closed": 2.5,
-      "skipped": 1079,
+      "skipped": 1080,
       "failed": 0,
       "benched": false
     },
@@ -39,7 +39,7 @@
       "win_rate": 60.0,
       "pnl": 46.06,
       "pnl_per_closed": 4.61,
-      "skipped": 227,
+      "skipped": 228,
       "failed": 0,
       "benched": false
     },
@@ -170,6 +170,20 @@
       "benched": false
     },
     {
+      "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+      "wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+      "copied": 3,
+      "closed": 2,
+      "wins": 1,
+      "losses": 1,
+      "win_rate": 50.0,
+      "pnl": -1.67,
+      "pnl_per_closed": -0.83,
+      "skipped": 250,
+      "failed": 0,
+      "benched": false
+    },
+    {
       "trader": "0x8efa1ea8ee",
       "wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
       "copied": 12,
@@ -179,7 +193,7 @@
       "win_rate": 60.0,
       "pnl": -1.67,
       "pnl_per_closed": -0.33,
-      "skipped": 407,
+      "skipped": 409,
       "failed": 0,
       "benched": false
     },
@@ -194,20 +208,6 @@
       "pnl": -5.0,
       "pnl_per_closed": -5.0,
       "skipped": 177,
-      "failed": 0,
-      "benched": false
-    },
-    {
-      "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
-      "wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
-      "copied": 3,
-      "closed": 1,
-      "wins": 0,
-      "losses": 1,
-      "win_rate": 0.0,
-      "pnl": -5.0,
-      "pnl_per_closed": -5.0,
-      "skipped": 250,
       "failed": 0,
       "benched": false
     },
@@ -235,7 +235,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2804,
+      "skipped": 2807,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 12973
+  "total_logged": 12981
 }
