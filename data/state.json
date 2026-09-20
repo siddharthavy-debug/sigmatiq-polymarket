@@ -256,7 +256,6 @@
     }
   },
   "seen_trades": [
-    "0x14ecae8bbb59bd09c16b97702664db1c539cad31815dd63be7f3742312ab4bf5",
     "0x7461a00f3af8170e0733682f65697132c55df87c787860dc325853ead9ae6c46",
     "0x1d20f2a34b5de5f86fd37fe91e4db9e45e032343e039c0f267ce7a42a37be7b0",
     "0x1a2f6713a8d751ce492c21415f4c93cc29864c524db7732d62abe9073fa3ae5b",
@@ -8255,15 +8254,16 @@
     "0xab1a869a9bad13fa01cafe63edabfc1fe8e66edd163a540fa254ab8c883b69af",
     "0xffba8303079ff4279176c867f46a62ce5e3d0d665203f5a2a699fa391de0fb2f",
     "0x87a530f809b325ba5778045f20d2b423b9cfb16ceaddf5cc15a91e01fdcaa81b",
-    "0x863079c40beb2b5d9a5151683814edc58f2565bd182011af0340ad9aaac1e51a"
+    "0x863079c40beb2b5d9a5151683814edc58f2565bd182011af0340ad9aaac1e51a",
+    "0xa93f7e7c63a6a9d18501933bfd017d3168c75d237523c63716683847650812c0"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T11:37:54.896950+00:00",
+  "last_run": "2026-09-20T11:42:58.394662+00:00",
   "realized_pnl": -5.454882434351415,
   "trades_executed": 325,
   "wins": 66,
   "losses": 63,
-  "skipped": 12571,
+  "skipped": 12572,
   "failed": 0,
   "initialised": true,
   "paused": false

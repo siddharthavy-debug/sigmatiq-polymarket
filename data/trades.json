@@ -150723,5 +150723,17 @@
     "their_usd": 492.76517,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-20T11:35:46.189271+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Mona Barthel vs Samira De Stefano",
+    "outcome": "Mona Barthel",
+    "their_usd": 17.14302,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T11:40:01.754638+00:00"
   }
 ]
