@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-20T02:32:32.390531+00:00",
+  "updated": "2026-09-20T02:41:55.923377+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
       "wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "copied": 74,
+      "copied": 76,
       "closed": 38,
       "wins": 20,
       "losses": 18,
@@ -19,12 +19,12 @@
       "trader": "us391",
       "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "copied": 25,
-      "closed": 10,
-      "wins": 9,
+      "closed": 11,
+      "wins": 10,
       "losses": 1,
-      "win_rate": 90.0,
-      "pnl": 69.57,
-      "pnl_per_closed": 6.96,
+      "win_rate": 90.9,
+      "pnl": 89.45,
+      "pnl_per_closed": 8.13,
       "skipped": 652,
       "failed": 0,
       "benched": false
@@ -142,20 +142,6 @@
       "benched": false
     },
     {
-      "trader": "Elaran1993",
-      "wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
-      "copied": 2,
-      "closed": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "pnl": 0.0,
-      "pnl_per_closed": null,
-      "skipped": 176,
-      "failed": 0,
-      "benched": false
-    },
-    {
       "trader": "justbusiness1",
       "wallet": "0x4956f69ada024c5cb23ed4f38f0dc4c04d2ee2c7",
       "copied": 0,
@@ -180,6 +166,20 @@
       "pnl": -1.67,
       "pnl_per_closed": -0.33,
       "skipped": 394,
+      "failed": 0,
+      "benched": false
+    },
+    {
+      "trader": "Elaran1993",
+      "wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+      "copied": 2,
+      "closed": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "pnl": -5.0,
+      "pnl_per_closed": -5.0,
+      "skipped": 176,
       "failed": 0,
       "benched": false
     },
@@ -221,7 +221,7 @@
       "win_rate": 50.0,
       "pnl": -6.48,
       "pnl_per_closed": -3.24,
-      "skipped": 80,
+      "skipped": 85,
       "failed": 0,
       "benched": false
     },
@@ -235,7 +235,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2429,
+      "skipped": 2434,
       "failed": 0,
       "benched": false
     },
@@ -249,7 +249,7 @@
       "win_rate": 33.3,
       "pnl": -19.42,
       "pnl_per_closed": -6.47,
-      "skipped": 271,
+      "skipped": 272,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 11465
+  "total_logged": 11480
 }

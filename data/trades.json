@@ -139462,5 +139462,207 @@
     "their_usd": 7.6,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T02:30:23.698357+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Minnesota United FC win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 0,
+    "detail": {
+      "shares": 34.8837,
+      "price": 1.0,
+      "proceeds": 34.88,
+      "pnl": 19.88,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-20T02:36:57.200300+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alexandra Shubladze vs Darya Astakhova",
+    "outcome": "Darya Astakhova",
+    "their_usd": 3.57773,
+    "detail": {
+      "shares": 13.8889,
+      "price": 0.36,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T02:37:01.299336+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seattle Mariners vs. Colorado Rockies",
+    "outcome": "Seattle Mariners",
+    "their_usd": 46.845,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:37:03.004164+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Leeds United FC vs. Crystal Palace FC: O/U 1.5 AND Club Atl\u00e9tico de Madrid vs. Real Madrid CF: Real Madrid CF O/U 0.5",
+    "outcome": "",
+    "their_usd": 160.1176,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:37:45.055610+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "LSU vs. Ole Miss",
+    "outcome": "LSU",
+    "their_usd": 6831.2755,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T02:38:24.199168+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "LSU vs. Ole Miss",
+    "outcome": "Ole Miss",
+    "their_usd": 82.501035,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T02:39:50.650197+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "LSU vs. Ole Miss",
+    "outcome": "Ole Miss",
+    "their_usd": 18.103448,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T02:39:50.761998+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "LSU vs. Ole Miss",
+    "outcome": "Ole Miss",
+    "their_usd": 14.482759,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T02:39:50.885518+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "LSU vs. Ole Miss",
+    "outcome": "Ole Miss",
+    "their_usd": 371.9772,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T02:39:50.967696+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "O/U 2.5 Rounds",
+    "outcome": "Over",
+    "their_usd": 0,
+    "detail": {
+      "shares": 8.6207,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -5.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-20T02:40:27.808703+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Minnesota Twins vs. Los Angeles Angels: O/U 5.5",
+    "outcome": "Under",
+    "their_usd": 36.66832,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:40:31.736198+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "LSU vs. Ole Miss",
+    "outcome": "Ole Miss",
+    "their_usd": 1612.926,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T02:40:32.663966+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Golden State Valkyries (-12.5)",
+    "outcome": "Seattle Storm",
+    "their_usd": 3.64434,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:41:13.632770+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alexandra Shubladze vs Darya Astakhova",
+    "outcome": "Darya Astakhova",
+    "their_usd": 29.93555,
+    "detail": {
+      "shares": 13.7615,
+      "price": 0.3633312461,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T02:41:53.391470+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester City FC win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 9.405932,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:41:55.019651+00:00"
   }
 ]
