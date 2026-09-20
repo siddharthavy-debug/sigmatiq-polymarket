@@ -157812,5 +157812,53 @@
     "their_usd": 7422.0969,
     "detail": "price 0.937 above 0.9 (no upside)",
     "timestamp": "2026-09-20T15:25:32.218579+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Buenos Aires 2: Valerio Aboian vs Julian Cundom",
+    "outcome": "Julian Cundom",
+    "their_usd": 7.33568,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T15:26:17.532848+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Olympique de Marseille vs. Paris Saint-Germain FC: Both Teams to Score AND Will Juventus FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 64.05003,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T15:27:47.274281+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Buenos Aires 2: Jackson Ross vs Tomas Martinez",
+    "outcome": "Jackson Ross",
+    "their_usd": 1.5675,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T15:28:31.704934+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Buccaneers (-7.5) AND Jaguars vs. Broncos AND Spread: Panthers (-2.5) AND Spread: Eagles (-7.5)",
+    "outcome": "",
+    "their_usd": 36.917243,
+    "detail": "price 0.945 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T15:29:59.504631+00:00"
   }
 ]
