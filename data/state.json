@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 69.82653701131147,
+  "cash": 64.82653701131147,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -223,14 +223,19 @@
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-20T04:14:53.087143+00:00"
+    },
+    "38418796851705182092351268448695323490421249151124226219700362092692602134571": {
+      "market": "Singapore Open, Qualification: Anna-Lena Friedsam vs Anastasia Kulikova",
+      "slug": "wta-friedsa-kulikov-2026-09-20",
+      "outcome": "Anastasia Kulikova",
+      "shares": 17.24137931034483,
+      "cost": 5.0,
+      "trader": "TRCM",
+      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+      "opened": "2026-09-20T04:21:54.578907+00:00"
     }
   },
   "seen_trades": [
-    "0x69c6ef4bad506d7d1597feee271121fa2dd09198dd6acf7b0aa30edb73261769",
-    "0x4dc7b6c18b5365502bed8ec2fec7e84c3f057124274a0659ff3adfaee43650b2",
-    "0x32052be6fe0c961290210a104941b40cfa073e554402f7fe6b8806357f0ec1bb",
-    "0xa3d1fcacd661fbea476ec15f8586cf8f8d3e96e4a2321acc0208d67906e524a7",
-    "0x804403199d1eade68df90c18697e59f194f6ffa38ed5e45597ee6c376e1b4e63",
     "0x0d4c437d1e44468d4944f82eaffea5831d503f00dbf489eacad734d649a040f3",
     "0xab8a384186f15f6d160574daeb1ffcd4840c88e9fa46112e0f0b89415a40ad0b",
     "0xfe7667b9f0d405095de9eb6b9679875b7c71ed86f307fad1ef9cd5f531a5eb54",
@@ -8225,15 +8230,20 @@
     "0x05659f865e7f80a57d3cf22dd180eae19e11592177217b088083520135c94ed9",
     "0x91cc69aa8a51707dff1ef0bf42a37353d6211d22aaa1b8e2cda815b8ad2dbc32",
     "0x61d7747cfb67a161d9e83cffe13b84b87bdffe772706c4b8ff8bef05d33a0400",
-    "0x9a3842d9c6c658142dd8af2fa74ad216924a1fbace613658cd032fcaf3a05ce4"
+    "0x9a3842d9c6c658142dd8af2fa74ad216924a1fbace613658cd032fcaf3a05ce4",
+    "0xc00c84e041851317391f4ad4abea88d7d93608692de87b971df2a6b26b5cb49d",
+    "0x3b63ee8d2e5855d907bb00fb42f2d4687dc54a0d42a5684ce71c23b3b4d3643b",
+    "0xc2e6de315f4d0b032ea2a340d3239fd49767b837aef0f9bf75992146178e28db",
+    "0xd0455e02c56f564df1d7d059ad401be19491ed70573e82583acab34b8abdeb7e",
+    "0xefe2ef18a7163cf323557032fb862ad038e1bd0af8f530434b617eb398fa70a1"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T04:16:18.331141+00:00",
+  "last_run": "2026-09-20T04:21:56.658335+00:00",
   "realized_pnl": 21.933203677978184,
-  "trades_executed": 307,
+  "trades_executed": 308,
   "wins": 62,
   "losses": 58,
-  "skipped": 12028,
+  "skipped": 12032,
   "failed": 0,
   "initialised": true,
   "paused": false

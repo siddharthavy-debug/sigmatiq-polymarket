@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T04:16:18.354829+00:00",
+  "updated": "2026-09-20T04:21:56.683237+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -46,7 +46,7 @@
     {
       "trader": "TRCM",
       "wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
-      "copied": 21,
+      "copied": 22,
       "closed": 5,
       "wins": 5,
       "losses": 0,
@@ -221,7 +221,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2503,
+      "skipped": 2507,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 11833
+  "total_logged": 11838
 }

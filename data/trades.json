@@ -144012,5 +144012,69 @@
     "their_usd": 119.69802,
     "detail": "price 0.995 above 0.9 (no upside)",
     "timestamp": "2026-09-20T04:16:17.493843+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "South Dakota vs. Boise State",
+    "outcome": "South Dakota",
+    "their_usd": 12.096,
+    "detail": "price 0.032 below 0.05 (longshot)",
+    "timestamp": "2026-09-20T04:18:29.003704+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Minnesota Twins (-2.5)",
+    "outcome": "Minnesota Twins",
+    "their_usd": 188.4735,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:19:10.362156+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Singapore Open, Qualification: Anna-Lena Friedsam vs Anastasia Kulikova",
+    "outcome": "Anastasia Kulikova",
+    "their_usd": 258.63207,
+    "detail": {
+      "shares": 17.2414,
+      "price": 0.29,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:21:54.597340+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-14.5)",
+    "outcome": "Purdue",
+    "their_usd": 60.72,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:21:55.709374+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Purdue vs. UCLA",
+    "outcome": "Purdue",
+    "their_usd": 2.52,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:21:55.815550+00:00"
   }
 ]
