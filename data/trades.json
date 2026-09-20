@@ -149763,5 +149763,89 @@
     "their_usd": 102.80591,
     "detail": "max open positions",
     "timestamp": "2026-09-20T10:26:49.711937+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Saint Tropez: Daniel Jade vs Ryan Peniston",
+    "outcome": "Daniel Jade",
+    "their_usd": 72.51887,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T10:29:43.174530+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Zaglebie Lubin vs. Wisla Plock: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 494.78,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T10:29:44.526615+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Zaglebie Lubin vs. Wisla Plock: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 567.84,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T10:29:44.641286+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Zaglebie Lubin vs. Wisla Plock: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 340.99,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T10:29:44.744241+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Zaglebie Lubin vs. Wisla Plock: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 1.17,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T10:29:44.850021+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Zaglebie Lubin vs. Wisla Plock: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 6.4025,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T10:29:44.952826+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Zaglebie Lubin vs. Wisla Plock: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 279.37,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T10:29:45.057279+00:00"
   }
 ]
