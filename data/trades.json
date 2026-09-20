@@ -145817,5 +145817,179 @@
     "their_usd": 1469.248709,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T05:24:02.625482+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 1.89294,
+    "detail": {
+      "shares": 11.9048,
+      "price": 0.42,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T05:25:25.942007+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Miho Kuramochi vs Xinxin Yao",
+    "outcome": "Miho Kuramochi",
+    "their_usd": 0,
+    "detail": {
+      "shares": 50.1253,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -10.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-20T05:26:04.639617+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Parma Calcio 1913 vs. Genoa CFC end in a draw?",
+    "outcome": "No",
+    "their_usd": 6180.50193,
+    "detail": {
+      "shares": 7.3529,
+      "price": 0.68,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T05:26:08.889843+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Singapore Open, Qualification: Anna-Lena Friedsam vs Anastasia Kulikova",
+    "outcome": "Anastasia Kulikova",
+    "their_usd": 0,
+    "detail": {
+      "shares": 17.2414,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -5.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-20T05:26:46.411667+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Arizona (-27.5)",
+    "outcome": "Northern Illinois",
+    "their_usd": 2.5,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:26:51.197702+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 1883.52,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:28:12.277355+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 2440.14999,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:28:12.380589+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Spread: Boise State (-10.5)",
+    "outcome": "Boise State",
+    "their_usd": 898.99011,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-20T05:28:14.501665+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+    "outcome": "Yes",
+    "their_usd": 548.96918,
+    "detail": "settles in 103d, too far out",
+    "timestamp": "2026-09-20T05:28:52.181125+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Netanyahu out by end of 2026?",
+    "outcome": "Yes",
+    "their_usd": 387.75,
+    "detail": "settles in 103d, too far out",
+    "timestamp": "2026-09-20T05:28:52.301368+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 964.279,
+    "detail": {
+      "shares": 10.6454,
+      "price": 0.46968545,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T05:28:53.732554+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Spread: Eagles (-7.5)",
+    "outcome": "Titans",
+    "their_usd": 642.6,
+    "detail": {
+      "shares": 9.2593,
+      "price": 0.54,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T05:28:56.221838+00:00"
   }
 ]
