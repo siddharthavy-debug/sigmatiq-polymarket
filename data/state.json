@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 101.09036247008504,
+  "cash": 106.72866034242547,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -184,16 +184,6 @@
       "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
       "opened": "2026-09-20T05:28:56.203731+00:00"
     },
-    "60632519705736875566131635305949413125558039652783197754853251003294989084241": {
-      "market": "Will Ujpest FC Budapest win on 2026-09-20?",
-      "slug": "hun-ujp-zal-2026-09-20-ujp",
-      "outcome": "No",
-      "shares": 10.638297872340425,
-      "cost": 5.0,
-      "trader": "us391",
-      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "opened": "2026-09-20T07:39:26.419826+00:00"
-    },
     "47848555635748009983462962481545341194026880518141560747711492227563791266566": {
       "market": "Will the Republicans win the Florida Senate race in 2026?",
       "slug": "will-the-republicans-win-the-florida-senate-race-in-2026",
@@ -253,22 +243,19 @@
       "trader": "Justluck9",
       "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
       "opened": "2026-09-20T16:43:46.612002+00:00"
+    },
+    "58891580913478141083436971283707606390073528058295153666704098402437100707283": {
+      "market": "Buenos Aires 2: Valerio Aboian vs Julian Cundom",
+      "slug": "atp-aboian-cundom-2026-09-20",
+      "outcome": "Julian Cundom",
+      "shares": 22.727272727272727,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-20T16:47:41.397883+00:00"
     }
   },
   "seen_trades": [
-    "0x0ed851a6321e8e6f4a0eb4fd7006fe5f1fcb0ab76bc49c79c6b4cb32f84814c0",
-    "0x378f4c786dcd146657ff93f95850a4db2e036cf228d79311ca5d325172826465",
-    "0x8d42975f239107a6c31837ae5ea098ed3a30f79e9afd7e23928d56e325ddcb13",
-    "0xefa72b1e73c507eb7e5894c4fcf5d0e8b3db359a1f352ac3ab9e7afc84ae006e",
-    "0x8c54e476676fe1447ae9a77dcf165ffccb5287b5deafda9e5f6808e71873aeab",
-    "0x8ab73294122b23998e5bab60f6e10357e0daf2b332a80d1d42c6e6fd60690963",
-    "0x2b7d1158f074f497a15180fbb3ca6bd398259748bd85f2d1de80b77120a77154",
-    "0x81af0425056e3877aa07e26ee271d61b2b89c9ef786fff8bdafcbc5c81391f85",
-    "0xd4edc0f4dc7ec8e40823b79e5d8f8860ed8750288e6a7b7d171b5cf595b2b8ab",
-    "0xb60a53d96720fe57eed84a5c0f3fd1a839c4fd3dda5d40753d9d925132274dba",
-    "0xcf7ab9487caa43d94b51f616265bb0233db7c0011d159b1f251d9e82930ca0ef",
-    "0xc2486961584cf96b26c6a386cf390d49dd974c8ba456631282952b1a0867f7ba",
-    "0x894b37ef6e24608ad6ec0a839fdc0ac2d9ea96a199ef23faf86966f0eaf97be0",
     "0xb7f550dc80a3d7c94979366c9a3c870fe20b428ff4859db4b307dc6fe5730a19",
     "0xcc6dabe5f1dd575bb0ef7c0f7c2fee27db49550da86e8a154f8a3538fb1ccbbd",
     "0xa3d8e690714c1a7a31ffbe2cc8ff29492ee44c92305ba11b963099221655d9d6",
@@ -8255,15 +8242,28 @@
     "0xa3218d62861f0cdb13dfea22e4e420114ff1273b1b87e38b80717bfa2098a0e3",
     "0xd2430e25c045f0e72a061da59984fa31cc696d46a35776bc0c49db5c59a53842",
     "0xfd0974d528a128352e52a758fd70eb39b4291f983fe9724f61601b4e5596e941",
-    "0xb9b13e32048df495cfb642566cdb84b3af2c001145d5129704c2d6fbbf74416d"
+    "0xb9b13e32048df495cfb642566cdb84b3af2c001145d5129704c2d6fbbf74416d",
+    "0x8b073a7b982c48188c9070f5917dce7ef73c73c4543f10a6d8ddfb09255a687e",
+    "0x0c7ea4aeda227f29d50477c34d43d23ae36186eb2c38414da055da035ff55246",
+    "0x4ef9827f0ae06d736e6e8d206669ff6949c35fdc28fd98deff5df170419c18d1",
+    "0xd232beb7be8b018dc972637aca46d097914af937fc94816badd72a80c7c6032a",
+    "0xf10c2966a01db449bbfb703639239fe322ceb9eb7f3e08fc0cf3244c5f282e35",
+    "0x2db6c2f34fdc54891a1ac82c0b5b8e6e442201533531727355a012d505f57ada",
+    "0x1f0433be224cc124d1c2f919c9e543052cd54f9b604861e648e6577ce5bcdd54",
+    "0x8c54e476676fe1447ae9a77dcf165ffccb5287b5deafda9e5f6808e71873aeab",
+    "0x042419f5473c67ccd2e5f57bb972eb981c5be19af2ae589d7685143702a01aa2",
+    "0xf19bca076bf7721585fb29df6fed558f34c80108417d7eb50c42c6862fb946e6",
+    "0x690e7d609d5459270e04e895ea728b2dbd713b6ef83b55db6fe26a171e09b53d",
+    "0x9cf036bdb118488aca72d26b7141206679d6578a7f845581167ebb8b25c706e1",
+    "0xdf35277afbfa3fcec21b43bfac79dccfc68b92b9122fc2458b8f0cd1aafa3215"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T16:43:46.740718+00:00",
-  "realized_pnl": 24.99702913675176,
-  "trades_executed": 333,
-  "wins": 73,
+  "last_run": "2026-09-20T16:49:01.766830+00:00",
+  "realized_pnl": 30.635327009092187,
+  "trades_executed": 334,
+  "wins": 74,
   "losses": 64,
-  "skipped": 13356,
+  "skipped": 13368,
   "failed": 0,
   "initialised": true,
   "paused": false
