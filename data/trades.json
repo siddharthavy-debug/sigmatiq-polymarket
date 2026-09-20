@@ -150687,5 +150687,41 @@
     "their_usd": 38.365434,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T11:32:08.105967+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Renan Santos win the 2026 Brazilian presidential election?",
+    "outcome": "No",
+    "their_usd": 2973.0,
+    "detail": "price 0.991 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T11:35:00.978315+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Spread: New York Mets (-1.5)",
+    "outcome": "New York Mets",
+    "their_usd": 1.030303,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T11:35:03.272594+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Spread: New York Mets (-1.5)",
+    "outcome": "New York Mets",
+    "their_usd": 492.76517,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T11:35:46.189271+00:00"
   }
 ]
