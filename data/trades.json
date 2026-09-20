@@ -148115,5 +148115,81 @@
     "their_usd": 45.9408,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-20T07:43:35.948574+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republicans win the Florida Senate race in 2026?",
+    "outcome": "Yes",
+    "their_usd": 216.0,
+    "detail": {
+      "shares": 5.5556,
+      "price": 0.9,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T07:44:58.288140+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Stade Brestois 29 win on 2026-09-20? AND Will OGC Nice win on 2026-09-20? AND Will Olympique de Marseille vs. Paris Saint-Germain FC end in a draw? AND Will Leeds United FC vs. Crystal Palace FC end in a draw?",
+    "outcome": "",
+    "their_usd": 1227.785928,
+    "detail": "price 0.992 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T07:45:01.110371+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "FH Hafnarfjordur vs. Stjarnan Gardabae: O/U 2.5 AND Will Club Brugge win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1.083848,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:45:42.572899+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republicans win the Florida Senate race in 2026?",
+    "outcome": "Yes",
+    "their_usd": 5.4,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T07:46:21.477334+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will RC Deportivo A Coru\u00f1a win on 2026-09-20? AND Will Levante UD win on 2026-09-20? AND Will M\u00e1laga CF win on 2026-09-20? AND Will Real Sociedad de F\u00fatbol win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1502.643479,
+    "detail": "price 0.994 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T07:47:05.968727+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Milan win on 2026-09-20? AND Will FC Schalke 04 vs. SV 07 Elversberg end in a draw? AND Will Juventus FC win on 2026-09-20? AND Will TSG 1899 Hoffenheim win on 2026-09-20? AND Will Bayer 04 Leverkusen vs. RB Leipzig end in a draw? AND Will Getafe CF win on 2026-09-20? AND Will SSC Napoli win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1632.965264,
+    "detail": "price 0.994 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T07:49:11.217069+00:00"
   }
 ]

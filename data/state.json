@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 57.43845089898187,
+  "cash": 52.43845089898187,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -243,15 +243,19 @@
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-20T07:39:26.419826+00:00"
+    },
+    "47848555635748009983462962481545341194026880518141560747711492227563791266566": {
+      "market": "Will the Republicans win the Florida Senate race in 2026?",
+      "slug": "will-the-republicans-win-the-florida-senate-race-in-2026",
+      "outcome": "Yes",
+      "shares": 5.555555555555555,
+      "cost": 5.0,
+      "trader": "ImJustKen",
+      "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+      "opened": "2026-09-20T07:44:58.268444+00:00"
     }
   },
   "seen_trades": [
-    "0x6c28d438ee09df8be2e846655d4bf5b58fd058bee8b622cc6f1e68e54421b2a5",
-    "0x87c03726ec07165ae77c2140a1ab804190091433ae6a535fe0496a9c3670cd7d",
-    "0xa88bed0db2a7884274afe9e433425fc890094565c91165e604a8bc3bcee03924",
-    "0x9dd44b3b4c36aae041f439d3eed6e0f10acff1f883641da47525f067f07af0fd",
-    "0x3387d4de4a150d310e8774b6342fda572061ae9932a1efa4b6f30c1fe2e18343",
-    "0xe1600f5525242caa9a56158f0df51346ef93ffbd12af158b3b7c562d25d62d32",
     "0x0f85cbcf0d2fe8e200df1d5543f10e9d480d00c8ed394058454d34dfca192885",
     "0x490dc3c62670ae3552164214d30c528338c44b15996819fd3be9cf3a03ddaee1",
     "0xd6fb3336aa8da42bd3b4fde65f16cc4c14893f4c3fa869508a7c6130f772653d",
@@ -8245,15 +8249,21 @@
     "0x0e6e49f9986869006360e090b6c8bac574e27e5a78f79e00a4f831d0d6bbf8c5",
     "0x225c96d19135d29e481673fed558ae69fb5b1a31b06334e9073d972a67df055f",
     "0xe0938f19fcafa519a16e32ea8e58a624d7402c6cac421e45ef6fa5817049c41a",
-    "0x157c91fe7b2f2d77b1a4c57c799b4eb9f90e7eb503aa2d305fb946d9241bf2b4"
+    "0x157c91fe7b2f2d77b1a4c57c799b4eb9f90e7eb503aa2d305fb946d9241bf2b4",
+    "0x80669dcccbbd30e190e1303f4962af2190220ab6dfbca47d7532e9a2b039b5cf",
+    "0x44a05930d5c26455ee02d1bb3a5391d121b935cb4a22988ba2c8fb9e4ab3c3fc",
+    "0x89daa97cf9aaa54bfbc94245f6fae7b9201cbd4b623193c49a6c394b635aa1ea",
+    "0xbe9fad9598c0e7ac2342565cf14c267f4b06326405f1168562780cbbb0ce3e9b",
+    "0xd8cf50ecd3340c2827774f842aada45a40ab3b896ad1ed8d49bbb137a31849bc",
+    "0xcd54216c82f730f80ed0b4f00444c62cd6f3a1e58de5b1ca8635a9cd1d903591"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T07:44:18.319949+00:00",
+  "last_run": "2026-09-20T07:49:53.933873+00:00",
   "realized_pnl": -5.454882434351415,
-  "trades_executed": 324,
+  "trades_executed": 325,
   "wins": 66,
   "losses": 63,
-  "skipped": 12350,
+  "skipped": 12355,
   "failed": 0,
   "initialised": true,
   "paused": false
