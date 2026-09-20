@@ -144423,5 +144423,101 @@
     "their_usd": 1.05,
     "detail": "price 0.010 below 0.05 (longshot)",
     "timestamp": "2026-09-20T04:38:49.706541+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Spread: Eagles (-7.5)",
+    "outcome": "Titans",
+    "their_usd": 7500.6,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T04:41:40.304479+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Spread: Manchester City FC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 13.846154,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T04:42:21.391215+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Boise State (-6.5)",
+    "outcome": "South Dakota",
+    "their_usd": 2.45,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:42:21.716603+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Miho Kuramochi vs Xinxin Yao",
+    "outcome": "Xinxin Yao",
+    "their_usd": 1809.0,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T04:43:02.253811+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Korea Open, Qualification: Miho Kuramochi vs Xinxin Yao",
+    "outcome": "Xinxin Yao",
+    "their_usd": 447.7275,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T04:43:02.867016+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Boise State (-13.5)",
+    "outcome": "Boise State",
+    "their_usd": 4.41,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:43:46.137900+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Aoi Ito",
+    "their_usd": 2.08,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T04:44:26.813567+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 3.10063,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T04:44:26.924637+00:00"
   }
 ]
