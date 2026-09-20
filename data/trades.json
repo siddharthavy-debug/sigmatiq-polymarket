@@ -148191,5 +148191,53 @@
     "their_usd": 1632.965264,
     "detail": "price 0.994 above 0.9 (no upside)",
     "timestamp": "2026-09-20T07:49:11.217069+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Plovdiv 4: Ryo Tabata vs Svyatoslav Gulin",
+    "outcome": "Ryo Tabata",
+    "their_usd": 310.5,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T07:51:16.714352+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester City FC win on 2026-09-20? AND Will Feyenoord Rotterdam win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 252.598075,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:51:18.228911+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Plovdiv 4: Ryo Tabata vs Svyatoslav Gulin",
+    "outcome": "Svyatoslav Gulin",
+    "their_usd": 2.525715,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T07:52:40.293136+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Milan win on 2026-09-20? AND Will Villarreal CF win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 3.94352,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:52:41.893129+00:00"
   }
 ]
