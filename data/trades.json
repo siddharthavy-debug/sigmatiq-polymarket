@@ -150243,5 +150243,41 @@
     "their_usd": 3764.79909,
     "detail": "price 0.991 above 0.9 (no upside)",
     "timestamp": "2026-09-20T10:58:31.090058+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Lille OSC win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 1.222223,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T10:59:56.142835+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Hannover 96 win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 3090.52875,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:02:49.066098+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Lille OSC win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 60.72,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T11:04:12.678946+00:00"
   }
 ]
