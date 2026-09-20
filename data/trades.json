@@ -152535,5 +152535,29 @@
     "their_usd": 1.7561,
     "detail": "max open positions",
     "timestamp": "2026-09-20T12:44:52.823431+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 48.43,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T12:47:00.653434+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will AFC Bournemouth win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 6794.61138,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T12:47:04.231993+00:00"
   }
 ]
