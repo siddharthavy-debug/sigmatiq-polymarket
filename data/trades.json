@@ -147857,5 +147857,41 @@
     "their_usd": 44.339623,
     "detail": "max open positions",
     "timestamp": "2026-09-20T06:58:04.819956+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Joanna Garland vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 34.76607,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T07:02:21.257090+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Fuego vs EDward Gaming Youth Team (BO1) - World Star Challengers Invitational Group A AND LoL: \u2060Movistar KOI F\u00e9nix vs CTBC Flying Oyster Academy (BO1) - World Star Challengers Invitational Group B",
+    "outcome": "",
+    "their_usd": 955.768395,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:04:28.235792+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Celtic FC vs. Rangers FC: Both Teams to Score AND ACF Fiorentina vs. SSC Napoli: O/U 1.5",
+    "outcome": "",
+    "their_usd": 55.495261,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:05:10.257420+00:00"
   }
 ]
