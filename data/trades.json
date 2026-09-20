@@ -147642,5 +147642,77 @@
     "their_usd": 114.21899,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T06:30:40.981930+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Viking FK win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 1.503,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:32:48.282553+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 125.64,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T06:33:29.133714+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 62.64912,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T06:34:11.408072+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Mei Yamaguchi vs Kyoka Okamura",
+    "outcome": "Kyoka Okamura",
+    "their_usd": 2.11047,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:36:17.096561+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "OGC Nice vs. Lille OSC: O/U 2.5 AND Spread: Paris Saint-Germain FC (-1.5)",
+    "outcome": "",
+    "their_usd": 2.920839,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:36:18.736635+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Jaguars vs. Broncos AND Raiders vs. Chargers AND Browns vs. Buccaneers AND Giants vs. Rams AND Eagles vs. Titans",
+    "outcome": "",
+    "their_usd": 84.626792,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:37:00.623867+00:00"
   }
 ]
