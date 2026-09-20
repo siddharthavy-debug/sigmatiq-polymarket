@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 103.88452866195168,
+  "cash": 98.88452866195168,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -243,15 +243,19 @@
       "trader": "brendoncarson",
       "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
       "opened": "2026-09-20T14:57:58.692589+00:00"
+    },
+    "9674609971189640667333573475958608934610645400605421455072449289336026277239": {
+      "market": "Toronto Blue Jays vs. Texas Rangers: O/U 7.5",
+      "slug": "mlb-tor-tex-2026-09-20-total-7pt5",
+      "outcome": "Over",
+      "shares": 10.638297872340425,
+      "cost": 5.0,
+      "trader": "brendoncarson",
+      "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+      "opened": "2026-09-20T15:42:13.341356+00:00"
     }
   },
   "seen_trades": [
-    "0x466c8b57b2b0cfaa93c98a3a14e56360b215d098ae9531fa7c539b53f98e1fa2",
-    "0x83fb67d82a74e06d72085c8c3c54f2cdca05a18ac7a2f83503e1e2f5aefce51c",
-    "0xd0007e8370bcb712f31503a87f0ddeed085a569cb1eeddf545e5bd698be564b9",
-    "0x51da84e7fe031a31925b957b1686ce8ac2e560e07a2f629110b0261913541d2f",
-    "0x33844f083633931c56aba3b02e860e7e99a612a2349b689af290d9508cab15b6",
-    "0xa90939d90cf674bc0eeab78855eefcebe07ba2bc436b080a807824d94e3282d0",
     "0xf37b783a4b00f4402a9a6d51dc74023d530372a1f87412654cb2223d04ae8c56",
     "0x77ac62c6f37cc81d8ee919b0edc2797f7ded69f4c6f03ee22e7e10260b99acb9",
     "0x7b2b84e755c174be26128907f8ae79b774543e722c1ca6b0170f202014d3ba6e",
@@ -8245,15 +8249,21 @@
     "0x88cdf9bd69e44002b79913cf8a399026011a0c4990126a476739057c558a50a0",
     "0x2b3e389f7b63b53ca15416ef70f9e5ac9b5d3bc30750ec0db26bbe8f519705de",
     "0xe365f01f35496bf264abf0494b59f2cad7530697be67db45c28bcc3567ccd401",
-    "0x7661d2bfbc45efaf052579600a163670e5bcf11ab314b7130268927b2f818316"
+    "0x7661d2bfbc45efaf052579600a163670e5bcf11ab314b7130268927b2f818316",
+    "0x53a7ea37465b408988e780a6f7aa4dc3fd404295bca047d212d35bbaa0e82289",
+    "0xbe2ed208e4986c752314b4aed3cbd76ba0e1d39019598e9a5a05e208027eb9e3",
+    "0x7042241a111a22eaa1589876d768d00c1a2297c9dd004e05c4eb014eb66f9a61",
+    "0xaf7842003e33662f50ef190d733d96526dd822ae6de2858202bce7ffc1c6f6fd",
+    "0x81574e42c8d9d3be88cc1e73ae6148f516da448da043eb8c9a774038e095284f",
+    "0xe6d7ab28e21cace93af8ca341d43d78c522c51d782996d634cf341e50f6ec6f0"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T15:41:29.482251+00:00",
+  "last_run": "2026-09-20T15:46:32.428588+00:00",
   "realized_pnl": 25.991195328618403,
-  "trades_executed": 329,
+  "trades_executed": 330,
   "wins": 70,
   "losses": 63,
-  "skipped": 13199,
+  "skipped": 13204,
   "failed": 0,
   "initialised": true,
   "paused": false

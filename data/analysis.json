@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T15:41:29.511127+00:00",
+  "updated": "2026-09-20T15:46:32.457523+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -32,14 +32,14 @@
     {
       "trader": "brendoncarson",
       "wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
-      "copied": 21,
+      "copied": 22,
       "closed": 10,
       "wins": 6,
       "losses": 4,
       "win_rate": 60.0,
       "pnl": 46.06,
       "pnl_per_closed": 4.61,
-      "skipped": 228,
+      "skipped": 229,
       "failed": 0,
       "benched": false
     },
@@ -137,7 +137,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 178,
+      "skipped": 182,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 12992
+  "total_logged": 12998
 }

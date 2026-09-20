@@ -158099,5 +158099,81 @@
     "their_usd": 21.294189,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T15:41:28.493138+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Toronto Blue Jays vs. Texas Rangers: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 629.8,
+    "detail": {
+      "shares": 10.6383,
+      "price": 0.47,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T15:42:13.363583+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "brendoncarson",
+    "trader_wallet": "0x4dd24f21b6c8adc8a059dca1a0346a3aa99214c2",
+    "market": "Toronto Blue Jays vs. Texas Rangers: O/U 7.5",
+    "outcome": "Over",
+    "their_usd": 4.7,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T15:42:13.474644+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 40.84507,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T15:44:18.280867+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 4.084507,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T15:45:44.546636+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 58.0,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T15:45:44.667825+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 151.641,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T15:46:27.610349+00:00"
   }
 ]
