@@ -145491,5 +145491,65 @@
     "their_usd": 100.31,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T05:07:10.269731+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Alevtina Ibragimova",
+    "their_usd": 14.98906,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T05:09:15.828162+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "James Madison vs. San Diego State: O/U 46.5",
+    "outcome": "Under",
+    "their_usd": 3.1,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:09:17.519604+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Phan Thiet 4: Rodrigo Pacheco vs Ilia Simakin",
+    "outcome": "Ilia Simakin",
+    "their_usd": 43.46505,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T05:09:58.465023+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Anna-Lena Friedsam vs Anastasia Kulikova",
+    "outcome": "Anna-Lena Friedsam",
+    "their_usd": 121.22023,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T05:10:39.998423+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Minnesota Twins vs. Los Angeles Angels",
+    "outcome": "Minnesota Twins",
+    "their_usd": 2.64704,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:12:05.600595+00:00"
   }
 ]
