@@ -147714,5 +147714,29 @@
     "their_usd": 84.626792,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T06:37:00.623867+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Feyenoord Rotterdam vs. FC Utrecht: O/U 2.5 AND Celtic FC vs. Rangers FC: O/U 4.5 AND Will Pohang Steelers FC win on 2026-09-20? AND Will West Bromwich Albion FC win on 2026-09-20? AND Will Kashiwa Reysol win on 2026-09-20? AND Will Gamba \u014csaka win on 2026-09-20? AND Will ACF Fiorentina win on 2026-09-20? AND Will Gwangju FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 332.303761,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:39:49.791740+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Mei Yamaguchi vs Kyoka Okamura",
+    "outcome": "Kyoka Okamura",
+    "their_usd": 6.46588,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:42:35.698004+00:00"
   }
 ]
