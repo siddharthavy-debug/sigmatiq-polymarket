@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 63.250475772345524,
+  "cash": 58.250475772345524,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -243,12 +243,19 @@
       "trader": "Justluck9",
       "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
       "opened": "2026-09-20T04:28:58.165000+00:00"
+    },
+    "24084775522712864831391215009643558739398217054037155343692633800970286994216": {
+      "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+      "slug": "wta-ibragim-saito-2026-09-20",
+      "outcome": "Sara Saito",
+      "shares": 17.857142857142854,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-20T04:38:05.886030+00:00"
     }
   },
   "seen_trades": [
-    "0xf681265fe4183e10df1a079867e768e1ce5f9666fcd6e6859b4a92e9fa6c8488",
-    "0x7ac5359de5f6e5d23d3b6b05fbee606dd60cdb8d8abe01738ec4c701ee68da7b",
-    "0xf881d2121b3c91097daae53229acdecd557e6e5841fc31d0fe098657217ccb4d",
     "0xbab6844f0003cd520cbb4e0b76d80fc694f8b98552f9c718cb3f20f31d7cff49",
     "0xf193e29352cb95f5bf9f592098e92416ae55c90f8148cdd296510c31c58cd59a",
     "0x56e727288a87a98d71bd1723defe1c145219e3e4792033b923643ce8208e26b5",
@@ -8245,15 +8252,18 @@
     "0x76fc7772101cf7db0d55d4b302c0e69eee6b58714db214b953467ad61f8916c1",
     "0x93839079cedd3d890a07ad9175d40819a38abc64c06f86a9d504d08fd0e729ba",
     "0x9cdf34a8c95371a1155034d5016219b4f044d4c897a39232c50c4431bf49610d",
-    "0x079b76ba83eba59cce7a107ea7b4a1c7657a218c2419f1ffa4b8208cf54a7bd2"
+    "0x079b76ba83eba59cce7a107ea7b4a1c7657a218c2419f1ffa4b8208cf54a7bd2",
+    "0x4dfa79cb756bd3e58613020f30c886b7e9de270a3f1103a06977180a3a4ee02b",
+    "0x52cb7c84e67eb81dd529247d95f48d4ca57a8e98be6d902bde5f4ca68bcf6b69",
+    "0x85b15d334aaf4d2504e8002884f7937b02ea77aa603c6893dafbe07777915b10"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T04:33:12.783132+00:00",
+  "last_run": "2026-09-20T04:38:50.610063+00:00",
   "realized_pnl": 25.357142439012236,
-  "trades_executed": 311,
+  "trades_executed": 312,
   "wins": 63,
   "losses": 58,
-  "skipped": 12052,
+  "skipped": 12054,
   "failed": 0,
   "initialised": true,
   "paused": false

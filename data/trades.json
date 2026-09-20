@@ -144383,5 +144383,45 @@
     "their_usd": 50.0,
     "detail": "settles in 0.0h, too soon",
     "timestamp": "2026-09-20T04:32:30.658098+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "James Madison vs. San Diego State: O/U 38.5",
+    "outcome": "Under",
+    "their_usd": 1.65,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:35:19.376141+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Sara Saito",
+    "their_usd": 5.59564,
+    "detail": {
+      "shares": 17.8571,
+      "price": 0.28,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:38:05.904367+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Oregon State (-7.5)",
+    "outcome": "Montana",
+    "their_usd": 1.05,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-20T04:38:49.706541+00:00"
   }
 ]
