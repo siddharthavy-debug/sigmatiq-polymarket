@@ -34,7 +34,7 @@ ALLOWED = {
     "allocation":      ("TRADING_ALLOCATION", float, 10.0, 1_000_000.0),
     "stake_pct":       ("STAKE_PCT", float, 0.002, 0.10),
     "max_deployed":    ("MAX_DEPLOYED_PCT", float, 0.02, 1.00),
-    "daily_stop":      ("DAILY_STOP_PCT", float, 0.01, 0.50),
+    "daily_stop":      ("DAILY_STOP_PCT", float, 0.0, 0.50),
     "max_open":        ("MAX_OPEN_POSITIONS", int, 1, 60),
     "min_horizon":     ("MIN_HORIZON_SECONDS", int, 60, 86400),
     "max_horizon":     ("MAX_HORIZON_SECONDS", int, 300, 604800),

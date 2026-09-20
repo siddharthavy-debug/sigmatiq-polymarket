@@ -37,6 +37,11 @@ MAX_DEPLOYED_PCT = _f("CRYPTO_MAX_DEPLOYED", "0.20")
 
 # The way these accounts die is not one bad trade, it is a bad run the bot
 # keeps feeding. Down this much on the day and it stops opening new positions.
+#
+# Set to 0 to turn it off. That is right for paper trading — a stop that
+# freezes the bot for twenty hours destroys the very thing paper mode is for,
+# which is closed trades — and wrong for real money, where a bad run with no
+# brake is how the account dies.
 DAILY_STOP_PCT = _f("CRYPTO_DAILY_STOP", "0.06")
 
 MAX_OPEN_POSITIONS = _i("CRYPTO_MAX_OPEN", "15")
@@ -45,6 +50,17 @@ MAX_OPEN_POSITIONS = _i("CRYPTO_MAX_OPEN", "15")
 # price their edge no longer covers, and repeated buys within seconds is the
 # market-maker signature.
 ONE_COPY_PER_MARKET_PER_TRADER = True
+
+# How many positions one trader may hold at once. Without this, a single
+# wallet fills the book: simon8445 took 10 of the first 15.
+MAX_POSITIONS_PER_TRADER = _i("CRYPTO_MAX_PER_TRADER", "3")
+
+# The one that actually hurt. BTC, ETH, SOL, XRP and BNB move together, so
+# five "Down" positions in the same five-minute window are not five bets —
+# they are one bet at five times the size. It lost $50 in a single tick and
+# took the day to -10.1%. Positions sharing a settlement window and a
+# direction are counted as one.
+MAX_PER_WINDOW_DIRECTION = _i("CRYPTO_MAX_PER_WINDOW", "2")
 
 # ------------------------------------------------------------------ markets
 MIN_HORIZON_SECONDS = _i("CRYPTO_MIN_HORIZON", "300")      # 5 minutes

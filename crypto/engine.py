@@ -117,8 +117,10 @@ def sync_allocation(s, unreadable):
     s["contributed"] += actual
     s["allocation"] = cconfig.TRADING_ALLOCATION
 
-    # Moving capital in or out is not a profit or a loss, and the
-    # daily stop must not read it as one.
+    # Moving capital in or out is not a profit or a loss, and the daily stop
+    # must not read it as one. Without this, dropping the allocation from 300
+    # to 100 looks like being down 66.7% on the day and the bot refuses to
+    # trade until midnight.
     s["day_start_equity"] = max(0.0, s.get("day_start_equity", 0.0) + actual)
     return actual
 
@@ -130,6 +132,19 @@ def books_drift(s):
 
 
 # ------------------------------------------------------------- the decision
+def _window_key(trade):
+    """
+    What makes two positions the same bet: the same settlement window and the
+    same direction. btc-updown-5m-1789943100 Down and sol-updown-5m-1789943100
+    Down both ride on whether crypto fell in those five minutes.
+    """
+    slug = trade.get("slug") or ""
+    stamp = slug.rsplit("-", 1)[-1]
+    if not stamp.isdigit():
+        return None
+    return f"{stamp}|{trade.get('outcome')}"
+
+
 def consider(s, trade, pinned, now=None):
     """
     Should we copy this trade?
@@ -175,6 +190,23 @@ def consider(s, trade, pinned, now=None):
     if cconfig.ONE_COPY_PER_MARKET_PER_TRADER and key in s["copied"]:
         return "skip", "already copied them in this market", None
 
+    theirs = sum(1 for p in s["positions"].values()
+                 if (p.get("wallet") or "").lower() == wallet)
+    if theirs >= cconfig.MAX_POSITIONS_PER_TRADER:
+        return "skip", (f"already following {who.get('name') or wallet[:8]} "
+                        f"into {theirs} markets"), None
+
+    # Correlated exposure. Five coins settling in the same window, all bet the
+    # same way, rise and fall together — so they are counted as one position,
+    # not five. This is the rule that was missing when $50 went in one tick.
+    window = _window_key(trade)
+    if window:
+        same = sum(1 for p in s["positions"].values()
+                   if p.get("window") == window)
+        if same >= cconfig.MAX_PER_WINDOW_DIRECTION:
+            return "skip", (f"{same} already on {trade.get('outcome')} "
+                            f"in this window — same bet, different coin"), None
+
     token = trade.get("asset")
     if not token:
         return "skip", "no token", None
@@ -185,7 +217,7 @@ def consider(s, trade, pinned, now=None):
         return "skip", "paused", None
 
     loss = day_loss_pct(s)
-    if loss >= cconfig.DAILY_STOP_PCT:
+    if cconfig.DAILY_STOP_PCT > 0 and loss >= cconfig.DAILY_STOP_PCT:
         return "skip", (f"daily stop — down {loss*100:.1f}% today, "
                         f"no new positions"), None
 
@@ -226,6 +258,7 @@ def open_position(s, trade, detail, now=None):
         "trader": detail["trader"],
         "wallet": detail["wallet"],
         "their_price": price,
+        "window": _window_key(trade),
         "opened": now,
     }
     s["copied"][detail["key"]] = now
