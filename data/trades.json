@@ -150735,5 +150735,89 @@
     "their_usd": 17.14302,
     "detail": "max open positions",
     "timestamp": "2026-09-20T11:40:01.754638+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Frosinone Calcio win on 2026-09-20? AND Will Atalanta BC win on 2026-09-20? AND Will Crystal Palace FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 2443.391644,
+    "detail": "price 0.992 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T11:43:41.595593+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Szczecin: Nikolas Sanchez Izquierdo vs Thiago Monteiro",
+    "outcome": "Nikolas Sanchez Izquierdo",
+    "their_usd": 3.98985,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T11:44:22.241929+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will CA Rosario Central win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 2394.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:45:07.087788+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will CA Rosario Central win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 1265.5445,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:48:40.848801+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Manchester City FC (-1.5) AND Leeds United FC vs. Crystal Palace FC: O/U 2.5",
+    "outcome": "",
+    "their_usd": 33.870361,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:48:41.606543+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Real Betis Balompi\u00e9 win on 2026-09-20? AND Will AZ win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20? AND Will Real Sociedad de F\u00fatbol win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 89.56299,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:48:41.720826+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester City FC win on 2026-09-20? AND Will M\u00e1laga CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 15.569784,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:48:41.825432+00:00"
   }
 ]
