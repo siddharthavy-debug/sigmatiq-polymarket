@@ -146779,5 +146779,169 @@
     "their_usd": 3.3561,
     "detail": "market already at $15.00 of $15.25 cap",
     "timestamp": "2026-09-20T05:51:54.742094+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Aoi Ito",
+    "their_usd": 15.01475,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T05:52:36.641097+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will AIK win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 1545.32598,
+    "detail": {
+      "shares": 9.8039,
+      "price": 0.51,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T05:52:38.087352+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Joanna Garland vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 4.16832,
+    "detail": {
+      "shares": 19.2308,
+      "price": 0.26,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T05:54:00.059479+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 610.801579,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:54:42.142760+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 1829.823158,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:54:42.247807+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 501.858948,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:54:42.351033+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 213.238422,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:54:42.441093+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-9.5)",
+    "outcome": "UCLA",
+    "their_usd": 2.7,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:54:43.724736+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 951.57,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:55:24.222082+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 444.547895,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:55:24.343446+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 576.208422,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:55:24.445452+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Nao Hibino",
+    "their_usd": 1603.85116,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T05:56:05.876267+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Aoi Ito",
+    "their_usd": 13.53633,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T05:57:29.803715+00:00"
   }
 ]
