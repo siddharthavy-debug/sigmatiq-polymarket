@@ -147809,5 +147809,53 @@
     "their_usd": 12.27536,
     "detail": "price 0.953 above 0.9 (no upside)",
     "timestamp": "2026-09-20T06:47:32.520884+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Spartak 1918 Varna vs. FC Lokomotiv 1929 Sofia end in a draw?",
+    "outcome": "No",
+    "their_usd": 46.62,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:54:34.122379+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Vissel K\u014dbe win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 524.246667,
+    "detail": "settles in 1.1h, too soon",
+    "timestamp": "2026-09-20T06:54:34.509438+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Joanna Garland vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 1.37258,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:57:21.447036+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Ujpest FC Budapest win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 44.339623,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:58:04.819956+00:00"
   }
 ]
