@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T19:35:20.579974+00:00",
+  "updated": "2026-09-20T19:40:48.532947+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -67,7 +67,7 @@
       "win_rate": 66.7,
       "pnl": 8.07,
       "pnl_per_closed": 0.9,
-      "skipped": 382,
+      "skipped": 383,
       "failed": 0,
       "benched": false
     },
@@ -198,6 +198,20 @@
       "benched": false
     },
     {
+      "trader": "Justluck9",
+      "wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+      "copied": 10,
+      "closed": 3,
+      "wins": 2,
+      "losses": 1,
+      "win_rate": 66.7,
+      "pnl": -2.22,
+      "pnl_per_closed": -0.74,
+      "skipped": 109,
+      "failed": 0,
+      "benched": false
+    },
+    {
       "trader": "Elaran1993",
       "wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
       "copied": 2,
@@ -212,20 +226,6 @@
       "benched": false
     },
     {
-      "trader": "Justluck9",
-      "wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
-      "copied": 9,
-      "closed": 2,
-      "wins": 1,
-      "losses": 1,
-      "win_rate": 50.0,
-      "pnl": -6.48,
-      "pnl_per_closed": -3.24,
-      "skipped": 108,
-      "failed": 0,
-      "benched": false
-    },
-    {
       "trader": "curie",
       "wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
       "copied": 9,
@@ -235,7 +235,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 3481,
+      "skipped": 3603,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 14115
+  "total_logged": 14241
 }
