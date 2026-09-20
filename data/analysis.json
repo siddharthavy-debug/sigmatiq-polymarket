@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T07:10:48.022117+00:00",
+  "updated": "2026-09-20T07:16:26.026432+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -11,7 +11,7 @@
       "win_rate": 52.4,
       "pnl": 117.39,
       "pnl_per_closed": 2.8,
-      "skipped": 963,
+      "skipped": 964,
       "failed": 0,
       "benched": false
     },
@@ -221,7 +221,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2585,
+      "skipped": 2586,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 12149
+  "total_logged": 12151
 }

@@ -147917,5 +147917,29 @@
     "their_usd": 1693.44,
     "detail": "max open positions",
     "timestamp": "2026-09-20T07:08:39.760918+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Mei Yamaguchi vs Kyoka Okamura",
+    "outcome": "Kyoka Okamura",
+    "their_usd": 133.36708,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T07:14:59.564635+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Manchester City FC (-1.5) AND Will PSV win on 2026-09-20? AND Will Leeds United FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 13.45818,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:15:43.204362+00:00"
   }
 ]
