@@ -150855,5 +150855,41 @@
     "their_usd": 10.145942,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T11:50:50.723574+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Ljubljana: Mona Barthel vs Samira De Stefano",
+    "outcome": "Mona Barthel",
+    "their_usd": 511.93113,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T11:55:51.908247+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Renan Santos win the 2026 Brazilian presidential election?",
+    "outcome": "No",
+    "their_usd": 4.62797,
+    "detail": "price 0.991 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T11:57:19.103678+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Liverpool FC win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 2172.5536,
+    "detail": "settles in 1.0h, too soon",
+    "timestamp": "2026-09-20T12:00:08.221564+00:00"
   }
 ]
