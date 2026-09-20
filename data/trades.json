@@ -159574,5 +159574,65 @@
     "their_usd": 539.1,
     "detail": "max open positions",
     "timestamp": "2026-09-20T16:28:11.659819+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Real Betis Balompi\u00e9 win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 14.105,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T16:28:51.751034+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Real Betis Balompi\u00e9 win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 300.0,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T16:28:51.872340+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Real Betis Balompi\u00e9 win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 5.0,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T16:28:51.990748+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "SharkbetX-com",
+    "trader_wallet": "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38",
+    "market": "Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 1503.1528,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:31:26.362975+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Steelers vs. Patriots: O/U 41.5",
+    "outcome": "Over",
+    "their_usd": 480.48,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-20T16:33:23.371636+00:00"
   }
 ]
