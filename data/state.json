@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 103.88452866195168,
+  "cash": 102.4800342799292,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -144,16 +144,6 @@
       "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
       "opened": "2026-09-19T22:10:52.535803+00:00"
     },
-    "50072653088330509782582550930453409961963231576538076431743436171922166068634": {
-      "market": "Spread: Club Atl\u00e9tico de Madrid (-1.5)",
-      "slug": "lal-mad-rea-2026-09-20-spread-home-1pt5",
-      "outcome": "Real Madrid CF",
-      "shares": 3.5955056179775284,
-      "cost": 3.2,
-      "trader": "0F62",
-      "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
-      "opened": "2026-09-20T01:00:56.840991+00:00"
-    },
     "13274189574463922536474472794994951299443536963447609819486740881717215109485": {
       "market": "Raiders vs. Chargers",
       "slug": "nfl-lv-lac-2026-09-20",
@@ -253,15 +243,19 @@
       "trader": "wan123",
       "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
       "opened": "2026-09-20T15:51:59.367740+00:00"
+    },
+    "13838649084229947609569135707372329286979041786117367059179037120752624938878": {
+      "market": "Saint Tropez: Gabi Adrian Boitan vs Vadym Ursu",
+      "slug": "atp-boita-ursu-2026-09-20",
+      "outcome": "Gabi Adrian Boitan",
+      "shares": 5.882352941176471,
+      "cost": 5.0,
+      "trader": "tradecraft",
+      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "opened": "2026-09-20T16:15:48.727394+00:00"
     }
   },
   "seen_trades": [
-    "0x2fcf9b59752809992ce0b0e6b3fd8da9be7db0db6fc1201c94be43ffe2732c26",
-    "0x06bda12daac27d8d0997893698535d76312a4c020449b0b4f795951438519cb1",
-    "0x72ce9133cdd5ae13473d4995ca672b86943c486ff7e2a6aae075ffc0155519d6",
-    "0xd62495f89b2a222019f3a8c4389d643dd18085fc2f80139818f5442bf64d49ed",
-    "0x5f46fa7134ea3c9b1c1b4632ce38b8f3d9393b4487a2b5abb89abbc4aa587429",
-    "0x2275b838a1574d31d7aac20af4e94571c49597cc65b59e0c0698b4d773b5d09d",
     "0xa3b3a28f449c03cc0bb90dcac8054d498b26ffbb1d589c9779bc06ed994a9a94",
     "0xb79090f12d959a7cd875da5ee58a9ee4222feb7d6bac263a7d9532c4a6f71309",
     "0x69716c4322da657dcbd90f3f1dbeef5ce790d8ba7bd4da45e1e5db48b4d43465",
@@ -8255,15 +8249,21 @@
     "0xe72f0d66985a7eca224c87aacab5cac5fbf1881699a7f9775291bf2772ede8cb",
     "0x6e25352542aeebf7d3f430b14d085416c931a4a5903170b5d340a299af956ed6",
     "0x85d602a319de152442fec17225c518c5010e1d1e1fc6ad349cc8fcf6ac5765a7",
-    "0x552139e9a46e92e01e2f6b1f27b199d28551ac9cb958d3590739035fba1843bb"
+    "0x552139e9a46e92e01e2f6b1f27b199d28551ac9cb958d3590739035fba1843bb",
+    "0xbc3b9951b6d1ae18e2f460c0962d11324dca93d7f5018449dc5e887af11ac1d2",
+    "0x20aee70b3b45d954f74757505b27b1d78c93e8bc39247ed338a1ef73422ebe88",
+    "0x418768434a5c8f59ccb9cbb4d470289510dddf532d2a68c0da7fb081117cbf02",
+    "0x6c2a79723f57afdc7117ee2307c391518d8b944649b8cb0d71b236050feb2545",
+    "0x3b6ff1cba254b5728a05200692596eb5276f84d9c39c285be91a640091c6c424",
+    "0xb62b27d398a13aeaaee133f2a843c58e470535ba48510bd1b28ba13d3c3fda4c"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T16:12:35.159467+00:00",
-  "realized_pnl": 25.991195328618403,
-  "trades_executed": 329,
-  "wins": 70,
+  "last_run": "2026-09-20T16:17:46.895859+00:00",
+  "realized_pnl": 26.38670094659593,
+  "trades_executed": 330,
+  "wins": 71,
   "losses": 63,
-  "skipped": 13287,
+  "skipped": 13292,
   "failed": 0,
   "initialised": true,
   "paused": false

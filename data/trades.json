@@ -159071,5 +159071,88 @@
     "their_usd": 4.06,
     "detail": "max open positions",
     "timestamp": "2026-09-20T16:11:53.671575+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Bengals vs. Texans: O/U 45.5",
+    "outcome": "Under",
+    "their_usd": 9360.0,
+    "detail": "settles in 0.8h, too soon",
+    "timestamp": "2026-09-20T16:13:12.933772+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Buenos Aires 2: Thiago Cigarran vs Santiago Pesino",
+    "outcome": "Thiago Cigarran",
+    "their_usd": 23.51156,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:13:14.320531+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Buenos Aires 2: Thiago Cigarran vs Santiago Pesino",
+    "outcome": "Thiago Cigarran",
+    "their_usd": 12.4107,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:15:09.861620+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Club Atl\u00e9tico de Madrid (-1.5)",
+    "outcome": "Real Madrid CF",
+    "their_usd": 0,
+    "detail": {
+      "shares": 3.5955,
+      "price": 1.0,
+      "proceeds": 3.6,
+      "pnl": 0.4,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-20T16:15:45.636887+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Saint Tropez: Gabi Adrian Boitan vs Vadym Ursu",
+    "outcome": "Gabi Adrian Boitan",
+    "their_usd": 12.84562,
+    "detail": {
+      "shares": 5.8824,
+      "price": 0.85,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T16:15:48.751072+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Commanders vs. Cowboys: O/U 50.5",
+    "outcome": "Over",
+    "their_usd": 9620.0,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:17:05.329500+00:00"
   }
 ]
