@@ -138786,5 +138786,113 @@
     "their_usd": 1.4,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T01:58:56.355420+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Milan win on 2026-09-20? AND Will Manchester United FC win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20? AND Will Lille OSC win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 30.109354,
+    "detail": "price 0.903 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T01:59:40.447843+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Virginia (-4.5)",
+    "outcome": "Virginia",
+    "their_usd": 2.8,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T01:59:40.568602+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will Portland Timbers win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 5.1969,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-20T02:01:02.814907+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will Portland Timbers win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 23619.48574,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-20T02:01:02.938205+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Arizona Diamondbacks (-1.5)",
+    "outcome": "Arizona Diamondbacks",
+    "their_usd": 18.83658,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:01:06.307337+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Spread: Portland Timbers (-1.5)",
+    "outcome": "Atlanta United FC",
+    "their_usd": 4028.14642,
+    "detail": "settles in 0.5h, too soon",
+    "timestamp": "2026-09-20T02:01:45.869693+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Yankees vs. Arizona Diamondbacks",
+    "outcome": "New York Yankees",
+    "their_usd": 83.33393,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:01:49.136682+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Fuego vs DN SOOPers Challengers (BO1) - World Star Challengers Invitational Group A AND LoL: EDward Gaming Youth Team vs T1 Academy (BO1) - World Star Challengers Invitational Group A",
+    "outcome": "",
+    "their_usd": 23.638021,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:02:31.684723+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Murray State vs. Oklahoma State: O/U 68.5",
+    "outcome": "Over",
+    "their_usd": 37.46,
+    "detail": "price 0.010 below 0.05 (longshot)",
+    "timestamp": "2026-09-20T02:04:39.100157+00:00"
   }
 ]
