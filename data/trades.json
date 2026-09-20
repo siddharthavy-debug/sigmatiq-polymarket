@@ -152775,5 +152775,113 @@
     "their_usd": 578.863174,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T13:07:10.044044+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Yankees vs. Arizona Diamondbacks AND Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "",
+    "their_usd": 578.86317,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T13:08:37.660491+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 1.911549,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T13:09:16.549112+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AD Marco 09 win on 2026-09-20? AND Will FCI Levadia Tallinn win on 2026-09-20? AND Will Olympiacos Piraeus win on 2026-09-20? AND Will CR Brasil win on 2026-09-20? AND Will Fenerbah\u00e7e SK win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 4.564759,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T13:09:20.823939+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester City FC win on 2026-09-20?",
+    "outcome": "Yes",
+    "their_usd": 10.04466,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T13:10:46.913303+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester City FC win on 2026-09-20?",
+    "outcome": "Yes",
+    "their_usd": 13.39288,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T13:10:47.029066+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester City FC vs. Sunderland AFC end in a draw?",
+    "outcome": "No",
+    "their_usd": 10.03611,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T13:10:47.136027+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+    "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+    "market": "Counter-Strike: Vitality vs FURIA - Map 2 Winner",
+    "outcome": "Vitality",
+    "their_usd": 3626.68064,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T13:12:10.112674+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+    "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+    "market": "Counter-Strike: Vitality vs FURIA - Map 2 Winner",
+    "outcome": "Vitality",
+    "their_usd": 10552.37937,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T13:12:10.227769+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+    "trader_wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+    "market": "Counter-Strike: Vitality vs FURIA - Map 2 Winner",
+    "outcome": "Vitality",
+    "their_usd": 127.5,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T13:12:10.337903+00:00"
   }
 ]
