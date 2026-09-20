@@ -165980,5 +165980,77 @@
     "their_usd": 4.34,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T18:18:56.258143+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "FC Porto vs. Sport Lisboa e Benfica: Both Teams to Score AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 17.906624,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:20:15.999809+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Atlanta Braves (-1.5)",
+    "outcome": "Atlanta Braves",
+    "their_usd": 1.3481,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:22:12.634722+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Vikings vs. Bears: O/U 33.5",
+    "outcome": "Under",
+    "their_usd": 14.75,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:23:30.635524+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Milan win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 11.220395,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:23:30.761207+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Cincinnati Reds",
+    "their_usd": 5.12278,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:24:09.615373+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Cincinnati Reds",
+    "their_usd": 1249.5458,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:24:09.739444+00:00"
   }
 ]
