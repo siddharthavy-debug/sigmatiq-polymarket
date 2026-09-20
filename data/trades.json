@@ -146399,5 +146399,153 @@
     "their_usd": 392.4,
     "detail": "price 0.981 above 0.9 (no upside)",
     "timestamp": "2026-09-20T05:35:10.434119+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Aoi Ito",
+    "their_usd": 1.040817,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T05:36:35.067097+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Parma Calcio 1913 vs. Genoa CFC end in a draw?",
+    "outcome": "No",
+    "their_usd": 3439.74643,
+    "detail": {
+      "shares": 7.3529,
+      "price": 0.68,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T05:36:36.149611+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Alevtina Ibragimova",
+    "their_usd": 47.10485,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T05:37:16.477799+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: James Madison (-14.5)",
+    "outcome": "San Diego State",
+    "their_usd": 4.85,
+    "detail": "price 0.970 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:38:41.069707+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 529.74,
+    "detail": "price 0.981 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T05:39:21.205002+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Fresno State (-3.5)",
+    "outcome": "Fresno State",
+    "their_usd": 3.95,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:39:22.607555+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-11.5)",
+    "outcome": "Purdue",
+    "their_usd": 13.2,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:39:22.710819+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Nao Hibino",
+    "their_usd": 33.06875,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T05:40:02.793501+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Fuego vs DN SOOPers Challengers (BO1) - World Star Challengers Invitational Group A AND LoL: KT Rolster Challengers vs Bilibili Gaming Junior (BO1) - World Star Challengers Invitational Group B AND LoL: EDward Gaming Youth Team vs T1 Academy (BO1) - World Star Challengers Invitational Group A AND LoL: DN SOOPers Challengers vs T1 Academy (BO1) - World Star Challengers Invitational Group A",
+    "outcome": "",
+    "their_usd": 321.565607,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:40:04.552494+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Fresno State (-3.5)",
+    "outcome": "Fresno State",
+    "their_usd": 3.65,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:40:04.655082+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Fuego vs DN SOOPers Challengers (BO1) - World Star Challengers Invitational Group A AND LoL: KT Rolster Challengers vs Bilibili Gaming Junior (BO1) - World Star Challengers Invitational Group B AND LoL: EDward Gaming Youth Team vs T1 Academy (BO1) - World Star Challengers Invitational Group A AND LoL: DN SOOPers Challengers vs T1 Academy (BO1) - World Star Challengers Invitational Group A",
+    "outcome": "",
+    "their_usd": 428.754138,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:40:04.746839+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Fuego vs DN SOOPers Challengers (BO1) - World Star Challengers Invitational Group A AND LoL: KT Rolster Challengers vs Bilibili Gaming Junior (BO1) - World Star Challengers Invitational Group B AND LoL: EDward Gaming Youth Team vs T1 Academy (BO1) - World Star Challengers Invitational Group A AND LoL: DN SOOPers Challengers vs T1 Academy (BO1) - World Star Challengers Invitational Group A",
+    "outcome": "",
+    "their_usd": 75.498647,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T05:40:46.566600+00:00"
   }
 ]
