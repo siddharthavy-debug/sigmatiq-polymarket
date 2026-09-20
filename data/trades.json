@@ -150651,5 +150651,41 @@
     "their_usd": 9.65008,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T11:27:07.744179+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will AZ win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 536.33457,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:28:34.456596+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Porto win on 2026-09-20? AND Will FC K\u00f8benhavn win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 26.967849,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:30:43.218398+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Fenerbah\u00e7e SK leading at halftime? AND Will Como 1907 win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 38.365434,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:32:08.105967+00:00"
   }
 ]
