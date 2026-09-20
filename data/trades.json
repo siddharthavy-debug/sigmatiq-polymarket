@@ -147450,5 +147450,101 @@
     "their_usd": 187.168034,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T06:20:04.171412+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Eagles vs. Titans",
+    "outcome": "Titans",
+    "their_usd": 2400.0,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:20:47.898628+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: 49ers (-13.5) AND Spread: Eagles (-6.5) AND Spread: KC (-5.5)",
+    "outcome": "",
+    "their_usd": 446.789632,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:20:48.258546+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-11.5)",
+    "outcome": "Purdue",
+    "their_usd": 2.55,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:21:30.278085+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Fresno State vs. San Jose State",
+    "outcome": "San Jose State",
+    "their_usd": 62.1426,
+    "detail": "price 0.030 below 0.05 (longshot)",
+    "timestamp": "2026-09-20T06:22:12.796396+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will G\u00f6ztepe SK vs. \u00c7aykur Rizespor end in a draw?",
+    "outcome": "No",
+    "their_usd": 49.64544,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:22:55.005506+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Modena FC 2018 vs. Empoli FC: O/U 2.5",
+    "outcome": "Under",
+    "their_usd": 34.3375,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:22:55.186746+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-14.5)",
+    "outcome": "Purdue",
+    "their_usd": 5.25,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:22:55.779756+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Ujpest FC Budapest win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 8.8642,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:24:19.432716+00:00"
   }
 ]
