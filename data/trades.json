@@ -158975,5 +158975,101 @@
     "their_usd": 606.08513,
     "detail": "max open positions",
     "timestamp": "2026-09-20T16:07:21.901656+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Boston Red Sox vs. Tampa Bay Rays AND Detroit Tigers vs. Chicago White Sox",
+    "outcome": "",
+    "their_usd": 192.541369,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T16:08:03.677059+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 66.12,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:08:39.869251+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Buenos Aires 2: Thiago Cigarran vs Santiago Pesino",
+    "outcome": "Thiago Cigarran",
+    "their_usd": 20.7264,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:08:41.085549+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Buenos Aires 2: Thiago Cigarran vs Santiago Pesino",
+    "outcome": "Santiago Pesino",
+    "their_usd": 10.84125,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:09:20.106652+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 3.77,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:09:57.075497+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 12.76,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:09:57.203428+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Buenos Aires 2: Thiago Cigarran vs Santiago Pesino",
+    "outcome": "Thiago Cigarran",
+    "their_usd": 10.51042,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:11:15.930425+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Colts vs. Chiefs",
+    "outcome": "Colts",
+    "their_usd": 4.06,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:11:53.671575+00:00"
   }
 ]
