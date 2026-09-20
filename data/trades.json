@@ -147546,5 +147546,101 @@
     "their_usd": 8.8642,
     "detail": "max open positions",
     "timestamp": "2026-09-20T06:24:19.432716+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Joanna Garland vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 11.11421,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T06:27:08.531903+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Alevtina Ibragimova",
+    "their_usd": 230.20969,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T06:27:08.636502+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Fresno State (-2.5)",
+    "outcome": "Fresno State",
+    "their_usd": 9.35,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:28:34.134815+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Gangwon FC vs. Jeju SK FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 13.11,
+    "detail": "settles in 1.0h, too soon",
+    "timestamp": "2026-09-20T06:29:15.757455+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Gangwon FC vs. Jeju SK FC end in a draw?",
+    "outcome": "No",
+    "their_usd": 52.7781,
+    "detail": "settles in 1.0h, too soon",
+    "timestamp": "2026-09-20T06:29:15.878229+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "wan123",
+    "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "market": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+    "outcome": "Yes",
+    "their_usd": 11.712,
+    "detail": "settles in 103d, too far out",
+    "timestamp": "2026-09-20T06:29:55.136939+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alevtina Ibragimova vs Sara Saito",
+    "outcome": "Alevtina Ibragimova",
+    "their_usd": 40.30452,
+    "detail": "already hold this market",
+    "timestamp": "2026-09-20T06:30:39.414518+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Real Betis Balompi\u00e9 win on 2026-09-20? AND Will Getafe CF win on 2026-09-20? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 114.21899,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:30:40.981930+00:00"
   }
 ]
