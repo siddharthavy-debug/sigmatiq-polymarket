@@ -152703,5 +152703,77 @@
     "their_usd": 2426.08164,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T13:02:07.961031+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Szczecin: Nikolas Sanchez Izquierdo vs Thiago Monteiro",
+    "outcome": "Nikolas Sanchez Izquierdo",
+    "their_usd": 13.99882,
+    "detail": "price 0.930 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T13:02:51.557778+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Ujpest FC Budapest win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 47.25717,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T13:02:53.185605+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Yankees vs. Arizona Diamondbacks AND Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "",
+    "their_usd": 578.878309,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T13:02:53.915325+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Ujpest FC Budapest win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 94.0,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T13:06:26.960724+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "outcome": "Yes",
+    "their_usd": 3754.90368,
+    "detail": "we don't hold this",
+    "timestamp": "2026-09-20T13:07:09.623153+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Yankees vs. Arizona Diamondbacks AND Kansas City Royals vs. Pittsburgh Pirates",
+    "outcome": "",
+    "their_usd": 578.863174,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T13:07:10.044044+00:00"
   }
 ]
