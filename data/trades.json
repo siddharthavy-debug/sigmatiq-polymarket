@@ -135152,5 +135152,141 @@
       "result": "WON"
     },
     "timestamp": "2026-09-20T00:35:11.737291+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Tiburon: Michael Mmoh vs J.J. Wolf",
+    "outcome": "J.J. Wolf",
+    "their_usd": 12.61903,
+    "detail": {
+      "shares": 15.1515,
+      "price": 0.33,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T00:37:25.644067+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Browns vs. Buccaneers AND Dolphins vs. 49ers AND Eagles vs. Titans AND Colts vs. Chiefs",
+    "outcome": "",
+    "their_usd": 50.260308,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:37:27.412815+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Virginia (-7.5)",
+    "outcome": "West Virginia",
+    "their_usd": 11.25,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:37:27.532182+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LSU vs. Ole Miss: O/U 60.5",
+    "outcome": "Under",
+    "their_usd": 5.999,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:38:51.963915+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LSU vs. Ole Miss: O/U 60.5",
+    "outcome": "Under",
+    "their_usd": 7.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:38:52.087687+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Alabama (-9.5)",
+    "outcome": "Florida State",
+    "their_usd": 12.5,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:39:34.323158+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Marshall vs. Missouri State",
+    "outcome": "Marshall",
+    "their_usd": 7.9,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:40:16.943918+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New Mexico vs. Oklahoma",
+    "outcome": "New Mexico",
+    "their_usd": 16.8,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:40:59.142643+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New Mexico vs. Oklahoma",
+    "outcome": "New Mexico",
+    "their_usd": 67.6,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:40:59.265000+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New Mexico vs. Oklahoma",
+    "outcome": "New Mexico",
+    "their_usd": 30.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:40:59.383879+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New Mexico vs. Oklahoma",
+    "outcome": "New Mexico",
+    "their_usd": 80.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T00:40:59.503416+00:00"
   }
 ]
