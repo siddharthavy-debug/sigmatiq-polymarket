@@ -22,7 +22,7 @@ import sys
 import time
 from datetime import datetime, timezone
 
-from bot import polymarket as pm
+from . import api as pm
 from . import cconfig, csettings, cstate, engine, feed, settle
 
 WINDOW_MINUTES = int(os.getenv("WINDOW_MINUTES", "330"))

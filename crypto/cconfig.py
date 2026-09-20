@@ -52,6 +52,9 @@ MAX_HORIZON_SECONDS = _i("CRYPTO_MAX_HORIZON", "3600")     # 1 hour
 
 # At 90c a win pays 11c and a loss costs 90c. Below 5c the odds are lottery
 # tickets. The band in between is where wins can exceed losses.
+# Measured, not guessed. Of 242 wallets ranked over a real week: the 45-55c
+# band held 126 of them, 61% profitable, +$30,517 between them. Above 85c, ten
+# wallets, six of them "winning" most trades, minus $4,696 overall.
 MAX_BUY_PRICE = _f("CRYPTO_MAX_PRICE", "0.60")
 MIN_BUY_PRICE = _f("CRYPTO_MIN_PRICE", "0.40")
 
@@ -60,8 +63,12 @@ MIN_BUY_PRICE = _f("CRYPTO_MIN_PRICE", "0.40")
 # would be buying what they already pushed up.
 MAX_SIGNAL_AGE_SECONDS = _f("CRYPTO_MAX_SIGNAL_AGE", "8")
 
-# Ignore their dust. A trader risking $2 is not expressing a view.
-MIN_THEIR_TRADE_USD = _f("CRYPTO_MIN_THEIR_USD", "20")
+# Almost nothing. The ranking measured every trade these wallets made,
+# including the $1 ones, and that is where the margin came from — so filtering
+# them out would mean refusing to copy the behaviour we picked them for. The
+# first live run showed this immediately: ten signals in a minute, every one
+# rejected as "they risked only $1".
+MIN_THEIR_TRADE_USD = _f("CRYPTO_MIN_THEIR_USD", "1")
 
 PAUSED = os.getenv("CRYPTO_PAUSED", "").lower() in ("1", "true", "yes")
 

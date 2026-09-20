@@ -16,7 +16,7 @@ netted:
 import time
 from collections import defaultdict
 
-from bot import polymarket as pm
+from . import api as pm
 from . import store
 
 # A market can take a moment to publish its result after the clock runs out.

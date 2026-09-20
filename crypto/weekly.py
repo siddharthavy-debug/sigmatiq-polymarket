@@ -32,8 +32,7 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
-from bot import polymarket as pm
-from bot import config
+from . import api as pm
 from . import feed
 from .rank_history import (market_facts, history, load_cache, save_cache,
                            CANDIDATES, THREADS)
@@ -41,13 +40,36 @@ from .rank_history import (market_facts, history, load_cache, save_cache,
 WINDOW_DAYS  = float(os.getenv("WINDOW_DAYS", "7"))
 MIN_TRADES   = int(os.getenv("MIN_TRADES", "50"))
 WIN_RATE_BAR = float(os.getenv("WIN_RATE_BAR", "0.70"))
-MARGIN_BAR   = float(os.getenv("MARGIN_BAR", "0.08"))
+# Set from the first real run, not guessed. Across 242 wallets the median
+# margin was +0.20% — these markets are priced well — and only one wallet
+# reached +8%, which is why the first pass produced an empty list. At +3% there
+# are 22 wallets and 17 of them made money, which is a list worth having.
+MARGIN_BAR   = float(os.getenv("MARGIN_BAR", "0.03"))
+# Fourteen wallets cleared z=+2. Chance alone would produce about six of those
+# across 242, so roughly half are real and we cannot tell which — hence taking
+# a dozen rather than betting on one.
+MIN_Z        = float(os.getenv("MIN_Z", "2.0"))
+# 45-55c held 126 wallets, 61% of them profitable, +$30,517 between them.
+# Above 85c: ten wallets, six "profitable", minus $4,696 overall.
+PIN_MIN_ENTRY = float(os.getenv("PIN_MIN_ENTRY", "0.35"))
+PIN_MAX_ENTRY = float(os.getenv("PIN_MAX_ENTRY", "0.65"))
+PIN_MIN_TRADES = int(os.getenv("PIN_MIN_TRADES", "300"))
 MAX_BOTH_SIDES = float(os.getenv("MAX_BOTH_SIDES", "0.15"))
-TOP_N        = int(os.getenv("TOP_N", "10"))
-POOL_LIMIT       = int(os.getenv("POOL_LIMIT", "250"))
-POOL_MIN_TRADES  = int(os.getenv("POOL_MIN_TRADES", "4"))
-POOL_MIN_MARKETS = int(os.getenv("POOL_MIN_MARKETS", "3"))
-POOL_MAX_PER_MKT = float(os.getenv("POOL_MAX_PER_MKT", "12"))
+TOP_N        = int(os.getenv("TOP_N", "12"))
+
+# The harvest returns thousands of wallets and each one costs a history call
+# plus market lookups, so the pool has to be narrowed before ranking or this
+# runs for hours. Two cuts, both cheap and both defensible:
+#
+#   a wallet seen in only one or two markets is not trading, it is quoting —
+#   the 30-minute harvest found wallets with 1,126 trades across 10 markets,
+#   which is roughly 113 trades per market and nobody's idea of a prediction
+#
+#   below a handful of trades there is nothing to measure anyway
+POOL_LIMIT        = int(os.getenv("POOL_LIMIT", "250"))
+POOL_MIN_TRADES   = int(os.getenv("POOL_MIN_TRADES", "4"))
+POOL_MIN_MARKETS  = int(os.getenv("POOL_MIN_MARKETS", "3"))
+POOL_MAX_PER_MKT  = float(os.getenv("POOL_MAX_PER_MKT", "12"))
 MAX_HORIZON_SECONDS = int(os.getenv("MAX_HORIZON_SECONDS", "3600"))   # 1 hour
 OUT = "crypto_weekly.json"
 
@@ -237,20 +259,26 @@ def main():
 
     pool, quoters, thin = [], 0, 0
     for c in cands:
-        n = c.get("trades_seen", 0); m = c.get("markets_seen", 0) or 1
+        n = c.get("trades_seen", 0)
+        m = c.get("markets_seen", 0) or 1
         if n < POOL_MIN_TRADES or m < POOL_MIN_MARKETS:
-            thin += 1; continue
+            thin += 1
+            continue
         if n / m > POOL_MAX_PER_MKT:
-            quoters += 1; continue
+            quoters += 1          # dozens of trades in one market: a quoter
+            continue
         pool.append(c)
     pool.sort(key=lambda c: -c.get("trades_seen", 0))
-    extra = max(0, len(pool) - POOL_LIMIT)
+    dropped_for_size = max(0, len(pool) - POOL_LIMIT)
     pool = pool[:POOL_LIMIT]
+
     print(f"Weekly crypto trader review — last {days:g} days")
     print(f"  {len(cands):,} wallets harvested")
     print(f"    {thin:,} too quiet to measure")
-    print(f"    {quoters:,} look like quoters (>{POOL_MAX_PER_MKT:g} trades per market)")
-    if extra: print(f"    {extra:,} below the busiest {POOL_LIMIT}")
+    print(f"    {quoters:,} look like quoters "
+          f"(more than {POOL_MAX_PER_MKT:g} trades per market)")
+    if dropped_for_size:
+        print(f"    {dropped_for_size:,} below the busiest {POOL_LIMIT}")
     print(f"  {len(pool)} candidates to rank")
     print(f"  crypto UP/DOWN only, 5m to "
           f"{MAX_HORIZON_SECONDS//60}m markets")
@@ -297,8 +325,13 @@ def main():
     a_raw = a_raw[:TOP_N]
 
     # LIST B — win rate measured against the price paid
-    b = [m for m in eligible if m["margin"] >= MARGIN_BAR and m["profit"] > 0]
-    b.sort(key=lambda m: -m["margin"])
+    b = [m for m in eligible
+         if m["margin"] >= MARGIN_BAR
+         and m["edge_z"] >= MIN_Z
+         and m["profit"] > 0
+         and PIN_MIN_ENTRY <= m["avg_entry"] <= PIN_MAX_ENTRY
+         and m["trades"] >= PIN_MIN_TRADES]
+    b.sort(key=lambda m: -m["edge_z"])
     b = b[:TOP_N]
 
     print("\n" + "=" * 107)
@@ -309,9 +342,11 @@ def main():
     table(f"LIST A' — the same {WIN_RATE_BAR:.0%} bar, profit NOT required",
           "this is what the win-rate rule lets in on its own", a_raw, None)
 
-    table(f"LIST B — MARGIN: win rate at least {MARGIN_BAR:.0%} above the "
-          f"price paid, and up on the week",
-          "sorted by win rate minus average entry price", b, None)
+    table(f"LIST B — THE ONES WORTH COPYING: margin >={MARGIN_BAR:.0%}, "
+          f"z >=+{MIN_Z:g}, profitable, "
+          f"{PIN_MIN_ENTRY*100:.0f}c-{PIN_MAX_ENTRY*100:.0f}c entries, "
+          f"{PIN_MIN_TRADES}+ trades",
+          "sorted by how far their results beat the prices they paid", b, None)
 
     losers = [m for m in a_raw if m["profit"] <= 0]
     print("\n" + "=" * 107)

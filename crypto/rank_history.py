@@ -35,11 +35,10 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
-from bot import config
-from bot import polymarket as pm
+from . import api as pm
 from . import feed
 
-GAMMA = "https://gamma-api.polymarket.com"
+GAMMA = pm.GAMMA_API
 CACHE_FILE = ".crypto_market_cache.json"
 CANDIDATES = "crypto_candidates.json"
 OUT_JSON = "crypto_ranking.json"
@@ -132,7 +131,7 @@ def history(wallet, limit):
     rows, offset, page = [], 0, 500
     while len(rows) < limit:
         batch = pm._rows(pm._get(
-            f"{config.DATA_API}/activity",
+            f"{pm.DATA_API}/activity",
             {"user": wallet, "limit": min(page, limit - len(rows)),
              "offset": offset, "type": "TRADE"}))
         if not batch:

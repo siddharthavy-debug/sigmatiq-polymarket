@@ -4,421 +4,408 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#16171B">
-<title>Sigmatiq Polymarket</title>
+<title>Sigmatiq</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./board.css">
+<style>
+/* the risk gauges — how much is at work, and how close the day's stop is */
+.gauge{margin-top:22px}
+.gauge .lab{display:flex;justify-content:space-between;
+  font-size:.76rem;color:var(--dim);margin-bottom:6px}
+.gauge .bar{height:6px;background:var(--panel);border:1px solid var(--edge);
+  border-radius:3px;overflow:hidden;position:relative}
+.gauge .bar i{position:absolute;left:0;top:0;bottom:0;background:var(--amber)}
+.gauge .bar i.warn{background:var(--down)}
+.switchbar{display:flex;gap:8px;margin:0 0 20px}
+.switchbar a{flex:1;text-align:center;padding:9px 0;font-size:.82rem;
+  font-weight:600;text-decoration:none;color:var(--dim);
+  border:1px solid var(--edge);border-radius:4px}
+.switchbar a.here{color:#16171B;background:var(--amber);border-color:var(--amber)}
+.stopped{border:1px solid var(--down);color:var(--down);border-radius:4px;
+  padding:12px 14px;font-size:.85rem;margin-top:18px}
+</style>
 </head>
 <body>
 
-<section id="gate">
-  <div class="mark">Sigmatiq · Polymarket</div>
+<div id="gate">
+  <div class="mark">Sigmatiq</div>
   <p>Enter your PIN.</p>
   <input id="pin" type="password" inputmode="numeric" autocomplete="off"
          maxlength="12" aria-label="PIN">
-  <button id="go">Unlock</button>
-  <p class="err" id="err" role="alert"></p>
-</section>
+  <button id="go">Open</button>
+  <div class="err" id="gate-err"></div>
+</div>
 
-<main id="panel" class="hide">
+<main id="board" class="hide">
 
-  <div class="switchbar">
-    <a href="./index.html" class="here">Sports</a>
-    <a href="./crypto.html">Crypto</a>
-  </div>
 
-  <div class="equity">
-    <div class="num" id="equity">—</div>
+  <section class="equity">
+    <div class="num mono" id="equity">—</div>
     <div class="delta" id="delta"></div>
-    <div class="sub" id="sub"></div>
-  </div>
+    <div class="sub" id="split"></div>
+  </section>
 
   <div class="facts">
-    <div><b id="f-open">—</b><span>open now</span></div>
-    <div><b id="f-closed">—</b><span>closed</span></div>
-    <div><b id="f-wr">—</b><span>win rate</span></div>
+    <div><b class="mono" id="f-open">0</b><span>open now</span></div>
+    <div><b class="mono" id="f-closed">0</b><span>closed</span></div>
+    <div><b class="mono" id="f-win">—</b><span>win rate</span></div>
   </div>
+
+  <div class="gauge">
+    <div class="lab"><span>At work</span><span id="g-dep-txt">—</span></div>
+    <div class="bar"><i id="g-dep" style="width:0"></i></div>
+  </div>
+  <div class="gauge">
+    <div class="lab"><span>Today</span><span id="g-day-txt">—</span></div>
+    <div class="bar"><i id="g-day" style="width:0"></i></div>
+  </div>
+  <div id="stop-note"></div>
 
   <h2>Open positions</h2>
   <div id="positions"></div>
 
-  <h2>Traders</h2>
+  <h2>Who we follow</h2>
   <div id="traders"></div>
 
-  <h2>Recent activity</h2>
-  <div id="log" class="log"></div>
+  <h2>Recent</h2>
+  <div class="log" id="log"></div>
 
   <h2>Controls</h2>
   <div class="settings">
     <div class="row">
-      <div>
-        <label>Mode</label>
-        <span class="hint" id="mode-hint">Paper places no real orders.</span>
-      </div>
-      <div class="toggle">
-        <button id="m-paper" class="on">Paper</button>
-        <button id="m-live">Live</button>
-      </div>
+      <div><label>Mode</label><span class="hint" id="mode-hint">Paper places no real orders.</span></div>
+      <div class="toggle"><button id="m-paper">Paper</button><button id="m-live">Live</button></div>
     </div>
-
     <div class="row">
-      <div>
-        <label>Trading</label>
-        <span class="hint" id="pause-hint">Pausing stops new trades.</span>
-      </div>
-      <div class="toggle">
-        <button id="p-run" class="on">Running</button>
-        <button id="p-pause">Paused</button>
-      </div>
+      <div><label>Trading</label><span class="hint" id="pause-hint">Pausing stops new trades.</span></div>
+      <div class="toggle"><button id="p-run">Run</button><button id="p-pause">Pause</button></div>
     </div>
-
     <div class="row">
       <div><label for="s-total">Wallet balance</label>
-        <span class="hint">What you've deposited.</span></div>
-      <input type="number" id="s-total" step="10" min="5">
+        <span class="hint">The bot never touches more than the allocation.</span></div>
+      <input type="number" id="s-total" step="10" min="10">
     </div>
-
     <div class="row">
-      <div><label for="s-alloc">Trading allocation</label>
-        <span class="hint">All the bot may ever touch.</span></div>
-      <input type="number" id="s-alloc" step="10" min="5">
+      <div><label for="s-alloc">Allocation</label>
+        <span class="hint" id="alloc-hint">What it is allowed to trade with.</span></div>
+      <input type="number" id="s-alloc" step="10" min="10">
     </div>
-
     <div class="row">
-      <div><label for="s-size">Per trade</label>
-        <span class="hint" id="size-hint"></span></div>
-      <input type="number" id="s-size" step="1" min="1">
+      <div><label for="s-stake">Per trade</label>
+        <span class="hint" id="stake-hint"></span></div>
+      <input type="number" id="s-stake" step="0.5" min="0.2" max="10">
     </div>
-
     <div class="row">
-      <div><label for="s-days">Settle within</label>
-        <span class="hint">Days. Skips markets resolving later than this.</span></div>
-      <input type="number" id="s-days" step="1" min="1">
+      <div><label for="s-dep">Most at work at once</label>
+        <span class="hint" id="dep-hint"></span></div>
+      <input type="number" id="s-dep" step="5" min="2" max="100">
     </div>
-
     <div class="row">
-      <div><label for="s-hours">Not sooner than</label>
-        <span class="hint">Hours. Below ~0.5 the copy lands after the
-          market has already moved.</span></div>
-      <input type="number" id="s-hours" step="0.25" min="0" max="24">
+      <div><label for="s-stop">Daily stop</label>
+        <span class="hint" id="stop-hint"></span></div>
+      <input type="number" id="s-stop" step="1" min="1" max="50">
     </div>
-
     <div class="row">
-      <div><label for="s-maxprice">Highest price to buy</label>
+      <div><label for="s-minh">Shortest market</label>
+        <span class="hint">Minutes. Below 5 the copy lands after the move.</span></div>
+      <input type="number" id="s-minh" step="5" min="1">
+    </div>
+    <div class="row">
+      <div><label for="s-maxh">Longest market</label>
+        <span class="hint">Minutes. 60 = one hour.</span></div>
+      <input type="number" id="s-maxh" step="15" min="5">
+    </div>
+    <div class="row">
+      <div><label for="s-maxp">Highest price to buy</label>
         <span class="hint" id="price-hint"></span></div>
-      <input type="number" id="s-maxprice" step="0.01" min="0.05" max="0.99">
+      <input type="number" id="s-maxp" step="0.05" min="0.05" max="0.95">
     </div>
-
     <div class="row">
-      <div><label for="s-traders">Traders followed</label>
-        <span class="hint">Top N by profit, refreshed daily.</span></div>
-      <input type="number" id="s-traders" step="1" min="1" max="50">
+      <div><label for="s-minp">Lowest price to buy</label>
+        <span class="hint">Below this it is a lottery ticket.</span></div>
+      <input type="number" id="s-minp" step="0.05" min="0.01" max="0.9">
+    </div>
+    <div class="row">
+      <div><label for="s-age">Ignore signals older than</label>
+        <span class="hint">Seconds. The feed normally lands in about one.</span></div>
+      <input type="number" id="s-age" step="1" min="1" max="120">
+    </div>
+    <div class="row">
+      <div><label for="s-their">Ignore their trades under</label>
+        <span class="hint">Dollars. Small trades are not a real view.</span></div>
+      <input type="number" id="s-their" step="5" min="0">
     </div>
 
     <div class="actions">
-      <button id="save">Save changes</button>
-      <button id="reload" class="ghost">Discard</button>
+      <button id="save">Save</button>
+      <button id="reload" class="ghost">Reload</button>
       <span id="save-msg"></span>
     </div>
-    <p class="note" id="settings-note"></p>
+    <div class="note" id="live-note"></div>
   </div>
 
   <footer>
+    <span class="pill" id="pill">paper</span>
     <span id="stamp"></span>
-    <span class="pill" id="mode-pill"><i class="dot-s"></i><span id="mode-text">paper</span></span>
-    <button id="refresh" class="ghost">Refresh now</button>
   </footer>
 </main>
 
 <script>
 const $ = id => document.getElementById(id);
-const money = n => (n < 0 ? "-$" : "$") + Math.abs(n).toFixed(2);
-const signed = n => (n >= 0 ? "+$" : "-$") + Math.abs(n).toFixed(2);
-const cents = p => Math.round(p * 100) + "¢";
-const esc = s => String(s).replace(/[&<>"']/g,
-  c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
-
 let PIN = "";
 let LIVE_ARMED = false;
-let current = { mode: "paper", paused: false };
+const current = { mode: "paper", paused: false };
 
-async function post(url, body) {
-  const r = await fetch(url, {
+const money = n => (n < 0 ? "-$" : "$") + Math.abs(n).toFixed(2);
+const pct = n => (n * 100).toFixed(1) + "%";
+
+async function post(path, body) {
+  const r = await fetch(path, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ pin: PIN, ...body }),
+    body: JSON.stringify({ pin: PIN, engine: "crypto", ...body }),
   });
-  const j = await r.json().catch(() => ({}));
-  if (!r.ok) throw new Error(j.error || "Request failed.");
-  return j;
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.error || `Request failed (${r.status})`);
+  return data;
 }
 
-/* ---------------- unlock ---------------- */
-$("go").onclick = unlock;
-$("pin").onkeydown = e => { if (e.key === "Enter") unlock(); };
-
-async function unlock() {
-  const pin = $("pin").value.trim();
-  if (!pin) return;
-  $("go").disabled = true; $("err").textContent = "";
-  try {
-    PIN = pin;
-    const data = await post("/api/data", {});
-    if (data.waiting) {
-      $("err").innerHTML =
-        'PIN accepted. Waiting for the bot\'s first update \u2014 ' +
-        'this takes about five minutes after a reset.';
-      $("err").style.color = "var(--dim)";
-      sessionStorage.setItem("pin", pin);
-      PIN = pin;
-      setTimeout(unlock, 30000);
-      return;
-    }
-    $("err").style.color = "";
-    sessionStorage.setItem("pin", pin);
-    $("gate").classList.add("hide");
-    $("panel").classList.remove("hide");
-    render(data);
-    loadSettings();
-    startPolling();
-  } catch (e) {
-    PIN = "";
-    $("err").textContent = e.message;
-    $("pin").value = ""; $("pin").focus();
-  } finally {
-    $("go").disabled = false;
-  }
-}
-
-$("refresh").onclick = async () => {
-  $("refresh").disabled = true;
-  try { render(await post("/api/data", {})); }
-  catch (e) { $("stamp").textContent = e.message; }
-  finally { $("refresh").disabled = false; }
-};
-
-/* ---------------- render ---------------- */
+/* ---------------------------------------------------------------- render */
 function render(d) {
-  const s = d.state || {};
-  const positions = s.positions || {};
-  const invested = Object.values(positions).reduce((a, p) => a + (p.cost || 0), 0);
-  const equity = (s.cash || 0) + invested;
-  const start = s.allocation || 100;
-  const diff = equity - start;
+  if (d.waiting) {
+    $("equity").textContent = "—";
+    $("delta").textContent = "";
+    $("split").textContent = d.message || "Waiting for the bot's first run.";
+    return;
+  }
+  const s = d.state;
+  const positions = Object.values(s.positions || {});
+  const deployed = positions.reduce((a, p) => a + p.cost, 0);
+  const equity = (s.cash || 0) + deployed;
+  const base = s.contributed ?? s.allocation ?? 0;
+  const diff = equity - base;
 
   $("equity").textContent = money(equity);
-  const dl = $("delta");
-  dl.textContent = `${signed(diff)} · ${(diff / start * 100).toFixed(1)}% from ${money(start)}`;
-  dl.className = "delta " + (diff >= 0 ? "up" : "down");
-  $("sub").textContent =
-    `${money(s.cash || 0)} cash · ${money(invested)} at work · ` +
-    `${money(Math.max((s.total_balance || 0) - start, 0))} untouched`;
+  $("delta").className = "delta " + (diff >= 0 ? "up" : "down");
+  $("delta").textContent = base
+    ? `${diff >= 0 ? "+" : "-"}$${Math.abs(diff).toFixed(2)} · ` +
+      `${diff >= 0 ? "+" : "-"}${Math.abs(diff / base * 100).toFixed(1)}% ` +
+      `from ${money(base)}`
+    : "";
+  const untouched = (s.total_balance || 0) - (s.allocation || 0);
+  $("split").textContent =
+    `${money(s.cash || 0)} cash · ${money(deployed)} at work · ` +
+    `${money(Math.max(untouched, 0))} untouched`;
 
   const closed = (s.wins || 0) + (s.losses || 0);
-  $("f-open").textContent = Object.keys(positions).length;
+  $("f-open").textContent = positions.length;
   $("f-closed").textContent = closed;
-  $("f-wr").textContent = closed ? Math.round(s.wins / closed * 100) + "%" : "—";
+  $("f-win").textContent = closed ? Math.round(s.wins / closed * 100) + "%" : "—";
+
+  // gauges
+  const live = s.live_settings || {};
+  const depCap = equity * (live.max_deployed ?? 0.20);
+  const depFrac = depCap > 0 ? Math.min(deployed / depCap, 1) : 0;
+  $("g-dep").style.width = (depFrac * 100).toFixed(0) + "%";
+  $("g-dep").className = depFrac >= 0.999 ? "warn" : "";
+  $("g-dep-txt").textContent = `${money(deployed)} of ${money(depCap)}`;
+
+  const dayStart = s.day_start_equity || base;
+  const dayChange = dayStart ? (equity - dayStart) / dayStart : 0;
+  const stopAt = live.daily_stop ?? 0.06;
+  const toward = dayChange < 0 ? Math.min(-dayChange / stopAt, 1) : 0;
+  $("g-day").style.width = (toward * 100).toFixed(0) + "%";
+  $("g-day").className = toward >= 0.999 ? "warn" : "";
+  $("g-day-txt").innerHTML = dayChange >= 0
+    ? `<span class="up">+${(dayChange * 100).toFixed(1)}%</span>`
+    : `<span class="down">${(dayChange * 100).toFixed(1)}%</span> ` +
+      `of ${(stopAt * 100).toFixed(0)}% stop`;
+  $("stop-note").innerHTML = toward >= 0.999
+    ? `<div class="stopped">Daily stop reached — no new positions until
+       tomorrow. Open positions still settle normally.</div>` : "";
 
   renderPositions(positions);
-  renderTraders(d.analysis, d.traders);
+  renderTraders(d.traders);
   renderLog(d.trades);
 
   current.mode = s.mode || "paper";
-  current.paused = Boolean(s.paused);
-  paintPill();
-
+  current.paused = Boolean(live.paused);
+  $("pill").textContent = current.mode;
+  $("pill").className = "pill" + (current.mode === "live" ? " live" : "");
   $("stamp").textContent = s.last_run
-    ? "Updated " + new Date(s.last_run).toLocaleString([],
-        { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })
-    : "";
+    ? "updated " + new Date(s.last_run).toLocaleTimeString() : "";
+
+  // books check — if the engine's own numbers disagree, say so here too
+  const drift = equity - (base + (s.realized_pnl || 0));
+  $("live-note").textContent = Math.abs(drift) > 0.05
+    ? `Books out by ${money(drift)} — P&L may be wrong. Tell Claude.` : "";
 }
 
-function paintPill() {
-  const pill = $("mode-pill");
-  pill.className = "pill" + (current.paused ? " paused"
-    : current.mode === "live" ? " live" : "");
-  $("mode-text").textContent = current.paused ? "paused"
-    : current.mode === "live" ? "live money" : "paper";
-}
-
-function renderPositions(positions) {
+function renderPositions(list) {
   const el = $("positions");
-  const keys = Object.keys(positions);
-  if (!keys.length) {
-    el.innerHTML = '<p class="empty">Nothing open. The bot buys when a trader it follows buys.</p>';
+  if (!list.length) {
+    el.innerHTML = `<div class="empty">Nothing open. The bot copies only
+      when one of your traders buys into a short crypto market.</div>`;
     return;
   }
-  el.innerHTML = keys.map(k => {
-    const p = positions[k];
-    const entry = p.shares ? p.cost / p.shares : 0;
-    const pct = Math.max(2, Math.min(98, entry * 100));
-    return `
-      <article class="pos">
-        <div class="name">${esc(p.market || "Untitled market")}</div>
-        <div class="who">${esc(p.outcome || "")} · following ${esc(p.trader || "")}</div>
-        <div class="track">
-          <span class="fill" style="width:${pct}%"></span>
-          <i style="left:0"></i><i style="left:50%"></i><i style="left:100%"></i>
-          <span class="dot" style="left:${pct}%"></span>
-        </div>
-        <div class="scale"><span>0¢</span><span>50¢</span><span>100¢</span></div>
-        <p class="legend">Bought <b>${cents(entry)}</b> ·
-          ${money(p.cost || 0)} at risk ·
-          pays <b>${money(p.shares || 0)}</b> if it resolves yes</p>
-      </article>`;
-  }).join("");
-}
-
-function renderTraders(analysis, book) {
-  const measured = (analysis && analysis.by_trader) || [];
-  const followed = (book && book.traders) || [];
-  const el = $("traders");
-
-  // Show everyone we follow, not only those who have traded since the reset.
-  // A pinned trader sitting quiet is information too — you are waiting on
-  // them, and an empty row says so better than their absence does.
-  const byName = new Map(measured.map(r => [r.trader, r]));
-  const rows = followed.map(t => byName.get(t.name) || {
-    trader: t.name, copied: 0, closed: 0, win_rate: null, pnl: 0,
-    benched: (book.benched || []).includes(t.wallet), quiet: true,
-  });
-  for (const r of measured) {
-    if (!followed.some(t => t.name === r.trader)) rows.push({ ...r, dropped: true });
-  }
-
-  if (!rows.length) {
-    el.innerHTML = '<p class="empty">No traders yet.</p>';
-    return;
-  }
-
-  rows.sort((a, b) => (b.pnl - a.pnl) || (b.copied - a.copied));
-
-  el.innerHTML = `<table><thead><tr>
-      <th>Trader</th><th class="r">Copied</th><th class="r">Closed</th>
-      <th class="r">Win</th><th class="r">P&amp;L</th></tr></thead><tbody>` +
-    rows.map(r => {
-      const tag = r.benched ? '<span class="tag">benched</span>'
-        : r.dropped ? '<span class="tag">no longer followed</span>' : "";
-      return `<tr class="${r.benched || r.dropped || r.quiet ? "benched" : ""}">
-        <td>${esc(r.trader)}${tag}</td>
-        <td class="r">${r.copied}</td><td class="r">${r.closed}</td>
-        <td class="r">${r.win_rate === null ? "\u2014" : r.win_rate + "%"}</td>
-        <td class="r ${r.pnl > 0 ? "up" : r.pnl < 0 ? "down" : ""}">${
-          r.pnl === 0 ? "\u2014" : signed(r.pnl)}</td>
-      </tr>`;
-    }).join("") + "</tbody></table>" +
-    `<p class="note">${followed.length} followed \u00b7 ` +
-    `${rows.filter(r => r.copied > 0).length} have traded since the reset</p>`;
-}
-
-function renderLog(trades) {
-  const el = $("log");
-  const rows = (trades || []).filter(t => t.status === "executed").slice(-25).reverse();
-  if (!rows.length) { el.innerHTML = '<p class="empty">No trades yet.</p>'; return; }
-  el.innerHTML = rows.map(t => {
-    const d = t.detail || {};
-    const pnl = typeof d.pnl === "number"
-      ? ` <span class="${d.pnl >= 0 ? "up" : "down"}">${signed(d.pnl)}</span>` : "";
-    const verb = t.side === "BUY" ? "Bought"
-      : t.close_reason === "resolved" ? (d.result === "WON" ? "Won" : "Lost") : "Sold";
-    return `<div>
-      <time>${new Date(t.timestamp).toLocaleString([],
-        { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}</time>
-      <span class="what">${verb} ${esc(String(t.market || "").slice(0, 46))}${pnl}</span>
+  el.innerHTML = list.sort((a, b) => b.opened - a.opened).map(p => {
+    const c = Math.round((p.price || 0) * 100);
+    const pays = p.shares || 0;
+    return `<div class="pos">
+      <div class="name">${(p.coin || "").toUpperCase()} ${p.outcome || ""}
+        · ${Math.round((p.horizon || 0) / 60)}m</div>
+      <div class="who">following ${p.trader || "?"}</div>
+      <div class="track">
+        <div class="fill" style="width:${c}%"></div>
+        <i style="left:25%"></i><i style="left:50%"></i><i style="left:75%"></i>
+        <div class="dot" style="left:${c}%"></div>
+      </div>
+      <div class="scale"><span>0¢</span><span>50¢</span><span>100¢</span></div>
+      <div class="legend">Bought <b>${c}¢</b> · <b>${money(p.cost)}</b> at risk
+        · pays <b>${money(pays)}</b> if it wins</div>
     </div>`;
   }).join("");
 }
 
-/* ---------------- settings ---------------- */
+function renderTraders(book) {
+  const rows = (book && book.traders) || [];
+  const el = $("traders");
+  if (!rows.length) {
+    el.innerHTML = `<div class="empty">No traders pinned yet. Run the weekly
+      ranking to choose them.</div>`;
+    return;
+  }
+  el.innerHTML = `<table><thead><tr>
+      <th>trader</th><th class="r">won</th><th class="r">entry</th>
+      <th class="r">margin</th><th class="r">week</th>
+    </tr></thead><tbody>` +
+    rows.map(t => `<tr>
+      <td>${t.name || t.wallet.slice(0, 10)}</td>
+      <td class="r">${t.win_rate != null ? pct(t.win_rate) : "—"}</td>
+      <td class="r">${t.avg_entry != null ? Math.round(t.avg_entry * 100) + "¢" : "—"}</td>
+      <td class="r ${(t.margin || 0) >= 0 ? "up" : "down"}">
+        ${t.margin != null ? (t.margin >= 0 ? "+" : "") + pct(t.margin) : "—"}</td>
+      <td class="r ${(t.profit || 0) >= 0 ? "up" : "down"}">
+        ${t.profit != null ? (t.profit >= 0 ? "+" : "") + Math.round(t.profit) : "—"}</td>
+    </tr>`).join("") + `</tbody></table>`;
+}
+
+function renderLog(rows) {
+  const el = $("log");
+  const list = Array.isArray(rows) ? rows.slice(-25).reverse() : [];
+  if (!list.length) { el.innerHTML = `<div class="empty">Nothing yet.</div>`; return; }
+  el.innerHTML = list.map(r => {
+    const t = r.at ? new Date(r.at).toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"}) : "";
+    let what, cls = "";
+    if (r.event === "copy") {
+      what = `copied ${r.trader} · ${(r.coin||"").toUpperCase()} ${r.outcome||""}
+              at ${Math.round(r.price*100)}¢ · ${money(r.size)}`;
+    } else {
+      cls = r.pnl >= 0 ? "up" : "down";
+      what = `${r.result} ${r.trader} · ${(r.coin||"").toUpperCase()} ` +
+             `${r.pnl >= 0 ? "+" : ""}${Number(r.pnl).toFixed(2)}`;
+    }
+    return `<div><time>${t}</time><span class="what ${cls}">${what}</span></div>`;
+  }).join("");
+}
+
+/* -------------------------------------------------------------- settings */
 function setToggle(onId, offId, isOn) {
   $(onId).classList.toggle("on", isOn);
   $(offId).classList.toggle("on", !isOn);
 }
-
-async function loadSettings() {
-  try {
-    const { settings } = await post("/api/settings", {});
-    const s = settings || {};
-    $("s-total").value = s.total_balance ?? 1000;
-    $("s-alloc").value = s.allocation ?? 100;
-    $("s-size").value = s.trade_size ?? 5;
-    $("s-days").value = s.max_market_days ?? 7;
-    $("s-hours").value = s.min_market_hours ?? 0.5;
-    $("s-maxprice").value = s.max_buy_price ?? 0.9;
-    $("s-traders").value = s.top_n_traders ?? 20;
-    current.mode = s.mode || current.mode;
-    current.paused = Boolean(s.paused);
-    paintToggles();
-    hints();
-  } catch (e) {
-    $("settings-note").textContent = e.message;
-  }
-}
-
 function paintToggles() {
   setToggle("m-paper", "m-live", current.mode !== "live");
   $("m-live").classList.toggle("danger", current.mode === "live");
   setToggle("p-run", "p-pause", !current.paused);
-  paintPill();
+}
+
+async function loadSettings() {
+  const { settings } = await post("/api/settings", {});
+  const s = settings || {};
+  $("s-total").value = s.total_balance ?? 1000;
+  $("s-alloc").value = s.allocation ?? 300;
+  $("s-stake").value = ((s.stake_pct ?? 0.02) * 100).toFixed(1);
+  $("s-dep").value   = Math.round((s.max_deployed ?? 0.20) * 100);
+  $("s-stop").value  = Math.round((s.daily_stop ?? 0.06) * 100);
+  $("s-minh").value  = Math.round((s.min_horizon ?? 300) / 60);
+  $("s-maxh").value  = Math.round((s.max_horizon ?? 3600) / 60);
+  $("s-maxp").value  = s.max_price ?? 0.65;
+  $("s-minp").value  = s.min_price ?? 0.15;
+  $("s-age").value   = s.max_signal_age ?? 8;
+  $("s-their").value = s.min_their_usd ?? 20;
+  current.mode = s.mode || current.mode;
+  current.paused = Boolean(s.paused);
+  paintToggles();
+  hints();
 }
 
 function hints() {
-  const alloc = Number($("s-alloc").value) || 100;
-  const size = Number($("s-size").value) || 5;
-  $("size-hint").textContent =
-    `${(size / alloc * 100).toFixed(1)}% of the allocation · ` +
-    `up to ${Math.min(Math.floor(alloc / size), 25)} positions at once`;
-  const p = Number($("s-maxprice").value) || 0.9;
-  const need = (p * 100).toFixed(0);
+  const alloc = Number($("s-alloc").value) || 300;
+  const stake = (Number($("s-stake").value) || 2) / 100;
+  const dep = (Number($("s-dep").value) || 20) / 100;
+  const stop = (Number($("s-stop").value) || 6) / 100;
+  $("stake-hint").textContent =
+    `${money(alloc * stake)} per trade at today's balance — it grows as the ` +
+    `balance grows.`;
+  $("dep-hint").textContent =
+    `${money(alloc * dep)} max across all open positions ` +
+    `(about ${Math.floor(dep / stake)} at once).`;
+  $("stop-hint").textContent =
+    `Stops opening new trades once the day is down ${money(alloc * stop)}.`;
+  const p = Number($("s-maxp").value) || 0.65;
+  const risk = alloc * stake;
   $("price-hint").textContent =
-    `At ${need}¢ you risk ${money(size)} to make ` +
-    `${money(size / p - size)} — you'd need to win ${need}% of the time to break even.`;
+    `At ${Math.round(p * 100)}¢ you risk ${money(risk)} to make ` +
+    `${money(risk / p - risk)} — you need to be right ` +
+    `${Math.round(p * 100)}% of the time just to break even.`;
 }
-["s-alloc", "s-size", "s-maxprice"].forEach(id => $(id).oninput = hints);
+["s-alloc","s-stake","s-dep","s-stop","s-maxp"].forEach(
+  id => $(id).oninput = hints);
 
-$("m-paper").onclick = () => { current.mode = "paper"; LIVE_ARMED = false;
-  $("mode-hint").textContent = "Paper places no real orders."; paintToggles(); };
-
+$("m-paper").onclick = () => { current.mode="paper"; LIVE_ARMED=false;
+  $("mode-hint").textContent="Paper places no real orders."; paintToggles(); };
 $("m-live").onclick = () => {
-  if (!LIVE_ARMED) {
-    LIVE_ARMED = true;
+  if (!LIVE_ARMED) { LIVE_ARMED = true;
     $("mode-hint").innerHTML =
       '<span class="down">Live spends real money. Press Live again to confirm.</span>';
-    return;
-  }
+    return; }
   current.mode = "live";
   $("mode-hint").innerHTML =
     '<span class="down">Live. Needs POLY_PRIVATE_KEY in GitHub Secrets, ' +
-    'or the bot stays on paper.</span>';
+    'or it stays on paper.</span>';
   paintToggles();
 };
-
-$("p-run").onclick = () => { current.paused = false;
-  $("pause-hint").textContent = "Pausing stops new trades."; paintToggles(); };
-$("p-pause").onclick = () => { current.paused = true;
-  $("pause-hint").textContent = "Paused. Open positions still settle."; paintToggles(); };
-
-$("reload").onclick = () => { LIVE_ARMED = false; $("save-msg").textContent = ""; loadSettings(); };
+$("p-run").onclick = () => { current.paused=false; paintToggles(); };
+$("p-pause").onclick = () => { current.paused=true; paintToggles(); };
+$("reload").onclick = () => { LIVE_ARMED=false; $("save-msg").textContent=""; loadSettings(); };
 
 $("save").onclick = async () => {
   $("save").disabled = true;
   $("save-msg").textContent = "Saving…";
   $("save-msg").className = "";
   try {
-    const settings = {
+    await post("/api/settings", { settings: {
       mode: current.mode,
       paused: current.paused,
       total_balance: Number($("s-total").value),
       allocation: Number($("s-alloc").value),
-      trade_size: Number($("s-size").value),
-      max_market_days: Number($("s-days").value),
-      min_market_hours: Number($("s-hours").value),
-      max_buy_price: Number($("s-maxprice").value),
-      top_n_traders: Number($("s-traders").value),
-    };
-    await post("/api/settings", { settings });
-    $("save-msg").textContent = "Saved. Applies on the bot's next pass.";
+      stake_pct: Number($("s-stake").value) / 100,
+      max_deployed: Number($("s-dep").value) / 100,
+      daily_stop: Number($("s-stop").value) / 100,
+      min_horizon: Math.round(Number($("s-minh").value) * 60),
+      max_horizon: Math.round(Number($("s-maxh").value) * 60),
+      max_price: Number($("s-maxp").value),
+      min_price: Number($("s-minp").value),
+      max_signal_age: Number($("s-age").value),
+      min_their_usd: Number($("s-their").value),
+    }});
+    // Read it straight back so what you see is what the bot will use, not
+    // what you typed.
+    await loadSettings();
+    $("save-msg").textContent = "Saved — showing what the bot will use.";
     $("save-msg").className = "saved";
     LIVE_ARMED = false;
   } catch (e) {
@@ -429,44 +416,31 @@ $("save").onclick = async () => {
   }
 };
 
-/* ---------------- auto refresh ---------------- */
-// The bot pushes state every 5 minutes, so polling every 45s keeps the page
-// close to live without hammering GitHub. Paused while the tab is hidden —
-// no point fetching for a page nobody is looking at.
-let poller = null;
-
-async function tick() {
-  if (!PIN || document.hidden) return;
-  try {
-    render(await post("/api/data", {}));
-  } catch (e) {
-    $("stamp").textContent = "Couldn't reach the bot's data. Retrying\u2026";
+/* ------------------------------------------------------------------ boot */
+let timer = null;
+async function refresh() {
+  try { render(await post("/api/data", {})); } catch (e) {
+    $("split").textContent = e.message;
   }
 }
-
-function startPolling() {
-  if (poller) clearInterval(poller);
-  poller = setInterval(tick, 45000);
-}
-
-document.addEventListener("visibilitychange", () => {
-  if (!document.hidden) tick();
-});
-
-/* ---------------- resume session ---------------- */
-(async () => {
-  const saved = sessionStorage.getItem("pin");
-  if (!saved) return;
-  PIN = saved;
+async function open_() {
+  PIN = $("pin").value.trim();
+  if (!PIN) return;
+  $("gate-err").textContent = "";
   try {
     const d = await post("/api/data", {});
     $("gate").classList.add("hide");
-    $("panel").classList.remove("hide");
+    $("board").classList.remove("hide");
     render(d);
-    loadSettings();
-    startPolling();
-  } catch { PIN = ""; sessionStorage.removeItem("pin"); }
-})();
+    await loadSettings();
+    timer = setInterval(() => { if (!document.hidden) refresh(); }, 30000);
+  } catch (e) {
+    $("gate-err").textContent = e.message;
+  }
+}
+$("go").onclick = open_;
+$("pin").addEventListener("keydown", e => { if (e.key === "Enter") open_(); });
+document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(); });
 </script>
 </body>
 </html>

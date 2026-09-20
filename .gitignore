@@ -4,6 +4,3 @@ __pycache__/
 *.tmp
 
 .market_cache*.json
-.crypto_market_cache.json
-.market_cache_v2.json
-crypto_candidates.json

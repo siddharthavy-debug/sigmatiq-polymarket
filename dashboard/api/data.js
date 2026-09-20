@@ -11,8 +11,7 @@
  *   GITHUB_BRANCH   defaults to main
  */
 
-const FILES = ["state", "trades", "traders", "analysis"];
-const CRYPTO_FILES = [
+const FILES = [
   ["crypto_state", "state"],
   ["crypto_trades", "trades"],
   ["crypto_traders", "traders"],
@@ -54,11 +53,7 @@ export default async function handler(req, res) {
 
   // ?engine=crypto (or {engine:"crypto"}) serves the crypto bot's files under
   // the same keys, so one page can render either engine.
-  const engine = String((req.body && req.body.engine) || "sports");
-  const wanted =
-    engine === "crypto"
-      ? CRYPTO_FILES
-      : FILES.map((n) => [n, n]);
+  const wanted = FILES;
 
   const out = {};
   await Promise.all(
@@ -81,14 +76,12 @@ export default async function handler(req, res) {
     res.setHeader("Cache-Control", "no-store");
     return res.status(200).json({
       waiting: true,
-      engine,
       message:
         engine === "crypto"
           ? "The crypto bot hasn't written anything yet. It will appear once it runs."
           : "The bot hasn't written state yet. It will appear after the next run.",
     });
   }
-  out.engine = engine;
 
   res.setHeader("Cache-Control", "no-store");
   return res.status(200).json(out);

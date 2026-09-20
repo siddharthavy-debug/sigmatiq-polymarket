@@ -12,26 +12,11 @@
  *   GITHUB_TOKEN    a classic token with 'repo' scope — WRITING NEEDS THIS
  */
 
-const PATH = "data/settings.json";
 const CRYPTO_PATH = "data/crypto_settings.json";
 
 // Everything the dashboard may change, with the bounds enforced again here.
 // The bot validates too; doing it on both sides means a bad value can't be
 // written in the first place.
-const FIELDS = {
-  mode:             { type: "enum", values: ["paper", "live"] },
-  paused:           { type: "bool" },
-  allocation:       { type: "num", min: 5, max: 100000 },
-  total_balance:    { type: "num", min: 5, max: 10000000 },
-  trade_size:       { type: "num", min: 1, max: 10000 },
-  max_position_pct: { type: "num", min: 0.005, max: 1 },
-  max_market_days:  { type: "num", min: 0.04, max: 400 },
-  min_market_hours: { type: "num", min: 0, max: 240 },
-  max_buy_price:    { type: "num", min: 0.05, max: 0.99 },
-  min_buy_price:    { type: "num", min: 0.01, max: 0.95 },
-  top_n_traders:    { type: "int", min: 1, max: 50 },
-  max_per_trader:   { type: "int", min: 1, max: 50 },
-};
 
 // The crypto engine's own dials. Separate file, separate bounds — a change
 // here can never disturb the sports bot.
@@ -63,7 +48,7 @@ function pinOk(supplied) {
 
 function clean(input, fields) {
   const out = {};
-  for (const [key, spec] of Object.entries(fields || FIELDS)) {
+  for (const [key, spec] of Object.entries(fields)) {
     if (!(key in input)) continue;
     let v = input[key];
     if (spec.type === "bool") {
@@ -103,9 +88,8 @@ export default async function handler(req, res) {
   const branch = process.env.GITHUB_BRANCH || "main";
   if (!repo) return res.status(500).json({ error: "GITHUB_REPO is not set." });
 
-  const isCrypto = String((req.body && req.body.engine) || "") === "crypto";
-  const path = isCrypto ? CRYPTO_PATH : PATH;
-  const fields = isCrypto ? CRYPTO_FIELDS : FIELDS;
+  const path = CRYPTO_PATH;
+  const fields = CRYPTO_FIELDS;
 
   // ---- read
   if (req.method === "GET" || !req.body.settings) {
@@ -141,7 +125,7 @@ export default async function handler(req, res) {
     if (head.ok) sha = (await head.json()).sha;
 
     const body = {
-      message: `${isCrypto ? "crypto " : ""}settings from dashboard`,
+      message: "settings from dashboard",
       content: Buffer.from(JSON.stringify(settings, null, 2)).toString("base64"),
       branch,
       ...(sha ? { sha } : {}),
