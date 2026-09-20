@@ -143836,5 +143836,181 @@
     "their_usd": 282.3418,
     "detail": "price 0.961 above 0.9 (no upside)",
     "timestamp": "2026-09-20T04:09:24.034934+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Nao Hibino",
+    "their_usd": 2.73162,
+    "detail": {
+      "shares": 9.6154,
+      "price": 0.52,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:12:08.477505+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Purdue vs. UCLA",
+    "outcome": "Purdue",
+    "their_usd": 12.98,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:12:10.186614+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-14.5)",
+    "outcome": "Purdue",
+    "their_usd": 5.7,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:12:51.286123+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Raiders vs. Chargers",
+    "outcome": "Chargers",
+    "their_usd": 216.0,
+    "detail": {
+      "shares": 6.9444,
+      "price": 0.72,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:13:32.269407+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Nao Hibino",
+    "their_usd": 5.02495,
+    "detail": {
+      "shares": 10.2041,
+      "price": 0.49,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:14:12.071390+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Miho Kuramochi vs Xinxin Yao",
+    "outcome": "Miho Kuramochi",
+    "their_usd": 395.39,
+    "detail": {
+      "shares": 26.3158,
+      "price": 0.19,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:14:53.104848+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Seahawks (-4.5) AND Bengals vs. Texans",
+    "outcome": "",
+    "their_usd": 48.908921,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:14:54.954134+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-13.5)",
+    "outcome": "Purdue",
+    "their_usd": 5.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:14:55.057274+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Miho Kuramochi vs Xinxin Yao",
+    "outcome": "Miho Kuramochi",
+    "their_usd": 436.59,
+    "detail": {
+      "shares": 23.8095,
+      "price": 0.21,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T04:15:34.545491+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "LoL: Fuego vs DN SOOPers Challengers (BO1) - World Star Challengers Invitational Group A AND LoL: KT Rolster Challengers vs Bilibili Gaming Junior (BO1) - World Star Challengers Invitational Group B AND LoL: EDward Gaming Youth Team vs T1 Academy (BO1) - World Star Challengers Invitational Group A AND LoL: DN SOOPers Challengers vs T1 Academy (BO1) - World Star Challengers Invitational Group A AND LoL: \u2060Movistar KOI F\u00e9nix vs CTBC Flying Oyster Academy (BO1) - World Star Challengers Invitational Group B",
+    "outcome": "",
+    "their_usd": 4.468747,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T04:15:36.188800+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 64.68,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T04:16:15.987289+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Spread: Sunderland AFC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 699.23,
+    "detail": "price 0.980 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T04:16:16.106053+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AFC Bournemouth win on 2026-09-20? AND Will Manchester United FC win on 2026-09-20? AND Will Sunderland AFC win on 2026-09-20? AND Will Crystal Palace FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 119.69802,
+    "detail": "price 0.995 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T04:16:17.493843+00:00"
   }
 ]
