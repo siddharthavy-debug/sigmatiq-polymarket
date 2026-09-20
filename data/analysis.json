@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T17:10:00.025583+00:00",
+  "updated": "2026-09-20T17:15:15.380730+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -25,7 +25,7 @@
       "win_rate": 81.2,
       "pnl": 91.95,
       "pnl_per_closed": 5.75,
-      "skipped": 822,
+      "skipped": 823,
       "failed": 0,
       "benched": false
     },
@@ -39,7 +39,7 @@
       "win_rate": 60.0,
       "pnl": 46.06,
       "pnl_per_closed": 4.61,
-      "skipped": 234,
+      "skipped": 235,
       "failed": 0,
       "benched": false
     },
@@ -53,7 +53,7 @@
       "win_rate": 75.0,
       "pnl": 13.07,
       "pnl_per_closed": 1.63,
-      "skipped": 372,
+      "skipped": 373,
       "failed": 0,
       "benched": false
     },
@@ -95,7 +95,7 @@
       "win_rate": 100.0,
       "pnl": 3.2,
       "pnl_per_closed": 3.2,
-      "skipped": 123,
+      "skipped": 124,
       "failed": 0,
       "benched": false
     },
@@ -193,7 +193,7 @@
       "win_rate": 60.0,
       "pnl": -1.67,
       "pnl_per_closed": -0.33,
-      "skipped": 420,
+      "skipped": 421,
       "failed": 0,
       "benched": false
     },
@@ -235,7 +235,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2840,
+      "skipped": 2859,
       "failed": 0,
       "benched": false
     },
@@ -249,7 +249,7 @@
       "win_rate": 50.0,
       "pnl": -22.56,
       "pnl_per_closed": -3.76,
-      "skipped": 290,
+      "skipped": 291,
       "failed": 0,
       "benched": false
     },
@@ -277,7 +277,7 @@
       "win_rate": 0.0,
       "pnl": -45.0,
       "pnl_per_closed": -15.0,
-      "skipped": 1444,
+      "skipped": 1449,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 13245
+  "total_logged": 13275
 }
