@@ -148263,5 +148263,53 @@
     "their_usd": 883.26136,
     "detail": "max open positions",
     "timestamp": "2026-09-20T07:58:15.231989+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AC Milan win on 2026-09-20? AND Will Como 1907 win on 2026-09-20? AND Will AZ win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 24.019296,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T08:02:28.881293+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "NEC vs. Go Ahead Eagles: Both Teams to Score AND Spread: Feyenoord Rotterdam (-1.5) AND FC Vaduz vs. FC Thun: Both Teams to Score AND Viking FK vs. Lillestr\u00f8m SK: Both Teams to Score AND Will FC Lugano win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 130.48461,
+    "detail": "price 0.901 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T08:05:16.014658+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Game Handicap: 1WIN (-1.5) vs Hokori (+1.5) AND Dota 2: Team Yandex vs Team Nemesis (BO3) - PGL Wallachia Group Stage AND Dota 2: MOUZ vs Pibbles Corp (BO3) - PGL Wallachia Group Stage",
+    "outcome": "",
+    "their_usd": 828.698229,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T08:05:16.134268+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will FC Twente win on 2026-09-20? AND Will Manchester City FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 53.75179,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T08:05:57.817005+00:00"
   }
 ]
