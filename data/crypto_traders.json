@@ -1,15 +1,15 @@
 {
  "pinned": true,
  "chosen_by": {
-  "margin": 0.03,
-  "min_z": 2.0,
+  "margin": 0.02,
+  "min_z": 1.5,
   "entry": [
-   0.35,
+   0.3,
    0.65
   ],
-  "min_trades": 300
+  "min_trades": 200
  },
- "updated": "2026-09-20T21:37:24.993646+00:00",
+ "updated": "2026-09-20T23:15:35.878719+00:00",
  "traders": [
   {
    "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
@@ -32,6 +32,16 @@
    "trades": 1116
   },
   {
+   "wallet": "0x884642C8CF675e87D149c6557BA72a60E58fb4BF",
+   "name": "0x884642C8CF675e87D149c6557BA72a60E58fb4BF-1779347001049",
+   "win_rate": 0.3882,
+   "avg_entry": 0.3612,
+   "margin": 0.027,
+   "edge_z": 2.83,
+   "profit": 285.59,
+   "trades": 1878
+  },
+  {
    "wallet": "0x5E8E7771121F4F8f9f7739ddeCFe2BAa2d918212",
    "name": "littlelonely777",
    "win_rate": 0.4086,
@@ -52,6 +62,16 @@
    "trades": 563
   },
   {
+   "wallet": "0xb0F85BAa97990910A3E8ac2B4A58A322F01eCeF5",
+   "name": "pspspsps5",
+   "win_rate": 0.5558,
+   "avg_entry": 0.5273,
+   "margin": 0.0285,
+   "edge_z": 2.38,
+   "profit": 1207.39,
+   "trades": 529
+  },
+  {
    "wallet": "0x8b785DaDA86cdD3B9F729c61Ef9313161d58C095",
    "name": "simon8445",
    "win_rate": 0.5244,
@@ -62,6 +82,16 @@
    "trades": 1146
   },
   {
+   "wallet": "0x3bE059f270943962A8832abe0DA8482978cD9B50",
+   "name": "0x3bE059f270943962A8832abe0DA8482978cD9B50-1776073400694",
+   "win_rate": 0.4212,
+   "avg_entry": 0.3924,
+   "margin": 0.0288,
+   "edge_z": 2.21,
+   "profit": 422.77,
+   "trades": 1104
+  },
+  {
    "wallet": "0x5C4600b33a02AdF80DD07D6853f0C59e8D9E753D",
    "name": "NihiIism",
    "win_rate": 0.5067,
@@ -70,6 +100,36 @@
    "edge_z": 2.2,
    "profit": 554.59,
    "trades": 815
+  },
+  {
+   "wallet": "0x8F34e45Fe06d6faD7D9d9d2738859a4022C02f50",
+   "name": "0x8F34e45Fe06d6faD7D9d9d2738859a4022C02f50-1769571271220",
+   "win_rate": 0.4433,
+   "avg_entry": 0.4149,
+   "margin": 0.0284,
+   "edge_z": 2.11,
+   "profit": 260.7,
+   "trades": 1067
+  },
+  {
+   "wallet": "0xe51f40b6A8bE52C9E2809A4DD8B5C7C9c3Ab88d2",
+   "name": "antsm",
+   "win_rate": 0.6326,
+   "avg_entry": 0.5739,
+   "margin": 0.0586,
+   "edge_z": 2.07,
+   "profit": 0.11,
+   "trades": 215
+  },
+  {
+   "wallet": "0xF1b12a333E93bb7fED86863209da3D482FFE8110",
+   "name": "TwoTradeStopper",
+   "win_rate": 0.5711,
+   "avg_entry": 0.5275,
+   "margin": 0.0436,
+   "edge_z": 1.97,
+   "profit": 1068.97,
+   "trades": 478
   }
  ]
 }

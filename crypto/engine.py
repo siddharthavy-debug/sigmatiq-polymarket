@@ -213,6 +213,23 @@ def consider(s, trade, pinned, now=None):
     if token in s["positions"]:
         return "skip", "already hold this outcome", None
 
+    # Never hold both sides of one market. Two of our traders disagreeing is
+    # not a hedge, it is paying the spread twice to guarantee that one of them
+    # loses: 13897651 won +11.32 on btc-updown-5m-1789944900 while simon8445
+    # lost -10.45 on the same market. Net 87 cents on $21 at risk, and
+    # negative once a real spread is involved.
+    slug = trade.get("slug")
+    for held in s["positions"].values():
+        if held.get("slug") != slug:
+            continue
+        combined = held.get("price", 0) + price
+        if combined < cconfig.BOTH_SIDES_MAX_COMBINED:
+            break          # both sides for under a dollar: the payout is
+                           # certain, so this one is free money
+        return "skip", (f"we hold {held.get('outcome')} at "
+                        f"{held.get('price', 0)*100:.0f}c — both sides costs "
+                        f"{combined*100:.0f}c to win 100c"), None
+
     if cconfig.PAUSED:
         return "skip", "paused", None
 

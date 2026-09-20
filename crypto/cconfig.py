@@ -62,6 +62,14 @@ MAX_POSITIONS_PER_TRADER = _i("CRYPTO_MAX_PER_TRADER", "3")
 # direction are counted as one.
 MAX_PER_WINDOW_DIRECTION = _i("CRYPTO_MAX_PER_WINDOW", "2")
 
+# Holding both sides of one market is usually a guaranteed loss: 13897651
+# bought Up at 50c while simon8445 bought Down at 49c, so we paid 99c to
+# receive exactly $1 — one cent before fees, negative after. But if the two
+# sides together cost clearly less than a dollar, the payout is certain and
+# the profit is free regardless of which way it goes. So both sides are
+# allowed only below this combined price.
+BOTH_SIDES_MAX_COMBINED = _f("CRYPTO_BOTH_SIDES_MAX", "0.97")
+
 # ------------------------------------------------------------------ markets
 MIN_HORIZON_SECONDS = _i("CRYPTO_MIN_HORIZON", "300")      # 5 minutes
 MAX_HORIZON_SECONDS = _i("CRYPTO_MAX_HORIZON", "3600")     # 1 hour
