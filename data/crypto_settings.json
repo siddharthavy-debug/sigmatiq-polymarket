@@ -1,15 +1,15 @@
 {
-  "mode": "paper",
-  "paused": false,
-  "total_balance": 1000,
-  "allocation": 100,
-  "stake_pct": 0.02,
-  "max_deployed": 0.2,
-  "daily_stop": 0.06,
-  "min_horizon": 300,
-  "max_horizon": 3600,
-  "max_price": 0.65,
-  "min_price": 0.15,
-  "max_signal_age": 8,
-  "min_their_usd": 20
+ "mode": "paper",
+ "paused": false,
+ "total_balance": 1000,
+ "allocation": 100,
+ "stake_pct": 0.02,
+ "max_deployed": 0.2,
+ "daily_stop": 0.06,
+ "min_horizon": 300,
+ "max_horizon": 3600,
+ "max_price": 0.65,
+ "min_price": 0.15,
+ "max_signal_age": 8,
+ "min_their_usd": 1
 }
