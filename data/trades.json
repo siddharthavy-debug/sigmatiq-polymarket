@@ -147315,5 +147315,140 @@
     "their_usd": 3.1841,
     "detail": "already hold this market",
     "timestamp": "2026-09-20T06:07:25.162646+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-14.5)",
+    "outcome": "UCLA",
+    "their_usd": 2.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:15:10.719694+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
+    "outcome": "Nao Hibino",
+    "their_usd": 0,
+    "detail": {
+      "shares": 27.938,
+      "price": 1.0,
+      "proceeds": 27.94,
+      "pnl": 12.94,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-20T06:16:29.759680+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Purdue vs. UCLA",
+    "outcome": "Purdue",
+    "their_usd": 3.88,
+    "detail": "price 0.020 below 0.05 (longshot)",
+    "timestamp": "2026-09-20T06:16:35.180692+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Joanna Garland vs Viktoria Morvayova",
+    "outcome": "Viktoria Morvayova",
+    "their_usd": 1.2456,
+    "detail": {
+      "shares": 20.8333,
+      "price": 0.24,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T06:17:15.303844+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: UCLA (-14.5)",
+    "outcome": "UCLA",
+    "their_usd": 2.9,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:18:39.808192+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Fresno State vs. San Jose State",
+    "outcome": "Fresno State",
+    "their_usd": 722.5,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:18:39.933493+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Fresno State vs. San Jose State",
+    "outcome": "San Jose State",
+    "their_usd": 17.1,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:18:40.042832+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Viking FK win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 65.04664,
+    "detail": {
+      "shares": 16.6667,
+      "price": 0.3,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T06:19:21.574495+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Spread: Manchester City FC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 1.513847,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T06:19:21.952802+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Jeonbuk Hyundai Motors FC (-1.5) AND Gangwon FC vs. Jeju SK FC: O/U 2.5",
+    "outcome": "",
+    "their_usd": 187.168034,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T06:20:04.171412+00:00"
   }
 ]

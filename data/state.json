@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 41.687975772345524,
+  "cash": 59.62595089898187,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -174,16 +174,6 @@
       "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
       "opened": "2026-09-20T03:39:44.530271+00:00"
     },
-    "76804478790385441859516511472774828948983388041000419101028395511846778687399": {
-      "market": "Singapore Open, Qualification: Nao Hibino vs Aoi Ito",
-      "slug": "wta-hibino-ito-2026-09-20",
-      "outcome": "Nao Hibino",
-      "shares": 27.93797512663635,
-      "cost": 15.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-20T04:12:08.458988+00:00"
-    },
     "35836144845762083734936716777818582913796871841916057482479347577598882811767": {
       "market": "Will the Democrats win the Georgia Senate race in 2026?",
       "slug": "will-the-democrats-win-the-georgia-senate-race-in-2026",
@@ -248,23 +238,24 @@
       "market": "Singapore Open, Qualification: Joanna Garland vs Viktoria Morvayova",
       "slug": "wta-garland-morvayo-2026-09-20",
       "outcome": "Viktoria Morvayova",
-      "shares": 19.23076923076923,
-      "cost": 5.0,
+      "shares": 40.06410256410257,
+      "cost": 10.0,
       "trader": "tradecraft",
       "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
       "opened": "2026-09-20T05:54:00.040800+00:00"
+    },
+    "92673131757617218438654994914810177342704209564681956200322318839449643102858": {
+      "market": "Will Viking FK win on 2026-09-20?",
+      "slug": "nor-vik-lil-2026-09-20-vik",
+      "outcome": "No",
+      "shares": 16.666666666666668,
+      "cost": 5.0,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-20T06:19:21.555641+00:00"
     }
   },
   "seen_trades": [
-    "0x472eb19b500a438c60355f1a1bfd53142928062a99103d6fc347a11985384d57",
-    "0xcead57a43fc5806f114e7c5736fc158f72d663d93346d628e5b0000806baf7d1",
-    "0xd361ce5cfa8d52d7c266941ccb1113707f86a2cd4edce9c9a535ba92e2cc49a6",
-    "0x7bdb3a16622fbafb8c6f288419fe802b57dc34978052d665ccbdb07f3398d41d",
-    "0xc3ad01fe14a257fd7d25fab5a865edb0d9a170a1c3554e1d42680b872ab226b7",
-    "0x320c69b68260f17d2772f8bac9fc0edbf118dbef130681f72300034e77ff46eb",
-    "0x03dca6f761f30ee224c1fc9558f32b2cc5f2ba78e2f59fe8c7e3e11512b22e29",
-    "0x6bc1164ff6320d1e90d08e19abef4c6c6099ec68ce4343ef3e9151d711e70f8f",
-    "0xfd007592b29ffaf90bcb1b4764fc350a83e795759bda2da7ed064defb203e97e",
     "0xb8b89e88a3c516decb3817bbece8ce42cb59adb0f8f5bfd7f391683d53dd4964",
     "0x0d93fb191ff4a315c24ed0a3a29c483c5df8a40ac6c9642d3904a981df8f930c",
     "0x5e3fd50e3147c0c0c7f95b3d0851fd6f6aca8eeeb7383b4f74ba37b720dfeb99",
@@ -8255,15 +8246,24 @@
     "0xfe69a050e84b5b1ad732b2150d77e94c3d17577f9f11ac7399aee8acd56dcf19",
     "0x496eb0c2476c0ceeef8906f06a2cc8919ac94356bd51726d95ccc3534d74f096",
     "0x810e39f26e1c842e8402a26179c4914d62fbb709d823bfcebf72d1a99163564c",
-    "0x4af488970528d9fa87e3a6511e48df2acc4dc8d0deb919995dc2d3bac05480cf"
+    "0x4af488970528d9fa87e3a6511e48df2acc4dc8d0deb919995dc2d3bac05480cf",
+    "0x2baddfe6b73eb15b2a002f3dfabebac96252a6ee8ca07c836616ae8efceb0c26",
+    "0x24d9567d01947b7469667bcd3f7a03bff5e78ca046cc52dd3314d993d0cc4a4f",
+    "0x7873d78d92e8b34004d7148e71718f5b7112c7142848613338699191fb3a7eff",
+    "0xf7d351d990b46d1765644d1c75db425db8f12f0e2eea49032cf9b31a609afa1d",
+    "0xb1f94e1b528caaa25b0241b938d772480e78811e673bf29ca20bf750f377bc8c",
+    "0xa37ea92580283dd9f2326a20ae3562970c8561888c0eef17751e3efdd75e187d",
+    "0x6ec3fde73eba53522779873831a634d7ff3831ff0bc13e1ba4045497ace376ba",
+    "0x76ae36e4e578d8c00d33a432eb6593fbc7904e3d7d71e832ab335fcfd6e30cfe",
+    "0x433b9781c61afacf3e894b4be8e4dab17a09b01f35cac743c77b01b57689d58c"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T06:14:27.924441+00:00",
-  "realized_pnl": 3.794642439012236,
-  "trades_executed": 320,
-  "wins": 64,
+  "last_run": "2026-09-20T06:20:05.107021+00:00",
+  "realized_pnl": 16.732617565648585,
+  "trades_executed": 322,
+  "wins": 65,
   "losses": 61,
-  "skipped": 12293,
+  "skipped": 12300,
   "failed": 0,
   "initialised": true,
   "paused": false
