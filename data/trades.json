@@ -167660,5 +167660,113 @@
     "their_usd": 4.25,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T18:52:20.289069+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "San Diego 2: Andrew Fenty vs Kaylan Bigun",
+    "outcome": "Kaylan Bigun",
+    "their_usd": 17.561,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T18:52:59.726620+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Saints vs. Ravens: O/U 42.5",
+    "outcome": "Over",
+    "their_usd": 18.13,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:53:01.085134+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Vikings (-3.5)",
+    "outcome": "Bears",
+    "their_usd": 3.4,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:54:57.957122+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Cincinnati Reds",
+    "their_usd": 33.83862,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:55:36.799758+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Chicago Cubs vs. Cincinnati Reds",
+    "outcome": "Cincinnati Reds",
+    "their_usd": 31.41,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:55:36.932432+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Bengals (-7.5)",
+    "outcome": "Bengals",
+    "their_usd": 108.75,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:57:42.992109+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Bengals (-7.5)",
+    "outcome": "Bengals",
+    "their_usd": 81.78,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:57:43.123633+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Browns vs. Buccaneers: O/U 34.5",
+    "outcome": "Over",
+    "their_usd": 32.64,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:57:43.247994+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Bengals (-7.5)",
+    "outcome": "Bengals",
+    "their_usd": 8.7,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:57:43.371410+00:00"
   }
 ]
