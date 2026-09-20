@@ -160170,5 +160170,41 @@
     "their_usd": 2038.006957,
     "detail": "max open positions",
     "timestamp": "2026-09-20T16:54:10.214657+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Bengals vs. Texans: O/U 45.5",
+    "outcome": "Over",
+    "their_usd": 480.48,
+    "detail": "settles in 0.1h, too soon",
+    "timestamp": "2026-09-20T16:56:09.833701+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Sport Lisboa e Benfica win on 2026-09-20? AND Will Olympique de Marseille win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 547.827562,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T16:56:10.561484+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FK Crvena Zvezda Belgrade win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 192.13631,
+    "detail": "settles in 0.1h, too soon",
+    "timestamp": "2026-09-20T16:56:48.812238+00:00"
   }
 ]
