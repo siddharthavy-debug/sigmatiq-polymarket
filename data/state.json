@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 62.43845089898187,
+  "cash": 57.43845089898187,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -233,13 +233,19 @@
       "trader": "us391",
       "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
       "opened": "2026-09-20T06:19:21.555641+00:00"
+    },
+    "60632519705736875566131635305949413125558039652783197754853251003294989084241": {
+      "market": "Will Ujpest FC Budapest win on 2026-09-20?",
+      "slug": "hun-ujp-zal-2026-09-20-ujp",
+      "outcome": "No",
+      "shares": 10.638297872340425,
+      "cost": 5.0,
+      "trader": "us391",
+      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+      "opened": "2026-09-20T07:39:26.419826+00:00"
     }
   },
   "seen_trades": [
-    "0x2d21bbae4b032fa3ba909496223e3afb1e124a17b09232bfd99947e11868b9a8",
-    "0x5bcdfdac4c7b8ebd88c016accb92157f10e71bac4ee9f3b4c84cbcbff7ae4556",
-    "0xf8ead010dea8047cbf5aad0bdd2ad10c08f0ba26b4653b3fb069a885007d9523",
-    "0x9e767075b2558ec666c6292f6bc5803a81c404f4f3e008087c70d6ec20f0ae99",
     "0x6c28d438ee09df8be2e846655d4bf5b58fd058bee8b622cc6f1e68e54421b2a5",
     "0x87c03726ec07165ae77c2140a1ab804190091433ae6a535fe0496a9c3670cd7d",
     "0xa88bed0db2a7884274afe9e433425fc890094565c91165e604a8bc3bcee03924",
@@ -8235,15 +8241,19 @@
     "0x97582e73d3b335e762db2b65d368f44d244f4266a975fc76f8b58cf887c1652c",
     "0xb16ea943de3a7da9976f37ce32508ae100a3f07b69f9d039d16d16d430316dae",
     "0xecc2c16294a54a4ebe15ffe741914e66cf5788b7fe02962cc199f6f7bce7815c",
-    "0x9bd919ec5e4a5cd14f0f26c5e8f216003d2a8c928184f03f6db07cc609eda4f3"
+    "0x9bd919ec5e4a5cd14f0f26c5e8f216003d2a8c928184f03f6db07cc609eda4f3",
+    "0x0e6e49f9986869006360e090b6c8bac574e27e5a78f79e00a4f831d0d6bbf8c5",
+    "0x225c96d19135d29e481673fed558ae69fb5b1a31b06334e9073d972a67df055f",
+    "0xe0938f19fcafa519a16e32ea8e58a624d7402c6cac421e45ef6fa5817049c41a",
+    "0x157c91fe7b2f2d77b1a4c57c799b4eb9f90e7eb503aa2d305fb946d9241bf2b4"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T07:38:44.948532+00:00",
+  "last_run": "2026-09-20T07:44:18.319949+00:00",
   "realized_pnl": -5.454882434351415,
-  "trades_executed": 323,
+  "trades_executed": 324,
   "wins": 66,
   "losses": 63,
-  "skipped": 12347,
+  "skipped": 12350,
   "failed": 0,
   "initialised": true,
   "paused": false

@@ -148063,5 +148063,57 @@
     "their_usd": 783.018838,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T07:37:21.573751+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Ujpest FC Budapest win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 2.3641,
+    "detail": {
+      "shares": 10.6383,
+      "price": 0.47,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T07:39:26.443457+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Gamba \u014csaka vs. Vissel K\u014dbe: O/U 2.5 AND FC Machida Zelvia vs. Kashiwa Reysol: O/U 2.5",
+    "outcome": "",
+    "their_usd": 14.776348,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:39:27.030005+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Villarreal CF win on 2026-09-20? AND Will Bayer 04 Leverkusen win on 2026-09-20? AND Will Getafe CF win on 2026-09-20? AND Will Club Atl\u00e9tico de Madrid win on 2026-09-20? AND Will Leeds United FC win on 2026-09-20? AND Will Valencia CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 37.642328,
+    "detail": "price 0.989 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T07:40:08.765309+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "CoffeeDespiser",
+    "trader_wallet": "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+    "market": "Spread: Manchester City FC (-1.5)",
+    "outcome": "Manchester City FC",
+    "their_usd": 45.9408,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T07:43:35.948574+00:00"
   }
 ]

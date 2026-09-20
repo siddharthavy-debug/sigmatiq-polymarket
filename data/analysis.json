@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T07:38:44.972919+00:00",
+  "updated": "2026-09-20T07:44:18.345680+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -18,7 +18,7 @@
     {
       "trader": "us391",
       "wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "copied": 30,
+      "copied": 31,
       "closed": 12,
       "wins": 10,
       "losses": 2,
@@ -221,7 +221,7 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2592,
+      "skipped": 2594,
       "failed": 0,
       "benched": false
     },
@@ -235,7 +235,7 @@
       "win_rate": 50.0,
       "pnl": -15.46,
       "pnl_per_closed": -2.58,
-      "skipped": 1070,
+      "skipped": 1071,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 12160
+  "total_logged": 12164
 }
