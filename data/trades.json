@@ -150819,5 +150819,41 @@
     "their_usd": 15.569784,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T11:48:41.825432+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republicans win the Florida Senate race in 2026?",
+    "outcome": "Yes",
+    "their_usd": 198.432,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T11:49:22.453552+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Justluck9",
+    "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
+    "market": "Spread: New York Mets (-1.5)",
+    "outcome": "New York Mets",
+    "their_usd": 881.28,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T11:49:26.745293+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Como 1907 win on 2026-09-20? AND Will Real Betis Balompi\u00e9 win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 10.145942,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:50:50.723574+00:00"
   }
 ]
