@@ -159634,5 +159634,131 @@
     "their_usd": 480.48,
     "detail": "settles in 0.4h, too soon",
     "timestamp": "2026-09-20T16:33:23.371636+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Saint Tropez: Gabi Adrian Boitan vs Vadym Ursu",
+    "outcome": "Gabi Adrian Boitan",
+    "their_usd": 0,
+    "detail": {
+      "shares": 5.8824,
+      "price": 1.0,
+      "proceeds": 5.88,
+      "pnl": 0.88,
+      "result": "WON"
+    },
+    "timestamp": "2026-09-20T16:34:40.368933+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Plovdiv 4: Tiago Pereira vs Pavlos Tsitsipas",
+    "outcome": "Pavlos Tsitsipas",
+    "their_usd": 117.779661,
+    "detail": {
+      "shares": 7.728,
+      "price": 0.6470000018,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T16:34:42.302017+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Panthers vs. Falcons: O/U 43.5",
+    "outcome": "Over",
+    "their_usd": 480.48,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-20T16:34:42.743236+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Raiders vs. Chargers AND Browns vs. Buccaneers AND Packers vs. Jets AND Steelers vs. Patriots AND Bengals vs. Texans",
+    "outcome": "",
+    "their_usd": 27.976972,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T16:36:00.498506+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Yankees vs. Arizona Diamondbacks AND Washington Mystics vs. Indiana Fever AND Washington Nationals vs. St. Louis Cardinals AND Spread: Milwaukee Brewers (-1.5) AND Athletics vs. Cleveland Guardians AND Detroit Tigers vs. Chicago White Sox",
+    "outcome": "",
+    "their_usd": 117.556714,
+    "detail": "price 0.961 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T16:37:17.419093+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Ferencvarosi Budapest win on 2026-09-20? AND Will Dinamo 1948 win on 2026-09-18? AND Will Modena FC 2018 win on 2026-09-20? AND Will TSG 1899 Hoffenheim win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 37.543802,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T16:37:17.548260+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Plovdiv 4: Tiago Pereira vs Pavlos Tsitsipas",
+    "outcome": "Pavlos Tsitsipas",
+    "their_usd": 567.51284,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:37:54.949248+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "TRCM",
+    "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+    "market": "Plovdiv 4: Tiago Pereira vs Pavlos Tsitsipas",
+    "outcome": "Pavlos Tsitsipas",
+    "their_usd": 504.20814,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T16:37:55.485736+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "close_reason": "resolved",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Viking FK win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 0,
+    "detail": {
+      "shares": 16.6667,
+      "price": 0.0,
+      "proceeds": 0.0,
+      "pnl": -5.0,
+      "result": "LOST"
+    },
+    "timestamp": "2026-09-20T16:38:31.296575+00:00"
   }
 ]

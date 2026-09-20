@@ -2,7 +2,7 @@
   "mode": "paper",
   "allocation": 305.0,
   "total_balance": 1000.0,
-  "cash": 102.4800342799292,
+  "cash": 103.36238722110568,
   "positions": {
     "37252772880024030844606749454058945115051328462816695499913427201528614446094": {
       "market": "Philadelphia Phillies vs. Washington Nationals",
@@ -184,16 +184,6 @@
       "trader_wallet": "0x99aa00fde98f1ee632a3a60c7d13cf0d14716c5a",
       "opened": "2026-09-20T05:28:56.203731+00:00"
     },
-    "92673131757617218438654994914810177342704209564681956200322318839449643102858": {
-      "market": "Will Viking FK win on 2026-09-20?",
-      "slug": "nor-vik-lil-2026-09-20-vik",
-      "outcome": "No",
-      "shares": 16.666666666666668,
-      "cost": 5.0,
-      "trader": "us391",
-      "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
-      "opened": "2026-09-20T06:19:21.555641+00:00"
-    },
     "60632519705736875566131635305949413125558039652783197754853251003294989084241": {
       "market": "Will Ujpest FC Budapest win on 2026-09-20?",
       "slug": "hun-ujp-zal-2026-09-20-ujp",
@@ -244,25 +234,18 @@
       "trader_wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
       "opened": "2026-09-20T15:51:59.367740+00:00"
     },
-    "13838649084229947609569135707372329286979041786117367059179037120752624938878": {
-      "market": "Saint Tropez: Gabi Adrian Boitan vs Vadym Ursu",
-      "slug": "atp-boita-ursu-2026-09-20",
-      "outcome": "Gabi Adrian Boitan",
-      "shares": 5.882352941176471,
+    "44110674541894506469724353865735808248827106022800377817880158618958098213630": {
+      "market": "Plovdiv 4: Tiago Pereira vs Pavlos Tsitsipas",
+      "slug": "atp-pereira-tsitsi-2026-09-20",
+      "outcome": "Pavlos Tsitsipas",
+      "shares": 7.727975248979359,
       "cost": 5.0,
-      "trader": "tradecraft",
-      "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "opened": "2026-09-20T16:15:48.727394+00:00"
+      "trader": "TRCM",
+      "trader_wallet": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+      "opened": "2026-09-20T16:34:42.278174+00:00"
     }
   },
   "seen_trades": [
-    "0xe887beba2ea2d3cdaa143fc926252fc53e0c9c9fbc4f8734a8343d7dac730355",
-    "0xfac96b96d4908c79f6bbb6eeb2b031ba6687d00b122fc1b7840e43ea86459296",
-    "0x8cd68eb142004b5eebc11bb1e0dbd2c803ee67c421ee15d2d5a7292fb702cfb1",
-    "0x09014449a632a1b5928fb0a774ded4afc8b4e5c59253d8dbc271f0a57cb0de98",
-    "0x9503a4609c21da4b64eb4d0561093d062245bf17a09f1a6c317beccb2fc86a91",
-    "0x60d765c45df467177e1d35e3fe9b2c5f890b709de696b7700dff53a48ca79795",
-    "0x15746b6b4d854718c6407dc91f9573d5ab852926458b243c2b92b0ce3de4a485",
     "0x071c37043d4685de02570ae1e0ba49f630ba0830dfbc2dae8381dd4daaa84ab0",
     "0x24bbc1ffa9fe15989d2c24b87a1e3a61f6f223b2d39b6652ab9d61db2c9aa0b8",
     "0x590f8e46bfa3248da7f8b6831c2a23fc534fba013699d6ad423b437500c71eba",
@@ -8255,15 +8238,22 @@
     "0x98586956ab82c65a3ec46c897ab2ae63a9089ef0d1b4f47bd8cb2ac2b193a0eb",
     "0x36661530c8f946ee532ceb4d7e4f139d6ad57569e27d94b0e33fc246f3fea553",
     "0xcb980c31f608b58dc5ec6e066cd1a9003cf7025752ddfada3611b6bedb274743",
-    "0x37527f26f0031c12b21d3ea249e6bfb184a5abfa23f1c2405f738d6562f0075a"
+    "0x37527f26f0031c12b21d3ea249e6bfb184a5abfa23f1c2405f738d6562f0075a",
+    "0x3c0aeb7684466838e3c4b7894208d553fd499dd3ec66db47ab86ec5c125465bf",
+    "0xe46ece426913389c1d70f6053b8497ce1ae0ebd194031c3d96f5a105dd385d4b",
+    "0xf3e107533b88c2446a1c701845e9ae2fc5678c0796cf989f10c73a9cb1a538c0",
+    "0x274437799c0da2fbe9fbe40d7fb64e111bde765e736bc6aa4e35614db70f9fa9",
+    "0x91ab2dfe6e195004bfa55955f39b1753a388252d5ec3e05eb13b342cc1a748ea",
+    "0x326565f4b47f2270afaeb4048da2d827cabeae5b351882999eaebf5c37a4944b",
+    "0xeaad55e6e79df5f9f6af7b15144fafe7cd3f9cccee3a11a582317b3a07084738"
   ],
   "traders_updated": null,
-  "last_run": "2026-09-20T16:33:24.677495+00:00",
-  "realized_pnl": 26.38670094659593,
-  "trades_executed": 330,
-  "wins": 71,
-  "losses": 63,
-  "skipped": 13342,
+  "last_run": "2026-09-20T16:38:35.534759+00:00",
+  "realized_pnl": 22.2690538877724,
+  "trades_executed": 331,
+  "wins": 72,
+  "losses": 64,
+  "skipped": 13348,
   "failed": 0,
   "initialised": true,
   "paused": false
