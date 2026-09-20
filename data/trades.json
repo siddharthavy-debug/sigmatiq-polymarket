@@ -154454,5 +154454,65 @@
     "their_usd": 11.285,
     "detail": "max open positions",
     "timestamp": "2026-09-20T13:59:05.930486+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will Erzurumspor FK vs. Samsunspor end in a draw?",
+    "outcome": "No",
+    "their_usd": 667.06164,
+    "detail": "settles in 0.0h, too soon",
+    "timestamp": "2026-09-20T13:59:52.387031+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Eagles vs. Titans AND Bengals vs. Texans",
+    "outcome": "",
+    "their_usd": 17.637437,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T14:02:02.150633+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Buenos Aires 2: Nicolas Garcia Longo vs Tomas Farjat",
+    "outcome": "Nicolas Garcia Longo",
+    "their_usd": 22.11275,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T14:02:43.384462+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "RC Deportivo A Coru\u00f1a vs. Real Betis Balompi\u00e9: Both Teams to Score AND Club Atl\u00e9tico de Madrid vs. Real Madrid CF: O/U 3.5 AND Fulham FC vs. Manchester United FC: Both Teams to Score",
+    "outcome": "",
+    "their_usd": 18.345335,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T14:02:45.462915+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "New York Liberty vs. Toronto Tempo AND Browns vs. Buccaneers AND Minnesota Lynx vs. Connecticut Sun AND Eagles vs. Titans AND Will AC Milan win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 14.823786,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T14:03:28.671619+00:00"
   }
 ]
