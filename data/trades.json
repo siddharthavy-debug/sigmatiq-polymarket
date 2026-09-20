@@ -139664,5 +139664,191 @@
     "their_usd": 9.405932,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T02:41:55.019651+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "UAB vs. Louisiana",
+    "outcome": "Louisiana",
+    "their_usd": 499.72,
+    "detail": "price 0.961 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T02:42:38.219118+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alexandra Shubladze vs Darya Astakhova",
+    "outcome": "Darya Astakhova",
+    "their_usd": 116.97905,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T02:43:17.943727+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "SELL",
+    "mode": "paper",
+    "trader": "0F62",
+    "trader_wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+    "market": "Ethereum Up or Down on September 20?",
+    "outcome": "Down",
+    "their_usd": 2393.75752,
+    "detail": {
+      "shares": 11.6667,
+      "price": 0.91,
+      "proceeds": 10.62,
+      "pnl": 5.62,
+      "fraction": 1.0
+    },
+    "timestamp": "2026-09-20T02:43:59.743794+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 360.46118,
+    "detail": {
+      "shares": 16.129,
+      "price": 0.31,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T02:44:39.971921+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 32.0695,
+    "detail": {
+      "shares": 16.129,
+      "price": 0.31,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T02:44:40.084138+00:00"
+  },
+  {
+    "status": "executed",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 336.72975,
+    "detail": {
+      "shares": 16.129,
+      "price": 0.31,
+      "size": 5.0
+    },
+    "timestamp": "2026-09-20T02:44:40.179737+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 1.55,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T02:44:40.264768+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 15.525,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T02:44:40.347762+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 32.0695,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T02:44:40.430922+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 1958.7798,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T02:44:40.513169+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 5145.77988,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T02:44:40.596607+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 57.3214,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T02:44:40.679141+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "analdesutructor",
+    "trader_wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "outcome": "San Francisco Giants",
+    "their_usd": 106.0732,
+    "detail": "market already at $15.00 of $15.25 cap",
+    "timestamp": "2026-09-20T02:44:40.762695+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "outcome": "Yes",
+    "their_usd": 31.83,
+    "detail": "settles in 102d, too far out",
+    "timestamp": "2026-09-20T02:45:22.180560+00:00"
   }
 ]

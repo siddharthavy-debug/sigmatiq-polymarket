@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T02:41:55.923377+00:00",
+  "updated": "2026-09-20T02:47:30.342081+00:00",
   "by_trader": [
     {
       "trader": "tradecraft",
@@ -11,7 +11,7 @@
       "win_rate": 52.6,
       "pnl": 92.99,
       "pnl_per_closed": 2.45,
-      "skipped": 910,
+      "skipped": 911,
       "failed": 0,
       "benched": false
     },
@@ -72,6 +72,20 @@
       "benched": false
     },
     {
+      "trader": "0F62",
+      "wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+      "copied": 3,
+      "closed": 1,
+      "wins": 1,
+      "losses": 0,
+      "win_rate": 100.0,
+      "pnl": 5.62,
+      "pnl_per_closed": 5.62,
+      "skipped": 495,
+      "failed": 0,
+      "benched": false
+    },
+    {
       "trader": "Yellow-Fever",
       "wallet": "0xda856317923415a534d8952e6f8abde17c2e1ca7",
       "copied": 1,
@@ -82,20 +96,6 @@
       "pnl": 3.2,
       "pnl_per_closed": 3.2,
       "skipped": 63,
-      "failed": 0,
-      "benched": false
-    },
-    {
-      "trader": "0F62",
-      "wallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
-      "copied": 3,
-      "closed": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "pnl": 0.0,
-      "pnl_per_closed": null,
-      "skipped": 495,
       "failed": 0,
       "benched": false
     },
@@ -137,7 +137,7 @@
       "win_rate": null,
       "pnl": 0.0,
       "pnl_per_closed": null,
-      "skipped": 140,
+      "skipped": 141,
       "failed": 0,
       "benched": false
     },
@@ -235,21 +235,21 @@
       "win_rate": 0.0,
       "pnl": -10.0,
       "pnl_per_closed": -10.0,
-      "skipped": 2434,
+      "skipped": 2435,
       "failed": 0,
       "benched": false
     },
     {
       "trader": "analdesutructor",
       "wallet": "0xf8fdc4067784d70f7828149d009a519b6bd5876f",
-      "copied": 6,
+      "copied": 9,
       "closed": 3,
       "wins": 1,
       "losses": 2,
       "win_rate": 33.3,
       "pnl": -19.42,
       "pnl_per_closed": -6.47,
-      "skipped": 272,
+      "skipped": 279,
       "failed": 0,
       "benched": false
     },
@@ -315,5 +315,5 @@
     "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
     "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
   ],
-  "total_logged": 11480
+  "total_logged": 11494
 }
