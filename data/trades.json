@@ -147893,5 +147893,29 @@
     "their_usd": 55.495261,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T07:05:10.257420+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Browns vs. Buccaneers AND Bengals vs. Texans AND Spread: Bears (-4.5) AND Spread: Eagles (-6.5)",
+    "outcome": "",
+    "their_usd": 57.521251,
+    "detail": "price 0.908 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T07:05:54.119826+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Singapore Open, Qualification: Mei Yamaguchi vs Kyoka Okamura",
+    "outcome": "Kyoka Okamura",
+    "their_usd": 1693.44,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T07:08:39.760918+00:00"
   }
 ]
