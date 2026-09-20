@@ -150543,5 +150543,113 @@
     "their_usd": 200.34218,
     "detail": "price 0.929 above 0.9 (no upside)",
     "timestamp": "2026-09-20T11:20:38.313458+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Saint Tropez: Henri Squire vs Maxime Janvier",
+    "outcome": "Henri Squire",
+    "their_usd": 136.48705,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T11:22:06.194708+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "0x8efa1ea8ee",
+    "trader_wallet": "0x8efa1ea8ee2d456a051ae2985079a1e3c9aa894c",
+    "market": "Will Manchester City FC win on 2026-09-20?",
+    "outcome": "Yes",
+    "their_usd": 802.08,
+    "detail": "settles in 1.6h, too soon",
+    "timestamp": "2026-09-20T11:22:07.047253+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Biella: Carlo Alberto Caniato vs Alejandro Moro Canas",
+    "outcome": "Carlo Alberto Caniato",
+    "their_usd": 624.46976,
+    "detail": "price 0.969 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T11:22:48.984125+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seahawks vs. Cardinals AND Vikings vs. Bears",
+    "outcome": "",
+    "their_usd": 1690.500471,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:22:50.868283+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Guangzhou: Pavel Kotov vs Marat Sharipov",
+    "outcome": "Pavel Kotov",
+    "their_usd": 2.31551,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T11:24:57.265038+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "us391",
+    "trader_wallet": "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd",
+    "market": "Will FC Lugano win on 2026-09-20?",
+    "outcome": "No",
+    "their_usd": 9.604,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:24:58.678375+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Como 1907 win on 2026-09-20? AND Will AZ win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 5.59359,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:26:24.716164+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will AZ win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 7.647736,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:27:07.628415+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Como 1907 win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 9.65008,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T11:27:07.744179+00:00"
   }
 ]
