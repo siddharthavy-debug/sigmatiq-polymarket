@@ -147941,5 +147941,29 @@
     "their_usd": 13.45818,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T07:15:43.204362+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "ImJustKen",
+    "trader_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+    "market": "Will the Republicans win the Georgia Senate race in 2026?",
+    "outcome": "Yes",
+    "their_usd": 48.9,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T07:24:47.649469+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Manchester City FC win on 2026-09-20? AND Will Bayer 04 Leverkusen win on 2026-09-20? AND Will Paris Saint-Germain FC win on 2026-09-20? AND Will Real Madrid CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 224.78649,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T07:24:51.162265+00:00"
   }
 ]
