@@ -164744,5 +164744,101 @@
     "their_usd": 1664.6083,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T18:03:28.686836+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Steelers vs. Patriots: O/U 41.5",
+    "outcome": "Over",
+    "their_usd": 12.88,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:05:27.312377+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Vikings (-4.5)",
+    "outcome": "Bears",
+    "their_usd": 14.4,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:05:27.442397+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Bengals (-1.5)",
+    "outcome": "Texans",
+    "their_usd": 6.9476,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:07:24.394088+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Vikings vs. Bears: O/U 45.5",
+    "outcome": "Under",
+    "their_usd": 21.33,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:07:24.530660+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Philadelphia Phillies vs. New York Mets",
+    "outcome": "New York Mets",
+    "their_usd": 2.349,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:07:24.651691+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Vikings vs. Bears: O/U 39.5",
+    "outcome": "Over",
+    "their_usd": 10.75,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:07:24.771840+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Vikings vs. Bears: O/U 45.5",
+    "outcome": "Under",
+    "their_usd": 8.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:08:03.826621+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Vikings vs. Bears: O/U 45.5",
+    "outcome": "Under",
+    "their_usd": 22.4,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T18:08:45.894962+00:00"
   }
 ]
