@@ -139402,5 +139402,65 @@
     "their_usd": 628.75339,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T02:26:49.117682+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Virginia Tech (-14.5)",
+    "outcome": "Virginia Tech",
+    "their_usd": 47.7,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:27:33.356796+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Club Atl\u00e9tico de Madrid vs. Real Madrid CF: Both Teams to Score AND Spread: Manchester City FC (-1.5) AND FC Schalke 04 vs. SV 07 Elversberg: Both Teams to Score AND AFC Bournemouth vs. Liverpool FC: Both Teams to Score AND Will Bayer 04 Leverkusen win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 1358.944489,
+    "detail": "price 0.922 above 0.9 (no upside)",
+    "timestamp": "2026-09-20T02:28:58.175448+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "tradecraft",
+    "trader_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+    "market": "Korea Open, Qualification: Alexandra Shubladze vs Darya Astakhova",
+    "outcome": "Darya Astakhova",
+    "their_usd": 2.59375,
+    "detail": "max open positions",
+    "timestamp": "2026-09-20T02:30:21.549522+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Ole Miss (-6.5)",
+    "outcome": "LSU",
+    "their_usd": 10.3968,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:30:23.578766+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Ole Miss (-6.5)",
+    "outcome": "LSU",
+    "their_usd": 7.6,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T02:30:23.698357+00:00"
   }
 ]
