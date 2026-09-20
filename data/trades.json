@@ -183415,5 +183415,101 @@
     "their_usd": 7.25,
     "detail": "already hold 4 from this trader",
     "timestamp": "2026-09-20T21:16:59.308404+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Giants vs. Rams AND Spread: KC (-5.5)",
+    "outcome": "",
+    "their_usd": 32.332811,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T21:19:35.576083+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Will Deportivo Toluca FC win on 2026-09-20? AND Will CR Flamengo win on 2026-09-20? AND Will Atl\u00e9tico Nacional win on 2026-09-20? AND Will Inter Miami CF win on 2026-09-20?",
+    "outcome": "",
+    "their_usd": 32.111196,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T21:19:35.718514+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: San Diego Padres (-1.5)",
+    "outcome": "Miami Marlins",
+    "their_usd": 5.96882,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T21:19:35.850247+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Toronto Blue Jays vs. Texas Rangers: O/U 10.5",
+    "outcome": "Over",
+    "their_usd": 21.00937,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T21:20:14.524342+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Athletics vs. Cleveland Guardians",
+    "outcome": "Cleveland Guardians",
+    "their_usd": 4152.04391,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T21:20:53.960100+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Athletics vs. Cleveland Guardians",
+    "outcome": "Cleveland Guardians",
+    "their_usd": 51.89741,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T21:20:54.096278+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Spread: Broncos (-3.5)",
+    "outcome": "Broncos",
+    "their_usd": 10.0,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T21:21:32.843797+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "curie",
+    "trader_wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+    "market": "Seattle Mariners vs. Colorado Rockies",
+    "outcome": "Seattle Mariners",
+    "their_usd": 4433.50278,
+    "detail": "already hold 4 from this trader",
+    "timestamp": "2026-09-20T21:21:32.982212+00:00"
   }
 ]
