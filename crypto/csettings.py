@@ -1,19 +1,30 @@
 """
 Dashboard settings for the crypto engine.
 
-The rule that matters here: a settings file we cannot read means CHANGE
-NOTHING. Last week a truncated read looked identical to "nothing saved", the
-allocation silently reverted to the workflow default, and the difference was
-taken out of cash and floored at zero. Money disappeared with no record.
+Two rules earned the hard way.
 
-So: absent file -> defaults, unreadable file -> leave everything alone.
+A settings file we cannot read means CHANGE NOTHING. A truncated read used to
+look identical to "nothing saved": config fell back to the workflow defaults,
+the engine saw the allocation drop, took the difference out of cash and
+floored it at zero. Money vanished with no record.
+
+And on GitHub Actions the bot reads a checkout taken when the job started, so
+a change saved from the dashboard never reached it — except by accident, when
+a state push got rejected and the rebase dragged the new file in. So in
+Actions the file is read straight from GitHub instead.
 """
 import json
 import os
+import time
 
 from . import cconfig
 
 LOAD_FAILED = False
+
+# Consulted before every decision, and the feed delivers dozens a second, so
+# the remote copy is cached briefly.
+REMOTE_TTL = float(os.getenv("CRYPTO_SETTINGS_TTL", "15"))
+_remote = {"at": 0.0, "data": None}
 
 # name in the file -> (attribute on cconfig, type, min, max)
 ALLOWED = {
@@ -34,9 +45,46 @@ ALLOWED = {
 }
 
 
-def load():
+def _remote_url():
+    repo = os.getenv("GITHUB_REPOSITORY")
+    if not repo or os.getenv("GITHUB_ACTIONS") != "true":
+        return None
+    branch = os.getenv("GITHUB_REF_NAME") or "main"
+    return (f"https://raw.githubusercontent.com/{repo}/{branch}/"
+            f"{cconfig.SETTINGS_FILE}")
+
+
+def _fetch_remote():
+    """The dashboard's copy. None when there isn't one to be had."""
+    url = _remote_url()
+    if not url:
+        return None
+
+    now = time.time()
+    if _remote["data"] is not None and now - _remote["at"] < REMOTE_TTL:
+        return _remote["data"]
+
+    try:
+        import requests
+        r = requests.get(f"{url}?t={int(now)}", timeout=8,
+                         headers={"Cache-Control": "no-cache"})
+        if r.status_code == 200:
+            data = r.json()
+            if isinstance(data, dict):
+                _remote["data"] = data
+                _remote["at"] = now
+                return data
+    except Exception:
+        pass
+
+    # A fetch that failed must not look like "no settings". Keep whatever we
+    # last had, and let the caller fall back to the local file.
+    _remote["at"] = now
+    return _remote["data"]
+
+
+def _read_local():
     global LOAD_FAILED
-    LOAD_FAILED = False
     if not os.path.exists(cconfig.SETTINGS_FILE):
         return {}
     try:
@@ -47,22 +95,32 @@ def load():
             return {}
         return data
     except (json.JSONDecodeError, OSError):
+        # a truncated read while the file is being committed lands here
         LOAD_FAILED = True
         return {}
 
 
+def load():
+    global LOAD_FAILED
+    LOAD_FAILED = False
+    remote = _fetch_remote()
+    if remote is not None:
+        return remote
+    return _read_local()
+
+
 def apply():
     """
-    Push saved settings onto cconfig. Called at the start of every decision,
-    never cached — change a number on the dashboard and the next trade uses it.
+    Push saved settings onto cconfig. Called before every decision, never
+    cached — change a number on the dashboard and the next trade uses it.
 
-    Returns the dict of what is actually live, which is what the dashboard
-    reads back, so a change that didn't take is visible immediately instead of
-    being discovered days later.
+    Returns (what is live, whether the file was unreadable). The dashboard
+    reads the first back, so a change that didn't take is visible at once
+    rather than days later.
     """
     saved = load()
     if LOAD_FAILED:
-        return {}, True          # (nothing applied, unreadable)
+        return {}, True
 
     live = {}
     for key, value in saved.items():
@@ -92,7 +150,7 @@ def apply():
         setattr(cconfig, attr, value)
         live[key] = value
 
-    # a price floor above the ceiling would silently refuse every trade
+    # A floor above the ceiling would silently refuse every trade.
     if cconfig.MIN_BUY_PRICE >= cconfig.MAX_BUY_PRICE:
         cconfig.MIN_BUY_PRICE = max(0.01, cconfig.MAX_BUY_PRICE - 0.05)
         live["min_price"] = cconfig.MIN_BUY_PRICE
