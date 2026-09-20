@@ -138894,5 +138894,29 @@
     "their_usd": 37.46,
     "detail": "price 0.010 below 0.05 (longshot)",
     "timestamp": "2026-09-20T02:04:39.100157+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will Portland Timbers win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 33643.27383,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-20T02:06:44.862635+00:00"
+  },
+  {
+    "status": "skipped",
+    "side": "BUY",
+    "mode": "paper",
+    "trader": "Elaran1993",
+    "trader_wallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
+    "market": "Will Portland Timbers win on 2026-09-19?",
+    "outcome": "No",
+    "their_usd": 360.48896,
+    "detail": "settles in 0.4h, too soon",
+    "timestamp": "2026-09-20T02:06:44.980242+00:00"
   }
 ]
