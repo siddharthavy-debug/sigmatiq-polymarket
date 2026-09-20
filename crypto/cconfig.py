@@ -52,8 +52,8 @@ MAX_HORIZON_SECONDS = _i("CRYPTO_MAX_HORIZON", "3600")     # 1 hour
 
 # At 90c a win pays 11c and a loss costs 90c. Below 5c the odds are lottery
 # tickets. The band in between is where wins can exceed losses.
-MAX_BUY_PRICE = _f("CRYPTO_MAX_PRICE", "0.65")
-MIN_BUY_PRICE = _f("CRYPTO_MIN_PRICE", "0.15")
+MAX_BUY_PRICE = _f("CRYPTO_MAX_PRICE", "0.60")
+MIN_BUY_PRICE = _f("CRYPTO_MIN_PRICE", "0.40")
 
 # How stale a signal can be before we refuse it. The feed lands in about a
 # second; if we are much further behind than that, the price has moved and we

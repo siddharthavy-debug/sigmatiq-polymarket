@@ -33,8 +33,9 @@ jobs:
         env:
           MIN_TRADES: "50"
           WIN_RATE_BAR: "0.70"
-          MARGIN_BAR: "0.08"
-          TOP_N: "10"
+          MARGIN_BAR: "0.03"
+          MIN_Z: "2.0"
+          TOP_N: "12"
         run: python -m crypto.weekly 7 --pin=${{ github.event.inputs.list || 'b' }}
 
       - name: Push

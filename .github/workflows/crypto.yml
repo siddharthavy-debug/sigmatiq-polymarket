@@ -36,8 +36,8 @@ jobs:
           CRYPTO_DAILY_STOP: "0.06"
           CRYPTO_MIN_HORIZON: "300"
           CRYPTO_MAX_HORIZON: "3600"
-          CRYPTO_MAX_PRICE: "0.65"
-          CRYPTO_MIN_PRICE: "0.15"
+          CRYPTO_MAX_PRICE: "0.60"
+          CRYPTO_MIN_PRICE: "0.40"
           WINDOW_MINUTES: "330"
           POLY_PRIVATE_KEY: ${{ secrets.POLY_PRIVATE_KEY }}
           POLY_FUNDER: ${{ secrets.POLY_FUNDER }}
