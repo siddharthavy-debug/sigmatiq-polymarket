@@ -116,6 +116,10 @@ def sync_allocation(s, unreadable):
     s["cash"] = cash + actual
     s["contributed"] += actual
     s["allocation"] = cconfig.TRADING_ALLOCATION
+
+    # Moving capital in or out is not a profit or a loss, and the
+    # daily stop must not read it as one.
+    s["day_start_equity"] = max(0.0, s.get("day_start_equity", 0.0) + actual)
     return actual
 
 
