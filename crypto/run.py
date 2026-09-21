@@ -60,6 +60,51 @@ def commit(label):
     return _git("push", "origin", f"HEAD:{branch}").returncode == 0
 
 
+
+def real_ask(slug, outcome):
+    """
+    What we would ACTUALLY have paid, right now, for this side.
+
+    The bot books each copy at the TRADER'S fill price, which we can never
+    get: we arrive ~0.8s later, into a market that moved because they traded.
+    That makes the paper result optimistic by exactly the spread -- and the
+    whole measured edge is only 2.6c wide.
+
+    This changes nothing about what is booked. It records the live ask
+    alongside, so the same trades can be scored two ways: at the trader's
+    price (what we report today) and at the ask (what live would really have
+    given us). The second number is the honest one.
+
+    A failure returns None rather than a guess. A missing ask must never look
+    like a free fill.
+    """
+    try:
+        rows = pm._rows(pm._get(f"{pm.GAMMA_API}/markets",
+                                {"slug": slug, "limit": 1}, tries=1))
+        if not rows:
+            return None
+        m = rows[0]
+        outcomes = pm._maybe_json(m.get("outcomes"))
+        if not outcomes:
+            return None
+        idx = next((i for i, o in enumerate(outcomes)
+                    if str(o).lower() == str(outcome).lower()), None)
+        if idx is None:
+            return None
+        ask, bid = m.get("bestAsk"), m.get("bestBid")
+        try:
+            ask = float(ask) if ask is not None else None
+            bid = float(bid) if bid is not None else None
+        except (TypeError, ValueError):
+            return None
+        # bestAsk/bestBid are quoted for the FIRST outcome; the other side of a
+        # binary market costs 1 - bestBid.
+        val = ask if idx == 0 else (1 - bid if bid is not None else None)
+        return round(val, 4) if val and 0 < val < 1 else None
+    except Exception:
+        return None
+
+
 class Bot:
     def __init__(self):
         self.s = cstate.load()
@@ -169,12 +214,16 @@ class Bot:
                     if parts[-1].isdigit() and len(parts[-1]) >= 10:
                         entry["end"] = int(parts[-1]) + (t.get("horizon") or 300)
 
+                _live_ask = real_ask(slug, t.get("outcome"))
                 self.pending_log.append({
                     "event": "copy", "mode": cconfig.MODE,
                     "trader": detail["trader"], "wallet": detail["wallet"],
                     "market": slug, "coin": t.get("coin"),
                     "outcome": t.get("outcome"),
                     "price": detail["price"], "size": detail["size"],
+                    "live_ask": _live_ask,
+                    "slip_c": (round((_live_ask - detail["price"]) * 100, 2)
+                               if _live_ask else None),
                     "shares": round(pos["shares"], 4),
                     "their_usd": round((t.get("shares") or 0) * detail["price"], 2),
                     "lag_seconds": round(now - (t.get("ts") or now), 2),
