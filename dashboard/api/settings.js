@@ -27,7 +27,7 @@ const CRYPTO_FIELDS = {
   allocation:     { type: "num", min: 10, max: 1000000 },
   stake_pct:      { type: "num", min: 0.002, max: 0.10 },
   max_deployed:   { type: "num", min: 0.02, max: 1.0 },
-  daily_stop:     { type: "num", min: 0.01, max: 0.50 },
+  daily_stop:     { type: "num", min: 0, max: 0.50 },
   max_open:       { type: "int", min: 1, max: 60 },
   min_horizon:    { type: "int", min: 60, max: 86400 },
   max_horizon:    { type: "int", min: 300, max: 604800 },

@@ -105,7 +105,7 @@
     <div class="row">
       <div><label for="s-stop">Daily stop</label>
         <span class="hint" id="stop-hint"></span></div>
-      <input type="number" id="s-stop" step="1" min="1" max="50">
+      <input type="number" id="s-stop" step="1" min="0" max="50">
     </div>
     <div class="row">
       <div><label for="s-minh">Shortest market</label>
@@ -346,7 +346,7 @@ function hints() {
   const alloc = Number($("s-alloc").value) || 300;
   const stake = (Number($("s-stake").value) || 2) / 100;
   const dep = (Number($("s-dep").value) || 20) / 100;
-  const stop = (Number($("s-stop").value) || 6) / 100;
+  const stop = (Number($("s-stop").value) || 0) / 100;
   $("stake-hint").textContent =
     `${money(alloc * stake)} per trade at today's balance — it grows as the ` +
     `balance grows.`;
