@@ -1,0 +1,78 @@
+name: research
+
+# Historical tests. Read-only against Polymarket and Open-Meteo: places no
+# orders, never touches bot state, never writes outside research/.
+# Runs automatically when the research code is pushed, so no clicking.
+on:
+  push:
+    paths:
+      - "research/**"
+      - ".github/workflows/research.yml"
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "longshot | weather | all"
+        default: "all"
+      markets:
+        description: "how many settled markets to pull"
+        default: "2500"
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      TEST: ${{ github.event.inputs.test || 'all' }}
+      MARKETS: ${{ github.event.inputs.markets || '2500' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Longshot calibration
+        if: ${{ github.event.inputs.test != 'weather' }}
+        continue-on-error: true
+        run: |
+          mkdir -p research
+          python -m research.longshot "$MARKETS" 1 2>&1 | tee research/longshot_log.txt
+
+      - name: Consensus backtest
+        if: ${{ github.event.inputs.test != 'longshot' && github.event.inputs.test != 'weather' }}
+        continue-on-error: true
+        run: |
+          mkdir -p research
+          python -m research.consensus 770 60 2>&1 | tee research/consensus_log.txt
+
+      - name: Weather discover
+        if: ${{ github.event.inputs.test != 'longshot' }}
+        continue-on-error: true
+        run: |
+          mkdir -p research
+          python -m research.weather discover 6000 2>&1 | tee research/weather_discover_log.txt
+
+      - name: Weather score
+        if: ${{ github.event.inputs.test != 'longshot' }}
+        continue-on-error: true
+        run: |
+          python -m research.weather score 2>&1 | tee research/weather_score_log.txt
+
+      - name: Push results
+        if: always()
+        run: |
+          git config user.name  research
+          git config user.email research@users.noreply.github.com
+          git add research/ || true
+          git diff --staged --quiet && { echo "nothing produced"; exit 0; }
+          git commit -m "research run $(date -u +%FT%H:%M)"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git push origin "HEAD:$BRANCH" || {
+            git fetch origin "$BRANCH"
+            git rebase -X theirs "origin/$BRANCH"
+            git push origin "HEAD:$BRANCH"
+          }
