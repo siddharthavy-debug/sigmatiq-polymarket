@@ -65,11 +65,40 @@ class Bot:
         self.seen = feed.Seen()
         self.pending = {}          # slug -> {"end":, "tokens": {token: ...}}
         self.pending_log = []
+        self.adopt_open_positions()
         self.skips = {}
         self.copies = 0
         self.settled = 0
         self.reconnects = 0
         self.refresh_settings()
+
+    # ------------------------------------------------------------ recovery
+    def adopt_open_positions(self):
+        """
+        Re-queue positions left open by the PREVIOUS run.
+
+        settle_due() only looks at self.pending, which starts empty every time
+        the process starts. Positions were loaded from disk, so they existed --
+        but nothing was watching them, so they were never settled and their
+        cash stayed locked in "at work" forever. Every restart leaked a few
+        more. This puts them back in the queue so the next settle sweep closes
+        them.
+        """
+        adopted = 0
+        for token, pos in self.s.get("positions", {}).items():
+            slug = pos.get("slug") or pos.get("market")
+            if not slug:
+                continue
+            entry = self.pending.setdefault(slug, {"end": None, "tokens": {}})
+            entry["tokens"][token] = True
+            if entry["end"] is None:
+                parts = slug.rsplit("-", 1)
+                if parts[-1].isdigit() and len(parts[-1]) >= 10:
+                    entry["end"] = int(parts[-1]) + (pos.get("horizon") or 300)
+            adopted += 1
+        if adopted:
+            print(f"  adopted {adopted} position(s) left open by the last run",
+                  flush=True)
 
     # -------------------------------------------------------------- config
     def refresh_settings(self):
