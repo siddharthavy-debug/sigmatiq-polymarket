@@ -1,0 +1,50 @@
+name: trend-bot
+
+# One rule: if the last 20 crypto UP/DOWN markets mostly resolved Up, buy Up
+# at 45-61c. No traders, no copying, no ranking.
+#
+# It is scheduled every 4h while a run lasts 5.5h, so the concurrency group
+# below keeps one queued and it starts the moment the last ends -- no dead air.
+on:
+  schedule:
+    - cron: "35 */4 * * *"     # offset from the copy bot and the recorder
+  workflow_dispatch:
+    inputs:
+      lookback:
+        description: "how many recent markets define the trend"
+        default: "20"
+      band_lo:
+        description: "price band floor"
+        default: "0.45"
+      band_hi:
+        description: "price band ceiling"
+        default: "0.61"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trend-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run trend bot
+        env:
+          TREND_BANKROLL: "500"
+          TREND_STAKE_PCT: "0.02"
+          TREND_LOOKBACK: ${{ github.event.inputs.lookback || '20' }}
+          TREND_BAND_LO: ${{ github.event.inputs.band_lo || '0.45' }}
+          TREND_BAND_HI: ${{ github.event.inputs.band_hi || '0.61' }}
+          TREND_MAX_DEPLOYED: "0.60"
+          WINDOW_MINUTES: "330"
+        run: python -m crypto.trend
