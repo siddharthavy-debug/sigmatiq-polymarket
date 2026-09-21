@@ -33,6 +33,7 @@ COMMIT_EVERY = int(os.getenv("COMMIT_EVERY_SECONDS", "300"))
 IN_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
 
 RECONNECT_BACKOFF = [1, 2, 5, 10, 20, 30]
+STALE_TIMEOUT = int(os.getenv("WS_STALE_TIMEOUT", "90"))
 
 
 def _git(*a):
@@ -124,6 +125,7 @@ class Bot:
         self.copies = 0
         self.settled = 0
         self.reconnects = 0
+        self.stale_reconnects = 0
         self.handler_errors = 0
         self.refresh_settings()
 
@@ -321,6 +323,8 @@ class Bot:
         loss = engine.day_loss_pct(s)
         if loss > 0:
             line += f" | today -{loss*100:.1f}%"
+        if self.reconnects:
+            line += f" | reconnects {self.reconnects} (stale {self.stale_reconnects})"
         print(line, flush=True)
         if abs(drift) > 0.05:
             print(f"  ! books out by ${drift:+.2f} — P&L cannot be trusted",
@@ -330,6 +334,12 @@ class Bot:
             print("  skipped: " + ", ".join(f"{n} {why}" for why, n in top),
                   flush=True)
             self.skips = {}
+
+
+class StaleFeed(Exception):
+    """Raised when the socket is open (pings answered) but no trade
+    message has arrived in STALE_TIMEOUT seconds -- the silent-hang case
+    that a plain exception-only reconnect never catches."""
 
 
 async def listen(bot, deadline):
@@ -342,9 +352,25 @@ async def listen(bot, deadline):
                     close_timeout=5, max_queue=2048) as ws:
                 await ws.send(feed.subscribe_message())
                 attempt = 0
+                last_msg = time.time()
+                # Recv on a short leash (<= STALE_TIMEOUT) instead of the
+                # full remaining window, so a feed that goes quiet without
+                # ever throwing gets noticed and force-reconnected instead
+                # of leaving the bot copying nothing until someone restarts
+                # the Action by hand.
                 while time.time() < deadline:
-                    raw = await asyncio.wait_for(
-                        ws.recv(), timeout=max(deadline - time.time(), 1))
+                    remaining = max(deadline - time.time(), 1)
+                    wait = min(STALE_TIMEOUT, remaining)
+                    try:
+                        raw = await asyncio.wait_for(ws.recv(), timeout=wait)
+                    except asyncio.TimeoutError:
+                        if time.time() >= deadline:
+                            return
+                        if time.time() - last_msg >= STALE_TIMEOUT:
+                            raise StaleFeed(
+                                f"no messages in {STALE_TIMEOUT}s")
+                        continue
+                    last_msg = time.time()
                     # Handling is OUTSIDE the socket's try on purpose. It used
                     # to sit inside, so a KeyError in the trading logic was
                     # counted as a reconnect and the log read like a flaky
@@ -357,15 +383,16 @@ async def listen(bot, deadline):
                               flush=True)
                         if bot.handler_errors in (1, 10, 100):
                             traceback.print_exc()
-        except asyncio.TimeoutError:
-            return
         except Exception as e:
             if time.time() >= deadline:
                 return
+            if isinstance(e, StaleFeed):
+                bot.stale_reconnects += 1
             bot.reconnects += 1
             wait = RECONNECT_BACKOFF[min(attempt, len(RECONNECT_BACKOFF) - 1)]
             attempt += 1
-            print(f"  reconnecting in {wait}s ({type(e).__name__})", flush=True)
+            print(f"  reconnecting in {wait}s ({type(e).__name__}: {e})",
+                  flush=True)
             await asyncio.sleep(min(wait, max(deadline - time.time(), 0)))
 
 
@@ -416,7 +443,7 @@ async def main():
     bot.report()
     commit("final")
     print(f"\ncopied {bot.copies} | settled {bot.settled} | "
-          f"reconnects {bot.reconnects} | handler errors {bot.handler_errors}")
+          f"reconnects {bot.reconnects} (stale {bot.stale_reconnects}) | handler errors {bot.handler_errors}")
     return 0
 
 
