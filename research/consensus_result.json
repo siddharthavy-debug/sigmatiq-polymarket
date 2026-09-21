@@ -1,322 +1,322 @@
 {
-  "generated": "2026-09-21T12:15:12.613233+00:00",
+  "generated": "2026-09-21T12:35:25.316392+00:00",
   "wallets": 770,
   "decision_lag": 60.0,
-  "markets_scored": 6193,
+  "markets_scored": 6200,
   "results": [
     {
       "rule": "3+ voters, 60% agree",
       "in": {
         "label": "  IN-SAMPLE  3+ voters, 60% agree",
-        "n": 2590,
-        "win_rate": 0.461003861003861,
-        "implied": 0.4801917374517377,
-        "edge": -0.01918787644787673,
-        "per_trade": -0.019188125278773144,
-        "t": -2.0761061866774106
+        "n": 2591,
+        "win_rate": 0.4604399845619452,
+        "implied": 0.4802527595522967,
+        "edge": -0.0198127749903515,
+        "per_trade": -0.01981315761564277,
+        "t": -2.1461344196386802
       },
       "out": {
         "label": "  OUT-SAMPLE 3+ voters, 60% agree",
-        "n": 1869,
-        "win_rate": 0.4489031567683253,
-        "implied": 0.4914485286249333,
-        "edge": -0.042545371856608005,
-        "per_trade": -0.04254574842800424,
-        "t": -3.8619660951840937
+        "n": 1865,
+        "win_rate": 0.450402144772118,
+        "implied": 0.49134375335120717,
+        "edge": -0.040941608579089184,
+        "per_trade": -0.04094184440074452,
+        "t": -3.713879709846087
       }
     },
     {
       "rule": "3+ voters, 70% agree",
       "in": {
         "label": "  IN-SAMPLE  3+ voters, 70% agree",
-        "n": 1556,
-        "win_rate": 0.44280205655526994,
-        "implied": 0.47417988431876584,
-        "edge": -0.0313778277634959,
-        "per_trade": -0.031377898606323,
-        "t": -2.6278798732731175
+        "n": 1565,
+        "win_rate": 0.44217252396166135,
+        "implied": 0.4748196166134183,
+        "edge": -0.03264709265175697,
+        "per_trade": -0.03264720146607927,
+        "t": -2.74340881022518
       },
       "out": {
         "label": "  OUT-SAMPLE 3+ voters, 70% agree",
-        "n": 945,
-        "win_rate": 0.45185185185185184,
-        "implied": 0.4920601058201058,
-        "edge": -0.04020825396825395,
-        "per_trade": -0.04020898786645097,
-        "t": -2.5792130316213924
+        "n": 940,
+        "win_rate": 0.451063829787234,
+        "implied": 0.4922441489361699,
+        "edge": -0.041180319148935884,
+        "per_trade": -0.04118134466602709,
+        "t": -2.6273068717200423
       }
     },
     {
       "rule": "3+ voters, 80% agree",
       "in": {
         "label": "  IN-SAMPLE  3+ voters, 80% agree",
-        "n": 1101,
-        "win_rate": 0.43505903723887374,
-        "implied": 0.4714013623978201,
-        "edge": -0.036342325158946365,
-        "per_trade": -0.03634242708188442,
-        "t": -2.543728485300372
+        "n": 1105,
+        "win_rate": 0.4334841628959276,
+        "implied": 0.4719169230769229,
+        "edge": -0.038432760180995285,
+        "per_trade": -0.03843286436292016,
+        "t": -2.6968915142628562
       },
       "out": {
         "label": "  OUT-SAMPLE 3+ voters, 80% agree",
         "n": 571,
-        "win_rate": 0.4500875656742557,
-        "implied": 0.4914777583187386,
-        "edge": -0.041390192644482904,
-        "per_trade": -0.04139102694095734,
-        "t": -2.0548283452881937
+        "win_rate": 0.45709281961471104,
+        "implied": 0.49181278458844074,
+        "edge": -0.0347199649737297,
+        "per_trade": -0.03472074832724575,
+        "t": -1.7247373520164244
       }
     },
     {
       "rule": "5+ voters, 60% agree",
       "in": {
         "label": "  IN-SAMPLE  5+ voters, 60% agree",
-        "n": 1188,
-        "win_rate": 0.45791245791245794,
-        "implied": 0.4853639730639736,
-        "edge": -0.02745151515151567,
-        "per_trade": -0.02745219040344207,
-        "t": -2.0083206526573307
+        "n": 1186,
+        "win_rate": 0.45952782462057334,
+        "implied": 0.4849682967959534,
+        "edge": -0.025440472175380036,
+        "per_trade": -0.02544142795477553,
+        "t": -1.8610356150537537
       },
       "out": {
         "label": "  OUT-SAMPLE 5+ voters, 60% agree",
-        "n": 1358,
-        "win_rate": 0.44550810014727543,
-        "implied": 0.4850531664212069,
-        "edge": -0.03954506627393145,
-        "per_trade": -0.03954546542931883,
-        "t": -3.059292574262879
+        "n": 1352,
+        "win_rate": 0.44822485207100593,
+        "implied": 0.48373942307692236,
+        "edge": -0.03551457100591643,
+        "per_trade": -0.03551462068249286,
+        "t": -2.7443525100634965
       }
     },
     {
       "rule": "5+ voters, 70% agree",
       "in": {
         "label": "  IN-SAMPLE  5+ voters, 70% agree",
-        "n": 676,
-        "win_rate": 0.43047337278106507,
-        "implied": 0.4789062130177511,
-        "edge": -0.04843284023668604,
-        "per_trade": -0.048433046873084765,
-        "t": -2.6797334365466456
+        "n": 681,
+        "win_rate": 0.43171806167400884,
+        "implied": 0.4794142437591774,
+        "edge": -0.04769618208516857,
+        "per_trade": -0.04769645275609028,
+        "t": -2.649596257868197
       },
       "out": {
         "label": "  OUT-SAMPLE 5+ voters, 70% agree",
-        "n": 648,
-        "win_rate": 0.44753086419753085,
-        "implied": 0.4850575617283953,
-        "edge": -0.03752669753086446,
-        "per_trade": -0.03752760408892143,
-        "t": -1.992351290023396
+        "n": 643,
+        "win_rate": 0.447900466562986,
+        "implied": 0.4827264385692072,
+        "edge": -0.03482597200622123,
+        "per_trade": -0.03482702934130182,
+        "t": -1.836924678197086
       }
     },
     {
       "rule": "5+ voters, 80% agree",
       "in": {
         "label": "  IN-SAMPLE  5+ voters, 80% agree",
-        "n": 485,
-        "win_rate": 0.41649484536082476,
-        "implied": 0.4733977319587629,
-        "edge": -0.05690288659793813,
-        "per_trade": -0.056903531126710837,
-        "t": -2.6501670071618126
+        "n": 486,
+        "win_rate": 0.4156378600823045,
+        "implied": 0.4734942386831277,
+        "edge": -0.057856378600823155,
+        "per_trade": -0.057857064721694385,
+        "t": -2.6971201804426097
       },
       "out": {
         "label": "  OUT-SAMPLE 5+ voters, 80% agree",
-        "n": 376,
-        "win_rate": 0.4521276595744681,
-        "implied": 0.48834441489361696,
-        "edge": -0.03621675531914886,
-        "per_trade": -0.03621819675543874,
-        "t": -1.4590631795368174
+        "n": 375,
+        "win_rate": 0.45866666666666667,
+        "implied": 0.4875210666666666,
+        "edge": -0.028854399999999947,
+        "per_trade": -0.028855545921375098,
+        "t": -1.1624746547920268
       }
     },
     {
       "rule": "10+ voters, 60% agree",
       "in": {
         "label": "  IN-SAMPLE  10+ voters, 60% agree",
-        "n": 349,
-        "win_rate": 0.4670487106017192,
-        "implied": 0.5002108882521485,
-        "edge": -0.033162177650429336,
-        "per_trade": -0.033164921361331604,
-        "t": -1.3145751914959922
+        "n": 356,
+        "win_rate": 0.47191011235955055,
+        "implied": 0.5005657303370783,
+        "edge": -0.028655617977527748,
+        "per_trade": -0.028659040517982504,
+        "t": -1.1467685015404856
       },
       "out": {
         "label": "  OUT-SAMPLE 10+ voters, 60% agree",
-        "n": 803,
-        "win_rate": 0.4520547945205479,
-        "implied": 0.4812752179327517,
-        "edge": -0.029220423412203766,
-        "per_trade": -0.029221314813334703,
-        "t": -1.7289815306503382
+        "n": 792,
+        "win_rate": 0.45075757575757575,
+        "implied": 0.4801140151515144,
+        "edge": -0.02935643939393867,
+        "per_trade": -0.02935703610936089,
+        "t": -1.730741915108412
       }
     },
     {
       "rule": "10+ voters, 70% agree",
       "in": {
         "label": "  IN-SAMPLE  10+ voters, 70% agree",
-        "n": 201,
-        "win_rate": 0.472636815920398,
-        "implied": 0.4899900497512437,
-        "edge": -0.017353233830845693,
-        "per_trade": -0.01735512069197793,
-        "t": -0.5276896196218916
+        "n": 205,
+        "win_rate": 0.47317073170731705,
+        "implied": 0.4905126829268292,
+        "edge": -0.017341951219512153,
+        "per_trade": -0.017343838543758285,
+        "t": -0.5321215550429426
       },
       "out": {
         "label": "  OUT-SAMPLE 10+ voters, 70% agree",
-        "n": 326,
-        "win_rate": 0.4447852760736196,
-        "implied": 0.4719871165644175,
-        "edge": -0.02720184049079788,
-        "per_trade": -0.027203563603621327,
-        "t": -1.0164271535851435
+        "n": 313,
+        "win_rate": 0.43769968051118213,
+        "implied": 0.4684182108626202,
+        "edge": -0.030718530351438067,
+        "per_trade": -0.030720727353532193,
+        "t": -1.1222838688318282
       }
     },
     {
       "rule": "10+ voters, 80% agree",
       "in": {
         "label": "  IN-SAMPLE  10+ voters, 80% agree",
-        "n": 105,
-        "win_rate": 0.5142857142857142,
-        "implied": 0.4872123809523809,
-        "edge": 0.027073333333333338,
-        "per_trade": 0.027068978988781026,
-        "t": 0.5828180006159475
+        "n": 108,
+        "win_rate": 0.5092592592592593,
+        "implied": 0.48731481481481476,
+        "edge": 0.021944444444444544,
+        "per_trade": 0.021940378780178203,
+        "t": 0.47887362702099673
       },
       "out": {
         "label": "  OUT-SAMPLE 10+ voters, 80% agree",
-        "n": 142,
-        "win_rate": 0.4154929577464789,
-        "implied": 0.4623584507042253,
-        "edge": -0.046865492957746446,
-        "per_trade": -0.04686871196713367,
-        "t": -1.1570224386754921
+        "n": 137,
+        "win_rate": 0.41605839416058393,
+        "implied": 0.4633802919708029,
+        "edge": -0.04732189781021895,
+        "per_trade": -0.04732540656458363,
+        "t": -1.1565815316067956
       }
     },
     {
       "rule": "5+ voters, 60% agree, crowd beats price by 5pp",
       "in": {
         "label": "  IN-SAMPLE  5+ voters, 60% agree, crowd beats price by 5pp",
-        "n": 1066,
-        "win_rate": 0.42870544090056284,
-        "implied": 0.4671523452157604,
-        "edge": -0.03844690431519754,
-        "per_trade": -0.038447261226729555,
-        "t": -2.6570662865277472
+        "n": 1070,
+        "win_rate": 0.4308411214953271,
+        "implied": 0.4676966355140193,
+        "edge": -0.03685551401869219,
+        "per_trade": -0.03685619270458943,
+        "t": -2.552898007811368
       },
       "out": {
         "label": "  OUT-SAMPLE 5+ voters, 60% agree, crowd beats price by 5pp",
-        "n": 1235,
-        "win_rate": 0.4194331983805668,
-        "implied": 0.4677289068825903,
-        "edge": -0.04829570850202347,
-        "per_trade": -0.04829573380850922,
-        "t": -3.5494958566074954
+        "n": 1234,
+        "win_rate": 0.4213938411669368,
+        "implied": 0.4671604538087511,
+        "edge": -0.04576661264181431,
+        "per_trade": -0.04576641364262794,
+        "t": -3.363980696094497
       }
     },
     {
       "rule": "5+ voters, 60% agree, crowd beats price by 10pp",
       "in": {
         "label": "  IN-SAMPLE  5+ voters, 60% agree, crowd beats price by 10pp",
-        "n": 955,
-        "win_rate": 0.39895287958115183,
-        "implied": 0.45621329842931946,
-        "edge": -0.05726041884816763,
-        "per_trade": -0.05726043055723544,
-        "t": -3.766393638913004
+        "n": 959,
+        "win_rate": 0.40145985401459855,
+        "implied": 0.456700938477581,
+        "edge": -0.055241084462982426,
+        "per_trade": -0.055241270858336626,
+        "t": -3.6409107919286705
       },
       "out": {
         "label": "  OUT-SAMPLE 5+ voters, 60% agree, crowd beats price by 10pp",
-        "n": 1128,
-        "win_rate": 0.4051418439716312,
-        "implied": 0.45903457446808466,
-        "edge": -0.053892730496453434,
-        "per_trade": -0.05389306649255232,
-        "t": -3.7957436273622687
+        "n": 1126,
+        "win_rate": 0.40763765541740676,
+        "implied": 0.4581136767317935,
+        "edge": -0.05047602131438672,
+        "per_trade": -0.050476028623500264,
+        "t": -3.5539281682738344
       }
     },
     {
       "rule": "5+ voters, 60% agree, crowd beats price by 20pp",
       "in": {
         "label": "  IN-SAMPLE  5+ voters, 60% agree, crowd beats price by 20pp",
-        "n": 723,
-        "win_rate": 0.367911479944675,
-        "implied": 0.4367112033195015,
-        "edge": -0.06879972337482648,
-        "per_trade": -0.06879966757634874,
-        "t": -4.007209280589823
+        "n": 727,
+        "win_rate": 0.3658872077028886,
+        "implied": 0.4370829436038509,
+        "edge": -0.07119573590096234,
+        "per_trade": -0.07119571201224309,
+        "t": -4.161822736046597
       },
       "out": {
         "label": "  OUT-SAMPLE 5+ voters, 60% agree, crowd beats price by 20pp",
-        "n": 769,
-        "win_rate": 0.3810143042912874,
-        "implied": 0.43699011703511065,
-        "edge": -0.05597581274382324,
-        "per_trade": -0.05597619410943214,
-        "t": -3.3029723328698557
+        "n": 771,
+        "win_rate": 0.3787289234760052,
+        "implied": 0.43610648508430616,
+        "edge": -0.057377561608300987,
+        "per_trade": -0.057377380986372614,
+        "t": -3.396174842365525
       }
     },
     {
       "rule": "10+ voters, 60% agree, crowd beats price by 5pp",
       "in": {
         "label": "  IN-SAMPLE  10+ voters, 60% agree, crowd beats price by 5pp",
-        "n": 308,
-        "win_rate": 0.43506493506493504,
-        "implied": 0.4798837662337659,
-        "edge": -0.04481883116883084,
-        "per_trade": -0.044821137575982474,
-        "t": -1.664985013771661
+        "n": 316,
+        "win_rate": 0.4430379746835443,
+        "implied": 0.481577215189873,
+        "edge": -0.03853924050632873,
+        "per_trade": -0.03854214892471089,
+        "t": -1.4501320258414205
       },
       "out": {
         "label": "  OUT-SAMPLE 10+ voters, 60% agree, crowd beats price by 5pp",
-        "n": 726,
-        "win_rate": 0.4201101928374656,
-        "implied": 0.46410936639118455,
-        "edge": -0.04399917355371896,
-        "per_trade": -0.04399973277058512,
-        "t": -2.4614546717783465
+        "n": 718,
+        "win_rate": 0.41643454038997213,
+        "implied": 0.46365376044568213,
+        "edge": -0.04721922005571,
+        "per_trade": -0.04721962469968836,
+        "t": -2.634737253166354
       }
     },
     {
       "rule": "10+ voters, 60% agree, crowd beats price by 10pp",
       "in": {
         "label": "  IN-SAMPLE  10+ voters, 60% agree, crowd beats price by 10pp",
-        "n": 274,
-        "win_rate": 0.4124087591240876,
-        "implied": 0.46877408759124073,
-        "edge": -0.05636532846715314,
-        "per_trade": -0.056366898905308306,
-        "t": -1.9860418091290757
+        "n": 281,
+        "win_rate": 0.4199288256227758,
+        "implied": 0.47053416370106743,
+        "edge": -0.05060533807829165,
+        "per_trade": -0.05060709667718326,
+        "t": -1.8045180152161513
       },
       "out": {
         "label": "  OUT-SAMPLE 10+ voters, 60% agree, crowd beats price by 10pp",
-        "n": 654,
-        "win_rate": 0.40825688073394495,
-        "implied": 0.4541134556574924,
-        "edge": -0.045856574923547444,
-        "per_trade": -0.045857573268899034,
-        "t": -2.44092407612051
+        "n": 646,
+        "win_rate": 0.4055727554179567,
+        "implied": 0.453204334365325,
+        "edge": -0.0476315789473683,
+        "per_trade": -0.04763223108259998,
+        "t": -2.5290588219939107
       }
     },
     {
       "rule": "10+ voters, 60% agree, crowd beats price by 20pp",
       "in": {
         "label": "  IN-SAMPLE  10+ voters, 60% agree, crowd beats price by 20pp",
-        "n": 189,
-        "win_rate": 0.3915343915343915,
-        "implied": 0.44358465608465597,
-        "edge": -0.05205026455026446,
-        "per_trade": -0.05205180433200318,
-        "t": -1.5424351622064096
+        "n": 195,
+        "win_rate": 0.38974358974358975,
+        "implied": 0.4453148717948717,
+        "edge": -0.05557128205128198,
+        "per_trade": -0.05557253171161492,
+        "t": -1.6717660572909454
       },
       "out": {
         "label": "  OUT-SAMPLE 10+ voters, 60% agree, crowd beats price by 20pp",
-        "n": 416,
-        "win_rate": 0.38461538461538464,
-        "implied": 0.42745793269230753,
-        "edge": -0.04284254807692289,
-        "per_trade": -0.04284354688198639,
-        "t": -1.8387645464964426
+        "n": 414,
+        "win_rate": 0.3743961352657005,
+        "implied": 0.4273698067632849,
+        "edge": -0.05297367149758442,
+        "per_trade": -0.05297380789070135,
+        "t": -2.2844235295049224
       }
     }
   ],
@@ -1411,17 +1411,6 @@
       "pnl": 0.30000007270000006
     },
     {
-      "slug": "btc-updown-5m-1777212600",
-      "side": "Up",
-      "voters": 3,
-      "share": 1.0,
-      "price": 0.41,
-      "disagree": 0.59,
-      "won": 1,
-      "open_ts": 1777212600.0,
-      "pnl": 0.5899999923666666
-    },
-    {
       "slug": "btc-updown-5m-1777273200",
       "side": "Down",
       "voters": 4,
@@ -1596,17 +1585,6 @@
       "won": 0,
       "open_ts": 1779159300.0,
       "pnl": -0.3899998908
-    },
-    {
-      "slug": "btc-updown-5m-1779357000",
-      "side": "Up",
-      "voters": 3,
-      "share": 1.0,
-      "price": 0.4,
-      "disagree": 0.6,
-      "won": 0,
-      "open_ts": 1779357000.0,
-      "pnl": -0.4000000000000001
     },
     {
       "slug": "btc-updown-5m-1779388200",
@@ -3644,17 +3622,6 @@
       "pnl": -0.579999826
     },
     {
-      "slug": "btc-updown-5m-1786655100",
-      "side": "Down",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.455,
-      "disagree": 0.212,
-      "won": 1,
-      "open_ts": 1786655100.0,
-      "pnl": 0.54500008815
-    },
-    {
       "slug": "btc-updown-5m-1786663500",
       "side": "Up",
       "voters": 3,
@@ -4170,39 +4137,6 @@
       "won": 1,
       "open_ts": 1787145300.0,
       "pnl": 0.5766666951000001
-    },
-    {
-      "slug": "btc-updown-5m-1787145600",
-      "side": "Up",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.55,
-      "disagree": 0.117,
-      "won": 1,
-      "open_ts": 1787145600.0,
-      "pnl": 0.44999999999999996
-    },
-    {
-      "slug": "btc-updown-5m-1787146500",
-      "side": "Up",
-      "voters": 5,
-      "share": 0.6,
-      "price": 0.5533,
-      "disagree": 0.047,
-      "won": 0,
-      "open_ts": 1787146500.0,
-      "pnl": -0.5533332744333332
-    },
-    {
-      "slug": "btc-updown-5m-1787146800",
-      "side": "Up",
-      "voters": 6,
-      "share": 0.667,
-      "price": 0.5225,
-      "disagree": 0.144,
-      "won": 1,
-      "open_ts": 1787146800.0,
-      "pnl": 0.47750000000000004
     },
     {
       "slug": "btc-updown-5m-1787147100",
@@ -11619,17 +11553,6 @@
       "pnl": -0.6071428571428571
     },
     {
-      "slug": "btc-updown-5m-1788642300",
-      "side": "Up",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.38,
-      "disagree": 0.287,
-      "won": 1,
-      "open_ts": 1788642300.0,
-      "pnl": 0.6200000476
-    },
-    {
       "slug": "btc-updown-5m-1788642600",
       "side": "Up",
       "voters": 4,
@@ -13940,17 +13863,6 @@
       "pnl": -0.56
     },
     {
-      "slug": "btc-updown-5m-1788959100",
-      "side": "Down",
-      "voters": 3,
-      "share": 1.0,
-      "price": 0.4133,
-      "disagree": 0.587,
-      "won": 1,
-      "open_ts": 1788959100.0,
-      "pnl": 0.5866666666666667
-    },
-    {
       "slug": "btc-updown-5m-1788960600",
       "side": "Down",
       "voters": 4,
@@ -15272,36 +15184,36 @@
     },
     {
       "slug": "btc-updown-5m-1789063200",
-      "side": "Up",
-      "voters": 4,
-      "share": 0.5,
-      "price": 0.43,
-      "disagree": 0.07,
-      "won": 0,
+      "side": "Down",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.605,
+      "disagree": 0.062,
+      "won": 1,
       "open_ts": 1789063200.0,
-      "pnl": -0.43
+      "pnl": 0.3950000027
     },
     {
       "slug": "btc-updown-5m-1789063500",
       "side": "Up",
-      "voters": 7,
-      "share": 0.571,
-      "price": 0.36,
-      "disagree": 0.211,
+      "voters": 4,
+      "share": 0.75,
+      "price": 0.31,
+      "disagree": 0.44,
       "won": 0,
       "open_ts": 1789063500.0,
-      "pnl": -0.36
+      "pnl": -0.31
     },
     {
       "slug": "btc-updown-5m-1789063800",
       "side": "Up",
-      "voters": 5,
+      "voters": 4,
       "share": 1.0,
-      "price": 0.408,
-      "disagree": 0.592,
+      "price": 0.38,
+      "disagree": 0.62,
       "won": 0,
       "open_ts": 1789063800.0,
-      "pnl": -0.40799999925999997
+      "pnl": -0.379999999075
     },
     {
       "slug": "btc-updown-5m-1789064100",
@@ -18857,17 +18769,6 @@
       "pnl": -0.47
     },
     {
-      "slug": "btc-updown-5m-1789298700",
-      "side": "Up",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.555,
-      "disagree": 0.112,
-      "won": 0,
-      "open_ts": 1789298700.0,
-      "pnl": -0.5549999943
-    },
-    {
       "slug": "btc-updown-5m-1789299900",
       "side": "Up",
       "voters": 4,
@@ -20520,10 +20421,10 @@
     {
       "slug": "btc-updown-5m-1789374600",
       "side": "Down",
-      "voters": 5,
-      "share": 0.6,
+      "voters": 4,
+      "share": 0.5,
       "price": 0.5,
-      "disagree": 0.1,
+      "disagree": 0.0,
       "won": 1,
       "open_ts": 1789374600.0,
       "pnl": 0.5
@@ -20531,54 +20432,54 @@
     {
       "slug": "btc-updown-5m-1789374900",
       "side": "Down",
-      "voters": 4,
-      "share": 0.75,
-      "price": 0.4367,
-      "disagree": 0.313,
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.405,
+      "disagree": 0.262,
       "won": 0,
       "open_ts": 1789374900.0,
-      "pnl": -0.4366666666666667
+      "pnl": -0.405
     },
     {
       "slug": "btc-updown-5m-1789375200",
       "side": "Down",
-      "voters": 7,
+      "voters": 6,
       "share": 1.0,
-      "price": 0.38,
-      "disagree": 0.62,
+      "price": 0.36,
+      "disagree": 0.64,
       "won": 1,
       "open_ts": 1789375200.0,
-      "pnl": 0.6200000025142857
+      "pnl": 0.6400000029333333
     },
     {
       "slug": "btc-updown-5m-1789375500",
       "side": "Down",
-      "voters": 5,
+      "voters": 4,
       "share": 1.0,
-      "price": 0.548,
-      "disagree": 0.452,
+      "price": 0.56,
+      "disagree": 0.44,
       "won": 1,
       "open_ts": 1789375500.0,
-      "pnl": 0.45200000139999996
+      "pnl": 0.44000000175
     },
     {
       "slug": "btc-updown-5m-1789375800",
       "side": "Down",
-      "voters": 12,
-      "share": 0.667,
-      "price": 0.4288,
-      "disagree": 0.238,
+      "voters": 11,
+      "share": 0.636,
+      "price": 0.4186,
+      "disagree": 0.218,
       "won": 0,
       "open_ts": 1789375800.0,
-      "pnl": -0.42875001046250005
+      "pnl": -0.4185714405285715
     },
     {
       "slug": "btc-updown-5m-1789376100",
       "side": "Up",
-      "voters": 11,
-      "share": 0.818,
+      "voters": 10,
+      "share": 0.9,
       "price": 0.7733,
-      "disagree": 0.045,
+      "disagree": 0.127,
       "won": 1,
       "open_ts": 1789376100.0,
       "pnl": 0.22666666906666666
@@ -20586,10 +20487,10 @@
     {
       "slug": "btc-updown-5m-1789376400",
       "side": "Up",
-      "voters": 8,
-      "share": 0.625,
+      "voters": 7,
+      "share": 0.714,
       "price": 0.652,
-      "disagree": -0.027,
+      "disagree": 0.062,
       "won": 1,
       "open_ts": 1789376400.0,
       "pnl": 0.34799999313999996
@@ -20597,10 +20498,10 @@
     {
       "slug": "btc-updown-5m-1789376700",
       "side": "Up",
-      "voters": 9,
-      "share": 0.667,
+      "voters": 8,
+      "share": 0.75,
       "price": 0.5917,
-      "disagree": 0.075,
+      "disagree": 0.158,
       "won": 1,
       "open_ts": 1789376700.0,
       "pnl": 0.4083333278
@@ -23149,10 +23050,10 @@
     {
       "slug": "btc-updown-5m-1789458300",
       "side": "Up",
-      "voters": 5,
-      "share": 0.8,
+      "voters": 4,
+      "share": 1.0,
       "price": 0.5825,
-      "disagree": 0.218,
+      "disagree": 0.418,
       "won": 0,
       "open_ts": 1789458300.0,
       "pnl": -0.5824999954250001
@@ -23519,17 +23420,6 @@
       "won": 0,
       "open_ts": 1789469100.0,
       "pnl": -0.4266666666666667
-    },
-    {
-      "slug": "btc-updown-15m-1789469100",
-      "side": "Down",
-      "voters": 4,
-      "share": 0.75,
-      "price": 0.49,
-      "disagree": 0.26,
-      "won": 0,
-      "open_ts": 1789469100.0,
-      "pnl": -0.4899999461
     },
     {
       "slug": "btc-updown-5m-1789469400",
@@ -23995,36 +23885,36 @@
     },
     {
       "slug": "btc-updown-5m-1789483500",
-      "side": "Up",
-      "voters": 5,
-      "share": 0.6,
-      "price": 0.4267,
-      "disagree": 0.173,
-      "won": 0,
+      "side": "Down",
+      "voters": 4,
+      "share": 0.5,
+      "price": 0.66,
+      "disagree": -0.16,
+      "won": 1,
       "open_ts": 1789483500.0,
-      "pnl": -0.42666660896666664
+      "pnl": 0.3400000000000001
     },
     {
       "slug": "btc-updown-5m-1789483800",
       "side": "Up",
-      "voters": 6,
-      "share": 0.833,
-      "price": 0.514,
-      "disagree": 0.319,
+      "voters": 5,
+      "share": 0.8,
+      "price": 0.525,
+      "disagree": 0.275,
       "won": 1,
       "open_ts": 1789483800.0,
-      "pnl": 0.48600004133999997
+      "pnl": 0.47500000629999994
     },
     {
       "slug": "btc-updown-5m-1789484100",
-      "side": "Down",
-      "voters": 8,
-      "share": 0.5,
-      "price": 0.3525,
-      "disagree": 0.148,
-      "won": 0,
+      "side": "Up",
+      "voters": 7,
+      "share": 0.571,
+      "price": 0.6121,
+      "disagree": -0.041,
+      "won": 1,
       "open_ts": 1789484100.0,
-      "pnl": -0.35249999257500003
+      "pnl": 0.38787005639999994
     },
     {
       "slug": "btc-updown-5m-1789484400",
@@ -26196,21 +26086,21 @@
     {
       "slug": "btc-updown-5m-1789546800",
       "side": "Up",
-      "voters": 8,
-      "share": 0.625,
-      "price": 0.626,
-      "disagree": -0.001,
+      "voters": 7,
+      "share": 0.571,
+      "price": 0.625,
+      "disagree": -0.054,
       "won": 0,
       "open_ts": 1789546800.0,
-      "pnl": -0.62599995974
+      "pnl": -0.624999949675
     },
     {
       "slug": "btc-updown-5m-1789547100",
       "side": "Down",
-      "voters": 10,
-      "share": 0.5,
+      "voters": 9,
+      "share": 0.556,
       "price": 0.63,
-      "disagree": -0.13,
+      "disagree": -0.074,
       "won": 0,
       "open_ts": 1789547100.0,
       "pnl": -0.6299999703599999
@@ -26218,21 +26108,21 @@
     {
       "slug": "btc-updown-5m-1789547400",
       "side": "Down",
-      "voters": 6,
-      "share": 0.833,
-      "price": 0.432,
-      "disagree": 0.401,
+      "voters": 5,
+      "share": 0.8,
+      "price": 0.4275,
+      "disagree": 0.373,
       "won": 0,
       "open_ts": 1789547400.0,
-      "pnl": -0.43200000000000005
+      "pnl": -0.4275
     },
     {
       "slug": "btc-updown-5m-1789547700",
       "side": "Up",
-      "voters": 8,
-      "share": 0.5,
+      "voters": 7,
+      "share": 0.571,
       "price": 0.7125,
-      "disagree": -0.212,
+      "disagree": -0.141,
       "won": 1,
       "open_ts": 1789547700.0,
       "pnl": 0.28750007455000004
@@ -26537,68 +26427,68 @@
     {
       "slug": "btc-updown-5m-1789554900",
       "side": "Up",
-      "voters": 8,
-      "share": 0.75,
-      "price": 0.4707,
-      "disagree": 0.279,
+      "voters": 7,
+      "share": 0.714,
+      "price": 0.4888,
+      "disagree": 0.225,
       "won": 1,
       "open_ts": 1789554900.0,
-      "pnl": 0.5293433035833333
+      "pnl": 0.5112119642999999
     },
     {
       "slug": "btc-updown-5m-1789555200",
       "side": "Down",
-      "voters": 5,
-      "share": 0.8,
-      "price": 0.4825,
-      "disagree": 0.318,
+      "voters": 4,
+      "share": 0.75,
+      "price": 0.4967,
+      "disagree": 0.253,
       "won": 0,
       "open_ts": 1789555200.0,
-      "pnl": -0.4825
+      "pnl": -0.49666666666666665
     },
     {
       "slug": "btc-updown-5m-1789555500",
       "side": "Up",
-      "voters": 13,
-      "share": 0.615,
-      "price": 0.3337,
-      "disagree": 0.282,
+      "voters": 12,
+      "share": 0.583,
+      "price": 0.3357,
+      "disagree": 0.248,
       "won": 0,
       "open_ts": 1789555500.0,
-      "pnl": -0.3337499985
+      "pnl": -0.3357142840000001
     },
     {
       "slug": "btc-updown-5m-1789555800",
       "side": "Up",
-      "voters": 4,
+      "voters": 3,
       "share": 1.0,
-      "price": 0.4325,
-      "disagree": 0.568,
+      "price": 0.4267,
+      "disagree": 0.573,
       "won": 0,
       "open_ts": 1789555800.0,
-      "pnl": -0.4325
+      "pnl": -0.4266666666666667
     },
     {
       "slug": "btc-updown-5m-1789556100",
       "side": "Up",
-      "voters": 6,
-      "share": 0.833,
-      "price": 0.2682,
-      "disagree": 0.565,
+      "voters": 5,
+      "share": 0.8,
+      "price": 0.2653,
+      "disagree": 0.535,
       "won": 0,
       "open_ts": 1789556100.0,
-      "pnl": -0.26822235196000005
+      "pnl": -0.26527793995
     },
     {
       "slug": "btc-updown-5m-1789556400",
-      "side": "Down",
-      "voters": 9,
-      "share": 0.556,
-      "price": 0.216,
-      "disagree": 0.34,
-      "won": 0,
+      "side": "Up",
+      "voters": 8,
+      "share": 0.5,
+      "price": 0.61,
+      "disagree": -0.11,
+      "won": 1,
       "open_ts": 1789556400.0,
-      "pnl": -0.21599999999999997
+      "pnl": 0.3900000023250001
     },
     {
       "slug": "btc-updown-15m-1789556400",
@@ -27604,13 +27494,13 @@
     {
       "slug": "btc-updown-5m-1789581300",
       "side": "Down",
-      "voters": 16,
-      "share": 0.562,
-      "price": 0.5167,
-      "disagree": 0.046,
+      "voters": 15,
+      "share": 0.533,
+      "price": 0.525,
+      "disagree": 0.008,
       "won": 0,
       "open_ts": 1789581300.0,
-      "pnl": -0.5166666661111111
+      "pnl": -0.524999999375
     },
     {
       "slug": "btc-updown-5m-1789581600",
@@ -27637,10 +27527,10 @@
     {
       "slug": "btc-updown-5m-1789582200",
       "side": "Down",
-      "voters": 17,
-      "share": 0.647,
+      "voters": 14,
+      "share": 0.786,
       "price": 0.624,
-      "disagree": 0.023,
+      "disagree": 0.162,
       "won": 1,
       "open_ts": 1789582200.0,
       "pnl": 0.37601068467272714
@@ -27758,10 +27648,10 @@
     {
       "slug": "btc-updown-5m-1789585200",
       "side": "Down",
-      "voters": 14,
-      "share": 0.643,
+      "voters": 13,
+      "share": 0.692,
       "price": 0.4472,
-      "disagree": 0.196,
+      "disagree": 0.245,
       "won": 0,
       "open_ts": 1789585200.0,
       "pnl": -0.4471717554777778
@@ -27780,10 +27670,10 @@
     {
       "slug": "btc-updown-5m-1789585800",
       "side": "Up",
-      "voters": 8,
-      "share": 0.625,
+      "voters": 7,
+      "share": 0.714,
       "price": 0.364,
-      "disagree": 0.261,
+      "disagree": 0.35,
       "won": 0,
       "open_ts": 1789585800.0,
       "pnl": -0.36400000724000003
@@ -27791,13 +27681,13 @@
     {
       "slug": "btc-updown-5m-1789586100",
       "side": "Up",
-      "voters": 14,
-      "share": 0.643,
-      "price": 0.6446,
-      "disagree": -0.002,
+      "voters": 13,
+      "share": 0.615,
+      "price": 0.6239,
+      "disagree": -0.009,
       "won": 0,
       "open_ts": 1789586100.0,
-      "pnl": -0.6445751634
+      "pnl": -0.6238970588249999
     },
     {
       "slug": "btc-updown-5m-1789586400",
@@ -27813,10 +27703,10 @@
     {
       "slug": "btc-updown-5m-1789586700",
       "side": "Up",
-      "voters": 17,
-      "share": 0.706,
+      "voters": 16,
+      "share": 0.75,
       "price": 0.5267,
-      "disagree": 0.179,
+      "disagree": 0.223,
       "won": 0,
       "open_ts": 1789586700.0,
       "pnl": -0.5266666563416668
@@ -27922,14 +27812,14 @@
     },
     {
       "slug": "btc-updown-5m-1789589400",
-      "side": "Up",
-      "voters": 9,
-      "share": 0.556,
-      "price": 0.416,
-      "disagree": 0.14,
-      "won": 1,
+      "side": "Down",
+      "voters": 8,
+      "share": 0.5,
+      "price": 0.65,
+      "disagree": -0.15,
+      "won": 0,
       "open_ts": 1789589400.0,
-      "pnl": 0.584
+      "pnl": -0.65000000075
     },
     {
       "slug": "btc-updown-5m-1789589700",
@@ -29573,10 +29463,10 @@
     {
       "slug": "btc-updown-5m-1789624200",
       "side": "Down",
-      "voters": 6,
-      "share": 0.667,
+      "voters": 5,
+      "share": 0.8,
       "price": 0.5475,
-      "disagree": 0.119,
+      "disagree": 0.252,
       "won": 0,
       "open_ts": 1789624200.0,
       "pnl": -0.5475000000000001
@@ -29595,13 +29485,13 @@
     {
       "slug": "btc-updown-5m-1789624800",
       "side": "Up",
-      "voters": 6,
-      "share": 0.667,
-      "price": 0.4275,
-      "disagree": 0.239,
+      "voters": 5,
+      "share": 0.6,
+      "price": 0.4033,
+      "disagree": 0.197,
       "won": 1,
       "open_ts": 1789624800.0,
-      "pnl": 0.5725000015
+      "pnl": 0.5966666686666666
     },
     {
       "slug": "eth-updown-5m-1789625100",
@@ -29628,10 +29518,10 @@
     {
       "slug": "btc-updown-5m-1789625400",
       "side": "Down",
-      "voters": 7,
-      "share": 0.571,
+      "voters": 6,
+      "share": 0.667,
       "price": 0.38,
-      "disagree": 0.191,
+      "disagree": 0.287,
       "won": 0,
       "open_ts": 1789625400.0,
       "pnl": -0.379999996675
@@ -29639,13 +29529,13 @@
     {
       "slug": "btc-updown-5m-1789625700",
       "side": "Down",
-      "voters": 7,
-      "share": 0.857,
-      "price": 0.59,
-      "disagree": 0.267,
+      "voters": 6,
+      "share": 0.833,
+      "price": 0.608,
+      "disagree": 0.225,
       "won": 1,
       "open_ts": 1789625700.0,
-      "pnl": 0.4100000091666667
+      "pnl": 0.39200001100000004
     },
     {
       "slug": "btc-updown-5m-1789626000",
@@ -29837,10 +29727,10 @@
     {
       "slug": "btc-updown-5m-1789629900",
       "side": "Up",
-      "voters": 5,
-      "share": 0.6,
+      "voters": 4,
+      "share": 0.75,
       "price": 0.69,
-      "disagree": -0.09,
+      "disagree": 0.06,
       "won": 0,
       "open_ts": 1789629900.0,
       "pnl": -0.6899999883333333
@@ -29936,13 +29826,13 @@
     {
       "slug": "btc-updown-5m-1789632600",
       "side": "Down",
-      "voters": 10,
-      "share": 0.6,
-      "price": 0.5317,
-      "disagree": 0.068,
+      "voters": 9,
+      "share": 0.556,
+      "price": 0.516,
+      "disagree": 0.04,
       "won": 1,
       "open_ts": 1789632600.0,
-      "pnl": 0.4683333685833334
+      "pnl": 0.4840000064200001
     },
     {
       "slug": "btc-updown-5m-1789632900",
@@ -30024,10 +29914,10 @@
     {
       "slug": "btc-updown-5m-1789634400",
       "side": "Up",
-      "voters": 8,
-      "share": 0.5,
+      "voters": 7,
+      "share": 0.571,
       "price": 0.355,
-      "disagree": 0.145,
+      "disagree": 0.216,
       "won": 0,
       "open_ts": 1789634400.0,
       "pnl": -0.3549999914
@@ -30035,10 +29925,10 @@
     {
       "slug": "btc-updown-5m-1789634700",
       "side": "Down",
-      "voters": 13,
-      "share": 0.692,
+      "voters": 12,
+      "share": 0.75,
       "price": 0.511,
-      "disagree": 0.181,
+      "disagree": 0.239,
       "won": 1,
       "open_ts": 1789634700.0,
       "pnl": 0.4889848007555556
@@ -30145,13 +30035,13 @@
     {
       "slug": "btc-updown-5m-1789636800",
       "side": "Up",
-      "voters": 16,
-      "share": 0.625,
-      "price": 0.6,
-      "disagree": 0.025,
+      "voters": 14,
+      "share": 0.571,
+      "price": 0.6275,
+      "disagree": -0.056,
       "won": 1,
       "open_ts": 1789636800.0,
-      "pnl": 0.4000001003200001
+      "pnl": 0.3725001049750001
     },
     {
       "slug": "btc-updown-5m-1789637100",
@@ -30398,10 +30288,10 @@
     {
       "slug": "btc-updown-5m-1789642500",
       "side": "Down",
-      "voters": 4,
-      "share": 0.75,
+      "voters": 3,
+      "share": 1.0,
       "price": 0.48,
-      "disagree": 0.27,
+      "disagree": 0.52,
       "won": 0,
       "open_ts": 1789642500.0,
       "pnl": -0.4799999976
@@ -31145,14 +31035,14 @@
     },
     {
       "slug": "btc-updown-5m-1789657800",
-      "side": "Down",
-      "voters": 4,
-      "share": 0.5,
-      "price": 0.555,
-      "disagree": -0.055,
-      "won": 1,
+      "side": "Up",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.48,
+      "disagree": 0.187,
+      "won": 0,
       "open_ts": 1789657800.0,
-      "pnl": 0.4450000036499999
+      "pnl": -0.47999999400000004
     },
     {
       "slug": "btc-updown-5m-1789658100",
@@ -31707,10 +31597,10 @@
     {
       "slug": "btc-updown-5m-1789669800",
       "side": "Up",
-      "voters": 12,
-      "share": 0.667,
+      "voters": 10,
+      "share": 0.8,
       "price": 0.4857,
-      "disagree": 0.181,
+      "disagree": 0.314,
       "won": 0,
       "open_ts": 1789669800.0,
       "pnl": -0.48570281172499996
@@ -31718,10 +31608,10 @@
     {
       "slug": "btc-updown-5m-1789670100",
       "side": "Up",
-      "voters": 12,
-      "share": 0.583,
+      "voters": 11,
+      "share": 0.636,
       "price": 0.4471,
-      "disagree": 0.136,
+      "disagree": 0.189,
       "won": 0,
       "open_ts": 1789670100.0,
       "pnl": -0.44714279504285714
@@ -31729,10 +31619,10 @@
     {
       "slug": "btc-updown-5m-1789670400",
       "side": "Up",
-      "voters": 17,
-      "share": 0.588,
+      "voters": 16,
+      "share": 0.625,
       "price": 0.5308,
-      "disagree": 0.057,
+      "disagree": 0.094,
       "won": 1,
       "open_ts": 1789670400.0,
       "pnl": 0.46916801278999987
@@ -32004,24 +31894,24 @@
     {
       "slug": "btc-updown-5m-1789674900",
       "side": "Down",
-      "voters": 14,
-      "share": 0.643,
-      "price": 0.73,
-      "disagree": -0.087,
+      "voters": 13,
+      "share": 0.615,
+      "price": 0.7612,
+      "disagree": -0.146,
       "won": 1,
       "open_ts": 1789674900.0,
-      "pnl": 0.2700000128000001
+      "pnl": 0.2387500144
     },
     {
       "slug": "btc-updown-5m-1789675200",
       "side": "Up",
-      "voters": 15,
-      "share": 0.533,
-      "price": 0.4622,
-      "disagree": 0.071,
+      "voters": 14,
+      "share": 0.5,
+      "price": 0.4597,
+      "disagree": 0.04,
       "won": 1,
       "open_ts": 1789675200.0,
-      "pnl": 0.5377596006250001
+      "pnl": 0.5402966864285714
     },
     {
       "slug": "eth-updown-5m-1789675200",
@@ -32059,10 +31949,10 @@
     {
       "slug": "btc-updown-5m-1789675500",
       "side": "Up",
-      "voters": 14,
-      "share": 0.643,
+      "voters": 13,
+      "share": 0.692,
       "price": 0.5589,
-      "disagree": 0.084,
+      "disagree": 0.133,
       "won": 1,
       "open_ts": 1789675500.0,
       "pnl": 0.4410908601222222
@@ -32070,10 +31960,10 @@
     {
       "slug": "btc-updown-5m-1789675800",
       "side": "Down",
-      "voters": 15,
-      "share": 0.8,
+      "voters": 14,
+      "share": 0.857,
       "price": 0.539,
-      "disagree": 0.261,
+      "disagree": 0.318,
       "won": 0,
       "open_ts": 1789675800.0,
       "pnl": -0.5389642556666667
@@ -32114,10 +32004,10 @@
     {
       "slug": "btc-updown-5m-1789676400",
       "side": "Up",
-      "voters": 19,
-      "share": 0.526,
+      "voters": 18,
+      "share": 0.556,
       "price": 0.561,
-      "disagree": -0.035,
+      "disagree": -0.005,
       "won": 1,
       "open_ts": 1789676400.0,
       "pnl": 0.43899999610999996
@@ -32147,21 +32037,21 @@
     {
       "slug": "btc-updown-5m-1789677000",
       "side": "Up",
-      "voters": 21,
-      "share": 0.619,
-      "price": 0.3708,
-      "disagree": 0.248,
+      "voters": 20,
+      "share": 0.6,
+      "price": 0.3617,
+      "disagree": 0.238,
       "won": 0,
       "open_ts": 1789677000.0,
-      "pnl": -0.3707692299615385
+      "pnl": -0.3616666657916667
     },
     {
       "slug": "eth-updown-5m-1789677000",
       "side": "Down",
-      "voters": 5,
-      "share": 0.6,
+      "voters": 3,
+      "share": 1.0,
       "price": 0.6233,
-      "disagree": -0.023,
+      "disagree": 0.377,
       "won": 1,
       "open_ts": 1789677000.0,
       "pnl": 0.37666667573333334
@@ -32202,21 +32092,21 @@
     {
       "slug": "btc-updown-5m-1789677600",
       "side": "Up",
-      "voters": 28,
-      "share": 0.714,
-      "price": 0.3874,
-      "disagree": 0.327,
+      "voters": 21,
+      "share": 0.619,
+      "price": 0.3359,
+      "disagree": 0.283,
       "won": 0,
       "open_ts": 1789677600.0,
-      "pnl": -0.38735714597500004
+      "pnl": -0.33593406593076924
     },
     {
       "slug": "btc-updown-5m-1789677900",
       "side": "Up",
-      "voters": 29,
-      "share": 0.586,
+      "voters": 27,
+      "share": 0.63,
       "price": 0.6115,
-      "disagree": -0.025,
+      "disagree": 0.018,
       "won": 1,
       "open_ts": 1789677900.0,
       "pnl": 0.3885365369058824
@@ -32224,24 +32114,13 @@
     {
       "slug": "btc-updown-15m-1789677900",
       "side": "Down",
-      "voters": 9,
-      "share": 0.889,
-      "price": 0.4638,
-      "disagree": 0.425,
+      "voters": 7,
+      "share": 0.857,
+      "price": 0.4633,
+      "disagree": 0.394,
       "won": 0,
       "open_ts": 1789677900.0,
-      "pnl": -0.4637500125499999
-    },
-    {
-      "slug": "eth-updown-15m-1789677900",
-      "side": "Down",
-      "voters": 4,
-      "share": 0.5,
-      "price": 0.49,
-      "disagree": 0.01,
-      "won": 0,
-      "open_ts": 1789677900.0,
-      "pnl": -0.49
+      "pnl": -0.4633333477333333
     },
     {
       "slug": "btc-updown-5m-1789678200",
@@ -32268,13 +32147,13 @@
     {
       "slug": "btc-updown-5m-1789678800",
       "side": "Up",
-      "voters": 25,
-      "share": 0.68,
-      "price": 0.586,
-      "disagree": 0.094,
+      "voters": 24,
+      "share": 0.667,
+      "price": 0.5882,
+      "disagree": 0.078,
       "won": 0,
       "open_ts": 1789678800.0,
-      "pnl": -0.5859999521647059
+      "pnl": -0.588249949175
     },
     {
       "slug": "btc-updown-15m-1789678800",
@@ -32312,10 +32191,10 @@
     {
       "slug": "btc-updown-5m-1789679400",
       "side": "Up",
-      "voters": 17,
-      "share": 0.765,
+      "voters": 16,
+      "share": 0.812,
       "price": 0.4631,
-      "disagree": 0.302,
+      "disagree": 0.349,
       "won": 0,
       "open_ts": 1789679400.0,
       "pnl": -0.46309550949230766
@@ -32411,35 +32290,35 @@
     {
       "slug": "btc-updown-5m-1789680900",
       "side": "Down",
-      "voters": 19,
-      "share": 0.632,
-      "price": 0.5072,
-      "disagree": 0.124,
+      "voters": 18,
+      "share": 0.611,
+      "price": 0.5106,
+      "disagree": 0.1,
       "won": 0,
       "open_ts": 1789680900.0,
-      "pnl": -0.5072463763916666
+      "pnl": -0.5106324106090909
     },
     {
       "slug": "btc-updown-5m-1789681200",
       "side": "Up",
-      "voters": 13,
-      "share": 0.769,
-      "price": 0.499,
-      "disagree": 0.27,
+      "voters": 12,
+      "share": 0.75,
+      "price": 0.4989,
+      "disagree": 0.251,
       "won": 0,
       "open_ts": 1789681200.0,
-      "pnl": -0.49903930012000003
+      "pnl": -0.4989325556888889
     },
     {
       "slug": "btc-updown-5m-1789681500",
       "side": "Down",
-      "voters": 20,
-      "share": 0.7,
-      "price": 0.599,
-      "disagree": 0.101,
+      "voters": 19,
+      "share": 0.684,
+      "price": 0.6058,
+      "disagree": 0.078,
       "won": 1,
       "open_ts": 1789681500.0,
-      "pnl": 0.40100700718571436
+      "pnl": 0.3941613923538463
     },
     {
       "slug": "btc-updown-5m-1789681800",
@@ -32627,17 +32506,6 @@
       "won": 1,
       "open_ts": 1789684200.0,
       "pnl": 0.5425000313749999
-    },
-    {
-      "slug": "doge-updown-15m-1789684200",
-      "side": "Up",
-      "voters": 3,
-      "share": 1.0,
-      "price": 0.4784,
-      "disagree": 0.522,
-      "won": 1,
-      "open_ts": 1789684200.0,
-      "pnl": 0.5216487490333332
     },
     {
       "slug": "btc-updown-5m-1789684500",
@@ -35171,25 +35039,25 @@
     },
     {
       "slug": "btc-updown-5m-1789727700",
-      "side": "Up",
-      "voters": 11,
-      "share": 0.545,
-      "price": 0.495,
-      "disagree": 0.05,
-      "won": 0,
+      "side": "Down",
+      "voters": 9,
+      "share": 0.556,
+      "price": 0.582,
+      "disagree": -0.026,
+      "won": 1,
       "open_ts": 1789727700.0,
-      "pnl": -0.49500000215
+      "pnl": 0.41800004498
     },
     {
       "slug": "btc-updown-5m-1789728000",
       "side": "Down",
-      "voters": 19,
-      "share": 0.526,
-      "price": 0.529,
-      "disagree": -0.003,
+      "voters": 18,
+      "share": 0.5,
+      "price": 0.5322,
+      "disagree": -0.032,
       "won": 1,
       "open_ts": 1789728000.0,
-      "pnl": 0.47100002449
+      "pnl": 0.4677778049888889
     },
     {
       "slug": "eth-updown-5m-1789728000",
@@ -35205,10 +35073,10 @@
     {
       "slug": "btc-updown-5m-1789728300",
       "side": "Up",
-      "voters": 20,
-      "share": 0.55,
+      "voters": 19,
+      "share": 0.579,
       "price": 0.7055,
-      "disagree": -0.155,
+      "disagree": -0.127,
       "won": 1,
       "open_ts": 1789728300.0,
       "pnl": 0.29454548266363634
@@ -35799,13 +35667,13 @@
     {
       "slug": "btc-updown-5m-1789738500",
       "side": "Down",
-      "voters": 36,
-      "share": 0.639,
-      "price": 0.4498,
-      "disagree": 0.189,
+      "voters": 34,
+      "share": 0.618,
+      "price": 0.4522,
+      "disagree": 0.165,
       "won": 0,
       "open_ts": 1789738500.0,
-      "pnl": -0.44980551189565215
+      "pnl": -0.4521679416
     },
     {
       "slug": "eth-updown-5m-1789738500",
@@ -35931,13 +35799,13 @@
     {
       "slug": "btc-updown-5m-1789740000",
       "side": "Down",
-      "voters": 35,
-      "share": 0.686,
-      "price": 0.2454,
-      "disagree": 0.44,
+      "voters": 34,
+      "share": 0.676,
+      "price": 0.2343,
+      "disagree": 0.442,
       "won": 0,
       "open_ts": 1789740000.0,
-      "pnl": -0.2454166654083334
+      "pnl": -0.2343478247739131
     },
     {
       "slug": "btc-updown-15m-1789740000",
@@ -35975,13 +35843,13 @@
     {
       "slug": "btc-updown-5m-1789740300",
       "side": "Down",
-      "voters": 45,
-      "share": 0.644,
-      "price": 0.3621,
-      "disagree": 0.282,
+      "voters": 43,
+      "share": 0.651,
+      "price": 0.3575,
+      "disagree": 0.294,
       "won": 1,
       "open_ts": 1789740300.0,
-      "pnl": 0.6379310332206896
+      "pnl": 0.642499998692857
     },
     {
       "slug": "btc-updown-5m-1789740600",
@@ -36536,10 +36404,10 @@
     {
       "slug": "btc-updown-5m-1789747200",
       "side": "Up",
-      "voters": 30,
-      "share": 0.5,
+      "voters": 29,
+      "share": 0.517,
       "price": 0.578,
-      "disagree": -0.078,
+      "disagree": -0.061,
       "won": 1,
       "open_ts": 1789747200.0,
       "pnl": 0.4219999983466667
@@ -36569,13 +36437,13 @@
     {
       "slug": "btc-updown-5m-1789747500",
       "side": "Down",
-      "voters": 23,
-      "share": 0.652,
-      "price": 0.3573,
-      "disagree": 0.295,
+      "voters": 21,
+      "share": 0.619,
+      "price": 0.34,
+      "disagree": 0.279,
       "won": 0,
       "open_ts": 1789747500.0,
-      "pnl": -0.35733333419999996
+      "pnl": -0.3399999999846154
     },
     {
       "slug": "eth-updown-5m-1789747500",
@@ -36591,13 +36459,13 @@
     {
       "slug": "btc-updown-5m-1789747800",
       "side": "Down",
-      "voters": 30,
-      "share": 0.633,
-      "price": 0.4584,
-      "disagree": 0.175,
+      "voters": 28,
+      "share": 0.643,
+      "price": 0.4578,
+      "disagree": 0.185,
       "won": 0,
       "open_ts": 1789747800.0,
-      "pnl": -0.45842103770526316
+      "pnl": -0.4577777620222222
     },
     {
       "slug": "eth-updown-5m-1789747800",
@@ -36965,13 +36833,13 @@
     {
       "slug": "btc-updown-5m-1789751400",
       "side": "Up",
-      "voters": 39,
-      "share": 0.667,
-      "price": 0.4123,
-      "disagree": 0.254,
+      "voters": 37,
+      "share": 0.676,
+      "price": 0.4172,
+      "disagree": 0.258,
       "won": 1,
       "open_ts": 1789751400.0,
-      "pnl": 0.5876923011769231
+      "pnl": 0.5827999932239999
     },
     {
       "slug": "eth-updown-5m-1789751400",
@@ -37042,13 +36910,13 @@
     {
       "slug": "btc-updown-5m-1789752300",
       "side": "Down",
-      "voters": 34,
-      "share": 0.588,
-      "price": 0.362,
-      "disagree": 0.226,
+      "voters": 32,
+      "share": 0.594,
+      "price": 0.3637,
+      "disagree": 0.23,
       "won": 0,
       "open_ts": 1789752300.0,
-      "pnl": -0.36199999757000006
+      "pnl": -0.3636842091631579
     },
     {
       "slug": "eth-updown-5m-1789752300",
@@ -37185,13 +37053,13 @@
     {
       "slug": "btc-updown-5m-1789753800",
       "side": "Up",
-      "voters": 31,
-      "share": 0.613,
-      "price": 0.5,
-      "disagree": 0.113,
+      "voters": 30,
+      "share": 0.6,
+      "price": 0.5017,
+      "disagree": 0.098,
       "won": 1,
       "open_ts": 1789753800.0,
-      "pnl": 0.5000000274263159
+      "pnl": 0.49833336228333325
     },
     {
       "slug": "eth-updown-5m-1789753800",
@@ -37218,13 +37086,13 @@
     {
       "slug": "btc-updown-5m-1789754100",
       "side": "Up",
-      "voters": 39,
-      "share": 0.641,
-      "price": 0.4652,
-      "disagree": 0.176,
+      "voters": 38,
+      "share": 0.632,
+      "price": 0.4654,
+      "disagree": 0.166,
       "won": 1,
       "open_ts": 1789754100.0,
-      "pnl": 0.5347999931359999
+      "pnl": 0.5345833261833333
     },
     {
       "slug": "doge-updown-5m-1789754100",
@@ -37427,13 +37295,13 @@
     {
       "slug": "btc-updown-5m-1789755900",
       "side": "Up",
-      "voters": 32,
-      "share": 0.531,
-      "price": 0.4941,
-      "disagree": 0.037,
+      "voters": 31,
+      "share": 0.516,
+      "price": 0.48,
+      "disagree": 0.036,
       "won": 1,
       "open_ts": 1789755900.0,
-      "pnl": 0.5058823597117648
+      "pnl": 0.5200000071937501
     },
     {
       "slug": "eth-updown-5m-1789755900",
@@ -37448,14 +37316,14 @@
     },
     {
       "slug": "xrp-updown-5m-1789755900",
-      "side": "Up",
-      "voters": 4,
-      "share": 0.5,
-      "price": 0.55,
-      "disagree": -0.05,
-      "won": 1,
+      "side": "Down",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.445,
+      "disagree": 0.222,
+      "won": 0,
       "open_ts": 1789755900.0,
-      "pnl": 0.44999999999999996
+      "pnl": -0.445
     },
     {
       "slug": "sol-updown-5m-1789755900",
@@ -37471,13 +37339,13 @@
     {
       "slug": "btc-updown-15m-1789756200",
       "side": "Down",
-      "voters": 14,
-      "share": 0.786,
-      "price": 0.4818,
-      "disagree": 0.304,
+      "voters": 12,
+      "share": 0.833,
+      "price": 0.477,
+      "disagree": 0.356,
       "won": 1,
       "open_ts": 1789756200.0,
-      "pnl": 0.5181818233
+      "pnl": 0.5230000056299999
     },
     {
       "slug": "doge-updown-15m-1789756200",
@@ -37790,13 +37658,13 @@
     {
       "slug": "btc-updown-15m-1789759800",
       "side": "Up",
-      "voters": 15,
-      "share": 0.733,
-      "price": 0.4436,
-      "disagree": 0.29,
+      "voters": 12,
+      "share": 0.667,
+      "price": 0.44,
+      "disagree": 0.227,
       "won": 0,
       "open_ts": 1789759800.0,
-      "pnl": -0.4436363621636364
+      "pnl": -0.43999999726250005
     },
     {
       "slug": "eth-updown-15m-1789759800",
@@ -37812,10 +37680,10 @@
     {
       "slug": "btc-updown-5m-1789759800",
       "side": "Down",
-      "voters": 24,
-      "share": 0.5,
+      "voters": 23,
+      "share": 0.522,
       "price": 0.5558,
-      "disagree": -0.056,
+      "disagree": -0.034,
       "won": 1,
       "open_ts": 1789759800.0,
       "pnl": 0.444166682025
@@ -37866,14 +37734,14 @@
     },
     {
       "slug": "btc-updown-5m-1789760400",
-      "side": "Up",
-      "voters": 39,
-      "share": 0.513,
-      "price": 0.51,
-      "disagree": 0.003,
-      "won": 1,
+      "side": "Down",
+      "voters": 38,
+      "share": 0.5,
+      "price": 0.4921,
+      "disagree": 0.008,
+      "won": 0,
       "open_ts": 1789760400.0,
-      "pnl": 0.49000001915
+      "pnl": -0.49214582366315784
     },
     {
       "slug": "xrp-updown-5m-1789760400",
@@ -37888,14 +37756,14 @@
     },
     {
       "slug": "btc-updown-5m-1789760700",
-      "side": "Up",
-      "voters": 40,
-      "share": 0.525,
-      "price": 0.4738,
-      "disagree": 0.051,
-      "won": 1,
+      "side": "Down",
+      "voters": 36,
+      "share": 0.528,
+      "price": 0.5171,
+      "disagree": 0.011,
+      "won": 0,
       "open_ts": 1789760700.0,
-      "pnl": 0.5261904809095237
+      "pnl": -0.5171330706684211
     },
     {
       "slug": "eth-updown-15m-1789760700",
@@ -37932,14 +37800,14 @@
     },
     {
       "slug": "btc-updown-5m-1789761000",
-      "side": "Up",
-      "voters": 38,
-      "share": 0.5,
-      "price": 0.4533,
-      "disagree": 0.047,
-      "won": 0,
+      "side": "Down",
+      "voters": 37,
+      "share": 0.514,
+      "price": 0.5521,
+      "disagree": -0.039,
+      "won": 1,
       "open_ts": 1789761000.0,
-      "pnl": -0.45332351360526313
+      "pnl": 0.44789476827368424
     },
     {
       "slug": "xrp-updown-5m-1789761000",
@@ -37988,13 +37856,13 @@
     {
       "slug": "btc-updown-15m-1789761600",
       "side": "Up",
-      "voters": 8,
-      "share": 0.75,
-      "price": 0.3167,
-      "disagree": 0.433,
+      "voters": 6,
+      "share": 0.667,
+      "price": 0.34,
+      "disagree": 0.327,
       "won": 0,
       "open_ts": 1789761600.0,
-      "pnl": -0.31666664448333337
+      "pnl": -0.33999996672500005
     },
     {
       "slug": "eth-updown-15m-1789761600",
@@ -38668,17 +38536,6 @@
       "pnl": 0.4699999974500001
     },
     {
-      "slug": "sol-updown-5m-1789770000",
-      "side": "Up",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.22,
-      "disagree": 0.447,
-      "won": 0,
-      "open_ts": 1789770000.0,
-      "pnl": -0.2199999994
-    },
-    {
       "slug": "btc-updown-5m-1789770300",
       "side": "Up",
       "voters": 22,
@@ -38725,24 +38582,13 @@
     {
       "slug": "eth-updown-5m-1789770900",
       "side": "Up",
-      "voters": 5,
-      "share": 0.6,
-      "price": 0.2433,
-      "disagree": 0.357,
+      "voters": 4,
+      "share": 0.5,
+      "price": 0.215,
+      "disagree": 0.285,
       "won": 0,
       "open_ts": 1789770900.0,
-      "pnl": -0.24333333190000003
-    },
-    {
-      "slug": "sol-updown-5m-1789770900",
-      "side": "Up",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.34,
-      "disagree": 0.327,
-      "won": 0,
-      "open_ts": 1789770900.0,
-      "pnl": -0.34
+      "pnl": -0.21499999785
     },
     {
       "slug": "btc-updown-5m-1789771200",
@@ -39066,10 +38912,10 @@
     {
       "slug": "btc-updown-5m-1789776600",
       "side": "Down",
-      "voters": 29,
-      "share": 0.517,
+      "voters": 28,
+      "share": 0.536,
       "price": 0.3973,
-      "disagree": 0.12,
+      "disagree": 0.138,
       "won": 0,
       "open_ts": 1789776600.0,
       "pnl": -0.39733332519333336
@@ -39077,13 +38923,13 @@
     {
       "slug": "btc-updown-5m-1789776900",
       "side": "Up",
-      "voters": 25,
-      "share": 0.56,
-      "price": 0.5568,
-      "disagree": 0.003,
+      "voters": 24,
+      "share": 0.542,
+      "price": 0.5604,
+      "disagree": -0.019,
       "won": 1,
       "open_ts": 1789776900.0,
-      "pnl": 0.4432389145071428
+      "pnl": 0.4396419079307692
     },
     {
       "slug": "btc-updown-15m-1789776900",
@@ -39209,13 +39055,13 @@
     {
       "slug": "btc-updown-5m-1789779600",
       "side": "Down",
-      "voters": 47,
-      "share": 0.66,
-      "price": 0.4281,
-      "disagree": 0.232,
+      "voters": 45,
+      "share": 0.644,
+      "price": 0.4224,
+      "disagree": 0.222,
       "won": 1,
       "open_ts": 1789779600.0,
-      "pnl": 0.5719354945548387
+      "pnl": 0.5775862189310346
     },
     {
       "slug": "eth-updown-5m-1789779600",
@@ -39330,10 +39176,10 @@
     {
       "slug": "btc-updown-5m-1789781100",
       "side": "Down",
-      "voters": 23,
-      "share": 0.565,
+      "voters": 22,
+      "share": 0.591,
       "price": 0.3769,
-      "disagree": 0.188,
+      "disagree": 0.214,
       "won": 1,
       "open_ts": 1789781100.0,
       "pnl": 0.623076927876923
@@ -39781,10 +39627,10 @@
     {
       "slug": "eth-updown-15m-1789786800",
       "side": "Down",
-      "voters": 4,
-      "share": 0.5,
+      "voters": 3,
+      "share": 0.667,
       "price": 0.5,
-      "disagree": 0.0,
+      "disagree": 0.167,
       "won": 0,
       "open_ts": 1789786800.0,
       "pnl": -0.5
@@ -40342,10 +40188,10 @@
     {
       "slug": "btc-updown-5m-1789795200",
       "side": "Up",
-      "voters": 25,
-      "share": 0.52,
+      "voters": 24,
+      "share": 0.542,
       "price": 0.4315,
-      "disagree": 0.088,
+      "disagree": 0.11,
       "won": 0,
       "open_ts": 1789795200.0,
       "pnl": -0.4315384673307693
@@ -40364,35 +40210,35 @@
     {
       "slug": "btc-updown-5m-1789795500",
       "side": "Up",
-      "voters": 18,
+      "voters": 16,
       "share": 0.5,
-      "price": 0.5911,
-      "disagree": -0.091,
+      "price": 0.6037,
+      "disagree": -0.104,
       "won": 1,
       "open_ts": 1789795500.0,
-      "pnl": 0.40888888898888887
+      "pnl": 0.3962500001125
     },
     {
       "slug": "btc-updown-5m-1789795800",
       "side": "Down",
-      "voters": 36,
+      "voters": 34,
       "share": 0.5,
-      "price": 0.6267,
-      "disagree": -0.127,
+      "price": 0.6347,
+      "disagree": -0.135,
       "won": 1,
       "open_ts": 1789795800.0,
-      "pnl": 0.3733333377499999
+      "pnl": 0.3652941223235293
     },
     {
       "slug": "btc-updown-15m-1789795800",
       "side": "Down",
-      "voters": 11,
-      "share": 0.636,
-      "price": 0.5343,
-      "disagree": 0.102,
+      "voters": 9,
+      "share": 0.556,
+      "price": 0.552,
+      "disagree": 0.004,
       "won": 1,
       "open_ts": 1789795800.0,
-      "pnl": 0.4657142768999999
+      "pnl": 0.44799998766000004
     },
     {
       "slug": "btc-updown-5m-1789796100",
@@ -40463,13 +40309,13 @@
     {
       "slug": "btc-updown-5m-1789797300",
       "side": "Down",
-      "voters": 30,
-      "share": 0.633,
-      "price": 0.4195,
-      "disagree": 0.214,
+      "voters": 29,
+      "share": 0.621,
+      "price": 0.4228,
+      "disagree": 0.198,
       "won": 1,
       "open_ts": 1789797300.0,
-      "pnl": 0.5805263261421052
+      "pnl": 0.5772222323055556
     },
     {
       "slug": "eth-updown-5m-1789797300",
@@ -40485,10 +40331,10 @@
     {
       "slug": "btc-updown-5m-1789797600",
       "side": "Up",
-      "voters": 34,
-      "share": 0.647,
+      "voters": 33,
+      "share": 0.667,
       "price": 0.5723,
-      "disagree": 0.075,
+      "disagree": 0.094,
       "won": 0,
       "open_ts": 1789797600.0,
       "pnl": -0.5722727250863637
@@ -40604,17 +40450,6 @@
       "pnl": 0.5999999736681818
     },
     {
-      "slug": "eth-updown-5m-1789799100",
-      "side": "Up",
-      "voters": 4,
-      "share": 0.75,
-      "price": 0.4855,
-      "disagree": 0.265,
-      "won": 1,
-      "open_ts": 1789799100.0,
-      "pnl": 0.5145214898999999
-    },
-    {
       "slug": "btc-updown-5m-1789799400",
       "side": "Up",
       "voters": 20,
@@ -40650,13 +40485,13 @@
     {
       "slug": "btc-updown-5m-1789799700",
       "side": "Up",
-      "voters": 34,
-      "share": 0.559,
-      "price": 0.6337,
-      "disagree": -0.075,
+      "voters": 33,
+      "share": 0.545,
+      "price": 0.6278,
+      "disagree": -0.082,
       "won": 1,
       "open_ts": 1789799700.0,
-      "pnl": 0.3663158119736841
+      "pnl": 0.3722222448000001
     },
     {
       "slug": "btc-updown-5m-1789800000",
@@ -40749,13 +40584,13 @@
     {
       "slug": "btc-updown-5m-1789801200",
       "side": "Up",
-      "voters": 37,
-      "share": 0.676,
-      "price": 0.5725,
+      "voters": 35,
+      "share": 0.657,
+      "price": 0.5544,
       "disagree": 0.103,
       "won": 1,
       "open_ts": 1789801200.0,
-      "pnl": 0.42750890309599987
+      "pnl": 0.4455531551130434
     },
     {
       "slug": "eth-updown-5m-1789801200",
@@ -40870,13 +40705,13 @@
     {
       "slug": "btc-updown-5m-1789803000",
       "side": "Up",
-      "voters": 34,
-      "share": 0.559,
-      "price": 0.6032,
-      "disagree": -0.044,
+      "voters": 31,
+      "share": 0.516,
+      "price": 0.5814,
+      "disagree": -0.065,
       "won": 1,
       "open_ts": 1789803000.0,
-      "pnl": 0.3967517796684209
+      "pnl": 0.4186427383562499
     },
     {
       "slug": "btc-updown-15m-1789803000",
@@ -41924,17 +41759,6 @@
       "pnl": -0.52555553415
     },
     {
-      "slug": "sol-updown-5m-1789815900",
-      "side": "Down",
-      "voters": 3,
-      "share": 1.0,
-      "price": 0.6973,
-      "disagree": 0.303,
-      "won": 1,
-      "open_ts": 1789815900.0,
-      "pnl": 0.30273672686666675
-    },
-    {
       "slug": "doge-updown-5m-1789815900",
       "side": "Up",
       "voters": 3,
@@ -41957,12 +41781,23 @@
       "pnl": -0.77
     },
     {
+      "slug": "sol-updown-5m-1789815900",
+      "side": "Down",
+      "voters": 3,
+      "share": 1.0,
+      "price": 0.6973,
+      "disagree": 0.303,
+      "won": 1,
+      "open_ts": 1789815900.0,
+      "pnl": 0.30273672686666675
+    },
+    {
       "slug": "btc-updown-5m-1789816200",
       "side": "Up",
-      "voters": 48,
-      "share": 0.604,
+      "voters": 47,
+      "share": 0.617,
       "price": 0.6555,
-      "disagree": -0.051,
+      "disagree": -0.038,
       "won": 0,
       "open_ts": 1789816200.0,
       "pnl": -0.655517238737931
@@ -42311,13 +42146,13 @@
     {
       "slug": "eth-updown-5m-1789819200",
       "side": "Up",
-      "voters": 7,
-      "share": 0.571,
-      "price": 0.5199,
-      "disagree": 0.052,
+      "voters": 5,
+      "share": 0.6,
+      "price": 0.5065,
+      "disagree": 0.093,
       "won": 1,
       "open_ts": 1789819200.0,
-      "pnl": 0.48011754952499996
+      "pnl": 0.49349006603333334
     },
     {
       "slug": "doge-updown-4h-1789819200",
@@ -42388,13 +42223,13 @@
     {
       "slug": "btc-updown-5m-1789820100",
       "side": "Down",
-      "voters": 47,
-      "share": 0.574,
-      "price": 0.5526,
-      "disagree": 0.022,
+      "voters": 46,
+      "share": 0.565,
+      "price": 0.5516,
+      "disagree": 0.014,
       "won": 1,
       "open_ts": 1789820100.0,
-      "pnl": 0.4474181210962964
+      "pnl": 0.44844253305769244
     },
     {
       "slug": "xrp-updown-5m-1789820100",
@@ -42553,13 +42388,13 @@
     {
       "slug": "btc-updown-5m-1789821600",
       "side": "Up",
-      "voters": 35,
-      "share": 0.629,
-      "price": 0.6062,
-      "disagree": 0.022,
+      "voters": 33,
+      "share": 0.606,
+      "price": 0.5999,
+      "disagree": 0.006,
       "won": 1,
       "open_ts": 1789821600.0,
-      "pnl": 0.39375883002727285
+      "pnl": 0.40013471303000014
     },
     {
       "slug": "eth-updown-5m-1789821600",
@@ -42652,10 +42487,10 @@
     {
       "slug": "btc-updown-5m-1789822500",
       "side": "Up",
-      "voters": 46,
-      "share": 0.522,
+      "voters": 45,
+      "share": 0.533,
       "price": 0.5275,
-      "disagree": -0.006,
+      "disagree": 0.006,
       "won": 1,
       "open_ts": 1789822500.0,
       "pnl": 0.47254300645
@@ -42717,14 +42552,14 @@
     },
     {
       "slug": "btc-updown-5m-1789823100",
-      "side": "Up",
-      "voters": 25,
-      "share": 0.52,
-      "price": 0.4238,
-      "disagree": 0.096,
-      "won": 0,
+      "side": "Down",
+      "voters": 23,
+      "share": 0.522,
+      "price": 0.565,
+      "disagree": -0.043,
+      "won": 1,
       "open_ts": 1789823100.0,
-      "pnl": -0.4238461965307693
+      "pnl": 0.4350000057333333
     },
     {
       "slug": "eth-updown-5m-1789823100",
@@ -43554,10 +43389,10 @@
     {
       "slug": "btc-updown-5m-1789830900",
       "side": "Down",
-      "voters": 65,
-      "share": 0.554,
+      "voters": 64,
+      "share": 0.562,
       "price": 0.5039,
-      "disagree": 0.05,
+      "disagree": 0.059,
       "won": 1,
       "open_ts": 1789830900.0,
       "pnl": 0.49606194229166667
@@ -43597,14 +43432,14 @@
     },
     {
       "slug": "btc-updown-5m-1789831200",
-      "side": "Up",
-      "voters": 44,
-      "share": 0.5,
-      "price": 0.3972,
-      "disagree": 0.103,
-      "won": 1,
+      "side": "Down",
+      "voters": 43,
+      "share": 0.512,
+      "price": 0.6067,
+      "disagree": -0.095,
+      "won": 0,
       "open_ts": 1789831200.0,
-      "pnl": 0.6028375662954546
+      "pnl": -0.6067051688454544
     },
     {
       "slug": "eth-updown-5m-1789831200",
@@ -43620,13 +43455,13 @@
     {
       "slug": "btc-updown-5m-1789831500",
       "side": "Down",
-      "voters": 40,
-      "share": 0.575,
-      "price": 0.5358,
-      "disagree": 0.039,
+      "voters": 39,
+      "share": 0.564,
+      "price": 0.5384,
+      "disagree": 0.026,
       "won": 1,
       "open_ts": 1789831500.0,
-      "pnl": 0.4641519677434782
+      "pnl": 0.46161342050454546
     },
     {
       "slug": "eth-updown-5m-1789831500",
@@ -43652,25 +43487,25 @@
     },
     {
       "slug": "btc-updown-5m-1789831800",
-      "side": "Up",
-      "voters": 51,
-      "share": 0.51,
-      "price": 0.5619,
-      "disagree": -0.052,
-      "won": 1,
+      "side": "Down",
+      "voters": 50,
+      "share": 0.5,
+      "price": 0.4272,
+      "disagree": 0.073,
+      "won": 0,
       "open_ts": 1789831800.0,
-      "pnl": 0.43808795501538444
+      "pnl": -0.42720001225199994
     },
     {
       "slug": "btc-updown-15m-1789831800",
       "side": "Up",
-      "voters": 24,
-      "share": 0.625,
-      "price": 0.5657,
-      "disagree": 0.059,
+      "voters": 23,
+      "share": 0.609,
+      "price": 0.5626,
+      "disagree": 0.046,
       "won": 1,
       "open_ts": 1789831800.0,
-      "pnl": 0.43428058685333326
+      "pnl": 0.4374434856642857
     },
     {
       "slug": "btc-updown-5m-1789832100",
@@ -43950,10 +43785,10 @@
     {
       "slug": "btc-updown-5m-1789834800",
       "side": "Down",
-      "voters": 67,
-      "share": 0.507,
+      "voters": 66,
+      "share": 0.515,
       "price": 0.5139,
-      "disagree": -0.006,
+      "disagree": 0.001,
       "won": 0,
       "open_ts": 1789834800.0,
       "pnl": -0.5138642020941178
@@ -44280,10 +44115,10 @@
     {
       "slug": "eth-updown-5m-1789844400",
       "side": "Up",
-      "voters": 8,
-      "share": 0.5,
+      "voters": 7,
+      "share": 0.571,
       "price": 0.71,
-      "disagree": -0.21,
+      "disagree": -0.139,
       "won": 1,
       "open_ts": 1789844400.0,
       "pnl": 0.2900000066499999
@@ -44302,13 +44137,13 @@
     {
       "slug": "eth-updown-5m-1789844700",
       "side": "Up",
-      "voters": 8,
-      "share": 0.75,
-      "price": 0.6067,
-      "disagree": 0.143,
+      "voters": 7,
+      "share": 0.714,
+      "price": 0.602,
+      "disagree": 0.112,
       "won": 0,
       "open_ts": 1789844700.0,
-      "pnl": -0.6066666561333334
+      "pnl": -0.6019999873599999
     },
     {
       "slug": "btc-updown-5m-1789845000",
@@ -44357,13 +44192,13 @@
     {
       "slug": "eth-updown-5m-1789845300",
       "side": "Up",
-      "voters": 6,
+      "voters": 5,
       "share": 1.0,
-      "price": 0.4589,
-      "disagree": 0.541,
+      "price": 0.4651,
+      "disagree": 0.535,
       "won": 0,
       "open_ts": 1789845300.0,
-      "pnl": -0.45891259900000003
+      "pnl": -0.46513385512000005
     },
     {
       "slug": "btc-updown-15m-1789845300",
@@ -44421,17 +44256,6 @@
       "pnl": 0.5274999974750001
     },
     {
-      "slug": "btc-updown-15m-1789848900",
-      "side": "Up",
-      "voters": 7,
-      "share": 0.571,
-      "price": 0.3075,
-      "disagree": 0.264,
-      "won": 0,
-      "open_ts": 1789848900.0,
-      "pnl": -0.3075
-    },
-    {
       "slug": "btc-updown-5m-1789848900",
       "side": "Down",
       "voters": 47,
@@ -44463,6 +44287,17 @@
       "won": 0,
       "open_ts": 1789848900.0,
       "pnl": -0.461249995425
+    },
+    {
+      "slug": "btc-updown-15m-1789848900",
+      "side": "Up",
+      "voters": 7,
+      "share": 0.571,
+      "price": 0.3075,
+      "disagree": 0.264,
+      "won": 0,
+      "open_ts": 1789848900.0,
+      "pnl": -0.3075
     },
     {
       "slug": "btc-updown-5m-1789849200",
@@ -44654,10 +44489,10 @@
     {
       "slug": "btc-updown-5m-1789851000",
       "side": "Up",
-      "voters": 59,
-      "share": 0.661,
+      "voters": 57,
+      "share": 0.684,
       "price": 0.4721,
-      "disagree": 0.189,
+      "disagree": 0.212,
       "won": 0,
       "open_ts": 1789851000.0,
       "pnl": -0.4721032503743589
@@ -44808,10 +44643,10 @@
     {
       "slug": "btc-updown-5m-1789852500",
       "side": "Down",
-      "voters": 78,
-      "share": 0.538,
+      "voters": 77,
+      "share": 0.545,
       "price": 0.537,
-      "disagree": 0.001,
+      "disagree": 0.008,
       "won": 1,
       "open_ts": 1789852500.0,
       "pnl": 0.46295808320238097
@@ -44863,10 +44698,10 @@
     {
       "slug": "btc-updown-5m-1789852800",
       "side": "Up",
-      "voters": 64,
-      "share": 0.625,
+      "voters": 63,
+      "share": 0.635,
       "price": 0.4666,
-      "disagree": 0.158,
+      "disagree": 0.168,
       "won": 1,
       "open_ts": 1789852800.0,
       "pnl": 0.5334112838749999
@@ -45138,13 +44973,13 @@
     {
       "slug": "btc-updown-5m-1789855200",
       "side": "Up",
-      "voters": 55,
-      "share": 0.636,
-      "price": 0.3393,
-      "disagree": 0.297,
+      "voters": 54,
+      "share": 0.63,
+      "price": 0.3431,
+      "disagree": 0.287,
       "won": 0,
       "open_ts": 1789855200.0,
-      "pnl": -0.33925301969428573
+      "pnl": -0.34305457801176475
     },
     {
       "slug": "eth-updown-5m-1789855200",
@@ -45171,13 +45006,13 @@
     {
       "slug": "btc-updown-5m-1789855500",
       "side": "Down",
-      "voters": 53,
-      "share": 0.528,
-      "price": 0.3168,
-      "disagree": 0.212,
+      "voters": 52,
+      "share": 0.519,
+      "price": 0.3226,
+      "disagree": 0.197,
       "won": 0,
       "open_ts": 1789855500.0,
-      "pnl": -0.31678571357499996
+      "pnl": -0.3225925918555555
     },
     {
       "slug": "sol-updown-5m-1789855500",
@@ -45193,13 +45028,13 @@
     {
       "slug": "btc-updown-5m-1789855800",
       "side": "Up",
-      "voters": 71,
+      "voters": 67,
       "share": 0.507,
-      "price": 0.3705,
-      "disagree": 0.137,
+      "price": 0.384,
+      "disagree": 0.123,
       "won": 0,
       "open_ts": 1789855800.0,
-      "pnl": -0.3705021111944445
+      "pnl": -0.38403106714117646
     },
     {
       "slug": "eth-updown-5m-1789855800",
@@ -45323,17 +45158,6 @@
       "pnl": 0.5350000271576922
     },
     {
-      "slug": "eth-updown-5m-1789857000",
-      "side": "Up",
-      "voters": 13,
-      "share": 0.692,
-      "price": 0.5215,
-      "disagree": 0.171,
-      "won": 1,
-      "open_ts": 1789857000.0,
-      "pnl": 0.4785048052333333
-    },
-    {
       "slug": "eth-updown-15m-1789857000",
       "side": "Up",
       "voters": 3,
@@ -45343,6 +45167,17 @@
       "won": 1,
       "open_ts": 1789857000.0,
       "pnl": 0.5100000017666666
+    },
+    {
+      "slug": "eth-updown-5m-1789857000",
+      "side": "Up",
+      "voters": 13,
+      "share": 0.692,
+      "price": 0.5215,
+      "disagree": 0.171,
+      "won": 1,
+      "open_ts": 1789857000.0,
+      "pnl": 0.4785048052333333
     },
     {
       "slug": "btc-updown-15m-1789857000",
@@ -45358,13 +45193,13 @@
     {
       "slug": "btc-updown-5m-1789857300",
       "side": "Up",
-      "voters": 64,
-      "share": 0.562,
-      "price": 0.5643,
-      "disagree": -0.002,
+      "voters": 63,
+      "share": 0.556,
+      "price": 0.5677,
+      "disagree": -0.012,
       "won": 1,
       "open_ts": 1789857300.0,
-      "pnl": 0.43569079689444434
+      "pnl": 0.43229678120571424
     },
     {
       "slug": "eth-updown-5m-1789857300",
@@ -45468,13 +45303,13 @@
     {
       "slug": "btc-updown-5m-1789858200",
       "side": "Down",
-      "voters": 38,
-      "share": 0.605,
-      "price": 0.5627,
-      "disagree": 0.043,
+      "voters": 36,
+      "share": 0.611,
+      "price": 0.566,
+      "disagree": 0.045,
       "won": 0,
       "open_ts": 1789858200.0,
-      "pnl": -0.5626821289521738
+      "pnl": -0.5659858620863635
     },
     {
       "slug": "eth-updown-5m-1789858200",
@@ -45490,10 +45325,10 @@
     {
       "slug": "btc-updown-5m-1789858500",
       "side": "Up",
-      "voters": 58,
-      "share": 0.569,
+      "voters": 57,
+      "share": 0.579,
       "price": 0.5967,
-      "disagree": -0.028,
+      "disagree": -0.018,
       "won": 1,
       "open_ts": 1789858500.0,
       "pnl": 0.40333334962727274
@@ -45511,14 +45346,14 @@
     },
     {
       "slug": "btc-updown-5m-1789858800",
-      "side": "Up",
-      "voters": 36,
-      "share": 0.5,
-      "price": 0.4861,
-      "disagree": 0.014,
-      "won": 0,
+      "side": "Down",
+      "voters": 33,
+      "share": 0.515,
+      "price": 0.5386,
+      "disagree": -0.023,
+      "won": 1,
       "open_ts": 1789858800.0,
-      "pnl": -0.48611110257222223
+      "pnl": 0.4613856963882351
     },
     {
       "slug": "btc-updown-15m-1789858800",
@@ -45556,13 +45391,13 @@
     {
       "slug": "btc-updown-5m-1789859100",
       "side": "Up",
-      "voters": 57,
-      "share": 0.596,
-      "price": 0.4807,
-      "disagree": 0.116,
+      "voters": 56,
+      "share": 0.589,
+      "price": 0.4841,
+      "disagree": 0.105,
       "won": 0,
       "open_ts": 1789859100.0,
-      "pnl": -0.4807410085735294
+      "pnl": -0.48409679707575765
     },
     {
       "slug": "eth-updown-5m-1789859100",
@@ -45578,13 +45413,13 @@
     {
       "slug": "btc-updown-5m-1789859400",
       "side": "Up",
-      "voters": 66,
-      "share": 0.53,
-      "price": 0.6242,
-      "disagree": -0.094,
+      "voters": 64,
+      "share": 0.531,
+      "price": 0.6281,
+      "disagree": -0.097,
       "won": 1,
       "open_ts": 1789859400.0,
-      "pnl": 0.37580809622
+      "pnl": 0.3718612755205881
     },
     {
       "slug": "eth-updown-5m-1789859400",
@@ -45600,13 +45435,13 @@
     {
       "slug": "btc-updown-5m-1789859700",
       "side": "Down",
-      "voters": 58,
-      "share": 0.621,
-      "price": 0.4127,
-      "disagree": 0.208,
+      "voters": 55,
+      "share": 0.636,
+      "price": 0.4096,
+      "disagree": 0.227,
       "won": 1,
       "open_ts": 1789859700.0,
-      "pnl": 0.5872951624638889
+      "pnl": 0.5903607385342857
     },
     {
       "slug": "btc-updown-15m-1789859700",
@@ -45644,13 +45479,13 @@
     {
       "slug": "sol-updown-5m-1789859700",
       "side": "Up",
-      "voters": 6,
-      "share": 0.667,
-      "price": 0.6151,
-      "disagree": 0.052,
+      "voters": 4,
+      "share": 0.75,
+      "price": 0.5735,
+      "disagree": 0.176,
       "won": 0,
       "open_ts": 1789859700.0,
-      "pnl": -0.615138386675
+      "pnl": -0.5735178407666667
     },
     {
       "slug": "bnb-updown-5m-1789859700",
@@ -45677,13 +45512,13 @@
     {
       "slug": "btc-updown-5m-1789860000",
       "side": "Up",
-      "voters": 57,
-      "share": 0.526,
-      "price": 0.5447,
-      "disagree": -0.018,
+      "voters": 53,
+      "share": 0.528,
+      "price": 0.5494,
+      "disagree": -0.021,
       "won": 0,
       "open_ts": 1789860000.0,
-      "pnl": -0.54474524043
+      "pnl": -0.5493699010892856
     },
     {
       "slug": "eth-updown-5m-1789860000",
@@ -45699,13 +45534,13 @@
     {
       "slug": "btc-updown-5m-1789860300",
       "side": "Down",
-      "voters": 53,
-      "share": 0.623,
-      "price": 0.5447,
-      "disagree": 0.078,
+      "voters": 47,
+      "share": 0.638,
+      "price": 0.5519,
+      "disagree": 0.086,
       "won": 0,
       "open_ts": 1789860300.0,
-      "pnl": -0.5447424111181818
+      "pnl": -0.5518833188966668
     },
     {
       "slug": "eth-updown-5m-1789860300",
@@ -45721,13 +45556,13 @@
     {
       "slug": "btc-updown-5m-1789860600",
       "side": "Up",
-      "voters": 40,
-      "share": 0.6,
-      "price": 0.5158,
-      "disagree": 0.084,
+      "voters": 37,
+      "share": 0.622,
+      "price": 0.5169,
+      "disagree": 0.105,
       "won": 1,
       "open_ts": 1789860600.0,
-      "pnl": 0.4842124137499999
+      "pnl": 0.4830912143478261
     },
     {
       "slug": "btc-updown-15m-1789860600",
@@ -45787,13 +45622,13 @@
     {
       "slug": "btc-updown-5m-1789861200",
       "side": "Up",
-      "voters": 59,
-      "share": 0.559,
-      "price": 0.4103,
-      "disagree": 0.149,
+      "voters": 58,
+      "share": 0.552,
+      "price": 0.415,
+      "disagree": 0.137,
       "won": 0,
       "open_ts": 1789861200.0,
-      "pnl": -0.41030302342424246
+      "pnl": -0.41499999290625006
     },
     {
       "slug": "eth-updown-5m-1789861200",
@@ -45842,13 +45677,13 @@
     {
       "slug": "btc-updown-5m-1789861800",
       "side": "Up",
-      "voters": 51,
-      "share": 0.647,
-      "price": 0.5155,
-      "disagree": 0.132,
+      "voters": 49,
+      "share": 0.633,
+      "price": 0.5159,
+      "disagree": 0.117,
       "won": 1,
       "open_ts": 1789861800.0,
-      "pnl": 0.48448800660909086
+      "pnl": 0.48413239423225796
     },
     {
       "slug": "eth-updown-5m-1789861800",
@@ -45875,10 +45710,10 @@
     {
       "slug": "btc-updown-5m-1789862100",
       "side": "Down",
-      "voters": 52,
-      "share": 0.519,
+      "voters": 51,
+      "share": 0.529,
       "price": 0.4324,
-      "disagree": 0.087,
+      "disagree": 0.097,
       "won": 1,
       "open_ts": 1789862100.0,
       "pnl": 0.5675963085555555
@@ -45908,13 +45743,13 @@
     {
       "slug": "btc-updown-5m-1789862400",
       "side": "Down",
-      "voters": 61,
-      "share": 0.557,
-      "price": 0.5847,
-      "disagree": -0.027,
+      "voters": 58,
+      "share": 0.534,
+      "price": 0.5726,
+      "disagree": -0.038,
       "won": 1,
       "open_ts": 1789862400.0,
-      "pnl": 0.41529412763529416
+      "pnl": 0.42741936579354844
     },
     {
       "slug": "btc-updown-15m-1789862400",
@@ -46513,10 +46348,10 @@
     {
       "slug": "btc-updown-15m-1789866900",
       "side": "Up",
-      "voters": 20,
-      "share": 0.5,
+      "voters": 18,
+      "share": 0.556,
       "price": 0.4516,
-      "disagree": 0.048,
+      "disagree": 0.104,
       "won": 0,
       "open_ts": 1789866900.0,
       "pnl": -0.4516451636100001
@@ -46535,10 +46370,10 @@
     {
       "slug": "btc-updown-5m-1789867200",
       "side": "Up",
-      "voters": 64,
-      "share": 0.5,
+      "voters": 62,
+      "share": 0.516,
       "price": 0.6362,
-      "disagree": -0.136,
+      "disagree": -0.12,
       "won": 0,
       "open_ts": 1789867200.0,
       "pnl": -0.6362499977562499
@@ -46579,13 +46414,13 @@
     {
       "slug": "btc-updown-5m-1789867800",
       "side": "Down",
-      "voters": 44,
-      "share": 0.545,
-      "price": 0.5746,
-      "disagree": -0.029,
+      "voters": 41,
+      "share": 0.512,
+      "price": 0.5495,
+      "disagree": -0.037,
       "won": 1,
       "open_ts": 1789867800.0,
-      "pnl": 0.4254166691875
+      "pnl": 0.45047619335714284
     },
     {
       "slug": "btc-updown-15m-1789867800",
@@ -46667,13 +46502,13 @@
     {
       "slug": "btc-updown-5m-1789868400",
       "side": "Up",
-      "voters": 68,
-      "share": 0.574,
-      "price": 0.5386,
-      "disagree": 0.035,
+      "voters": 67,
+      "share": 0.567,
+      "price": 0.5398,
+      "disagree": 0.027,
       "won": 0,
       "open_ts": 1789868400.0,
-      "pnl": -0.538550425266667
+      "pnl": -0.5398280680368424
     },
     {
       "slug": "eth-updown-5m-1789868400",
@@ -46689,13 +46524,13 @@
     {
       "slug": "btc-updown-5m-1789868700",
       "side": "Down",
-      "voters": 61,
-      "share": 0.525,
-      "price": 0.5137,
-      "disagree": 0.011,
+      "voters": 60,
+      "share": 0.517,
+      "price": 0.5184,
+      "disagree": -0.002,
       "won": 0,
       "open_ts": 1789868700.0,
-      "pnl": -0.51371984111875
+      "pnl": -0.5183559650258063
     },
     {
       "slug": "btc-updown-15m-1789868700",
@@ -46744,10 +46579,10 @@
     {
       "slug": "btc-updown-5m-1789869300",
       "side": "Down",
-      "voters": 65,
-      "share": 0.523,
+      "voters": 64,
+      "share": 0.531,
       "price": 0.4199,
-      "disagree": 0.103,
+      "disagree": 0.111,
       "won": 0,
       "open_ts": 1789869300.0,
       "pnl": -0.41991384470000004
@@ -46766,13 +46601,13 @@
     {
       "slug": "btc-updown-5m-1789869600",
       "side": "Up",
-      "voters": 85,
-      "share": 0.588,
-      "price": 0.5195,
-      "disagree": 0.069,
+      "voters": 84,
+      "share": 0.583,
+      "price": 0.5223,
+      "disagree": 0.061,
       "won": 1,
       "open_ts": 1789869600.0,
-      "pnl": 0.4805354447179999
+      "pnl": 0.47768922930408153
     },
     {
       "slug": "btc-updown-15m-1789869600",
@@ -47041,10 +46876,10 @@
     {
       "slug": "btc-updown-5m-1789872000",
       "side": "Up",
-      "voters": 77,
-      "share": 0.584,
+      "voters": 75,
+      "share": 0.6,
       "price": 0.3769,
-      "disagree": 0.208,
+      "disagree": 0.223,
       "won": 0,
       "open_ts": 1789872000.0,
       "pnl": -0.3768888985733333
@@ -47063,13 +46898,13 @@
     {
       "slug": "btc-updown-5m-1789872300",
       "side": "Down",
-      "voters": 166,
-      "share": 0.548,
-      "price": 0.6854,
-      "disagree": -0.137,
+      "voters": 164,
+      "share": 0.543,
+      "price": 0.6827,
+      "disagree": -0.14,
       "won": 1,
       "open_ts": 1789872300.0,
-      "pnl": 0.314615378179121
+      "pnl": 0.3173033642056181
     },
     {
       "slug": "eth-updown-5m-1789872300",
@@ -47173,13 +47008,13 @@
     {
       "slug": "btc-updown-5m-1789872600",
       "side": "Down",
-      "voters": 90,
-      "share": 0.622,
-      "price": 0.4609,
-      "disagree": 0.161,
+      "voters": 85,
+      "share": 0.6,
+      "price": 0.4616,
+      "disagree": 0.138,
       "won": 1,
       "open_ts": 1789872600.0,
-      "pnl": 0.5390837270178571
+      "pnl": 0.538405666127451
     },
     {
       "slug": "sol-updown-5m-1789872600",
@@ -47206,13 +47041,13 @@
     {
       "slug": "btc-updown-5m-1789872900",
       "side": "Down",
-      "voters": 82,
-      "share": 0.561,
-      "price": 0.3407,
-      "disagree": 0.22,
+      "voters": 77,
+      "share": 0.532,
+      "price": 0.3315,
+      "disagree": 0.201,
       "won": 1,
       "open_ts": 1789872900.0,
-      "pnl": 0.6592990957717391
+      "pnl": 0.6684819129609756
     },
     {
       "slug": "eth-updown-5m-1789872900",
@@ -47228,10 +47063,10 @@
     {
       "slug": "btc-updown-5m-1789873200",
       "side": "Down",
-      "voters": 106,
-      "share": 0.528,
+      "voters": 102,
+      "share": 0.549,
       "price": 0.3952,
-      "disagree": 0.133,
+      "disagree": 0.154,
       "won": 0,
       "open_ts": 1789873200.0,
       "pnl": -0.39517856134821433
@@ -47327,10 +47162,10 @@
     {
       "slug": "btc-updown-5m-1789873800",
       "side": "Down",
-      "voters": 66,
-      "share": 0.515,
+      "voters": 65,
+      "share": 0.523,
       "price": 0.5406,
-      "disagree": -0.025,
+      "disagree": -0.018,
       "won": 1,
       "open_ts": 1789873800.0,
       "pnl": 0.4594117739235295
@@ -47381,14 +47216,14 @@
     },
     {
       "slug": "btc-updown-5m-1789874400",
-      "side": "Up",
-      "voters": 79,
-      "share": 0.532,
-      "price": 0.5984,
-      "disagree": -0.067,
-      "won": 1,
+      "side": "Down",
+      "voters": 72,
+      "share": 0.514,
+      "price": 0.4286,
+      "disagree": 0.085,
+      "won": 0,
       "open_ts": 1789874400.0,
-      "pnl": 0.4016442489809525
+      "pnl": -0.4286382143918919
     },
     {
       "slug": "eth-updown-5m-1789874400",
@@ -47404,13 +47239,13 @@
     {
       "slug": "btc-updown-5m-1789874700",
       "side": "Up",
-      "voters": 78,
-      "share": 0.603,
-      "price": 0.5291,
-      "disagree": 0.073,
+      "voters": 77,
+      "share": 0.597,
+      "price": 0.5272,
+      "disagree": 0.07,
       "won": 0,
       "open_ts": 1789874700.0,
-      "pnl": -0.5291489414893618
+      "pnl": -0.5271739184521739
     },
     {
       "slug": "eth-updown-5m-1789874700",
@@ -47425,25 +47260,25 @@
     },
     {
       "slug": "btc-updown-5m-1789875000",
-      "side": "Down",
-      "voters": 67,
-      "share": 0.507,
-      "price": 0.5632,
-      "disagree": -0.056,
-      "won": 1,
+      "side": "Up",
+      "voters": 65,
+      "share": 0.508,
+      "price": 0.4845,
+      "disagree": 0.023,
+      "won": 0,
       "open_ts": 1789875000.0,
-      "pnl": 0.4367626807558824
+      "pnl": -0.484545449230303
     },
     {
       "slug": "eth-updown-5m-1789875000",
       "side": "Up",
-      "voters": 9,
-      "share": 0.778,
-      "price": 0.5611,
-      "disagree": 0.217,
+      "voters": 8,
+      "share": 0.75,
+      "price": 0.5587,
+      "disagree": 0.191,
       "won": 1,
       "open_ts": 1789875000.0,
-      "pnl": 0.4388979993428571
+      "pnl": 0.4413159568666667
     },
     {
       "slug": "btc-updown-15m-1789875000",
@@ -47503,35 +47338,24 @@
     {
       "slug": "eth-updown-5m-1789875600",
       "side": "Down",
-      "voters": 8,
-      "share": 0.625,
-      "price": 0.61,
-      "disagree": 0.015,
+      "voters": 7,
+      "share": 0.571,
+      "price": 0.595,
+      "disagree": -0.024,
       "won": 0,
       "open_ts": 1789875600.0,
-      "pnl": -0.60999999412
+      "pnl": -0.59499999265
     },
     {
       "slug": "btc-updown-5m-1789875900",
       "side": "Up",
-      "voters": 75,
-      "share": 0.6,
+      "voters": 74,
+      "share": 0.608,
       "price": 0.4879,
-      "disagree": 0.112,
+      "disagree": 0.12,
       "won": 1,
       "open_ts": 1789875900.0,
       "pnl": 0.5121207820422222
-    },
-    {
-      "slug": "eth-updown-5m-1789875900",
-      "side": "Down",
-      "voters": 6,
-      "share": 0.833,
-      "price": 0.4623,
-      "disagree": 0.371,
-      "won": 0,
-      "open_ts": 1789875900.0,
-      "pnl": -0.46229569064
     },
     {
       "slug": "btc-updown-15m-1789875900",
@@ -47543,6 +47367,17 @@
       "won": 0,
       "open_ts": 1789875900.0,
       "pnl": -0.4812500101875
+    },
+    {
+      "slug": "eth-updown-5m-1789875900",
+      "side": "Down",
+      "voters": 5,
+      "share": 0.8,
+      "price": 0.4716,
+      "disagree": 0.328,
+      "won": 0,
+      "open_ts": 1789875900.0,
+      "pnl": -0.47160525524999997
     },
     {
       "slug": "btc-updown-5m-1789876200",
@@ -47558,24 +47393,24 @@
     {
       "slug": "eth-updown-5m-1789876200",
       "side": "Down",
-      "voters": 5,
-      "share": 0.6,
-      "price": 0.3833,
-      "disagree": 0.217,
+      "voters": 4,
+      "share": 0.5,
+      "price": 0.43,
+      "disagree": 0.07,
       "won": 0,
       "open_ts": 1789876200.0,
-      "pnl": -0.38333332833333333
+      "pnl": -0.4299999983
     },
     {
       "slug": "btc-updown-5m-1789876500",
       "side": "Down",
-      "voters": 80,
-      "share": 0.562,
-      "price": 0.4167,
-      "disagree": 0.146,
+      "voters": 78,
+      "share": 0.551,
+      "price": 0.4179,
+      "disagree": 0.133,
       "won": 0,
       "open_ts": 1789876500.0,
-      "pnl": -0.4166666710333336
+      "pnl": -0.41790698074186067
     },
     {
       "slug": "eth-updown-5m-1789876500",
@@ -47591,13 +47426,13 @@
     {
       "slug": "btc-updown-5m-1789876800",
       "side": "Up",
-      "voters": 86,
-      "share": 0.535,
-      "price": 0.5529,
-      "disagree": -0.018,
+      "voters": 83,
+      "share": 0.518,
+      "price": 0.5489,
+      "disagree": -0.031,
       "won": 1,
       "open_ts": 1789876800.0,
-      "pnl": 0.44710673413043467
+      "pnl": 0.4510909253790696
     },
     {
       "slug": "eth-updown-15m-1789876800",
@@ -47624,10 +47459,10 @@
     {
       "slug": "eth-updown-5m-1789876800",
       "side": "Down",
-      "voters": 13,
-      "share": 0.615,
+      "voters": 12,
+      "share": 0.667,
       "price": 0.6283,
-      "disagree": -0.013,
+      "disagree": 0.038,
       "won": 1,
       "open_ts": 1789876800.0,
       "pnl": 0.3716609832750001
@@ -47635,13 +47470,13 @@
     {
       "slug": "btc-updown-5m-1789877100",
       "side": "Down",
-      "voters": 68,
-      "share": 0.544,
-      "price": 0.487,
-      "disagree": 0.057,
+      "voters": 65,
+      "share": 0.554,
+      "price": 0.4897,
+      "disagree": 0.064,
       "won": 1,
       "open_ts": 1789877100.0,
-      "pnl": 0.5129729686459459
+      "pnl": 0.5102777748638887
     },
     {
       "slug": "eth-updown-5m-1789877100",
@@ -47657,13 +47492,13 @@
     {
       "slug": "btc-updown-5m-1789877400",
       "side": "Down",
-      "voters": 58,
-      "share": 0.569,
-      "price": 0.5292,
-      "disagree": 0.04,
+      "voters": 55,
+      "share": 0.582,
+      "price": 0.5304,
+      "disagree": 0.051,
       "won": 1,
       "open_ts": 1789877400.0,
-      "pnl": 0.47081174065454545
+      "pnl": 0.46958710755
     },
     {
       "slug": "eth-updown-5m-1789877400",
@@ -47690,13 +47525,13 @@
     {
       "slug": "btc-updown-5m-1789877700",
       "side": "Up",
-      "voters": 80,
-      "share": 0.6,
-      "price": 0.6698,
-      "disagree": -0.07,
+      "voters": 79,
+      "share": 0.595,
+      "price": 0.6681,
+      "disagree": -0.073,
       "won": 0,
       "open_ts": 1789877700.0,
-      "pnl": -0.6697916615812501
+      "pnl": -0.6680851011893619
     },
     {
       "slug": "btc-updown-15m-1789877700",
@@ -47723,21 +47558,21 @@
     {
       "slug": "btc-updown-5m-1789878000",
       "side": "Down",
-      "voters": 79,
-      "share": 0.582,
-      "price": 0.5748,
-      "disagree": 0.007,
+      "voters": 76,
+      "share": 0.579,
+      "price": 0.5692,
+      "disagree": 0.01,
       "won": 0,
       "open_ts": 1789878000.0,
-      "pnl": -0.5748476529108695
+      "pnl": -0.5691589098613634
     },
     {
       "slug": "eth-updown-5m-1789878000",
       "side": "Up",
-      "voters": 7,
-      "share": 0.714,
+      "voters": 6,
+      "share": 0.833,
       "price": 0.464,
-      "disagree": 0.25,
+      "disagree": 0.369,
       "won": 1,
       "open_ts": 1789878000.0,
       "pnl": 0.53599910202
@@ -47745,10 +47580,10 @@
     {
       "slug": "btc-updown-5m-1789878300",
       "side": "Up",
-      "voters": 73,
-      "share": 0.534,
+      "voters": 72,
+      "share": 0.542,
       "price": 0.6467,
-      "disagree": -0.112,
+      "disagree": -0.105,
       "won": 1,
       "open_ts": 1789878300.0,
       "pnl": 0.35329222308461516
@@ -47767,10 +47602,10 @@
     {
       "slug": "btc-updown-5m-1789878600",
       "side": "Down",
-      "voters": 89,
-      "share": 0.584,
+      "voters": 87,
+      "share": 0.598,
       "price": 0.4496,
-      "disagree": 0.135,
+      "disagree": 0.148,
       "won": 0,
       "open_ts": 1789878600.0,
       "pnl": -0.4495980742442308
@@ -47778,13 +47613,13 @@
     {
       "slug": "btc-updown-15m-1789878600",
       "side": "Down",
-      "voters": 20,
-      "share": 0.8,
-      "price": 0.4656,
-      "disagree": 0.334,
+      "voters": 19,
+      "share": 0.789,
+      "price": 0.464,
+      "disagree": 0.325,
       "won": 1,
       "open_ts": 1789878600.0,
-      "pnl": 0.53437500118125
+      "pnl": 0.53600000126
     },
     {
       "slug": "eth-updown-5m-1789878600",
@@ -47822,13 +47657,13 @@
     {
       "slug": "btc-updown-5m-1789879200",
       "side": "Up",
-      "voters": 70,
-      "share": 0.586,
-      "price": 0.5498,
-      "disagree": 0.036,
+      "voters": 61,
+      "share": 0.59,
+      "price": 0.5536,
+      "disagree": 0.037,
       "won": 0,
       "open_ts": 1789879200.0,
-      "pnl": -0.5497560746804879
+      "pnl": -0.5536110845583334
     },
     {
       "slug": "eth-updown-5m-1789879200",
@@ -47843,14 +47678,14 @@
     },
     {
       "slug": "btc-updown-5m-1789879500",
-      "side": "Up",
-      "voters": 107,
-      "share": 0.505,
-      "price": 0.4515,
-      "disagree": 0.053,
-      "won": 0,
+      "side": "Down",
+      "voters": 102,
+      "share": 0.51,
+      "price": 0.5616,
+      "disagree": -0.052,
+      "won": 1,
       "open_ts": 1789879500.0,
-      "pnl": -0.45148148469074084
+      "pnl": 0.43839849350192295
     },
     {
       "slug": "btc-updown-15m-1789879500",
@@ -47888,13 +47723,13 @@
     {
       "slug": "btc-updown-5m-1789879800",
       "side": "Up",
-      "voters": 87,
-      "share": 0.552,
-      "price": 0.6044,
-      "disagree": -0.053,
+      "voters": 86,
+      "share": 0.547,
+      "price": 0.6066,
+      "disagree": -0.06,
       "won": 1,
       "open_ts": 1789879800.0,
-      "pnl": 0.3955990720000001
+      "pnl": 0.39337777565957466
     },
     {
       "slug": "eth-updown-5m-1789879800",
@@ -47910,10 +47745,10 @@
     {
       "slug": "btc-updown-5m-1789880100",
       "side": "Down",
-      "voters": 89,
-      "share": 0.573,
+      "voters": 87,
+      "share": 0.586,
       "price": 0.5404,
-      "disagree": 0.033,
+      "disagree": 0.046,
       "won": 1,
       "open_ts": 1789880100.0,
       "pnl": 0.4595832419274509
@@ -47943,10 +47778,10 @@
     {
       "slug": "btc-updown-5m-1789880400",
       "side": "Down",
-      "voters": 91,
-      "share": 0.56,
+      "voters": 87,
+      "share": 0.586,
       "price": 0.4688,
-      "disagree": 0.092,
+      "disagree": 0.117,
       "won": 0,
       "open_ts": 1789880400.0,
       "pnl": -0.4687642157549019
@@ -47976,13 +47811,13 @@
     {
       "slug": "btc-updown-5m-1789880700",
       "side": "Up",
-      "voters": 100,
-      "share": 0.66,
-      "price": 0.5313,
-      "disagree": 0.129,
+      "voters": 98,
+      "share": 0.653,
+      "price": 0.5323,
+      "disagree": 0.121,
       "won": 1,
       "open_ts": 1789880700.0,
-      "pnl": 0.46870941686515144
+      "pnl": 0.4677315861421877
     },
     {
       "slug": "eth-updown-5m-1789880700",
@@ -47998,32 +47833,32 @@
     {
       "slug": "btc-updown-5m-1789881000",
       "side": "Up",
-      "voters": 82,
-      "share": 0.537,
-      "price": 0.4547,
-      "disagree": 0.082,
+      "voters": 76,
+      "share": 0.513,
+      "price": 0.4489,
+      "disagree": 0.064,
       "won": 1,
       "open_ts": 1789881000.0,
-      "pnl": 0.5452994846454544
+      "pnl": 0.5511071108820513
     },
     {
       "slug": "eth-updown-5m-1789881000",
       "side": "Up",
-      "voters": 10,
-      "share": 0.8,
-      "price": 0.4538,
-      "disagree": 0.346,
+      "voters": 9,
+      "share": 0.778,
+      "price": 0.4415,
+      "disagree": 0.336,
       "won": 1,
       "open_ts": 1789881000.0,
-      "pnl": 0.5462132462625
+      "pnl": 0.5585294532142857
     },
     {
       "slug": "btc-updown-5m-1789881300",
       "side": "Up",
-      "voters": 106,
-      "share": 0.547,
+      "voters": 102,
+      "share": 0.569,
       "price": 0.3927,
-      "disagree": 0.154,
+      "disagree": 0.176,
       "won": 0,
       "open_ts": 1789881300.0,
       "pnl": -0.3927230037655172
@@ -48064,13 +47899,13 @@
     {
       "slug": "btc-updown-5m-1789881600",
       "side": "Down",
-      "voters": 77,
-      "share": 0.545,
-      "price": 0.5379,
-      "disagree": 0.008,
+      "voters": 72,
+      "share": 0.514,
+      "price": 0.543,
+      "disagree": -0.029,
       "won": 1,
       "open_ts": 1789881600.0,
-      "pnl": 0.4621142376190476
+      "pnl": 0.45699453999999995
     },
     {
       "slug": "eth-updown-5m-1789881600",
@@ -48085,14 +47920,14 @@
     },
     {
       "slug": "btc-updown-5m-1789881900",
-      "side": "Up",
-      "voters": 106,
-      "share": 0.5,
-      "price": 0.5306,
-      "disagree": -0.031,
-      "won": 1,
+      "side": "Down",
+      "voters": 103,
+      "share": 0.515,
+      "price": 0.5071,
+      "disagree": 0.007,
+      "won": 0,
       "open_ts": 1789881900.0,
-      "pnl": 0.4694349894566038
+      "pnl": -0.5070809419150942
     },
     {
       "slug": "eth-updown-5m-1789881900",
@@ -48119,13 +47954,13 @@
     {
       "slug": "btc-updown-5m-1789882200",
       "side": "Down",
-      "voters": 77,
-      "share": 0.519,
-      "price": 0.4785,
-      "disagree": 0.041,
+      "voters": 71,
+      "share": 0.535,
+      "price": 0.4792,
+      "disagree": 0.056,
       "won": 0,
       "open_ts": 1789882200.0,
-      "pnl": -0.4784657874574999
+      "pnl": -0.4791745131631579
     },
     {
       "slug": "btc-updown-15m-1789882200",
@@ -48163,13 +47998,13 @@
     {
       "slug": "btc-updown-5m-1789882500",
       "side": "Up",
-      "voters": 103,
-      "share": 0.515,
-      "price": 0.4169,
-      "disagree": 0.098,
+      "voters": 100,
+      "share": 0.52,
+      "price": 0.4164,
+      "disagree": 0.104,
       "won": 0,
       "open_ts": 1789882500.0,
-      "pnl": -0.4168929051584907
+      "pnl": -0.4164485381750001
     },
     {
       "slug": "eth-updown-5m-1789882500",
@@ -48185,13 +48020,13 @@
     {
       "slug": "btc-updown-5m-1789882800",
       "side": "Down",
-      "voters": 108,
-      "share": 0.602,
-      "price": 0.5362,
-      "disagree": 0.066,
+      "voters": 103,
+      "share": 0.592,
+      "price": 0.5386,
+      "disagree": 0.054,
       "won": 0,
       "open_ts": 1789882800.0,
-      "pnl": -0.5362284558338462
+      "pnl": -0.538604092281967
     },
     {
       "slug": "eth-updown-5m-1789882800",
@@ -48207,13 +48042,13 @@
     {
       "slug": "btc-updown-5m-1789883100",
       "side": "Up",
-      "voters": 157,
-      "share": 0.567,
-      "price": 0.443,
-      "disagree": 0.124,
+      "voters": 154,
+      "share": 0.571,
+      "price": 0.4429,
+      "disagree": 0.129,
       "won": 0,
       "open_ts": 1789883100.0,
-      "pnl": -0.44300034465617977
+      "pnl": -0.44286559715681817
     },
     {
       "slug": "eth-updown-15m-1789883100",
@@ -48361,13 +48196,13 @@
     {
       "slug": "btc-updown-5m-1789884600",
       "side": "Down",
-      "voters": 106,
-      "share": 0.585,
-      "price": 0.4072,
-      "disagree": 0.178,
+      "voters": 105,
+      "share": 0.581,
+      "price": 0.4058,
+      "disagree": 0.175,
       "won": 0,
       "open_ts": 1789884600.0,
-      "pnl": -0.4072037724580646
+      "pnl": -0.40584645725245916
     },
     {
       "slug": "eth-updown-5m-1789884600",
@@ -48438,13 +48273,13 @@
     {
       "slug": "btc-updown-5m-1789885500",
       "side": "Down",
-      "voters": 67,
-      "share": 0.552,
-      "price": 0.5302,
-      "disagree": 0.022,
+      "voters": 62,
+      "share": 0.516,
+      "price": 0.5428,
+      "disagree": -0.027,
       "won": 1,
       "open_ts": 1789885500.0,
-      "pnl": 0.46978128590540535
+      "pnl": 0.4572471161062499
     },
     {
       "slug": "eth-updown-5m-1789885500",
@@ -48460,10 +48295,10 @@
     {
       "slug": "btc-updown-5m-1789885800",
       "side": "Down",
-      "voters": 95,
-      "share": 0.505,
+      "voters": 94,
+      "share": 0.511,
       "price": 0.6225,
-      "disagree": -0.117,
+      "disagree": -0.112,
       "won": 1,
       "open_ts": 1789885800.0,
       "pnl": 0.3775086195916667
@@ -48504,10 +48339,10 @@
     {
       "slug": "btc-updown-5m-1789886100",
       "side": "Up",
-      "voters": 108,
-      "share": 0.593,
+      "voters": 105,
+      "share": 0.61,
       "price": 0.4246,
-      "disagree": 0.168,
+      "disagree": 0.185,
       "won": 0,
       "open_ts": 1789886100.0,
       "pnl": -0.4245709212015625
@@ -48526,13 +48361,13 @@
     {
       "slug": "btc-updown-5m-1789886400",
       "side": "Down",
-      "voters": 109,
-      "share": 0.642,
-      "price": 0.4994,
-      "disagree": 0.143,
+      "voters": 108,
+      "share": 0.639,
+      "price": 0.4995,
+      "disagree": 0.139,
       "won": 1,
       "open_ts": 1789886400.0,
-      "pnl": 0.5006318506014287
+      "pnl": 0.50049608032029
     },
     {
       "slug": "eth-updown-5m-1789886400",
@@ -48768,13 +48603,13 @@
     {
       "slug": "btc-updown-5m-1789888800",
       "side": "Down",
-      "voters": 76,
-      "share": 0.566,
-      "price": 0.5402,
-      "disagree": 0.026,
+      "voters": 75,
+      "share": 0.56,
+      "price": 0.5414,
+      "disagree": 0.019,
       "won": 0,
       "open_ts": 1789888800.0,
-      "pnl": -0.5402143939046513
+      "pnl": -0.5414099747119049
     },
     {
       "slug": "eth-updown-5m-1789888800",
@@ -48999,13 +48834,13 @@
     {
       "slug": "btc-updown-5m-1789891200",
       "side": "Down",
-      "voters": 108,
-      "share": 0.556,
-      "price": 0.4859,
-      "disagree": 0.07,
+      "voters": 105,
+      "share": 0.543,
+      "price": 0.4841,
+      "disagree": 0.059,
       "won": 0,
       "open_ts": 1789891200.0,
-      "pnl": -0.48591047090833317
+      "pnl": -0.4841162848263158
     },
     {
       "slug": "eth-updown-15m-1789891200",
@@ -49021,13 +48856,13 @@
     {
       "slug": "btc-updown-15m-1789891200",
       "side": "Up",
-      "voters": 6,
-      "share": 0.667,
-      "price": 0.5219,
-      "disagree": 0.145,
+      "voters": 4,
+      "share": 0.5,
+      "price": 0.495,
+      "disagree": 0.005,
       "won": 1,
       "open_ts": 1789891200.0,
-      "pnl": 0.478063320675
+      "pnl": 0.5050000008
     },
     {
       "slug": "eth-updown-4h-1789891200",
@@ -49054,10 +48889,10 @@
     {
       "slug": "btc-updown-5m-1789891500",
       "side": "Down",
-      "voters": 102,
-      "share": 0.559,
+      "voters": 98,
+      "share": 0.582,
       "price": 0.5773,
-      "disagree": -0.018,
+      "disagree": 0.004,
       "won": 1,
       "open_ts": 1789891500.0,
       "pnl": 0.42268102920877193
@@ -49087,10 +48922,10 @@
     {
       "slug": "btc-updown-5m-1789891800",
       "side": "Down",
-      "voters": 129,
-      "share": 0.543,
+      "voters": 127,
+      "share": 0.551,
       "price": 0.394,
-      "disagree": 0.149,
+      "disagree": 0.157,
       "won": 0,
       "open_ts": 1789891800.0,
       "pnl": -0.39404459046571416
@@ -49241,10 +49076,10 @@
     {
       "slug": "btc-updown-5m-1789893300",
       "side": "Down",
-      "voters": 118,
-      "share": 0.551,
+      "voters": 117,
+      "share": 0.556,
       "price": 0.5627,
-      "disagree": -0.012,
+      "disagree": -0.007,
       "won": 1,
       "open_ts": 1789893300.0,
       "pnl": 0.43728096963538465
@@ -49296,10 +49131,10 @@
     {
       "slug": "btc-updown-5m-1789893900",
       "side": "Down",
-      "voters": 126,
-      "share": 0.595,
+      "voters": 124,
+      "share": 0.605,
       "price": 0.4116,
-      "disagree": 0.184,
+      "disagree": 0.193,
       "won": 1,
       "open_ts": 1789893900.0,
       "pnl": 0.5883881452226667
@@ -49758,10 +49593,10 @@
     {
       "slug": "btc-updown-5m-1789898100",
       "side": "Up",
-      "voters": 125,
-      "share": 0.584,
+      "voters": 124,
+      "share": 0.589,
       "price": 0.4371,
-      "disagree": 0.147,
+      "disagree": 0.152,
       "won": 0,
       "open_ts": 1789898100.0,
       "pnl": -0.43713849955068484
@@ -49879,10 +49714,10 @@
     {
       "slug": "btc-updown-5m-1789899300",
       "side": "Up",
-      "voters": 121,
-      "share": 0.661,
+      "voters": 120,
+      "share": 0.667,
       "price": 0.7212,
-      "disagree": -0.06,
+      "disagree": -0.054,
       "won": 1,
       "open_ts": 1789899300.0,
       "pnl": 0.2788363101275003
@@ -49910,26 +49745,26 @@
       "pnl": -0.34107142962857145
     },
     {
-      "slug": "sol-updown-5m-1789899300",
-      "side": "Down",
-      "voters": 4,
-      "share": 0.75,
-      "price": 0.0867,
-      "disagree": 0.663,
-      "won": 0,
-      "open_ts": 1789899300.0,
-      "pnl": -0.08666666666666667
-    },
-    {
       "slug": "eth-updown-5m-1789899300",
       "side": "Down",
-      "voters": 15,
-      "share": 0.533,
-      "price": 0.2383,
-      "disagree": 0.295,
+      "voters": 14,
+      "share": 0.5,
+      "price": 0.2538,
+      "disagree": 0.246,
       "won": 0,
       "open_ts": 1789899300.0,
-      "pnl": -0.2383346482125
+      "pnl": -0.25381102692857144
+    },
+    {
+      "slug": "sol-updown-5m-1789899300",
+      "side": "Down",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.08,
+      "disagree": 0.587,
+      "won": 0,
+      "open_ts": 1789899300.0,
+      "pnl": -0.08
     },
     {
       "slug": "btc-updown-5m-1789899600",
@@ -50097,17 +49932,6 @@
       "pnl": 0.4666666666666667
     },
     {
-      "slug": "doge-updown-15m-1789901100",
-      "side": "Up",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.527,
-      "disagree": 0.14,
-      "won": 1,
-      "open_ts": 1789901100.0,
-      "pnl": 0.4730384000000001
-    },
-    {
       "slug": "eth-updown-15m-1789901100",
       "side": "Down",
       "voters": 4,
@@ -50117,6 +49941,17 @@
       "won": 1,
       "open_ts": 1789901100.0,
       "pnl": 0.5066666666666666
+    },
+    {
+      "slug": "doge-updown-15m-1789901100",
+      "side": "Up",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.527,
+      "disagree": 0.14,
+      "won": 1,
+      "open_ts": 1789901100.0,
+      "pnl": 0.4730384000000001
     },
     {
       "slug": "btc-updown-5m-1789901400",
@@ -50220,13 +50055,13 @@
     {
       "slug": "btc-updown-5m-1789902300",
       "side": "Up",
-      "voters": 100,
-      "share": 0.56,
-      "price": 0.5102,
-      "disagree": 0.05,
+      "voters": 99,
+      "share": 0.556,
+      "price": 0.5111,
+      "disagree": 0.044,
       "won": 1,
       "open_ts": 1789902300.0,
-      "pnl": 0.4898214414571428
+      "pnl": 0.4889091034272727
     },
     {
       "slug": "eth-updown-5m-1789902300",
@@ -50242,13 +50077,13 @@
     {
       "slug": "btc-updown-5m-1789902600",
       "side": "Down",
-      "voters": 120,
-      "share": 0.65,
-      "price": 0.5325,
+      "voters": 118,
+      "share": 0.653,
+      "price": 0.535,
       "disagree": 0.118,
       "won": 1,
       "open_ts": 1789902600.0,
-      "pnl": 0.4675028869243588
+      "pnl": 0.46500292439350643
     },
     {
       "slug": "eth-updown-5m-1789902600",
@@ -50263,36 +50098,36 @@
     },
     {
       "slug": "btc-updown-5m-1789902900",
-      "side": "Up",
-      "voters": 106,
-      "share": 0.5,
-      "price": 0.4602,
-      "disagree": 0.04,
-      "won": 0,
+      "side": "Down",
+      "voters": 105,
+      "share": 0.505,
+      "price": 0.563,
+      "disagree": -0.058,
+      "won": 1,
       "open_ts": 1789902900.0,
-      "pnl": -0.46018869225094317
+      "pnl": 0.437028591824528
     },
     {
       "slug": "btc-updown-15m-1789902900",
       "side": "Down",
-      "voters": 17,
-      "share": 0.647,
-      "price": 0.5055,
-      "disagree": 0.142,
+      "voters": 14,
+      "share": 0.643,
+      "price": 0.51,
+      "disagree": 0.133,
       "won": 1,
       "open_ts": 1789902900.0,
-      "pnl": 0.4945454545454546
+      "pnl": 0.4899999999999999
     },
     {
       "slug": "eth-updown-15m-1789902900",
       "side": "Down",
-      "voters": 5,
-      "share": 0.6,
-      "price": 0.4909,
-      "disagree": 0.109,
+      "voters": 4,
+      "share": 0.5,
+      "price": 0.5014,
+      "disagree": -0.001,
       "won": 0,
       "open_ts": 1789902900.0,
-      "pnl": -0.49090354573333334
+      "pnl": -0.5013553186
     },
     {
       "slug": "eth-updown-5m-1789902900",
@@ -50308,10 +50143,10 @@
     {
       "slug": "btc-updown-5m-1789903200",
       "side": "Up",
-      "voters": 111,
-      "share": 0.568,
+      "voters": 110,
+      "share": 0.573,
       "price": 0.5863,
-      "disagree": -0.019,
+      "disagree": -0.014,
       "won": 1,
       "open_ts": 1789903200.0,
       "pnl": 0.41367202272063486
@@ -50372,17 +50207,6 @@
       "pnl": -0.41588236004117646
     },
     {
-      "slug": "sol-updown-15m-1789903800",
-      "side": "Up",
-      "voters": 4,
-      "share": 1.0,
-      "price": 0.4875,
-      "disagree": 0.512,
-      "won": 1,
-      "open_ts": 1789903800.0,
-      "pnl": 0.512499874325
-    },
-    {
       "slug": "eth-updown-5m-1789903800",
       "side": "Up",
       "voters": 15,
@@ -50407,10 +50231,10 @@
     {
       "slug": "btc-updown-5m-1789904100",
       "side": "Down",
-      "voters": 174,
-      "share": 0.54,
+      "voters": 173,
+      "share": 0.543,
       "price": 0.6602,
-      "disagree": -0.12,
+      "disagree": -0.117,
       "won": 1,
       "open_ts": 1789904100.0,
       "pnl": 0.33983515593297875
@@ -50471,23 +50295,12 @@
       "pnl": 0.367500046575
     },
     {
-      "slug": "btc-updown-15m-1789904700",
-      "side": "Down",
-      "voters": 22,
-      "share": 0.636,
-      "price": 0.5136,
-      "disagree": 0.123,
-      "won": 0,
-      "open_ts": 1789904700.0,
-      "pnl": -0.5135714259
-    },
-    {
       "slug": "btc-updown-5m-1789904700",
       "side": "Down",
-      "voters": 115,
-      "share": 0.522,
+      "voters": 111,
+      "share": 0.541,
       "price": 0.5714,
-      "disagree": -0.05,
+      "disagree": -0.031,
       "won": 0,
       "open_ts": 1789904700.0,
       "pnl": -0.5714047780116667
@@ -50504,6 +50317,17 @@
       "pnl": 0.50000000518
     },
     {
+      "slug": "btc-updown-15m-1789904700",
+      "side": "Down",
+      "voters": 22,
+      "share": 0.636,
+      "price": 0.5136,
+      "disagree": 0.123,
+      "won": 0,
+      "open_ts": 1789904700.0,
+      "pnl": -0.5135714259
+    },
+    {
       "slug": "eth-updown-5m-1789904700",
       "side": "Down",
       "voters": 11,
@@ -50517,10 +50341,10 @@
     {
       "slug": "btc-updown-5m-1789905000",
       "side": "Up",
-      "voters": 85,
-      "share": 0.576,
+      "voters": 83,
+      "share": 0.59,
       "price": 0.5072,
-      "disagree": 0.069,
+      "disagree": 0.083,
       "won": 1,
       "open_ts": 1789905000.0,
       "pnl": 0.49277192270612247
@@ -50539,13 +50363,13 @@
     {
       "slug": "btc-updown-5m-1789905300",
       "side": "Up",
-      "voters": 166,
-      "share": 0.542,
-      "price": 0.4729,
-      "disagree": 0.069,
+      "voters": 162,
+      "share": 0.537,
+      "price": 0.4774,
+      "disagree": 0.06,
       "won": 0,
       "open_ts": 1789905300.0,
-      "pnl": -0.47293133640999996
+      "pnl": -0.47740023306781604
     },
     {
       "slug": "sol-updown-5m-1789905300",
@@ -50583,10 +50407,10 @@
     {
       "slug": "btc-updown-15m-1789905600",
       "side": "Up",
-      "voters": 20,
-      "share": 0.75,
+      "voters": 19,
+      "share": 0.789,
       "price": 0.43,
-      "disagree": 0.32,
+      "disagree": 0.359,
       "won": 0,
       "open_ts": 1789905600.0,
       "pnl": -0.43000002128000003
@@ -50594,13 +50418,13 @@
     {
       "slug": "btc-updown-5m-1789905600",
       "side": "Up",
-      "voters": 116,
-      "share": 0.595,
-      "price": 0.4022,
-      "disagree": 0.193,
+      "voters": 114,
+      "share": 0.596,
+      "price": 0.4006,
+      "disagree": 0.196,
       "won": 0,
       "open_ts": 1789905600.0,
-      "pnl": -0.402226533489855
+      "pnl": -0.40064162957058813
     },
     {
       "slug": "sol-updown-15m-1789905600",
@@ -50649,10 +50473,10 @@
     {
       "slug": "btc-updown-5m-1789905900",
       "side": "Down",
-      "voters": 156,
-      "share": 0.513,
+      "voters": 149,
+      "share": 0.537,
       "price": 0.4745,
-      "disagree": 0.038,
+      "disagree": 0.062,
       "won": 0,
       "open_ts": 1789905900.0,
       "pnl": -0.47446896436874997
@@ -50748,13 +50572,13 @@
     {
       "slug": "btc-updown-5m-1789906800",
       "side": "Up",
-      "voters": 143,
-      "share": 0.587,
-      "price": 0.4098,
-      "disagree": 0.178,
+      "voters": 140,
+      "share": 0.579,
+      "price": 0.4085,
+      "disagree": 0.17,
       "won": 0,
       "open_ts": 1789906800.0,
-      "pnl": -0.4097726634845237
+      "pnl": -0.4085296757123456
     },
     {
       "slug": "eth-updown-5m-1789906800",
@@ -50770,13 +50594,13 @@
     {
       "slug": "btc-updown-5m-1789907100",
       "side": "Up",
-      "voters": 108,
-      "share": 0.565,
-      "price": 0.3787,
-      "disagree": 0.186,
+      "voters": 103,
+      "share": 0.544,
+      "price": 0.3759,
+      "disagree": 0.168,
       "won": 0,
       "open_ts": 1789907100.0,
-      "pnl": -0.37868898796065575
+      "pnl": -0.3758933545482143
     },
     {
       "slug": "eth-updown-5m-1789907100",
@@ -50814,13 +50638,13 @@
     {
       "slug": "btc-updown-5m-1789907400",
       "side": "Down",
-      "voters": 148,
-      "share": 0.52,
-      "price": 0.5883,
-      "disagree": -0.068,
+      "voters": 147,
+      "share": 0.517,
+      "price": 0.5871,
+      "disagree": -0.07,
       "won": 1,
       "open_ts": 1789907400.0,
-      "pnl": 0.411734026857143
+      "pnl": 0.41294105352631594
     },
     {
       "slug": "eth-updown-15m-1789907400",
@@ -50847,10 +50671,10 @@
     {
       "slug": "btc-updown-5m-1789907700",
       "side": "Down",
-      "voters": 116,
-      "share": 0.569,
+      "voters": 113,
+      "share": 0.584,
       "price": 0.4587,
-      "disagree": 0.11,
+      "disagree": 0.125,
       "won": 0,
       "open_ts": 1789907700.0,
       "pnl": -0.4586636339393939
@@ -50869,10 +50693,10 @@
     {
       "slug": "btc-updown-5m-1789908000",
       "side": "Up",
-      "voters": 175,
-      "share": 0.543,
+      "voters": 171,
+      "share": 0.556,
       "price": 0.4355,
-      "disagree": 0.107,
+      "disagree": 0.12,
       "won": 0,
       "open_ts": 1789908000.0,
       "pnl": -0.43551771597789474
@@ -50902,10 +50726,10 @@
     {
       "slug": "btc-updown-5m-1789908300",
       "side": "Down",
-      "voters": 134,
-      "share": 0.612,
+      "voters": 131,
+      "share": 0.626,
       "price": 0.4728,
-      "disagree": 0.139,
+      "disagree": 0.153,
       "won": 0,
       "open_ts": 1789908300.0,
       "pnl": -0.4727905694170732
@@ -50924,10 +50748,10 @@
     {
       "slug": "btc-updown-5m-1789908600",
       "side": "Down",
-      "voters": 134,
-      "share": 0.567,
+      "voters": 132,
+      "share": 0.576,
       "price": 0.3797,
-      "disagree": 0.187,
+      "disagree": 0.196,
       "won": 0,
       "open_ts": 1789908600.0,
       "pnl": -0.3797259947276315
@@ -51067,13 +50891,13 @@
     {
       "slug": "btc-updown-5m-1789910100",
       "side": "Up",
-      "voters": 108,
+      "voters": 106,
       "share": 0.528,
-      "price": 0.5109,
-      "disagree": 0.017,
+      "price": 0.5102,
+      "disagree": 0.018,
       "won": 0,
       "open_ts": 1789910100.0,
-      "pnl": -0.5109037246719297
+      "pnl": -0.5102055770214285
     },
     {
       "slug": "eth-updown-15m-1789910100",
@@ -51100,13 +50924,13 @@
     {
       "slug": "btc-updown-5m-1789910400",
       "side": "Down",
-      "voters": 177,
-      "share": 0.621,
-      "price": 0.5606,
-      "disagree": 0.061,
+      "voters": 175,
+      "share": 0.623,
+      "price": 0.5608,
+      "disagree": 0.062,
       "won": 0,
       "open_ts": 1789910400.0,
-      "pnl": -0.5605688493790911
+      "pnl": -0.5608492977899084
     },
     {
       "slug": "xrp-updown-5m-1789910400",
@@ -51144,13 +50968,13 @@
     {
       "slug": "btc-updown-5m-1789910700",
       "side": "Up",
-      "voters": 144,
-      "share": 0.542,
-      "price": 0.5699,
-      "disagree": -0.028,
+      "voters": 143,
+      "share": 0.538,
+      "price": 0.5703,
+      "disagree": -0.032,
       "won": 0,
       "open_ts": 1789910700.0,
-      "pnl": -0.5698863896102564
+      "pnl": -0.5703431351753246
     },
     {
       "slug": "eth-updown-5m-1789910700",
@@ -51221,13 +51045,13 @@
     {
       "slug": "btc-updown-5m-1789911300",
       "side": "Up",
-      "voters": 198,
+      "voters": 196,
       "share": 0.505,
-      "price": 0.5183,
-      "disagree": -0.013,
+      "price": 0.5198,
+      "disagree": -0.015,
       "won": 1,
       "open_ts": 1789911300.0,
-      "pnl": 0.48169438349399996
+      "pnl": 0.48022224175858585
     },
     {
       "slug": "sol-updown-5m-1789911300",
@@ -51254,13 +51078,13 @@
     {
       "slug": "btc-updown-5m-1789911600",
       "side": "Down",
-      "voters": 162,
-      "share": 0.586,
-      "price": 0.3056,
-      "disagree": 0.281,
+      "voters": 161,
+      "share": 0.584,
+      "price": 0.3064,
+      "disagree": 0.277,
       "won": 0,
       "open_ts": 1789911600.0,
-      "pnl": -0.30559725225999984
+      "pnl": -0.30640147843936155
     },
     {
       "slug": "eth-updown-5m-1789911600",
@@ -51342,13 +51166,13 @@
     {
       "slug": "btc-updown-5m-1789912500",
       "side": "Up",
-      "voters": 161,
-      "share": 0.559,
-      "price": 0.5562,
-      "disagree": 0.003,
+      "voters": 155,
+      "share": 0.555,
+      "price": 0.5534,
+      "disagree": 0.001,
       "won": 0,
       "open_ts": 1789912500.0,
-      "pnl": -0.5562083282899999
+      "pnl": -0.5533575528616278
     },
     {
       "slug": "eth-updown-5m-1789912500",
@@ -51375,13 +51199,13 @@
     {
       "slug": "btc-updown-5m-1789912800",
       "side": "Down",
-      "voters": 227,
-      "share": 0.511,
-      "price": 0.3803,
-      "disagree": 0.131,
+      "voters": 224,
+      "share": 0.504,
+      "price": 0.3796,
+      "disagree": 0.125,
       "won": 0,
       "open_ts": 1789912800.0,
-      "pnl": -0.3802511841793104
+      "pnl": -0.37963838375929193
     },
     {
       "slug": "eth-updown-15m-1789912800",
@@ -51429,14 +51253,14 @@
     },
     {
       "slug": "btc-updown-5m-1789913400",
-      "side": "Up",
-      "voters": 171,
+      "side": "Down",
+      "voters": 169,
       "share": 0.503,
-      "price": 0.3673,
-      "disagree": 0.136,
-      "won": 0,
+      "price": 0.6605,
+      "disagree": -0.158,
+      "won": 1,
       "open_ts": 1789913400.0,
-      "pnl": -0.3672742865662789
+      "pnl": 0.3394667540282351
     },
     {
       "slug": "eth-updown-5m-1789913400",
@@ -51496,35 +51320,35 @@
     {
       "slug": "btc-updown-5m-1789914000",
       "side": "Up",
-      "voters": 186,
-      "share": 0.532,
-      "price": 0.4008,
-      "disagree": 0.131,
+      "voters": 182,
+      "share": 0.522,
+      "price": 0.3993,
+      "disagree": 0.123,
       "won": 1,
       "open_ts": 1789914000.0,
-      "pnl": 0.5991789728585859
+      "pnl": 0.6007233512515788
     },
     {
       "slug": "eth-updown-5m-1789914000",
       "side": "Up",
-      "voters": 10,
-      "share": 0.8,
-      "price": 0.4222,
-      "disagree": 0.378,
+      "voters": 9,
+      "share": 0.778,
+      "price": 0.4239,
+      "disagree": 0.354,
       "won": 1,
       "open_ts": 1789914000.0,
-      "pnl": 0.5778171602875
+      "pnl": 0.5760767546142858
     },
     {
       "slug": "btc-updown-5m-1789914300",
       "side": "Up",
-      "voters": 135,
-      "share": 0.585,
-      "price": 0.6604,
-      "disagree": -0.075,
+      "voters": 133,
+      "share": 0.579,
+      "price": 0.6565,
+      "disagree": -0.078,
       "won": 1,
       "open_ts": 1789914300.0,
-      "pnl": 0.33959809391898743
+      "pnl": 0.3434837586961039
     },
     {
       "slug": "eth-updown-5m-1789914300",
@@ -51540,10 +51364,10 @@
     {
       "slug": "btc-updown-5m-1789914600",
       "side": "Down",
-      "voters": 127,
-      "share": 0.535,
+      "voters": 126,
+      "share": 0.54,
       "price": 0.5559,
-      "disagree": -0.021,
+      "disagree": -0.016,
       "won": 0,
       "open_ts": 1789914600.0,
       "pnl": -0.5559463992558826
@@ -51551,10 +51375,10 @@
     {
       "slug": "btc-updown-15m-1789914600",
       "side": "Down",
-      "voters": 18,
-      "share": 0.611,
+      "voters": 17,
+      "share": 0.647,
       "price": 0.5148,
-      "disagree": 0.096,
+      "disagree": 0.132,
       "won": 0,
       "open_ts": 1789914600.0,
       "pnl": -0.5147705680363637
@@ -51562,10 +51386,10 @@
     {
       "slug": "eth-updown-15m-1789914600",
       "side": "Down",
-      "voters": 11,
-      "share": 0.545,
+      "voters": 10,
+      "share": 0.6,
       "price": 0.5083,
-      "disagree": 0.037,
+      "disagree": 0.092,
       "won": 0,
       "open_ts": 1789914600.0,
       "pnl": -0.5083333224833333
@@ -51573,10 +51397,10 @@
     {
       "slug": "eth-updown-5m-1789914600",
       "side": "Down",
-      "voters": 10,
-      "share": 0.6,
+      "voters": 9,
+      "share": 0.667,
       "price": 0.5892,
-      "disagree": 0.011,
+      "disagree": 0.077,
       "won": 0,
       "open_ts": 1789914600.0,
       "pnl": -0.5892062189333334
@@ -51617,21 +51441,21 @@
     {
       "slug": "btc-updown-5m-1789915200",
       "side": "Up",
-      "voters": 150,
-      "share": 0.567,
-      "price": 0.3793,
-      "disagree": 0.187,
+      "voters": 149,
+      "share": 0.564,
+      "price": 0.3797,
+      "disagree": 0.184,
       "won": 1,
       "open_ts": 1789915200.0,
-      "pnl": 0.6207210238858825
+      "pnl": 0.6202534162988096
     },
     {
       "slug": "eth-updown-5m-1789915200",
       "side": "Down",
-      "voters": 12,
-      "share": 0.583,
+      "voters": 11,
+      "share": 0.636,
       "price": 0.5718,
-      "disagree": 0.012,
+      "disagree": 0.065,
       "won": 1,
       "open_ts": 1789915200.0,
       "pnl": 0.42817734681428576
@@ -51639,10 +51463,10 @@
     {
       "slug": "btc-updown-5m-1789915500",
       "side": "Down",
-      "voters": 171,
-      "share": 0.526,
+      "voters": 170,
+      "share": 0.529,
       "price": 0.5629,
-      "disagree": -0.037,
+      "disagree": -0.033,
       "won": 0,
       "open_ts": 1789915500.0,
       "pnl": -0.5629062688366667
@@ -51694,10 +51518,10 @@
     {
       "slug": "btc-updown-5m-1789915800",
       "side": "Up",
-      "voters": 171,
-      "share": 0.608,
+      "voters": 170,
+      "share": 0.612,
       "price": 0.4322,
-      "disagree": 0.176,
+      "disagree": 0.18,
       "won": 1,
       "open_ts": 1789915800.0,
       "pnl": 0.5677804028000002
@@ -51716,10 +51540,10 @@
     {
       "slug": "btc-updown-5m-1789916100",
       "side": "Up",
-      "voters": 254,
-      "share": 0.701,
+      "voters": 251,
+      "share": 0.709,
       "price": 0.4937,
-      "disagree": 0.207,
+      "disagree": 0.215,
       "won": 0,
       "open_ts": 1789916100.0,
       "pnl": -0.493666569129775
@@ -51760,10 +51584,10 @@
     {
       "slug": "btc-updown-15m-1789916400",
       "side": "Down",
-      "voters": 43,
-      "share": 0.512,
+      "voters": 41,
+      "share": 0.537,
       "price": 0.4505,
-      "disagree": 0.061,
+      "disagree": 0.086,
       "won": 0,
       "open_ts": 1789916400.0,
       "pnl": -0.45045455353181807
@@ -51943,17 +51767,6 @@
       "won": 1,
       "open_ts": 1789917300.0,
       "pnl": 0.44259975736407775
-    },
-    {
-      "slug": "doge-updown-15m-1789917300",
-      "side": "Up",
-      "voters": 3,
-      "share": 1.0,
-      "price": 0.49,
-      "disagree": 0.51,
-      "won": 0,
-      "open_ts": 1789917300.0,
-      "pnl": -0.49
     },
     {
       "slug": "sol-updown-15m-1789917300",
@@ -52343,13 +52156,13 @@
     {
       "slug": "btc-updown-15m-1789920000",
       "side": "Up",
-      "voters": 74,
-      "share": 0.784,
-      "price": 0.4353,
-      "disagree": 0.348,
+      "voters": 53,
+      "share": 0.774,
+      "price": 0.4227,
+      "disagree": 0.351,
       "won": 1,
       "open_ts": 1789920000.0,
-      "pnl": 0.5646551516913791
+      "pnl": 0.5773170502731707
     },
     {
       "slug": "btc-updown-5m-1789920000",
@@ -52464,13 +52277,13 @@
     {
       "slug": "btc-updown-5m-1789920600",
       "side": "Up",
-      "voters": 289,
-      "share": 0.588,
-      "price": 0.5762,
-      "disagree": 0.012,
+      "voters": 279,
+      "share": 0.577,
+      "price": 0.5769,
+      "disagree": 0.0,
       "won": 1,
       "open_ts": 1789920600.0,
-      "pnl": 0.42380547697176507
+      "pnl": 0.42314864183291956
     },
     {
       "slug": "eth-updown-5m-1789920600",
@@ -52482,17 +52295,6 @@
       "won": 0,
       "open_ts": 1789920600.0,
       "pnl": -0.4841679992555556
-    },
-    {
-      "slug": "sol-updown-5m-1789920600",
-      "side": "Down",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.63,
-      "disagree": 0.037,
-      "won": 0,
-      "open_ts": 1789920600.0,
-      "pnl": -0.6299998944
     },
     {
       "slug": "btc-updown-15m-1789920900",
@@ -52508,13 +52310,13 @@
     {
       "slug": "btc-updown-5m-1789920900",
       "side": "Up",
-      "voters": 201,
-      "share": 0.597,
-      "price": 0.4569,
-      "disagree": 0.14,
+      "voters": 198,
+      "share": 0.601,
+      "price": 0.457,
+      "disagree": 0.144,
       "won": 0,
       "open_ts": 1789920900.0,
-      "pnl": -0.4568638837958331
+      "pnl": -0.4570055969134451
     },
     {
       "slug": "sol-updown-15m-1789920900",
@@ -52563,13 +52365,13 @@
     {
       "slug": "sol-updown-5m-1789920900",
       "side": "Down",
-      "voters": 6,
-      "share": 0.833,
-      "price": 0.558,
-      "disagree": 0.275,
+      "voters": 4,
+      "share": 0.75,
+      "price": 0.6033,
+      "disagree": 0.147,
       "won": 0,
       "open_ts": 1789920900.0,
-      "pnl": -0.55800002322
+      "pnl": -0.6033333703
     },
     {
       "slug": "eth-updown-5m-1789920900",
@@ -52651,10 +52453,10 @@
     {
       "slug": "btc-updown-5m-1789921500",
       "side": "Down",
-      "voters": 180,
-      "share": 0.511,
+      "voters": 176,
+      "share": 0.523,
       "price": 0.3827,
-      "disagree": 0.128,
+      "disagree": 0.14,
       "won": 0,
       "open_ts": 1789921500.0,
       "pnl": -0.3826803654880435
@@ -52673,13 +52475,13 @@
     {
       "slug": "btc-updown-5m-1789921800",
       "side": "Up",
-      "voters": 217,
-      "share": 0.502,
-      "price": 0.3417,
-      "disagree": 0.161,
+      "voters": 209,
+      "share": 0.512,
+      "price": 0.3414,
+      "disagree": 0.171,
       "won": 1,
       "open_ts": 1789921800.0,
-      "pnl": 0.6582720473165138
+      "pnl": 0.658613580911215
     },
     {
       "slug": "btc-updown-15m-1789921800",
@@ -52750,13 +52552,13 @@
     {
       "slug": "sol-updown-5m-1789921800",
       "side": "Up",
-      "voters": 10,
-      "share": 0.7,
-      "price": 0.4408,
-      "disagree": 0.259,
+      "voters": 8,
+      "share": 0.75,
+      "price": 0.4409,
+      "disagree": 0.309,
       "won": 1,
       "open_ts": 1789921800.0,
-      "pnl": 0.5592043493285714
+      "pnl": 0.5590717408833334
     },
     {
       "slug": "eth-updown-5m-1789921800",
@@ -52772,13 +52574,13 @@
     {
       "slug": "btc-updown-5m-1789922100",
       "side": "Down",
-      "voters": 242,
-      "share": 0.529,
-      "price": 0.5148,
-      "disagree": 0.014,
+      "voters": 228,
+      "share": 0.535,
+      "price": 0.5136,
+      "disagree": 0.022,
       "won": 0,
       "open_ts": 1789922100.0,
-      "pnl": -0.5148187058570315
+      "pnl": -0.5135802813139347
     },
     {
       "slug": "bnb-updown-5m-1789922100",
@@ -52805,10 +52607,10 @@
     {
       "slug": "eth-updown-5m-1789922100",
       "side": "Up",
-      "voters": 15,
-      "share": 0.6,
+      "voters": 13,
+      "share": 0.692,
       "price": 0.47,
-      "disagree": 0.13,
+      "disagree": 0.222,
       "won": 1,
       "open_ts": 1789922100.0,
       "pnl": 0.5300000004222223
@@ -52827,35 +52629,35 @@
     {
       "slug": "btc-updown-5m-1789922400",
       "side": "Up",
-      "voters": 247,
-      "share": 0.534,
-      "price": 0.3513,
-      "disagree": 0.183,
+      "voters": 227,
+      "share": 0.546,
+      "price": 0.352,
+      "disagree": 0.194,
       "won": 1,
       "open_ts": 1789922400.0,
-      "pnl": 0.6486982107386363
+      "pnl": 0.6480497084112903
     },
     {
       "slug": "sol-updown-5m-1789922400",
       "side": "Up",
-      "voters": 4,
-      "share": 0.75,
-      "price": 0.29,
-      "disagree": 0.46,
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.305,
+      "disagree": 0.362,
       "won": 1,
       "open_ts": 1789922400.0,
-      "pnl": 0.7100000034666667
+      "pnl": 0.6950000052
     },
     {
       "slug": "eth-updown-5m-1789922400",
-      "side": "Up",
-      "voters": 15,
-      "share": 0.533,
-      "price": 0.446,
-      "disagree": 0.087,
-      "won": 1,
+      "side": "Down",
+      "voters": 13,
+      "share": 0.538,
+      "price": 0.5354,
+      "disagree": 0.003,
+      "won": 0,
       "open_ts": 1789922400.0,
-      "pnl": 0.5539738121625
+      "pnl": -0.5353517926
     },
     {
       "slug": "bnb-updown-5m-1789922400",
@@ -52871,13 +52673,13 @@
     {
       "slug": "btc-updown-5m-1789922700",
       "side": "Up",
-      "voters": 270,
-      "share": 0.544,
-      "price": 0.4448,
-      "disagree": 0.1,
+      "voters": 261,
+      "share": 0.54,
+      "price": 0.4459,
+      "disagree": 0.094,
       "won": 0,
       "open_ts": 1789922700.0,
-      "pnl": -0.44483942358231293
+      "pnl": -0.44589642000212765
     },
     {
       "slug": "btc-updown-15m-1789922700",
@@ -52959,13 +52761,13 @@
     {
       "slug": "eth-updown-5m-1789922700",
       "side": "Up",
-      "voters": 19,
-      "share": 0.579,
-      "price": 0.3434,
-      "disagree": 0.236,
+      "voters": 17,
+      "share": 0.529,
+      "price": 0.3464,
+      "disagree": 0.183,
       "won": 0,
       "open_ts": 1789922700.0,
-      "pnl": -0.3434072562727273
+      "pnl": -0.3463866376222222
     },
     {
       "slug": "bnb-updown-5m-1789922700",
@@ -52981,13 +52783,13 @@
     {
       "slug": "btc-updown-5m-1789923000",
       "side": "Down",
-      "voters": 200,
-      "share": 0.575,
-      "price": 0.6156,
-      "disagree": -0.041,
+      "voters": 193,
+      "share": 0.58,
+      "price": 0.6137,
+      "disagree": -0.033,
       "won": 1,
       "open_ts": 1789923000.0,
-      "pnl": 0.38444111997913055
+      "pnl": 0.3863457925366073
     },
     {
       "slug": "xrp-updown-5m-1789923000",
@@ -53014,13 +52816,13 @@
     {
       "slug": "eth-updown-5m-1789923000",
       "side": "Up",
-      "voters": 14,
-      "share": 0.571,
-      "price": 0.3407,
-      "disagree": 0.231,
+      "voters": 13,
+      "share": 0.538,
+      "price": 0.3451,
+      "disagree": 0.193,
       "won": 1,
       "open_ts": 1789923000.0,
-      "pnl": 0.659316026775
+      "pnl": 0.6549326020285714
     },
     {
       "slug": "btc-updown-5m-1789923300",
@@ -53080,13 +52882,13 @@
     {
       "slug": "btc-updown-15m-1789923600",
       "side": "Up",
-      "voters": 58,
-      "share": 0.517,
-      "price": 0.4803,
-      "disagree": 0.037,
+      "voters": 57,
+      "share": 0.509,
+      "price": 0.4814,
+      "disagree": 0.027,
       "won": 0,
       "open_ts": 1789923600.0,
-      "pnl": -0.4803333434600001
+      "pnl": -0.4813793227586209
     },
     {
       "slug": "doge-updown-15m-1789923600",
@@ -53168,13 +52970,13 @@
     {
       "slug": "eth-updown-5m-1789923900",
       "side": "Down",
-      "voters": 16,
-      "share": 0.688,
-      "price": 0.367,
-      "disagree": 0.32,
+      "voters": 14,
+      "share": 0.643,
+      "price": 0.3841,
+      "disagree": 0.259,
       "won": 1,
       "open_ts": 1789923900.0,
-      "pnl": 0.6329823853818182
+      "pnl": 0.6158673599111111
     },
     {
       "slug": "btc-updown-5m-1789924200",
@@ -53201,13 +53003,13 @@
     {
       "slug": "eth-updown-5m-1789924200",
       "side": "Up",
-      "voters": 26,
-      "share": 0.615,
-      "price": 0.3712,
-      "disagree": 0.244,
+      "voters": 22,
+      "share": 0.636,
+      "price": 0.3785,
+      "disagree": 0.258,
       "won": 0,
       "open_ts": 1789924200.0,
-      "pnl": -0.37120151356875
+      "pnl": -0.3785160155071428
     },
     {
       "slug": "doge-updown-5m-1789924200",
@@ -53267,10 +53069,10 @@
     {
       "slug": "btc-updown-15m-1789924500",
       "side": "Down",
-      "voters": 35,
-      "share": 0.543,
+      "voters": 34,
+      "share": 0.559,
       "price": 0.4889,
-      "disagree": 0.054,
+      "disagree": 0.07,
       "won": 1,
       "open_ts": 1789924500.0,
       "pnl": 0.5110526332157894
@@ -53377,10 +53179,10 @@
     {
       "slug": "btc-updown-5m-1789925100",
       "side": "Down",
-      "voters": 222,
-      "share": 0.5,
+      "voters": 221,
+      "share": 0.502,
       "price": 0.2818,
-      "disagree": 0.218,
+      "disagree": 0.22,
       "won": 1,
       "open_ts": 1789925100.0,
       "pnl": 0.7181604425567569
@@ -53487,13 +53289,13 @@
     {
       "slug": "btc-updown-5m-1789925700",
       "side": "Down",
-      "voters": 224,
-      "share": 0.536,
-      "price": 0.4962,
-      "disagree": 0.04,
+      "voters": 222,
+      "share": 0.532,
+      "price": 0.498,
+      "disagree": 0.034,
       "won": 0,
       "open_ts": 1789925700.0,
-      "pnl": -0.4961508730108334
+      "pnl": -0.49795002225677965
     },
     {
       "slug": "sol-updown-5m-1789925700",
@@ -53542,21 +53344,21 @@
     {
       "slug": "sol-updown-5m-1789926000",
       "side": "Down",
-      "voters": 10,
-      "share": 0.7,
-      "price": 0.4814,
-      "disagree": 0.219,
+      "voters": 8,
+      "share": 0.625,
+      "price": 0.478,
+      "disagree": 0.147,
       "won": 0,
       "open_ts": 1789926000.0,
-      "pnl": -0.48142857142857143
+      "pnl": -0.47800000000000004
     },
     {
       "slug": "btc-updown-5m-1789926300",
       "side": "Up",
-      "voters": 250,
-      "share": 0.528,
+      "voters": 246,
+      "share": 0.537,
       "price": 0.6231,
-      "disagree": -0.095,
+      "disagree": -0.087,
       "won": 0,
       "open_ts": 1789926300.0,
       "pnl": -0.6231439298219695
@@ -53564,24 +53366,24 @@
     {
       "slug": "btc-updown-15m-1789926300",
       "side": "Up",
-      "voters": 52,
-      "share": 0.577,
-      "price": 0.491,
-      "disagree": 0.086,
+      "voters": 51,
+      "share": 0.569,
+      "price": 0.4883,
+      "disagree": 0.08,
       "won": 0,
       "open_ts": 1789926300.0,
-      "pnl": -0.49100001245333347
+      "pnl": -0.4882758776620691
     },
     {
       "slug": "sol-updown-5m-1789926300",
       "side": "Down",
-      "voters": 7,
-      "share": 0.571,
-      "price": 0.3525,
-      "disagree": 0.219,
+      "voters": 6,
+      "share": 0.5,
+      "price": 0.3,
+      "disagree": 0.2,
       "won": 1,
       "open_ts": 1789926300.0,
-      "pnl": 0.6475
+      "pnl": 0.7
     },
     {
       "slug": "hype-updown-5m-1789926300",
@@ -53641,10 +53443,10 @@
     {
       "slug": "btc-updown-5m-1789926600",
       "side": "Up",
-      "voters": 283,
-      "share": 0.558,
+      "voters": 282,
+      "share": 0.56,
       "price": 0.4033,
-      "disagree": 0.155,
+      "disagree": 0.157,
       "won": 0,
       "open_ts": 1789926600.0,
       "pnl": -0.4032561486917721
@@ -53663,35 +53465,35 @@
     {
       "slug": "bnb-updown-5m-1789926600",
       "side": "Down",
-      "voters": 4,
-      "share": 0.75,
-      "price": 0.4433,
-      "disagree": 0.307,
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.4,
+      "disagree": 0.267,
       "won": 0,
       "open_ts": 1789926600.0,
-      "pnl": -0.4433332789333333
+      "pnl": -0.3999999184
     },
     {
       "slug": "sol-updown-5m-1789926600",
       "side": "Down",
-      "voters": 6,
-      "share": 0.667,
-      "price": 0.6125,
-      "disagree": 0.054,
+      "voters": 5,
+      "share": 0.6,
+      "price": 0.6433,
+      "disagree": -0.043,
       "won": 1,
       "open_ts": 1789926600.0,
-      "pnl": 0.38750004095
+      "pnl": 0.35666672126666665
     },
     {
       "slug": "btc-updown-5m-1789926900",
       "side": "Up",
-      "voters": 204,
-      "share": 0.564,
-      "price": 0.4107,
-      "disagree": 0.153,
+      "voters": 203,
+      "share": 0.562,
+      "price": 0.4101,
+      "disagree": 0.151,
       "won": 0,
       "open_ts": 1789926900.0,
-      "pnl": -0.41073268967478266
+      "pnl": -0.41012508168947376
     },
     {
       "slug": "sol-updown-5m-1789926900",
@@ -53707,35 +53509,24 @@
     {
       "slug": "eth-updown-5m-1789926900",
       "side": "Down",
-      "voters": 24,
-      "share": 0.542,
+      "voters": 23,
+      "share": 0.565,
       "price": 0.6151,
-      "disagree": -0.073,
+      "disagree": -0.05,
       "won": 1,
       "open_ts": 1789926900.0,
       "pnl": 0.3849171155923077
     },
     {
-      "slug": "bnb-updown-5m-1789926900",
-      "side": "Up",
-      "voters": 3,
-      "share": 0.667,
-      "price": 0.275,
-      "disagree": 0.392,
-      "won": 0,
-      "open_ts": 1789926900.0,
-      "pnl": -0.274999988
-    },
-    {
       "slug": "btc-updown-5m-1789927200",
       "side": "Down",
-      "voters": 186,
-      "share": 0.532,
-      "price": 0.4548,
-      "disagree": 0.077,
+      "voters": 182,
+      "share": 0.533,
+      "price": 0.4554,
+      "disagree": 0.078,
       "won": 1,
       "open_ts": 1789927200.0,
-      "pnl": 0.545198162789899
+      "pnl": 0.5445836919195877
     },
     {
       "slug": "btc-updown-15m-1789927200",
@@ -53762,10 +53553,10 @@
     {
       "slug": "eth-updown-5m-1789927200",
       "side": "Down",
-      "voters": 22,
-      "share": 0.545,
+      "voters": 19,
+      "share": 0.632,
       "price": 0.4988,
-      "disagree": 0.047,
+      "disagree": 0.133,
       "won": 0,
       "open_ts": 1789927200.0,
       "pnl": -0.4988373572083333
@@ -53784,13 +53575,13 @@
     {
       "slug": "btc-updown-5m-1789927500",
       "side": "Down",
-      "voters": 260,
-      "share": 0.531,
-      "price": 0.5905,
-      "disagree": -0.06,
+      "voters": 258,
+      "share": 0.527,
+      "price": 0.5907,
+      "disagree": -0.064,
       "won": 0,
       "open_ts": 1789927500.0,
-      "pnl": -0.5904563869260869
+      "pnl": -0.5906836867338235
     },
     {
       "slug": "eth-updown-5m-1789927500",
@@ -53828,13 +53619,13 @@
     {
       "slug": "btc-updown-5m-1789927800",
       "side": "Up",
-      "voters": 197,
-      "share": 0.523,
-      "price": 0.4148,
-      "disagree": 0.108,
+      "voters": 189,
+      "share": 0.513,
+      "price": 0.4096,
+      "disagree": 0.104,
       "won": 0,
       "open_ts": 1789927800.0,
-      "pnl": -0.41482403369320386
+      "pnl": -0.40955343546082473
     },
     {
       "slug": "sol-updown-5m-1789927800",
@@ -53872,13 +53663,13 @@
     {
       "slug": "btc-updown-5m-1789928100",
       "side": "Up",
-      "voters": 195,
-      "share": 0.626,
-      "price": 0.5656,
-      "disagree": 0.06,
+      "voters": 185,
+      "share": 0.605,
+      "price": 0.5683,
+      "disagree": 0.037,
       "won": 1,
       "open_ts": 1789928100.0,
-      "pnl": 0.4344168900204919
+      "pnl": 0.4316923026767856
     },
     {
       "slug": "btc-updown-15m-1789928100",
@@ -53938,13 +53729,13 @@
     {
       "slug": "btc-updown-5m-1789928400",
       "side": "Down",
-      "voters": 212,
-      "share": 0.514,
-      "price": 0.5525,
-      "disagree": -0.038,
+      "voters": 210,
+      "share": 0.51,
+      "price": 0.5547,
+      "disagree": -0.045,
       "won": 1,
       "open_ts": 1789928400.0,
-      "pnl": 0.44754933813394515
+      "pnl": 0.44526053959158896
     },
     {
       "slug": "xrp-updown-5m-1789928400",
@@ -53982,13 +53773,13 @@
     {
       "slug": "btc-updown-5m-1789928700",
       "side": "Up",
-      "voters": 224,
-      "share": 0.589,
-      "price": 0.5963,
-      "disagree": -0.007,
+      "voters": 215,
+      "share": 0.595,
+      "price": 0.5972,
+      "disagree": -0.002,
       "won": 1,
       "open_ts": 1789928700.0,
-      "pnl": 0.40369313987424216
+      "pnl": 0.40279292695937485
     },
     {
       "slug": "xrp-updown-5m-1789928700",
@@ -54037,21 +53828,21 @@
     {
       "slug": "btc-updown-5m-1789929000",
       "side": "Up",
-      "voters": 208,
-      "share": 0.514,
-      "price": 0.6056,
-      "disagree": -0.091,
+      "voters": 197,
+      "share": 0.518,
+      "price": 0.6072,
+      "disagree": -0.089,
       "won": 0,
       "open_ts": 1789929000.0,
-      "pnl": -0.6056441560878507
+      "pnl": -0.6071953380303924
     },
     {
       "slug": "btc-updown-15m-1789929000",
       "side": "Down",
-      "voters": 44,
-      "share": 0.727,
+      "voters": 43,
+      "share": 0.744,
       "price": 0.4653,
-      "disagree": 0.262,
+      "disagree": 0.279,
       "won": 1,
       "open_ts": 1789929000.0,
       "pnl": 0.5346874873437499
@@ -54081,13 +53872,13 @@
     {
       "slug": "eth-updown-5m-1789929000",
       "side": "Down",
-      "voters": 35,
-      "share": 0.543,
-      "price": 0.4363,
-      "disagree": 0.107,
+      "voters": 34,
+      "share": 0.529,
+      "price": 0.4383,
+      "disagree": 0.091,
       "won": 1,
       "open_ts": 1789929000.0,
-      "pnl": 0.5636868587473685
+      "pnl": 0.5616694641944444
     },
     {
       "slug": "xrp-updown-5m-1789929000",
@@ -54125,10 +53916,10 @@
     {
       "slug": "btc-updown-5m-1789929300",
       "side": "Down",
-      "voters": 229,
-      "share": 0.511,
+      "voters": 219,
+      "share": 0.534,
       "price": 0.5161,
-      "disagree": -0.005,
+      "disagree": 0.018,
       "won": 1,
       "open_ts": 1789929300.0,
       "pnl": 0.4838554060854703
@@ -54169,13 +53960,13 @@
     {
       "slug": "btc-updown-5m-1789929600",
       "side": "Down",
-      "voters": 288,
-      "share": 0.562,
-      "price": 0.5269,
-      "disagree": 0.036,
+      "voters": 281,
+      "share": 0.559,
+      "price": 0.5276,
+      "disagree": 0.031,
       "won": 0,
       "open_ts": 1789929600.0,
-      "pnl": -0.526901746189506
+      "pnl": -0.527631100920382
     },
     {
       "slug": "eth-updown-5m-1789929600",
@@ -54213,13 +54004,13 @@
     {
       "slug": "btc-updown-5m-1789929900",
       "side": "Up",
-      "voters": 213,
-      "share": 0.512,
-      "price": 0.5203,
-      "disagree": -0.009,
+      "voters": 210,
+      "share": 0.51,
+      "price": 0.5197,
+      "disagree": -0.01,
       "won": 0,
       "open_ts": 1789929900.0,
-      "pnl": -0.5202979234862387
+      "pnl": -0.5197427441317759
     },
     {
       "slug": "bnb-updown-5m-1789929900",
@@ -54312,13 +54103,13 @@
     {
       "slug": "btc-updown-5m-1789930200",
       "side": "Up",
-      "voters": 311,
-      "share": 0.521,
-      "price": 0.3647,
-      "disagree": 0.156,
+      "voters": 310,
+      "share": 0.519,
+      "price": 0.3652,
+      "disagree": 0.154,
       "won": 0,
       "open_ts": 1789930200.0,
-      "pnl": -0.3647027745691361
+      "pnl": -0.365166766956522
     },
     {
       "slug": "xrp-updown-5m-1789930200",
@@ -54356,10 +54147,10 @@
     {
       "slug": "btc-updown-5m-1789930500",
       "side": "Up",
-      "voters": 328,
-      "share": 0.503,
+      "voters": 319,
+      "share": 0.517,
       "price": 0.4334,
-      "disagree": 0.07,
+      "disagree": 0.084,
       "won": 0,
       "open_ts": 1789930500.0,
       "pnl": -0.43339494248363664
@@ -54367,35 +54158,35 @@
     {
       "slug": "bnb-updown-5m-1789930500",
       "side": "Down",
-      "voters": 7,
+      "voters": 4,
       "share": 1.0,
-      "price": 0.5414,
-      "disagree": 0.459,
+      "price": 0.585,
+      "disagree": 0.415,
       "won": 1,
       "open_ts": 1789930500.0,
-      "pnl": 0.45857145407142863
+      "pnl": 0.41500004462499995
     },
     {
       "slug": "xrp-updown-5m-1789930500",
       "side": "Up",
-      "voters": 7,
-      "share": 0.714,
-      "price": 0.53,
-      "disagree": 0.184,
+      "voters": 6,
+      "share": 0.667,
+      "price": 0.54,
+      "disagree": 0.127,
       "won": 1,
       "open_ts": 1789930500.0,
-      "pnl": 0.47000000393999997
+      "pnl": 0.46000000492499993
     },
     {
       "slug": "eth-updown-5m-1789930500",
-      "side": "Down",
-      "voters": 55,
-      "share": 0.564,
-      "price": 0.513,
-      "disagree": 0.051,
-      "won": 0,
+      "side": "Up",
+      "voters": 46,
+      "share": 0.522,
+      "price": 0.4015,
+      "disagree": 0.12,
+      "won": 1,
       "open_ts": 1789930500.0,
-      "pnl": -0.5130071414967743
+      "pnl": 0.5985293245500001
     },
     {
       "slug": "sol-updown-5m-1789930500",
@@ -54411,24 +54202,24 @@
     {
       "slug": "btc-updown-5m-1789930800",
       "side": "Up",
-      "voters": 302,
+      "voters": 294,
       "share": 0.507,
-      "price": 0.5927,
-      "disagree": -0.086,
+      "price": 0.596,
+      "disagree": -0.089,
       "won": 1,
       "open_ts": 1789930800.0,
-      "pnl": 0.40725940338039235
+      "pnl": 0.40403146790067135
     },
     {
       "slug": "btc-updown-15m-1789930800",
       "side": "Down",
-      "voters": 40,
-      "share": 0.775,
-      "price": 0.4781,
-      "disagree": 0.297,
+      "voters": 38,
+      "share": 0.789,
+      "price": 0.4777,
+      "disagree": 0.312,
       "won": 0,
       "open_ts": 1789930800.0,
-      "pnl": -0.4780645251645163
+      "pnl": -0.47766667600333346
     },
     {
       "slug": "eth-updown-5m-1789930800",
@@ -54454,14 +54245,14 @@
     },
     {
       "slug": "btc-updown-5m-1789931100",
-      "side": "Down",
-      "voters": 275,
-      "share": 0.502,
-      "price": 0.4541,
-      "disagree": 0.048,
-      "won": 0,
+      "side": "Up",
+      "voters": 255,
+      "share": 0.518,
+      "price": 0.5635,
+      "disagree": -0.046,
+      "won": 1,
       "open_ts": 1789931100.0,
-      "pnl": -0.4540722808949274
+      "pnl": 0.43646985387121195
     },
     {
       "slug": "sol-updown-5m-1789931100",
@@ -54477,10 +54268,10 @@
     {
       "slug": "eth-updown-5m-1789931100",
       "side": "Up",
-      "voters": 44,
-      "share": 0.523,
+      "voters": 37,
+      "share": 0.622,
       "price": 0.5344,
-      "disagree": -0.012,
+      "disagree": 0.087,
       "won": 0,
       "open_ts": 1789931100.0,
       "pnl": -0.5343901312478262
@@ -54498,14 +54289,14 @@
     },
     {
       "slug": "xrp-updown-5m-1789931100",
-      "side": "Up",
-      "voters": 4,
-      "share": 0.5,
-      "price": 0.5,
-      "disagree": 0.0,
-      "won": 1,
+      "side": "Down",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.475,
+      "disagree": 0.192,
+      "won": 0,
       "open_ts": 1789931100.0,
-      "pnl": 0.5000000892500001
+      "pnl": -0.47499992125
     },
     {
       "slug": "bnb-updown-5m-1789931100",
@@ -54521,10 +54312,10 @@
     {
       "slug": "btc-updown-5m-1789931400",
       "side": "Up",
-      "voters": 217,
-      "share": 0.558,
+      "voters": 215,
+      "share": 0.563,
       "price": 0.5509,
-      "disagree": 0.007,
+      "disagree": 0.012,
       "won": 0,
       "open_ts": 1789931400.0,
       "pnl": -0.550870262504132
@@ -54532,10 +54323,10 @@
     {
       "slug": "eth-updown-5m-1789931400",
       "side": "Down",
-      "voters": 31,
-      "share": 0.516,
+      "voters": 30,
+      "share": 0.533,
       "price": 0.4276,
-      "disagree": 0.089,
+      "disagree": 0.106,
       "won": 1,
       "open_ts": 1789931400.0,
       "pnl": 0.5723873432375001
@@ -54587,13 +54378,13 @@
     {
       "slug": "btc-updown-5m-1789931700",
       "side": "Up",
-      "voters": 182,
+      "voters": 179,
       "share": 0.615,
-      "price": 0.4527,
-      "disagree": 0.163,
+      "price": 0.4524,
+      "disagree": 0.162,
       "won": 0,
       "open_ts": 1789931700.0,
-      "pnl": -0.45266960184553556
+      "pnl": -0.45235450223363616
     },
     {
       "slug": "xrp-updown-5m-1789931700",
@@ -54675,13 +54466,13 @@
     {
       "slug": "btc-updown-5m-1789932000",
       "side": "Up",
-      "voters": 250,
-      "share": 0.524,
-      "price": 0.6132,
-      "disagree": -0.089,
+      "voters": 237,
+      "share": 0.523,
+      "price": 0.6183,
+      "disagree": -0.095,
       "won": 1,
       "open_ts": 1789932000.0,
-      "pnl": 0.38675398733740474
+      "pnl": 0.38173203528306454
     },
     {
       "slug": "sol-updown-5m-1789932000",
@@ -54719,13 +54510,13 @@
     {
       "slug": "btc-updown-5m-1789932300",
       "side": "Up",
-      "voters": 294,
-      "share": 0.575,
-      "price": 0.3845,
-      "disagree": 0.19,
+      "voters": 281,
+      "share": 0.577,
+      "price": 0.3833,
+      "disagree": 0.193,
       "won": 1,
       "open_ts": 1789932300.0,
-      "pnl": 0.6155163520715978
+      "pnl": 0.6166806392339508
     },
     {
       "slug": "eth-updown-5m-1789932300",
@@ -54763,13 +54554,13 @@
     {
       "slug": "btc-updown-5m-1789932600",
       "side": "Up",
-      "voters": 334,
-      "share": 0.512,
-      "price": 0.6724,
-      "disagree": -0.16,
+      "voters": 318,
+      "share": 0.513,
+      "price": 0.6733,
+      "disagree": -0.161,
       "won": 1,
       "open_ts": 1789932600.0,
-      "pnl": 0.32757020058187114
+      "pnl": 0.32671474930613487
     },
     {
       "slug": "doge-updown-5m-1789932600",
@@ -54851,13 +54642,13 @@
     {
       "slug": "btc-updown-5m-1789932900",
       "side": "Down",
-      "voters": 380,
-      "share": 0.524,
-      "price": 0.476,
-      "disagree": 0.048,
+      "voters": 375,
+      "share": 0.523,
+      "price": 0.4771,
+      "disagree": 0.046,
       "won": 1,
       "open_ts": 1789932900.0,
-      "pnl": 0.5239682366768843
+      "pnl": 0.5229065261301019
     },
     {
       "slug": "eth-updown-5m-1789932900",
@@ -54917,13 +54708,13 @@
     {
       "slug": "btc-updown-5m-1789933200",
       "side": "Up",
-      "voters": 268,
-      "share": 0.582,
-      "price": 0.5501,
-      "disagree": 0.032,
+      "voters": 266,
+      "share": 0.579,
+      "price": 0.5485,
+      "disagree": 0.03,
       "won": 0,
       "open_ts": 1789933200.0,
-      "pnl": -0.55008961360641
+      "pnl": -0.5485323398636361
     },
     {
       "slug": "eth-updown-5m-1789933200",
@@ -55038,10 +54829,10 @@
     {
       "slug": "btc-updown-15m-1789933500",
       "side": "Up",
-      "voters": 53,
-      "share": 0.604,
+      "voters": 52,
+      "share": 0.615,
       "price": 0.4759,
-      "disagree": 0.128,
+      "disagree": 0.139,
       "won": 0,
       "open_ts": 1789933500.0,
       "pnl": -0.47593750536562507
@@ -55159,10 +54950,10 @@
     {
       "slug": "btc-updown-5m-1789934100",
       "side": "Up",
-      "voters": 291,
-      "share": 0.505,
+      "voters": 290,
+      "share": 0.507,
       "price": 0.3252,
-      "disagree": 0.18,
+      "disagree": 0.182,
       "won": 0,
       "open_ts": 1789934100.0,
       "pnl": -0.3252380644680272
@@ -55214,24 +55005,24 @@
     {
       "slug": "btc-updown-5m-1789934400",
       "side": "Up",
-      "voters": 365,
-      "share": 0.584,
+      "voters": 364,
+      "share": 0.582,
       "price": 0.6216,
-      "disagree": -0.038,
+      "disagree": -0.039,
       "won": 1,
       "open_ts": 1789934400.0,
-      "pnl": 0.37837321951924896
+      "pnl": 0.37836554602641514
     },
     {
       "slug": "btc-updown-15m-1789934400",
       "side": "Down",
-      "voters": 44,
-      "share": 0.545,
-      "price": 0.4745,
+      "voters": 42,
+      "share": 0.548,
+      "price": 0.4769,
       "disagree": 0.071,
       "won": 1,
       "open_ts": 1789934400.0,
-      "pnl": 0.5254663381208333
+      "pnl": 0.5230953079826086
     },
     {
       "slug": "sol-updown-15m-1789934400",
@@ -55320,6 +55111,215 @@
       "won": 1,
       "open_ts": 1789934400.0,
       "pnl": 0.562531465375
+    },
+    {
+      "slug": "bnb-updown-5m-1789934400",
+      "side": "Down",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.515,
+      "disagree": 0.152,
+      "won": 0,
+      "open_ts": 1789934400.0,
+      "pnl": -0.5149999895999999
+    },
+    {
+      "slug": "eth-updown-4h-1789934400",
+      "side": "Down",
+      "voters": 5,
+      "share": 0.6,
+      "price": 0.49,
+      "disagree": 0.11,
+      "won": 0,
+      "open_ts": 1789934400.0,
+      "pnl": -0.48999999563333335
+    },
+    {
+      "slug": "xrp-updown-4h-1789934400",
+      "side": "Down",
+      "voters": 4,
+      "share": 0.5,
+      "price": 0.545,
+      "disagree": -0.045,
+      "won": 0,
+      "open_ts": 1789934400.0,
+      "pnl": -0.5449999771
+    },
+    {
+      "slug": "btc-updown-5m-1789934700",
+      "side": "Down",
+      "voters": 366,
+      "share": 0.511,
+      "price": 0.4269,
+      "disagree": 0.084,
+      "won": 1,
+      "open_ts": 1789934700.0,
+      "pnl": 0.573141434025134
+    },
+    {
+      "slug": "eth-updown-5m-1789934700",
+      "side": "Down",
+      "voters": 49,
+      "share": 0.571,
+      "price": 0.4877,
+      "disagree": 0.084,
+      "won": 1,
+      "open_ts": 1789934700.0,
+      "pnl": 0.512325719167857
+    },
+    {
+      "slug": "doge-updown-5m-1789934700",
+      "side": "Up",
+      "voters": 5,
+      "share": 0.8,
+      "price": 0.51,
+      "disagree": 0.29,
+      "won": 0,
+      "open_ts": 1789934700.0,
+      "pnl": -0.5100000002
+    },
+    {
+      "slug": "sol-updown-5m-1789934700",
+      "side": "Up",
+      "voters": 9,
+      "share": 0.667,
+      "price": 0.4683,
+      "disagree": 0.198,
+      "won": 0,
+      "open_ts": 1789934700.0,
+      "pnl": -0.46833331278333334
+    },
+    {
+      "slug": "xrp-updown-5m-1789934700",
+      "side": "Up",
+      "voters": 4,
+      "share": 0.5,
+      "price": 0.515,
+      "disagree": -0.015,
+      "won": 1,
+      "open_ts": 1789934700.0,
+      "pnl": 0.48500009965
+    },
+    {
+      "slug": "bnb-updown-5m-1789934700",
+      "side": "Up",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.41,
+      "disagree": 0.257,
+      "won": 0,
+      "open_ts": 1789934700.0,
+      "pnl": -0.4099998844
+    },
+    {
+      "slug": "btc-updown-5m-1789935000",
+      "side": "Down",
+      "voters": 342,
+      "share": 0.544,
+      "price": 0.6284,
+      "disagree": -0.085,
+      "won": 1,
+      "open_ts": 1789935000.0,
+      "pnl": 0.37160332894301074
+    },
+    {
+      "slug": "bnb-updown-5m-1789935000",
+      "side": "Up",
+      "voters": 4,
+      "share": 0.75,
+      "price": 0.3967,
+      "disagree": 0.353,
+      "won": 0,
+      "open_ts": 1789935000.0,
+      "pnl": -0.3966666719666667
+    },
+    {
+      "slug": "xrp-updown-5m-1789935000",
+      "side": "Up",
+      "voters": 3,
+      "share": 0.667,
+      "price": 0.41,
+      "disagree": 0.257,
+      "won": 0,
+      "open_ts": 1789935000.0,
+      "pnl": -0.4099998844
+    },
+    {
+      "slug": "sol-updown-5m-1789935000",
+      "side": "Down",
+      "voters": 10,
+      "share": 0.7,
+      "price": 0.5443,
+      "disagree": 0.156,
+      "won": 1,
+      "open_ts": 1789935000.0,
+      "pnl": 0.455714214642857
+    },
+    {
+      "slug": "eth-updown-5m-1789935000",
+      "side": "Down",
+      "voters": 33,
+      "share": 0.667,
+      "price": 0.5632,
+      "disagree": 0.103,
+      "won": 1,
+      "open_ts": 1789935000.0,
+      "pnl": 0.43677738149090917
+    },
+    {
+      "slug": "btc-updown-5m-1789935300",
+      "side": "Up",
+      "voters": 548,
+      "share": 0.609,
+      "price": 0.5607,
+      "disagree": 0.049,
+      "won": 0,
+      "open_ts": 1789935300.0,
+      "pnl": -0.5607050418910177
+    },
+    {
+      "slug": "btc-updown-15m-1789935300",
+      "side": "Down",
+      "voters": 34,
+      "share": 0.676,
+      "price": 0.4557,
+      "disagree": 0.221,
+      "won": 0,
+      "open_ts": 1789935300.0,
+      "pnl": -0.4556521665043479
+    },
+    {
+      "slug": "xrp-updown-15m-1789935300",
+      "side": "Up",
+      "voters": 8,
+      "share": 0.5,
+      "price": 0.51,
+      "disagree": -0.01,
+      "won": 1,
+      "open_ts": 1789935300.0,
+      "pnl": 0.49
+    },
+    {
+      "slug": "eth-updown-15m-1789935300",
+      "side": "Down",
+      "voters": 7,
+      "share": 0.571,
+      "price": 0.385,
+      "disagree": 0.186,
+      "won": 0,
+      "open_ts": 1789935300.0,
+      "pnl": -0.38499998342499997
+    },
+    {
+      "slug": "xrp-updown-5m-1789935300",
+      "side": "Up",
+      "voters": 15,
+      "share": 0.667,
+      "price": 0.5375,
+      "disagree": 0.129,
+      "won": 1,
+      "open_ts": 1789935300.0,
+      "pnl": 0.46248874075
     }
   ]
 }
