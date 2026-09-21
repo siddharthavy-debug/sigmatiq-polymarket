@@ -95,6 +95,7 @@ class Bot:
         them.
         """
         adopted = 0
+        now = time.time()
         for token, pos in self.s.get("positions", {}).items():
             slug = pos.get("slug") or pos.get("market")
             if not slug:
