@@ -56,6 +56,11 @@ MAX_OPEN = int(os.getenv("TREND_MAX_OPEN", "25"))
 # One position per market window+direction, same reason the copy bot needed it:
 # five coins settling together on the same move is one bet, not five.
 MAX_PER_WINDOW = int(os.getenv("TREND_MAX_PER_WINDOW", "3"))
+# Only the short markets the rule was tested on. A slug whose length cannot be
+# read (a daily or weekly crypto market) used to default to 5 minutes, so the
+# bot would buy a week-long market and immediately try to settle it.
+MIN_HORIZON = int(os.getenv("TREND_MIN_HORIZON", "300"))
+MAX_HORIZON = int(os.getenv("TREND_MAX_HORIZON", "3600"))
 
 WINDOW_MINUTES = float(os.getenv("WINDOW_MINUTES", "330"))
 SCAN_EVERY = int(os.getenv("TREND_SCAN_SECONDS", "45"))
@@ -94,6 +99,7 @@ def new_state():
             "positions": {}, "realized_pnl": 0.0,
             "wins": 0, "losses": 0, "executed": 0, "skipped": 0,
             "slippage_paid": 0.0,          # what the spread actually cost us
+            "trend_up_pct": None, "trend_samples": 0, "markets_seen": 0,
             "started": datetime.now(timezone.utc).isoformat(), "last_run": None}
 
 
@@ -116,7 +122,9 @@ def market_end(slug, horizon):
     tail = slug.rsplit("-", 1)[-1]
     if not tail.isdigit():
         return None
-    return int(tail) + (horizon or 300)
+    if horizon is None:
+        return None
+    return int(tail) + horizon
 
 
 def resolve_slug(slug):
@@ -200,6 +208,10 @@ def consider(s, slug, horizon, quote, rate, now):
         return None, "no recent results yet"
     if rate <= 0.5:
         return None, f"trend is down ({rate*100:.0f}% up) — sitting out"
+    if horizon is None:
+        return None, "cannot tell how long this market runs"
+    if not (MIN_HORIZON <= horizon <= MAX_HORIZON):
+        return None, f"{horizon//60}m market outside the 5m-60m range"
     if not quote:
         return None, "no Up quote"
     token, mid, ask = quote
@@ -332,7 +344,7 @@ async def listen(bot_state, seen, deadline):
                         for t in feed.parse(raw):
                             slug = t["slug"]
                             if slug not in seen:
-                                seen[slug] = {"horizon": t.get("horizon") or 300,
+                                seen[slug] = {"horizon": t.get("horizon"),
                                               "coin": t["coin"],
                                               "first": time.time()}
                     except Exception as e:
@@ -369,14 +381,25 @@ async def trade_loop(s, seen, deadline):
                and (market_end(sl, m["horizon"]) or 0) + SETTLE_GRACE < now]
         due.sort(key=lambda sl: market_end(sl, seen[sl]["horizon"]) or 0)
         for sl in due[-40:]:
-            checked.add(sl)
             w = await asyncio.to_thread(resolve_slug, sl)
             if w:
-                resolved.append(str(w))
+                checked.add(sl)
+                resolved.append((market_end(sl, seen[sl]["horizon"]) or 0, str(w)))
+            elif now - (market_end(sl, seen[sl]["horizon"]) or now) > 3600:
+                # Give up only after an hour. Marking it checked on the FIRST
+                # miss was the bug: Polymarket often publishes the result well
+                # after the window closes, so nearly every market was discarded
+                # unresolved and the trend never accumulated.
+                checked.add(sl)
+        resolved.sort()
         resolved = resolved[-200:]
 
-        recent = resolved[-LOOKBACK:]
+        recent = [w for _, w in resolved[-LOOKBACK:]]
         rate = up_rate(recent) if len(recent) >= LOOKBACK else None
+        # Into the state file so the trend is visible without reading the log.
+        s["trend_up_pct"] = round(rate, 3) if rate is not None else None
+        s["trend_samples"] = len(resolved)
+        s["markets_seen"] = len(seen)
 
         if rate is not None and rate > 0.5:
             live = [sl for sl, m in seen.items()
