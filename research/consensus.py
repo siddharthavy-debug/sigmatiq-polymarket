@@ -45,6 +45,9 @@ from crypto import api, feed
 CANDIDATES = "crypto_candidates.json"
 OUT = "research/consensus_result.json"
 
+TOP_N = int(os.getenv("CONSENSUS_TOP_N", "20"))
+# minimum trades on EACH of Up and Down before a wallet can rank
+MIN_PER_SIDE = int(os.getenv("CONSENSUS_MIN_PER_SIDE", "8"))
 MIN_TRADES = 5          # wallet must have been seen this often in the harvest
 MIN_MARKETS = 3
 DECISION_LAG = 60.0     # seconds after market open that we stop counting votes
@@ -134,7 +137,74 @@ def resolve(slugs):
     return out
 
 
-def score(votes, winners, min_voters, margin_bar, min_disagree=None):
+
+def rank_up_traders(votes, winners, top_n, split_ts, min_up):
+    """
+    The 10 wallets whose UP calls beat the price they paid, on the early half.
+
+        margin = (times their Up call won) - (sum of prices they paid) / n
+
+    Scored on margin, not win rate: a wallet buying Up at 80c and winning 80%
+    of the time is worth nothing to copy. Scored on Up only, because that is
+    what will be traded.
+
+    Ranked on the early half, traded on the late half, so the wallets never see
+    the data they are judged on.
+    """
+    book = {}
+    for slug, vs in votes.items():
+        w = winners.get(slug)
+        if not w:
+            continue
+        for v in vs:
+            if v["ts"] >= split_ts or v["outcome"] != "Up":
+                continue
+            b = book.setdefault(v["wallet"], {"n": 0, "wins": 0, "paid": 0.0})
+            b["n"] += 1
+            b["wins"] += 1 if w == "Up" else 0
+            b["paid"] += v["price"]
+
+    scored = []
+    for wallet, b in book.items():
+        if b["n"] < min_up:
+            continue
+        scored.append(((b["wins"] - b["paid"]) / b["n"], b["n"], b["wins"], wallet))
+    scored.sort(reverse=True)
+    print(f"  {len(book)} wallets made Up calls; {len(scored)} had {min_up}+ of them")
+    for m, n, wins, wallet in scored[:top_n]:
+        print(f"    {wallet[:16]}...  {n:>4} Up calls  {wins/n*100:>5.1f}% right  "
+              f"margin {m*100:+.1f}pp")
+    return {w for _, _, _, w in scored[:top_n]}
+
+
+def score_up(votes, winners, only_wallets, after_ts, lo, hi):
+    """Their Up calls on the late half, inside the price band we trade."""
+    rows = []
+    for slug, vs in votes.items():
+        w = winners.get(slug)
+        if not w:
+            continue
+        open_ts = market_open_ts(slug)
+        if open_ts is None or open_ts < after_ts:
+            continue
+        hits = [v for v in vs
+                if v["outcome"] == "Up"
+                and v["ts"] <= open_ts + DECISION_LAG
+                and lo <= v["price"] <= hi
+                and (only_wallets is None or v["wallet"] in only_wallets)]
+        if not hits:
+            continue
+        price = sum(v["price"] for v in hits) / len(hits)
+        won = 1 if w == "Up" else 0
+        rows.append({"slug": slug, "side": "Up", "voters": len(hits),
+                     "share": 1.0, "price": round(price, 4),
+                     "won": won, "open_ts": open_ts,
+                     "pnl": (1 - price) if won else -price})
+    return rows
+
+
+def score(votes, winners, min_voters, margin_bar, min_disagree=None,
+          only_wallets=None, after_ts=None):
     """min_disagree: only bet when the crowd's confidence exceeds the price
     by this much. None = ignore the price and bet on the vote alone."""
     """One row per market we would actually have bet."""
@@ -147,7 +217,11 @@ def score(votes, winners, min_voters, margin_bar, min_disagree=None):
         if open_ts is None:
             continue
         # GUARD 1: only votes cast before we would have had to act
+        if after_ts is not None and open_ts < after_ts:
+            continue
         early = [v for v in vs if v["ts"] <= open_ts + DECISION_LAG]
+        if only_wallets is not None:
+            early = [v for v in early if v["wallet"] in only_wallets]
         if len(early) < min_voters:
             continue
         tally = defaultdict(int)
@@ -217,6 +291,32 @@ def run(limit, lag):
     cut = len(all_rows) // 2
     first = {r["slug"] for r in all_rows[:cut]}
 
+    stamps = sorted(r["open_ts"] for r in all_rows)
+    split_ts = stamps[len(stamps)//2] if stamps else 0
+    LO, HI = float(os.getenv("BAND_LO", "0.45")), float(os.getenv("BAND_HI", "0.61"))
+
+    print("\n" + "=" * 78)
+    print(f"TOP {TOP_N} UP-PREDICTORS  (ranked on the early half, {LO*100:.0f}-{HI*100:.0f}c band)")
+    print("=" * 78)
+    best = rank_up_traders(votes, winners, TOP_N, split_ts, MIN_PER_SIDE)
+
+    print("\n" + "=" * 78)
+    print(f"{'':<40}{'n':>6}{'won':>8}{'paid':>8}{'edge':>8}{'t':>7}")
+    print("=" * 78)
+    chosen = score_up(votes, winners, best, split_ts, LO, HI)
+    summarise(chosen, f"  top{TOP_N} Up calls, {LO*100:.0f}-{HI*100:.0f}c")
+
+    # THE BENCHMARK THAT MATTERS: buying Up in the same band with no trader
+    # selection at all. If the chosen wallets do not beat this, the edge is
+    # crypto drifting upward, not the traders.
+    everyone = score_up(votes, winners, None, split_ts, LO, HI)
+    summarise(everyone, f"  ANY Up call, {LO*100:.0f}-{HI*100:.0f}c (benchmark)")
+    print("-" * 78)
+    print("  The top-10 line only means something if it beats the benchmark.")
+    print("  Both being positive just means crypto went up that week.")
+
+    print("\n" + "=" * 74)
+    print("ALL 770 WALLETS")
     print("=" * 74)
     print(f"{'rule':<28}{'n':>6}{'won':>9}{'priced':>10}{'edge':>9}{'per $1':>9}{'t':>8}")
     print("=" * 74)

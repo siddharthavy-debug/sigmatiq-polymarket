@@ -16,6 +16,21 @@ on:
       markets:
         description: "how many settled markets to pull"
         default: "2500"
+      wallets:
+        description: "how many wallets to pull votes from"
+        default: "770"
+      top_n:
+        description: "how many top Up-predictors to test"
+        default: "10"
+      band_lo:
+        description: "price band floor (0.45 = 45c)"
+        default: "0.45"
+      band_hi:
+        description: "price band ceiling (0.61 = 61c)"
+        default: "0.61"
+      min_up:
+        description: "minimum Up calls before a wallet can rank"
+        default: "8"
 
 permissions:
   contents: write
@@ -47,7 +62,12 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p research
-          python -m research.consensus 770 60 2>&1 | tee research/consensus_log.txt
+          CONSENSUS_TOP_N="${{ github.event.inputs.top_n || '10' }}" \
+          CONSENSUS_MIN_PER_SIDE="${{ github.event.inputs.min_up || '8' }}" \
+          BAND_LO="${{ github.event.inputs.band_lo || '0.45' }}" \
+          BAND_HI="${{ github.event.inputs.band_hi || '0.61' }}" \
+          python -m research.consensus "${{ github.event.inputs.wallets || '770' }}" 60 \
+            2>&1 | tee research/consensus_log.txt
 
       - name: Weather discover
         if: ${{ github.event.inputs.test != 'longshot' }}
