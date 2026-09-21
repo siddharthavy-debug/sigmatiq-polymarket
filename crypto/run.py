@@ -16,10 +16,12 @@ Separate from the sports bot in every way that matters: own state file, own
 settings, own trade log. Neither can corrupt the other.
 """
 import asyncio
+import threading
 import os
 import subprocess
 import sys
 import time
+import traceback
 from datetime import datetime, timezone
 
 from . import api as pm
@@ -65,11 +67,19 @@ class Bot:
         self.seen = feed.Seen()
         self.pending = {}          # slug -> {"end":, "tokens": {token: ...}}
         self.pending_log = []
+        # settle_due()/persist() run in a worker thread while listen() is still
+        # feeding on_trades() on the event loop. Both touch s["positions"],
+        # s["cash"] and pending_log. Without this, a copy landing mid-settle
+        # could be lost from cash, or json.dump could walk a dict that is being
+        # resized ("dictionary changed size during iteration").
+        self.lock = threading.RLock()
+        engine.roll_day(self.s)
         self.adopt_open_positions()
         self.skips = {}
         self.copies = 0
         self.settled = 0
         self.reconnects = 0
+        self.handler_errors = 0
         self.refresh_settings()
 
     # ------------------------------------------------------------ recovery
@@ -89,7 +99,8 @@ class Bot:
             slug = pos.get("slug") or pos.get("market")
             if not slug:
                 continue
-            entry = self.pending.setdefault(slug, {"end": None, "tokens": {}})
+            entry = self.pending.setdefault(
+                slug, {"end": None, "tokens": {}, "first_seen": now})
             entry["tokens"][token] = True
             if entry["end"] is None:
                 parts = slug.rsplit("-", 1)
@@ -122,110 +133,127 @@ class Bot:
 
     # ------------------------------------------------------------ decision
     def on_trades(self, trades):
-        now = time.time()
-        for t in trades:
-            if not self.seen.is_new(t):
-                continue
-
-            self.refresh_settings()
-            action, why, detail = engine.consider(self.s, t, self.pinned,
-                                                  now=now)
-            if action != "copy":
-                if why != "not one of ours":
-                    self.skips[why] = self.skips.get(why, 0) + 1
-                    self.s["skipped"] += 1
-                continue
-
-            if cconfig.MODE == "live":
-                ok, res = pm.place_order(detail["token"], "BUY",
-                                         size_usd=detail["size"])
-                if not ok:
-                    self.skips[f"order failed: {res}"] = \
-                        self.skips.get(f"order failed: {res}", 0) + 1
+        with self.lock:
+            now = time.time()
+            for t in trades:
+                if not self.seen.is_new(t):
                     continue
 
-            pos = engine.open_position(self.s, t, detail, now=now)
-            self.copies += 1
+                self.refresh_settings()
+                action, why, detail = engine.consider(self.s, t, self.pinned,
+                                                      now=now)
+                if action != "copy":
+                    if why != "not one of ours":
+                        self.skips[why] = self.skips.get(why, 0) + 1
+                        self.s["skipped"] += 1
+                    continue
 
-            slug = t.get("slug")
-            entry = self.pending.setdefault(slug, {"end": None, "tokens": {}})
-            entry["tokens"][detail["token"]] = True
-            if entry["end"] is None:
-                parts = slug.rsplit("-", 1)
-                if parts[-1].isdigit() and len(parts[-1]) >= 10:
-                    entry["end"] = int(parts[-1]) + (t.get("horizon") or 300)
+                if cconfig.MODE == "live":
+                    ok, res = pm.place_order(detail["token"], "BUY",
+                                             size_usd=detail["size"])
+                    if not ok:
+                        self.skips[f"order failed: {res}"] = \
+                            self.skips.get(f"order failed: {res}", 0) + 1
+                        continue
 
-            self.pending_log.append({
-                "event": "copy", "mode": cconfig.MODE,
-                "trader": detail["trader"], "wallet": detail["wallet"],
-                "market": slug, "coin": t.get("coin"),
-                "outcome": t.get("outcome"),
-                "price": detail["price"], "size": detail["size"],
-                "shares": round(pos["shares"], 4),
-                "their_usd": round((t.get("shares") or 0) * detail["price"], 2),
-                "lag_seconds": round(now - (t.get("ts") or now), 2),
-                "at": datetime.now(timezone.utc).isoformat(),
-            })
-            print(f"  COPY  {detail['trader'][:16]:<18} "
-                  f"{t.get('coin','?'):>4} {t.get('outcome','?'):<5} "
-                  f"{detail['price']*100:>3.0f}c  ${detail['size']:>6.2f}  "
-                  f"{slug[:34]}", flush=True)
+                pos = engine.open_position(self.s, t, detail, now=now)
+                self.copies += 1
+
+                slug = t.get("slug")
+                entry = self.pending.setdefault(
+                slug, {"end": None, "tokens": {}, "first_seen": now})
+                entry["tokens"][detail["token"]] = True
+                if entry["end"] is None:
+                    parts = slug.rsplit("-", 1)
+                    if parts[-1].isdigit() and len(parts[-1]) >= 10:
+                        entry["end"] = int(parts[-1]) + (t.get("horizon") or 300)
+
+                self.pending_log.append({
+                    "event": "copy", "mode": cconfig.MODE,
+                    "trader": detail["trader"], "wallet": detail["wallet"],
+                    "market": slug, "coin": t.get("coin"),
+                    "outcome": t.get("outcome"),
+                    "price": detail["price"], "size": detail["size"],
+                    "shares": round(pos["shares"], 4),
+                    "their_usd": round((t.get("shares") or 0) * detail["price"], 2),
+                    "lag_seconds": round(now - (t.get("ts") or now), 2),
+                    "at": datetime.now(timezone.utc).isoformat(),
+                })
+                print(f"  COPY  {detail['trader'][:16]:<18} "
+                      f"{t.get('coin','?'):>4} {t.get('outcome','?'):<5} "
+                      f"{detail['price']*100:>3.0f}c  ${detail['size']:>6.2f}  "
+                      f"{slug[:34]}", flush=True)
 
     # ---------------------------------------------------------- settlement
     def settle_due(self, now=None):
-        now = now or time.time()
-        closed = 0
-        for slug in list(self.pending.keys()):
-            entry = self.pending[slug]
-            end = entry.get("end")
-            if end is None:
-                end = pm.fetch_market_end(slug)
-                entry["end"] = end
+        with self.lock:
+            now = now or time.time()
+            closed = 0
+            for slug in list(self.pending.keys()):
+                entry = self.pending[slug]
+                entry.setdefault("first_seen", now)
+                end = entry.get("end")
                 if end is None:
+                    end = pm.fetch_market_end(slug)
+                    entry["end"] = end
+                    if end is None:
+                        # Unknown end: could be a failed HTTP call or a slug we
+                        # cannot parse. Retrying forever kept the position open
+                        # and its cost inside the deployment cap permanently,
+                        # so the bot slowly starved itself of room to trade.
+                        if now - entry["first_seen"] > settle.ABANDON_AFTER_SECONDS:
+                            self.pending.pop(slug, None)
+                            print(f"  ! {slug} end time unknown — giving up",
+                                  flush=True)
+                        continue
+                if now < end + settle.SETTLE_GRACE_SECONDS:
                     continue
-            if now < end + settle.SETTLE_GRACE_SECONDS:
-                continue
 
-            win = settle.winning_asset(slug)
-            if win is None:
-                if now - end > settle.ABANDON_AFTER_SECONDS:
-                    self.pending.pop(slug, None)
-                    print(f"  ! {slug} never resolved", flush=True)
-                continue
-
-            for token in list(entry["tokens"]):
-                pos = self.s["positions"].get(token)
-                if pos is None:
+                win = settle.winning_asset(slug)
+                if win is None:
+                    if now - end > settle.ABANDON_AFTER_SECONDS:
+                        self.pending.pop(slug, None)
+                        print(f"  ! {slug} never resolved", flush=True)
                     continue
-                won = str(token) == str(win)
-                if cconfig.MODE == "live" and won:
-                    pm.redeem(token)
-                done = engine.settle_position(self.s, token, won, now=now)
-                closed += 1
-                self.pending_log.append({
-                    "event": "settle", "mode": cconfig.MODE,
-                    "trader": done["trader"], "market": slug,
-                    "coin": done.get("coin"), "outcome": done.get("outcome"),
-                    "price": done["price"], "cost": done["cost"],
-                    "proceeds": round(done["proceeds"], 2),
-                    "pnl": round(done["pnl"], 2),
-                    "result": "WON" if won else "LOST",
-                    "at": datetime.now(timezone.utc).isoformat(),
-                })
-                print(f"  {'WON ' if won else 'LOST'}  "
-                      f"{done['trader'][:16]:<18} {done['pnl']:>+7.2f}  "
-                      f"{slug[:34]}", flush=True)
-            self.pending.pop(slug, None)
-        self.settled += closed
-        return closed
+
+                for token in list(entry["tokens"]):
+                    pos = self.s["positions"].get(token)
+                    if pos is None:
+                        continue
+                    won = str(token) == str(win)
+                    if cconfig.MODE == "live" and won:
+                        pm.redeem(token)
+                    done = engine.settle_position(self.s, token, won, now=now)
+                    closed += 1
+                    self.pending_log.append({
+                        "event": "settle", "mode": cconfig.MODE,
+                        "trader": done["trader"], "market": slug,
+                        "coin": done.get("coin"), "outcome": done.get("outcome"),
+                        "price": done["price"], "cost": done["cost"],
+                        "proceeds": round(done["proceeds"], 2),
+                        "pnl": round(done["pnl"], 2),
+                        "result": "WON" if won else "LOST",
+                        "at": datetime.now(timezone.utc).isoformat(),
+                    })
+                    print(f"  {'WON ' if won else 'LOST'}  "
+                          f"{done['trader'][:16]:<18} {done['pnl']:>+7.2f}  "
+                          f"{slug[:34]}", flush=True)
+                self.pending.pop(slug, None)
+            self.settled += closed
+            return closed
 
     # -------------------------------------------------------------- upkeep
     def persist(self):
-        engine.forget_old_copies(self.s)
-        self.s["last_run"] = datetime.now(timezone.utc).isoformat()
-        cstate.save(self.s)
-        cstate.log(self.pending_log)
-        self.pending_log = []
+        with self.lock:
+            engine.forget_old_copies(self.s)
+            self.s["last_run"] = datetime.now(timezone.utc).isoformat()
+            cstate.save(self.s)
+            # Take the batch out FIRST, then write it. Appending to the list
+            # while cstate.log() is mid-write used to drop those entries on the
+            # unconditional reset, so the trade log had fewer copies than
+            # `executed` claimed.
+            batch, self.pending_log = self.pending_log, []
+        cstate.log(batch)
 
     def report(self):
         s = self.s
@@ -267,7 +295,18 @@ async def listen(bot, deadline):
                 while time.time() < deadline:
                     raw = await asyncio.wait_for(
                         ws.recv(), timeout=max(deadline - time.time(), 1))
-                    bot.on_trades(feed.parse(raw))
+                    # Handling is OUTSIDE the socket's try on purpose. It used
+                    # to sit inside, so a KeyError in the trading logic was
+                    # counted as a reconnect and the log read like a flaky
+                    # network while the bot quietly copied nothing for hours.
+                    try:
+                        bot.on_trades(feed.parse(raw))
+                    except Exception as e:
+                        bot.handler_errors += 1
+                        print(f"  ! handler error: {type(e).__name__}: {e}",
+                              flush=True)
+                        if bot.handler_errors in (1, 10, 100):
+                            traceback.print_exc()
         except asyncio.TimeoutError:
             return
         except Exception as e:
@@ -327,7 +366,7 @@ async def main():
     bot.report()
     commit("final")
     print(f"\ncopied {bot.copies} | settled {bot.settled} | "
-          f"reconnects {bot.reconnects}")
+          f"reconnects {bot.reconnects} | handler errors {bot.handler_errors}")
     return 0
 
 

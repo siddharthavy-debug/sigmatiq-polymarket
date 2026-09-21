@@ -36,6 +36,8 @@ ALLOWED = {
     "max_deployed":    ("MAX_DEPLOYED_PCT", float, 0.02, 1.00),
     "daily_stop":      ("DAILY_STOP_PCT", float, 0.0, 0.50),
     "max_open":        ("MAX_OPEN_POSITIONS", int, 1, 60),
+    "max_per_window":  ("MAX_PER_WINDOW_DIRECTION", int, 1, 20),
+    "max_same_coin":   ("MAX_SAME_COIN_OVERLAP", int, 1, 20),
     "min_horizon":     ("MIN_HORIZON_SECONDS", int, 60, 86400),
     "max_horizon":     ("MAX_HORIZON_SECONDS", int, 300, 604800),
     "max_price":       ("MAX_BUY_PRICE", float, 0.05, 0.95),

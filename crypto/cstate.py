@@ -5,11 +5,24 @@ import os
 from . import cconfig, engine
 
 
-def _read(path, default):
+class StateUnreadable(Exception):
+    """The state file exists but will not parse. Never treat this as 'no state'."""
+
+
+def _read(path, default, strict=False):
     try:
         with open(path) as fh:
             return json.load(fh)
-    except (FileNotFoundError, json.JSONDecodeError):
+    except FileNotFoundError:
+        return default
+    except (json.JSONDecodeError, UnicodeDecodeError, OSError) as e:
+        # A truncated or half-written file looks EXACTLY like "nothing saved".
+        # Treating it as a fresh start silently resets equity to the allocation,
+        # zeroes realised P&L and throws away every open position -- and the
+        # next save writes that over the real history. Money vanished this way
+        # once already. A file we cannot read means stop, not start over.
+        if strict:
+            raise StateUnreadable(f"{path}: {e}") from e
         return default
 
 
@@ -22,7 +35,7 @@ def _write(path, obj):
 
 
 def load():
-    s = _read(cconfig.STATE_FILE, None)
+    s = _read(cconfig.STATE_FILE, None, strict=True)
     if not isinstance(s, dict) or "positions" not in s:
         return engine.new_state()
     s.setdefault("copied", {})

@@ -132,6 +132,25 @@ def books_drift(s):
 
 
 # ------------------------------------------------------------- the decision
+def _span(trade_or_pos):
+    """(start, end) of the market, from the slug. The trailing stamp is the
+    START -- verified against Gamma: btc-updown-5m-1789986300 runs 10:25->10:30."""
+    slug = trade_or_pos.get("slug") or trade_or_pos.get("market") or ""
+    stamp = slug.rsplit("-", 1)[-1]
+    if not stamp.isdigit():
+        return None
+    start = int(stamp)
+    return start, start + int(trade_or_pos.get("horizon") or 300)
+
+
+def _coin(trade_or_pos):
+    c = trade_or_pos.get("coin")
+    if c:
+        return c
+    slug = trade_or_pos.get("slug") or trade_or_pos.get("market") or ""
+    return slug.split("-", 1)[0] or None
+
+
 def _window_key(trade):
     """
     What makes two positions the same bet: the same settlement window and the
@@ -143,6 +162,35 @@ def _window_key(trade):
     if not stamp.isdigit():
         return None
     return f"{stamp}|{trade.get('outcome')}"
+
+
+def overlapping_same_bet(s, trade):
+    """
+    Positions that are the SAME WAGER dressed differently.
+
+    The window key alone matched only on an identical start stamp, so
+    btc-updown-15m-<T> Up and btc-updown-5m-<T+300> Up counted as unrelated --
+    even though the five-minute market sits entirely inside the fifteen and
+    both die together if BTC ticks down. This compares actual time spans, so
+    same coin + same direction + any overlap counts as one bet.
+    """
+    span = _span(trade)
+    if not span:
+        return []
+    a0, a1 = span
+    coin, side = _coin(trade), trade.get("outcome")
+    if not coin or not side:
+        return []
+    hits = []
+    for p in s["positions"].values():
+        if p.get("outcome") != side or _coin(p) != coin:
+            continue
+        ps = _span(p)
+        if not ps:
+            continue
+        if ps[0] < a1 and a0 < ps[1]:      # the spans touch
+            hits.append(p)
+    return hits
 
 
 def consider(s, trade, pinned, now=None):
@@ -206,6 +254,14 @@ def consider(s, trade, pinned, now=None):
         if same >= cconfig.MAX_PER_WINDOW_DIRECTION:
             return "skip", (f"{same} already on {trade.get('outcome')} "
                             f"in this window — same bet, different coin"), None
+
+    # Same coin, same direction, overlapping time. A 5m market inside a 15m one
+    # is not a second opinion, it is the same wager twice.
+    doubled = overlapping_same_bet(s, trade)
+    if len(doubled) >= cconfig.MAX_SAME_COIN_OVERLAP:
+        return "skip", (f"already hold {len(doubled)} on "
+                        f"{_coin(trade)} {trade.get('outcome')} over this "
+                        f"same stretch of time"), None
 
     token = trade.get("asset")
     if not token:

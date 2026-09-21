@@ -61,6 +61,8 @@ MAX_POSITIONS_PER_TRADER = _i("CRYPTO_MAX_PER_TRADER", "3")
 # took the day to -10.1%. Positions sharing a settlement window and a
 # direction are counted as one.
 MAX_PER_WINDOW_DIRECTION = _i("CRYPTO_MAX_PER_WINDOW", "2")
+# Same coin, same direction, overlapping time counts as one bet.
+MAX_SAME_COIN_OVERLAP = _i("CRYPTO_MAX_SAME_COIN_OVERLAP", "1")
 
 # Holding both sides of one market is usually a guaranteed loss: 13897651
 # bought Up at 50c while simon8445 bought Down at 49c, so we paid 99c to
