@@ -48,6 +48,6 @@ jobs:
           BRANCH="${GITHUB_REF_NAME:-main}"
           git push origin "HEAD:$BRANCH" || {
             git fetch origin "$BRANCH"
-            git rebase -X theirs "origin/$BRANCH"
+            git rebase --autostash -X theirs "origin/$BRANCH"
             git push origin "HEAD:$BRANCH"
           }
