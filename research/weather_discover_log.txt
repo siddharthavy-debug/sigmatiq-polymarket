@@ -1,0 +1,28 @@
+scanning up to 6000 settled markets for weather
+
+  scanned 100  weather so far 0
+  scanned 200  weather so far 0
+  scanned 300  weather so far 0
+  scanned 400  weather so far 0
+  scanned 500  weather so far 9
+    api error: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets?closed=true&limit=500&offset=2500&order=endDate&ascending=false
+
+9 weather-ish markets
+
+parsed   0
+unparsed 9   <-- read these before trusting anything
+
+cities by market count:
+
+first 25 unparsed:
+  [citythreshold] will-there-be-no-change-to-ukraines-commander-in-chief-in-2026-20260720173143956
+  [citythreshold] will-viktor-nikoliuk-be-appointed-as-the-next-commander-in-chief-of-the-armed-forces-of-ukraine-in-2026-20260720173845895
+  [citythreshold] will-denys-prokopenko-be-appointed-as-the-next-commander-in-chief-of-the-armed-forces-of-ukraine-in-2026-20260720173143954
+  [citythreshold] will-ihor-obolienskyi-be-appointed-as-the-next-commander-in-chief-of-the-armed-forces-of-ukraine-in-2026-20260720173646542
+  [citythreshold] will-oleh-apostol-be-appointed-as-the-next-commander-in-chief-of-the-armed-forces-of-ukraine-in-2026-20260720173143952
+  [citythreshold] will-volodymyr-horbatiuk-be-appointed-as-the-next-commander-in-chief-of-the-armed-forces-of-ukraine-in-2026-20260720173143951
+  [citythreshold] will-andrii-biletskyi-be-appointed-as-the-next-commander-in-chief-of-the-armed-forces-of-ukraine-in-2026-20260720173416333
+  [citythreshold] will-mykhailo-drapatyi-be-appointed-as-the-next-commander-in-chief-of-the-armed-forces-of-ukraine-in-2026-20260720173143949
+  [citythreshold] will-oleksandr-syrskyi-be-out-as-ukraines-commander-in-chief-by-december-31-2026-20260716215104508
+
+wrote research/weather_markets.json  (0 usable)

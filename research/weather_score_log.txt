@@ -1,0 +1,7 @@
+scoring 0 markets
+
+
+0 scored  skipped={}
+
+nothing scored
+wrote research/weather_result.json

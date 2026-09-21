@@ -1,0 +1,18 @@
+pulling up to 2500 settled markets, price taken 1.0h before close
+  fetched 100
+  fetched 200
+  fetched 300
+  fetched 400
+  fetched 500
+    api error: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets?closed=true&limit=500&offset=2500&order=endDate&ascending=false
+500 settled markets
+
+  scored 100/500  usable=0
+  scored 200/500  usable=0
+  scored 300/500  usable=0
+  scored 400/500  usable=0
+
+0 priced outcomes  skipped={'no_history': 750, 'thin': 125}
+
+nothing to report
+wrote research/longshot_result.json
