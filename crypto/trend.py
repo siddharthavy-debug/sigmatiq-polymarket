@@ -33,6 +33,7 @@ Paper only. Places no orders.
 
     python3 -m crypto.trend
 """
+import asyncio
 import json
 import os
 import subprocess
@@ -109,58 +110,55 @@ def equity(s):
 
 
 # ------------------------------------------------------------------ market
-def recent_crypto_results(limit):
-    """The last `limit` settled crypto UP/DOWN markets, newest first."""
-    out, offset = [], 0
-    while len(out) < limit and offset < 1500:
-        rows = pm._rows(pm._get(f"{pm.GAMMA_API}/markets",
-                                {"closed": "true", "limit": 200, "offset": offset,
-                                 "order": "endDate", "ascending": "false"}))
-        if not rows:
-            break
-        offset += 200
-        for m in rows:
-            slug = m.get("slug") or ""
-            if not feed.CRYPTO_SLUG.match(slug):
-                continue
-            prices = pm._maybe_json(m.get("outcomePrices"))
-            outcomes = pm._maybe_json(m.get("outcomes"))
-            if not prices or not outcomes:
-                continue
-            try:
-                p = [float(x) for x in prices]
-            except (TypeError, ValueError):
-                continue
-            if abs(sum(p) - 1.0) > 0.01 or max(p) < 0.99:
-                continue
-            out.append(outcomes[p.index(max(p))])
-            if len(out) >= limit:
-                break
-        time.sleep(0.1)
-    return out
-
-
-def up_rate(results):
-    if not results:
+def market_end(slug, horizon):
+    """When the window closes. The trailing stamp is the START -- verified
+    against Gamma: btc-updown-5m-1789986300 runs 10:25 -> 10:30."""
+    tail = slug.rsplit("-", 1)[-1]
+    if not tail.isdigit():
         return None
-    return sum(1 for r in results if str(r).lower().startswith("up")) / len(results)
+    return int(tail) + (horizon or 300)
 
 
-def open_crypto_markets():
-    rows = pm._rows(pm._get(f"{pm.GAMMA_API}/markets",
-                            {"closed": "false", "active": "true", "limit": 300,
-                             "order": "endDate", "ascending": "true"}))
-    return [m for m in (rows or []) if feed.CRYPTO_SLUG.match(m.get("slug") or "")]
+def resolve_slug(slug):
+    """'Up', 'Down', or None if it has not settled. Slug lookups are the only
+    Gamma query that works reliably here -- ordering and date filters on
+    /markets return unrelated junk (2029 elections, table tennis)."""
+    for params in ({"slug": slug, "limit": 1, "closed": "true"},
+                   {"slug": slug, "limit": 1}):
+        rows = pm._rows(pm._get(f"{pm.GAMMA_API}/markets", params, tries=1))
+        if rows:
+            break
+    if not rows:
+        return None
+    m = rows[0]
+    prices = pm._maybe_json(m.get("outcomePrices"))
+    outcomes = pm._maybe_json(m.get("outcomes"))
+    if not prices or not outcomes:
+        return None
+    try:
+        p = [float(x) for x in prices]
+    except (TypeError, ValueError):
+        return None
+    if abs(sum(p) - 1.0) > 0.01 or max(p) < 0.99:
+        return None
+    return outcomes[p.index(max(p))]
 
 
-def up_quote(m):
-    """(token, mid, ask) for the Up side, or None."""
+def quote_slug(slug):
+    """(up_token, up_mid, up_ask) live from Gamma, or None.
+
+    One call per candidate trade. The ask is what makes the spread
+    measurable -- the feed only carries executed prices, not the book."""
+    rows = pm._rows(pm._get(f"{pm.GAMMA_API}/markets", {"slug": slug, "limit": 1}))
+    if not rows:
+        return None
+    m = rows[0]
     outcomes = pm._maybe_json(m.get("outcomes"))
     tokens = pm._maybe_json(m.get("clobTokenIds"))
     prices = pm._maybe_json(m.get("outcomePrices"))
     if not (outcomes and tokens and prices) or len(outcomes) != len(tokens):
         return None
-    idx = next((i for i, o in enumerate(outcomes)
+    idx = next((k for k, o in enumerate(outcomes)
                 if str(o).lower().startswith("up")), None)
     if idx is None:
         return None
@@ -173,7 +171,13 @@ def up_quote(m):
         ask = float(ask)
     except (TypeError, ValueError):
         ask = None
-    return tokens[idx], mid, (ask if ask and ask > 0 else None)
+    return tokens[idx], mid, (ask if ask and 0 < ask < 1 else None)
+
+
+def up_rate(results):
+    if not results:
+        return None
+    return sum(1 for r in results if str(r).lower().startswith("up")) / len(results)
 
 
 def window_of(slug):
@@ -190,17 +194,15 @@ def deployed(s):
     return sum(p["cost"] for p in s["positions"].values())
 
 
-def consider(s, m, rate, now):
+def consider(s, slug, horizon, quote, rate, now):
     """Yes or no, and why. Network-free so it can be tested."""
     if rate is None:
         return None, "no recent results yet"
     if rate <= 0.5:
         return None, f"trend is down ({rate*100:.0f}% up) — sitting out"
-
-    q = up_quote(m)
-    if not q:
+    if not quote:
         return None, "no Up quote"
-    token, mid, ask = q
+    token, mid, ask = quote
     if token in s["positions"]:
         return None, "already hold it"
     # We would post at mid and wait, so mid is the decision price. The ask is
@@ -208,8 +210,7 @@ def consider(s, m, rate, now):
     if not (BAND_LO <= mid <= BAND_HI):
         return None, f"{mid*100:.0f}c outside the band"
 
-    slug = m.get("slug") or ""
-    end = pm._parse_ts(m.get("endDate"))
+    end = market_end(slug, horizon)
     if not end or end - now < 60:
         return None, "too close to settlement"
 
@@ -260,37 +261,13 @@ def books_drift(s):
 
 
 # --------------------------------------------------------------------- run
-def winning_outcome(slug):
-    for params in ({"slug": slug, "limit": 1, "closed": "true"},
-                   {"slug": slug, "limit": 1}):
-        rows = pm._rows(pm._get(f"{pm.GAMMA_API}/markets", params, tries=1))
-        if rows:
-            break
-    else:
-        return None
-    if not rows:
-        return None
-    m = rows[0]
-    prices = pm._maybe_json(m.get("outcomePrices"))
-    outcomes = pm._maybe_json(m.get("outcomes"))
-    if not prices or not outcomes:
-        return None
-    try:
-        p = [float(x) for x in prices]
-    except (TypeError, ValueError):
-        return None
-    if abs(sum(p) - 1.0) > 0.01 or max(p) < 0.99:
-        return None
-    return outcomes[p.index(max(p))]
-
-
 def settle_due(s, log, now):
     closed = 0
     for token in list(s["positions"]):
         p = s["positions"][token]
         if now < p["end"] + SETTLE_GRACE:
             continue
-        win = winning_outcome(p["slug"])
+        win = resolve_slug(p["slug"])
         if win is None:
             if now - p["end"] > 6 * 3600:
                 s["positions"].pop(token, None)
@@ -331,36 +308,87 @@ def commit(label):
     return _git("push", "origin", f"HEAD:{branch}").returncode == 0
 
 
-def main():
-    s = load()
-    log = []
-    deadline = time.time() + WINDOW_MINUTES * 60
-    last_commit = time.time()
-    skips = {}
+async def listen(bot_state, seen, deadline):
+    """Discover live crypto markets from the feed.
 
-    print(f"=== trend bot | paper | ${s['bankroll']:.0f} ===", flush=True)
-    print(f"  buy Up at {BAND_LO*100:.0f}-{BAND_HI*100:.0f}c when the last "
-          f"{LOOKBACK} crypto markets were mostly Up", flush=True)
-    print(f"  {STAKE_PCT*100:.1f}% a trade, {MAX_DEPLOYED*100:.0f}% deployed max, "
-          f"listening {WINDOW_MINUTES:.0f} min", flush=True)
-    if s["positions"]:
-        print(f"  carrying {len(s['positions'])} position(s) from the last run",
-              flush=True)
+    The markets endpoint cannot find these -- ordering returns 2029 elections
+    and date filters return table tennis -- and the slugs are not created on
+    every 5-minute boundary, so they cannot be constructed either. The feed is
+    the only reliable way to learn which markets exist right now.
+    """
+    import websockets
+    attempt = 0
+    while time.time() < deadline:
+        try:
+            async with websockets.connect(
+                    feed.URL, ping_interval=15, ping_timeout=45,
+                    close_timeout=5, max_queue=2048) as ws:
+                await ws.send(feed.subscribe_message())
+                attempt = 0
+                while time.time() < deadline:
+                    raw = await asyncio.wait_for(
+                        ws.recv(), timeout=max(deadline - time.time(), 1))
+                    try:
+                        for t in feed.parse(raw):
+                            slug = t["slug"]
+                            if slug not in seen:
+                                seen[slug] = {"horizon": t.get("horizon") or 300,
+                                              "coin": t["coin"],
+                                              "first": time.time()}
+                    except Exception as e:
+                        print(f"  ! parse error: {type(e).__name__}: {e}", flush=True)
+        except asyncio.TimeoutError:
+            return
+        except Exception as e:
+            if time.time() >= deadline:
+                return
+            attempt += 1
+            wait = min(2 ** attempt, 30)
+            print(f"  reconnecting in {wait}s ({type(e).__name__})", flush=True)
+            await asyncio.sleep(min(wait, max(deadline - time.time(), 0)))
+
+
+async def trade_loop(s, seen, deadline):
+    log, skips = [], {}
+    resolved = []            # newest last: 'Up'/'Down' of markets we have seen
+    checked = set()
+    last_commit = time.time()
 
     while time.time() < deadline:
+        await asyncio.sleep(min(SCAN_EVERY, max(deadline - time.time(), 0)))
+        if time.time() >= deadline:
+            break
         now = time.time()
-        settle_due(s, log, now)
 
-        results = recent_crypto_results(LOOKBACK)
-        rate = up_rate(results)
-        if rate is not None:
-            for m in open_crypto_markets():
-                d, why = consider(s, m, rate, now)
+        # settle our own positions
+        await asyncio.to_thread(settle_due, s, log, now)
+
+        # learn the trend from markets the feed showed us that have now ended
+        due = [sl for sl, m in seen.items()
+               if sl not in checked
+               and (market_end(sl, m["horizon"]) or 0) + SETTLE_GRACE < now]
+        due.sort(key=lambda sl: market_end(sl, seen[sl]["horizon"]) or 0)
+        for sl in due[-40:]:
+            checked.add(sl)
+            w = await asyncio.to_thread(resolve_slug, sl)
+            if w:
+                resolved.append(str(w))
+        resolved = resolved[-200:]
+
+        recent = resolved[-LOOKBACK:]
+        rate = up_rate(recent) if len(recent) >= LOOKBACK else None
+
+        if rate is not None and rate > 0.5:
+            live = [sl for sl, m in seen.items()
+                    if (market_end(sl, m["horizon"]) or 0) > now + 60]
+            for sl in sorted(live, key=lambda x: seen[x]["first"], reverse=True)[:25]:
+                q = await asyncio.to_thread(quote_slug, sl)
+                d, why = consider(s, sl, seen[sl]["horizon"], q, rate, now)
                 if d is None:
                     skips[why] = skips.get(why, 0) + 1
                     s["skipped"] += 1
                     continue
-                p = open_position(s, d, now)
+                open_position(s, d, now)
                 log.append({"event": "buy", "market": d["slug"], "coin": d["coin"],
                             "mid": round(d["mid"], 4),
                             "ask": round(d["ask"], 4) if d["ask"] else None,
@@ -373,42 +401,61 @@ def main():
                       f"  ${d['size']:.2f}  {d['slug'][:34]}", flush=True)
 
         s["last_run"] = datetime.now(timezone.utc).isoformat()
-        _write(STATE, s)
+        await asyncio.to_thread(_write, STATE, s)
         rows = _read(TRADES, [])
         if not isinstance(rows, list):
             rows = []
-        rows.extend(log)
-        _write(TRADES, rows[-MAX_LOG:])
-        log = []
+        rows.extend(log); log = []
+        await asyncio.to_thread(_write, TRADES, rows[-MAX_LOG:])
 
-        eq = equity(s)
-        print(f"  equity ${eq:.2f} | cash ${s['cash']:.2f} | "
-              f"open {len(s['positions'])} | realised {s['realized_pnl']:+.2f} | "
-              f"{s['wins']}W/{s['losses']}L | trend "
-              f"{rate*100:.0f}% up" if rate is not None else "  (no trend yet)",
-              flush=True)
+        trend_txt = (f"{rate*100:.0f}% up ({len(recent)}/{LOOKBACK})"
+                     if rate is not None
+                     else f"learning ({len(resolved)}/{LOOKBACK} resolved)")
+        print(f"  equity ${equity(s):.2f} | cash ${s['cash']:.2f} | "
+              f"open {len(s['positions'])} | {s['wins']}W/{s['losses']}L | "
+              f"seen {len(seen)} markets | trend {trend_txt}", flush=True)
         drift = books_drift(s)
         if abs(drift) > 0.01:
             print(f"  ! books out by {drift:+.2f}", flush=True)
 
         if time.time() - last_commit >= COMMIT_EVERY:
-            if commit(datetime.now(timezone.utc).strftime("%H:%M")):
+            if await asyncio.to_thread(
+                    commit, datetime.now(timezone.utc).strftime("%H:%M")):
                 print("  pushed", flush=True)
             last_commit = time.time()
-        time.sleep(max(0, min(SCAN_EVERY, deadline - time.time())))
 
     settle_due(s, log, time.time())
     s["last_run"] = datetime.now(timezone.utc).isoformat()
     _write(STATE, s)
     rows = _read(TRADES, [])
-    rows = (rows if isinstance(rows, list) else []) + log
-    _write(TRADES, rows[-MAX_LOG:])
+    _write(TRADES, ((rows if isinstance(rows, list) else []) + log)[-MAX_LOG:])
     commit("final")
     print(f"\nequity ${equity(s):.2f}  {s['executed']} trades  "
           f"{s['wins']}W/{s['losses']}L", flush=True)
-    if skips:
-        for k, v in sorted(skips.items(), key=lambda kv: -kv[1])[:6]:
-            print(f"  skipped {v:>5}  {k}", flush=True)
+    for k, v in sorted(skips.items(), key=lambda kv: -kv[1])[:6]:
+        print(f"  skipped {v:>5}  {k}", flush=True)
+
+
+async def main_async():
+    s = load()
+    seen = {}
+    deadline = time.time() + WINDOW_MINUTES * 60
+    print(f"=== trend bot | paper | ${s['bankroll']:.0f} ===", flush=True)
+    print(f"  buy Up at {BAND_LO*100:.0f}-{BAND_HI*100:.0f}c when the last "
+          f"{LOOKBACK} crypto markets were mostly Up", flush=True)
+    print(f"  {STAKE_PCT*100:.1f}% a trade, {MAX_DEPLOYED*100:.0f}% deployed max, "
+          f"listening {WINDOW_MINUTES:.0f} min", flush=True)
+    if s["positions"]:
+        print(f"  carrying {len(s['positions'])} position(s) from the last run",
+              flush=True)
+    print("  learning the trend from the live feed — no trades until "
+          f"{LOOKBACK} markets have resolved", flush=True)
+    await asyncio.gather(listen(s, seen, deadline),
+                         trade_loop(s, seen, deadline))
+
+
+def main():
+    asyncio.run(main_async())
 
 
 if __name__ == "__main__":
