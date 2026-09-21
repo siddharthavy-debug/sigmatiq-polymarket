@@ -5,7 +5,13 @@ name: crypto-bot
 # Paper mode spends nothing.
 on:
   schedule:
-    - cron: "20 */6 * * *"     # offset from the other two jobs
+    # Every 4h, but a run lasts 5.5h. The concurrency group below means the
+    # new run QUEUES instead of starting alongside, so the moment one job ends
+    # the next is already waiting and begins immediately. With a 6h schedule
+    # there was an hour of dead air every cycle -- ~4 hours of missed trading
+    # a day. GitHub keeps at most one pending run per group, so these do not
+    # pile up.
+    - cron: "5 */4 * * *"
   workflow_dispatch:
 
 permissions:
