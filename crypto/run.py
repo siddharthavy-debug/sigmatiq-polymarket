@@ -106,6 +106,11 @@ def real_ask(slug, outcome):
         return None
 
 
+# Skip a copy if the real price has already moved this far past what the
+# trader paid (0.02 = 2 cents). Live orders will use the same cap.
+MAX_SLIP = float(os.getenv("CRYPTO_MAX_SLIP", "0.02"))
+
+
 class Bot:
     def __init__(self):
         self.s = cstate.load()
@@ -196,6 +201,20 @@ class Bot:
                         self.s["skipped"] += 1
                     continue
 
+                # Slippage guard: look at the real price first. If it has
+                # moved more than MAX_SLIP past the trader's, skip -- those
+                # trades lost money in the logged data. Otherwise book at the
+                # price we'd really pay (never better than the trader's).
+                trader_price = detail["price"]
+                _live_ask = real_ask(t.get("slug"), t.get("outcome"))
+                if _live_ask is not None and _live_ask > trader_price + MAX_SLIP:
+                    why = f"price moved >{MAX_SLIP*100:.0f}c"
+                    self.skips[why] = self.skips.get(why, 0) + 1
+                    self.s["skipped"] += 1
+                    continue
+                if _live_ask is not None and _live_ask > trader_price:
+                    detail["price"] = _live_ask
+
                 if cconfig.MODE == "live":
                     ok, res = pm.place_order(detail["token"], "BUY",
                                              size_usd=detail["size"])
@@ -216,7 +235,6 @@ class Bot:
                     if parts[-1].isdigit() and len(parts[-1]) >= 10:
                         entry["end"] = int(parts[-1]) + (t.get("horizon") or 300)
 
-                _live_ask = real_ask(slug, t.get("outcome"))
                 self.pending_log.append({
                     "event": "copy", "mode": cconfig.MODE,
                     "trader": detail["trader"], "wallet": detail["wallet"],
@@ -224,7 +242,8 @@ class Bot:
                     "outcome": t.get("outcome"),
                     "price": detail["price"], "size": detail["size"],
                     "live_ask": _live_ask,
-                    "slip_c": (round((_live_ask - detail["price"]) * 100, 2)
+                    "their_price": trader_price,
+                    "slip_c": (round((_live_ask - trader_price) * 100, 2)
                                if _live_ask else None),
                     "shares": round(pos["shares"], 4),
                     "their_usd": round((t.get("shares") or 0) * detail["price"], 2),
