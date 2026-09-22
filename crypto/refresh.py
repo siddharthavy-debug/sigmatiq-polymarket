@@ -55,7 +55,7 @@ def real_pnl_by_wallet():
     name_to_wallet = {}
     for t in trades:
         if t.get("event") == "copy" and t.get("trader") and t.get("wallet"):
-            name_to_wallet[t["trader"]] = t["wallet"]
+            name_to_wallet[t["trader"]] = t["wallet"].lower()
 
     pnl = defaultdict(lambda: {"pnl": 0.0, "n": 0, "wins": 0})
     for t in trades:
@@ -90,7 +90,7 @@ def find_replacements(exclude_wallets, needed, since):
             continue
         if n / m > POOL_MAX_PER_MKT:
             continue
-        if c.get("wallet") in exclude_wallets:
+        if (c.get("wallet") or "").lower() in exclude_wallets:
             continue
         pool.append(c)
     pool.sort(key=lambda c: -c.get("trades_seen", 0))
@@ -140,7 +140,7 @@ def main():
 
     keep, drop = [], []
     for r in current:
-        key = r.get("wallet") or r.get("name")
+        key = (r.get("wallet") or "").lower()
         real = pnl.get(key) or pnl.get(r.get("name"))
         if real is None or real["n"] < 5:
             # too little real history yet to judge -- leave alone
@@ -157,7 +157,7 @@ def main():
         print(f"  - {r['name']:<20} {real['n']:>4} trades  pnl {real['pnl']:+.2f}")
 
     since = time.time() - WINDOW_DAYS * 86400
-    exclude = {r.get("wallet") for r in current if r.get("wallet")}
+    exclude = {r.get("wallet").lower() for r in current if r.get("wallet")}
     replacements = find_replacements(exclude, len(drop), since) if drop else []
 
     new_traders = list(keep)
