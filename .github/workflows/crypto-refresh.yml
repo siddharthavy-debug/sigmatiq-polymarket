@@ -1,0 +1,66 @@
+name: crypto-refresh
+
+# Keeps the pinned trader list current: harvests fresh candidate wallets,
+# scores everyone currently pinned on their REAL P&L in this bot's own
+# trade log, keeps whoever's net-positive untouched, and only swaps out a
+# net-negative trader if a qualifying replacement is actually found.
+#
+# Runs weekly on its own (Sunday 03:00 UTC) and can also be fired by hand
+# any time from the Actions tab.
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch: {}
+
+concurrency:
+  group: crypto-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync to latest (queued scheduled runs checkout a stale SHA)
+        run: |
+          git fetch origin "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Harvest fresh candidate wallets (~30 min, listen-only)
+        run: python3 -m crypto.harvest 30
+
+      - name: Score current roster, replace net-negative traders only
+        run: python3 -m crypto.refresh
+
+      - name: Commit and push if the roster changed
+        run: |
+          git config user.name "crypto-refresh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet -- data/crypto_traders.json; then
+            git add data/crypto_traders.json data/crypto_candidates.json 2>/dev/null || true
+            git commit -m "crypto: weekly refresh -- keep winners, replace net-negative traders
+
+          Automated. Every currently-pinned trader was scored on real P&L
+          from this bot's own trade log. Net-positive traders are untouched.
+          Net-negative traders were only replaced where a fresh candidate
+          actually cleared the same bar crypto/weekly.py uses for --pin
+          (margin >= 3%, z >= 2, 300+ trades, 35-65c entries) -- otherwise
+          they were left pinned rather than dropped with nothing to replace
+          them.
+
+          Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
+            git push
+          else
+            echo "No change to data/crypto_traders.json this run."
+          fi
+
