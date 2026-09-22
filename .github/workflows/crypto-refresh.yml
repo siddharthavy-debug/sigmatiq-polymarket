@@ -47,7 +47,8 @@ jobs:
           git config user.name "crypto-refresh-bot"
           git config user.email "actions@users.noreply.github.com"
           if ! git diff --quiet -- data/crypto_traders.json; then
-            git add data/crypto_traders.json data/crypto_candidates.json 2>/dev/null || true
+            git add data/crypto_traders.json
+            git add crypto_candidates.json 2>/dev/null || true
             git commit -m "crypto: weekly refresh -- keep winners, replace net-negative traders
 
           Automated. Every currently-pinned trader was scored on real P&L
