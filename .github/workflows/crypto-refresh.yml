@@ -13,6 +13,9 @@ on:
     - cron: "0 3 * * 0"
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 concurrency:
   group: crypto-refresh
   cancel-in-progress: false
@@ -46,22 +49,21 @@ jobs:
         run: |
           git config user.name "crypto-refresh-bot"
           git config user.email "actions@users.noreply.github.com"
-          if ! git diff --quiet -- data/crypto_traders.json; then
-            git add data/crypto_traders.json
-            git add crypto_candidates.json 2>/dev/null || true
-            git commit -m "crypto: weekly refresh -- keep winners, replace net-negative traders
-
-          Automated. Every currently-pinned trader was scored on real P&L
-          from this bot's own trade log. Net-positive traders are untouched.
-          Net-negative traders were only replaced where a fresh candidate
-          actually cleared the same bar crypto/weekly.py uses for --pin
-          (margin >= 3%, z >= 2, 300+ trades, 35-65c entries) -- otherwise
-          they were left pinned rather than dropped with nothing to replace
-          them.
-
-          Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
-            git push
-          else
-            echo "No change to data/crypto_traders.json this run."
+          git add data/crypto_traders.json
+          git add crypto_candidates.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No change to the roster this run."
+            exit 0
           fi
-
+          git commit -m "crypto: weekly refresh -- keep winners, replace net-negative traders"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          for i in 1 2 3 4 5; do
+            if git push origin "HEAD:$BRANCH"; then
+              echo "pushed"; exit 0
+            fi
+            echo "push rejected (bot committed meanwhile) -- rebasing, attempt $i"
+            git fetch origin "$BRANCH"
+            git rebase -X theirs "origin/$BRANCH"
+            sleep 3
+          done
+          echo "could not push after 5 attempts"; exit 1

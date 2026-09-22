@@ -2,9 +2,11 @@ name: crypto-weekly-rank
 
 # Re-ranks the crypto traders on a rolling 7-day window and pins the result.
 # Runs daily so the list rotates as form changes.
+# Daily schedule DISABLED: it re-pinned the whole roster from scratch every
+# day (that's what cut it to 1 trader on 2026-09-22) and fights
+# crypto-refresh.yml, which keeps winners and only replaces losers.
+# Still runnable by hand from the Actions tab.
 on:
-  schedule:
-    - cron: "40 3 * * *"
   workflow_dispatch:
     inputs:
       list:
