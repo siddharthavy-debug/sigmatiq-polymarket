@@ -1,15 +1,8 @@
 {
  "pinned": true,
- "chosen_by": {
-  "margin": 0.02,
-  "min_z": 1.5,
-  "entry": [
-   0.3,
-   0.65
-  ],
-  "min_trades": 200
- },
- "updated": "2026-09-20T23:15:35.878719+00:00",
+ "list": "refresh",
+ "updated": "2026-09-22T17:27:59.341081+00:00",
+ "window_days": 7.0,
  "traders": [
   {
    "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
