@@ -27,6 +27,18 @@ jobs:
     timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
+      # actions/checkout defaults to the commit SHA GitHub resolved when the
+      # SCHEDULED EVENT FIRED, not when this job actually starts. Because a
+      # run takes 5.5h but cron fires every 4h, the next tick's job QUEUES
+      # (concurrency group below) and can sit for hours before it starts --
+      # so it was checking out a stale snapshot of data/, hours out of date,
+      # then computing forward from it and overwriting everything the
+      # previous run had done in between. Force a hard sync to the actual
+      # branch tip before touching anything.
+      - name: Sync to latest (queued scheduled runs checkout a stale SHA)
+        run: |
+          git fetch origin "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
