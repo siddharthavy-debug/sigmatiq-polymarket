@@ -65,16 +65,6 @@
       "trades": 529
     },
     {
-      "wallet": "0x8b785DaDA86cdD3B9F729c61Ef9313161d58C095",
-      "name": "simon8445",
-      "win_rate": 0.5244,
-      "avg_entry": 0.4911,
-      "margin": 0.0334,
-      "edge_z": 2.28,
-      "profit": 1607.73,
-      "trades": 1146
-    },
-    {
       "wallet": "0x3bE059f270943962A8832abe0DA8482978cD9B50",
       "name": "0x3bE059f270943962A8832abe0DA8482978cD9B50-1776073400694",
       "win_rate": 0.4212,
