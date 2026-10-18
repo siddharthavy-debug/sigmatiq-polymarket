@@ -1,29 +1,9 @@
 {
  "pinned": true,
  "list": "refresh",
- "updated": "2026-10-04T10:10:15.352600+00:00",
+ "updated": "2026-10-18T08:17:43.854011+00:00",
  "window_days": 7.0,
  "traders": [
-  {
-   "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
-   "name": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176-1780742904507",
-   "win_rate": 0.611,
-   "avg_entry": 0.566,
-   "margin": 0.045,
-   "edge_z": 3.93,
-   "profit": 5801.36,
-   "trades": 928
-  },
-  {
-   "wallet": "0x3089fcF3fe5b67EC287654B4d627BCd1D51135E4",
-   "name": "13897651",
-   "win_rate": 0.5737,
-   "avg_entry": 0.5206,
-   "margin": 0.0531,
-   "edge_z": 2.54,
-   "profit": 1460.69,
-   "trades": 563
-  },
   {
    "wallet": "0xe51f40b6A8bE52C9E2809A4DD8B5C7C9c3Ab88d2",
    "name": "antsm",
@@ -54,6 +34,36 @@
    "trades": 529
   },
   {
+   "wallet": "0xF1b12a333E93bb7fED86863209da3D482FFE8110",
+   "name": "TwoTradeStopper",
+   "win_rate": 0.5711,
+   "avg_entry": 0.5275,
+   "margin": 0.0436,
+   "edge_z": 1.97,
+   "profit": 1068.97,
+   "trades": 478
+  },
+  {
+   "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
+   "name": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176-1780742904507",
+   "win_rate": 0.611,
+   "avg_entry": 0.566,
+   "margin": 0.045,
+   "edge_z": 3.93,
+   "profit": 5801.36,
+   "trades": 928
+  },
+  {
+   "wallet": "0x3089fcF3fe5b67EC287654B4d627BCd1D51135E4",
+   "name": "13897651",
+   "win_rate": 0.5737,
+   "avg_entry": 0.5206,
+   "margin": 0.0531,
+   "edge_z": 2.54,
+   "profit": 1460.69,
+   "trades": 563
+  },
+  {
    "wallet": "0x5C4600b33a02AdF80DD07D6853f0C59e8D9E753D",
    "name": "NihiIism",
    "win_rate": 0.5067,
@@ -72,16 +82,6 @@
    "edge_z": 2.11,
    "profit": 260.7,
    "trades": 1067
-  },
-  {
-   "wallet": "0xF1b12a333E93bb7fED86863209da3D482FFE8110",
-   "name": "TwoTradeStopper",
-   "win_rate": 0.5711,
-   "avg_entry": 0.5275,
-   "margin": 0.0436,
-   "edge_z": 1.97,
-   "profit": 1068.97,
-   "trades": 478
   },
   {
    "wallet": "0x5E8E7771121F4F8f9f7739ddeCFe2BAa2d918212",
