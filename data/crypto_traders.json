@@ -1,7 +1,7 @@
 {
  "pinned": true,
  "list": "refresh",
- "updated": "2026-10-18T08:17:43.854011+00:00",
+ "updated": "2026-10-25T08:55:15.589945+00:00",
  "window_days": 7.0,
  "traders": [
   {
@@ -24,16 +24,6 @@
    "trades": 1907
   },
   {
-   "wallet": "0xb0F85BAa97990910A3E8ac2B4A58A322F01eCeF5",
-   "name": "pspspsps5",
-   "win_rate": 0.5558,
-   "avg_entry": 0.5273,
-   "margin": 0.0285,
-   "edge_z": 2.38,
-   "profit": 1207.39,
-   "trades": 529
-  },
-  {
    "wallet": "0xF1b12a333E93bb7fED86863209da3D482FFE8110",
    "name": "TwoTradeStopper",
    "win_rate": 0.5711,
@@ -42,16 +32,6 @@
    "edge_z": 1.97,
    "profit": 1068.97,
    "trades": 478
-  },
-  {
-   "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
-   "name": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176-1780742904507",
-   "win_rate": 0.611,
-   "avg_entry": 0.566,
-   "margin": 0.045,
-   "edge_z": 3.93,
-   "profit": 5801.36,
-   "trades": 928
   },
   {
    "wallet": "0x3089fcF3fe5b67EC287654B4d627BCd1D51135E4",
@@ -72,6 +52,35 @@
    "edge_z": 2.2,
    "profit": 554.59,
    "trades": 815
+  },
+  {
+   "wallet": "0x3bE059f270943962A8832abe0DA8482978cD9B50",
+   "name": "0x3bE059f270943962A8832abe0DA8482978cD9B50-1776073400694",
+   "win_rate": 0.4212,
+   "avg_entry": 0.3924,
+   "margin": 0.0288,
+   "edge_z": 2.21,
+   "profit": 422.77,
+   "trades": 1104
+  },
+  {
+   "wallet": "0x18Cb7882094374f2ae1a3103c8633B92A6C8C427",
+   "name": "caffeine87",
+   "win_rate": 0.5037,
+   "avg_entry": 0.4555,
+   "margin": 0.0482,
+   "profit": 346.71,
+   "trades": 546
+  },
+  {
+   "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
+   "name": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176-1780742904507",
+   "win_rate": 0.611,
+   "avg_entry": 0.566,
+   "margin": 0.045,
+   "edge_z": 3.93,
+   "profit": 5801.36,
+   "trades": 928
   },
   {
    "wallet": "0x8F34e45Fe06d6faD7D9d9d2738859a4022C02f50",
@@ -101,16 +110,6 @@
    "margin": 0.0321,
    "profit": 395.02,
    "trades": 767
-  },
-  {
-   "wallet": "0x3bE059f270943962A8832abe0DA8482978cD9B50",
-   "name": "0x3bE059f270943962A8832abe0DA8482978cD9B50-1776073400694",
-   "win_rate": 0.4212,
-   "avg_entry": 0.3924,
-   "margin": 0.0288,
-   "edge_z": 2.21,
-   "profit": 422.77,
-   "trades": 1104
   }
  ]
 }
