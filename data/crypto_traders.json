@@ -1,7 +1,7 @@
 {
  "pinned": true,
  "list": "refresh",
- "updated": "2026-10-25T08:55:15.589945+00:00",
+ "updated": "2026-11-01T10:57:51.527984+00:00",
  "window_days": 7.0,
  "traders": [
   {
@@ -13,15 +13,6 @@
    "edge_z": 2.07,
    "profit": 0.11,
    "trades": 215
-  },
-  {
-   "wallet": "0x361528E242Bc6cc789ac8Da6FD5Cb98046178fdf",
-   "name": "ohioism",
-   "win_rate": 0.6177,
-   "avg_entry": 0.5845,
-   "margin": 0.0332,
-   "profit": 4212.34,
-   "trades": 1907
   },
   {
    "wallet": "0xF1b12a333E93bb7fED86863209da3D482FFE8110",
@@ -54,25 +45,6 @@
    "trades": 815
   },
   {
-   "wallet": "0x3bE059f270943962A8832abe0DA8482978cD9B50",
-   "name": "0x3bE059f270943962A8832abe0DA8482978cD9B50-1776073400694",
-   "win_rate": 0.4212,
-   "avg_entry": 0.3924,
-   "margin": 0.0288,
-   "edge_z": 2.21,
-   "profit": 422.77,
-   "trades": 1104
-  },
-  {
-   "wallet": "0x18Cb7882094374f2ae1a3103c8633B92A6C8C427",
-   "name": "caffeine87",
-   "win_rate": 0.5037,
-   "avg_entry": 0.4555,
-   "margin": 0.0482,
-   "profit": 346.71,
-   "trades": 546
-  },
-  {
    "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
    "name": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176-1780742904507",
    "win_rate": 0.611,
@@ -81,16 +53,6 @@
    "edge_z": 3.93,
    "profit": 5801.36,
    "trades": 928
-  },
-  {
-   "wallet": "0x8F34e45Fe06d6faD7D9d9d2738859a4022C02f50",
-   "name": "0x8F34e45Fe06d6faD7D9d9d2738859a4022C02f50-1769571271220",
-   "win_rate": 0.4433,
-   "avg_entry": 0.4149,
-   "margin": 0.0284,
-   "edge_z": 2.11,
-   "profit": 260.7,
-   "trades": 1067
   },
   {
    "wallet": "0x5E8E7771121F4F8f9f7739ddeCFe2BAa2d918212",
@@ -110,6 +72,44 @@
    "margin": 0.0321,
    "profit": 395.02,
    "trades": 767
+  },
+  {
+   "wallet": "0x361528E242Bc6cc789ac8Da6FD5Cb98046178fdf",
+   "name": "ohioism",
+   "win_rate": 0.6177,
+   "avg_entry": 0.5845,
+   "margin": 0.0332,
+   "profit": 4212.34,
+   "trades": 1907
+  },
+  {
+   "wallet": "0x3bE059f270943962A8832abe0DA8482978cD9B50",
+   "name": "0x3bE059f270943962A8832abe0DA8482978cD9B50-1776073400694",
+   "win_rate": 0.4212,
+   "avg_entry": 0.3924,
+   "margin": 0.0288,
+   "edge_z": 2.21,
+   "profit": 422.77,
+   "trades": 1104
+  },
+  {
+   "wallet": "0x18Cb7882094374f2ae1a3103c8633B92A6C8C427",
+   "name": "caffeine87",
+   "win_rate": 0.5037,
+   "avg_entry": 0.4555,
+   "margin": 0.0482,
+   "profit": 346.71,
+   "trades": 546
+  },
+  {
+   "wallet": "0x8F34e45Fe06d6faD7D9d9d2738859a4022C02f50",
+   "name": "0x8F34e45Fe06d6faD7D9d9d2738859a4022C02f50-1769571271220",
+   "win_rate": 0.4433,
+   "avg_entry": 0.4149,
+   "margin": 0.0284,
+   "edge_z": 2.11,
+   "profit": 260.7,
+   "trades": 1067
   }
  ]
 }
