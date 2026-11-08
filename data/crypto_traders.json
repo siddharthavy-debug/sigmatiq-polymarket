@@ -1,7 +1,7 @@
 {
  "pinned": true,
  "list": "refresh",
- "updated": "2026-11-01T10:57:51.527984+00:00",
+ "updated": "2026-11-08T10:41:42.189881+00:00",
  "window_days": 7.0,
  "traders": [
   {
@@ -23,16 +23,6 @@
    "edge_z": 1.97,
    "profit": 1068.97,
    "trades": 478
-  },
-  {
-   "wallet": "0x3089fcF3fe5b67EC287654B4d627BCd1D51135E4",
-   "name": "13897651",
-   "win_rate": 0.5737,
-   "avg_entry": 0.5206,
-   "margin": 0.0531,
-   "edge_z": 2.54,
-   "profit": 1460.69,
-   "trades": 563
   },
   {
    "wallet": "0x5C4600b33a02AdF80DD07D6853f0C59e8D9E753D",
@@ -65,15 +55,6 @@
    "trades": 465
   },
   {
-   "wallet": "0x1486Fcee55a48B0206A988108EF8AdC5B8cC28F5",
-   "name": "linkeart",
-   "win_rate": 0.661,
-   "avg_entry": 0.6289,
-   "margin": 0.0321,
-   "profit": 395.02,
-   "trades": 767
-  },
-  {
    "wallet": "0x361528E242Bc6cc789ac8Da6FD5Cb98046178fdf",
    "name": "ohioism",
    "win_rate": 0.6177,
@@ -81,16 +62,6 @@
    "margin": 0.0332,
    "profit": 4212.34,
    "trades": 1907
-  },
-  {
-   "wallet": "0x3bE059f270943962A8832abe0DA8482978cD9B50",
-   "name": "0x3bE059f270943962A8832abe0DA8482978cD9B50-1776073400694",
-   "win_rate": 0.4212,
-   "avg_entry": 0.3924,
-   "margin": 0.0288,
-   "edge_z": 2.21,
-   "profit": 422.77,
-   "trades": 1104
   },
   {
    "wallet": "0x18Cb7882094374f2ae1a3103c8633B92A6C8C427",
@@ -110,6 +81,35 @@
    "edge_z": 2.11,
    "profit": 260.7,
    "trades": 1067
+  },
+  {
+   "wallet": "0x3089fcF3fe5b67EC287654B4d627BCd1D51135E4",
+   "name": "13897651",
+   "win_rate": 0.5737,
+   "avg_entry": 0.5206,
+   "margin": 0.0531,
+   "edge_z": 2.54,
+   "profit": 1460.69,
+   "trades": 563
+  },
+  {
+   "wallet": "0x1486Fcee55a48B0206A988108EF8AdC5B8cC28F5",
+   "name": "linkeart",
+   "win_rate": 0.661,
+   "avg_entry": 0.6289,
+   "margin": 0.0321,
+   "profit": 395.02,
+   "trades": 767
+  },
+  {
+   "wallet": "0x3bE059f270943962A8832abe0DA8482978cD9B50",
+   "name": "0x3bE059f270943962A8832abe0DA8482978cD9B50-1776073400694",
+   "win_rate": 0.4212,
+   "avg_entry": 0.3924,
+   "margin": 0.0288,
+   "edge_z": 2.21,
+   "profit": 422.77,
+   "trades": 1104
   }
  ]
 }
