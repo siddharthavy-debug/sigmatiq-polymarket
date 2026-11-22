@@ -1,7 +1,7 @@
 {
  "pinned": true,
  "list": "refresh",
- "updated": "2026-11-15T10:54:40.720584+00:00",
+ "updated": "2026-11-22T11:33:14.951315+00:00",
  "window_days": 7.0,
  "traders": [
   {
@@ -23,16 +23,6 @@
    "edge_z": 1.97,
    "profit": 1068.97,
    "trades": 478
-  },
-  {
-   "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
-   "name": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176-1780742904507",
-   "win_rate": 0.611,
-   "avg_entry": 0.566,
-   "margin": 0.045,
-   "edge_z": 3.93,
-   "profit": 5801.36,
-   "trades": 928
   },
   {
    "wallet": "0x5E8E7771121F4F8f9f7739ddeCFe2BAa2d918212",
@@ -74,25 +64,6 @@
    "trades": 1104
   },
   {
-   "wallet": "0x5C4600b33a02AdF80DD07D6853f0C59e8D9E753D",
-   "name": "NihiIism",
-   "win_rate": 0.5067,
-   "avg_entry": 0.4756,
-   "margin": 0.0311,
-   "edge_z": 2.2,
-   "profit": 554.59,
-   "trades": 815
-  },
-  {
-   "wallet": "0x361528E242Bc6cc789ac8Da6FD5Cb98046178fdf",
-   "name": "ohioism",
-   "win_rate": 0.6177,
-   "avg_entry": 0.5845,
-   "margin": 0.0332,
-   "profit": 4212.34,
-   "trades": 1907
-  },
-  {
    "wallet": "0x18Cb7882094374f2ae1a3103c8633B92A6C8C427",
    "name": "caffeine87",
    "win_rate": 0.5037,
@@ -110,6 +81,35 @@
    "edge_z": 2.54,
    "profit": 1460.69,
    "trades": 563
+  },
+  {
+   "wallet": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176",
+   "name": "0xe3EeB127d5763a6E4aD597f773F9d259C94d5176-1780742904507",
+   "win_rate": 0.611,
+   "avg_entry": 0.566,
+   "margin": 0.045,
+   "edge_z": 3.93,
+   "profit": 5801.36,
+   "trades": 928
+  },
+  {
+   "wallet": "0x5C4600b33a02AdF80DD07D6853f0C59e8D9E753D",
+   "name": "NihiIism",
+   "win_rate": 0.5067,
+   "avg_entry": 0.4756,
+   "margin": 0.0311,
+   "edge_z": 2.2,
+   "profit": 554.59,
+   "trades": 815
+  },
+  {
+   "wallet": "0x361528E242Bc6cc789ac8Da6FD5Cb98046178fdf",
+   "name": "ohioism",
+   "win_rate": 0.6177,
+   "avg_entry": 0.5845,
+   "margin": 0.0332,
+   "profit": 4212.34,
+   "trades": 1907
   }
  ]
 }
